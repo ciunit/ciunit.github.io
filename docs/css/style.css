@@ -152,6 +152,51 @@ h3 {
   min-height: 180px;
 }
 
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.2s ease;
+}
+
+.card-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.bio {
+  max-width: 820px;
+}
+
+.bio h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-top: 48px;
+}
+
+.bio h3 {
+  font-size: 1.2rem;
+  margin-top: 32px;
+}
+
+.bio p,
+.bio li {
+  color: var(--muted);
+}
+
+.bio ul {
+  padding-left: 1.2em;
+}
+
+.bio li {
+  margin-bottom: 10px;
+}
+
+.bio .title {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin: 0 0 24px;
+}
+
 footer {
   border-top: 1px solid var(--line);
   padding: 36px 32px;
