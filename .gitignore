@@ -11,3 +11,8 @@ dist/
 .DS_Store
 .idea/
 .vscode/
+
+# Secrets — never commit
+*token*
+*.secret
+.env
