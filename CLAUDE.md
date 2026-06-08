@@ -44,6 +44,9 @@ generator is planned but not yet built.
   **all** pages. There is no shared include/template yet.
 - **Custom domain:** lives in `docs/CNAME` (`ciunit.org`). It must stay inside
   the published folder (`docs/`), or Pages drops the custom domain.
+- **People cards are alphabetical by last name:** on `who-we-are.html`, order the
+  member cards (and the Affiliates cards) alphabetically by surname — e.g.
+  Caldeira, Davis, Duan. Insert any new person into the correct alphabetical slot.
 - **Oxford comma:** use the serial comma in lists of three or more — "climate,
   energy, and society", not "climate, energy and society". (Standard for the
   site's academic register.) This applies to the series itself; a two-item pair
