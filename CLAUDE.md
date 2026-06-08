@@ -42,6 +42,10 @@ generator is planned but not yet built.
   `<nav>` and `<footer>`, with styling in `docs/css/style.css`. When adding a
   page, copy the header/footer from an existing page and add any new nav link to
   **all** pages. There is no shared include/template yet.
+- **Analytics:** every page's `<head>` carries the same Cloudflare Web Analytics
+  beacon (`static.cloudflareinsights.com/beacon.min.js`, cookieless — no consent
+  banner needed). A new page must include it too; copy the snippet from an
+  existing page's `<head>`.
 - **Custom domain:** lives in `docs/CNAME` (`ciunit.org`). It must stay inside
   the published folder (`docs/`), or Pages drops the custom domain.
 - **People cards are alphabetical by last name:** on `who-we-are.html`, order the

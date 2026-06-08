@@ -75,3 +75,15 @@ automatically (allow a minute or two — watch the repo's **Actions** tab).
 - **Custom domain:** `ciunit.org`, set via `docs/CNAME`.
 - **Pages source:** `main` branch, `/docs` folder (Repo → Settings → Pages).
   Changing this setting requires **admin** on the repo — see `CLAUDE.md`.
+
+## Analytics
+
+Traffic is measured with **Cloudflare Web Analytics** (cookieless, privacy-
+friendly — no consent banner needed). The beacon snippet lives in the `<head>`
+of every page under `docs/`.
+
+- **View the dashboard:** sign in at <https://dash.cloudflare.com/> → **Analytics
+  & Logs → Web Analytics**.
+- **Account:** Cloudflare, under **ken@CIunit.org**.
+- Data only reflects visits to the live site (`ciunit.org`), not local previews,
+  and can take up to an hour to appear after the first visits.
