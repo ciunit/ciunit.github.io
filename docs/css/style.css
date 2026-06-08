@@ -1,5 +1,6 @@
 :root {
   --bg: #f7f5f0;
+  --bg-dark: #e9e4d9;
   --text: #1f2933;
   --muted: #5f6b73;
   --line: #d9d4ca;
@@ -167,6 +168,11 @@ h3 {
 .card-link:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
+}
+
+/* Cards that do not yet have a link — a slightly darker background than the page. */
+.card-placeholder {
+  background: var(--bg-dark);
 }
 
 .bio {

@@ -47,6 +47,14 @@ generator is planned but not yet built.
 - **People cards are alphabetical by last name:** on `who-we-are.html`, order the
   member cards (and the Affiliates cards) alphabetically by surname — e.g.
   Caldeira, Davis, Duan. Insert any new person into the correct alphabetical slot.
+- **Non-linked cards are visually distinct:** any card that is *not* a clickable
+  link gets the `card-placeholder` class, giving it a slightly darker background
+  (`--bg-dark`) than the page. This covers both not-yet-linked placeholders (e.g.
+  the Affiliates cards on `who-we-are.html`) and permanent non-link content cards
+  (e.g. the "Why conceptual investigations?" card on `about.html`). Clickable
+  cards instead use `card-link` (an `<a>`) and keep the lighter default
+  background. When a placeholder gains a link, convert the `<div>` to
+  `<a class="card person card-link" href="…">` and drop `card-placeholder`.
 - **Oxford comma:** use the serial comma in lists of three or more — "climate,
   energy, and society", not "climate, energy and society". (Standard for the
   site's academic register.) This applies to the series itself; a two-item pair
