@@ -170,8 +170,8 @@ h3 {
   background: var(--accent-soft);
 }
 
-/* Cards that do not yet have a link — a slightly darker background than the page. */
-.card-placeholder {
+/* Non-linked cards (static content or not-yet-linked) — slightly darker than the page. */
+.card-static {
   background: var(--bg-dark);
 }
 
