@@ -44,6 +44,11 @@ generator is planned but not yet built.
   **all** pages. There is no shared include/template yet.
 - **Custom domain:** lives in `docs/CNAME` (`ciunit.org`). It must stay inside
   the published folder (`docs/`), or Pages drops the custom domain.
+- **External links open in a new tab:** any link going *off* the `ciunit.org`
+  domain gets `target="_blank" rel="noopener noreferrer"`. Internal (relative)
+  links and `mailto:` links do **not**. Apply this to every new external link you
+  add. In practice all `href="http…"` links in this repo are external (internal
+  links are relative), so the rule is: `href="http…"` ⇒ add target + rel.
 
 ## Citations on bio pages (`docs/ken-caldeira.html`)
 
