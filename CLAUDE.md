@@ -44,6 +44,11 @@ generator is planned but not yet built.
   **all** pages. There is no shared include/template yet.
 - **Custom domain:** lives in `docs/CNAME` (`ciunit.org`). It must stay inside
   the published folder (`docs/`), or Pages drops the custom domain.
+- **Oxford comma:** use the serial comma in lists of three or more — "climate,
+  energy, and society", not "climate, energy and society". (Standard for the
+  site's academic register.) This applies to the series itself; a two-item pair
+  inside one list element, e.g. "the economics of mitigation and adaptation",
+  takes no comma.
 - **External links open in a new tab:** any link going *off* the `ciunit.org`
   domain gets `target="_blank" rel="noopener noreferrer"`. Internal (relative)
   links and `mailto:` links do **not**. Apply this to every new external link you
