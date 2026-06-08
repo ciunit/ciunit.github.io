@@ -103,6 +103,11 @@ h3 {
   margin-top: 42px;
 }
 
+.hosted {
+  margin-top: 40px;
+  color: var(--muted);
+}
+
 .button {
   display: inline-block;
   border: 1px solid var(--text);
