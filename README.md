@@ -94,4 +94,4 @@ of every page under `docs/`.
   `harry@CIunit.org`) are managed in **Google Workspace** at
   <https://workspace.google.com/dashboard>.
 - **GitHub:** the repo lives under the <https://github.com/ciunit> account,
-  whose admin login is **ken@ciunit.org**.
+  whose admin login is **ken@CIunit.org**.
