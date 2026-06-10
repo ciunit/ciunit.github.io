@@ -87,3 +87,11 @@ of every page under `docs/`.
 - **Account:** Cloudflare, under **ken@CIunit.org**.
 - Data only reflects visits to the live site (`ciunit.org`), not local previews,
   and can take up to an hour to appear after the first visits.
+
+## Accounts & administration
+
+- **CIunit.org email addresses** (e.g. `ken@CIunit.org`, `lei@CIunit.org`,
+  `harry@CIunit.org`) are managed in **Google Workspace** at
+  <https://workspace.google.com/dashboard>.
+- **GitHub:** the repo lives under the <https://github.com/ciunit> account,
+  whose admin login is **ken@ciunit.org**.
