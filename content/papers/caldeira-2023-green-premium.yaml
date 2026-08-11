@@ -61,3 +61,23 @@ matters:
     Building the model for transparency rather than for precision is itself a choice worth
     noting. A model simple enough to teach is a model whose conclusions can be checked by the
     people they are meant to persuade.
+
+figure:
+  file: caldeira-2023-green-premium.webp
+  source_figure: Figure 4
+  alt: >
+    A line plot of equal abatement value in gigatonnes of CO2 against percentage
+    reduction in the Green Premium, with three curves for unlimited, large, and small
+    carbon budgets. All three rise from zero and steepen sharply above about 60 per cent
+    premium reduction, with the small-budget curve highest throughout. Two smaller panels
+    below plot the value of premium reduction and the value of emissions abatement.
+  caption: >
+    The translation between cost-saving innovation and emissions abatement. A given
+    reduction in the Green Premium is worth more abatement under a tighter carbon budget,
+    so the value of innovation depends on the policy environment it operates in.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Caldeira et al. (2023), Environmental Research Letters 18, 104051
+  modification: Extracted from the published PDF and resized for web display

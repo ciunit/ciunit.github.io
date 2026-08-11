@@ -63,5 +63,25 @@ matters:
     mean. A world whose temperature resembles the preindustrial one but whose rainfall does not
     is not the preindustrial climate.
 
+figure:
+  file: matthews-2007-geoengineering-transient.webp
+  source_figure: Figure 3
+  alt: >
+    Two stacked panels covering model years 2000 to 2100. The upper panel shows global
+    surface air temperature for scenarios in which geoengineering is deployed and later
+    stopped in about 2025, 2050, and 2075, each curve flat while the intervention runs and
+    then climbing steeply to rejoin the unmitigated case. The lower panel shows the rate of
+    temperature change in kelvin per decade, near zero during deployment and spiking to
+    between 2 and 4 kelvin per decade at each termination.
+  caption: >
+    The climate reaches its geoengineered state within years, and leaves it just as
+    fast. Each termination produces a burst of warming several times faster than anything
+    in the unmitigated scenario — the origin of the concern now called termination shock.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Matthews and Caldeira (2007), Proceedings of the National Academy of Sciences 104, 9949-9954
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - govindasamy-2000-first-simulations

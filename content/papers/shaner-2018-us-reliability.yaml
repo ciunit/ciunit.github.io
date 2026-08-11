@@ -61,5 +61,26 @@ matters:
     many countries shows that the severity of the problem depends strongly on a country's
     latitude and weather, so the United States result is not universal.
 
+figure:
+  file: shaner-2018-us-reliability.webp
+  source_figure: Figure 2
+  alt: >
+    Four contour panels showing the reliability of United States electricity supply,
+    as the percentage of annual demand met, against the solar-to-wind resource mix on the
+    vertical axis and the geographic area of resource aggregation on the horizontal axis.
+    The left column has no storage and the right column twelve hours of storage; the top
+    row has generation equal to demand and the bottom row one and a half times demand.
+    Reliability rises from below 50 per cent in the darkest panel to above 99 per cent in
+    the brightest.
+  caption: >
+    Reliability improves with wind-heavy mixes, wider geographic aggregation, storage,
+    and overbuilding — but even with twelve hours of storage and 1.5 times generation, the
+    contours stop short of complete reliability.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Shaner et al. (2018), Energy & Environmental Science 11, 914-925
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - tong-2021-geophysical-constraints

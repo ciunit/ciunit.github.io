@@ -63,3 +63,24 @@ matters:
     It also illustrates why the timescale of a policy evaluation matters. The induced effect
     accrues over twenty years, so an assessment window shorter than that will systematically
     miss most of it.
+
+figure:
+  file: wang-2019-induced-efficiency.webp
+  source_figure: Figure 3
+  alt: >
+    Four scatter panels, each plotting a twenty-year rate of change against energy
+    cost share in the starting year, with points for the USA, China, Europe, and the world
+    in different colours and fitted regression lines. Panel A shows the rate of change in
+    energy cost share itself, panel B energy-use efficiency, panel C energy-production
+    efficiency, and panel D efficiency of non-energy goods and services. Panels B and C
+    show clear positive slopes; panel D is close to flat.
+  caption: >
+    The empirical basis for induced efficiency. A higher energy cost share is
+    followed by faster gains in energy-use efficiency (B) and energy-production efficiency
+    (C) over the next twenty years, while efficiency of non-energy goods and services (D)
+    shows no such relationship.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Wang et al. (2019), Joule 3, 2103-2119
+  modification: Extracted from the published PDF and resized for web display

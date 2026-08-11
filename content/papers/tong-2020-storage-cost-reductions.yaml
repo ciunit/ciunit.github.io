@@ -64,5 +64,26 @@ matters:
     flexibility, and firm generation are not alternatives to be considered later but part of
     any realistic answer.
 
+figure:
+  file: tong-2020-storage-cost-reductions.webp
+  source_figure: Figure 1
+  alt: >
+    A stacked area chart of mean electricity cost in dollars per kilowatt-hour
+    against energy storage capital cost in dollars per kilowatt-hour, on a logarithmic
+    axis from 0.1 to 1000. Bands show the contributions of wind in blue, solar in orange,
+    and storage in green. Cost is roughly flat and low below about 1 dollar per
+    kilowatt-hour, then climbs steeply above 100, crossing the marked current
+    grid-generation cost of about 0.06 dollars per kilowatt-hour.
+  caption: >
+    The cost of a wind-and-solar system with storage is almost flat until storage
+    becomes very cheap indeed. Only below roughly 1 dollar per kilowatt-hour does the
+    curve reach its floor, several hundred-fold below the current cost band on the right.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Tong et al. (2020), iScience 23, 101484
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - dowling-2020-long-duration-storage

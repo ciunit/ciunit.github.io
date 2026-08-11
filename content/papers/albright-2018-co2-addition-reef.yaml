@@ -67,5 +67,25 @@ matters:
     tourism annually, so a change in the direction of net accretion is not an ecological
     detail.
 
+figure:
+  file: albright-2018-co2-addition-reef.webp
+  source_figure: Figure 2
+  alt: >
+    A bar chart comparing experiment days with control days. On experiment days,
+    when carbon dioxide was added to the water flowing over the reef, the change in
+    aragonite saturation is about minus 0.8 and the change in net community calcification
+    about minus 1.3 micromoles per square metre per second, both with error bars well
+    below zero. On control days both quantities sit essentially at zero.
+  caption: >
+    Adding CO2 to the water over a living reef suppressed calcification of the whole
+    community. Both the saturation state and net community calcification fell sharply on
+    experiment days, while control days showed no such change.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Albright et al. (2018), Nature 555, 516-519
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - ricke-2013-coral-reef-risk

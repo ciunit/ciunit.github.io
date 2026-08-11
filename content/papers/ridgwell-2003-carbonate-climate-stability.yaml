@@ -60,5 +60,27 @@ matters:
     Neoproterozoic ice ages must also explain why nothing similar has occurred in the
     half-billion years since, and a change in buffering capacity does both at once.
 
+figure:
+  file: ridgwell-2003-carbonate-climate-stability.webp
+  source_figure: Figure 1
+  alt: >
+    Four schematic cross-sections through an ocean margin, from shelf to abyssal plain.
+    Panels A and B show the modern system before and after a fall in sea level, with
+    carbonate produced by plankton in the open ocean and buried both on the shelves and in
+    the deep sea, and a marked lysocline separating carbonate-rich from carbonate-poor
+    sediments. Panels C and D show possible Neoproterozoic states, in which carbonate is
+    buried only in shallow shelf environments because open-ocean calcifying plankton had
+    not yet evolved.
+  caption: >
+    Before calcifying plankton evolved, carbonate could only be buried in shallow water
+    (C and D), so a loss of shelf area removed the buffer entirely. In the modern system
+    (A and B) deep-sea burial responds to saturation state and stabilises ocean chemistry
+    regardless of sea level.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Ridgwell, Kennedy, and Caldeira (2003), Science 302, 859-862
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - caldeira-1993-kt-carbon-cycle

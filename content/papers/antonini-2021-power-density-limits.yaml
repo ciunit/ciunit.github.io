@@ -60,6 +60,27 @@ matters:
     a universal constant, the maximum useful size and density of a wind farm differs between
     regions in ways that a single global figure conceals.
 
+figure:
+  file: antonini-2021-power-density-limits.webp
+  source_figure: Figure 4
+  alt: >
+    Three world maps. The first shows the Coriolis parameter, which increases
+    smoothly from zero at the equator toward both poles in horizontal bands. The second
+    shows mean wind speed at 2 km altitude, highest in the mid-latitude storm tracks and
+    lowest near the equator. The third shows the resulting maximum wind-farm power density
+    in watts per square metre, with the highest values in a band across the tropics and
+    subtropics where the Coriolis parameter is small.
+  caption: >
+    The geophysical power-density limit follows from latitude and meteorology
+    together. A small Coriolis parameter (top) and adequate wind (middle) combine to give
+    the highest achievable power density (bottom), which is why the limit is not a single
+    global number.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Antonini and Caldeira (2021), Applied Energy 281, 116048
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - antonini-2021-spatial-constraints
   - possner-2017-open-ocean-wind

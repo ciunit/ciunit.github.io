@@ -67,5 +67,25 @@ matters:
     lever that does not require any new technology — operating existing assets for less time,
     or less intensively, reduces committed emissions directly.
 
+figure:
+  file: tong-2019-committed-emissions.webp
+  source_figure: Figure 1
+  alt: >
+    A stacked area chart of committed annual CO2 emissions in gigatonnes per year
+    from 2018 to about 2070, broken down by sector. Electricity is the largest band at 358
+    gigatonnes cumulative, followed by industry at 162 and road transport at 48, with
+    smaller bands for other transport, residential, commercial, and other energy. A pale
+    outer envelope labelled Proposed adds a further 188 gigatonnes. Total emissions decline
+    steadily to zero by around 2060.
+  caption: >
+    Committed emissions from infrastructure already built, by sector, if each asset
+    runs its historical lifetime. Electricity dominates the total; the pale envelope shows
+    how much power plants that were merely proposed would add on top.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Tong et al. (2019), Nature 572, 373-377
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - davis-2010-committed-emissions

@@ -63,5 +63,25 @@ matters:
     not a difference in degree of harm but the difference between a threshold question and no
     question at all.
 
+figure:
+  file: ricke-2013-coral-reef-risk.webp
+  source_figure: Figure 3
+  alt: >
+    A line plot of the percentage of coral reefs surrounded by water above an
+    aragonite saturation threshold, against atmospheric CO2 from 300 to 800 parts per
+    million. Three curves correspond to thresholds of 3.5, 3.25, and 3. All start at
+    100 per cent near 300 ppm and fall to near zero by 700 to 800 ppm, with the three
+    curves widely separated in the middle of the range and converging at both ends.
+  caption: >
+    Which saturation threshold corals actually need matters enormously in the middle
+    of the range and not at all at the top of it. By 700 to 800 ppm the three curves have
+    converged on zero, so the biological uncertainty stops affecting the outcome.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Ricke et al. (2013), Environmental Research Letters 8, 034003
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - albright-2018-co2-addition-reef

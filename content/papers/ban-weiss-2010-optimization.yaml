@@ -57,6 +57,29 @@ matters:
     gives different answers, so someone must decide what is being optimized for — and that is
     not a scientific question.
 
+figure:
+  file: ban-weiss-2010-optimization.webp
+  source_figure: Figure 3
+  alt: >
+    Six panels in two columns, headed optimize to minimize temperature change and
+    optimize to minimize change in precipitation minus evaporation. The top row shows the
+    sulfate aerosol distribution against latitude, comparing a uniform loading with a
+    parabolic one that is heaviest at the poles. The middle and bottom rows show the
+    residual change in temperature and in precipitation minus evaporation by latitude, with
+    the doubled-CO2 case as a dashed red line far from zero and the geoengineered cases
+    close to it.
+  caption: >
+    Optimising for temperature and optimising for the water cycle give different
+    aerosol distributions. A polar-weighted (parabolic) loading flattens the residual
+    temperature change across latitudes better than a uniform one, but no distribution
+    zeroes both residuals at once.
+  source: PDF (600 dpi)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit: >
+    Ban-Weiss and Caldeira (2010), Environmental Research Letters 5, 034009
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - govindasamy-2000-first-simulations
   - caldeira-2013-science-of-geoengineering

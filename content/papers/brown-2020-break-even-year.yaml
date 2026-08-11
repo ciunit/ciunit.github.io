@@ -61,6 +61,27 @@ matters:
     quickly — adaptation in particular — can align the interests of the present generation
     with actions that also serve future ones.
 
+figure:
+  file: brown-2020-break-even-year.webp
+  source_figure: Figure 2
+  alt: >
+    A shaded contour plot with birth year from about 1930 to 2100 on the horizontal
+    axis and life length in years on the vertical. Red shading, where an optimal mitigation
+    policy reduces a generation's lifetime consumption, fills a broad band centred on
+    people born around 2020 to 2050. Blue shading, where the policy increases consumption,
+    lies to the upper right, beyond birth years around 2060. A dashed line marks global
+    average life expectancy in 2020.
+  caption: >
+    Who pays and who benefits, by year of birth. Generations born up to the middle of
+    this century are made worse off in consumption terms by an economically optimal
+    mitigation policy; the gains accrue to generations not yet born.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Brown et al. (2020), Environmental Research Communications 2, 095002
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - duan-2025-adaptation-abatement
   - duan-2020-climate-development-goals

@@ -57,5 +57,24 @@ matters:
     there. A region can be a major gateway for carbon uptake while holding almost none of it,
     and an inventory alone would miss that entirely.
 
+figure:
+  file: caldeira-2000-southern-ocean.webp
+  source_figure: Figure 2
+  alt: >
+    Two world maps. The upper shows the column inventory of anthropogenic carbon in
+    moles of carbon per square metre, with the largest accumulations in the North Atlantic
+    and the mid-latitude gyres and comparatively little in the Southern Ocean. The lower
+    shows the air-to-sea flux of anthropogenic CO2, which is by contrast at its highest
+    around the Southern Ocean.
+  caption: >
+    Uptake and storage come apart. The Southern Ocean has among the highest air-to-sea
+    fluxes of anthropogenic carbon (lower) yet holds relatively little of it (upper),
+    because isopycnal transport carries the carbon away from where it enters.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Duffy (2000), Science 287, 620-622
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - duffy-1997-sea-ice-salinity

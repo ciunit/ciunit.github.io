@@ -61,5 +61,24 @@ matters:
     often offered as grounds for delay; here the same error bar is shown to leave the required
     action essentially unchanged.
 
+figure:
+  file: caldeira-2003-climate-sensitivity-uncertainty.webp
+  source_figure: Figure 3
+  alt: >
+    A contour plot with climate sensitivity from 1.5 to 4.5 °C per CO2 doubling on the
+    horizontal axis and equilibrium global warming from 1 to 4 °C on the vertical. Diagonal
+    contours are labelled with the rate at which carbon-emission-free power must be deployed,
+    from 0 megawatts per day at the upper left through 500, 1000, and 1500 megawatts per day
+    toward the lower right.
+  caption: >
+    The deployment rate required to hold warming to a given level, across the full
+    range of climate sensitivity. Only the upper-left corner — low sensitivity combined with
+    a high tolerance for warming — avoids a demand for massive carbon-free construction.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira et al. (2003), Science 299, 2052-2054
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - hoffert-2002-advanced-technology-paths

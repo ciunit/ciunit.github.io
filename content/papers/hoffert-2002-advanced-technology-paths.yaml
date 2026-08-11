@@ -79,5 +79,25 @@ matters:
     would need decades of development to matter — a judgement that reads very differently
     two decades on, and is worth revisiting against what wind and solar have since achieved.
 
+figure:
+  file: hoffert-2002-advanced-technology-paths.webp
+  source_figure: Figure 2
+  alt: >
+    Two illustrated panels. The upper shows a schematic carbon-free energy system in
+    which wind farms and photovoltaic arrays feed electric power conditioning, an electrolyser
+    splitting water to hydrogen and oxygen, a liquid nitrogen chiller, and a superconducting
+    electric power grid. The lower shows the Earth's continents unfolded onto an icosahedron,
+    overlaid with the proposed lines of a global electrical grid.
+  caption: >
+    Two of the candidate technologies surveyed — hydrogen produced from wind and solar
+    electricity, and a globe-spanning superconducting grid that would move power between
+    continents. Each was assessed against whether it could work at the scale of tens of
+    terawatts.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Hoffert et al. (2002), Science 298, 981-987
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - davis-2018-net-zero-energy-systems

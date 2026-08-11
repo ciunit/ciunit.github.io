@@ -59,5 +59,27 @@ matters:
     is small, then the emissions that determine the outcome belong to wealthy countries, and
     the argument that global mitigation requires universal simultaneous action does not hold.
 
+figure:
+  file: duan-2020-climate-development-goals.webp
+  source_figure: Figure 3
+  alt: >
+    A line plot of additional global temperature increase in degrees Celsius against
+    the cumulative percentage of world population, with five curves for decarbonization
+    rates of 0, 1, 2, 4, and 8 per cent per year. The curves stay near zero across the
+    poorest 40 per cent of the world's population, step up to about 0.4 °C at the point
+    marking a per-capita income of 10,000 dollars per year covering roughly 55 per cent of
+    people, and reach about 1.0 °C at the 20,000 dollar mark near 85 per cent.
+  caption: >
+    Additional warming attributable to letting countries develop before they
+    decarbonize, plotted cumulatively by population. More than half the world's population
+    can be exempted for well under half a degree, because emissions are concentrated among
+    the wealthy rather than the numerous.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Duan et al. (2020), Environmental Research Letters 15, 124057
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - brown-2020-break-even-year

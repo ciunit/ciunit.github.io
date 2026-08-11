@@ -64,5 +64,24 @@ matters:
     a map that separates them is a starting point for asking how the circulation itself will
     change.
 
+figure:
+  file: ahbe-2017-available-potential-energy.webp
+  source_figure: Figure 3
+  alt: >
+    Two panels. The left shows zonal mean generation of available potential energy as
+    a function of latitude and atmospheric pressure, with strong positive generation in a
+    column over the equator and over both poles, and negative values in the subtropics. The
+    right shows vertically integrated generation on a world map, with the largest values
+    over the western tropical Pacific and around the polar regions.
+  caption: >
+    Where the energy that drives the winds is generated. Two sources dominate — latent
+    heat release in the tropics, especially over the western tropical Pacific, and radiative
+    cooling in the polar regions.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Ahbe and Caldeira (2017), Journal of Climate 30, 2089-2101
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - possner-2017-open-ocean-wind

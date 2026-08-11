@@ -60,5 +60,24 @@ matters:
     at which climate outcomes are determined is the investment decision rather than the
     combustion.
 
+figure:
+  file: davis-2010-committed-emissions.webp
+  source_figure: Figure 2
+  alt: >
+    Three world maps, each with an enlarged inset of Europe, showing regional CO2
+    emissions committed by existing energy and transportation infrastructure. The top map
+    gives the total in gigatonnes of CO2 per year, highest in the United States and China.
+    The middle map normalises by population, highest in North America and Australia. The
+    bottom map normalises by GDP, highest across China and parts of Asia.
+  caption: >
+    Where the committed emissions sit depends entirely on how they are counted. The
+    same infrastructure ranks countries differently by total (top), per person (middle),
+    and per unit of economic output (bottom).
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Davis, Caldeira, and Matthews (2010), Science 329, 1330-1333
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - tong-2019-committed-emissions

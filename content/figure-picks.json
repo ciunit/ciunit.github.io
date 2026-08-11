@@ -1,0 +1,38 @@
+{
+  "_comment": "Which figure of each paper is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes.",
+  "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
+  "ahbe-2017-available-potential-energy": 3,
+  "albright-2018-co2-addition-reef": 2,
+  "antonini-2021-power-density-limits": 4,
+  "antonini-2021-spatial-constraints": 2,
+  "bala-2007-deforestation": 1,
+  "ban-weiss-2010-optimization": 3,
+  "brown-2020-break-even-year": 2,
+  "caldeira-2000-southern-ocean": 2,
+  "caldeira-2003-climate-sensitivity-uncertainty": 3,
+  "caldeira-2023-green-premium": 4,
+  "cao-2012-fast-response-days-weeks": 1,
+  "cao-2015-fast-slow-responses": 2,
+  "davis-2010-committed-emissions": 2,
+  "davis-2011-supply-chain-emissions": {
+    "figure": 1,
+    "trim": {
+      "right": 0.06
+    }
+  },
+  "dowling-2020-long-duration-storage": 7,
+  "duan-2020-climate-development-goals": 3,
+  "duan-2025-adaptation-abatement": 3,
+  "hoffert-2002-advanced-technology-paths": 2,
+  "matthews-2007-geoengineering-transient": 3,
+  "matthews-2008-near-zero-emissions": 1,
+  "possner-2017-open-ocean-wind": 1,
+  "ricke-2013-coral-reef-risk": 3,
+  "ridgwell-2003-carbonate-climate-stability": 1,
+  "rugenstein-2016-radiative-feedbacks": 1,
+  "shaner-2018-us-reliability": 2,
+  "tong-2019-committed-emissions": 1,
+  "tong-2020-storage-cost-reductions": 1,
+  "wang-2019-induced-efficiency": 3,
+  "winkelmann-2015-antarctic-ice-sheet": 2
+}

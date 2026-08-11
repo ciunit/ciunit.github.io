@@ -58,3 +58,24 @@ matters:
     It also identifies where the leverage lies. Because the effect works through the spatial
     pattern of heat uptake, getting the geography of ocean circulation right matters for
     global, not merely regional, projections.
+
+figure:
+  file: rugenstein-2016-radiative-feedbacks.webp
+  source_figure: Figure 1
+  alt: >
+    Four panels. Panel a plots top-of-atmosphere radiative imbalance against surface
+    temperature anomaly, the points curving away from a straight line. Panel b shows the
+    climate feedback parameter falling steeply over the first few decades after an
+    instantaneous forcing and then flattening. Panel c shows the ocean surface heat flux
+    anomaly by latitude over eighty years, becoming increasingly concentrated at high
+    latitudes. Panel d maps the climatological Q-flux.
+  caption: >
+    The climate feedback parameter weakens over time (panel b) as the pattern of ocean
+    heat uptake shifts from broadly distributed toward high-latitude-enhanced (panel c) —
+    which is why sensitivity estimated from a short record understates the long-run
+    response.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Rugenstein et al. (2016), Geophysical Research Letters 43, 9877-9885
+  modification: Extracted from the published PDF and resized for web display

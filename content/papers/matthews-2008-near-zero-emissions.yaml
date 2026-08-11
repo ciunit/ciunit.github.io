@@ -57,5 +57,26 @@ matters:
     that cumulative emissions, rather than the emission rate in any given year, set the
     eventual temperature.
 
+figure:
+  file: matthews-2008-near-zero-emissions.webp
+  source_figure: Figure 1
+  alt: >
+    Two stacked line plots covering model years 2000 to 2500. The upper panel
+    shows atmospheric CO2 in parts per million after an instantaneous emission pulse at
+    year zero, with separate curves for pulses of 50, 200, 500, and 2000 gigatonnes of
+    carbon; each curve rises sharply then declines slowly. The lower panel shows the
+    resulting change in global mean surface air temperature, where every curve rises
+    quickly and then stays almost flat for the remaining five centuries.
+  caption: >
+    A pulse of carbon produces warming that does not decay away. Atmospheric CO2
+    falls after the pulse (upper), yet global mean temperature stays approximately
+    constant for centuries (lower), because continued ocean heat uptake offsets the
+    declining concentration.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Matthews and Caldeira (2008), Geophysical Research Letters 35
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - caldeira-kasting-1993-warming-potentials

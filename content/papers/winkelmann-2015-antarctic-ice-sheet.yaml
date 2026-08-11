@@ -59,3 +59,24 @@ matters:
     The gap between the two numbers is where the decision lies. Eliminating the whole ice
     sheet takes 10,000 GtC, but committing to the loss of West Antarctica takes 600 to 800
     GtC — a quantity within reach of scenarios currently under discussion.
+
+figure:
+  file: winkelmann-2015-antarctic-ice-sheet.webp
+  source_figure: Figure 2
+  alt: >
+    A scatter plot of Antarctic ice loss in metres of sea-level equivalent against
+    cumulative CO2 emissions in gigatonnes of carbon on a logarithmic axis from about 100
+    to 10,000. Three curves show the commitment after 1000, 3000, and 10,000 years, all
+    rising steeply beyond about 500 gigatonnes. Inset maps of Antarctica show progressively
+    less ice at higher emissions. A red band across the top marks the ice-free state, upper
+    axes give peak warming, and a grey band at the right marks total fossil resources.
+  caption: >
+    Sea-level commitment from Antarctic ice loss against cumulative emissions. The
+    response is threshold-like rather than gradual, and the grey band at the right shows
+    that the total attainable fossil resource reaches the ice-free end of the curve.
+  source: PDF (600 dpi)
+  license: CC BY-NC 4.0
+  license_url: https://creativecommons.org/licenses/by-nc/4.0/
+  credit: >
+    Winkelmann et al. (2015), Science Advances 1, e1500589
+  modification: Extracted from the published PDF and resized for web display

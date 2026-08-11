@@ -62,3 +62,24 @@ matters:
     The decomposition is also conceptually useful on its own terms. It separates what the
     forcing does directly from what the resulting warming does in turn, which is what makes
     it possible to compare forcing agents that act through different mechanisms.
+
+figure:
+  file: cao-2015-fast-slow-responses.png
+  source_figure: Figure 2
+  alt: >
+    A grid of line plots comparing HadCM3L simulation results, drawn as thin noisy
+    lines, against the regression model's reconstruction, drawn as a smooth red line, for
+    changes in surface temperature, precipitation, runoff, and soil moisture over about 300
+    years. Rows correspond to CO2 ramp-up forcing, solar ramp-up forcing, and the two
+    combined; the red reconstruction tracks the simulated curves closely throughout.
+  caption: >
+    The regression model reproduces what the full climate model simulated, across
+    temperature, precipitation, runoff, and soil moisture and under three different forcing
+    scenarios — which is what shows that total change really is the sum of a fast response
+    and a slow feedback.
+  source: PDF (600 dpi)
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  credit: >
+    Cao et al. (2015), Journal of Geophysical Research: Atmospheres 120
+  modification: Extracted from the published PDF and used unmodified, as the licence requires

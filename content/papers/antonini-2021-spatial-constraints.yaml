@@ -55,6 +55,26 @@ matters:
     farm reduces the resource available to a neighbour's, which is a form of interference that
     siting policy has to address explicitly.
 
+figure:
+  file: antonini-2021-spatial-constraints.webp
+  source_figure: Figure 2
+  alt: >
+    Six contour panels of normalised wind speed in a vertical slice through the
+    atmosphere, extending 1000 km downstream and 2 km up. Each panel shows a wind farm as a
+    row of markers along the surface, with a pale slowed-air region above and behind it.
+    Panels vary the Coriolis parameter across two columns and the geostrophic wind speed
+    across three rows, and each is annotated with the transition and recovery lengths,
+    which range from about 30 to 290 km.
+  caption: >
+    A large wind farm slows the air above and well downstream of itself. The recovery
+    length — the distance needed before the wind returns to its undisturbed speed — reaches
+    several hundred kilometres, which is what sets the minimum spacing between farms.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Antonini and Caldeira (2021), Proceedings of the National Academy of Sciences 118, e2103875118
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - antonini-2021-power-density-limits
   - possner-2017-open-ocean-wind

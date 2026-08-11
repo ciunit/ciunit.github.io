@@ -62,6 +62,27 @@ matters:
     temperature effect of CO2, but the hydrological and physiological effects belong to CO2
     alone, so the substitution is incomplete however carefully it is calibrated.
 
+figure:
+  file: cao-2012-fast-response-days-weeks.webp
+  source_figure: Figure 1
+  alt: >
+    Two panels. The upper plots change in precipitation against change in surface
+    temperature for quadrupled CO2 in black and a 4 per cent increase in solar irradiance in
+    red, at daily, monthly, and yearly resolution, with separate regression lines that are
+    parallel but offset. The lower panel shows change in precipitation over the first thirty
+    days, where the CO2 case drops immediately to about minus 0.07 metres per year while the
+    solar case stays near zero.
+  caption: >
+    The offset between the two regression lines is the fast response, and it appears
+    within days. Quadrupling CO2 suppresses precipitation immediately, before any surface
+    warming; an equivalent increase in sunlight does not.
+  source: PDF (600 dpi)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit: >
+    Cao et al. (2012), Environmental Research Letters 7, 034015
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - govindasamy-2000-first-simulations
   - cao-2015-fast-slow-responses

@@ -60,5 +60,25 @@ matters:
     imposing the price captures the revenue, upstream carbon pricing has a constituency in
     favour of it rather than only against it.
 
+figure:
+  file: davis-2011-supply-chain-emissions.webp
+  source_figure: Figure 1
+  alt: >
+    Three world maps, each coloured red where a region is a net source and blue where
+    it is a net sink on that accounting, with black arrows whose width is proportional to
+    the flow of CO2 in megatonnes per year. The maps show, in turn, flows of extracted
+    fossil fuels, of emissions embodied in traded goods, and of the two combined. The
+    largest arrows run from the Middle East, Russia, and Australia toward China, Europe,
+    Japan, and the United States.
+  caption: >
+    Carbon crosses borders twice — once as extracted fuel and again as goods made with
+    it. Tracing both reveals flows that a production-based inventory, which counts emissions
+    only where fuel is burned, does not show at all.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Davis, Peters, and Caldeira (2011), Proceedings of the National Academy of Sciences 108, 18554-18559
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - davis-2010-consumption-based-accounting
