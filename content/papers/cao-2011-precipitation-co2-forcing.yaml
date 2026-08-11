@@ -1,0 +1,117 @@
+id: cao-2011-precipitation-co2-forcing
+doi: 10.1029/2011GL046713
+title: >
+  Why is there a short-term increase in global precipitation in response to diminished CO2
+  forcing?
+authors:
+  - Long Cao
+  - Govindasamy Bala
+  - Ken Caldeira
+journal: Geophysical Research Letters
+volume: "38"
+pages: L06703
+date: "2011-03-24"
+year: 2011
+themes:
+  - solar-geoengineering
+  - climate-and-carbon-cycle
+
+description: >
+  Removing a quadrupled-CO2 forcing raises global precipitation 5.1% within a single year, but
+  removing an equivalent solar forcing does not — the temporary increase comes from the specific
+  character of CO2 forcing, not from the reduction in radiative forcing.
+
+question:
+  - >
+    Cutting atmospheric carbon dioxide had been found to raise global mean precipitation
+    temporarily, for several decades, before precipitation began to fall. The same global mean
+    temperature could therefore correspond to two different precipitation states depending on
+    which way carbon dioxide was moving. That behaviour had been attributed to heat accumulated
+    in the ocean.
+  - >
+    This paper asked whether the ocean explanation is right, or whether the temporary increase
+    is instead a property of carbon dioxide forcing specifically — in which case any negative
+    radiative forcing would not produce it.
+
+key_finding: >
+  In the HadCM3L coupled model, instantaneously removing a quadrupled-CO2 forcing raised global
+  mean precipitation by 5.1% within one year, while removing an equal-magnitude solar forcing
+  made precipitation fall immediately — showing the transient increase is a consequence of the
+  fast tropospheric adjustment to CO2 forcing rather than a general feature of reduced radiative
+  forcing.
+
+findings:
+  - >
+    Two step-function experiments were tuned to produce nearly the same warming — 5.33 degrees
+    Celsius from quadrupling carbon dioxide and 5.25 degrees Celsius from raising solar intensity
+    4.54%, a difference of 0.08 degrees. Precipitation responded very differently, rising 10.8%
+    under the solar forcing and only 4.7% under the carbon dioxide forcing.
+  - >
+    Removing the carbon dioxide forcing raised global mean precipitation by 5.1% between year 70
+    and year 71, and it took about ten years to return to its prior level. Removing the solar
+    forcing made precipitation fall at once.
+  - >
+    Regression separates a fast response, set by the forcing agent, from a slow response, set by
+    surface temperature. The fast term is about -4.2% per carbon dioxide doubling but only about
+    -0.3% per one per cent of solar intensity, while the slow term is nearly identical across
+    experiments at roughly 2.4 to 2.6% per degree of warming.
+  - >
+    The asymmetry follows from where the forcing acts. Carbon dioxide absorbs and emits longwave
+    radiation within the atmosphere, so its instantaneous forcing at the surface is much smaller
+    than at the top of the atmosphere; the atmosphere cannot store the difference, and it is
+    resolved within weeks by cutting the latent heat flux, which means cutting precipitation.
+    Solar forcing creates almost no such surface-to-top imbalance.
+  - >
+    Ocean heat uptake cannot be the explanation. Its evolution is nearly indistinguishable
+    between the carbon dioxide and solar experiments even though the precipitation responses
+    differ sharply.
+  - >
+    A gradual ramp — 2% per year up to quadrupled carbon dioxide, then 2% per year back down —
+    gives the same coefficients, about -4.2% per doubling and 2.6% per degree. Surface
+    temperature begins falling as soon as carbon dioxide does, but precipitation keeps rising for
+    several decades until the cooling effect overtakes the fast adjustment.
+
+matters:
+  - >
+    It separates two things that a global mean temperature alone conflates. Precipitation
+    responds to the forcing agent as well as to temperature, so two worlds at the same
+    temperature but different carbon dioxide concentrations have different hydrological cycles.
+  - >
+    This is the mechanism behind the recurring result that solar geoengineering cannot restore
+    both temperature and precipitation at once. Offsetting carbon dioxide warming with reduced
+    sunlight leaves the fast carbon dioxide suppression of precipitation in place with no
+    compensating temperature-driven increase, leaving the world drier than it started.
+  - >
+    It also means the transient precipitation increase after emissions cuts is not a paradox to
+    be explained away by ocean heat. It is the direct signature of removing carbon dioxide, and
+    it would appear at realistic rates of change as well as in these idealized step experiments.
+
+figure:
+  file: cao-2011-precipitation-co2-forcing.webp
+  source_figure: Figure 1
+  alt: >
+    Four panels of time series from HadCM3L. Panel a shows the change in global mean surface air
+    temperature for the quadrupled-carbon-dioxide step in red and the equivalent solar step in
+    blue; the two curves lie on top of each other, rising to about 5.5 kelvin and dropping
+    together when the forcing is removed at year 70. Panel b shows the percentage change in
+    global mean precipitation for the same two runs: the blue solar curve sits near 11 per cent
+    and the red carbon dioxide curve near 5 per cent, and at year 70 the red curve jumps sharply
+    upward to meet the blue one before both decay. Panel c shows the gradual ramp case, where
+    temperature in red falls as carbon dioxide in dashed black falls, while precipitation in
+    green keeps rising for several decades. Panel d shows ocean heat uptake, nearly identical
+    between the carbon dioxide and solar runs.
+  caption: >
+    The two forcings produce the same warming (panel a) and the same ocean heat uptake (panel d)
+    but different precipitation (panel b). Removing the carbon dioxide forcing at year 70 makes
+    precipitation jump up; removing the solar forcing makes it fall — which is why the temporary
+    increase after a carbon dioxide cut cannot be explained by stored ocean heat.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Cao, Bala, and Caldeira (2011), Geophysical Research Letters 38, L06703
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - cao-2012-fast-response-days-weeks
+  - cao-2015-fast-slow-responses
+  - bala-2007-deforestation

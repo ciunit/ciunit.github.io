@@ -5,6 +5,16 @@ Reads content/figure-picks.json (which figure of each paper we use), extracts it
 from the PDF, and writes docs/papers/figures/<id>.<ext>. Run this after changing
 anything in scripts/extract_figures.py so every figure is rebuilt consistently.
 
+A pick is one of:
+
+    3                                        figure 3, region detected from its caption
+    {"figure": 1, "trim": {"right": 0.06}}   the same, with a fraction cut off a side
+    {"page": 3, "rect": [54, 90, 545, 430]}  an explicit crop in PDF points
+
+The third form is for scans, which have no captions to detect, and for the rare
+detected region that shears an axis label off — a trim can shrink a region but
+never grow one.
+
 No-derivatives papers are detected from their licence and left at native
 resolution as PNG: resizing a CC BY-ND or BY-NC-ND figure would breach the
 licence, so it must never depend on someone remembering to special-case it.
@@ -47,8 +57,9 @@ def main(argv: list[str]) -> int:
     papers, mapping, nd = papers_by_id(), load_map()["mapping"], nd_dois()
     failures = []
     for pid, spec in sorted(picks.items()):
-        fig = spec["figure"] if isinstance(spec, dict) else spec
-        trim = spec.get("trim") if isinstance(spec, dict) else None
+        d = spec if isinstance(spec, dict) else {"figure": spec}
+        fig, trim = d.get("figure", 1), d.get("trim")
+        page, rect = d.get("page"), d.get("rect")
         paper = papers.get(pid)
         if not paper:
             failures.append(f"{pid}: no content file")
@@ -56,7 +67,7 @@ def main(argv: list[str]) -> int:
         for stale in FIG_DIR.glob(f"{pid}.*"):
             stale.unlink()
         try:
-            rc = extract(pid, fig, papers, mapping, trim=trim)
+            rc = extract(pid, fig, papers, mapping, trim=trim, page=page, rect=rect)
         except Exception as e:  # noqa: BLE001
             rc, e_msg = 1, str(e)
         if rc != 0:

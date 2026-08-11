@@ -1,19 +1,54 @@
 {
-  "_comment": "Which figure of each paper is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes.",
+  "_comment": "Which figure of each paper is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact, or, for a scan or a sheared crop, from page images produced by --pages. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes. A pick is a figure number, or {figure, trim} to cut a fraction off a side, or {page, rect} to render an explicit rectangle in PDF points.",
   "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
   "ahbe-2017-available-potential-energy": 3,
+  "albright-2016-reversal-acidification": {
+    "figure": 4,
+    "trim": {
+      "bottom": 0.05
+    }
+  },
   "albright-2018-co2-addition-reef": 2,
   "antonini-2021-power-density-limits": 4,
   "antonini-2021-spatial-constraints": 2,
   "bala-2007-deforestation": 1,
   "ban-weiss-2010-optimization": 3,
   "brown-2020-break-even-year": 2,
+  "caldeira-1990-deccan-volcanism": {
+    "page": 3,
+    "rect": [
+      46,
+      374.5,
+      292,
+      536
+    ]
+  },
+  "caldeira-1993-kt-carbon-cycle": {
+    "page": 8,
+    "rect": [
+      56,
+      90,
+      285,
+      390
+    ]
+  },
   "caldeira-2000-southern-ocean": 2,
   "caldeira-2003-climate-sensitivity-uncertainty": 3,
+  "caldeira-2013-science-of-geoengineering": {
+    "page": 7,
+    "rect": [
+      58,
+      34,
+      492,
+      272
+    ]
+  },
   "caldeira-2023-green-premium": 4,
+  "cao-2011-precipitation-co2-forcing": 1,
   "cao-2012-fast-response-days-weeks": 1,
   "cao-2015-fast-slow-responses": 2,
   "davis-2010-committed-emissions": 2,
+  "davis-2010-consumption-based-accounting": 4,
   "davis-2011-supply-chain-emissions": {
     "figure": 1,
     "trim": {
@@ -22,14 +57,69 @@
   },
   "dowling-2020-long-duration-storage": 7,
   "duan-2020-climate-development-goals": 3,
+  "duan-2022-flexible-nuclear": {
+    "page": 7,
+    "rect": [
+      104,
+      51.1,
+      495.5,
+      316.8
+    ]
+  },
   "duan-2025-adaptation-abatement": 3,
+  "herzog-2003-permanence-temporary-storage": {
+    "figure": 1,
+    "trim": {
+      "top": 0.108,
+      "bottom": 0.019
+    }
+  },
   "hoffert-2002-advanced-technology-paths": 2,
+  "marvel-2013-geophysical-limits-wind": 2,
   "matthews-2007-geoengineering-transient": 3,
   "matthews-2008-near-zero-emissions": 1,
+  "pagani-2006-ancient-carbon-mystery": {
+    "page": 3,
+    "rect": [
+      166,
+      508,
+      389,
+      723
+    ]
+  },
+  "pagani-2009-terrestrial-plants-co2": {
+    "page": 3,
+    "rect": [
+      303,
+      44,
+      563,
+      210
+    ]
+  },
+  "pongratz-2012-geoengineered-crop-yields": 3,
   "possner-2017-open-ocean-wind": 1,
+  "rampino-1993-geologic-periodicity": {
+    "page": 7,
+    "rect": [
+      26,
+      68,
+      248,
+      226
+    ]
+  },
+  "rampino-2015-impact-cratering-periodicity": 1,
   "ricke-2013-coral-reef-risk": 3,
   "ridgwell-2003-carbonate-climate-stability": 1,
   "rugenstein-2016-radiative-feedbacks": 1,
+  "ruggles-2024-planning-reliable-systems": {
+    "page": 5,
+    "rect": [
+      75.6,
+      49,
+      519.6,
+      470.9
+    ]
+  },
   "shaner-2018-us-reliability": 2,
   "tong-2019-committed-emissions": 1,
   "tong-2020-storage-cost-reductions": 1,

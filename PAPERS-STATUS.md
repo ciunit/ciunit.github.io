@@ -9,16 +9,16 @@ reachable abstract. A figure additionally needs both an open licence *and* a
 publisher that permits automated access — those are not the same thing.
 
 - **121** distinct DOIs cited on the site
-- **47** already have a page
+- **57** already have a page
 - **37** could have one written now
-- **37** are blocked pending the paper itself
+- **27** are blocked pending the paper itself
 
 | Tier | Count | Meaning |
 | --- | ---: | --- |
-| `has-page` | 47 | Already published as a paper page. |
+| `has-page` | 57 | Already published as a paper page. |
 | `ready-with-figure` | 7 | Abstract reachable and figure retrievable — a complete page needs no input from you. |
 | `ready-needs-figure` | 30 | Abstract reachable, but the figure must be supplied by an author. |
-| `blocked-no-abstract` | 37 | No abstract reachable anywhere — a verifiable key finding cannot be written without the paper itself. |
+| `blocked-no-abstract` | 27 | No abstract reachable anywhere — a verifiable key finding cannot be written without the paper itself. |
 
 ## Papers
 
@@ -31,9 +31,11 @@ Ordered by tier, then newest first.
 | [Duan et al., 2025](https://doi.org/10.1038/s43247-024-01976-6) | Near-term benefits from investment in climate adaptation complement long-term economic returns from emissions reduction | Communications Earth &amp; Envir | `has-page` | page `duan-2025-adaptation-abatement` | semantic-scholar | <sub>balancing-goals, ken-caldeira, lei-duan</sub> |
 | [Duan et al., 2025](https://doi.org/10.1038/s43247-025-02579-5) | Historical model biases in monthly high temperature anomalies indicate under-estimation of future temperature extremes | Communications Earth &amp; Envir | `has-page` | page `duan-2025-temperature-extremes` | semantic-scholar | <sub>climate-and-climate-impacts, govindasamy-bala, lei-duan</sub> |
 | [Wongel et al., 2025](https://doi.org/10.1088/1748-9326/ae1f2a) | Economic development, air conditioning and adaptation to warming | Environmental Research Letters | `has-page` | page `wongel-2025-cooling-deficit` | crossref | <sub>balancing-goals, ken-caldeira</sub> |
+| [Ruggles et al., 2024](https://doi.org/10.1016/j.adapen.2024.100185) | Planning reliable wind- and solar-based electricity systems | Advances in Applied Energy | `has-page` | page `ruggles-2024-planning-reliable-systems` | **none** | <sub>ken-caldeira</sub> |
 | [Li et al., 2024](https://doi.org/10.1021/acs.est.3c10188) | The Influence of Regional Geophysical Resource Variability on the Value of Single- and Multistorage Technology Portfolio | Environmental Science &amp; Tech | `has-page` | page `li-2024-storage-portfolios` | semantic-scholar | <sub>ken-caldeira</sub> |
 | [Antonini et al., 2024](https://doi.org/10.1038/s43247-024-01260-7) | Identification of reliable locations for wind power generation through a global analysis of wind droughts | Communications Earth &amp; Envir | `has-page` | page `antonini-2024-wind-droughts` | crossref | <sub>climate-and-climate-impacts</sub> |
 | [Caldeira et al., 2023](https://doi.org/10.1088/1748-9326/acf949) | The value of reducing the Green Premium: cost-saving innovation, emissions abatement, and climate goals | Environmental Research Letters | `has-page` | page `caldeira-2023-green-premium` | crossref | <sub>ken-caldeira</sub> |
+| [Duan et al., 2022](https://doi.org/10.1038/s41560-022-00979-x) | Stylized least-cost analysis of flexible nuclear power in deeply decarbonized electricity systems considering wind and s | Nature Energy | `has-page` | page `duan-2022-flexible-nuclear` | **none** | <sub>ken-caldeira, lei-duan</sub> |
 | [Antonini and Caldeira, 2021](https://doi.org/10.1016/j.apenergy.2020.116048) | Atmospheric pressure gradients and Coriolis forces provide geophysical limits to power density of large wind farms | Applied Energy | `has-page` | page `antonini-2021-power-density-limits` | semantic-scholar | <sub>ken-caldeira</sub> |
 | [Tong et al., 2021](https://doi.org/10.1038/s41467-021-26355-z) | Geophysical constraints on the reliability of solar and wind power worldwide | Nature Communications | `has-page` | page `tong-2021-geophysical-constraints` | crossref | <sub>climate-and-climate-impacts, ken-caldeira, lei-duan</sub> |
 | [Antonini and Caldeira, 2021](https://doi.org/10.1073/pnas.2103875118) | Spatial constraints in large-scale expansion of wind power plants | Proceedings of the National Acad | `has-page` | page `antonini-2021-spatial-constraints` | crossref | <sub>ken-caldeira</sub> |
@@ -51,11 +53,16 @@ Ordered by tier, then newest first.
 | [Possner and Caldeira, 2017](https://doi.org/10.1073/pnas.1705710114) | Geophysical potential for wind energy over the open oceans | Proceedings of the National Acad | `has-page` | page `possner-2017-open-ocean-wind` | crossref | <sub>ken-caldeira</sub> |
 | [Ahbe and Caldeira, 2017](https://doi.org/10.1175/jcli-d-15-0614.1) | Spatial Distribution of Generation of Lorenz’s Available Potential Energy in a Global Climate Model | Journal of Climate | `has-page` | page `ahbe-2017-available-potential-energy` | crossref | <sub>ken-caldeira</sub> |
 | [Rugenstein et al., 2016](https://doi.org/10.1002/2016gl070907) | Dependence of global radiative feedbacks on evolving patterns of surface heat fluxes | Geophysical Research Letters | `has-page` | page `rugenstein-2016-radiative-feedbacks` | crossref | <sub>ken-caldeira</sub> |
+| [Albright et al., 2016](https://doi.org/10.1038/nature17155) | Reversal of ocean acidification enhances net coral reef calcification | Nature | `has-page` | page `albright-2016-reversal-acidification` | **none** | <sub>ken-caldeira</sub> |
 | [Cao et al., 2015](https://doi.org/10.1002/2015jd023901) | Fast and slow climate responses to CO<sub>2</sub> and solar forcing: A linear multivariate regression model characterizi | Journal of Geophysical Research: | `has-page` | page `cao-2015-fast-slow-responses` | crossref | <sub>ken-caldeira</sub> |
+| [Rampino and Caldeira, 2015](https://doi.org/10.1093/mnras/stv2088) | Periodic impact cratering and extinction events over the last 260 million years | Monthly Notices of the Royal Ast | `has-page` | page `rampino-2015-impact-cratering-periodicity` | **none** | <sub>ken-caldeira</sub> |
 | [Winkelmann et al., 2015](https://doi.org/10.1126/sciadv.1500589) | Combustion of available fossil fuel resources sufficient to eliminate the Antarctic Ice Sheet | Science Advances | `has-page` | page `winkelmann-2015-antarctic-ice-sheet` | semantic-scholar | <sub>ken-caldeira</sub> |
+| [Marvel et al., 2013](https://doi.org/10.1038/nclimate1683) | Geophysical limits to global wind power | Nature Climate Change | `has-page` | page `marvel-2013-geophysical-limits-wind` | **none** | <sub>ken-caldeira</sub> |
 | [Ricke et al., 2013](https://doi.org/10.1088/1748-9326/8/3/034003) | Risks to coral reefs from ocean carbonate chemistry changes in recent earth system model projections | Environmental Research Letters | `has-page` | page `ricke-2013-coral-reef-risk` | semantic-scholar | <sub>ken-caldeira</sub> |
 | [Caldeira et al., 2013](https://doi.org/10.1146/annurev-earth-042711-105548) | The Science of Geoengineering | Annual Review of Earth and Plane | `has-page` | page `caldeira-2013-science-of-geoengineering` | crossref | <sub>ken-caldeira</sub> |
+| [Pongratz et al., 2012](https://doi.org/10.1038/nclimate1373) | Crop yields in a geoengineered climate | Nature Climate Change | `has-page` | page `pongratz-2012-geoengineered-crop-yields` | **none** | <sub>ken-caldeira</sub> |
 | [Cao et al., 2012](https://doi.org/10.1088/1748-9326/7/3/034015) | Climate response to changes in atmospheric carbon dioxide and solar irradiance on the time scale of days to weeks | Environmental Research Letters | `has-page` | page `cao-2012-fast-response-days-weeks` | semantic-scholar | <sub>ken-caldeira</sub> |
+| [Cao et al., 2011](https://doi.org/10.1029/2011gl046713) | Why is there a short-term increase in global precipitation in response to diminished CO<sub>2</sub>forcing? | Geophysical Research Letters | `has-page` | page `cao-2011-precipitation-co2-forcing` | **none** | <sub>ken-caldeira</sub> |
 | [Davis et al., 2011](https://doi.org/10.1073/pnas.1107409108) | The supply chain of CO
                     <sub>2</sub>
                     emissions | Proceedings of the National Acad | `has-page` | page `davis-2011-supply-chain-emissions` | crossref | <sub>ken-caldeira</sub> |
@@ -66,9 +73,12 @@ Ordered by tier, then newest first.
 | [Davis et al., 2010](https://doi.org/10.1126/science.1188566) | Future CO
             <sub>2</sub>
             Emissions and Climate Change from Existing Energy Infrastructure | Science | `has-page` | page `davis-2010-committed-emissions` | crossref | <sub>ken-caldeira</sub> |
+| [Pagani et al., 2009](https://doi.org/10.1038/nature08133) | The role of terrestrial plants in limiting atmospheric CO2 decline over the past 24 million years | Nature | `has-page` | page `pagani-2009-terrestrial-plants-co2` | **none** | <sub>ken-caldeira</sub> |
 | [Matthews and Caldeira, 2008](https://doi.org/10.1029/2007gl032388) | Stabilizing climate requires near‐zero emissions | Geophysical Research Letters | `has-page` | page `matthews-2008-near-zero-emissions` | crossref | <sub>ken-caldeira</sub> |
 | [Bala et al., 2007](https://doi.org/10.1073/pnas.0608998104) | Combined climate and carbon-cycle effects of large-scale deforestation | Proceedings of the National Acad | `has-page` | page `bala-2007-deforestation` | crossref | <sub>govindasamy-bala, ken-caldeira</sub> |
 | [Matthews and Caldeira, 2007](https://doi.org/10.1073/pnas.0700419104) | Transient climate–carbon simulations of planetary geoengineering | Proceedings of the National Acad | `has-page` | page `matthews-2007-geoengineering-transient` | crossref | <sub>ken-caldeira</sub> |
+| [Pagani et al., 2006](https://doi.org/10.1126/science.1136110) | An Ancient Carbon Mystery | Science | `has-page` | page `pagani-2006-ancient-carbon-mystery` | **none** | <sub>ken-caldeira</sub> |
+| [Herzog et al., 2003](https://doi.org/10.1023/a:1024801618900) | An Issue of Permanence: Assessing the Effectiveness of Temporary Carbon Storage | Climatic Change | `has-page` | page `herzog-2003-permanence-temporary-storage` | **none** | <sub>ken-caldeira</sub> |
 | [Caldeira et al., 2003](https://doi.org/10.1126/science.1078938) | Climate Sensitivity Uncertainty and the Need for Energy Without CO
             <sub>2</sub>
             Emission | Science | `has-page` | page `caldeira-2003-climate-sensitivity-uncertainty` | crossref | <sub>ken-caldeira</sub> |
@@ -127,7 +137,6 @@ Ordered by tier, then newest first.
 | [Cheng et al., 2025](https://doi.org/10.1038/s41558-025-02305-1) | Trade risks to energy security in net-zero emissions energy scenarios | Nature Climate Change | `blocked-no-abstract` | author reuse | **none** | <sub>climate-and-climate-impacts</sub> |
 | [Zheng et al., 2025](https://doi.org/10.1038/s41586-025-09266-7) | Strategies for climate-resilient global wind and solar power systems | Nature | `blocked-no-abstract` | author reuse | **none** | <sub>climate-and-climate-impacts</sub> |
 | [Mahendra et al., 2024](https://doi.org/10.1007/s00382-024-07273-4) | A case study of deviant El Niño influence on the 2023 monsoon: An anecdote involving IOD, MJO and equivalent barotropic  | Climate Dynamics | `blocked-no-abstract` | author reuse | **none** | <sub>mahendra-nimmakanti</sub> |
-| [Ruggles et al., 2024](https://doi.org/10.1016/j.adapen.2024.100185) | Planning reliable wind- and solar-based electricity systems | Advances in Applied Energy | `blocked-no-abstract` | author reuse (licensed, host blocks us) | **none** | <sub>ken-caldeira</sub> |
 | [Mahendra et al., 2024](https://doi.org/10.1016/j.atmosres.2023.107094) | The increased summer monsoon rainfall in Northwest India: Coupling with the Northwestern Arabian Sea warming and modulat | Atmospheric Research | `blocked-no-abstract` | author reuse (licensed, host blocks us) | **none** | <sub>mahendra-nimmakanti</sub> |
 | [Mahendra et al., 2024](https://doi.org/10.1016/j.gloplacha.2024.104601) | Contrasting influence of the 1997 and 2015 El Niño on the Indian Summer Monsoon Rainfall: Role of the Southern Hemispher | Global and Planetary Change | `blocked-no-abstract` | author reuse | **none** | <sub>mahendra-nimmakanti</sub> |
 | [Papargyri et al., 2024](https://doi.org/10.1016/j.solmat.2024.113166) | Sequential thermomechanical stress and cracking analysis of photovoltaic modules with full and half-cut cells | Solar Energy Materials and Solar | `blocked-no-abstract` | author reuse | **none** | <sub>lamprini-papargyri</sub> |
@@ -135,22 +144,13 @@ Ordered by tier, then newest first.
 | [Krishnamohan and Bala, 2022](https://doi.org/10.1007/s00382-021-06121-z) | Sensitivity of tropical monsoon precipitation to the latitude of stratospheric aerosol injections | Climate Dynamics | `blocked-no-abstract` | author reuse | **none** | <sub>govindasamy-bala</sub> |
 | [Papargyri et al., 2022](https://doi.org/10.1016/j.renene.2022.09.009) | Effect of materials and design on PV cracking under mechanical loading | Renewable Energy | `blocked-no-abstract` | author reuse | **none** | <sub>lamprini-papargyri</sub> |
 | [Wang et al., 2022](https://doi.org/10.1016/j.solener.2021.12.012) | The cost of day-ahead solar forecasting errors in the United States | Solar Energy | `blocked-no-abstract` | author reuse (licensed, host blocks us) | **none** | <sub>yuhan-wang</sub> |
-| [Duan et al., 2022](https://doi.org/10.1038/s41560-022-00979-x) | Stylized least-cost analysis of flexible nuclear power in deeply decarbonized electricity systems considering wind and s | Nature Energy | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira, lei-duan</sub> |
 | [Shayegh et al., 2017](https://doi.org/10.1016/j.enpol.2017.05.029) | Evaluating relative benefits of different types of R&amp;D for clean energy technologies | Energy Policy | `blocked-no-abstract` | author reuse | **none** | <sub>balancing-goals</sub> |
-| [Albright et al., 2016](https://doi.org/10.1038/nature17155) | Reversal of ocean acidification enhances net coral reef calcification | Nature | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
-| [Rampino and Caldeira, 2015](https://doi.org/10.1093/mnras/stv2088) | Periodic impact cratering and extinction events over the last 260 million years | Monthly Notices of the Royal Ast | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Saunders, 2013](https://doi.org/10.1016/j.techfore.2012.12.007) | Historical evidence for energy efficiency rebound in 30 US sectors and a toolkit for rebound analysts | Technological Forecasting and So | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
-| [Marvel et al., 2013](https://doi.org/10.1038/nclimate1683) | Geophysical limits to global wind power | Nature Climate Change | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
-| [Pongratz et al., 2012](https://doi.org/10.1038/nclimate1373) | Crop yields in a geoengineered climate | Nature Climate Change | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Bala et al., 2011](https://doi.org/10.1007/s00382-010-0868-1) | Albedo enhancement of marine clouds to counteract global warming: impacts on the hydrological cycle | Climate Dynamics | `blocked-no-abstract` | author reuse | **none** | <sub>govindasamy-bala</sub> |
-| [Cao et al., 2011](https://doi.org/10.1029/2011gl046713) | Why is there a short-term increase in global precipitation in response to diminished CO<sub>2</sub>forcing? | Geophysical Research Letters | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Bala et al., 2010](https://doi.org/10.1007/s00382-009-0583-y) | Fast versus slow response in climate change: implications for the global hydrological cycle | Climate Dynamics | `blocked-no-abstract` | author reuse | **none** | <sub>govindasamy-bala</sub> |
 | [Tsao et al., 2010](https://doi.org/10.1088/0022-3727/43/35/354001) | Solid-state lighting: an energy-economics perspective | Journal of Physics D: Applied Ph | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
-| [Pagani et al., 2009](https://doi.org/10.1038/nature08133) | The role of terrestrial plants in limiting atmospheric CO2 decline over the past 24 million years | Nature | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Saunders, 2008](https://doi.org/10.1016/j.eneco.2007.11.006) | Fuel conserving (and using) production functions | Energy Economics | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
-| [Pagani et al., 2006](https://doi.org/10.1126/science.1136110) | An Ancient Carbon Mystery | Science | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Govindasamy et al., 2003](https://doi.org/10.1016/s0921-8181(02)00195-9) | Geoengineering Earth's radiation balance to mitigate climate change from a quadrupling of CO2 | Global and Planetary Change | `blocked-no-abstract` | author reuse | **none** | <sub>govindasamy-bala</sub> |
-| [Herzog et al., 2003](https://doi.org/10.1023/a:1024801618900) | An Issue of Permanence: Assessing the Effectiveness of Temporary Carbon Storage | Climatic Change | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Caldeira and Wickett, 2003](https://doi.org/10.1038/425365a) | Anthropogenic carbon and ocean pH | Nature | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 | [Saunders, 2000](https://doi.org/10.1016/s0301-4215(00)00024-0) | A view from the macro side: rebound, backfire, and Khazzoom–Brookes | Energy Policy | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
 | [Saunders, 2000](https://doi.org/10.1016/s0301-4215(00)00025-2) | Does predicted rebound depend on distinguishing between energy and energy services? | Energy Policy | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |

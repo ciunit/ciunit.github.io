@@ -1,0 +1,119 @@
+id: pagani-2009-terrestrial-plants-co2
+doi: 10.1038/nature08133
+title: >
+  The role of terrestrial plants in limiting atmospheric CO2 decline over the past 24 million
+  years
+authors:
+  - Mark Pagani
+  - Ken Caldeira
+  - Robert Berner
+  - David J. Beerling
+journal: Nature
+volume: "460"
+pages: 85-88
+date: "2009-07-02"
+year: 2009
+themes:
+  - climate-and-carbon-cycle
+  - paleoclimate
+
+description: >
+  Land plants stop accelerating rock weathering once atmospheric carbon dioxide falls near
+  150-250 parts per million, and that failure of the biological weathering sink explains why
+  carbon dioxide has not dropped below about 200-250 parts per million in 24 million years.
+
+question:
+  - >
+    Mountain building over the past 24 million years — the Himalaya, the Andes, New Guinea, the
+    Southern Alps of New Zealand — exposed enormous quantities of fresh silicate rock, and warm
+    wet conditions should have made that rock weather quickly. Silicate weathering consumes
+    atmospheric carbon dioxide, so the expectation is a steep long-term drawdown.
+  - >
+    Proxy records show no such drawdown. Atmospheric carbon dioxide fell from 1,000 to 1,500
+    parts per million in the late Eocene to near-modern values by 24 million years ago, and then
+    stopped, never dropping below roughly 200 to 250 parts per million for the rest of the
+    Cenozoic.
+  - >
+    Holding carbon dioxide near a floor for more than 20 million years requires either a
+    coincidence in the carbon fluxes too improbable to credit, or a negative feedback that
+    switches on at low concentrations. This paper asked whether terrestrial plants supply that
+    feedback.
+
+key_finding: >
+  Because C3 plant productivity, root biomass, and canopy transpiration all collapse as
+  atmospheric carbon dioxide falls below about 200 parts per million, the biological
+  amplification of silicate-rock weathering shuts down; adding a critical threshold of 150 to
+  250 parts per million to a carbonate-silicate model reproduces the observed floor in
+  atmospheric carbon dioxide over the past 24 million years.
+
+findings:
+  - >
+    Rooted vascular plants and their mycorrhizal fungal partners accelerate chemical weathering
+    by a factor of 1.5 to about 10, through root fracturing of minerals, acidification of soil
+    water by root-respired carbon dioxide and organic acids, chelation by secreted organic
+    ligands, and transpiration that lengthens the residence time of soil water.
+  - >
+    That amplification depends on plant health, and C3 photosynthesis is compromised at low
+    carbon dioxide. Rubisco also reacts with oxygen, and photorespiration rises both as the
+    carbon dioxide to oxygen ratio falls and as temperature rises — so the penalty is worst in
+    exactly the warm, low-carbon-dioxide world of the Neogene.
+  - >
+    Dynamic global vegetation model simulations run between 50 and 500 parts per million show
+    tropical and global forest primary production and root biomass declining abruptly below
+    about 200 parts per million, with canopy transpiration strongly diminished as well.
+  - >
+    Independent evidence puts the ecological compensation point — where net ecosystem exchange
+    reaches zero — between about 100 and 190 parts per million under cool Pleistocene
+    conditions, and higher under the warmth of the early to middle Miocene.
+  - >
+    Standard geochemical carbon cycle models assume C3 plants keep promoting silicate weathering
+    even as carbon dioxide approaches zero. Replacing that assumption with a critical threshold
+    of 150 to 250 parts per million damps carbon dioxide variability and yields minimum
+    concentrations matching those observed over the past 24 million years.
+  - >
+    The replacement of forests by C3 and later C4 grasslands from the latest Oligocene onward
+    probably weakened the feedback further, since grasses have shallow roots and arbuscular
+    mycorrhizal partners that do not secrete the organic acids driving weathering under
+    ectomycorrhizal forests.
+  - >
+    The authors describe the modelling as semi-quantitative. It does not capture feedbacks such
+    as the effect of ecosystem turnover on erosion, soil stability, rock exposure, or albedo.
+
+matters:
+  - >
+    It supplies the missing stabilizer at the low end of the carbon cycle. The temperature
+    dependence of weathering is the textbook thermostat, but it does not explain why carbon
+    dioxide stopped falling during a period of intense uplift; a biological threshold does.
+  - >
+    The mechanism is a floor, not a ceiling. It says that plant failure protected the Earth from
+    a severe icehouse over the Neogene, and implies nothing that would limit a rise in carbon
+    dioxide — the feedback only engages near the bottom of the range.
+  - >
+    It makes ecological carbon dioxide thresholds a first-order term in long-term carbon-cycle
+    models rather than a detail, since a model that lets plants weather rock down to zero carbon
+    dioxide will predict a drawdown the geologic record contradicts.
+
+figure:
+  file: pagani-2009-terrestrial-plants-co2.webp
+  source_figure: Figure 3
+  alt: >
+    A line plot of predicted atmospheric carbon dioxide in parts per million, from 0 to 500,
+    against effective weatherable surface area relative to 50 million years ago, from 1 to 5.
+    Six coloured curves correspond to critical carbon dioxide thresholds of 250, 200, 150, 100,
+    50, and 0 parts per million, each with a matching dashed horizontal line at its threshold.
+    Every curve falls steeply as weatherable area increases and then flattens just above its own
+    threshold, so the higher the threshold the higher the floor at which carbon dioxide settles.
+  caption: >
+    As mountain building exposes more weatherable rock, atmospheric carbon dioxide is drawn down
+    — but only until it approaches the concentration at which plants stop accelerating
+    weathering. Each curve flattens just above its own threshold, which is how a biological limit
+    becomes a floor under atmospheric carbon dioxide.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Pagani et al. (2009), Nature 460, 85-88
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - pagani-2006-ancient-carbon-mystery
+  - ridgwell-2003-carbonate-climate-stability

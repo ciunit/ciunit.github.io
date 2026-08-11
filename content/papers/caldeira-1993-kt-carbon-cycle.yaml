@@ -63,5 +63,29 @@ matters:
     has mechanisms that stabilize it over hundreds of thousands of years, which is precisely
     why they offer no protection against a disturbance delivered over two centuries.
 
+figure:
+  file: caldeira-1993-kt-carbon-cycle.webp
+  source_figure: Figure 4
+  alt: >
+    Two stacked line plots of modelled atmospheric partial pressure of carbon dioxide, from 350
+    to 550 parts per million, against time since the cessation of pelagic productivity. In panel
+    a, on a linear axis to one million years, the curve spikes briefly at the start and then
+    settles into a slow decline from about 400 to about 365 parts per million. In panel b, the
+    same result on a logarithmic axis from 1 to 10 million years, showing a rise to a peak near
+    505 parts per million at about 1,000 years, then a decline back to about 365 parts per
+    million by a million years.
+  caption: >
+    The logarithmic axis (panel b) separates what the linear one hides. Losing the biological
+    carbon pump first raises atmospheric carbon dioxide, as the deep ocean degasses to an
+    atmosphere no longer separated from it by a strong gradient; only later does carbonate
+    accumulation draw it back down. The whole excursion stays within about 150 parts per
+    million — not the dramatic collapse the loss of pelagic carbonate production would
+    otherwise imply.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Rampino (1993), Paleoceanography 8, 515-525
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - caldeira-1990-deccan-volcanism

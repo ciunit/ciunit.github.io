@@ -1,0 +1,124 @@
+id: pongratz-2012-geoengineered-crop-yields
+doi: 10.1038/nclimate1373
+title: >
+  Crop yields in a geoengineered climate
+authors:
+  - Julia Pongratz
+  - David B. Lobell
+  - Long Cao
+  - Ken Caldeira
+journal: Nature Climate Change
+volume: "2"
+pages: 101-105
+date: "2012-01-22"
+year: 2012
+themes:
+  - solar-geoengineering
+
+description: >
+  In these simulations, blocking enough sunlight to hold temperatures at present-day levels in a
+  doubled-CO2 world raised global yields relative to that doubled-CO2 world by 14% for maize,
+  21% for wheat, and 8% for rice, because heat stress is removed while CO2 fertilization remains.
+
+question:
+  - >
+    Deflecting sunlight away from the Earth can hold global mean temperature steady in a
+    high-carbon-dioxide world, but it changes regional climate and precipitation in ways that
+    temperature stabilization alone does not describe. A prominent objection to solar
+    geoengineering is that these changes would threaten the food and water supply of billions of
+    people.
+  - >
+    This paper asked what solar geoengineering would actually do to the yields of the three
+    crops that supply most of the world's calories — wheat, maize, and rice — relative both to
+    today's climate and to an unmanaged high-carbon-dioxide climate.
+
+key_finding: >
+  In climate-model simulations with sulphate aerosol added to the stratosphere to hold global
+  mean temperature at control levels under doubled carbon dioxide, global mean yields rose
+  relative to the unmanaged doubled-carbon-dioxide case by 14% for maize, 21% for wheat, and 8%
+  for rice — 86, 99, and 25 million tonnes of production respectively — because temperature
+  stress was removed while carbon dioxide fertilization was retained.
+
+findings:
+  - >
+    Three quasi-equilibrium simulations were run — a control at about 400 parts per million,
+    a doubled-carbon-dioxide case, and a doubled-carbon-dioxide case with stratospheric sulphate
+    raised enough to return global mean temperature to control levels. Yields were then estimated
+    from published regressions of historical weather against country-level yields, with
+    carbon dioxide fertilization added separately.
+  - >
+    Relative to today's climate, doubling carbon dioxide changes global yields only modestly —
+    maize down 3%, wheat up 6%, rice up 19% — as climate damage and carbon dioxide fertilization
+    partly cancel. Warming, not precipitation change, drives most of the climate-induced losses.
+  - >
+    Relative to today's climate, the geoengineered case raises yields for all three crops —
+    maize 11%, wheat 26%, rice 28% — with climate-induced changes within plus or minus 1% at the
+    global mean, so nearly all the gain comes from carbon dioxide fertilization.
+  - >
+    The comparison that matters for policy is geoengineering against the unmanaged high-carbon
+    world, and there the gains are 14% for maize, 21% for wheat, and 8% for rice. The large
+    maize production losses in the northern mid-latitudes under doubled carbon dioxide are
+    averted.
+  - >
+    The one substantial loss is high-latitude rice, where cold-temperature limits are no longer
+    relieved by warming. It does not show up in production totals because little rice is
+    currently grown there.
+  - >
+    The simulations do reproduce the expected weakening of the Asian summer monsoon —
+    precipitation down about 10% in CAM3.5 and 14% in HadCM3L — but the resulting yield
+    reductions are only a few per cent and are partly or fully offset by the averted warming.
+  - >
+    Doubling and halving the assumed sensitivity of yields to temperature and precipitation
+    changes the size of the response but not its sign.
+  - >
+    Effects of the reduced and more diffuse sunlight itself were not simulated. A linear scaling
+    of yield with insolation would imply a 2.2% loss, comparable to the tropical gains but small
+    against the global mean gain, and increased diffuse light would work in the opposite
+    direction.
+
+matters:
+  - >
+    It tests a specific and widely repeated objection to solar geoengineering and does not find
+    support for it at the scale of latitude bands. The concern that stabilizing temperature would
+    devastate global agriculture is not what these models produce.
+  - >
+    The reason is worth stating plainly, because it also marks the limits of the result: the
+    gains come mostly from carbon dioxide fertilization, which solar geoengineering does not
+    remove. The technique is being credited here with letting a high-carbon world keep the
+    fertilization benefit while shedding the heat.
+  - >
+    A result at the global and latitudinal mean does not settle local food security. Small
+    regions can move much more than the band containing them, which matters where subsistence
+    farming leaves little room to adapt.
+  - >
+    The paper's own conclusion is that solar geoengineering does nothing about ocean
+    acidification and carries anticipated and unanticipated risks, so the most certain way to
+    reduce climate risks to food security remains cutting greenhouse gas emissions.
+
+figure:
+  file: pongratz-2012-geoengineered-crop-yields.webp
+  source_figure: Figure 3
+  alt: >
+    Two stacked line plots against latitude from 60 degrees south to 80 degrees north, with
+    maize in red, wheat in blue, and rice in black, showing the difference between the solar
+    geoengineering case and the doubled-carbon-dioxide case. The upper panel is yield change in
+    per cent, positive almost everywhere and typically between 10 and 30 per cent, dipping below
+    zero only for rice above about 35 degrees north. The lower panel is production change in
+    millions of tonnes, near zero across the tropics and rising to a sharp maize peak of about
+    18 million tonnes near 40 degrees north, with wheat peaks either side.
+  caption: >
+    Adding solar geoengineering to a doubled-carbon-dioxide world raises yields at nearly every
+    latitude (upper). The production gain (lower) is concentrated in the northern mid-latitude
+    maize belt, where the doubled-carbon-dioxide climate would otherwise have caused the largest
+    losses; the one substantial yield loss, high-latitude rice, barely registers because little
+    rice is grown there.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Pongratz et al. (2012), Nature Climate Change 2, 101-105
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - matthews-2007-geoengineering-transient
+  - govindasamy-2000-first-simulations
+  - ban-weiss-2010-optimization

@@ -89,10 +89,28 @@ The papers section is written to be **found, understood, and cited by AI answer
 engines** (generative-engine / answer-engine optimization), not only to rank in
 search. That goal, not ordinary SEO, decides how these pages are structured.
 
+**If `CONTINUE-HERE.md` exists, read it first** — it records the decisions
+already made and the next tasks, and is deleted once that work is done.
+
+**Read `PAPER-PAGES.md` before adding or changing a paper page.** It is the full
+procedure — schema, commands, figure extraction, licensing, verification, and the
+list of what is still outstanding. This section covers only *why* the pages are
+written the way they are.
+
 **These pages are generated — never hand-edit them.** Source of truth is
 `content/papers/<id>.yaml` and `content/themes.yaml`; run `python -m ciunit_gen`
 (see README) and commit its output. Every generated file carries a `GENERATED`
 banner comment.
+
+Three things that have caused real errors and are easy to repeat:
+
+- **A plain YAML scalar cannot contain `": "`.** Any paragraph with a colon
+  followed by a space must be a `- >` block scalar. Run `--check` after editing.
+- **Several PDFs can carry the same DOI**, because a citing paper prints it in its
+  references. Figure extraction picks by title match, not file size.
+- **An open licence does not imply a reachable figure.** IOP papers here are CC BY
+  but the site blocks automated access; and CC BY-NC-ND figures must not be
+  resized.
 
 Content rules:
 

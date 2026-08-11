@@ -60,5 +60,26 @@ matters:
     change are expressions of a single underlying process rather than a series of unrelated
     accidents — which is a substantially stronger claim than periodicity alone.
 
+figure:
+  file: rampino-1993-geologic-periodicity.png
+  source_figure: Figure 2
+  alt: >
+    A spectral power plot against frequency in inverse millions of years, from 0 to 0.2, for the
+    aggregated record of all the geologic event data sets. Power is filled in solid black. A
+    single dominant peak, labelled 26.6 Myr, reaches a spectral power of about 11 at a frequency
+    near 0.0375, more than twice the height of any other peak; the remaining peaks lie between
+    about 2 and 6 and the spectrum falls away to near zero above a frequency of about 0.1.
+  caption: >
+    One peak dominates the aggregated record of major geologic events over the past 260 million
+    years, at a period of 26.6 million years. Analysis of 1,000 randomly dated synthetic data
+    sets puts the probability of a random record producing higher power at that period at about
+    0.01 per cent.
+  source: PDF (600 dpi)
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  credit: >
+    Rampino and Caldeira (1993), Earth and Planetary Science Letters 114, 215-227
+  modification: Used unmodified, as the licence requires
+
 related:
   - rampino-2021-tetrapod-periodicity

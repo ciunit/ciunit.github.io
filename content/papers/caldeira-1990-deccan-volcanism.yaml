@@ -65,3 +65,27 @@ matters:
     consequence of a carbon release depends on the rate at which it is delivered, not only on
     the total amount — which is why an emission that would be absorbed harmlessly across
     hundreds of thousands of years is not harmless across two centuries.
+
+figure:
+  file: caldeira-1990-deccan-volcanism.webp
+  source_figure: Figure 1
+  alt: >
+    A line plot with the increase in atmospheric partial pressure of carbon dioxide, from 0 to
+    70 parts per million, on the left axis and the corresponding global mean temperature
+    increase, from 0 to 0.7 degrees Celsius, on the right; time runs from 0 to 2 million years.
+    Four curves show different combinations of total carbon dioxide released and eruption
+    duration. Each rises to a peak within the first half-million years and decays back toward
+    zero by about 1.5 million years. The highest, a dotted curve for 20 times 10 to the 16
+    moles released over 100,000 years, peaks near 63 parts per million; the lowest peaks near
+    11.
+  caption: >
+    Even the most extreme combination modelled — the largest plausible eruption volume released
+    over the shortest plausible duration — raises atmospheric carbon dioxide by only about 65
+    parts per million and global mean temperature by less than 0.8 degrees Celsius, because
+    the release is slow enough that the ocean and the carbonate-silicate cycle absorb most of
+    it as it arrives.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Rampino (1990), Geophysical Research Letters 17, 1299-1302
+  modification: Extracted from the published PDF and resized for web display

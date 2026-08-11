@@ -15,13 +15,15 @@
    ],
    "how": "page text",
    "id": "ahbe-2017-available-potential-energy",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/nature17155": {
    "files": [
     "Albright-et-al_Nature2016_reversal-of-ocean-acidifcation.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "albright-2016-reversal-acidification",
+   "has_figure": false
   },
   "10.1038/nature25968": {
    "files": [
@@ -29,7 +31,7 @@
    ],
    "how": "metadata",
    "id": "albright-2018-co2-addition-reef",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1016/j.apenergy.2020.116048": {
    "files": [
@@ -37,7 +39,7 @@
    ],
    "how": "metadata",
    "id": "antonini-2021-power-density-limits",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1073/pnas.2103875118": {
    "files": [
@@ -47,7 +49,7 @@
    ],
    "how": "page text",
    "id": "antonini-2021-spatial-constraints",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/s43247-024-01260-7": {
    "files": [
@@ -82,7 +84,7 @@
    ],
    "how": "title match",
    "id": "bala-2007-deforestation",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1175/jcli3542.1": {
    "files": [
@@ -97,7 +99,7 @@
    ],
    "how": "page text",
    "id": "ban-weiss-2010-optimization",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/2515-7620/abb413": {
    "files": [
@@ -105,7 +107,7 @@
    ],
    "how": "metadata",
    "id": "brown-2020-break-even-year",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.287.5453.620": {
    "files": [
@@ -114,7 +116,7 @@
    ],
    "how": "title match",
    "id": "caldeira-2000-southern-ocean",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1029/gl017i009p01299": {
    "files": [
@@ -146,7 +148,7 @@
    ],
    "how": "metadata",
    "id": "caldeira-2023-green-premium",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1078938": {
    "files": [
@@ -154,7 +156,7 @@
    ],
    "how": "page text",
    "id": "caldeira-2003-climate-sensitivity-uncertainty",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/7/3/034015": {
    "files": [
@@ -164,7 +166,7 @@
    ],
    "how": "page text",
    "id": "cao-2012-fast-response-days-weeks",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1002/2017gl074281": {
    "files": [
@@ -178,13 +180,15 @@
    ],
    "how": "metadata",
    "id": "cao-2015-fast-slow-responses",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1029/2011gl046713": {
    "files": [
     "Cao_et_al_GRL2011_short-term-precip-increase.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "cao-2011-precipitation-co2-forcing",
+   "has_figure": false
   },
   "10.1073/pnas.0913000107": {
    "files": [
@@ -226,7 +230,7 @@
    ],
    "how": "page text",
    "id": "davis-2011-supply-chain-emissions",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1188566": {
    "files": [
@@ -235,7 +239,7 @@
    ],
    "how": "page text",
    "id": "davis-2010-committed-emissions",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.aas9793": {
    "files": [
@@ -252,7 +256,7 @@
    ],
    "how": "metadata",
    "id": "dowling-2020-long-duration-storage",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/ad6018": {
    "files": [
@@ -280,7 +284,7 @@
    ],
    "how": "metadata",
    "id": "duan-2025-adaptation-abatement",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/abbe46": {
    "files": [
@@ -288,7 +292,7 @@
    ],
    "how": "metadata",
    "id": "duan-2020-climate-development-goals",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1029/2018jd029034": {
    "files": [
@@ -300,7 +304,9 @@
    "files": [
     "Duan-et-al_NatureEnergy2022_flexible-nuclear-wind-solar(w-supp).pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "duan-2022-flexible-nuclear",
+   "has_figure": false
   },
   "10.1016/s0921-8181(02)00195-9": {
    "files": [
@@ -314,7 +320,9 @@
     "Herzog-et-al_ClimChange2003_temporary-storage.pdf",
     "Herzog_et_al_ClimaticChange2003.pdf"
    ],
-   "how": "title match"
+   "how": "title match",
+   "id": "herzog-2003-permanence-temporary-storage",
+   "has_figure": false
   },
   "10.1126/science.1072357": {
    "files": [
@@ -326,7 +334,7 @@
    ],
    "how": "title match",
    "id": "hoffert-2002-advanced-technology-paths",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/ac69fd": {
    "files": [
@@ -344,7 +352,9 @@
    "files": [
     "Marvel-et-al_NatureCC2012_geophysical-limits-wind.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "marvel-2013-geophysical-limits-wind",
+   "has_figure": false
   },
   "10.1073/pnas.0700419104": {
    "files": [
@@ -356,7 +366,7 @@
    ],
    "how": "title match",
    "id": "matthews-2007-geoengineering-transient",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1029/2007gl032388": {
    "files": [
@@ -365,7 +375,7 @@
    ],
    "how": "page text",
    "id": "matthews-2008-near-zero-emissions",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/nature08133": {
    "files": [
@@ -373,7 +383,9 @@
     "Pagani_et_al_Nature2009 (2).pdf",
     "Pagani_et_al_Nature2009.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "pagani-2009-terrestrial-plants-co2",
+   "has_figure": false
   },
   "10.1126/science.1136110": {
    "files": [
@@ -381,14 +393,18 @@
     "Pagani_et_al_Science2006_PETM.pdf",
     "Pagani_etal_Science2006.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "pagani-2006-ancient-carbon-mystery",
+   "has_figure": false
   },
   "10.1038/nclimate1373": {
    "files": [
     "Pongratz-et-al_NatureCC2012_geoeng-crop-yields.pdf",
     "Pongratz_et_al_NatureCC2012_large.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "pongratz-2012-geoengineered-crop-yields",
+   "has_figure": false
   },
   "10.1073/pnas.1705710114": {
    "files": [
@@ -399,13 +415,15 @@
    ],
    "how": "page text",
    "id": "possner-2017-open-ocean-wind",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1093/mnras/stv2088": {
    "files": [
     "Rampino-Caldeira_MNRAS2015_impact-cratering-extinction-260-myr.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "rampino-2015-impact-cratering-periodicity",
+   "has_figure": false
   },
   "10.1088/1748-9326/8/3/034003": {
    "files": [
@@ -413,7 +431,7 @@
    ],
    "how": "page text",
    "id": "ricke-2013-coral-reef-risk",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1088342": {
    "files": [
@@ -422,7 +440,7 @@
    ],
    "how": "page text",
    "id": "ridgwell-2003-carbonate-climate-stability",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1007/s00382-023-06799-3": {
    "files": [
@@ -437,13 +455,15 @@
    ],
    "how": "metadata",
    "id": "rugenstein-2016-radiative-feedbacks",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1016/j.adapen.2024.100185": {
    "files": [
     "Ruggles-et-al_AdvApplEnergy2024_planning-reliable-wind-solar (w Supp).pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "ruggles-2024-planning-reliable-systems",
+   "has_figure": false
   },
   "10.1039/c7ee03029k": {
    "files": [
@@ -452,7 +472,7 @@
    ],
    "how": "metadata",
    "id": "shaner-2018-us-reliability",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/11/10/104007": {
    "files": [
@@ -472,7 +492,7 @@
    ],
    "how": "metadata",
    "id": "tong-2019-committed-emissions",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/s41467-021-26355-z": {
    "files": [
@@ -488,7 +508,7 @@
    ],
    "how": "metadata",
    "id": "tong-2020-storage-cost-reductions",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/aa6e8a": {
    "files": [
@@ -502,7 +522,7 @@
    ],
    "how": "metadata",
    "id": "wang-2019-induced-efficiency",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/sciadv.1500589": {
    "files": [
@@ -510,7 +530,7 @@
    ],
    "how": "page text",
    "id": "winkelmann-2015-antarctic-ice-sheet",
-   "has_figure": false
+   "has_figure": true
   }
  },
  "unmatched": [

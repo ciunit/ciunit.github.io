@@ -59,6 +59,30 @@ matters:
     dioxide removal that means reducing cost; for solar geoengineering it means understanding
     risk and building governance, since cost reduction would accomplish nothing.
 
+figure:
+  file: caldeira-2013-science-of-geoengineering.webp
+  source_figure: Figure 4
+  alt: >
+    Four world maps in two rows. The left column shows annual mean temperature change in degrees
+    Celsius on a scale from minus 1 to 7; the right column shows annual mean precipitation change
+    in metres per year on a scale from minus 1.3 to 1.3. The top row is doubled carbon dioxide,
+    with warming of roughly 2 to 3 degrees over most of the globe and more at the poles, and
+    substantial precipitation changes concentrated in the tropics. The bottom row adds a 1.84 per
+    cent reduction in solar insolation: temperature change is close to zero nearly everywhere,
+    with small residual warming remaining at the poles, and the precipitation pattern is much
+    weaker but not eliminated.
+  caption: >
+    Reducing sunlight to offset doubled carbon dioxide removes most of the temperature change
+    but leaves residual warming at the poles, and it does not restore the hydrological cycle —
+    an overall decrease in precipitation remains. The two panels in the bottom row are the whole
+    argument about what solar geoengineering can and cannot substitute for.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira, Bala, and Cao (2013), Annual Review of Earth and Planetary Sciences 41, 231-256,
+    reproducing Caldeira and Wood (2008)
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - ban-weiss-2010-optimization
   - matthews-2007-geoengineering-transient

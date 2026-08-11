@@ -15,6 +15,20 @@ region at high resolution.
     # which papers have a page, need a figure, and have a PDF
     python3 scripts/extract_figures.py --list
 
+Scanned PDFs have no text layer, so there are no captions to find and the two
+commands above return nothing. For those, render the pages, look at them, and
+crop by eye with an explicit rectangle in PDF points:
+
+    # page images into .figure-candidates/, for choosing a page and a crop
+    python3 scripts/extract_figures.py --pages <paper-id>
+    python3 scripts/extract_figures.py --pages <paper-id> --page 3 --dpi 150
+
+    # render an explicit rectangle instead of a detected figure region
+    python3 scripts/extract_figures.py --extract <paper-id> --page 3 \
+        --rect 54,90,545,430
+
+Record either kind of choice in content/figure-picks.json so it can be rebuilt.
+
 Licence is not decided here — see CLAUDE.md, "Paper pages and GEO". Record it in
 the paper's YAML before the figure will render.
 """
@@ -220,23 +234,67 @@ def contact(paper_id: str, papers: dict, mapping: dict) -> int:
     return 0
 
 
+def render_pages(paper_id: str, papers: dict, mapping: dict, page: int | None = None,
+                 dpi: int = 110) -> int:
+    """Write page images to .figure-candidates/, for PDFs the detector cannot read.
+
+    A scan has no text layer, so find_figures() returns nothing and there is no
+    caption to anchor a crop to. The only way through is to look at the pages and
+    choose a rectangle by eye; this renders them so that can be done."""
+    paper = papers[paper_id]
+    path = pdf_for(paper, mapping)
+    if not path:
+        print(f"no PDF for {paper_id}", file=sys.stderr)
+        return 1
+    SCRATCH.mkdir(exist_ok=True)
+    with pymupdf.open(path) as doc:
+        pages = [page - 1] if page else range(doc.page_count)
+        for i in pages:
+            if not 0 <= i < doc.page_count:
+                print(f"{paper_id}: no page {i + 1} (of {doc.page_count})", file=sys.stderr)
+                return 1
+            dest = SCRATCH / f"{paper_id}-p{i + 1}.png"
+            doc[i].get_pixmap(dpi=dpi).save(dest)
+            r = doc[i].rect
+            print(f"{dest}  page rect 0,0,{r.x1:.0f},{r.y1:.0f} pt")
+    return 0
+
+
 def extract(paper_id: str, num: int, papers: dict, mapping: dict, dpi: int = 600,
-            trim: dict | None = None) -> int:
-    """Render figure `num` of `paper_id`. `trim` optionally removes a fraction of
-    each side (keys left/right/top/bottom), for the occasional layout where a
-    journal spine label or watermark sits inside the detected region as a drawing
-    rather than as text, and so cannot be filtered out automatically."""
+            trim: dict | None = None, page: int | None = None,
+            rect: list | None = None) -> int:
+    """Render figure `num` of `paper_id`, or an explicit region of `page`.
+
+    `trim` optionally removes a fraction of each side (keys left/right/top/bottom),
+    for the occasional layout where a journal spine label or watermark sits inside
+    the detected region as a drawing rather than as text, and so cannot be filtered
+    out automatically.
+
+    `page` (1-based) with `rect` ([x0, y0, x1, y1] in PDF points) bypasses caption
+    detection entirely and renders exactly that region. That is the only route for
+    a scanned PDF, and the escape hatch when the detected region shears an axis
+    label off — the detector can shrink a region but never grow one."""
     paper = papers[paper_id]
     path = pdf_for(paper, mapping)
     if not path:
         print(f"no PDF for {paper_id}", file=sys.stderr)
         return 1
     with pymupdf.open(path) as doc:
-        figs = {f["num"]: f for f in find_figures(doc)}
-        if num not in figs:
-            print(f"{paper_id}: no figure {num} (have {sorted(figs)})", file=sys.stderr)
-            return 1
-        f = figs[num]
+        if rect:
+            if not page:
+                print(f"{paper_id}: --rect needs --page", file=sys.stderr)
+                return 1
+            if not 1 <= page <= doc.page_count:
+                print(f"{paper_id}: no page {page} (of {doc.page_count})", file=sys.stderr)
+                return 1
+            f = {"page": page - 1, "rect": pymupdf.Rect(*rect),
+                 "caption": f"(explicit crop, page {page})"}
+        else:
+            figs = {f["num"]: f for f in find_figures(doc)}
+            if num not in figs:
+                print(f"{paper_id}: no figure {num} (have {sorted(figs)})", file=sys.stderr)
+                return 1
+            f = figs[num]
         rect = pymupdf.Rect(f["rect"])
         if trim:
             w, h = rect.width, rect.height
@@ -272,11 +330,16 @@ def main() -> int:
     def val(flag):
         return argv[argv.index(flag) + 1] if flag in argv else None
 
+    page = int(val("--page")) if val("--page") else None
+    rect = [float(v) for v in val("--rect").split(",")] if val("--rect") else None
+
     if pid := val("--contact"):
         return contact(pid, papers, m)
+    if pid := val("--pages"):
+        return render_pages(pid, papers, m, page=page, dpi=int(val("--dpi") or 110))
     if pid := val("--extract"):
         return extract(pid, int(val("--figure") or 1), papers, m,
-                       int(val("--dpi") or 600))
+                       int(val("--dpi") or 600), page=page, rect=rect)
     print(__doc__)
     return 1
 

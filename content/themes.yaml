@@ -58,6 +58,18 @@
         places, and in many regions the most severe droughts on record predate any substantial
         wind power on the system
       paper: antonini-2024-wind-droughts
+    - claim: >
+        A wind, solar, and battery system planned on one year of weather loses load when
+        operated on weather it has not seen; reaching zero lost load across a decade takes
+        nearly 40 years of planning data, or 15 years if dispatchable generation may supply
+        5 per cent of demand
+      paper: ruggles-2024-planning-reliable-systems
+    - claim: >
+        The emissions-reduction level at which firm low-carbon generation enters a least-cost
+        system is set mainly by wind quality — countries with annual mean wind capacity factors
+        near 0.4 need far deeper decarbonization before it competes than countries at or below
+        0.25
+      paper: duan-2022-flexible-nuclear
 
   methods:
     - Both analyses are built on multi-decadal hourly weather reanalysis data rather than on
@@ -129,6 +141,21 @@
         becomes high-latitude-enhanced, so sensitivity inferred from short records understates
         the long-run response
       paper: rugenstein-2016-radiative-feedbacks
+    - claim: >
+        Land plants stop amplifying silicate-rock weathering once atmospheric CO2 falls near
+        150 to 250 ppm, and that failure of the biological sink explains why CO2 has not
+        dropped below about 200 to 250 ppm in 24 million years
+      paper: pagani-2009-terrestrial-plants-co2
+    - claim: >
+        Explaining the Paleocene-Eocene warming requires either a carbon release of 5,400 to
+        112,000 PgC with no known source, or a climate sensitivity far above the conventional
+        1.5 to 4.5 °C per doubling
+      paper: pagani-2006-ancient-carbon-mystery
+    - claim: >
+        Whether leaky carbon storage is nearly as good as permanent storage or worth nothing
+        depends entirely on the carbon price path — 97 per cent effective at 1,500 m ocean
+        depth under constant prices, 0 per cent if prices rise at the discount rate forever
+      paper: herzog-2003-permanence-temporary-storage
 
 - id: climate-and-energy
   title: Climate and energy
@@ -259,6 +286,11 @@
         without air conditioning, and would need GDP growth above their historical rates simply
         to prevent that number from rising
       paper: wongel-2025-cooling-deficit
+    - claim: >
+        The value of temporary carbon storage can be derived from a carbon price path and a
+        discount rate rather than stipulated by a ton-year horizon, and the same reservoir is
+        then worth 97 per cent of permanent storage or nothing at all depending on that path
+      paper: herzog-2003-permanence-temporary-storage
 
 - id: solar-geoengineering
   title: Solar geoengineering
@@ -318,6 +350,17 @@
         Solar geoengineering's deployment will be limited primarily by considerations of risk
         because it is cheap, whereas carbon dioxide removal's will be limited primarily by cost
       paper: caldeira-2013-science-of-geoengineering
+    - claim: >
+        Holding temperature at present-day levels in a doubled-CO2 world raised modelled global
+        yields relative to that unmanaged world by 14 per cent for maize, 21 per cent for wheat,
+        and 8 per cent for rice, because heat stress is removed while CO2 fertilization remains
+      paper: pongratz-2012-geoengineered-crop-yields
+    - claim: >
+        Removing a quadrupled-CO2 forcing raises global precipitation 5.1 per cent within a
+        year while removing an equivalent solar forcing lowers it immediately, because the fast
+        precipitation adjustment is about -4.2 per cent per CO2 doubling but near zero for
+        sunlight
+      paper: cao-2011-precipitation-co2-forcing
 
 - id: ocean-acidification
   title: Ocean acidification and the ocean carbon cycle
@@ -371,6 +414,11 @@
         dramatic CO2 fall that the record does not show — shallow-water carbonate deposition
         appears to have buffered ocean chemistry
       paper: caldeira-1993-kt-carbon-cycle
+    - claim: >
+        Adding alkalinity to the water flowing over a natural reef, restoring its chemistry
+        toward pre-industrial values, raised net community calcification by 6.9 per cent —
+        evidence that acidification is already suppressing reef growth
+      paper: albright-2016-reversal-acidification
 
 - id: wind-power-geophysics
   title: Geophysics of wind power
@@ -420,6 +468,15 @@
         tropics, from latent heat in the intertropical convergence zone, and in the polar night,
         where longwave cooling goes unopposed
       paper: ahbe-2017-available-potential-energy
+    - claim: >
+        Surface turbines could extract at least 428 TW and turbines throughout the atmosphere at
+        least 1,873 TW, against about 18 TW of global primary power demand, so wind is limited
+        by economics rather than by a global geophysical ceiling
+      paper: marvel-2013-geophysical-limits-wind
+    - claim: >
+        At the scale of global energy demand, uniformly distributed wind turbines would shift
+        zonal mean temperature by about 0.1 K and zonal mean precipitation by about 1 per cent
+      paper: marvel-2013-geophysical-limits-wind
 
 - id: paleoclimate
   title: Paleoclimate and Earth-system dynamics in geologic time
@@ -465,6 +522,11 @@
         confidence, matching the marine record, and all eight coeval pulses coincide with Large
         Igneous Province eruptions
       paper: rampino-2021-tetrapod-periodicity
+    - claim: >
+        A revised set of 37 dated impact craters yields a 25.8-million-year cycle and the eight
+        marine extinctions of the same interval a 27.0-million-year cycle at a similar phase,
+        with neither result resting on the Chicxulub impact and the end-Cretaceous extinction
+      paper: rampino-2015-impact-cratering-periodicity
 
 - id: macro-energy-modeling
   title: Macro-energy modeling
@@ -518,3 +580,14 @@
         more than half of industrial process heat demand at a saving in most regions below 45°
         latitude
       paper: wongel-2026-solar-process-heat
+    - claim: >
+        Lowering advanced nuclear capital cost from US$6,317 to US$4,000 per kilowatt-electric
+        cuts the cost of a fully decarbonized system by 15 to 25 per cent in all 42 countries
+        modelled, and thermal storage lets firm generation replace most of the storage such a
+        system would otherwise need
+      paper: duan-2022-flexible-nuclear
+    - claim: >
+        The marginal cost of buying reliability with more weather data rises steeply — one extra
+        planning year halves lost load, but beyond one or two years it exceeds a $10/kWh value
+        of lost load in systems without long-duration storage
+      paper: ruggles-2024-planning-reliable-systems

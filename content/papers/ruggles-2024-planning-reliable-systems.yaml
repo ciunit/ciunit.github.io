@@ -1,0 +1,146 @@
+id: ruggles-2024-planning-reliable-systems
+doi: 10.1016/j.adapen.2024.100185
+title: >
+  Planning reliable wind- and solar-based electricity systems
+authors:
+  - Tyler H. Ruggles
+  - Edgar Virgüez
+  - Natasha Reich
+  - Jacqueline Dowling
+  - Hannah Bloomfield
+  - Enrico G. A. Antonini
+  - Steven J. Davis
+  - Nathan S. Lewis
+  - Ken Caldeira
+journal: Advances in Applied Energy
+volume: "15"
+pages: "100185"
+date: "2024-09"
+year: 2024
+themes:
+  - wind-and-solar-reliability
+  - macro-energy-modeling
+
+description: >
+  Planning a wind, solar, and battery system on a single year of weather data leaves it losing
+  load when the weather differs; reaching zero lost load over a decade takes nearly 40 years of
+  weather data, or 15 years if dispatchable generation may supply 5% of demand.
+
+question:
+  - >
+    Electricity systems have historically been planned against averaged demand and generation
+    with a reserve margin on top. Wind and solar break that method, because their output varies
+    on every timescale from seconds to years, and the events that threaten reliability are
+    multi-day resource droughts rather than deviations from an average.
+  - >
+    Capacity expansion models are typically run on one, or a few, years of weather. This paper
+    asked how much weather history a planner actually needs — how resource adequacy improves as
+    more years enter the planning process, what that improvement costs, and whether the cost is
+    worth paying.
+
+key_finding: >
+  Least-cost systems planned on 40 years of weather data are needed for a wind, solar, and
+  battery system to serve all demand across a decade of previously unseen weather in half of
+  operational tests, whereas 15 years suffices if dispatchable generation may supply 5 per cent
+  of electricity demand.
+
+findings:
+  - >
+    Forty-two years of ERA5 weather over the contiguous United States, from 1979 to 2020, were
+    used to build wind and solar profiles and matched synthetic demand at four-hour resolution.
+    Systems were planned to zero lost load on a sample of years, then operated on ten years of
+    weather the planner had never seen, with capacities held fixed.
+  - >
+    Systems planned on a single year routinely failed in operation, losing 0.082 per cent of
+    demand in the solar-wind-battery case, 0.0074 per cent with dispatchable generation
+    permitted, and 1.00 per cent with hydrogen storage.
+  - >
+    The first extra year of data is the most valuable one. Adding a second planning year cut lost
+    load by more than half in every configuration, with the largest drop, 61 per cent, in the
+    case with dispatchable generation.
+  - >
+    Reaching complete resource adequacy in half the decade-long operational tests took 15
+    planning years with dispatchable generation available, and 40 planning years for both the
+    solar-wind-battery and the hydrogen configurations.
+  - >
+    More planning years also change what gets built, not merely how much. Between one and forty
+    planning years, solar capacity rose 71 per cent and battery capacity 110 per cent in the
+    solar-wind-battery case, while wind capacity fell 18 per cent — severe multi-day wind
+    droughts are far more common in the record than severe solar droughts, so a longer sample is
+    more likely to contain one.
+  - >
+    A small amount of dispatchable generation does most of what decades of data do. Limited to
+    5 per cent of annual demand but running in about 20 per cent of hours, it held the increase
+    in levelized cost between one and forty planning years to 3.0 per cent, and left asset
+    capacities largely insensitive to which weather years were sampled.
+  - >
+    Dispatchable generation also shrinks the system. Planned on one year, solar-wind-battery
+    systems carried 43 per cent more solar and 37 per cent more wind capacity than systems with
+    dispatchable generation, and curtailed 60 per cent of available wind and solar output against
+    38 per cent.
+  - >
+    In the hydrogen configuration, more planning years mainly bought long-duration storage —
+    hydrogen storage up 62 per cent and fuel cell capacity up 45 per cent, while battery capacity
+    fell 41 per cent and wind, solar, and electrolyzer capacities each moved less than 15 per
+    cent.
+  - >
+    Reliability bought this way is not always worth its price. Valuing lost load at $10 per
+    kilowatt-hour, the marginal cost of avoided lost load exceeded that value beyond one planning
+    year for solar-wind-battery systems and beyond two with dispatchable generation. For hydrogen
+    systems it stayed below $10 per kilowatt-hour all the way to 40 planning years.
+  - >
+    The worst operational failures shared a signature — severe wind droughts with 24-hour average
+    output near 10 per cent of nameplate capacity, in any season, and worst from April through
+    October when high solar output coincides with high cooling demand.
+  - >
+    Results were essentially unchanged at one-, two-, three-, and four-hour time steps, because
+    the events that drive system builds last many hours or longer.
+
+matters:
+  - >
+    It puts a number on a gap between research practice and reliability. Single-year and few-year
+    planning studies are common, and this shows that systems designed that way lose load when the
+    weather does something the sample did not contain.
+  - >
+    The result is not simply that reliability is expensive — it is that the last increments of
+    reliability bought through weather data are expensive, while the first are cheap. One extra
+    planning year halves lost load; the marginal cost then climbs past any reasonable value of
+    lost load within a few more years.
+  - >
+    Five per cent dispatchable generation substitutes for twenty-five years of weather history.
+    That reframes the role of a small firm fraction in a renewable system as a hedge against
+    planning uncertainty as much as a hedge against real-time shortfall.
+
+figure:
+  file: ruggles-2024-planning-reliable-systems.webp
+  source_figure: Figure 2
+  alt: >
+    A three-by-three grid of panels, one column for each system — solar plus wind plus battery,
+    the same with dispatchable generation, and the same with hydrogen. The horizontal axis of
+    every panel is the number of years of weather data used in planning, from 1 to 40. The top
+    row shows mean levelized cost of electricity as stacked bands by technology, rising with
+    more planning years in the first and third columns and almost flat in the second. The middle
+    row shows the percentage change in mean asset capacity from the one-year case: battery and
+    solar rise steeply and wind falls in the first column; dispatchable generation rises and the
+    rest barely move in the second; hydrogen storage and fuel cell rise while battery falls
+    sharply in the third. The bottom row shows lost load over a decade of operation on a
+    logarithmic axis, falling steadily in all three columns, with shaded bands for the spread
+    across system builds.
+  caption: >
+    Planning on more years of weather buys reliability and costs money, and how much of each
+    depends on what the system is made of. Lost load falls in every configuration as more
+    weather enters the planning (bottom row), but the cost of that reliability is steep for
+    solar, wind, and batteries alone and almost nil when dispatchable generation is available
+    (top row).
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Ruggles et al. (2024), Advances in Applied Energy 15, 100185
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - antonini-2024-wind-droughts
+  - tong-2021-geophysical-constraints
+  - dowling-2020-long-duration-storage
+  - shaner-2018-us-reliability

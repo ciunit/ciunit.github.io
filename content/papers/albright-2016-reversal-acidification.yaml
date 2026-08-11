@@ -1,0 +1,124 @@
+id: albright-2016-reversal-acidification
+doi: 10.1038/nature17155
+title: >
+  Reversal of ocean acidification enhances net coral reef calcification
+authors:
+  - Rebecca Albright
+  - Lilian Caldeira
+  - Jessica Hosfelt
+  - Lester Kwiatkowski
+  - Jana K. Maclaren
+  - Benjamin M. Mason
+  - Yana Nebuchina
+  - Aaron Ninokawa
+  - Julia Pongratz
+  - Katharine L. Ricke
+  - Tanya Rivlin
+  - Kenneth Schneider
+  - Marine Sesboüé
+  - Kathryn Shamberger
+  - Jacob Silverman
+  - Kennedy Wolfe
+  - Kai Zhu
+  - Ken Caldeira
+journal: Nature
+volume: "531"
+pages: 362-365
+date: "2016-03-24"
+year: 2016
+themes:
+  - ocean-acidification
+
+description: >
+  Adding alkalinity to seawater flowing over a Great Barrier Reef flat, restoring chemistry
+  toward pre-industrial values, raised net community calcification by 6.9%, which indicates
+  ocean acidification is already suppressing reef growth.
+
+question:
+  - >
+    Coral reef calcification has declined over recent decades, but attributing that decline to
+    ocean acidification has been close to impossible. In the field, saturation state co-varies
+    with temperature, light, nutrients, and productivity, so a correlation with reef growth
+    identifies nothing on its own. Laboratory and mesocosm work isolates the chemistry but not in
+    a natural community.
+  - >
+    This paper asked whether the chemistry could be manipulated in the field instead — pushing a
+    real reef's seawater back toward pre-industrial conditions and measuring what its calcifiers
+    did in response.
+
+key_finding: >
+  Raising the alkalinity of seawater flowing over a One Tree Reef flat, which lifted the
+  aragonite saturation state by about 0.4 units toward pre-industrial values, increased net
+  community calcification by 6.9 ± 0.9 per cent — the first seawater chemistry manipulation of a
+  natural coral reef community, and evidence that reef growth is already depressed by
+  acidification.
+
+findings:
+  - >
+    The experiment exploited a natural flow. At One Tree Reef in the southern Great Barrier Reef,
+    First Lagoon sits about 30 centimetres above Third Lagoon, so for roughly 60 minutes after
+    each low tide water runs one way across the reef flat between them.
+  - >
+    On 15 of 22 days, sodium hydroxide and the inert dye Rhodamine WT were pumped onto that flat
+    together; on the other 7 days dye alone was added as a control. Comparing the ratio of
+    alkalinity to dye upstream and downstream separates biological uptake from mixing and
+    dilution, since only alkalinity is consumed by calcification.
+  - >
+    An average of 17.3 ± 2.3 per cent of the added alkalinity was taken up by the reef community.
+    Upstream and downstream alkalinity-to-dye slopes differed significantly on experiment days
+    and not on control days.
+  - >
+    Converting that uptake to a rate gives a 6.9 ± 0.9 per cent increase in net community
+    calcification, significantly greater than on control days.
+  - >
+    The size of the response is what the chemistry predicts. Aragonite saturation state was
+    raised by an average of 0.4 units across the study area, and the roughly 15 per cent
+    calcification response per saturation unit found in laboratory work implies a 6 per cent
+    increase — close to the 6.9 per cent observed, though the comparison between single-species
+    studies and a mixed reef community should be treated cautiously.
+  - >
+    Tropical surface waters have fallen from an aragonite saturation state of about 4.5 before
+    industrialization to about 3.8 by 1995, and are projected to reach roughly 3.0 by
+    mid-century and 2.3 by 2100.
+
+matters:
+  - >
+    It converts a correlation into an experiment. Because alkalinity was added directly, its
+    effect is uncoupled from temperature, light, and the other drivers that move with it in
+    nature — so the reef's response can be attributed to carbonate chemistry rather than merely
+    associated with it.
+  - >
+    The direction of the manipulation is what makes the inference work. Restoring chemistry
+    toward pre-industrial values increased calcification, which means present-day calcification
+    is below its pre-industrial value. Acidification is not only a future risk to reef growth; it
+    is already subtracting from it.
+  - >
+    Deliberate alkalinity addition has been proposed as a way to shield reefs from acidification.
+    These results show it could work in principle, but the volumes involved make it plausible
+    only in highly confined settings such as protected bays and lagoons. Protecting reefs at
+    ocean scale still requires deep and rapid cuts in carbon dioxide emissions.
+
+figure:
+  file: albright-2016-reversal-acidification.webp
+  source_figure: Figure 4
+  alt: >
+    Two bar charts comparing control days with experiment days. Panel a plots the
+    alkalinity-to-dye slope in micromoles per kilogram per part per billion, for upstream in
+    blue and downstream in green. On control days both are near zero; on experiment days both
+    are strongly positive, with upstream at about 3.5 clearly higher than downstream at about
+    2.9. Panel b plots the percentage change in net calcification, slightly negative on control
+    days with a wide error bar and about 7 per cent on experiment days with a narrow one.
+  caption: >
+    The gap between the upstream and downstream bars on experiment days (panel a) is the
+    alkalinity the reef took up, and converting it to a rate gives the roughly 7 per cent
+    increase in net community calcification (panel b). On control days, with dye but no added
+    alkalinity, there is no such gap.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Albright et al. (2016), Nature 531, 362-365
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - albright-2018-co2-addition-reef
+  - ricke-2013-coral-reef-risk

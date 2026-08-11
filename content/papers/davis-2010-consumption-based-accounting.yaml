@@ -56,5 +56,27 @@ matters:
     emissions occasioned by its consumption occur abroad, then policies confined to its own
     territory address only part of its footprint.
 
+figure:
+  file: davis-2010-consumption-based-accounting.webp
+  source_figure: Figure 4
+  alt: >
+    Three pairs of world maps for 2004, each pair a global map with a European inset, showing
+    consumption-based emissions minus production-based emissions — the net effect of carbon
+    dioxide embodied in trade. The top pair is in megatonnes of carbon dioxide per year, from
+    minus 400 in blue to plus 400 in red, with the United States and Western Europe strongly red
+    and China and Russia strongly blue. The middle pair normalizes by GDP and the bottom pair by
+    population; on the per-capita map most of Western Europe, the United States, and Japan are
+    red while China, Russia, and South Africa are blue.
+  caption: >
+    Where emissions are counted decides who appears responsible. Wealthy consuming regions —
+    Western Europe, the United States, Japan — import more emissions than they export, and the
+    manufacturing economies that supply them export more than they import; the per-capita map
+    (bottom) shows the imbalance is not merely a matter of country size.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Davis and Caldeira (2010), Proceedings of the National Academy of Sciences 107, 5687-5692
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - davis-2011-supply-chain-emissions

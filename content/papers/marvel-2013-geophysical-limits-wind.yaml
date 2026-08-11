@@ -1,0 +1,115 @@
+id: marvel-2013-geophysical-limits-wind
+doi: 10.1038/nclimate1683
+title: >
+  Geophysical limits to global wind power
+authors:
+  - Kate Marvel
+  - Ben Kravitz
+  - Ken Caldeira
+journal: Nature Climate Change
+volume: "3"
+pages: 118-121
+date: "2013-02"
+year: 2013
+themes:
+  - wind-power-geophysics
+
+description: >
+  Turbines at the Earth's surface could extract at least 400 terawatts from the winds and
+  turbines throughout the atmosphere at least 1,800 terawatts, against a global primary power
+  demand of about 18 terawatts, so wind power will be limited by economics rather than geophysics.
+
+question:
+  - >
+    Extracting energy from the wind slows the wind. Enough turbines would therefore extract less,
+    not more — in the limit of infinite drag the atmosphere stops moving and there is nothing
+    left to take. Somewhere between those extremes lies a maximum rate of extraction set by the
+    atmosphere itself.
+  - >
+    This paper asked where that geophysical maximum lies, both for turbines at the surface and
+    for high-altitude wind power throughout the depth of the atmosphere, and what the climate
+    would look like at extraction rates approaching it.
+
+key_finding: >
+  Adding drag to a global climate model shows that wind turbines at the Earth's surface could
+  extract kinetic energy at a rate of at least 428 terawatts and turbines distributed through the
+  whole atmosphere at least 1,873 terawatts — more than 20 and more than 100 times the roughly
+  18 terawatts of present global primary power demand.
+
+findings:
+  - >
+    Drag was added to the CAM3.5 climate model, either in the near-surface layers alone or
+    uniformly through the whole atmosphere, and the rate of kinetic energy transferred to those
+    added momentum sinks was tracked as the drag was increased.
+  - >
+    Extraction rises with added drag and then must turn over. The simulations approach but do not
+    reach the turnover, so the reported figures — 428 terawatts near the surface, 1,873 terawatts
+    through the whole atmosphere — are lower bounds on the geophysical limit rather than the
+    limit itself.
+  - >
+    Extraction is not free of consequence for the atmosphere's energetics. Each additional watt
+    extracted near the surface lowers total atmospheric kinetic energy by 80 kilojoules; each
+    watt extracted through the whole atmosphere lowers it by 400 kilojoules.
+  - >
+    Whole-atmosphere extraction largely pays for itself out of increased production. Total
+    atmospheric kinetic energy production rises by about 0.8 watts per watt extracted, sustained
+    by increased conversion of available potential energy — up to about 1,600 terawatts, beyond
+    which production and poleward heat transport both decline.
+  - >
+    That breakdown marks a regime shift in the circulation. In the most extreme
+    whole-atmosphere case the Hadley cells extend all the way to the poles, each hemisphere
+    transporting heat with a single overturning cell, and mass-weighted mean wind speed falls
+    from 18.5 to 3.1 metres per second.
+  - >
+    At extraction rates near 428 terawatts, zonal mean temperature changes by about 1 kelvin and
+    zonal mean precipitation by about 10 per cent. Scaling those effects down to the roughly 18
+    terawatts of global energy demand gives zonal mean changes of about 0.1 kelvin and about
+    1 per cent.
+  - >
+    The sign of the global mean temperature effect depends on where the energy is taken. At the
+    level of global demand, uniformly distributed near-surface turbines warm the Earth by 0.03
+    kelvin while turbines distributed through the atmosphere cool it by 0.007 kelvin; global mean
+    precipitation falls in both cases.
+
+matters:
+  - >
+    It answers the resource question and closes it. There is far more power in the winds than
+    civilization uses, by a factor of at least twenty even confining turbines to the surface, so
+    the case against wind power cannot be that the atmosphere does not contain enough energy.
+  - >
+    It also disposes of the objection that using wind at scale would itself change the climate.
+    The climatic effects are large only at extraction rates twenty times global demand; at the
+    scale civilization actually needs, uniformly distributed turbines shift zonal mean
+    temperature by about a tenth of a kelvin.
+  - >
+    What limits wind power is therefore economics, siting, and local environmental
+    considerations — not a global geophysical ceiling. The binding constraints on wind lie
+    elsewhere, in where the resource is and when it arrives.
+
+figure:
+  file: marvel-2013-geophysical-limits-wind.webp
+  source_figure: Figure 2
+  alt: >
+    Two stacked line plots against latitude from 90 degrees south to 90 degrees north, each with
+    a red line for drag added near the surface, extracting 428 terawatts, and a blue line for
+    drag added throughout the atmosphere, extracting 429 terawatts. The upper panel shows the
+    change in zonal mean temperature in kelvin: the red line is mostly positive, around plus
+    half a kelvin through the tropics, while the blue line is mostly around minus one kelvin,
+    and both plunge to about minus three at the North Pole. The lower panel shows the percentage
+    change in zonal mean precipitation, with both lines oscillating between roughly plus 17 and
+    minus 21 per cent and mostly below zero.
+  caption: >
+    At extraction rates more than twenty times global energy demand, the two ways of taking the
+    energy have opposite temperature effects — surface drag warms, whole-atmosphere drag cools —
+    while both dry the planet. Scaled down to the roughly 18 terawatts civilization actually
+    uses, these become changes of about a tenth of a kelvin and about 1 per cent.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Marvel, Kravitz, and Caldeira (2013), Nature Climate Change 3, 118-121
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - possner-2017-open-ocean-wind
+  - antonini-2021-power-density-limits
+  - ahbe-2017-available-potential-energy

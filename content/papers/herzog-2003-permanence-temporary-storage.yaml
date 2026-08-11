@@ -1,0 +1,125 @@
+id: herzog-2003-permanence-temporary-storage
+doi: 10.1023/A:1024801618900
+title: >
+  An Issue of Permanence: Assessing the Effectiveness of Temporary Carbon Storage
+authors:
+  - Howard Herzog
+  - Ken Caldeira
+  - John Reilly
+journal: Climatic Change
+volume: "59"
+pages: 293-310
+date: "2003-08"
+year: 2003
+themes:
+  - climate-and-carbon-cycle
+  - climate-and-economics
+
+description: >
+  Whether leaky carbon storage is nearly as good as permanent storage or nearly worthless
+  depends entirely on the carbon price path — ocean injection at 1,500 metres scores 97%
+  effectiveness under constant carbon prices and 0% if prices rise at the discount rate forever.
+
+question:
+  - >
+    Carbon put into trees, soils, geologic formations, or the ocean may come back out. That has
+    driven a long argument over how much credit temporary storage deserves, usually settled by
+    ton-year accounting — treat storage beyond some horizon, conventionally 100 years, as
+    permanent and discount anything shorter.
+  - >
+    The peculiarity of that convention is that the answer is entirely determined by the horizon
+    chosen, and nothing connects the choice of horizon to any underlying economics. This paper
+    asked whether the value of temporary storage can be derived rather than stipulated.
+  - >
+    The framing also cuts the other way. Emissions avoided today are conventionally treated as
+    avoided forever, but unburned fossil fuel can be mined and burned later — absent a binding
+    cumulative cap, cheaper resources left in the ground raise future emissions. Permanence is
+    therefore an issue for nearly every mitigation option, not only for leaky reservoirs.
+
+key_finding: >
+  Defining sequestration effectiveness as the discounted benefit of temporary storage relative to
+  permanent storage makes the answer depend on the carbon price path — for ocean injection at
+  1,500 metres and a 3% discount rate, effectiveness is 97.2% if carbon prices stay constant,
+  79.7% if they rise at the discount rate for 100 years before a backstop technology caps them,
+  and exactly 0% if they rise at the discount rate indefinitely.
+
+findings:
+  - >
+    Sequestration effectiveness is defined as the ratio of the discounted benefit of storing
+    carbon in a leaky reservoir to the benefit of storing it permanently. The absolute level of
+    the carbon price cancels out of that ratio, so the result turns on the shape of the price
+    path rather than on any view about how high carbon prices ought to be.
+  - >
+    Three price paths bracket the possibilities. Constant prices correspond to constant marginal
+    damages; prices rising at the discount rate correspond to efficient allocation under a fixed
+    cumulative emissions cap with no backstop; and rising prices that flatten after t* years
+    correspond to a backstop technology arriving at that date.
+  - >
+    Leakage rates came from a one-dimensional box-diffusion ocean model, tuned to bomb
+    radiocarbon inventories, for carbon dioxide injected at 500, 1,000, 1,500, 2,000, and 3,000
+    metres.
+  - >
+    Under constant carbon prices, delay is genuinely worth something and depth buys almost
+    everything. Effectiveness at a 3% discount rate is 66.3% at 500 metres, 97.2% at 1,500
+    metres, and 99.96% at 3,000 metres — deep ocean storage is then all but equivalent to
+    permanent storage.
+  - >
+    Under prices rising at the discount rate with no backstop, effectiveness is 0% at every
+    depth. If a ton emitted a thousand years from now costs the same in present value as a ton
+    emitted today, delay buys nothing and permanence becomes a necessary criterion.
+  - >
+    The intermediate case, probably the most realistic, makes the answer a race between leakage
+    and innovation. At 3,000 metres only 5% leaks in the first 280 years, so effectiveness stays
+    high even for a backstop 200 years away; at 500 metres 5% has leaked within 5 years, so
+    effectiveness is poor even for a backstop 20 years away.
+  - >
+    Optimal injection depth therefore follows from the price path rather than from the physics
+    alone — about 1,500 metres under constant prices or a backstop within 20 years, at least
+    2,000 metres for a backstop at 100 years, and 3,000 metres for one at 200 years. The
+    conventional advice to inject as deep as possible is not robust.
+  - >
+    Raising the discount rate above 3% changes little, but lowering it matters a great deal. At
+    a zero discount rate, sequestration effectiveness goes to zero in every case.
+
+matters:
+  - >
+    It replaces an arbitrary convention with an explicit economic calculation. Ton-year
+    accounting hides its assumptions in the choice of a horizon; this framework puts them in the
+    open as a carbon price path and a discount rate, where they can be argued about directly.
+  - >
+    It shows why the permanence debate persists. Reasonable people reach opposite conclusions
+    about leaky storage because they hold different implicit views about whether the world faces
+    a fixed cumulative emissions budget or a stream of marginal damages, and those views imply
+    effectiveness figures of 0% and 97% for the same reservoir.
+  - >
+    The point that avoided emissions are themselves impermanent widens the argument beyond
+    sequestration. If fossil fuel left unburned today is burned later, then energy efficiency and
+    fuel switching also leak into the future, and the sharp distinction usually drawn between
+    them and storage is harder to sustain.
+  - >
+    Effectiveness is only half of any decision. An option that is 50% effective is still the
+    better buy if it costs less than half as much per tonne — the paper supplies the benefit
+    side of that comparison and leaves the cost side out.
+
+figure:
+  file: herzog-2003-permanence-temporary-storage.webp
+  source_figure: Figure 1
+  alt: >
+    A line plot of the cumulative fraction of injected carbon dioxide that has leaked back to
+    the atmosphere, from 0 to 1, against years into the future, from 0 to 1,000. Five curves are
+    labelled by injection depth. The 500-metre curve rises almost immediately and is above 0.8
+    within about 200 years; each deeper curve rises more slowly, and the 3,000-metre curve is
+    still below 0.1 at 200 years and reaches only about 0.38 after 1,000 years.
+  caption: >
+    Depth buys time rather than permanence — every curve is climbing, and all of them approach
+    complete leakage eventually. Whether that time is worth anything is not a question this
+    figure can answer; it depends on how the carbon price behaves over the same interval.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Herzog, Caldeira, and Reilly (2003), Climatic Change 59, 293-310
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2000-southern-ocean
+  - caldeira-kasting-1993-warming-potentials
