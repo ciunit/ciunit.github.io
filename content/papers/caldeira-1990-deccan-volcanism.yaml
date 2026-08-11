@@ -1,0 +1,67 @@
+id: caldeira-1990-deccan-volcanism
+doi: 10.1029/GL017i009p01299
+title: >
+  Carbon dioxide emissions from Deccan volcanism and a K/T boundary greenhouse effect
+authors:
+  - Ken Caldeira
+  - Michael R. Rampino
+journal: Geophysical Research Letters
+volume: "17"
+pages: 1299-1302
+date: "1990"
+year: 1990
+themes:
+  - climate-and-carbon-cycle
+
+# The bio-page bullet describes this paper as the first estimate of the lifetime of a
+# CO2 perturbation in the combined atmosphere/ocean/land system, at about 300,000 years.
+# The abstract emphasises the K/T conclusion instead and does not state that number, so
+# the summary below follows the abstract. An author should confirm how the lifetime
+# result should be presented. See CLAUDE.md, "Paper pages and GEO".
+needs_review: true
+
+description: >
+  CO2 from the Deccan Traps eruptions would have raised atmospheric CO2 by less than 75 ppm
+  and warmed the planet by under 1 °C across several hundred thousand years — too weak to
+  have driven the end-Cretaceous extinctions.
+
+question:
+  - The Deccan Traps eruptions coincide with the end-Cretaceous mass extinction, and a
+    greenhouse warming driven by volcanic CO2 had been proposed as the cause of the
+    extinctions on land and in the sea.
+  - This paper asked whether the quantities work. How much CO2 did the eruptions actually
+    release, and how much warming would that amount of carbon produce once the ocean and the
+    carbon cycle are accounted for?
+
+key_finding: >
+  The Deccan Traps eruptions released an estimated 6 to 20 × 10^16 moles of CO2 over several
+  hundred thousand years, which would have raised atmospheric CO2 by less than 75 ppm and
+  produced less than 1 °C of global warming — too weak for the direct climate effects of that
+  CO2 to have been an important factor in the end-Cretaceous mass extinctions.
+
+findings:
+  - >
+    Total eruptive and non-eruptive CO2 output was estimated at 6 to 20 × 10^16 moles, built
+    up from the CO2 weight fraction of the original basalts and basaltic melts, the fraction
+    of that CO2 actually degassed, and the erupted volume of the Deccan Traps.
+  - >
+    A model of the effect of added CO2 on climate and ocean chemistry indicates the resulting
+    rise in atmospheric partial pressure of CO2 would have been under 75 ppm.
+  - >
+    The corresponding global warming is less than 1 °C, spread across several hundred
+    thousand years rather than delivered as a pulse.
+  - >
+    The reason the effect is so small is the timescale. Released slowly enough, CO2 is
+    substantially absorbed by the ocean and by weathering as it accumulates, so a very large
+    total release produces only a modest standing increase in concentration.
+
+matters:
+  - >
+    The result removes one candidate explanation for the end-Cretaceous extinctions on
+    quantitative grounds rather than on argument, narrowing the field of hypotheses that
+    remain viable.
+  - >
+    It also demonstrates a principle that carries directly into the present. The climate
+    consequence of a carbon release depends on the rate at which it is delivered, not only on
+    the total amount — which is why an emission that would be absorbed harmlessly across
+    hundreds of thousands of years is not harmless across two centuries.

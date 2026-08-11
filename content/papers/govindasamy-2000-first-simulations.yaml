@@ -1,0 +1,64 @@
+id: govindasamy-2000-first-simulations
+doi: 10.1029/1999GL006086
+title: Geoengineering Earth's radiation balance to mitigate CO2-induced climate change
+authors:
+  - Bala Govindasamy
+  - Ken Caldeira
+journal: Geophysical Research Letters
+volume: "27"
+pages: 2141-2144
+date: "2000"
+year: 2000
+themes:
+  - solar-geoengineering
+
+description: >
+  The first three-dimensional climate model simulations of solar geoengineering, showing
+  that reducing sunlight can markedly diminish regional and seasonal climate change from
+  doubled CO2 despite the two forcings having different spatial patterns.
+
+question:
+  - Reducing the sunlight reaching Earth would offset the global mean warming from higher CO2.
+    But sunlight and CO2 do not force the climate in the same geographic pattern — sunlight
+    peaks in the tropics and in summer, while CO2 acts everywhere and at all times.
+  - Because of that mismatch, it was widely assumed that cancelling the global mean would leave
+    substantial regional and seasonal climate change behind. No study had tested the assumption
+    directly. This paper did.
+
+key_finding: >
+  In simulations reducing solar luminosity to balance the radiative forcing from doubled
+  atmospheric CO2, geoengineering markedly diminished regional and seasonal climate change as
+  well as global mean warming, despite the differing spatial patterns of the two forcings —
+  though such schemes could still prove environmentally risky.
+
+findings:
+  - >
+    The experiment used the NCAR CCM3 atmospheric general circulation model, reducing solar
+    luminosity by the amount needed to balance the increased radiative forcing from doubling
+    atmospheric CO2.
+  - >
+    The regional and seasonal residuals were much smaller than expected. Cancelling the global
+    mean forcing largely cancelled the regional and seasonal climate change too.
+  - >
+    This was not the anticipated result. The reasoning that different forcing patterns must
+    produce different climate patterns turns out not to survive contact with a model that
+    resolves the atmospheric circulation, because the circulation redistributes energy and
+    smooths the difference.
+  - >
+    The paper is explicit that the finding does not make the approach safe. Geoengineering
+    schemes could still prove environmentally risky for reasons the temperature comparison does
+    not capture.
+
+matters:
+  - >
+    This was the first three-dimensional climate model study of solar geoengineering, and it
+    established the empirical basis for a debate that had until then been conducted on
+    intuition about forcing patterns.
+  - >
+    The result is a good example of a case where a plausible physical argument gives the wrong
+    answer. The mismatch between solar and CO2 forcing patterns is real; the inference that it
+    must produce large regional residuals is not.
+
+related:
+  - ban-weiss-2010-optimization
+  - matthews-2007-geoengineering-transient

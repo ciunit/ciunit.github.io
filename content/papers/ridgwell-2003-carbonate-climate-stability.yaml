@@ -1,0 +1,64 @@
+id: ridgwell-2003-carbonate-climate-stability
+doi: 10.1126/science.1088342
+title: Carbonate deposition, climate stability, and Neoproterozoic ice ages
+authors:
+  - Andy J. Ridgwell
+  - Martin J. Kennedy
+  - Ken Caldeira
+journal: Science
+volume: "302"
+pages: 859-862
+date: "2003"
+year: 2003
+themes:
+  - paleoclimate
+
+description: >
+  The evolution of plankton that build carbonate shells gave Earth a new climate buffer —
+  seafloor carbonate preservation — which explains why near-global ice ages happened before
+  they evolved and not since.
+
+question:
+  - The Neoproterozoic, before about 540 million years ago, saw ice ages of near-global extent
+    lasting millions of years, together with distinctive cap carbonate deposits. Nothing
+    comparable has happened since.
+  - This paper asked what changed. Specifically, whether the evolutionary rise of
+    shell-building plankton altered how the carbon cycle buffers itself, and whether that shift
+    can account for the difference between the Precambrian world and the one that followed.
+
+key_finding: >
+  The evolutionary success of planktic calcifiers during the Phanerozoic stabilized the
+  climate system by introducing saturation-dependent preservation of carbonate in sea-floor
+  sediments as a new buffering mechanism — before which buffering depended on shallow-water
+  carbonate deposition alone, leaving the Precambrian carbon cycle far more sensitive to the
+  loss of shallow-water environments.
+
+findings:
+  - >
+    Before planktic calcifiers evolved, ocean carbonate-ion concentration was buffered mainly
+    by adjustments in shallow-water carbonate deposition balancing the input of weathering
+    products from land.
+  - >
+    Once calcifying plankton became abundant, carbonate began raining onto the deep sea floor,
+    where the fraction preserved depends on saturation state. That dependence is a feedback,
+    and it operates over the whole ocean rather than only in shallow shelf seas.
+  - >
+    The older mechanism was fragile because it was geographically confined. A loss of
+    shallow-water environments removed the buffer, leaving the carbon cycle exposed.
+  - >
+    Neoproterozoic ice ages of near-global extent and multi-million-year duration, and the cap
+    carbonates that follow them, become intelligible in those terms — a weakly buffered carbon
+    cycle combined with the feedback between CO2, climate, and ice-sheet growth.
+
+matters:
+  - >
+    The paper makes a strong claim about the relationship between life and planetary stability.
+    Marine plankton are not merely passengers of the climate system; their evolution changed
+    how strongly that system resists perturbation.
+  - >
+    It also explains an absence, which is harder than explaining an event. Any account of the
+    Neoproterozoic ice ages must also explain why nothing similar has occurred in the
+    half-billion years since, and a change in buffering capacity does both at once.
+
+related:
+  - caldeira-1993-kt-carbon-cycle

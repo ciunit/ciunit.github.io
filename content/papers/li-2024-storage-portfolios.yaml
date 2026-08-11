@@ -1,0 +1,70 @@
+id: li-2024-storage-portfolios
+doi: 10.1021/acs.est.3c10188
+title: >
+  The influence of regional geophysical resource variability on the value of single- and
+  multistorage technology portfolios
+authors:
+  - Anna X. Li
+  - Edgar Virgüez
+  - Jacqueline A. Dowling
+  - Alicia Wongel
+  - Dominic Covelli
+  - Tyler H. Ruggles
+  - Natasha Reich
+  - Nathan S. Lewis
+  - Ken Caldeira
+journal: Environmental Science & Technology
+date: "2024"
+year: 2024
+themes:
+  - macro-energy-modeling
+
+description: >
+  In least-cost wind-and-solar systems, long-duration storage sized for seasonal needs already
+  has enough energy and power capacity to cover short-duration needs too — so adding batteries
+  as a second technology barely reduces system cost.
+
+question:
+  - Storage technologies differ in what they cost per unit of energy capacity and per unit of
+    power capacity, which suggests that a portfolio combining a cheap-energy technology with a
+    cheap-power one should beat either alone.
+  - This paper asked whether that intuition survives contact with a least-cost system model,
+    and whether the answer depends on the geophysical resource of the region being supplied.
+
+key_finding: >
+  In every load-balancing region investigated, least-cost systems that included long-duration
+  storage already had sufficient energy and power capacity to meet short-duration storage
+  needs as well, so adding short-duration storage as a second technology did not markedly
+  reduce total system cost.
+
+findings:
+  - >
+    The analysis uses a stylized macro-scale model of least-cost electricity systems relying
+    only on wind and solar, applied to the contiguous United States and to four geographically
+    diverse load-balancing regions.
+  - >
+    With only one storage technology deployed at current costs, hydrogen energy storage
+    produced the lowest system costs for the contiguous United States, because its
+    energy-capacity costs are the lowest of the technologies modelled.
+  - >
+    Hypothetical alternative technologies beat hydrogen only at very low energy-capacity costs,
+    but beat lithium-ion batteries at relatively high energy- and power-capacity costs — so the
+    competitive threshold differs sharply depending on which incumbent is being displaced.
+  - >
+    The portfolio result holds across all regions examined. Because long-duration storage sized
+    for seasonal variation necessarily carries substantial power capacity as well, it covers
+    the short-duration role as a by-product.
+
+matters:
+  - >
+    The finding cuts against a common assumption in storage planning. If a single
+    long-duration technology covers both roles, then a portfolio approach adds complexity for
+    little gain, and the case for deploying batteries alongside it must rest on something other
+    than least-cost system design.
+  - >
+    Testing across geographically diverse regions is what gives the conclusion weight. A result
+    that held only for the national aggregate might be an artefact of averaging away regional
+    resource variability; holding in each region separately makes it robust.
+
+related:
+  - dowling-2020-long-duration-storage

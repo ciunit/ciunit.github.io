@@ -1,0 +1,66 @@
+id: brown-2020-break-even-year
+doi: 10.1088/2515-7620/abb413
+title: >
+  Break-even year — a concept for understanding intergenerational trade-offs in climate
+  change mitigation policy
+authors:
+  - Patrick T. Brown
+  - Juan Moreno-Cruz
+  - Ken Caldeira
+journal: Environmental Research Communications
+volume: "2"
+pages: "095002"
+date: "2020"
+year: 2020
+themes:
+  - climate-and-economics
+
+description: >
+  The "break-even year" — when an economically optimal climate policy first produces net
+  global economic benefits — falls long after the generation that would enact the policy has
+  borne its costs, which helps explain why optimal policy is so hard to adopt.
+
+question:
+  - Climate-economy models consistently find that immediately restricting greenhouse gas
+    emissions, for instance through a global carbon price, would be in humanity's economic
+    interest quite apart from any environmental argument. Yet such policies have proved
+    extraordinarily difficult to enact.
+  - That is an apparent paradox, and this paper asked whether it resolves once the timing of
+    costs and benefits is made explicit — specifically, whether policies that are optimal for
+    humanity are optimal for the particular generation asked to launch them.
+
+key_finding: >
+  An economically optimal emissions policy does not begin producing global mean net economic
+  benefits until its break-even year, which arrives long enough after enactment that the
+  generation bearing the costs is largely not the generation receiving the benefits.
+
+findings:
+  - >
+    The paper introduces the break-even year, defined as the year in which an economically
+    optimal policy first produces net global economic benefits, as a way of making the
+    intergenerational distribution of a policy's effects explicit.
+  - >
+    Applied to DICE, a widely used climate-economy model, the break-even year for an
+    optimal emissions restriction falls decades into the future — on the authors' reading of
+    the results, benefits from abatement are mostly more than half a century away.
+  - >
+    Costs, by contrast, begin immediately. The generation that enacts the policy pays for it
+    in full and receives comparatively little of the return.
+  - >
+    That gap offers an explanation for the paradox. A policy can be optimal when summed over
+    all future people and still be unattractive to the only people in a position to adopt it.
+
+matters:
+  - >
+    The concept reframes what kind of problem climate mitigation is. If the obstacle were
+    economic inefficiency, better analysis would help; if the obstacle is that the costs and
+    benefits accrue to different generations, then the problem is one of distribution and no
+    amount of demonstrating net benefit will resolve it.
+  - >
+    It also indicates where complementary policy is needed. Measures whose returns arrive
+    quickly — adaptation in particular — can align the interests of the present generation
+    with actions that also serve future ones.
+
+related:
+  - duan-2025-adaptation-abatement
+  - duan-2020-climate-development-goals

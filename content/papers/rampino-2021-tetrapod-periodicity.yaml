@@ -1,0 +1,65 @@
+id: rampino-2021-tetrapod-periodicity
+doi: 10.1080/08912963.2020.1849178
+title: >
+  A 27.5-My underlying periodicity detected in extinction episodes of non-marine tetrapods
+authors:
+  - Michael R. Rampino
+  - Ken Caldeira
+  - Yuhong Zhu
+journal: Historical Biology
+volume: "33"
+pages: 3084-3090
+date: "2021"
+year: 2021
+themes:
+  - paleoclimate
+
+description: >
+  Ten episodes of intensified extinction among land vertebrates over 300 million years show a
+  27.5-million-year periodicity at 99% confidence, and all eight that coincide with marine
+  extinctions fall at the times of Large Igneous Province eruptions.
+
+question:
+  - An underlying period of roughly 26 to 27 million years had previously been detected in
+    marine extinction episodes. If that signal reflects something happening to the whole
+    planet, it should appear on land as well.
+  - This paper asked whether extinction episodes among non-marine tetrapods — amphibians,
+    reptiles, birds, and mammals — carry the same periodicity, and what coincides with them.
+
+key_finding: >
+  Spectral and Fourier analysis of ten episodes of intensified non-marine tetrapod extinction
+  over the past 300 million years detects a statistically significant underlying periodicity
+  of about 27.5 million years at 99 per cent confidence, and all eight episodes coeval with
+  marine extinctions occurred at times of Large Igneous Province eruptions.
+
+findings:
+  - >
+    Non-marine tetrapods show at least ten distinct episodes of intensified extinction over the
+    past 300 million years, eight of which are concurrent with known marine extinction
+    episodes.
+  - >
+    Circular spectral analysis and Fourier transform analysis of the ten event ages detect an
+    underlying periodicity of approximately 27.5 million years, significant at 99 per cent
+    confidence — consistent with the 26.4 to 27.3 million year period previously found in the
+    marine record.
+  - >
+    Every one of the eight coeval marine and non-marine extinction pulses coincides with the
+    eruption of a Large Igneous Province, either a continental flood basalt or an oceanic
+    plateau, each capable of severe environmental effects.
+  - >
+    Three of these co-extinction episodes additionally correlate with the ages of the three
+    largest impact craters of the past 260 million years, those at least 100 km in diameter,
+    which are themselves capable of causing extinctions.
+
+matters:
+  - >
+    Finding the same period independently on land and in the sea is a genuine test rather than
+    a restatement. A signal confined to marine fossils could reflect how marine rocks are
+    sampled; one appearing in both records is harder to explain that way.
+  - >
+    Associating every coeval pulse with a Large Igneous Province supplies a mechanism, which
+    periodicity alone never does. It moves the claim from a pattern in dates to a proposal
+    about what caused the extinctions.
+
+related:
+  - rampino-1993-geologic-periodicity

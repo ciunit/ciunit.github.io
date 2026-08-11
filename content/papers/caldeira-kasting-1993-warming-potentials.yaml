@@ -9,6 +9,8 @@ volume: "366"
 pages: 251-253
 date: "1993-11"
 year: 1993
+themes:
+  - climate-and-carbon-cycle
 
 # The published text is behind a paywall and no abstract is available from
 # Crossref, Unpaywall, or Semantic Scholar. The summary below is drawn from the

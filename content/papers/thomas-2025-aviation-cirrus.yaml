@@ -1,0 +1,67 @@
+id: thomas-2025-aviation-cirrus
+doi: 10.1029/2025EF006201
+title: >
+  A stylized study of the climate response to longwave and shortwave forcing at the
+  altitude of aviation-induced cirrus
+authors:
+  - Tresa Mary Thomas
+  - Lei Duan
+  - Govindasamy Bala
+  - Ken Caldeira
+journal: Earth's Future
+volume: "13"
+date: "2025"
+year: 2025
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Longwave absorbers at aviation-cirrus altitude force the climate most strongly in the
+  subtropics but warm the planet most from polar regions, implying contrail warming is
+  best reduced by avoiding cirrus at night and at high latitudes in winter.
+
+question:
+  - Aviation-induced cirrus clouds warm the planet, but they act through two competing
+    channels at once. They trap outgoing longwave radiation, which warms, and they scatter
+    incoming shortwave radiation, which cools. The net climate effect of that combination
+    is not well understood.
+  - This paper asked how the climate responds to longwave and to shortwave forcing imposed
+    at the altitude where aviation-induced cirrus form, and whether the response depends on
+    the latitude at which that forcing occurs.
+
+key_finding: >
+  In simulations imposing stylized forcing at aviation-cirrus altitude, longwave absorbers
+  produce their largest instantaneous radiative forcing in the subtropics but their largest
+  global temperature response in the polar regions, implying that contrail-induced warming
+  could be reduced most effectively by avoiding aviation-induced cirrus at night, and at
+  high latitudes during their winters.
+
+findings:
+  - >
+    Using the Community Earth System Model CESM1.2.2, the study imposed stylized longwave
+    and shortwave forcing agents in different latitude bands, isolating each radiative
+    channel rather than modelling contrails directly.
+  - >
+    For longwave absorbers, the latitude of largest radiative forcing and the latitude of
+    largest temperature response are not the same. At equal concentration, subtropical
+    absorbers produce the largest instantaneous radiative forcing, while polar absorbers
+    produce the largest effect on global mean temperature.
+  - >
+    Shortwave scatterers behave differently. Their instantaneous and effective radiative
+    forcing is largest at low latitudes, but the resulting global temperature response is
+    not strongly sensitive to the latitude at which the forcing is applied.
+  - >
+    Because the longwave effect operates day and night while the shortwave effect operates
+    only in daylight, the results imply that the warming attributable to aviation-induced
+    cirrus is concentrated in night-time cirrus and in high-latitude winter cirrus.
+
+matters:
+  - >
+    The finding separates two quantities that are often treated as interchangeable. Radiative
+    forcing is a useful summary of how strongly something perturbs the energy budget, but
+    here the place where forcing is largest is not the place where warming is largest, so
+    forcing alone is a poor guide to which contrails matter most.
+  - >
+    It also points at an unusually tractable mitigation lever. If the warming is concentrated
+    in cirrus formed at night and at high latitudes in winter, then rerouting or rescheduling
+    a modest subset of flights would address a disproportionate share of the effect.

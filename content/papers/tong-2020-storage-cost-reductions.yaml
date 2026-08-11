@@ -1,0 +1,68 @@
+id: tong-2020-storage-cost-reductions
+doi: 10.1016/j.isci.2020.101484
+title: >
+  Effects of deep reductions in energy storage costs on highly reliable wind and solar
+  electricity systems
+authors:
+  - Fan Tong
+  - Mengyao Yuan
+  - Nathan S. Lewis
+  - Steven J. Davis
+  - Ken Caldeira
+journal: iScience
+volume: "23"
+pages: "101484"
+date: "2020"
+year: 2020
+themes:
+  - macro-energy-modeling
+
+description: >
+  Storage costs would need to fall several hundred-fold, to around $1/kWh, for wind-and-solar
+  systems to be highly reliable without extensive curtailment — and storage faces a double
+  penalty that works against its own expansion.
+
+question:
+  - If energy storage became very cheap, how much of the reliability problem in a
+    wind-and-solar electricity system would simply go away?
+  - This paper asked how far storage costs would have to fall to deliver high reliability
+    without extensive curtailment of generation, and what happens to the economics of storage
+    as more of it is added.
+
+key_finding: >
+  Even assuming perfect transmission across the contiguous United States, energy storage costs
+  would need to fall several hundred-fold from current levels — to roughly $1/kWh — for fully
+  variable-renewable systems to deliver highly reliable electricity without extensive
+  curtailment.
+
+findings:
+  - >
+    The analysis uses 36 years of hourly weather data, from 1980 to 2015, across the contiguous
+    United States, in systems supplied only by wind and solar photovoltaics.
+  - >
+    The required cost reduction is severe. Reaching high reliability without extensive
+    curtailment demands storage at around $1/kWh, several hundred times cheaper than costs at
+    the time of writing.
+  - >
+    What storage is for changes as its cost falls. Expensive storage competes with curtailment
+    to fill short-term gaps between generation and hourly demand; near-free storage instead
+    serves as seasonal storage for the variable resource.
+  - >
+    Storage faces what the paper calls double penalties in these systems. As capacity
+    increases, the additional storage is used less frequently, and hourly electricity prices
+    become less volatile — which reduces the price arbitrage opportunities that would reward
+    the additional storage.
+
+matters:
+  - >
+    The double penalty explains why storage does not simply scale its way into solving the
+    problem. Each increment is worth less than the one before, both physically and
+    economically, so the market signal fades exactly as more capacity is added.
+  - >
+    Stating the required cost reduction as a number makes the trade-off explicit. If storage
+    alone would need to become several hundred times cheaper, then transmission, demand
+    flexibility, and firm generation are not alternatives to be considered later but part of
+    any realistic answer.
+
+related:
+  - dowling-2020-long-duration-storage

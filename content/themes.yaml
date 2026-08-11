@@ -71,3 +71,450 @@
     - Wind droughts are measured with an energy-deficit metric that integrates both the depth
       and the duration of each drought, rather than counting low-wind hours. A long shallow
       drought and a short deep one are not equivalent problems for an electricity system.
+
+- id: climate-and-carbon-cycle
+  title: Climate and the carbon cycle
+  question: How long does a carbon dioxide emission go on warming the planet?
+  short_answer: >
+    Indefinitely, on any timescale that matters to people. A pulse of CO2 raises global mean
+    temperature by an amount that stays approximately constant for centuries, and the warming
+    caused per unit emitted is largely insensitive to the background emission scenario. Global
+    temperature therefore stops rising only when emissions reach near zero — cumulative
+    emissions, not the rate in any particular year, set the eventual warming.
+  description: >
+    How long does a CO2 emission keep warming the planet, and what does that imply for
+    emission targets? Evidence on the persistence of carbon perturbations, climate feedbacks,
+    and the land-surface and ice-sheet consequences of emissions.
+
+  why_it_matters:
+    - >
+      If the warming from an emission decayed away, emissions would be a flow problem — reduce
+      the rate and the temperature would settle at a lower level. Because the warming persists
+      instead, emissions are a stock problem, and any continuing positive emission rate means
+      continuing warming rather than a stable warmer climate.
+    - The distinction decides what a mitigation target should even be. Stabilising the
+      concentration of greenhouse gases and stabilising the temperature are not the same
+      objective, and the first does not deliver the second.
+    - It also sets the terms for what is reversible. Warming that persists for centuries after
+      the emission is, for practical purposes, a permanent commitment rather than a
+      consequence that later generations can undo by emitting less.
+
+  evidence:
+    - claim: >
+        A single pulse of carbon raises globally averaged surface temperature by an amount
+        that remains approximately constant for several centuries, so holding temperature
+        constant requires near-zero future emissions
+      paper: matthews-2008-near-zero-emissions
+    - claim: >
+        The warming effect of a CO2 emission is largely insensitive to the background
+        scenario, because the falling radiative effect of each added molecule is offset by
+        the rising atmospheric lifetime of CO2 as ocean uptake saturates
+      paper: caldeira-kasting-1993-warming-potentials
+    - claim: >
+        A carbon release spread across several hundred thousand years is largely absorbed as
+        it accumulates, which is why Deccan Traps volcanism produced under 1 °C of warming
+        despite an enormous total release — rate matters, not only total
+      paper: caldeira-1990-deccan-volcanism
+    - claim: >
+        Burning the attainable fossil-fuel resource would leave Antarctica almost ice-free,
+        and West Antarctica destabilises after only 600 to 800 GtC of further emissions
+      paper: winkelmann-2015-antarctic-ice-sheet
+    - claim: >
+        Global-scale deforestation cools the modelled climate, because albedo and
+        evapotranspiration changes outweigh the warming from released CO2 — so counting only
+        carbon gets the sign wrong outside the tropics
+      paper: bala-2007-deforestation
+    - claim: >
+        The global climate feedback parameter weakens as the pattern of ocean heat uptake
+        becomes high-latitude-enhanced, so sensitivity inferred from short records understates
+        the long-run response
+      paper: rugenstein-2016-radiative-feedbacks
+
+- id: climate-and-energy
+  title: Climate and energy
+  question: What would it take for the energy system to stop changing the climate?
+  short_answer: >
+    Carbon-free primary power on a scale several times today's fossil supply, built faster
+    than the existing fossil system wears out. The infrastructure already standing commits
+    roughly 658 GtCO2 if operated as it has been historically, and the parts of the system
+    that resist decarbonization — aviation, long-distance transport, steel, cement, and
+    reliable electricity — are the ones that decide whether the rest of the effort succeeds.
+  description: >
+    What would an energy system that does not change the climate require? Evidence on
+    committed emissions from existing infrastructure, the scale of carbon-free power needed,
+    and where along the fossil-fuel supply chain emissions arise.
+
+  why_it_matters:
+    - >
+      An emissions target names an outcome; it does not name a mechanism. Because nearly all
+      CO2 emissions come from energy use, every target is in practice a statement about how
+      much carbon-free energy must be built and how quickly, which is a far more concrete
+      question than the target itself.
+    - >
+      Treating the existing capital stock as given changes the diagnosis. Much of the
+      emissions expected over the coming decades is already embodied in power plants,
+      factories, and vehicles that exist, so the decisive moment is the investment decision
+      rather than the combustion that follows it.
+    - Where emissions are counted determines who appears responsible for them, and a country
+      can reduce its measured emissions simply by importing what it used to manufacture.
+
+  evidence:
+    - claim: >
+        If existing fossil infrastructure ran out its lifetime and were then replaced with
+        non-emitting infrastructure, CO2 would stay below 430 ppm and warming would reach
+        about 1.3 °C — so what was already built did not, in 2010, foreclose the targets
+      paper: davis-2010-committed-emissions
+    - claim: >
+        By 2018 the picture had changed: existing infrastructure will emit about 658 GtCO2 if
+        operated as historically, and proposed power plants would add roughly 188 GtCO2 more,
+        jeopardizing the 1.5 °C target
+      paper: tong-2019-committed-emissions
+    - claim: >
+        Carbon-free primary power required by mid-century could be several times the roughly
+        10^13 watts now supplied by fossil fuels, and every candidate technology surveyed has
+        severe deficiencies at that scale
+      paper: hoffert-2002-advanced-technology-paths
+    - claim: >
+        Aviation, long-distance transport, steel, cement, and reliable electricity are the
+        genuinely difficult parts of the system, and addressing them requires integrating
+        sectors that are currently discrete
+      paper: davis-2018-net-zero-energy-systems
+    - claim: >
+        Even a factor-of-three uncertainty in climate sensitivity leaves the conclusion
+        intact — unless sensitivity is low and tolerable change is high, stabilization demands
+        a massive transition to carbon-free energy
+      paper: caldeira-2003-climate-sensitivity-uncertainty
+    - claim: >
+        Deep decarbonization of United States electricity at high reliability requires
+        substantial dispatchable capacity, because daily and seasonal variability of solar,
+        wind, and demand do not coincide
+      paper: shaner-2018-us-reliability
+    - claim: >
+        37 per cent of global CO2 comes from internationally traded fuels and a further 23 per
+        cent is embodied in traded goods, which makes the wellhead, mine mouth, or refinery
+        the point where fewest parties would need to be regulated
+      paper: davis-2011-supply-chain-emissions
+    - claim: >
+        In 2004, 23 per cent of global CO2 emissions were traded internationally, with more
+        than 30 per cent of consumption-based emissions imported in several wealthy European
+        countries
+      paper: davis-2010-consumption-based-accounting
+
+- id: climate-and-economics
+  title: Climate and economics
+  question: If cutting emissions pays for itself, why is it so hard to do?
+  short_answer: >
+    Because the people who pay are not the people who benefit. An economically optimal
+    emissions policy does not reach its break-even year — the point where it first produces net
+    global economic benefit — until decades after the generation that enacted it has borne the
+    cost. Adaptation, whose returns arrive within the depreciation time of the capital
+    invested, pays back far sooner, which is why investing in both beats abatement alone.
+  description: >
+    Why economically optimal climate policy is so hard to enact, and what changes when the
+    timing of costs and benefits is made explicit. Evidence on break-even timescales,
+    adaptation returns, development thresholds, and the value of cost-saving innovation.
+
+  why_it_matters:
+    - >
+      Climate-economy models have long found that restricting emissions immediately would be in
+      humanity's economic interest quite apart from any environmental case. That such policies
+      remain difficult to enact suggests the obstacle is not a failure to recognise net benefit.
+    - >
+      Once the timing is made explicit the puzzle largely dissolves, and the problem is
+      revealed to be one of distribution between generations rather than of efficiency. That
+      changes which instruments are likely to work — measures paying back within a political
+      lifetime are not merely nice to have, they are what makes action self-sustaining.
+    - The distributional question also runs between countries, not only between generations,
+      and the arithmetic of who actually emits turns out to be more forgiving than the framing
+      of climate and development as rival goals suggests.
+
+  evidence:
+    - claim: >
+        An economically optimal emissions policy does not begin producing net global economic
+        benefits until its break-even year, which arrives long after the generation enacting it
+        has paid the costs — on these results, mostly more than half a century away
+      paper: brown-2020-break-even-year
+    - claim: >
+        Adaptation returns on investment far sooner than abatement, with abatement's timescale
+        set by discount rates and adaptation's by capital depreciation, so investing in both
+        yields greater near-term and long-term net benefit
+      paper: duan-2025-adaptation-abatement
+    - claim: >
+        Delaying decarbonization in poorer countries until per-capita GDP exceeds $10,000 adds
+        less than 0.3 °C of warming, even though over half the world's population lives below
+        that threshold
+      paper: duan-2020-climate-development-goals
+    - claim: >
+        A 1 per cent rise in energy's share of costs induces about a 1.2 per cent efficiency
+        gain over twenty years, making carbon prices save up to 30 per cent more energy by 2120
+        than models omitting the mechanism predict
+      paper: wang-2019-induced-efficiency
+    - claim: >
+        Reductions in the Green Premium can be translated into equivalent reductions in carbon
+        emissions, making cost-saving innovation and direct abatement comparable in a single
+        unit
+      paper: caldeira-2023-green-premium
+    - claim: >
+        Lower-income countries face the largest increases in high-temperature days endured
+        without air conditioning, and would need GDP growth above their historical rates simply
+        to prevent that number from rising
+      paper: wongel-2025-cooling-deficit
+
+- id: solar-geoengineering
+  title: Solar geoengineering
+  question: Could reflecting sunlight substitute for reducing carbon dioxide?
+  short_answer: >
+    Partly, and less cleanly than the global averages suggest. Reducing sunlight to offset
+    doubled CO2 diminishes regional and seasonal climate change far more than the mismatch in
+    forcing patterns would imply, and a polar-weighted aerosol distribution does better still.
+    But CO2 changes the hydrological cycle and plant physiology in ways sunlight does not, so
+    the substitution is inherently incomplete — and because the climate responds within years,
+    stopping abruptly would produce rapid warming.
+  description: >
+    Can reflecting sunlight substitute for cutting CO2? Evidence from three decades of climate
+    modelling on how closely solar geoengineering reproduces a low-CO2 climate, where it fails,
+    and what limits its deployment.
+
+  why_it_matters:
+    - >
+      Solar geoengineering is unusual among climate measures in being cheap enough that cost
+      will not decide how much is done. That makes risk, and the governance of risk, the
+      binding constraint — a single actor could in principle affect the entire planet.
+    - >
+      The question of how closely sunlight reduction can imitate a low-CO2 world is not
+      rhetorical. It determines whether the residual climate change left behind is a detail or
+      the main event, and the answer differs sharply between temperature and rainfall.
+    - Because the intervention masks warming rather than removing its cause, the underlying CO2
+      commitment continues to accumulate behind it — which is what makes the speed of the
+      climate's response a liability as well as a convenience.
+
+  evidence:
+    - claim: >
+        Reducing solar luminosity to balance doubled CO2 markedly diminishes regional and
+        seasonal climate change, not merely the global mean, despite the two forcings having
+        very different spatial patterns
+      paper: govindasamy-2000-first-simulations
+    - claim: >
+        A stratospheric aerosol loading weighted toward the poles rather than the tropics comes
+        closest to reproducing a low-CO2 climate in a high-CO2 world
+      paper: ban-weiss-2010-optimization
+    - claim: >
+        The climate responds to reduced insolation within years, so there may be little cost to
+        delaying deployment — and by the same token, abrupt termination would produce rapid
+        warming
+      paper: matthews-2007-geoengineering-transient
+    - claim: >
+        Geoengineered temperature patterns resemble preindustrial ones but precipitation
+        patterns do not, and carbon sinks strengthen because warming is masked while CO2
+        continues to rise
+      paper: matthews-2007-geoengineering-transient
+    - claim: >
+        Within days of a step change in forcing, added CO2 suppresses evaporation and
+        precipitation over ocean and reduces plant transpiration over land, while equivalent
+        added sunlight does neither — differences that exist before any surface warming and so
+        cannot be tuned away
+      paper: cao-2012-fast-response-days-weeks
+    - claim: >
+        Solar geoengineering's deployment will be limited primarily by considerations of risk
+        because it is cheap, whereas carbon dioxide removal's will be limited primarily by cost
+      paper: caldeira-2013-science-of-geoengineering
+
+- id: ocean-acidification
+  title: Ocean acidification and the ocean carbon cycle
+  question: What does adding carbon dioxide to the ocean do to it?
+  short_answer: >
+    It lowers the saturation state of the minerals that corals and shell-forming plankton build
+    with. Adding CO2 to the water flowing over a living reef suppresses the calcification of
+    the whole community, and under a high-emissions path every reef adjacent to open ocean ends
+    this century in water below the saturation threshold reefs are thought to need — at which
+    point uncertainty about exactly where that threshold lies stops mattering.
+  description: >
+    What ocean acidification does to coral reefs and how the ocean takes up carbon. Evidence
+    from in situ reef experiments, Earth system model projections, Southern Ocean carbon
+    transport, and the deep-time behaviour of ocean carbonate chemistry.
+
+  why_it_matters:
+    - >
+      The ocean has absorbed a large share of the CO2 emitted so far, which has slowed warming
+      considerably. That service is not free — the chemistry of the water changes in the
+      process, and the change works against the organisms that build carbonate structures.
+    - >
+      Most evidence on acidification came from individual species held in tanks, but whether a
+      reef persists depends on the balance of calcification, bioerosion, and dissolution across
+      an entire community. Testing at that scale, in place, is what makes the projection
+      credible.
+    - How much carbon the ocean continues to absorb is not fixed either. It depends on physical
+      transport that a warming, freshening ocean surface could itself disrupt.
+
+  evidence:
+    - claim: >
+        Adding CO2 to the water flowing over an intact natural reef, without confining the
+        organisms, suppressed net community calcification
+      paper: albright-2018-co2-addition-reef
+    - claim: >
+        99.9 per cent of open-ocean reefs sat above an aragonite saturation of 3.5 in
+        preindustrial times; under RCP 8.5 every reef considered falls below 3 by 2100, making
+        the exact biological threshold irrelevant on that path and decisive on lower ones
+      paper: ricke-2013-coral-reef-risk
+    - claim: >
+        The Southern Ocean takes up large amounts of anthropogenic CO2 but stores little, with
+        isopycnal transport carrying it away — so a lighter, warmer surface layer there could
+        diminish global uptake
+      paper: caldeira-2000-southern-ocean
+    - claim: >
+        Distributing sea-ice brine rejection through the upper 160 m eliminates two persistent
+        ocean-model salinity errors, suggesting the real ocean is similarly sensitive to
+        Antarctic sea-ice loss
+      paper: duffy-1997-sea-ice-salinity
+    - claim: >
+        After the K/T extinction, collapsed pelagic carbonate productivity should have caused a
+        dramatic CO2 fall that the record does not show — shallow-water carbonate deposition
+        appears to have buffered ocean chemistry
+      paper: caldeira-1993-kt-carbon-cycle
+
+- id: wind-power-geophysics
+  title: Geophysics of wind power
+  question: How much wind power can the atmosphere actually supply?
+  short_answer: >
+    Less than the wind speeds suggest, because what limits a large wind farm is not how hard
+    the wind blows but how fast the atmosphere replenishes the kinetic energy the turbines
+    remove. That sets a ceiling of order 1 W/m² on large-farm power density, arising from
+    pressure gradients acting through the Coriolis force — so the limit varies with latitude
+    and weather, and open-ocean sites can exceed land generation threefold.
+  description: >
+    What sets the physical limit on wind power? Evidence on kinetic energy replenishment,
+    the power density ceiling for large wind farms, wake interference between farms, and where
+    the atmosphere generates the energy that drives the winds.
+
+  why_it_matters:
+    - >
+      Estimates of wind potential are often built by multiplying an available area by a power
+      density measured at small scale. That method assumes the resource is a property of the
+      land rather than of the atmosphere above it, and at the scales decarbonization would
+      require, it overstates what is achievable.
+    - >
+      Because turbines remove energy that must be resupplied from above, a wind farm changes
+      the resource it is exploiting. That makes large-scale wind a question about atmospheric
+      dynamics rather than about turbine engineering.
+    - It also makes wind development a coordination problem, since one installation's wake
+      reduces what a neighbouring one can generate.
+
+  evidence:
+    - claim: >
+        The atmosphere over the open ocean can transport kinetic energy downward faster than
+        over land, so generation over some ocean areas can exceed land generation by a factor
+        of three or more
+      paper: possner-2017-open-ocean-wind
+    - claim: >
+        The roughly 1 W/m² ceiling on large wind-farm power density arises from horizontal
+        pressure gradients interacting with the Coriolis force in the Ekman layer, making the
+        limit depend on latitude and local meteorology
+      paper: antonini-2021-power-density-limits
+    - claim: >
+        As a wind farm grows, mean generation per unit of land falls and its wake shadow
+        lengthens, bounding both how large a farm can usefully be and how far apart farms must
+        be spaced
+      paper: antonini-2021-spatial-constraints
+    - claim: >
+        The available potential energy that drives the winds is generated principally in the
+        tropics, from latent heat in the intertropical convergence zone, and in the polar night,
+        where longwave cooling goes unopposed
+      paper: ahbe-2017-available-potential-energy
+
+- id: paleoclimate
+  title: Paleoclimate and Earth-system dynamics in geologic time
+  question: What does the deep-time record reveal about how the Earth system behaves?
+  short_answer: >
+    That the planet's stability is contingent rather than given. The evolution of
+    shell-building plankton added a buffering mechanism the Precambrian carbon cycle lacked,
+    which is why near-global ice ages happened before it and not since; and major geologic
+    events over the past 250 million years carry a statistically significant periodicity of
+    roughly 27 million years, appearing independently in marine and land vertebrate extinctions
+    and coinciding with Large Igneous Province eruptions.
+  description: >
+    What deep time reveals about the stability of the Earth system. Evidence on carbonate
+    buffering and Neoproterozoic ice ages, and on periodicity in extinction and geologic
+    events.
+
+  why_it_matters:
+    - >
+      Deep time supplies the only observations of the Earth system responding to perturbations
+      far larger than anything in the instrumental record. Which feedbacks proved strong enough
+      to matter then is evidence about which ones matter now.
+    - >
+      It also shows that the buffering capacity of the carbon cycle has changed over Earth
+      history, as organisms evolved that altered it. Stability is a product of the biosphere's
+      current configuration rather than a fixed property of the planet.
+    - Claims of periodicity in the geologic record are notoriously easy to generate and hard to
+      substantiate, which makes propagating dating errors through the analysis, and testing for
+      the same signal in independent records, the substance of the work.
+
+  evidence:
+    - claim: >
+        The evolution of planktic calcifiers introduced saturation-dependent carbonate
+        preservation on the sea floor, stabilising the climate system and explaining why
+        Neoproterozoic-style near-global ice ages have not recurred
+      paper: ridgwell-2003-carbonate-climate-stability
+    - claim: >
+        Major geologic events of the past 250 million years show a statistically significant
+        periodic component of 26.6 million years, robust at around 30 million years once dating
+        errors are allowed for
+      paper: rampino-1993-geologic-periodicity
+    - claim: >
+        Non-marine tetrapod extinctions show a 27.5-million-year periodicity at 99 per cent
+        confidence, matching the marine record, and all eight coeval pulses coincide with Large
+        Igneous Province eruptions
+      paper: rampino-2021-tetrapod-periodicity
+
+- id: macro-energy-modeling
+  title: Macro-energy modeling
+  question: What does a reliable electricity system built on wind and solar actually need?
+  short_answer: >
+    Long-duration storage more than batteries. System cost is twice as sensitive to reductions
+    in long-duration storage cost as to battery cost, and long-duration storage sized for
+    seasonal variation already carries enough power capacity to cover short-duration needs as
+    well. Batteries alone would have to become several hundred times cheaper — around $1/kWh —
+    to deliver high reliability without extensive curtailment.
+  description: >
+    What a reliable wind-and-solar electricity system requires. Evidence from macro-scale
+    least-cost modelling on long-duration storage, storage technology portfolios, the cost
+    reductions needed, and carbon-free industrial process heat.
+
+  why_it_matters:
+    - >
+      The reliability problem in a variable-renewable system operates on two timescales at
+      once. Bridging hours and bridging seasons are different engineering problems, and a
+      technology sized for one is not automatically suited to the other.
+    - >
+      Which storage technology deserves investment is decided by system-level modelling rather
+      than by comparing costs per kilowatt-hour, because the value of a technology depends on
+      the role it ends up playing in a least-cost system.
+    - How many years of weather a model is optimized over changes its answer, since the rare
+      extended shortfalls that drive long-duration storage requirements appear only in longer
+      records.
+
+  evidence:
+    - claim: >
+        Long-duration storage lowers total system cost relative to wind-solar-battery systems,
+        and system cost is twice as sensitive to reductions in long-duration storage cost as to
+        reductions in battery cost
+      paper: dowling-2020-long-duration-storage
+    - claim: >
+        In least-cost systems batteries serve intra-day needs while long-duration storage
+        handles inter-seasonal and multi-year variation, and dependence on the latter grows as
+        more years of weather are modelled
+      paper: dowling-2020-long-duration-storage
+    - claim: >
+        Long-duration storage sized for seasonal needs already has enough energy and power
+        capacity to meet short-duration needs, so adding batteries as a second technology
+        barely reduces system cost in any region examined
+      paper: li-2024-storage-portfolios
+    - claim: >
+        Storage costs would need to fall several hundred-fold, to about $1/kWh, for fully
+        variable-renewable systems to be highly reliable without extensive curtailment
+      paper: tong-2020-storage-cost-reductions
+    - claim: >
+        With gas at $50/MWh, concentrated solar thermal with molten salt storage can supply
+        more than half of industrial process heat demand at a saving in most regions below 45°
+        latitude
+      paper: wongel-2026-solar-process-heat

@@ -1,0 +1,67 @@
+id: wongel-2026-solar-process-heat
+doi: 10.1088/2753-3751/ae4eea
+title: >
+  Supplying process heat using concentrated solar thermal energy with molten salt storage
+authors:
+  - Alicia Wongel
+  - Jacqueline A. Dowling
+  - Gerhard Weinrebe
+  - Steven J. Davis
+  - Ken Caldeira
+journal: "Environmental Research: Energy"
+volume: "3"
+pages: "025004"
+date: "2026"
+year: 2026
+themes:
+  - macro-energy-modeling
+
+description: >
+  With gas at $50/MWh, concentrated solar thermal with molten salt storage can cost-effectively
+  supply more than half of industrial process heat demand in most regions below 45° latitude
+  that have land available.
+
+question:
+  - Industrial process heat accounts for roughly a quarter of global energy use and a fifth of
+    CO2 emissions, and carbon-free options are scarce in the medium-to-high temperature range
+    between about 200 °C and 550 °C.
+  - Concentrated solar thermal can reach those temperatures where the solar resource is strong.
+    This paper asked where, and under what gas prices, it would actually be the cheaper option
+    for supplying steady industrial heat.
+
+key_finding: >
+  At a gas fuel cost of $50/MWh — a level observed during a seasonal peak in Californian
+  industrial gas prices in February 2025 — concentrated solar thermal with molten salt storage
+  can deliver cost savings while supplying more than 50 per cent of industrial heat demand in
+  most regions below 45° latitude with appropriate land availability.
+
+findings:
+  - >
+    The study uses a stylized model to quantify the share of concentrated solar thermal in
+    least-cost systems globally, requiring that the system deliver steady, reliable heat rather
+    than intermittent supply.
+  - >
+    Molten salt thermal storage is what makes reliability possible. Industrial heat demand is
+    continuous while sunlight is not, so the storage is what converts a variable resource into
+    a usable one.
+  - >
+    Latitude and land availability set the geography of the result. Below about 45° latitude,
+    where the solar resource is strong enough, more than half of industrial heat demand can be
+    met at a saving when gas costs $50/MWh.
+  - >
+    The competitiveness threshold is a gas price rather than a technology breakthrough, so the
+    result moves with fuel markets — the reference price cited is one that has actually
+    occurred, not a hypothetical.
+
+matters:
+  - >
+    Industrial heat is one of the parts of the energy system repeatedly identified as hard to
+    decarbonize, and much of the difficulty is concentrated in the temperature range this
+    technology addresses.
+  - >
+    Framing the answer as a gas price rather than a subsidy requirement changes the character
+    of the finding. It says the technology is already competitive under conditions that
+    occur, which is a different claim from saying it would be competitive if costs fell.
+
+related:
+  - dowling-2020-long-duration-storage

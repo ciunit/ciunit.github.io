@@ -1,0 +1,61 @@
+id: matthews-2008-near-zero-emissions
+doi: 10.1029/2007GL032388
+title: Stabilizing climate requires near-zero emissions
+authors:
+  - H. Damon Matthews
+  - Ken Caldeira
+journal: Geophysical Research Letters
+volume: "35"
+date: "2008"
+year: 2008
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  A single pulse of carbon warms the planet by an amount that stays roughly constant for
+  centuries, so holding global temperature at any given level requires near-zero future
+  emissions rather than merely reduced ones.
+
+question:
+  - International climate policy has long been framed around stabilizing the *concentration*
+    of greenhouse gases in the atmosphere. That framing carries an implicit assumption worth
+    testing directly, namely that stabilizing concentrations would stabilize temperature.
+  - This paper asked what emissions would actually be required to hold global temperature
+    constant over the next several centuries.
+
+key_finding: >
+  A single pulse of carbon released to the atmosphere raises globally averaged surface
+  temperature by an amount that remains approximately constant for several centuries even
+  with no further emissions, so holding climate constant at a given global temperature
+  requires near-zero future carbon emissions.
+
+findings:
+  - >
+    Using an Earth system model of intermediate complexity, the study first established that
+    the warming caused by a pulse of carbon does not decay away on a human timescale. It
+    stays approximately constant for centuries after the pulse.
+  - >
+    That persistence follows from an near-cancellation. Atmospheric CO2 does decline after a
+    pulse, which would cool the planet, but the ocean continues to take up heat and the
+    climate continues to approach equilibrium, which warms it. The two effects roughly offset.
+  - >
+    The consequence is that temperature stabilization requires eliminating emissions rather
+    than reducing them. Any positive rate of emission continues to add warming, so a constant
+    temperature demands a near-zero emission rate.
+  - >
+    It follows that future anthropogenic emissions commit the climate system to warming that
+    is essentially irreversible on centennial timescales.
+
+matters:
+  - >
+    This result reframes the mitigation target. Under a concentration-stabilization framing,
+    a low but non-zero level of continuing emissions looks like a stable endpoint; under this
+    result it is a policy of continued warming, only slower.
+  - >
+    Together with the finding that the warming per unit of emission is largely insensitive to
+    the background scenario, it supplies the physical basis for the carbon budget — the idea
+    that cumulative emissions, rather than the emission rate in any given year, set the
+    eventual temperature.
+
+related:
+  - caldeira-kasting-1993-warming-potentials

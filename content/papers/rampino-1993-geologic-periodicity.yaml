@@ -1,0 +1,64 @@
+id: rampino-1993-geologic-periodicity
+doi: 10.1016/0012-821X(93)90026-6
+title: >
+  Major episodes of geologic change — correlations, time structure and possible causes
+authors:
+  - Michael R. Rampino
+  - Ken Caldeira
+journal: Earth and Planetary Science Letters
+volume: "114"
+pages: 215-227
+date: "1993"
+year: 1993
+themes:
+  - paleoclimate
+
+description: >
+  Synthesising extinction events, sea-level lows, flood-basalt eruptions and other major
+  geologic events of the past 250 million years reveals a statistically significant periodic
+  component of about 26.6 million years.
+
+question:
+  - Major geologic events — mass extinctions, sea-level lows, continental flood-basalt
+    eruptions, mountain building, abrupt changes in sea-floor spreading, ocean-anoxic and
+    black-shale events, the largest evaporite deposits — have each been catalogued separately.
+  - This paper asked whether they are independent. Synthesised into a single record with
+    estimated dating errors, do they show time structure, and if so what could produce it?
+
+key_finding: >
+  Published records of major geologic events over the past roughly 250 million years show a
+  statistically significant periodic component with an underlying periodicity formally equal
+  to 26.6 million years and a recent maximum close to the present; a periodicity of around
+  30 million years is robust to probable errors in dating.
+
+findings:
+  - >
+    The analysis synthesises several independently compiled event catalogues, carrying
+    estimated dating errors through so the significance of any detected period can be assessed
+    against those errors rather than assumed.
+  - >
+    The detected periodicity is formally 26.6 million years, and remains robust at
+    approximately 30 million years once probable dating errors are allowed for. The cycle need
+    not be strictly periodic to produce this signal.
+  - >
+    The different event types appear to be connected rather than coincident. Intervals of
+    change involve jumps in sea-floor spreading associated with episodic continental rifting,
+    volcanism, enhanced orogeny, global sea-level change, and climate fluctuation together.
+  - >
+    Two classes of cause remain open. The period may reflect a purely internal Earth
+    pulsation; alternatively, evidence of planetesimal impacts at several extinction
+    boundaries and a possible 28 to 36 million year cycle in crater ages suggests energetic
+    impacts may be affecting global tectonics.
+
+matters:
+  - >
+    Claims of periodicity in the geologic record are easy to make and hard to substantiate,
+    because the record is irregularly sampled and imprecisely dated. Propagating dating errors
+    through the analysis is what separates a testable claim from pattern-matching.
+  - >
+    If the correlation between event types is real, then extinctions, volcanism, and sea-level
+    change are expressions of a single underlying process rather than a series of unrelated
+    accidents — which is a substantially stronger claim than periodicity alone.
+
+related:
+  - rampino-2021-tetrapod-periodicity

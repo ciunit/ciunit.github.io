@@ -1,0 +1,65 @@
+id: shaner-2018-us-reliability
+doi: 10.1039/C7EE03029K
+title: >
+  Geophysical constraints on the reliability of solar and wind power in the United States
+authors:
+  - Matthew R. Shaner
+  - Steven J. Davis
+  - Nathan S. Lewis
+  - Ken Caldeira
+journal: Energy & Environmental Science
+volume: "11"
+pages: 914-925
+date: "2018"
+year: 2018
+themes:
+  - climate-and-energy
+  - wind-and-solar-reliability
+
+description: >
+  Daily and seasonal variability in solar, wind, and electricity demand means deep
+  decarbonization of the US electricity system at high reliability requires substantial
+  dispatchable capacity or storage, not solar and wind capacity alone.
+
+question:
+  - Solar and wind resources in the United States are far larger than electricity demand, so
+    the constraint on a solar- and wind-based system is not the size of the resource.
+  - This paper asked what the constraint actually is — how the daily and seasonal timing of
+    solar and wind availability lines up against the timing of electricity demand, and what a
+    system would need in addition to generation in order to be reliable.
+
+key_finding: >
+  Daily and seasonal variability of solar, wind, and electricity demand require substantial
+  dispatchable power capacity in order to achieve deep decarbonization of the United States
+  electricity system with high reliability.
+
+findings:
+  - >
+    The analysis is built on historical weather and demand records for the United States, so
+    the mismatch it characterizes is the one that actually occurred rather than one produced
+    by a scenario.
+  - >
+    Variability operates on two distinct timescales that pose different problems. Daily
+    variability is largely a solar phenomenon and is addressable by storage measured in hours;
+    seasonal variability is not, and storage sized for the daily problem does not solve it.
+  - >
+    Reliability is the binding constraint rather than total energy. A system generating as
+    much electricity over a year as is consumed over that year can still fail to meet demand
+    in a large number of individual hours.
+  - >
+    Closing the remaining gap requires substantial dispatchable capacity — generation that can
+    be called on when needed — or an equivalent amount of storage, demand flexibility, or
+    transmission.
+
+matters:
+  - >
+    The result reframes what "enough" means for a renewable electricity system. Sizing
+    generation to annual demand is a necessary condition and not a sufficient one, and systems
+    planned on annual energy alone will be unreliable in ways their design does not reveal.
+  - >
+    It also sets up the international comparison. The same geophysical question asked across
+    many countries shows that the severity of the problem depends strongly on a country's
+    latitude and weather, so the United States result is not universal.
+
+related:
+  - tong-2021-geophysical-constraints

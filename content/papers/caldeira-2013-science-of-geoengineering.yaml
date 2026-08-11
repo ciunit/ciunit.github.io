@@ -1,0 +1,64 @@
+id: caldeira-2013-science-of-geoengineering
+doi: 10.1146/annurev-earth-042711-105548
+title: The science of geoengineering
+authors:
+  - Ken Caldeira
+  - Govindasamy Bala
+  - Long Cao
+journal: Annual Review of Earth and Planetary Sciences
+volume: "41"
+pages: 231-256
+date: "2013"
+year: 2013
+themes:
+  - solar-geoengineering
+
+description: >
+  A review distinguishing the two things called geoengineering — reflecting sunlight and
+  removing CO2 — and showing that the scale of each will be limited by different constraints,
+  risk for the first and cost for the second.
+
+question:
+  - The term geoengineering covers two quite different proposals. One reflects sunlight back
+    to space so that less energy is retained; the other removes carbon dioxide from the
+    atmosphere so that less energy is retained in the first place.
+  - This review asked what is actually known about each, and — more usefully — what determines
+    how much of each might ever be deployed.
+
+key_finding: >
+  Solar geoengineering and carbon dioxide removal face fundamentally different limiting
+  constraints: because some solar geoengineering approaches are thought to be low in cost, the
+  scale of deployment will depend primarily on considerations of risk, whereas the scale of
+  carbon dioxide removal deployment will depend primarily on cost.
+
+findings:
+  - >
+    The review separates the two categories at the outset. Solar geoengineering, also called
+    solar radiation management, reflects incoming sunlight; carbon dioxide removal takes CO2
+    back out of the atmosphere. They share a name and very little else.
+  - >
+    Solar geoengineering is cheap enough that cost will not be what limits it. Some approaches
+    are thought to be low in cost relative to their effect, so the binding constraint is how
+    much risk is judged acceptable.
+  - >
+    Because it is cheap and globally effective, solar geoengineering raises governance
+    questions that do not arise for other climate measures — a single actor could in principle
+    affect the whole planet.
+  - >
+    Carbon dioxide removal raises a different set of issues, concerning scale, cost,
+    effectiveness, and local environmental consequences, and its deployment will be limited
+    primarily by what it costs.
+
+matters:
+  - >
+    The asymmetry is the review's most useful contribution. Debates that treat geoengineering
+    as one subject repeatedly confuse the two, and arguments valid against one are frequently
+    deployed against the other.
+  - >
+    Identifying the binding constraint also identifies where useful work lies. For carbon
+    dioxide removal that means reducing cost; for solar geoengineering it means understanding
+    risk and building governance, since cost reduction would accomplish nothing.
+
+related:
+  - ban-weiss-2010-optimization
+  - matthews-2007-geoengineering-transient

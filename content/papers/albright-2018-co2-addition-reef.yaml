@@ -1,0 +1,71 @@
+id: albright-2018-co2-addition-reef
+doi: 10.1038/nature25968
+title: Carbon dioxide addition to coral reef waters suppresses net community calcification
+authors:
+  - Rebecca Albright
+  - Yuichiro Takeshita
+  - David A. Koweek
+  - Aaron Ninokawa
+  - Kennedy Wolfe
+  - Tanya Rivlin
+  - Yana Nebuchina
+  - Jordan Young
+  - Ken Caldeira
+journal: Nature
+volume: "555"
+pages: 516-519
+date: "2018"
+year: 2018
+themes:
+  - ocean-acidification
+
+description: >
+  An in situ carbon dioxide enrichment experiment on a natural coral reef — no tanks, no
+  confinement — showed that added CO2 suppresses net calcification of the whole community,
+  not merely of individual species.
+
+question:
+  - Ocean acidification is expected to harm coral reefs by lowering the saturation state of
+    aragonite, the mineral corals build skeletons from. Almost all the evidence for this came
+    from experiments on individual species held in tanks.
+  - A reef, though, is a community, and its net accretion is the balance of calcification,
+    bioerosion, and dissolution across many organisms interacting. This paper asked whether
+    the effect holds at the scale that actually determines whether a reef persists — measured
+    on a real reef, under natural light, flow, and temperature.
+
+key_finding: >
+  Adding carbon dioxide to the waters flowing over a natural coral reef, in an in situ
+  enrichment experiment without artificial confinement, suppressed net community
+  calcification.
+
+findings:
+  - >
+    The experiment enriched CO2 in seawater flowing over an intact reef community in place,
+    rather than isolating organisms in tanks, so the response measured is the community's own
+    rather than a sum of individual species' responses.
+  - >
+    Net community calcification declined under the added CO2, confirming at community scale
+    what tank experiments had indicated for individual calcifiers.
+  - >
+    The underlying mechanism is the reduction in aragonite saturation state and in the
+    carbonate ion concentration needed to maintain the carbonate structure of the reef.
+  - >
+    Reduced calcification does not act alone. Combined with increased bioerosion and
+    dissolution, it may push reefs into a state of net loss during this century.
+
+matters:
+  - >
+    The result closes a genuine gap in the evidence. Predicting what happens to reef ecosystems
+    requires community- and ecosystem-scale responses, and until these experiments the field
+    was extrapolating from individual organisms in artificial conditions.
+  - >
+    The method matters as much as the number. Manipulating the chemistry of a natural reef
+    without enclosing it made it possible to test the hypothesis where it actually applies,
+    and that experimental approach is reusable for questions beyond acidification.
+  - >
+    Reefs feed millions of people, protect coastlines, and generate billions of dollars in
+    tourism annually, so a change in the direction of net accretion is not an ecological
+    detail.
+
+related:
+  - ricke-2013-coral-reef-risk

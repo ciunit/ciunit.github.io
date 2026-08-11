@@ -1,0 +1,60 @@
+id: rugenstein-2016-radiative-feedbacks
+doi: 10.1002/2016GL070907
+title: Dependence of global radiative feedbacks on evolving patterns of surface heat fluxes
+authors:
+  - Maria A. A. Rugenstein
+  - Ken Caldeira
+  - Reto Knutti
+journal: Geophysical Research Letters
+volume: "43"
+pages: 9877-9885
+date: "2016"
+year: 2016
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  The global climate feedback parameter weakens over time because the pattern of ocean heat
+  uptake shifts from homogeneous toward high-latitude-enhanced, with cloud radiative effects
+  doing much of the work.
+
+question:
+  - In most climate models, the magnitude of the climate feedback parameter decreases in the
+    centuries after an abrupt increase in forcing. Because that parameter governs how much
+    warming a given forcing eventually produces, a drift in it means the climate sensitivity
+    inferred from a short record understates the long-run response.
+  - This paper asked what causes the drift, and specifically whether the changing geographic
+    pattern of ocean heat uptake — not just its magnitude — is responsible.
+
+key_finding: >
+  As the pattern of ocean heat uptake evolves from a more homogeneous toward a heterogeneous,
+  high-latitude-enhanced pattern, it changes not only regional but global radiative feedbacks,
+  with cloud radiative effects playing an important role in decreasing the magnitude of the
+  climate feedback parameter.
+
+findings:
+  - >
+    A slab ocean model was forced with scaled patterns of ocean heat uptake taken from a
+    coupled ocean-atmosphere general circulation model, isolating the effect of the pattern
+    from everything else that changes over time.
+  - >
+    Steady-state results from the slab ocean configuration approximate the transient results
+    from the full dynamic ocean, confirming that the evolving uptake pattern is sufficient to
+    explain the behaviour.
+  - >
+    Cloud radiative effects are a major contributor to the weakening of the feedback
+    parameter, rather than the effect arising primarily from clear-sky radiation.
+  - >
+    The ocean therefore influences surface temperature twice over — once by taking up heat,
+    and again by changing the atmospheric feedbacks that determine how much warming a given
+    forcing produces.
+
+matters:
+  - >
+    The result is a caution about inference. Estimates of climate sensitivity drawn from
+    short simulations, or from observed variability over recent decades, sample a feedback
+    regime that will not persist, and so will tend to understate the eventual warming.
+  - >
+    It also identifies where the leverage lies. Because the effect works through the spatial
+    pattern of heat uptake, getting the geography of ocean circulation right matters for
+    global, not merely regional, projections.

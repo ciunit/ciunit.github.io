@@ -1,0 +1,60 @@
+id: davis-2010-consumption-based-accounting
+doi: 10.1073/pnas.0906974107
+title: Consumption-based accounting of CO2 emissions
+authors:
+  - Steven J. Davis
+  - Ken Caldeira
+journal: Proceedings of the National Academy of Sciences
+volume: "107"
+pages: 5687-5692
+date: "2010"
+year: 2010
+themes:
+  - climate-and-energy
+
+description: >
+  In 2004, 23% of global CO2 emissions — 6.2 GtCO2 — were traded internationally, mostly as
+  exports from China and other emerging markets to consumers in wealthy countries, where
+  imported emissions exceeded 30% of the consumption-based total.
+
+question:
+  - Emissions are conventionally attributed to the country where the fuel is burned. But
+    goods are made in one country and consumed in another, so production-based inventories
+    attribute the emissions of an export industry to the producing country rather than to
+    the people who use what it makes.
+  - This paper asked how the global picture changes when emissions are attributed instead to
+    the consumption of goods and services.
+
+key_finding: >
+  In 2004, 23 per cent of global CO2 emissions — 6.2 gigatonnes — were traded
+  internationally, primarily as exports from China and other emerging markets to consumers in
+  developed countries; in Switzerland, Sweden, Austria, the United Kingdom, and France more
+  than 30 per cent of consumption-based emissions were imported.
+
+findings:
+  - >
+    The study presents a global consumption-based CO2 inventory together with the associated
+    consumption-based energy and carbon intensities, using the then-latest available trade
+    and emissions data.
+  - >
+    Roughly a quarter of all global emissions cross a border before reaching the consumer who
+    occasions them, moving predominantly from emerging markets to developed economies.
+  - >
+    Several wealthy European countries import more than 30 per cent of their consumption-based
+    emissions, amounting to net imports exceeding 4 tonnes of CO2 per person in 2004.
+  - >
+    The United States is a net importer too, but less dramatically — 10.8 per cent of its
+    consumption-based emissions, or 2.4 tonnes of CO2 per person.
+
+matters:
+  - >
+    The result changes who appears responsible. A country can reduce its production-based
+    emissions by importing the goods it used to make, with no change in global emissions at
+    all, and a production-only inventory records that as progress.
+  - >
+    It also reframes what a wealthy country's mitigation options are. If a large share of the
+    emissions occasioned by its consumption occur abroad, then policies confined to its own
+    territory address only part of its footprint.
+
+related:
+  - davis-2011-supply-chain-emissions

@@ -1,0 +1,63 @@
+id: caldeira-2023-green-premium
+doi: 10.1088/1748-9326/acf949
+title: >
+  The value of reducing the Green Premium — cost-saving innovation, emissions abatement,
+  and climate goals
+authors:
+  - Ken Caldeira
+  - Lei Duan
+  - Juan Moreno-Cruz
+journal: Environmental Research Letters
+volume: "18"
+pages: "104051"
+date: "2023"
+year: 2023
+themes:
+  - climate-and-economics
+
+description: >
+  A framework translating reductions in the Green Premium — the extra cost of carbon-free
+  technology over its emitting alternative — into equivalent reductions in carbon emissions,
+  with a transparent integrated assessment model built for teaching.
+
+question:
+  - Carbon-emitting technologies usually cost less than carbon-free alternatives, and the
+    difference is known as the Green Premium. Innovation that narrows that gap plainly helps
+    meet climate goals.
+  - What was missing was any way to say how much it helps. This paper asked how a reduction in
+    the Green Premium can be expressed in the same units as an emissions reduction, so that
+    innovation and abatement can be compared directly.
+
+key_finding: >
+  The paper devises a framework that translates reductions in the Green Premium into
+  equivalent reductions in carbon emissions, making cost-saving innovation and direct
+  abatement commensurable for the first time.
+
+findings:
+  - >
+    The translation is the core contribution. Expressing a cost reduction as an equivalent
+    emissions reduction allows the value of innovation to be stated in the currency in which
+    climate goals are set.
+  - >
+    The paper introduces the Climate Optimized INvestment model, an integrated assessment
+    model deliberately designed for teaching and communication so that the mechanism connecting
+    innovation to emissions can be inspected rather than taken on trust.
+  - >
+    The consequences of introducing a new technology capable of learning and improvement are
+    examined under three levels of carbon-constraint stringency — an Unlimited budget in which
+    abatement is set only by balancing marginal costs, a Large budget capped at cumulative
+    future emissions of 50 times the initial year's, and a Small budget capped at 15 times.
+  - >
+    The stringency of the carbon constraint changes how much cost-saving innovation is worth,
+    so the value of reducing the Green Premium is not a fixed quantity but depends on the
+    policy environment it operates in.
+
+matters:
+  - >
+    Innovation policy and emissions policy are usually argued about separately, often by people
+    who treat them as substitutes. A common unit makes it possible to ask how much innovation
+    is worth how much abatement, rather than asserting that one matters more.
+  - >
+    Building the model for transparency rather than for precision is itself a choice worth
+    noting. A model simple enough to teach is a model whose conclusions can be checked by the
+    people they are meant to persuade.

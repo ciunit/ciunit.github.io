@@ -1,0 +1,63 @@
+id: duan-2020-climate-development-goals
+doi: 10.1088/1748-9326/abbe46
+title: Balancing climate and development goals
+authors:
+  - Lei Duan
+  - Juan Moreno-Cruz
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "15"
+pages: "124057"
+date: "2020"
+year: 2020
+themes:
+  - climate-and-economics
+
+description: >
+  If countries decarbonize only once their per-capita GDP passes $10,000, the world warms
+  less than 0.3 °C more than if all began in 2020 — even though over half the world's
+  population currently lives below that threshold.
+
+question:
+  - The richest countries face the challenge of decarbonizing their energy systems. The
+    poorest face the challenge of providing energy services at all. Those are different
+    problems, and it is not obvious that the same policy serves both.
+  - >
+    This paper asked a bounded version of the question: what would the climate consequences
+    be if only richer countries focused on decarbonization, and poorer countries focused on
+    providing energy services until they became wealthy enough to switch?
+
+key_finding: >
+  If every country begins decarbonizing in 2020 at 2% per year, the world warms about 2.0 °C
+  relative to pre-industrial; if countries instead begin only once per-capita GDP exceeds
+  $10,000, less than 0.3 °C of additional warming results — despite more than half the world's
+  population currently living in countries below that income threshold.
+
+findings:
+  - >
+    The scenarios let CO2 emissions follow a historical trend and then decline once a country
+    reaches a specified income level, with a central assumption that decarbonization proceeds
+    at 2 per cent per year once it starts.
+  - >
+    With all countries starting in 2020, expected warming is about 2.0 °C above pre-industrial
+    levels.
+  - >
+    Tying the start of decarbonization to a per-capita GDP threshold of $10,000 adds less than
+    0.3 °C of warming on top of that.
+  - >
+    The reason the penalty is small is that emissions are concentrated among the wealthy.
+    Although over half the world's population lives below the threshold, their direct CO2
+    emissions while they remain poor are a small share of the global total.
+
+matters:
+  - >
+    The result dissolves an apparent conflict. Climate goals and development goals are often
+    presented as competing claims on the same budget, but on these numbers allowing poorer
+    countries to develop first costs remarkably little warming.
+  - >
+    It also relocates the obligation. If the climate consequence of poor countries developing
+    is small, then the emissions that determine the outcome belong to wealthy countries, and
+    the argument that global mitigation requires universal simultaneous action does not hold.
+
+related:
+  - brown-2020-break-even-year

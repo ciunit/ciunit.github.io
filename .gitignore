@@ -12,6 +12,10 @@ dist/
 .idea/
 .vscode/
 
+# Survey cache — regenerable via scripts/survey_papers.py, and it holds verbatim
+# publisher abstracts, which don't belong in a public repo.
+content/survey-cache.json
+
 # Secrets — never commit
 *token*
 *.secret

@@ -1,0 +1,62 @@
+id: ban-weiss-2010-optimization
+doi: 10.1088/1748-9326/5/3/034009
+title: Geoengineering as an optimization problem
+authors:
+  - George A. Ban-Weiss
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "5"
+pages: "034009"
+date: "2010"
+year: 2010
+themes:
+  - solar-geoengineering
+
+description: >
+  The first study to treat solar geoengineering as an optimization problem, finding that a
+  stratospheric aerosol distribution weighted toward the poles rather than the tropics best
+  reproduces a low-CO2 climate in a high-CO2 world.
+
+question:
+  - Earlier modelling had asked what would happen if aerosols were added to the stratosphere,
+    and had established that doing so could reduce surface temperatures without recreating a
+    low-CO2 climate.
+  - This paper inverted the question. Rather than predicting the consequences of an arbitrary
+    aerosol distribution, it asked which distribution would come closest to a chosen target —
+    treating geoengineering as something to be optimized rather than merely simulated.
+
+key_finding: >
+  Seeking the latitudinal distribution of stratospheric aerosols that most closely reproduces
+  a low-CO2 climate despite high CO2, the study finds that stratospheric aerosol loading
+  higher in polar regions than in the tropics performs better than a uniform distribution.
+
+findings:
+  - >
+    The optimization was carried out with the NCAR CAM3.1 general circulation model, searching
+    over latitudinal aerosol distributions rather than testing a single prescribed case.
+  - >
+    A polar-weighted distribution outperforms a tropical or uniform one. This follows from
+    where greenhouse warming is concentrated — high latitudes warm most under increased CO2,
+    so the compensating cooling should be concentrated there too.
+  - >
+    Framing the problem as an optimization changes what the model is being asked. Instead of
+    "what does this intervention do", the question becomes "what intervention best achieves
+    this objective", which requires stating the objective explicitly.
+  - >
+    No distribution recreates a low-CO2 climate exactly. The optimization finds the closest
+    achievable approximation, not a solution.
+
+matters:
+  - >
+    The reframing is the durable contribution. Once geoengineering is posed as an optimization
+    problem, the design space becomes something that can be searched, and subsequent work on
+    tailoring interventions to objectives follows from that move.
+  - >
+    Stating the objective explicitly also exposes a question that simulation alone conceals.
+    Optimizing for global mean temperature, for regional temperature, or for precipitation
+    gives different answers, so someone must decide what is being optimized for — and that is
+    not a scientific question.
+
+related:
+  - govindasamy-2000-first-simulations
+  - caldeira-2013-science-of-geoengineering

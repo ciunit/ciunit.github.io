@@ -1,0 +1,95 @@
+id: davis-2018-net-zero-energy-systems
+doi: 10.1126/science.aas9793
+title: Net-zero emissions energy systems
+authors:
+  - Steven J. Davis
+  - Nathan S. Lewis
+  - Matthew Shaner
+  - Sonia Aggarwal
+  - Doug Arent
+  - Inês L. Azevedo
+  - Sally M. Benson
+  - Thomas Bradley
+  - Jack Brouwer
+  - Yet-Ming Chiang
+  - Christopher T. M. Clack
+  - Armond Cohen
+  - Stephen Doig
+  - Jae Edmonds
+  - Paul Fennell
+  - Christopher B. Field
+  - Bryan Hannegan
+  - Bri-Mathias Hodge
+  - Martin I. Hoffert
+  - Eric Ingersoll
+  - Paulina Jaramillo
+  - Klaus S. Lackner
+  - Katharine J. Mach
+  - Michael Mastrandrea
+  - Joan Ogden
+  - Per F. Peterson
+  - Daniel L. Sanchez
+  - Daniel Sperling
+  - Joseph Stagner
+  - Jessika E. Trancik
+  - Chi-Jen Yang
+  - Ken Caldeira
+journal: Science
+volume: "360"
+date: "2018"
+year: 2018
+themes:
+  - climate-and-energy
+
+description: >
+  A review of what full decarbonization would require, identifying aviation, long-distance
+  transport, steel, cement, and reliable electricity as the parts of the energy system that
+  are genuinely hard to decarbonize.
+
+question:
+  - Models agree that global CO2 emissions must reach zero later this century, and most of
+    those emissions come from energy use. That leaves the question of what reaching zero would
+    actually involve, service by service.
+  - This review asked which parts of the energy system are straightforward to decarbonize and
+    which are not, and what technologies and system designs could address the difficult
+    remainder.
+
+key_finding: >
+  Some parts of the energy system are particularly difficult to decarbonize — aviation,
+  long-distance transport, steel and cement production, and the provision of reliable
+  electricity — and addressing them requires integrating energy sectors and industrial
+  processes that are currently discrete, rather than decarbonizing each in isolation.
+
+findings:
+  - >
+    The difficulty is not uniform. Much of the energy system has reasonably clear
+    decarbonization pathways; the review isolates the subset that does not.
+  - >
+    Aviation and long-distance transport are hard because they need energy carriers with high
+    energy density that batteries do not presently provide.
+  - >
+    Steel and cement are hard because their emissions are partly intrinsic to the chemistry of
+    the process rather than to the energy used to drive it, so clean electricity alone does
+    not remove them.
+  - >
+    Reliable electricity is hard for reasons of timing rather than quantity — matching a
+    variable supply to demand at every hour is a different problem from generating enough
+    energy in total.
+  - >
+    Current technologies and pathways show promise for each, but integration across
+    now-separate sectors and processes is what the review identifies as vital to achieving
+    minimal emissions.
+
+matters:
+  - >
+    Naming the hard parts is what makes the remaining problem tractable. Decarbonization
+    discussions often generalize from the sectors where progress is easiest, which understates
+    what is left.
+  - >
+    The emphasis on integration cuts against how energy policy is usually organized. If the
+    residual emissions are concentrated where sectors meet — fuels for industry, storage for
+    electricity, feedstocks for materials — then sector-by-sector policy is poorly matched to
+    where the difficulty actually lies.
+
+related:
+  - hoffert-2002-advanced-technology-paths

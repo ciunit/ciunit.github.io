@@ -1,0 +1,64 @@
+id: wongel-2025-cooling-deficit
+doi: 10.1088/1748-9326/ae1f2a
+title: Economic development, air conditioning and adaptation to warming
+authors:
+  - Alicia Wongel
+  - Lyssa M. Freese
+  - Edgar Virgüez
+  - Steven J. Davis
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "20"
+pages: "124045"
+date: "2025"
+year: 2025
+themes:
+  - climate-and-economics
+
+description: >
+  A Cooling Deficit Index — cooling degree days times the population fraction without air
+  conditioning — shows lower-income countries face the largest increases in hot days endured
+  without cooling, and would need GDP growth above historical rates to avoid them.
+
+question:
+  - Warming increases the number of dangerously hot days. Economic growth increases the
+    fraction of people who own air conditioning. The two run in opposite directions, so
+    whether heat exposure gets better or worse in a given country is genuinely ambiguous.
+  - This paper asked which effect wins, country by country, and what rate of economic growth
+    would be needed for development to outpace warming.
+
+key_finding: >
+  Populations in lower-income countries already experience the greatest number of
+  high-temperature days without access to cooling and face the largest increases as the planet
+  warms; avoiding an increase in such days would require those countries to sustain GDP growth
+  rates exceeding their historical rates.
+
+findings:
+  - >
+    The paper defines a Cooling Deficit Index as the product of cooling degree days and the
+    fraction of the population without air conditioning, giving a single measure of how much
+    high temperature is actually endured without relief.
+  - >
+    The index is used to trace the relationship between global warming, economic growth, and
+    the share of population exposed to high temperatures without the benefit of cooling.
+  - >
+    Lower-income countries score worst on both counts. They have the most high-temperature
+    days without cooling now, and they are projected to see the largest increases as
+    temperatures rise.
+  - >
+    The growth required to offset that is the central quantitative result. These countries
+    would need GDP growth rates exceeding their own historical rates simply to prevent the
+    number of uncooled hot days from increasing.
+
+matters:
+  - >
+    The finding sharpens what adaptation through development actually demands. Air conditioning
+    is a real and effective adaptation, but the analysis shows growth at historically normal
+    rates does not deliver it fast enough in the places that need it most.
+  - >
+    The index itself is a contribution beyond the result. Cooling degree days alone describe
+    the climate, and air-conditioning penetration alone describes the economy; their product
+    describes the exposure that actually matters to people, and it can be computed anywhere.
+
+related:
+  - duan-2025-adaptation-abatement

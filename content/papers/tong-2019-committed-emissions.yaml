@@ -1,0 +1,71 @@
+id: tong-2019-committed-emissions
+doi: 10.1038/s41586-019-1364-3
+title: >
+  Committed emissions from existing energy infrastructure jeopardize 1.5 °C climate target
+authors:
+  - Dan Tong
+  - Qiang Zhang
+  - Yixuan Zheng
+  - Ken Caldeira
+  - Christine Shearer
+  - Chaopeng Hong
+  - Yue Qin
+  - Steven J. Davis
+journal: Nature
+volume: "572"
+pages: 373-377
+date: "2019"
+year: 2019
+themes:
+  - climate-and-energy
+
+description: >
+  Existing fossil-fuel infrastructure will emit about 658 GtCO2 if operated as historically,
+  with proposed power plants adding roughly 188 GtCO2 more — enough to jeopardize the
+  1.5 °C target.
+
+question:
+  - Nine years after the idea of committed emissions was introduced, the stock of fossil-fuel
+    infrastructure had grown substantially and the temperature target under discussion had
+    tightened from 2 °C to 1.5 °C.
+  - This paper asked what the world's existing energy infrastructure, as it actually stood in
+    2018, has already committed us to — and how much more would be committed if the power
+    plants currently planned, permitted, or under construction are in fact built.
+
+key_finding: >
+  Existing fossil-fuel energy infrastructure will cumulatively emit about 658 gigatonnes of
+  CO2 if operated as it has been historically, with a range of 226 to 1,479 GtCO2 depending
+  on assumed lifetimes and utilization rates; proposed power plants would add roughly a
+  further 188 GtCO2.
+
+findings:
+  - >
+    The estimate is built from detailed datasets of the fossil-fuel energy infrastructure
+    actually in place in 2018, rather than from scenarios, and is resolved by region and by
+    sector.
+  - >
+    More than half of the committed emissions come from the electricity sector alone.
+  - >
+    The geographic concentration is high. Infrastructure in China accounts for roughly 41 per
+    cent of the total, the United States about 9 per cent, and the 28 member states of the
+    European Union about 7 per cent.
+  - >
+    Power plants that were planned, permitted, or under construction would, if built, emit an
+    additional 188 GtCO2, with a range of 37 to 427 GtCO2.
+  - >
+    The sensitivity of the total to assumed operating lifetimes and schedules is large, which
+    means the commitment is not fixed — retiring plants earlier or running them less
+    materially changes the outcome.
+
+matters:
+  - >
+    The comparison with the earlier assessment is the point. In 2010 the infrastructure then
+    existing was consistent with staying below 2 °C; by 2018 the infrastructure existing and
+    proposed was enough to jeopardize 1.5 °C. The commitment grew because building continued.
+  - >
+    Because the total depends strongly on lifetimes and utilization, the finding identifies a
+    lever that does not require any new technology — operating existing assets for less time,
+    or less intensively, reduces committed emissions directly.
+
+related:
+  - davis-2010-committed-emissions
