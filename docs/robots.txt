@@ -1,0 +1,26 @@
+# ciunit.org
+#
+# Everything here is public research writing that we want found, quoted, and
+# cited — including by AI answer engines. Nothing is disallowed.
+#
+# Search and retrieval crawlers are distinguishable from model-training
+# crawlers, so it is possible to permit one without the other. We currently
+# permit both. To allow retrieval but opt out of training, uncomment the block
+# at the bottom: GPTBot (OpenAI training) and Google-Extended (Gemini training)
+# are the training-side agents, while OAI-SearchBot, ClaudeBot, PerplexityBot,
+# and Googlebot are what fetch pages to answer a user's question.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ciunit.org/sitemap.xml
+
+# --- Retrieval yes, training no. Uncomment to opt out of model training. ---
+# User-agent: GPTBot
+# Disallow: /
+#
+# User-agent: Google-Extended
+# Disallow: /
+#
+# User-agent: CCBot
+# Disallow: /

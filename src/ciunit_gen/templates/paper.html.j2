@@ -1,0 +1,59 @@
+{% extends "_base.html.j2" %}
+{% block title %}{{ paper.title }}{% endblock %}
+{% block description %}{{ paper.description }}{% endblock %}
+{% block content %}
+    <section class="page-title page-title-long">
+      <div class="eyebrow">What We Publish</div>
+      <h1>{{ paper.title }}</h1>
+      <p class="paper-meta"><a target="_blank" rel="noopener noreferrer" href="{{ paper.doi_url }}">{{ paper.author_line }} · {{ paper.journal }}{% if paper.volume %} {{ paper.volume }}{% endif %}{% if paper.pages %}, {{ paper.pages }}{% endif %} · {{ paper.year }}</a></p>
+      <p class="key-finding"><strong>Key finding.</strong> {{ paper.key_finding }}</p>
+    </section>
+
+    <section class="section bio">
+{% if paper.figure %}
+      <figure class="paper-figure">
+        <img src="figures/{{ paper.figure.file }}" alt="{{ paper.figure.alt }}" loading="lazy">
+        <figcaption>
+          {{ paper.figure.caption }}
+          <span class="credit">{{ paper.figure.credit_line }}</span>
+        </figcaption>
+      </figure>
+{% endif %}
+
+      <h2>What question did this paper ask?</h2>
+{% for para in paper.question %}
+      <p>{{ para }}</p>
+{% endfor %}
+
+      <h2>What did we find?</h2>
+{% for para in paper.findings %}
+      <p>{{ para }}</p>
+{% endfor %}
+
+      <h2>Why does it matter?</h2>
+{% for para in paper.matters %}
+      <p>{{ para }}</p>
+{% endfor %}
+
+      <h2>Citation, data, and code</h2>
+      <p>{{ paper.full_citation }}</p>
+      <ul>
+        <li><a target="_blank" rel="noopener noreferrer" href="{{ paper.doi_url }}">Published article (doi:{{ paper.doi }})</a></li>
+{% for link in paper.links %}
+        <li><a target="_blank" rel="noopener noreferrer" href="{{ link.url }}">{{ link.label }}</a></li>
+{% endfor %}
+      </ul>
+
+{% if themes or related %}
+      <h2>Related</h2>
+      <ul>
+{% for theme in themes %}
+        <li><a href="../{{ theme.url_path }}">{{ theme.question }}</a></li>
+{% endfor %}
+{% for rel in related %}
+        <li><a href="{{ rel.id }}.html">{{ rel.title }}</a> ({{ rel.short_citation }})</li>
+{% endfor %}
+      </ul>
+{% endif %}
+    </section>
+{% endblock %}

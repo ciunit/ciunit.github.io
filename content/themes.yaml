@@ -1,0 +1,73 @@
+# Theme pages: the authoritative, citable reference pages. Each is structured
+# Question -> Short answer -> Why it matters -> What our research finds ->
+# Evidence and methods -> Papers, data, and code. See CLAUDE.md, "Paper pages and GEO".
+#
+# `evidence[].paper` must name a paper id under content/papers/.
+
+- id: wind-and-solar-reliability
+  title: Reliability of wind and solar power
+  question: Can wind and solar power reliably meet electricity demand?
+  short_answer: >
+    Not on their own. Wind- and solar-only systems sized to match annual electricity demand
+    meet roughly 72-91% of hourly demand in most countries, and 83-94% with twelve hours of
+    storage — leaving hundreds of hours of unmet demand each year even in the best cases. The
+    residual gap is set by the geophysics of the atmosphere, so closing it requires storage,
+    demand flexibility, long-distance transmission, or firm generation rather than more wind
+    and solar capacity alone.
+  description: >
+    How reliably can wind and solar power meet electricity demand? Evidence from global
+    analyses of hourly weather data, resource variability, and wind droughts.
+
+  why_it_matters:
+    - >
+      Debates about wind and solar power often conflate two different questions: whether the
+      resource is large enough, and whether it arrives when it is needed. The resource
+      question is settled — the wind and sunlight reaching the Earth's surface exceed human
+      energy demand by orders of magnitude. The timing question is not.
+    - Framing reliability as a geophysical property rather than an engineering shortcoming
+      changes what counts as a solution. If the gap between supply and demand is imposed by
+      the atmosphere, then cheaper solar panels do not close it; only storage, flexibility,
+      geographic aggregation, or complementary firm generation can.
+    - It also changes what counts as a fair comparison between places. Two countries with
+      identical average wind resources can face very different reliability problems, because
+      what matters is not the mean but the depth and duration of the shortfalls.
+
+  evidence:
+    - claim: >
+        Across 42 countries, the most reliable wind- and solar-only systems, sized so that
+        annual generation equals annual demand and with no storage, met 72-91% of hourly
+        electricity demand; twelve hours of storage raised this to 83-94%
+      paper: tong-2021-geophysical-constraints
+    - claim: >
+        Even in systems meeting more than 90% of demand, hundreds of hours of unmet demand
+        still occurred in a typical year, concentrated in particular periods rather than
+        spread evenly
+      paper: tong-2021-geophysical-constraints
+    - claim: >
+        The regions least exposed to wind droughts combine high wind power density with low
+        seasonal and low weather variability — the American Midwest, Australia, the Sahara,
+        Argentina, Central Asia, and Southern Africa
+      paper: antonini-2024-wind-droughts
+    - claim: >
+        Northwestern Europe has high wind power density but suffers more frequent and more
+        prolonged wind droughts than its resource alone would suggest, because its weather is
+        more variable
+      paper: antonini-2024-wind-droughts
+    - claim: >
+        There is little evidence of strong trends in wind droughts over recent decades in most
+        places, and in many regions the most severe droughts on record predate any substantial
+        wind power on the system
+      paper: antonini-2024-wind-droughts
+
+  methods:
+    - Both analyses are built on multi-decadal hourly weather reanalysis data rather than on
+      model scenarios — 39 years covering 1980 to 2018 in the case of the 42-country
+      reliability analysis. Using observed weather means the variability being characterised
+      is the variability that actually occurred.
+    - The reliability analysis deliberately assumes idealised conditions — perfect transmission
+      within each country, and annual generation set equal to annual demand — so that the
+      remaining shortfall is attributable to the geophysical mismatch between resource and
+      demand rather than to any particular system design.
+    - Wind droughts are measured with an energy-deficit metric that integrates both the depth
+      and the duration of each drought, rather than counting low-wind hours. A long shallow
+      drought and a short deep one are not equivalent problems for an electricity system.

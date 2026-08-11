@@ -1,0 +1,81 @@
+id: chen-2020-migration-incentive
+doi: 10.5194/esd-11-875-2020
+title: Climate change as an incentive for future human migration
+authors:
+  - Min Chen
+  - Ken Caldeira
+journal: Earth System Dynamics
+volume: "11"
+pages: 875-883
+date: "2020-10-22"
+year: 2020
+
+description: >
+  Holding all non-climate factors constant, climate change could give hundreds of millions
+  of people additional incentive to migrate within decades, largely from warm tropical and
+  subtropical countries towards cooler temperate ones.
+
+question:
+  - Where people live today is related, among many other things, to climate. This paper asked
+    what today's observed relationship between climatic factors and population density implies
+    about the future incentive to migrate, if the climate changes and everything else is held
+    fixed.
+  - The framing matters as much as the result. This is an "all other factors held constant"
+    analysis, which the authors are explicit is unlikely to produce quantitatively accurate
+    predictions. What such an analysis can offer is the order of magnitude and the spatial
+    pattern of the incentive.
+
+key_finding: >
+  Analysing today's relationship between climate and population density with all other
+  factors held constant, climate change may within decades give hundreds of millions of
+  people additional incentive to migrate, largely from warm tropical and subtropical
+  countries towards cooler temperate countries, with India the country with the greatest
+  number of people so affected.
+
+findings:
+  - >
+    Applying today's climate-population-density relationships to projected future climates
+    indicates that, within decades, hundreds of millions of people could acquire additional
+    incentive to migrate. The direction is consistent: away from warm tropical and
+    subtropical regions and towards cooler temperate ones.
+  - India stands out as the country with the greatest number of people gaining additional
+    incentive to migrate. Country-level results are strongly asymmetric, with some large
+    temperate countries becoming relatively more attractive on this measure while large
+    tropical and subtropical countries become less so.
+  - The areas with the highest projected population growth rates tend to be the areas likely
+    to be most adversely affected by climate change, so the populations gaining the most
+    incentive to move are also the populations growing fastest.
+  - These climate-driven incentives sit within a much broader constellation of economic,
+    social, and political factors that motivate and constrain migration. The analysis
+    isolates one of them; it does not predict how many people will actually move.
+
+matters:
+  - Treating climate as an *incentive* rather than a direct driver separates a geophysical
+    question from a social one. The paper quantifies the scale of the pressure while leaving
+    explicit that whether that pressure translates into movement depends on factors outside
+    the analysis.
+  - The order of magnitude is what carries the argument. Even granting wide uncertainty in
+    any single number, an incentive affecting hundreds of millions of people is a different
+    category of problem from one affecting millions.
+
+figure:
+  file: chen-2020-migration-incentive.webp
+  source_figure: Figure 1
+  alt: >
+    Three world maps stacked vertically, coloured red through white to blue. The top map
+    shows the change in population by grid cell implied for 2100, with strong red over India
+    and West Africa and blue over northern China and parts of Europe. The middle map shows
+    the same quantity aggregated by country, with China deep blue and India deep red. The
+    bottom map shows the ratio of implied future to present population density, blue across
+    Canada, northern Europe, and Russia, and red across Brazil, sub-Saharan Africa, and
+    South and Southeast Asia.
+  caption: >
+    The implied redistribution runs from warm low latitudes towards cooler high latitudes.
+    Aggregated by country (middle), India shows the largest implied decrease and China the
+    largest implied increase; as a ratio to present-day density (bottom), the high northern
+    latitudes gain most and the tropics lose most.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Chen and Caldeira (2020), Earth System Dynamics 11, 875-883
+  modification: Resized for web display

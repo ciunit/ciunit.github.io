@@ -1,0 +1,45 @@
+{{ banner }}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% endblock %} — Conceptual Investigations Unit</title>
+  <meta name="description" content="{% block description %}{% endblock %}">
+  <link rel="canonical" href="{{ canonical }}">
+  <link rel="stylesheet" href="{{ up }}css/style.css">
+  <script type="application/ld+json">
+{{ jsonld | jsonld }}
+  </script>
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "7e0d205e69984aa2a6b578c576efe3b5"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav">
+      <a class="logo" href="{{ up }}index.html">Conceptual Investigations Unit</a>
+      <div class="nav-links">
+        <a href="{{ up }}what-we-do.html">What We Do</a>
+        <a href="{{ up }}who-we-are.html">Who We Are</a>
+        <a href="{{ up }}papers.html">What We Publish</a>
+        <a href="{{ up }}about.html">What is CIunit.org?</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+{% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    © 2026 Conceptual Investigations Unit
+  </footer>
+
+</body>
+
+</html>

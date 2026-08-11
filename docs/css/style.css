@@ -24,6 +24,11 @@ a {
   color: inherit;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   border-bottom: 1px solid var(--line);
 }
@@ -217,6 +222,80 @@ h3 {
   font-size: 1.2rem;
   color: var(--accent);
   margin: 0 0 24px;
+}
+
+/* --- Papers section (generated pages under docs/papers/ and docs/topics/) --- */
+
+/* Paper and theme headings are full sentences, not two-word names. The global h1
+   scale is tuned for "Ken Caldeira" and is far too large for a paper title. */
+.page-title-long {
+  max-width: 900px;
+}
+
+.page-title-long h1 {
+  font-size: clamp(1.8rem, 3.4vw, 2.7rem);
+  line-height: 1.25;
+  margin: 14px 0 18px;
+}
+
+/* The single most quotable line on the page — a paper's key finding, or a theme
+   page's short answer. Deliberately placed above the evidence. */
+.key-finding {
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  padding: 20px 24px;
+  margin: 28px 0 0;
+  font-size: 1.1rem;
+  max-width: 760px;
+}
+
+.paper-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.card .paper-meta {
+  margin-bottom: 10px;
+}
+
+/* The reference line under a paper title links to the publisher. Underlined so it
+   reads as a link — the global rule makes anchors inherit colour, which would
+   otherwise leave it indistinguishable from the muted text around it. */
+.paper-meta a {
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+  transition: 0.2s ease;
+}
+
+.paper-meta a:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+.paper-figure {
+  margin: 0 0 48px;
+  padding: 0;
+}
+
+.paper-figure img {
+  display: block;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.paper-figure figcaption {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 14px;
+}
+
+/* Attribution line, generated from the recorded licence — never hand-typed. */
+.paper-figure figcaption .credit {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.85rem;
 }
 
 footer {

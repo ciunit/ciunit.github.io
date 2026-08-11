@@ -1,0 +1,84 @@
+id: antonini-2024-wind-droughts
+doi: 10.1038/s43247-024-01260-7
+title: >
+  Identification of reliable locations for wind power generation through a global
+  analysis of wind droughts
+authors:
+  - Enrico G. A. Antonini
+  - Edgar Virgüez
+  - Sara Ashfaq
+  - Lei Duan
+  - Tyler H. Ruggles
+  - Ken Caldeira
+journal: Communications Earth & Environment
+volume: "5"
+pages: "103"
+date: "2024-03-04"
+year: 2024
+themes:
+  - wind-and-solar-reliability
+
+description: >
+  A global analysis of wind droughts finds the American Midwest, Australia, the Sahara,
+  Argentina, Central Asia, and Southern Africa most favourable for wind power, with little
+  evidence that droughts have worsened in recent decades.
+
+question:
+  - Electricity systems that lean heavily on wind generation are threatened less by ordinary
+    hour-to-hour variability than by wind droughts — prolonged stretches of unusually low
+    wind speeds that no practical amount of short-duration storage can ride through.
+  - This paper asked where in the world wind droughts are least severe, and whether they
+    have been getting worse as the climate changes.
+
+key_finding: >
+  Wind droughts are least limiting in the American Midwest, Australia, the Sahara,
+  Argentina, Central Asia, and Southern Africa; across most of the world there is little
+  evidence of strong trends in wind droughts in recent decades, and the most severe droughts
+  in many places occurred before wind power was a substantial part of the electricity supply.
+
+findings:
+  - Using weather reanalysis data, the analysis mapped the global distribution of wind
+    droughts with an energy-deficit metric that combines how deep a drought is with how long
+    it lasts, rather than treating low-wind hours as interchangeable.
+  - >
+    The most favourable regions combine three properties: high mean wind power density, low
+    seasonal variability, and limited weather-driven fluctuation. The American Midwest,
+    Australia, the Sahara, Argentina, Central Asia, and Southern Africa satisfy all three.
+  - Northwestern Europe is a notable exception. It has high wind power densities, but its
+    greater weather variability produces more frequent and more prolonged wind droughts than
+    its resource alone would suggest.
+  - There was little evidence of strong trends in wind droughts over recent decades in most
+    places. In many regions the most severe droughts on record occurred before wind power
+    had substantially penetrated the electricity system.
+
+matters:
+  - Because wind droughts show no strong trend, historical weather records remain a usable
+    basis for designing wind-reliant electricity systems. A system planned against several
+    decades of observed weather is not planning against a target that has already moved.
+  - Separating mean resource quality from drought risk changes how sites compare. A region
+    with abundant average wind may still be a harder place to build a reliable system than a
+    windier-on-paper alternative with steadier weather.
+
+figure:
+  file: antonini-2024-wind-droughts.webp
+  source_figure: Figure 1
+  alt: >
+    Three world maps stacked vertically, each showing land areas coloured by percentile rank.
+    The top map shows mean wind power density in watts per square metre, with high values
+    across the American Midwest, northern Europe, Patagonia, and parts of Central Asia. The
+    middle map shows a seasonal variability metric, and the bottom map a weather variability
+    metric, both coloured so that the most favourable, least variable areas appear
+    brightest — including the Sahara, Australia, and Southern Africa.
+  caption: >
+    The three properties that make a location favourable for wind power do not coincide
+    everywhere. High mean power density (top) overlaps only partly with low seasonal
+    variability (middle) and low weather variability (bottom); regions favourable on all
+    three measures are the ones least exposed to wind droughts.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Antonini et al. (2024), Communications Earth & Environment 5, 103
+  modification: Resized for web display
+
+related:
+  - tong-2021-geophysical-constraints

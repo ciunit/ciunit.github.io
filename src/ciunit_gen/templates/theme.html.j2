@@ -1,0 +1,44 @@
+{% extends "_base.html.j2" %}
+{% block title %}{{ theme.title }}{% endblock %}
+{% block description %}{{ theme.description }}{% endblock %}
+{% block content %}
+    <section class="page-title page-title-long">
+      <div class="eyebrow">What We Publish</div>
+      <h1>{{ theme.question }}</h1>
+      <p class="key-finding"><strong>Short answer.</strong> {{ theme.short_answer }}</p>
+    </section>
+
+    <section class="section bio">
+{% if theme.why_it_matters %}
+      <h2>Why the question matters</h2>
+{% for para in theme.why_it_matters %}
+      <p>{{ para }}</p>
+{% endfor %}
+{% endif %}
+
+{% if theme.evidence %}
+      <h2>What our research finds</h2>
+      <ul>
+{% for item in theme.evidence %}
+        <li>{{ item.claim }} (<a href="../{{ by_id[item.paper].url_path }}">{{ by_id[item.paper].short_citation }}</a>).</li>
+{% endfor %}
+      </ul>
+{% endif %}
+
+{% if theme.methods %}
+      <h2>Evidence and methods</h2>
+{% for para in theme.methods %}
+      <p>{{ para }}</p>
+{% endfor %}
+{% endif %}
+
+      <h2>Papers, data, and code</h2>
+      <ul>
+{% for paper in papers %}
+        <li><a href="../{{ paper.url_path }}">{{ paper.title }}</a> — {{ paper.author_line }},
+          {{ paper.journal }}, {{ paper.year }}
+          (<a target="_blank" rel="noopener noreferrer" href="{{ paper.doi_url }}">doi:{{ paper.doi }}</a>).</li>
+{% endfor %}
+      </ul>
+    </section>
+{% endblock %}

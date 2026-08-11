@@ -27,25 +27,55 @@ ciunit.github.io/
 │   ├── what-we-do.html
 │   ├── who-we-are.html
 │   ├── ken-caldeira.html  #   bio page (linked from who-we-are.html)
+│   ├── papers.html        #   GENERATED — index of the papers section
+│   ├── papers/            #   GENERATED — one page per paper
+│   │   ├── <id>.html
+│   │   └── figures/       #   figure images (licence recorded in content/)
+│   ├── topics/            #   GENERATED — theme reference pages
+│   ├── sitemap.xml        #   GENERATED
+│   ├── robots.txt
 │   └── css/
 │       └── style.css      #   shared stylesheet for all pages
 │
+├── content/               # SOURCE OF TRUTH for the papers section
+│   ├── papers/<id>.yaml   #   one file per paper
+│   └── themes.yaml        #   theme pages
+│
+├── src/ciunit_gen/        # the generator (see below)
+│
 ├── scripts/               # Python helpers (run locally; not part of the site)
 │   ├── lookup_dois.py     #   find DOIs for bio-page citations via Crossref
-│   └── verify_dois.py     #   verify candidate DOIs / re-search ambiguous ones
+│   ├── verify_dois.py     #   verify candidate DOIs / re-search ambiguous ones
+│   └── check_licenses.py  #   metadata + figure-reuse licence for a DOI
 │
+├── requirements.txt
 └── README.md
 ```
 
-Each page is standalone HTML that shares the same header navigation and footer.
-There is no templating layer yet — when adding a page, copy the header/footer
-from an existing page so the nav stays consistent.
+Hand-written pages are standalone HTML sharing the same header navigation and
+footer — when adding one, copy the header/footer from an existing page so the nav
+stays consistent. Pages under `docs/papers/` and `docs/topics/` are **generated**;
+edit the YAML in `content/` instead and rebuild.
 
-### Planned: content generator
+## Content generator
 
-A Python generator (e.g. `src/ciunit_gen/` driven by templates + a `content/`
-directory of Markdown/YAML) is **planned but not yet built**. When it exists it
-will write into `docs/`, and that output will be committed like everything else.
+The papers section is generated from `content/` into `docs/`. GitHub Pages runs no
+build step, so **the generated HTML is committed** like everything else.
+
+```bash
+pip install -r requirements.txt
+PYTHONPATH=src python -m ciunit_gen --check   # validate content, write nothing
+PYTHONPATH=src python -m ciunit_gen           # write docs/papers/, docs/topics/,
+                                              # docs/papers.html, docs/sitemap.xml
+```
+
+The build is reproducible: running it twice leaves the tree unchanged. It refuses
+to generate a page whose content file is missing a key finding, a figure licence,
+or figure alt text, and warns about papers flagged `needs_review`. It never touches
+the hand-written pages — the `Papers` nav link in those is maintained by hand.
+
+See `CLAUDE.md` ("Paper pages and GEO") for the writing conventions these pages
+follow and why.
 
 ## Scripts
 
@@ -54,9 +84,15 @@ The `scripts/` helpers support maintaining the citation links on
 (no key required) and print results for review — they do **not** edit the HTML.
 
 ```bash
-python3 scripts/lookup_dois.py    # best-guess DOI per citation, with a match score
-python3 scripts/verify_dois.py    # confirm specific DOIs and re-search hard cases
+python3 scripts/lookup_dois.py       # best-guess DOI per citation, with a match score
+python3 scripts/verify_dois.py       # confirm specific DOIs and re-search hard cases
+python3 scripts/check_licenses.py    # citation metadata + whether a figure may be reused
 ```
+
+`check_licenses.py` is the one to run before adding a figure to a paper page: it
+resolves the DOI against Crossref and Unpaywall and reports whether the paper is
+CC-BY (reproduce with attribution), CC BY-NC-ND (reproduce **unmodified** only), or
+not openly licensed (rely on author reuse rights).
 
 ## Preview locally
 

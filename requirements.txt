@@ -1,0 +1,4 @@
+# Local tooling only — GitHub Pages runs no build step; ciunit_gen's output is
+# committed into docs/. The scripts/ helpers are stdlib-only and need none of this.
+Jinja2>=3.1
+PyYAML>=6.0

@@ -1,0 +1,42 @@
+{% extends "_base.html.j2" %}
+{% block title %}What We Publish{% endblock %}
+{% block description %}Plain-language summaries of peer-reviewed papers by researchers of the Conceptual Investigations Unit — each with its key finding, a key figure, and a link to the published article.{% endblock %}
+{% block content %}
+    <section class="page-title">
+      <div class="eyebrow">What We Publish</div>
+      <h1>What We Publish</h1>
+      <p class="lede">
+        What question did we ask? What did we find? And why does it matter?
+      </p>
+    </section>
+
+{% for theme, theme_papers in grouped %}
+    <section class="section">
+      <h2><a href="{{ theme.url_path }}">{{ theme.question }}</a></h2>
+      <p class="lede">{{ theme.short_answer }}</p>
+      <div class="grid">
+{% for paper in theme_papers %}
+        <a class="card card-link" href="{{ paper.url_path }}">
+          <h3>{{ paper.title }}</h3>
+          <p class="paper-meta">{{ paper.short_citation }} · {{ paper.journal }}</p>
+          <p>{{ paper.key_finding }}</p>
+        </a>
+{% endfor %}
+      </div>
+    </section>
+{% endfor %}
+{% if ungrouped %}
+    <section class="section">
+      <h2>Other papers</h2>
+      <div class="grid">
+{% for paper in ungrouped %}
+        <a class="card card-link" href="{{ paper.url_path }}">
+          <h3>{{ paper.title }}</h3>
+          <p class="paper-meta">{{ paper.short_citation }} · {{ paper.journal }}</p>
+          <p>{{ paper.key_finding }}</p>
+        </a>
+{% endfor %}
+      </div>
+    </section>
+{% endif %}
+{% endblock %}

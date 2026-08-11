@@ -83,6 +83,55 @@ generator is planned but not yet built.
   to find/verify DOIs. They print candidates for review; they don't edit HTML.
   Verify author + year + title before trusting an auto-matched DOI.
 
+## Paper pages and GEO (`docs/papers/`, `docs/topics/`)
+
+The papers section is written to be **found, understood, and cited by AI answer
+engines** (generative-engine / answer-engine optimization), not only to rank in
+search. That goal, not ordinary SEO, decides how these pages are structured.
+
+**These pages are generated — never hand-edit them.** Source of truth is
+`content/papers/<id>.yaml` and `content/themes.yaml`; run `python -m ciunit_gen`
+(see README) and commit its output. Every generated file carries a `GENERATED`
+banner comment.
+
+Content rules:
+
+- **State the claim; don't make a reader reconstruct it.** Every paper page opens
+  with one self-contained `key_finding` sentence carrying the number — "models
+  underestimate 22-year maximum monthly high-temperature anomalies by 11–12%",
+  not "we found significant biases". It must make sense quoted in isolation, with
+  no pronouns or antecedents pointing back into the page.
+- **Headings are questions people actually ask** — "What question did this paper
+  ask?", "Does climate change affect economic growth?" — not "Introduction" or
+  "Results".
+- **Answer sits above evidence.** Order is question → short answer → evidence and
+  qualifications → sources. Both humans and retrieval systems get the short answer
+  without reading to the bottom.
+- **Provenance is the point.** Authors, affiliation, date, DOI, and links to data
+  and code carry more weight here than any keyword tuning.
+- **Prefer few authoritative pages over many thin ones.** A paper page with no
+  real result and no figure is worse than no page. Theme pages under
+  `docs/topics/` are the citable units; paper pages are the evidence beneath them.
+- **Scientific claims are the user's to approve.** Ground every number in the
+  paper's abstract or text. If a claim can't be verified from an accessible
+  source, set `needs_review: true` in the YAML and flag it — the generator will
+  list those files.
+
+Mechanics:
+
+- Every page carries `<meta name="description">`, `<link rel="canonical">` to the
+  `https://ciunit.org/…` URL, and JSON-LD. Paper pages use `WebPage` with a
+  `mainEntity` `ScholarlyArticle` keyed by DOI.
+- **Figures:** `figure.credit` and `figure.license` are required data fields, so
+  captions are generated, never hand-typed. Use `scripts/check_licenses.py` to
+  determine reuse rights before adding a figure. CC-BY reproduces freely with
+  attribution; CC BY-NC-ND requires the image be used **unmodified** (no
+  recropping or restyling); non-open papers rely on author reuse-on-own-website
+  rights. Alt text is required and must describe what the figure *shows* — it is
+  read by retrieval systems, which cannot see the image.
+- `docs/sitemap.xml` and `docs/robots.txt` are part of this; regenerate the
+  sitemap whenever pages are added.
+
 ## Secrets
 
 - Never commit tokens/credentials. `.gitignore` blocks `*token*`, `*.secret`,
