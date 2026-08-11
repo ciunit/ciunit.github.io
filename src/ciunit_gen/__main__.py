@@ -8,6 +8,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
+from . import report as report_mod
 from .model import ContentError, load_all
 from .render import Renderer
 
@@ -66,6 +67,12 @@ def main(argv: list[str]) -> int:
         print(f"{len(papers)} paper(s), {len(themes)} theme(s) — content valid.")
         for w in warnings:
             print(f"  warning: {w}")
+        return 0
+
+    if "--report" in argv:
+        dest = root / "PAGES-STATUS.md"
+        dest.write_text(report_mod.build(papers, themes, root), encoding="utf-8")
+        print(f"wrote {dest.relative_to(root)}")
         return 0
 
     by_id = {p.id: p for p in papers}

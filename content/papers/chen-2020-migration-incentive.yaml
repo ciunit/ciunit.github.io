@@ -9,6 +9,8 @@ volume: "11"
 pages: 875-883
 date: "2020-10-22"
 year: 2020
+themes:
+  - climate-and-economics
 
 description: >
   Holding all non-climate factors constant, climate change could give hundreds of millions
@@ -74,6 +76,7 @@ figure:
     Aggregated by country (middle), India shows the largest implied decrease and China the
     largest implied increase; as a ratio to present-day density (bottom), the high northern
     latitudes gain most and the tropics lose most.
+  source: publisher website
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0/
   credit: >

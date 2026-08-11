@@ -148,6 +148,10 @@ class Renderer:
 
     def render_index(self, papers: list[Paper], themes: list[Theme]) -> None:
         grouped = [(t, [p for p in papers if t.id in p.themes]) for t in themes]
+        # Sections lead with the theme containing the most recent work, so the
+        # index opens on what is current. Papers within a section are already
+        # newest-first, since `papers` arrives sorted that way.
+        grouped.sort(key=lambda g: -max((p.year for p in g[1]), default=0))
         ungrouped = [p for p in papers if not p.themes]
         html = self.env.get_template("paper-index.html.j2").render(
             banner=Markup(GENERATED_BANNER).format(source="content/papers/*.yaml"),

@@ -62,6 +62,9 @@ class Figure:
     source_figure: str = ""
     source_url: str = ""
     modification: str = ""
+    # Where the image came from — "publisher website", "PDF (300 dpi)", etc.
+    # Recorded so PAGES-STATUS.md can show why a figure is low resolution.
+    source: str = ""
 
     @property
     def credit_line(self) -> str:

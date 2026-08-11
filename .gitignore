@@ -16,7 +16,16 @@ dist/
 # publisher abstracts, which don't belong in a public repo.
 content/survey-cache.json
 
+# Source PDFs used only to extract figures. Publisher PDFs must never be
+# committed to a public repo — only the individual figures we have a licence or
+# author-reuse right to republish end up in docs/papers/figures/.
+pdfs/
+*.pdf
+
 # Secrets — never commit
 *token*
 *.secret
 .env
+
+# Scratch contact sheets from scripts/extract_figures.py
+.figure-candidates/
