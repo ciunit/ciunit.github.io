@@ -1,8 +1,10 @@
 # Theme pages: the authoritative, citable reference pages. Each is structured
 # Question -> Short answer -> Why it matters -> What our research finds ->
-# Evidence and methods -> Papers, data, and code. See CLAUDE.md, "Paper pages and GEO".
+# Evidence and methods -> Publications, data, and code. See CLAUDE.md,
+# "Publication pages and GEO".
 #
-# `evidence[].paper` must name a paper id under content/papers/.
+# `evidence[].paper` must name a publication id under content/publications/.
+# (The key stays `paper`, matching the field name in code.)
 
 - id: wind-and-solar-reliability
   title: Reliability of wind and solar power

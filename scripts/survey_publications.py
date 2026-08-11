@@ -9,9 +9,9 @@ can act on. This reports both, per DOI.
 
 Writes a JSON cache so the (slow, network-bound) survey is run once and reused:
 
-    python3 scripts/survey_papers.py                  # survey, write cache + report
-    python3 scripts/survey_papers.py --from-cache     # re-render report from cache
-    python3 scripts/survey_papers.py --markdown       # emit the status document
+    python3 scripts/survey_publications.py                  # survey, write cache + report
+    python3 scripts/survey_publications.py --from-cache     # re-render report from cache
+    python3 scripts/survey_publications.py --markdown       # emit the status document
 
 Read-only with respect to the site: it never edits HTML or content files.
 """
