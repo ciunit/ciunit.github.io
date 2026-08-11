@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Re-extract every chosen figure and convert it for the web.
 
-Reads content/figure-picks.json (which figure of each paper we use), extracts it
-from the PDF, and writes docs/papers/figures/<id>.<ext>. Run this after changing
+Reads content/figure-picks.json (which figure of each publication we use), extracts it
+from the PDF, and writes docs/publications/figures/<id>.<ext>. Run this after changing
 anything in scripts/extract_figures.py so every figure is rebuilt consistently.
 
 A pick is one of:
@@ -15,12 +15,12 @@ The third form is for scans, which have no captions to detect, and for the rare
 detected region that shears an axis label off — a trim can shrink a region but
 never grow one.
 
-No-derivatives papers are detected from their licence and left at native
+No-derivatives publications are detected from their licence and left at native
 resolution as PNG: resizing a CC BY-ND or BY-NC-ND figure would breach the
 licence, so it must never depend on someone remembering to special-case it.
 
     python3 scripts/rebuild_figures.py           # rebuild all
-    python3 scripts/rebuild_figures.py <id> ...  # rebuild specific papers
+    python3 scripts/rebuild_figures.py <id> ...  # rebuild specific publications
 """
 import json
 import subprocess
@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extract_figures import extract, load_map, papers_by_id  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-FIG_DIR = ROOT / "docs" / "papers" / "figures"
+FIG_DIR = ROOT / "docs" / "publications" / "figures"
 PICKS = ROOT / "content" / "figure-picks.json"
 CACHE = ROOT / "content" / "survey-cache.json"
 MAX_WIDTH = 1600

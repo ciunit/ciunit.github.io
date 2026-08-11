@@ -14,7 +14,7 @@
   <url><loc>https://ciunit.org/lamprini-papargyri.html</loc></url>
   <url><loc>https://ciunit.org/mahendra-nimmakanti.html</loc></url>
   <url><loc>https://ciunit.org/yuhan-wang.html</loc></url>
-  <url><loc>https://ciunit.org/papers.html</loc></url>
+  <url><loc>https://ciunit.org/publications.html</loc></url>
   <url><loc>https://ciunit.org/topics/wind-and-solar-reliability.html</loc></url>
   <url><loc>https://ciunit.org/topics/climate-and-carbon-cycle.html</loc></url>
   <url><loc>https://ciunit.org/topics/climate-and-energy.html</loc></url>
@@ -24,61 +24,61 @@
   <url><loc>https://ciunit.org/topics/wind-power-geophysics.html</loc></url>
   <url><loc>https://ciunit.org/topics/paleoclimate.html</loc></url>
   <url><loc>https://ciunit.org/topics/macro-energy-modeling.html</loc></url>
-  <url><loc>https://ciunit.org/papers/wongel-2026-solar-process-heat.html</loc></url>
-  <url><loc>https://ciunit.org/papers/duan-2025-adaptation-abatement.html</loc></url>
-  <url><loc>https://ciunit.org/papers/duan-2025-temperature-extremes.html</loc></url>
-  <url><loc>https://ciunit.org/papers/thomas-2025-aviation-cirrus.html</loc></url>
-  <url><loc>https://ciunit.org/papers/wongel-2025-cooling-deficit.html</loc></url>
-  <url><loc>https://ciunit.org/papers/antonini-2024-wind-droughts.html</loc></url>
-  <url><loc>https://ciunit.org/papers/li-2024-storage-portfolios.html</loc></url>
-  <url><loc>https://ciunit.org/papers/ruggles-2024-planning-reliable-systems.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-2023-green-premium.html</loc></url>
-  <url><loc>https://ciunit.org/papers/duan-2022-flexible-nuclear.html</loc></url>
-  <url><loc>https://ciunit.org/papers/antonini-2021-power-density-limits.html</loc></url>
-  <url><loc>https://ciunit.org/papers/antonini-2021-spatial-constraints.html</loc></url>
-  <url><loc>https://ciunit.org/papers/rampino-2021-tetrapod-periodicity.html</loc></url>
-  <url><loc>https://ciunit.org/papers/tong-2021-geophysical-constraints.html</loc></url>
-  <url><loc>https://ciunit.org/papers/brown-2020-break-even-year.html</loc></url>
-  <url><loc>https://ciunit.org/papers/chen-2020-migration-incentive.html</loc></url>
-  <url><loc>https://ciunit.org/papers/dowling-2020-long-duration-storage.html</loc></url>
-  <url><loc>https://ciunit.org/papers/duan-2020-climate-development-goals.html</loc></url>
-  <url><loc>https://ciunit.org/papers/tong-2020-storage-cost-reductions.html</loc></url>
-  <url><loc>https://ciunit.org/papers/tong-2019-committed-emissions.html</loc></url>
-  <url><loc>https://ciunit.org/papers/wang-2019-induced-efficiency.html</loc></url>
-  <url><loc>https://ciunit.org/papers/albright-2018-co2-addition-reef.html</loc></url>
-  <url><loc>https://ciunit.org/papers/davis-2018-net-zero-energy-systems.html</loc></url>
-  <url><loc>https://ciunit.org/papers/shaner-2018-us-reliability.html</loc></url>
-  <url><loc>https://ciunit.org/papers/ahbe-2017-available-potential-energy.html</loc></url>
-  <url><loc>https://ciunit.org/papers/possner-2017-open-ocean-wind.html</loc></url>
-  <url><loc>https://ciunit.org/papers/albright-2016-reversal-acidification.html</loc></url>
-  <url><loc>https://ciunit.org/papers/rugenstein-2016-radiative-feedbacks.html</loc></url>
-  <url><loc>https://ciunit.org/papers/cao-2015-fast-slow-responses.html</loc></url>
-  <url><loc>https://ciunit.org/papers/rampino-2015-impact-cratering-periodicity.html</loc></url>
-  <url><loc>https://ciunit.org/papers/winkelmann-2015-antarctic-ice-sheet.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-2013-science-of-geoengineering.html</loc></url>
-  <url><loc>https://ciunit.org/papers/marvel-2013-geophysical-limits-wind.html</loc></url>
-  <url><loc>https://ciunit.org/papers/ricke-2013-coral-reef-risk.html</loc></url>
-  <url><loc>https://ciunit.org/papers/cao-2012-fast-response-days-weeks.html</loc></url>
-  <url><loc>https://ciunit.org/papers/pongratz-2012-geoengineered-crop-yields.html</loc></url>
-  <url><loc>https://ciunit.org/papers/cao-2011-precipitation-co2-forcing.html</loc></url>
-  <url><loc>https://ciunit.org/papers/davis-2011-supply-chain-emissions.html</loc></url>
-  <url><loc>https://ciunit.org/papers/ban-weiss-2010-optimization.html</loc></url>
-  <url><loc>https://ciunit.org/papers/davis-2010-committed-emissions.html</loc></url>
-  <url><loc>https://ciunit.org/papers/davis-2010-consumption-based-accounting.html</loc></url>
-  <url><loc>https://ciunit.org/papers/pagani-2009-terrestrial-plants-co2.html</loc></url>
-  <url><loc>https://ciunit.org/papers/matthews-2008-near-zero-emissions.html</loc></url>
-  <url><loc>https://ciunit.org/papers/bala-2007-deforestation.html</loc></url>
-  <url><loc>https://ciunit.org/papers/matthews-2007-geoengineering-transient.html</loc></url>
-  <url><loc>https://ciunit.org/papers/pagani-2006-ancient-carbon-mystery.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-2003-climate-sensitivity-uncertainty.html</loc></url>
-  <url><loc>https://ciunit.org/papers/herzog-2003-permanence-temporary-storage.html</loc></url>
-  <url><loc>https://ciunit.org/papers/ridgwell-2003-carbonate-climate-stability.html</loc></url>
-  <url><loc>https://ciunit.org/papers/hoffert-2002-advanced-technology-paths.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-2000-southern-ocean.html</loc></url>
-  <url><loc>https://ciunit.org/papers/govindasamy-2000-first-simulations.html</loc></url>
-  <url><loc>https://ciunit.org/papers/duffy-1997-sea-ice-salinity.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-1993-kt-carbon-cycle.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-kasting-1993-warming-potentials.html</loc></url>
-  <url><loc>https://ciunit.org/papers/rampino-1993-geologic-periodicity.html</loc></url>
-  <url><loc>https://ciunit.org/papers/caldeira-1990-deccan-volcanism.html</loc></url>
+  <url><loc>https://ciunit.org/publications/wongel-2026-solar-process-heat.html</loc></url>
+  <url><loc>https://ciunit.org/publications/duan-2025-adaptation-abatement.html</loc></url>
+  <url><loc>https://ciunit.org/publications/duan-2025-temperature-extremes.html</loc></url>
+  <url><loc>https://ciunit.org/publications/thomas-2025-aviation-cirrus.html</loc></url>
+  <url><loc>https://ciunit.org/publications/wongel-2025-cooling-deficit.html</loc></url>
+  <url><loc>https://ciunit.org/publications/antonini-2024-wind-droughts.html</loc></url>
+  <url><loc>https://ciunit.org/publications/li-2024-storage-portfolios.html</loc></url>
+  <url><loc>https://ciunit.org/publications/ruggles-2024-planning-reliable-systems.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-2023-green-premium.html</loc></url>
+  <url><loc>https://ciunit.org/publications/duan-2022-flexible-nuclear.html</loc></url>
+  <url><loc>https://ciunit.org/publications/antonini-2021-power-density-limits.html</loc></url>
+  <url><loc>https://ciunit.org/publications/antonini-2021-spatial-constraints.html</loc></url>
+  <url><loc>https://ciunit.org/publications/rampino-2021-tetrapod-periodicity.html</loc></url>
+  <url><loc>https://ciunit.org/publications/tong-2021-geophysical-constraints.html</loc></url>
+  <url><loc>https://ciunit.org/publications/brown-2020-break-even-year.html</loc></url>
+  <url><loc>https://ciunit.org/publications/chen-2020-migration-incentive.html</loc></url>
+  <url><loc>https://ciunit.org/publications/dowling-2020-long-duration-storage.html</loc></url>
+  <url><loc>https://ciunit.org/publications/duan-2020-climate-development-goals.html</loc></url>
+  <url><loc>https://ciunit.org/publications/tong-2020-storage-cost-reductions.html</loc></url>
+  <url><loc>https://ciunit.org/publications/tong-2019-committed-emissions.html</loc></url>
+  <url><loc>https://ciunit.org/publications/wang-2019-induced-efficiency.html</loc></url>
+  <url><loc>https://ciunit.org/publications/albright-2018-co2-addition-reef.html</loc></url>
+  <url><loc>https://ciunit.org/publications/davis-2018-net-zero-energy-systems.html</loc></url>
+  <url><loc>https://ciunit.org/publications/shaner-2018-us-reliability.html</loc></url>
+  <url><loc>https://ciunit.org/publications/ahbe-2017-available-potential-energy.html</loc></url>
+  <url><loc>https://ciunit.org/publications/possner-2017-open-ocean-wind.html</loc></url>
+  <url><loc>https://ciunit.org/publications/albright-2016-reversal-acidification.html</loc></url>
+  <url><loc>https://ciunit.org/publications/rugenstein-2016-radiative-feedbacks.html</loc></url>
+  <url><loc>https://ciunit.org/publications/cao-2015-fast-slow-responses.html</loc></url>
+  <url><loc>https://ciunit.org/publications/rampino-2015-impact-cratering-periodicity.html</loc></url>
+  <url><loc>https://ciunit.org/publications/winkelmann-2015-antarctic-ice-sheet.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-2013-science-of-geoengineering.html</loc></url>
+  <url><loc>https://ciunit.org/publications/marvel-2013-geophysical-limits-wind.html</loc></url>
+  <url><loc>https://ciunit.org/publications/ricke-2013-coral-reef-risk.html</loc></url>
+  <url><loc>https://ciunit.org/publications/cao-2012-fast-response-days-weeks.html</loc></url>
+  <url><loc>https://ciunit.org/publications/pongratz-2012-geoengineered-crop-yields.html</loc></url>
+  <url><loc>https://ciunit.org/publications/cao-2011-precipitation-co2-forcing.html</loc></url>
+  <url><loc>https://ciunit.org/publications/davis-2011-supply-chain-emissions.html</loc></url>
+  <url><loc>https://ciunit.org/publications/ban-weiss-2010-optimization.html</loc></url>
+  <url><loc>https://ciunit.org/publications/davis-2010-committed-emissions.html</loc></url>
+  <url><loc>https://ciunit.org/publications/davis-2010-consumption-based-accounting.html</loc></url>
+  <url><loc>https://ciunit.org/publications/pagani-2009-terrestrial-plants-co2.html</loc></url>
+  <url><loc>https://ciunit.org/publications/matthews-2008-near-zero-emissions.html</loc></url>
+  <url><loc>https://ciunit.org/publications/bala-2007-deforestation.html</loc></url>
+  <url><loc>https://ciunit.org/publications/matthews-2007-geoengineering-transient.html</loc></url>
+  <url><loc>https://ciunit.org/publications/pagani-2006-ancient-carbon-mystery.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-2003-climate-sensitivity-uncertainty.html</loc></url>
+  <url><loc>https://ciunit.org/publications/herzog-2003-permanence-temporary-storage.html</loc></url>
+  <url><loc>https://ciunit.org/publications/ridgwell-2003-carbonate-climate-stability.html</loc></url>
+  <url><loc>https://ciunit.org/publications/hoffert-2002-advanced-technology-paths.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-2000-southern-ocean.html</loc></url>
+  <url><loc>https://ciunit.org/publications/govindasamy-2000-first-simulations.html</loc></url>
+  <url><loc>https://ciunit.org/publications/duffy-1997-sea-ice-salinity.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-1993-kt-carbon-cycle.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-kasting-1993-warming-potentials.html</loc></url>
+  <url><loc>https://ciunit.org/publications/rampino-1993-geologic-periodicity.html</loc></url>
+  <url><loc>https://ciunit.org/publications/caldeira-1990-deccan-volcanism.html</loc></url>
 </urlset>

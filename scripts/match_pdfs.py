@@ -2,8 +2,8 @@
 """Match PDFs in pdfs/ to the DOIs cited on the site.
 
 The PDF collection is a personal reprint library, far larger than the set of
-papers on the site and named inconsistently, so matching is done on content
-rather than filename: the DOI printed on the paper, falling back to the title.
+publications on the site and named inconsistently, so matching is done on content
+rather than filename: the DOI printed on the article, falling back to the title.
 
     python3 scripts/match_pdfs.py            # report coverage
     python3 scripts/match_pdfs.py --json     # machine-readable mapping
@@ -43,7 +43,7 @@ def dois_from_pdf(path: Path, known: set[str]) -> tuple[str | None, str]:
 
     Only DOIs we already know about are accepted, which neatly avoids the main
     failure mode — picking up the DOI of a cited reference instead of the
-    paper's own.
+    article's own.
     """
     try:
         doc = pymupdf.open(path)
@@ -81,7 +81,7 @@ def main() -> int:
     known = {r["doi"] for r in records}
     titles = {norm_title(r.get("title", "")): r["doi"] for r in records if r.get("title")}
     built = {}
-    for y in sorted((ROOT / "content" / "papers").glob("*.yaml")):
+    for y in sorted((ROOT / "content" / "publications").glob("*.yaml")):
         d = yaml.safe_load(y.read_text(encoding="utf-8"))
         built[str(d["doi"]).lower()] = {
             "id": d["id"], "has_figure": bool(d.get("figure")),
@@ -112,13 +112,13 @@ def main() -> int:
     need_fig = {d for d, v in built.items() if not v["has_figure"]}
     print(f"\nPDFs scanned            : {len(pdfs)}")
     print(f"matched to a cited DOI  : {sum(len(v['files']) for v in mapping.values())} "
-          f"file(s) -> {len(matched_dois)} distinct paper(s)")
+          f"file(s) -> {len(matched_dois)} distinct publication(s)")
     print(f"unmatched               : {len(unmatched)}")
     print()
-    print(f"papers with a page      : {len(built)}")
+    print(f"publications with a page : {len(built)}")
     print(f"  ...of which need a figure : {len(need_fig)}")
     print(f"  ...and now have a PDF     : {len(need_fig & matched_dois)}")
-    print(f"cited papers with no page but a PDF : "
+    print(f"cited publications with no page but a PDF : "
           f"{len(matched_dois - set(built))}")
 
     if "--json" in sys.argv:

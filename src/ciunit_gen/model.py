@@ -1,8 +1,8 @@
-"""Content model for the papers section.
+"""Content model for the publications section.
 
-Loads `content/papers/*.yaml` and `content/themes.yaml` into validated objects.
+Loads `content/publications/*.yaml` and `content/themes.yaml` into validated objects.
 Validation is deliberately strict about the fields that make a page worth citing
-(see CLAUDE.md, "Paper pages and GEO"): a page missing its key finding, or a
+(see CLAUDE.md, "Publication pages and GEO"): a page missing its key finding, or a
 figure missing its licence or alt text, is a page that quietly degrades into
 noise, so we refuse to generate it rather than ship it.
 """
@@ -19,9 +19,9 @@ class ContentError(Exception):
     """A content file is missing or malformed. Message names the file."""
 
 
-# Fields every paper must carry for its page to be worth publishing.
-# 'themes' is optional: a paper with no theme yet still gets a page, and lands
-# under "Other papers" on the index rather than blocking the build.
+# Fields every publication must carry for its page to be worth publishing.
+# 'themes' is optional: a publication with no theme yet still gets a page, and
+# lands under "Other publications" on the index rather than blocking the build.
 REQUIRED_PAPER = ("id", "doi", "title", "authors", "journal", "year",
                   "description", "question", "key_finding", "findings", "matters")
 REQUIRED_FIGURE = ("file", "alt", "caption", "license", "credit")
@@ -115,7 +115,7 @@ class Paper:
 
     @property
     def url_path(self) -> str:
-        return f"papers/{self.id}.html"
+        return f"publications/{self.id}.html"
 
     @property
     def doi_url(self) -> str:
@@ -248,7 +248,7 @@ def load_themes(path: Path) -> list[Theme]:
 
 
 def load_all(content_dir: Path) -> tuple[list[Paper], list[Theme]]:
-    papers_dir = content_dir / "papers"
+    papers_dir = content_dir / "publications"
     if not papers_dir.is_dir():
         raise ContentError(f"{papers_dir}: no papers directory")
     papers = sorted((load_paper(p) for p in sorted(papers_dir.glob("*.yaml"))),
@@ -265,11 +265,11 @@ def load_all(content_dir: Path) -> tuple[list[Paper], list[Theme]]:
                 raise ContentError(f"{p.source_path}: unknown theme '{t}'")
         for r in p.related:
             if r not in known_papers:
-                raise ContentError(f"{p.source_path}: 'related' points at unknown paper '{r}'")
+                raise ContentError(f"{p.source_path}: 'related' points at unknown publication '{r}'")
     for t in themes:
         for e in t.evidence:
             if e.paper not in known_papers:
-                raise ContentError(f"themes.yaml ({t.id}): evidence cites unknown paper '{e.paper}'")
+                raise ContentError(f"themes.yaml ({t.id}): evidence cites unknown publication '{e.paper}'")
     return papers, themes
 
 

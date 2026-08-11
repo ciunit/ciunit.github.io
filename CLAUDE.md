@@ -72,33 +72,33 @@ generator is planned but not yet built.
 
 ## Citations on bio pages (`docs/ken-caldeira.html`, `docs/lei-duan.html`)
 
-- Each citation links to the paper via **`https://doi.org/<doi>`** (resolves to
+- Each citation links to the publication via **`https://doi.org/<doi>`** (resolves to
   the publisher's site). Keep this form for consistency even if given a direct
   publisher URL.
 - **Within each "Selected scientific contributions" subsection, bullets are
   ordered most-recent-first.** A bullet with multiple references is ranked by its
-  *newest* citation year. When adding a paper, insert it at the correct
+  *newest* citation year. When adding a publication, insert it at the correct
   chronological slot (newest at the top of its `<h3>` group).
 - `scripts/lookup_dois.py` and `scripts/verify_dois.py` query the Crossref API
   to find/verify DOIs. They print candidates for review; they don't edit HTML.
   Verify author + year + title before trusting an auto-matched DOI.
 
-## Paper pages and GEO (`docs/papers/`, `docs/topics/`)
+## Publication pages and GEO (`docs/publications/`, `docs/topics/`)
 
-The papers section is written to be **found, understood, and cited by AI answer
+The publications section is written to be **found, understood, and cited by AI answer
 engines** (generative-engine / answer-engine optimization), not only to rank in
 search. That goal, not ordinary SEO, decides how these pages are structured.
 
 **If `CONTINUE-HERE.md` exists, read it first** — it records the decisions
 already made and the next tasks, and is deleted once that work is done.
 
-**Read `PAPER-PAGES.md` before adding or changing a paper page.** It is the full
+**Read `PUBLICATION-PAGES.md` before adding or changing a publication page.** It is the full
 procedure — schema, commands, figure extraction, licensing, verification, and the
 list of what is still outstanding. This section covers only *why* the pages are
 written the way they are.
 
 **These pages are generated — never hand-edit them.** Source of truth is
-`content/papers/<id>.yaml` and `content/themes.yaml`; run `python -m ciunit_gen`
+`content/publications/<id>.yaml` and `content/themes.yaml`; run `python -m ciunit_gen`
 (see README) and commit its output. Every generated file carries a `GENERATED`
 banner comment.
 
@@ -106,45 +106,46 @@ Three things that have caused real errors and are easy to repeat:
 
 - **A plain YAML scalar cannot contain `": "`.** Any paragraph with a colon
   followed by a space must be a `- >` block scalar. Run `--check` after editing.
-- **Several PDFs can carry the same DOI**, because a citing paper prints it in its
+- **Several PDFs can carry the same DOI**, because a citing article prints it in its
   references. Figure extraction picks by title match, not file size.
-- **An open licence does not imply a reachable figure.** IOP papers here are CC BY
+- **An open licence does not imply a reachable figure.** IOP articles here are CC BY
   but the site blocks automated access; and CC BY-NC-ND figures must not be
   resized.
 
 Content rules:
 
-- **State the claim; don't make a reader reconstruct it.** Every paper page opens
+- **State the claim; don't make a reader reconstruct it.** Every publication page opens
   with one self-contained `key_finding` sentence carrying the number — "models
   underestimate 22-year maximum monthly high-temperature anomalies by 11–12%",
   not "we found significant biases". It must make sense quoted in isolation, with
   no pronouns or antecedents pointing back into the page.
-- **Headings are questions people actually ask** — "What question did this paper
-  ask?", "Does climate change affect economic growth?" — not "Introduction" or
+- **Headings are questions people actually ask** — "What question did this
+  research address?", "Does climate change affect economic growth?" — not "Introduction" or
   "Results".
 - **Answer sits above evidence.** Order is question → short answer → evidence and
   qualifications → sources. Both humans and retrieval systems get the short answer
   without reading to the bottom.
 - **Provenance is the point.** Authors, affiliation, date, DOI, and links to data
   and code carry more weight here than any keyword tuning.
-- **Prefer few authoritative pages over many thin ones.** A paper page with no
+- **Prefer few authoritative pages over many thin ones.** A publication page with no
   real result and no figure is worse than no page. Theme pages under
-  `docs/topics/` are the citable units; paper pages are the evidence beneath them.
+  `docs/topics/` are the citable units; publication pages are the evidence beneath
+  them.
 - **Scientific claims are the user's to approve.** Ground every number in the
-  paper's abstract or text. If a claim can't be verified from an accessible
+  publication's abstract or text. If a claim can't be verified from an accessible
   source, set `needs_review: true` in the YAML and flag it — the generator will
   list those files.
 
 Mechanics:
 
 - Every page carries `<meta name="description">`, `<link rel="canonical">` to the
-  `https://ciunit.org/…` URL, and JSON-LD. Paper pages use `WebPage` with a
+  `https://ciunit.org/…` URL, and JSON-LD. Publication pages use `WebPage` with a
   `mainEntity` `ScholarlyArticle` keyed by DOI.
 - **Figures:** `figure.credit` and `figure.license` are required data fields, so
   captions are generated, never hand-typed. Use `scripts/check_licenses.py` to
   determine reuse rights before adding a figure. CC-BY reproduces freely with
   attribution; CC BY-NC-ND requires the image be used **unmodified** (no
-  recropping or restyling); non-open papers rely on author reuse-on-own-website
+  recropping or restyling); non-open articles rely on author reuse-on-own-website
   rights. Alt text is required and must describe what the figure *shows* — it is
   read by retrieval systems, which cannot see the image.
 - `docs/sitemap.xml` and `docs/robots.txt` are part of this; regenerate the

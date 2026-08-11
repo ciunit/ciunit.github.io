@@ -1,8 +1,9 @@
-"""Render the papers section into docs/.
+"""Render the publications section into docs/.
 
-Only writes files it owns: docs/papers/, docs/topics/, docs/papers.html,
+Only writes files it owns: docs/publications/, docs/topics/, docs/publications.html,
 docs/sitemap.xml. The hand-written pages (index.html, about.html, the bios) are
-never touched — the nav link to the papers section is maintained by hand in them.
+never touched — the nav link to the publications section is maintained by hand in
+them.
 """
 from __future__ import annotations
 
@@ -117,7 +118,7 @@ class Renderer:
     def render_paper(self, paper: Paper, themes: dict[str, Theme],
                      by_id: dict[str, Paper]) -> None:
         html = self.env.get_template("paper.html.j2").render(
-            banner=Markup(GENERATED_BANNER).format(source=f"content/papers/{paper.id}.yaml"),
+            banner=Markup(GENERATED_BANNER).format(source=f"content/publications/{paper.id}.yaml"),
             paper=paper,
             up="../",
             canonical=f"{BASE_URL}/{paper.url_path}",
@@ -149,21 +150,21 @@ class Renderer:
     def render_index(self, papers: list[Paper], themes: list[Theme]) -> None:
         grouped = [(t, [p for p in papers if t.id in p.themes]) for t in themes]
         # Sections lead with the theme containing the most recent work, so the
-        # index opens on what is current. Papers within a section are already
+        # index opens on what is current. Entries within a section are already
         # newest-first, since `papers` arrives sorted that way.
         grouped.sort(key=lambda g: -max((p.year for p in g[1]), default=0))
         ungrouped = [p for p in papers if not p.themes]
         html = self.env.get_template("paper-index.html.j2").render(
-            banner=Markup(GENERATED_BANNER).format(source="content/papers/*.yaml"),
+            banner=Markup(GENERATED_BANNER).format(source="content/publications/*.yaml"),
             up="",
-            canonical=f"{BASE_URL}/papers.html",
+            canonical=f"{BASE_URL}/publications.html",
             grouped=grouped,
             ungrouped=ungrouped,
             count=len(papers),
             jsonld={
                 "@context": "https://schema.org",
                 "@type": "CollectionPage",
-                "url": f"{BASE_URL}/papers.html",
+                "url": f"{BASE_URL}/publications.html",
                 "name": f"What We Publish — {ORG_NAME}",
                 "description": (
                     f"Plain-language summaries of {len(papers)} peer-reviewed papers "
@@ -177,12 +178,12 @@ class Renderer:
                 ],
             },
         )
-        self._write("papers.html", html)
+        self._write("publications.html", html)
 
     def render_sitemap(self, papers: list[Paper], themes: list[Theme],
                        static_pages: list[str]) -> None:
         urls = [f"{BASE_URL}/{p}" for p in static_pages]
-        urls += [f"{BASE_URL}/papers.html"]
+        urls += [f"{BASE_URL}/publications.html"]
         urls += [f"{BASE_URL}/{t.url_path}" for t in themes]
         urls += [f"{BASE_URL}/{p.url_path}" for p in papers]
         # No <lastmod>: the output is committed to git, so the build must be

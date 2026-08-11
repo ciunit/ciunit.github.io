@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
-"""Extract figure images from the PDFs in pdfs/, for paper pages that need one.
+"""Extract figure images from the PDFs in pdfs/, for publication pages that need one.
 
 Scientific figures are usually vector art, so extracting embedded raster images
-finds nothing for most papers. Instead this locates each figure's caption, takes
+finds nothing for most publications. Instead this locates each figure's caption, takes
 the bounding box of the drawings and images sitting above it, and renders that
 region at high resolution.
 
-    # contact sheet of every figure in a paper, for choosing one
-    python3 scripts/extract_figures.py --contact <paper-id>
+    # contact sheet of every figure in a publication, for choosing one
+    python3 scripts/extract_figures.py --contact <id>
 
-    # render one figure at full resolution into docs/papers/figures/
-    python3 scripts/extract_figures.py --extract <paper-id> --figure 3
+    # render one figure at full resolution into docs/publications/figures/
+    python3 scripts/extract_figures.py --extract <id> --figure 3
 
-    # which papers have a page, need a figure, and have a PDF
+    # which publications have a page, need a figure, and have a PDF
     python3 scripts/extract_figures.py --list
 
 Scanned PDFs have no text layer, so there are no captions to find and the two
@@ -20,17 +20,17 @@ commands above return nothing. For those, render the pages, look at them, and
 crop by eye with an explicit rectangle in PDF points:
 
     # page images into .figure-candidates/, for choosing a page and a crop
-    python3 scripts/extract_figures.py --pages <paper-id>
-    python3 scripts/extract_figures.py --pages <paper-id> --page 3 --dpi 150
+    python3 scripts/extract_figures.py --pages <id>
+    python3 scripts/extract_figures.py --pages <id> --page 3 --dpi 150
 
     # render an explicit rectangle instead of a detected figure region
-    python3 scripts/extract_figures.py --extract <paper-id> --page 3 \
+    python3 scripts/extract_figures.py --extract <id> --page 3 \
         --rect 54,90,545,430
 
 Record either kind of choice in content/figure-picks.json so it can be rebuilt.
 
-Licence is not decided here — see CLAUDE.md, "Paper pages and GEO". Record it in
-the paper's YAML before the figure will render.
+Licence is not decided here — see CLAUDE.md, "Publication pages and GEO". Record
+it in the publication's YAML before the figure will render.
 """
 import json
 import re
@@ -42,7 +42,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 PDF_DIR = ROOT / "pdfs"
-FIG_DIR = ROOT / "docs" / "papers" / "figures"
+FIG_DIR = ROOT / "docs" / "publications" / "figures"
 MAP = ROOT / "content" / "pdf-map.json"
 SCRATCH = ROOT / ".figure-candidates"
 
@@ -58,14 +58,14 @@ def load_map() -> dict:
 
 def papers_by_id() -> dict:
     out = {}
-    for y in sorted((ROOT / "content" / "papers").glob("*.yaml")):
+    for y in sorted((ROOT / "content" / "publications").glob("*.yaml")):
         d = yaml.safe_load(y.read_text(encoding="utf-8"))
         out[d["id"]] = d
     return out
 
 
 def _title_score(path: Path, title: str) -> float:
-    """Fraction of the paper's title words appearing on the PDF's first page."""
+    """Fraction of the title's words appearing on the PDF's first page."""
     words = {w for w in re.findall(r"[a-z]{4,}", (title or "").lower())}
     if not words:
         return 0.0
@@ -86,9 +86,9 @@ def pdf_for(paper: dict, mapping: dict) -> Path | None:
         return None
     if len(files) == 1:
         return files[0]
-    # Several PDFs can carry the same DOI, because a paper that *cites* it prints
+    # Several PDFs can carry the same DOI, because an article that *cites* it prints
     # the DOI in its reference list. Choose by how well the first page matches the
-    # paper's own title — size is no guide, since a citing article with
+    # publication's own title — size is no guide, since a citing article with
     # supplementary material is often the larger file.
     title = str(paper.get("title", ""))
     scored = sorted(files, key=lambda f: (_title_score(f, title), f.stat().st_size))
@@ -126,7 +126,7 @@ def find_figures(doc) -> list[dict]:
             cap = pymupdf.Rect(b[:4])
             # Graphics above the caption and belonging to its column. Requiring
             # the graphic's centre to sit within the caption's horizontal span is
-            # what keeps two-column papers from dragging in the adjacent column's
+            # what keeps two-column articles from dragging in the adjacent column's
             # body text; a plain overlap test is far too permissive.
             pad = max(24.0, cap.width * 0.12)
             lo, hi = cap.x0 - pad, cap.x1 + pad

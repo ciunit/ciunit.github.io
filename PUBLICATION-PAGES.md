@@ -1,9 +1,9 @@
-# How to add a paper page
+# How to add a publication page
 
-The procedure for the papers section of CIunit.org. `CLAUDE.md` holds the *writing*
+The procedure for the publications section of CIunit.org. `CLAUDE.md` holds the *writing*
 conventions and the reasoning behind them; this file is the *mechanics*.
 
-Nothing under `docs/papers/`, `docs/topics/`, `docs/papers.html`, or
+Nothing under `docs/publications/`, `docs/topics/`, `docs/publications.html`, or
 `docs/sitemap.xml` is edited by hand. They are generated from `content/`.
 
 ---
@@ -11,18 +11,18 @@ Nothing under `docs/papers/`, `docs/topics/`, `docs/papers.html`, or
 ## Layout
 
 ```
-content/papers/<id>.yaml     source of truth, one file per paper
+content/publications/<id>.yaml   source of truth, one file per publication
 content/themes.yaml          theme pages
-content/figure-picks.json    which figure of each paper we use
+content/figure-picks.json    which figure of each publication we use
 content/survey-cache.json    gitignored — DOI metadata cache
 content/pdf-map.json         PDF filename -> DOI (committed; the PDFs are not)
 
 pdfs/                        gitignored — reprint library, never committed
-docs/papers/figures/         the only images that ship
+docs/publications/figures/   the only images that ship
 
 src/ciunit_gen/              generator
 scripts/                     helpers (below)
-PAPERS-STATUS.md             every cited DOI, and whether it can have a page
+PUBLICATIONS-STATUS.md       every cited DOI, and whether it can have a page
 PAGES-STATUS.md              every published page, with figure resolution
 ```
 
@@ -35,8 +35,8 @@ PYTHONPATH=src python -m ciunit_gen --check    # validate content, write nothing
 PYTHONPATH=src python -m ciunit_gen            # build the site
 PYTHONPATH=src python -m ciunit_gen --report   # refresh PAGES-STATUS.md
 
-python3 scripts/survey_papers.py               # survey every cited DOI (slow, network)
-python3 scripts/survey_papers.py --markdown > PAPERS-STATUS.md
+python3 scripts/survey_publications.py         # survey every cited DOI (slow, network)
+python3 scripts/survey_publications.py --markdown > PUBLICATIONS-STATUS.md
 python3 scripts/check_licenses.py <doi>        # metadata + figure reuse rights
 python3 scripts/match_pdfs.py                  # map pdfs/ to DOIs (slow)
 
@@ -50,9 +50,9 @@ python3 scripts/rebuild_figures.py [<id> ...]  # re-extract from figure-picks.js
 
 ---
 
-## Adding one paper
+## Adding one publication
 
-**1. Check it can be written.** Look it up in `PAPERS-STATUS.md`. A page needs a
+**1. Check it can be written.** Look it up in `PUBLICATIONS-STATUS.md`. A page needs a
 verifiable key finding, which means a reachable abstract or the PDF in hand. If
 neither exists, do not write the page — an invented finding is worse than no page.
 
@@ -63,10 +63,10 @@ python3 scripts/check_licenses.py 10.1038/s41467-021-26355-z
 ```
 
 This gives authors, journal, volume, pages/article number, date, and the figure
-reuse verdict. Note that Nature-family papers use an **article number**, which
+reuse verdict. Note that Nature-family journals use an **article number**, which
 goes in `pages:`.
 
-**3. Write `content/papers/<id>.yaml`.** Id format is
+**3. Write `content/publications/<id>.yaml`.** Id format is
 `<lead-author>-<year>-<short-slug>`. It becomes the URL, so choose once and don't
 rename — renaming breaks inbound links.
 
@@ -93,15 +93,16 @@ Required — the build fails without these:
 | `authors` | list, full given names |
 | `journal`, `year` | |
 | `description` | the `<meta description>`; one sentence, states the finding |
-| `question` | list of paragraphs — why the paper was written |
+| `question` | list of paragraphs — why the work was undertaken |
 | `key_finding` | **one self-contained sentence carrying the number** |
 | `findings` | list of paragraphs |
 | `matters` | list of paragraphs |
 
 Optional: `date`, `volume`, `pages`, `themes` (list of theme ids), `links`
-(list of `{label, url}`), `related` (list of paper ids), `figure`, `needs_review`.
+(list of `{label, url}`), `related` (list of publication ids), `figure`,
+`needs_review`.
 
-`needs_review: true` marks claims not yet verified against the paper. It renders
+`needs_review: true` marks claims not yet verified against the publication. It renders
 nothing but is listed in `PAGES-STATUS.md` and warned about at build time. Use it
 whenever the summary rests on something you could not read directly, and say why
 in a YAML comment.
@@ -129,9 +130,11 @@ scalar. Same for em dashes at end of line. Run `--check` after every edit.
 
 `content/themes.yaml`. Required: `id`, `title`, `question`, `short_answer`,
 `description`. Optional: `why_it_matters`, `evidence` (list of `{claim, paper}`),
-`methods`. A paper with no theme lands under "Other papers" on the index.
+`methods`. A publication with no theme lands under "Other publications" on the
+index. (The `evidence` key is still `paper`, matching the field name in code.)
 
-Index sections are ordered by their most recent paper; papers within a section are
+Index sections are ordered by their most recent publication; entries within a
+section are
 newest first. Both are automatic.
 
 ---
@@ -206,7 +209,7 @@ reintroduce:
 - **No horizontal clip.** Clipping to the caption width shears the outer panels off
   figures wider than their caption. A horizontal-growth pass was tried and reverted
   — it fixed one page-wide figure and broke several two-column ones.
-- **The wrong PDF.** Several files can carry the same DOI, because a paper that
+- **The wrong PDF.** Several files can carry the same DOI, because an article that
   *cites* it prints the DOI in its references. Selection scores candidates by title
   overlap with the first page; a size-based tie-break picks the wrong file.
 
@@ -240,11 +243,11 @@ Look at the result before recording it. Getting a rectangle right normally takes
 two or three passes: the usual faults are a running head or caption line caught at
 the edge, and an axis title left just outside.
 
-### Papers the pipeline cannot help with
+### Publications the pipeline cannot help with
 
 - **No PDF, publisher blocks automated access.** Springer Nature, Copernicus, and
   Springer serve figures over the web; IOP, Wiley/AGU, Elsevier, PNAS, and Science
-  refuse. An open licence does *not* imply a reachable figure — several IOP papers
+  refuse. An open licence does *not* imply a reachable figure — several IOP articles
   here are CC BY but unreachable.
 
 ---
@@ -265,8 +268,8 @@ nested `<a>` (the index cards are the risk); `git status` shows nothing from
 
 ## Where the work stands
 
-57 paper pages, 9 themes, 48 with figures, none below `good` resolution.
-`ken-caldeira.html` has 55 of its 61 cited papers covered.
+57 publication pages, 9 themes, 48 with figures, none below `good` resolution.
+`ken-caldeira.html` has 55 of its 61 cited works covered.
 
 Outstanding:
 
@@ -279,11 +282,11 @@ Outstanding:
    (page-wide schematic, deliberately text-only).
 2. **2 pages flagged `needs_review`** — `caldeira-kasting-1993-warming-potentials`
    and `caldeira-1990-deccan-volcanism`. Both need an author to confirm the claims.
-3. **6 of `ken-caldeira.html`'s 61 papers still have no page**, all
+3. **6 of `ken-caldeira.html`'s 61 citations still have no page**, all
    `blocked-no-abstract` with no PDF in `pdfs/` — Caldeira 1989, Caldeira 1992,
    Caldeira & Kasting 1992, Hoffert et al. 1998, Caldeira & Wickett 2003, and
    Carlino et al. 2025. A reprint of any of them unblocks its page.
 4. **Deferred:** the 61 bio-page DOI links still go straight to doi.org rather than
-   to the local paper pages, and `climate-and-climate-impacts.html` cites four
-   papers that now have pages without linking to them. Don't start either without
+   to the local publication pages, and `climate-and-climate-impacts.html` cites
+   four works that now have pages without linking to them. Don't start either without
    asking.

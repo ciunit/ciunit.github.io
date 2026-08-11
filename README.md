@@ -27,8 +27,8 @@ ciunit.github.io/
 │   ├── what-we-do.html
 │   ├── who-we-are.html
 │   ├── ken-caldeira.html  #   bio page (linked from who-we-are.html)
-│   ├── papers.html        #   GENERATED — index of the papers section
-│   ├── papers/            #   GENERATED — one page per paper
+│   ├── publications.html  #   GENERATED — index of the publications section
+│   ├── publications/      #   GENERATED — one page per publication
 │   │   ├── <id>.html
 │   │   └── figures/       #   figure images (licence recorded in content/)
 │   ├── topics/            #   GENERATED — theme reference pages
@@ -37,8 +37,8 @@ ciunit.github.io/
 │   └── css/
 │       └── style.css      #   shared stylesheet for all pages
 │
-├── content/               # SOURCE OF TRUTH for the papers section
-│   ├── papers/<id>.yaml   #   one file per paper
+├── content/               # SOURCE OF TRUTH for the publications section
+│   ├── publications/      #   one file per publication, <id>.yaml
 │   └── themes.yaml        #   theme pages
 │
 ├── src/ciunit_gen/        # the generator (see below)
@@ -54,27 +54,28 @@ ciunit.github.io/
 
 Hand-written pages are standalone HTML sharing the same header navigation and
 footer — when adding one, copy the header/footer from an existing page so the nav
-stays consistent. Pages under `docs/papers/` and `docs/topics/` are **generated**;
+stays consistent. Pages under `docs/publications/` and `docs/topics/` are **generated**;
 edit the YAML in `content/` instead and rebuild.
 
 ## Content generator
 
-The papers section is generated from `content/` into `docs/`. GitHub Pages runs no
+The publications section is generated from `content/` into `docs/`. GitHub Pages runs no
 build step, so **the generated HTML is committed** like everything else.
 
 ```bash
 pip install -r requirements.txt
 PYTHONPATH=src python -m ciunit_gen --check   # validate content, write nothing
-PYTHONPATH=src python -m ciunit_gen           # write docs/papers/, docs/topics/,
-                                              # docs/papers.html, docs/sitemap.xml
+PYTHONPATH=src python -m ciunit_gen           # write docs/publications/, docs/topics/,
+                                              # docs/publications.html, docs/sitemap.xml
 ```
 
 The build is reproducible: running it twice leaves the tree unchanged. It refuses
 to generate a page whose content file is missing a key finding, a figure licence,
-or figure alt text, and warns about papers flagged `needs_review`. It never touches
-the hand-written pages — the `Papers` nav link in those is maintained by hand.
+or figure alt text, and warns about publications flagged `needs_review`. It never
+touches the hand-written pages — the `What We Publish` nav link in those is
+maintained by hand.
 
-See `CLAUDE.md` ("Paper pages and GEO") for the writing conventions these pages
+See `CLAUDE.md` ("Publication pages and GEO") for the writing conventions these pages
 follow and why.
 
 ## Scripts
@@ -89,8 +90,9 @@ python3 scripts/verify_dois.py       # confirm specific DOIs and re-search hard 
 python3 scripts/check_licenses.py    # citation metadata + whether a figure may be reused
 ```
 
-`check_licenses.py` is the one to run before adding a figure to a paper page: it
-resolves the DOI against Crossref and Unpaywall and reports whether the paper is
+`check_licenses.py` is the one to run before adding a figure to a publication page:
+it resolves the DOI against Crossref and Unpaywall and reports whether the article
+is
 CC-BY (reproduce with attribution), CC BY-NC-ND (reproduce **unmodified** only), or
 not openly licensed (rely on author reuse rights).
 

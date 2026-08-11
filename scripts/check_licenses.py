@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Fetch authoritative metadata and reuse licensing for a set of DOIs.
 
-Used when adding a paper page under content/papers/: it answers both "what
+Used when adding a publication page under content/publications/: it answers both "what
 exactly is the citation?" (Crossref) and "may we reproduce a figure from it?"
 (Crossref `license` + Unpaywall open-access status).
 
 Prints a human-readable report; with --json prints machine-readable records
-suitable for pasting into a content/papers/<id>.yaml stub. Like the other
+suitable for pasting into a content/publications/<id>.yaml stub. Like the other
 scripts here it only reads — it never edits HTML or content files.
 
     python3 scripts/check_licenses.py                     # the pilot set
@@ -22,7 +22,7 @@ import urllib.request
 
 MAILTO = "ken@ciunit.org"
 
-# Pilot set for the papers section — spans themes and both licensing paths.
+# Pilot set for the publications section — spans themes and both licensing paths.
 PILOT = [
     "10.1038/s41467-021-26355-z",   # Tong et al., 2021
     "10.1038/s43247-024-01260-7",   # Antonini et al., 2024
@@ -119,7 +119,7 @@ def cc_codes(rec):
 
 
 def figure_verdict(rec):
-    """How may we source a figure from this paper?"""
+    """How may we source a figure from this publication?"""
     codes = cc_codes(rec)
     if codes & CC_FREE:
         return f"CC {sorted(codes & CC_FREE)[0].upper()} — reproduce with attribution"

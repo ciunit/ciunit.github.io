@@ -1,4 +1,4 @@
-"""Build the papers section: python -m ciunit_gen [--check]
+"""Build the publications section: python -m ciunit_gen [--check]
 
 --check builds nothing and only reports content problems, so it is safe to run
 against a dirty tree.
@@ -55,16 +55,16 @@ def main(argv: list[str]) -> int:
         if not paper.figure:
             warnings.append(f"{paper.id}: no figure — the page will publish without one")
             continue
-        fig = root / "docs" / "papers" / "figures" / paper.figure.file
+        fig = root / "docs" / "publications" / "figures" / paper.figure.file
         if not fig.exists():
-            warnings.append(f"{paper.id}: figure file missing: docs/papers/figures/{paper.figure.file}")
+            warnings.append(f"{paper.id}: figure file missing: docs/publications/figures/{paper.figure.file}")
 
     for paper in papers:
         if paper.needs_review:
             warnings.append(f"{paper.id}: needs_review is set — claims not yet verified by an author")
 
     if check_only:
-        print(f"{len(papers)} paper(s), {len(themes)} theme(s) — content valid.")
+        print(f"{len(papers)} publication(s), {len(themes)} theme(s) — content valid.")
         for w in warnings:
             print(f"  warning: {w}")
         return 0
@@ -88,7 +88,7 @@ def main(argv: list[str]) -> int:
 
     for path in r.written:
         print(f"wrote {path.relative_to(root)}")
-    print(f"\n{len(papers)} paper page(s), {len(themes)} theme page(s), "
+    print(f"\n{len(papers)} publication page(s), {len(themes)} theme page(s), "
           f"{len(r.written)} file(s) total.")
     for w in warnings:
         print(f"  warning: {w}", file=sys.stderr)

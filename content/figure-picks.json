@@ -1,5 +1,5 @@
 {
-  "_comment": "Which figure of each paper is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact, or, for a scan or a sheared crop, from page images produced by --pages. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes. A pick is a figure number, or {figure, trim} to cut a fraction off a side, or {page, rect} to render an explicit rectangle in PDF points.",
+  "_comment": "Which figure of each publication is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact, or, for a scan or a sheared crop, from page images produced by --pages. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes. A pick is a figure number, or {figure, trim} to cut a fraction off a side, or {page, rect} to render an explicit rectangle in PDF points.",
   "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
   "ahbe-2017-available-potential-energy": 3,
   "albright-2016-reversal-acidification": {
