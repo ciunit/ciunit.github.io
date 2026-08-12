@@ -66,7 +66,7 @@ def build(papers: list[Paper], themes: list[Theme], root: Path) -> str:
     by_theme = {t.id: t for t in themes}
 
     rows, no_fig, low = [], [], []
-    for p in sorted(papers, key=lambda x: (-x.year, x.id)):
+    for p in papers:          # already newest-first from load_all
         if p.figure:
             path = fig_dir / p.figure.file
             size = image_size(path)

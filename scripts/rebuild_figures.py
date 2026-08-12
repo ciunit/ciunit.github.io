@@ -34,15 +34,30 @@ ROOT = Path(__file__).resolve().parents[1]
 FIG_DIR = ROOT / "docs" / "publications" / "figures"
 PICKS = ROOT / "content" / "figure-picks.json"
 CACHE = ROOT / "content" / "survey-cache.json"
+LICENCES = ROOT / "content" / "thumbnail-picks.json"
 MAX_WIDTH = 1600
 
 
 def nd_dois() -> set[str]:
-    """DOIs under a no-derivatives licence, which must not be resized."""
-    if not CACHE.exists():
-        return set()
-    return {r["doi"] for r in json.loads(CACHE.read_text(encoding="utf-8"))
-            if any("nd" in c.split("-") for c in (r.get("cc") or []))}
+    """DOIs under a no-derivatives licence, which must not be resized.
+
+    Read from the committed `no_derivatives` list, falling back to the survey
+    cache. It used to read only the cache — which is gitignored, so on a fresh
+    clone this returned an empty set and the next rebuild silently downscaled
+    every CC BY-ND figure and reported success. Refusing to run beats that.
+    """
+    dois: set[str] = set()
+    if LICENCES.exists():
+        data = json.loads(LICENCES.read_text(encoding="utf-8"))
+        dois |= {d.lower() for d in data.get("no_derivatives") or []}
+    if CACHE.exists():
+        dois |= {r["doi"].lower() for r in json.loads(CACHE.read_text(encoding="utf-8"))
+                 if any("nd" in c.split("-") for c in (r.get("cc") or []))}
+    if not dois:
+        sys.exit(f"no no-derivatives licence data: neither {LICENCES.name} nor "
+                 f"{CACHE.name} is readable. Refusing to run — resizing a CC BY-ND "
+                 "figure would breach its licence.")
+    return dois
 
 
 def main(argv: list[str]) -> int:

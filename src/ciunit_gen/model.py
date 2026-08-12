@@ -9,6 +9,8 @@ noise, so we refuse to generate it rather than ship it.
 from __future__ import annotations
 
 import datetime as _dt
+import json
+import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -17,6 +19,11 @@ import yaml
 
 class ContentError(Exception):
     """A content file is missing or malformed. Message names the file."""
+
+
+# 'YYYY', 'YYYY-MM' or 'YYYY-MM-DD'. Anchored at both ends so 'March 2024' and
+# '2024-3' are rejected rather than silently sorting as though undated.
+DATE_RE = re.compile(r"(\d{4})(?:-(\d{2})(?:-(\d{2}))?)?$")
 
 
 # Fields every publication must carry for its page to be worth publishing.
@@ -91,6 +98,28 @@ class Link:
 
 
 @dataclass
+class Thumbnail:
+    """Cover image for the publications index — the publication's own first page.
+
+    Derived rather than authored, which is why this lives in
+    content/thumbnail-picks.json and not in each publication's YAML. The licence
+    basis is identical for every one of them, so per-publication blocks would be
+    49 chances to drift; the only editorial fact is *which* page is the article's
+    real first page, since a Science reprint or an IOP download puts a publisher
+    cover sheet ahead of it.
+
+    There is deliberately no alt text. The cover sits inside a link whose text
+    already reads "<title> — Albright et al., 2016 · Nature", so it ships
+    alt="" and describing it would make a screen reader announce the same
+    publication twice.
+    """
+    file: str
+    page: int = 1
+    license: str = ""
+    note: str = ""
+
+
+@dataclass
 class Paper:
     id: str
     doi: str
@@ -108,6 +137,7 @@ class Paper:
     volume: str = ""
     pages: str = ""
     figure: Figure | None = None
+    thumbnail: Thumbnail | None = None
     links: list[Link] = field(default_factory=list)
     related: list[str] = field(default_factory=list)
     needs_review: bool = False
@@ -140,6 +170,22 @@ class Paper:
         else:
             who = f"{first} et al."
         return f"{who}, {self.year}"
+
+    @property
+    def search_text(self) -> str:
+        """Lower-cased haystack for the index's client-side filter.
+
+        Carries the author list and the one-sentence description, neither of
+        which is printed on the card. The index no longer shows the key finding,
+        so without them a search for a co-author or a topic word would find
+        nothing at all.
+
+        Theme ids are included because they are readable slugs, so searching
+        "ocean acidification" matches every publication on that theme and not
+        just the one whose title happens to contain both words.
+        """
+        return " ".join([self.title, self.journal, str(self.year),
+                         *self.authors, *self.themes, self.description]).lower()
 
     @property
     def full_citation(self) -> str:
@@ -200,6 +246,13 @@ def load_paper(path: Path) -> Paper:
 
     links = [Link(label=l["label"], url=l["url"]) for l in data.get("links", []) or []]
 
+    # A malformed date leaves the index's sort key undefined, so refuse it rather
+    # than silently filing the publication under its year alone.
+    date = str(data.get("date", "") or "")
+    if date and not DATE_RE.match(date):
+        raise ContentError(
+            f"{where}: 'date' must be YYYY, YYYY-MM or YYYY-MM-DD, not {date!r}")
+
     return Paper(
         id=data["id"],
         doi=str(data["doi"]).strip(),
@@ -213,7 +266,7 @@ def load_paper(path: Path) -> Paper:
         key_finding=" ".join(str(data["key_finding"]).split()),
         findings=_paragraphs(data["findings"], where, "findings"),
         matters=_paragraphs(data["matters"], where, "matters"),
-        date=str(data.get("date", "") or ""),
+        date=date,
         volume=str(data.get("volume", "") or ""),
         pages=str(data.get("pages", "") or ""),
         figure=figure,
@@ -222,6 +275,52 @@ def load_paper(path: Path) -> Paper:
         needs_review=bool(data.get("needs_review", False)),
         source_path=path,
     )
+
+
+def sort_key(p: Paper) -> tuple[int, int, int, str]:
+    """Newest first across mixed date precision, as one total order.
+
+    Most publications carry a bare year, a few a full date. A missing month
+    sorts to the *end* of its year rather than to a guessed midpoint: something
+    we know only the year of should not displace something we know came out in
+    December. `id` breaks the remaining ties so the build stays reproducible.
+
+    Each component is negated rather than passing reverse=True, which would
+    reverse the id tiebreak too.
+    """
+    m = DATE_RE.match(p.date or "")
+    if not m:
+        return (-p.year, 0, 0, p.id)
+    y, mo, d = m.groups()
+    return (-int(y), -int(mo or 0), -int(d or 0), p.id)
+
+
+def load_thumbnails(path: Path, known: set[str]) -> dict[str, Thumbnail]:
+    """Cover picks for the publications index, from content/thumbnail-picks.json.
+
+    See Thumbnail for why these are not per-publication YAML blocks. A pick is
+    either a bare page number or a mapping, mirroring content/figure-picks.json.
+    """
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise ContentError(f"{path}: invalid JSON: {e}") from e
+
+    basis = data.get("basis") or {}
+    out = {}
+    for pid, spec in (data.get("picks") or {}).items():
+        if pid not in known:
+            raise ContentError(f"{path}: pick for unknown publication '{pid}'")
+        d = spec if isinstance(spec, dict) else {"page": spec}
+        out[pid] = Thumbnail(
+            file=str(d.get("file") or f"{pid}.webp"),
+            page=int(d.get("page", 1)),
+            license=str(d.get("license") or basis.get("license", "")),
+            note=str(d.get("note", "")),
+        )
+    return out
 
 
 def load_themes(path: Path) -> list[Theme]:
@@ -252,7 +351,7 @@ def load_all(content_dir: Path) -> tuple[list[Paper], list[Theme]]:
     if not papers_dir.is_dir():
         raise ContentError(f"{papers_dir}: no papers directory")
     papers = sorted((load_paper(p) for p in sorted(papers_dir.glob("*.yaml"))),
-                    key=lambda p: (-p.year, p.id))
+                    key=sort_key)
 
     themes_file = content_dir / "themes.yaml"
     themes = load_themes(themes_file) if themes_file.exists() else []
@@ -270,6 +369,10 @@ def load_all(content_dir: Path) -> tuple[list[Paper], list[Theme]]:
         for e in t.evidence:
             if e.paper not in known_papers:
                 raise ContentError(f"themes.yaml ({t.id}): evidence cites unknown publication '{e.paper}'")
+
+    thumbs = load_thumbnails(content_dir / "thumbnail-picks.json", known_papers)
+    for p in papers:
+        p.thumbnail = thumbs.get(p.id)
     return papers, themes
 
 

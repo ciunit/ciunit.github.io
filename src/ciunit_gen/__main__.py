@@ -59,7 +59,34 @@ def main(argv: list[str]) -> int:
         if not fig.exists():
             warnings.append(f"{paper.id}: figure file missing: docs/publications/figures/{paper.figure.file}")
 
+    # Covers are the publications index's card images. A missing pick is normal
+    # (no reprint yet); a missing file means the cover script has not been run.
+    covers = root / "docs" / "publications" / "covers"
     for paper in papers:
+        if not paper.thumbnail:
+            warnings.append(f"{paper.id}: no cover pick — the index will draw the fallback cover")
+        elif not (covers / paper.thumbnail.file).exists():
+            warnings.append(
+                f"{paper.id}: cover file missing: docs/publications/covers/{paper.thumbnail.file}"
+                f" — run scripts/make_thumbnails.py {paper.id}")
+
+    # docs/ is never cleaned by the build, so a renamed or deleted publication
+    # would otherwise leave its cover and figure behind in git for good.
+    for label, folder, wanted in (
+            ("cover", covers, {p.thumbnail.file for p in papers if p.thumbnail}),
+            ("figure", root / "docs" / "publications" / "figures",
+             {p.figure.file for p in papers if p.figure})):
+        if folder.is_dir():
+            for f in sorted(folder.iterdir()):
+                if f.name not in wanted:
+                    warnings.append(
+                        f"orphan {label} with no publication: {f.relative_to(root)}")
+
+    for paper in papers:
+        if paper.date and int(paper.date[:4]) != paper.year:
+            warnings.append(
+                f"{paper.id}: date {paper.date} disagrees with year {paper.year}"
+                " — check which is the issue date and which is online-first")
         if paper.needs_review:
             warnings.append(f"{paper.id}: needs_review is set — claims not yet verified by an author")
 

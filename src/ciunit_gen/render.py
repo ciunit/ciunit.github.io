@@ -148,34 +148,40 @@ class Renderer:
         self._write(theme.url_path, html)
 
     def render_index(self, papers: list[Paper], themes: list[Theme]) -> None:
-        grouped = [(t, [p for p in papers if t.id in p.themes]) for t in themes]
-        # Sections lead with the theme containing the most recent work, so the
-        # index opens on what is current. Entries within a section are already
-        # newest-first, since `papers` arrives sorted that way.
-        grouped.sort(key=lambda g: -max((p.year for p in g[1]), default=0))
-        ungrouped = [p for p in papers if not p.themes]
+        # One flat grid, newest first. `papers` already arrives in that order.
+        # The themes are no longer section headings here, so they are listed as a
+        # link strip instead: this page is the only route to them from the nav.
         html = self.env.get_template("paper-index.html.j2").render(
             banner=Markup(GENERATED_BANNER).format(source="content/publications/*.yaml"),
             up="",
             canonical=f"{BASE_URL}/publications.html",
-            grouped=grouped,
-            ungrouped=ungrouped,
-            count=len(papers),
+            papers=papers,
+            themes=themes,
+            cover_bases=sorted({p.thumbnail.license for p in papers
+                                if p.thumbnail and p.thumbnail.license}),
             jsonld={
                 "@context": "https://schema.org",
                 "@type": "CollectionPage",
                 "url": f"{BASE_URL}/publications.html",
                 "name": f"What We Publish — {ORG_NAME}",
                 "description": (
-                    f"Plain-language summaries of {len(papers)} peer-reviewed papers "
+                    f"Plain-language summaries of {len(papers)} peer-reviewed publications "
                     f"by researchers of the {ORG_NAME}, each with its key finding, "
                     "a key figure, and a link to the published article."
                 ),
                 "publisher": {"@type": "Organization", "name": ORG_NAME, "url": BASE_URL},
-                "hasPart": [
-                    {"@type": "WebPage", "url": f"{BASE_URL}/{p.url_path}", "name": p.title}
-                    for p in papers
-                ],
+                # hasPart is unordered, so the chronological order of the page
+                # would be invisible to a consumer. ItemList states it.
+                "mainEntity": {
+                    "@type": "ItemList",
+                    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                    "numberOfItems": len(papers),
+                    "itemListElement": [
+                        {"@type": "ListItem", "position": i,
+                         "url": f"{BASE_URL}/{p.url_path}", "name": p.title}
+                        for i, p in enumerate(papers, 1)
+                    ],
+                },
             },
         )
         self._write("publications.html", html)

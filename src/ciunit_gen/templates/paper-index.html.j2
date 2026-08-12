@@ -8,35 +8,50 @@
       <p class="lede">
         What questions did we try to answer? What did we find? And why does it matter?
       </p>
+      <p class="pub-themes">
+{%- for theme in themes %}
+        <a href="{{ theme.url_path }}">{{ theme.title }}</a>{% if not loop.last %} · {% endif %}
+{%- endfor %}
+      </p>
     </section>
 
-{% for theme, theme_papers in grouped %}
-    <section class="section">
-      <h2><a href="{{ theme.url_path }}">{{ theme.question }}</a></h2>
-      <p class="lede">{{ theme.short_answer }}</p>
-      <div class="grid">
-{% for paper in theme_papers %}
-        <a class="card card-link" href="{{ paper.url_path }}">
-          <h3>{{ paper.title }}</h3>
-          <p class="paper-meta">{{ paper.short_citation }} · {{ paper.journal }}</p>
-          <p>{{ paper.key_finding }}</p>
-        </a>
-{% endfor %}
-      </div>
-    </section>
-{% endfor %}
-{% if ungrouped %}
-    <section class="section">
-      <h2>Other publications</h2>
-      <div class="grid">
-{% for paper in ungrouped %}
-        <a class="card card-link" href="{{ paper.url_path }}">
-          <h3>{{ paper.title }}</h3>
-          <p class="paper-meta">{{ paper.short_citation }} · {{ paper.journal }}</p>
-          <p>{{ paper.key_finding }}</p>
-        </a>
-{% endfor %}
-      </div>
-    </section>
+    <form class="pub-filter" role="search" data-pub-filter hidden>
+      <label for="pub-search">Search these publications</label>
+      <input type="search" id="pub-search" name="q" autocomplete="off"
+        placeholder="title, author, journal, or year">
+    </form>
+    <p class="pub-status" role="status" data-pub-status></p>
+
+    <ul class="pub-grid">
+{% for paper in papers %}
+      <li class="pub-item" data-search="{{ paper.search_text }}">
+        <a class="pub-card card-link" href="{{ paper.url_path }}">
+{% if paper.thumbnail %}
+          <img class="pub-cover" src="publications/covers/{{ paper.thumbnail.file }}"
+            alt="" width="400" height="533" decoding="async"
+            loading="{{ 'eager' if loop.index <= 6 else 'lazy' }}">
+{% else %}
+          <span class="pub-cover pub-cover-blank" aria-hidden="true">
+            <span class="pub-cover-journal">{{ paper.journal }}</span>
+            <span class="pub-cover-title">{{ paper.title }}</span>
+            <span class="pub-cover-cite">{{ paper.short_citation }}</span>
+          </span>
 {% endif %}
+          <span class="pub-card-body">
+            <h3>{{ paper.title }}</h3>
+            <p class="paper-meta">{{ paper.short_citation }} · {{ paper.journal }}</p>
+          </span>
+        </a>
+      </li>
+{% endfor %}
+    </ul>
+
+    <p class="pub-empty" data-pub-empty hidden>No publications match that search.</p>
+{% if cover_bases %}
+    <p class="pub-credit">
+      Cover images are the first page of each published article, reproduced under
+      {{ cover_bases | join(' and ') }}.
+    </p>
+{% endif %}
+    <script src="js/publications.js" defer></script>
 {% endblock %}

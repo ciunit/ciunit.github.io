@@ -1,0 +1,89 @@
+{
+  "_comment": "Which page of each publication's PDF is its cover on the publications index. Page 1 is usually the article's own first page, but Science reprints and IOP downloads put a publisher wrapper ahead of it. Chosen by eye from the contact sheet made by scripts/make_thumbnails.py --contact, after --audit flags the candidates. Kept here so every cover can be re-rendered reproducibly if the renderer changes.",
+  "basis": {
+    "license": "author reuse rights",
+    "note": "Every publication in this collection has a Conceptual Investigations Unit author. First pages are reproduced at cover scale under author reuse-on-own-website rights, not under any Creative Commons licence the article may also carry."
+  },
+  "no_derivatives": [
+    "10.1002/2015jd023901",
+    "10.1016/0012-821x(93)90026-6",
+    "10.1038/s43247-024-01976-6",
+    "10.1038/s43247-025-02579-5"
+  ],
+  "_no_derivatives_note": "DOIs under a no-derivatives Creative Commons licence, committed here so scripts/rebuild_figures.py does not depend on the gitignored content/survey-cache.json to find them. Covers are unaffected: they rest on author reuse rights, not on the CC licence.",
+  "picks": {
+    "ahbe-2017-available-potential-energy": 1,
+    "albright-2016-reversal-acidification": 1,
+    "albright-2018-co2-addition-reef": 1,
+    "antonini-2021-power-density-limits": 1,
+    "antonini-2021-spatial-constraints": 1,
+    "antonini-2024-wind-droughts": 1,
+    "bala-2007-deforestation": 1,
+    "ban-weiss-2010-optimization": 1,
+    "brown-2020-break-even-year": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "caldeira-1990-deccan-volcanism": 1,
+    "caldeira-1993-kt-carbon-cycle": 1,
+    "caldeira-2000-southern-ocean": 1,
+    "caldeira-2003-climate-sensitivity-uncertainty": {
+      "page": 2,
+      "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
+    },
+    "caldeira-2013-science-of-geoengineering": 1,
+    "caldeira-2023-green-premium": 1,
+    "cao-2011-precipitation-co2-forcing": 1,
+    "cao-2012-fast-response-days-weeks": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "cao-2015-fast-slow-responses": 1,
+    "chen-2020-migration-incentive": 1,
+    "davis-2010-committed-emissions": {
+      "page": 2,
+      "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
+    },
+    "davis-2010-consumption-based-accounting": 1,
+    "davis-2011-supply-chain-emissions": 1,
+    "davis-2018-net-zero-energy-systems": 1,
+    "dowling-2020-long-duration-storage": 1,
+    "duan-2020-climate-development-goals": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "duan-2022-flexible-nuclear": 1,
+    "duan-2025-adaptation-abatement": 1,
+    "duan-2025-temperature-extremes": 1,
+    "herzog-2003-permanence-temporary-storage": 1,
+    "hoffert-2002-advanced-technology-paths": 1,
+    "marvel-2013-geophysical-limits-wind": 1,
+    "matthews-2007-geoengineering-transient": 1,
+    "matthews-2008-near-zero-emissions": 1,
+    "pagani-2006-ancient-carbon-mystery": {
+      "page": 2,
+      "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
+    },
+    "pagani-2009-terrestrial-plants-co2": 1,
+    "pongratz-2012-geoengineered-crop-yields": 1,
+    "possner-2017-open-ocean-wind": 1,
+    "rampino-1993-geologic-periodicity": 1,
+    "rampino-2015-impact-cratering-periodicity": 1,
+    "ricke-2013-coral-reef-risk": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "ridgwell-2003-carbonate-climate-stability": {
+      "page": 2,
+      "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
+    },
+    "rugenstein-2016-radiative-feedbacks": 1,
+    "ruggles-2024-planning-reliable-systems": 1,
+    "shaner-2018-us-reliability": 1,
+    "tong-2019-committed-emissions": 1,
+    "tong-2020-storage-cost-reductions": 1,
+    "tong-2021-geophysical-constraints": 1,
+    "wang-2019-induced-efficiency": 1,
+    "winkelmann-2015-antarctic-ice-sheet": 1
+  }
+}

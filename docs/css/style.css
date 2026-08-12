@@ -306,6 +306,156 @@ footer {
   font-size: 0.9rem;
 }
 
+/* --- Publications index: grid of first-page covers -------------------------
+   All under new class names rather than reusing .card/.grid, so nothing here
+   can reach who-we-are.html, about.html, or the theme pages. */
+
+.pub-themes {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 20px;
+}
+
+.pub-filter {
+  margin: 0 0 10px;
+}
+
+.pub-filter label {
+  display: block;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.pub-filter input {
+  width: 100%;
+  max-width: 420px;
+  font: inherit;
+  color: inherit;
+  padding: 12px 14px;
+  background: transparent;
+  border: 1px solid var(--line);
+  transition: 0.2s ease;
+}
+
+.pub-filter input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.pub-status,
+.pub-empty,
+.pub-credit {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.pub-status {
+  min-height: 1.7em;
+  margin: 0 0 12px;
+}
+
+.pub-credit {
+  margin-top: 48px;
+}
+
+/* auto-fill rather than a second breakpoint: at the 1056 px content width this
+   gives three columns, two below about 730 px and one below about 630 px —
+   without adding a breakpoint to a stylesheet that deliberately has one, and
+   without a narrow 3-column stage between 760 and 1120 px. */
+.pub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* [hidden] is a UA rule, and the author-origin display below outranks it, so
+   the filter would silently fail to hide anything without these two. */
+.pub-item[hidden],
+.pub-filter[hidden],
+.pub-empty[hidden] {
+  display: none;
+}
+
+.pub-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid var(--line);
+  /* no padding: the cover sits flush inside the border, like a book jacket */
+}
+
+.pub-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-bottom: 1px solid var(--line);
+  /* white, matching .paper-figure img — the site's "this is a page of a
+     publication" colour. Not --bg-dark, which CLAUDE.md reserves for cards
+     that are *not* links, nor --accent-soft, which is the hover colour. */
+  background: #fff;
+}
+
+/* Publications with no reprint on hand. Set as a title page in the site's own
+   type rather than generated as an image, so the grid stays uniform with no
+   extra asset. It repeats the title deliberately: a real cover shows the title
+   too, and a plate carrying only a journal name reads as a failed image. */
+.pub-cover-blank {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 26px;
+}
+
+.pub-cover-journal {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.pub-cover-title {
+  flex: 1;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  padding-top: 22px;
+}
+
+.pub-cover-cite {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.pub-card-body {
+  display: block;
+  padding: 20px 22px 24px;
+}
+
+.pub-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 8px;
+}
+
+.pub-card .paper-meta {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
 @media (max-width: 760px) {
   .nav {
     align-items: flex-start;

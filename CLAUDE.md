@@ -147,7 +147,14 @@ Mechanics:
   attribution; CC BY-NC-ND requires the image be used **unmodified** (no
   recropping or restyling); non-open articles rely on author reuse-on-own-website
   rights. Alt text is required and must describe what the figure *shows* — it is
-  read by retrieval systems, which cannot see the image.
+  read by retrieval systems, which cannot see the image. **This rule is about
+  `figure`, the evidence image on a publication page.** The index's cover images
+  are a separate thing and deliberately ship `alt=""`; see "Cover images" in
+  `PUBLICATION-PAGES.md` before "fixing" that.
+- **The index is a cover grid, newest first** — one box per publication showing
+  its own first page, the whole box a link. It is also the only page linking to
+  `docs/topics/`, via the theme strip under the lede; don't remove that without
+  giving the theme pages another route in from the nav.
 - `docs/sitemap.xml` and `docs/robots.txt` are part of this; regenerate the
   sitemap whenever pages are added.
 
