@@ -158,6 +158,11 @@
         depends entirely on the carbon price path — 97 per cent effective at 1,500 m ocean
         depth under constant prices, 0 per cent if prices rise at the discount rate forever
       paper: herzog-2003-permanence-temporary-storage
+    - claim: >
+        Under emission projections for policies already in place the rate of global warming
+        declines from about 0.21 °C per decade around 2025 to about 0.15 °C per decade around
+        2050 — slower warming, but warming that does not stop
+      paper: duan-2024-rate-of-warming
 
 - id: climate-and-energy
   title: Climate and energy
@@ -598,3 +603,8 @@
         planning year halves lost load, but beyond one or two years it exceeds a $10/kWh value
         of lost load in systems without long-duration storage
       paper: ruggles-2024-planning-reliable-systems
+    - claim: >
+        Across 243 combinations of published 2050 cost projections, which technology dominates a
+        least-cost zero-carbon system cannot be predicted with confidence, and cutting one
+        technology's cost does not reliably increase how much of it gets built
+      paper: duan-2024-cost-uncertainty

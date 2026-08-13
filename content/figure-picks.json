@@ -72,6 +72,21 @@
       316.8
     ]
   },
+  "duan-2024-cost-uncertainty": {
+    "page": 5,
+    "rect": [
+      160,
+      104,
+      424,
+      630
+    ]
+  },
+  "duan-2024-rate-of-warming": {
+    "figure": 1,
+    "trim": {
+      "right": 0.018
+    }
+  },
   "duan-2025-adaptation-abatement": 3,
   "herzog-2003-permanence-temporary-storage": {
     "figure": 1,
@@ -81,6 +96,7 @@
     }
   },
   "hoffert-2002-advanced-technology-paths": 2,
+  "li-2024-storage-portfolios": 2,
   "marvel-2013-geophysical-limits-wind": 2,
   "matthews-2007-geoengineering-transient": 3,
   "matthews-2008-near-zero-emissions": 1,

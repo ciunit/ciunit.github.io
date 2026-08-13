@@ -8,8 +8,8 @@ is 1200 px wide or more, `adequate` 800–1199, `low` 500–799, `very low`
 below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
-- **57** publication pages across **9** themes
-- **48** have a figure, **9** do not
+- **65** publication pages across **9** themes
+- **54** have a figure, **11** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -22,14 +22,17 @@ higher-resolution source.
 
 | Page | Year | Theme | Figure | Quality | Size | Source | Licence | Review |
 | --- | ---: | --- | --- | --- | ---: | --- | --- | --- |
-| [wongel-2026-solar-process-heat](docs/publications/wongel-2026-solar-process-heat.html)<br><sub>Wongel et al., 2026</sub> | 2026 | <sub>Macro-energy modeling</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [wongel-2026-solar-process-heat](docs/publications/wongel-2026-solar-process-heat.html)<br><sub>Wongel et al., 2026</sub> | 2026 | <sub>Macro-energy modeling</sub> | 1600×1044 | `good` | 97 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
+| [carlino-2025-technology-learning-rates](docs/publications/carlino-2025-technology-learning-rates.html)<br><sub>Carlino et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 4465×2552 | `good` | 1057 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [duan-2025-temperature-extremes](docs/publications/duan-2025-temperature-extremes.html)<br><sub>Duan et al., 2025</sub> | 2025 | <sub>—</sub> | 1448×1033 | `good` | 121 KB | <sub>publisher website</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [duan-2025-adaptation-abatement](docs/publications/duan-2025-adaptation-abatement.html)<br><sub>Duan et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 3276×2032 | `good` | 338 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [thomas-2025-aviation-cirrus](docs/publications/thomas-2025-aviation-cirrus.html)<br><sub>Thomas et al., 2025</sub> | 2025 | <sub>Climate and the carbon cycle</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
-| [wongel-2025-cooling-deficit](docs/publications/wongel-2025-cooling-deficit.html)<br><sub>Wongel et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [wongel-2025-cooling-deficit](docs/publications/wongel-2025-cooling-deficit.html)<br><sub>Wongel et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 1600×928 | `good` | 99 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [ruggles-2024-planning-reliable-systems](docs/publications/ruggles-2024-planning-reliable-systems.html)<br><sub>Ruggles et al., 2024</sub> | 2024 | <sub>Reliability of wind and solar power, Macro-energy modeling</sub> | 1600×1521 | `good` | 111 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
+| [duan-2024-rate-of-warming](docs/publications/duan-2024-rate-of-warming.html)<br><sub>Duan and Caldeira, 2024</sub> | 2024 | <sub>Climate and the carbon cycle</sub> | 1600×1388 | `good` | 53 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [antonini-2024-wind-droughts](docs/publications/antonini-2024-wind-droughts.html)<br><sub>Antonini et al., 2024</sub> | 2024 | <sub>Reliability of wind and solar power</sub> | 1400×1753 | `good` | 225 KB | <sub>publisher website</sub> | <sub>CC BY 4.0</sub> |  |
-| [li-2024-storage-portfolios](docs/publications/li-2024-storage-portfolios.html)<br><sub>Li et al., 2024</sub> | 2024 | <sub>Macro-energy modeling</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [duan-2024-cost-uncertainty](docs/publications/duan-2024-cost-uncertainty.html)<br><sub>Duan and Caldeira, 2024</sub> | 2024 | <sub>Macro-energy modeling</sub> | 1600×3187 | `good` | 122 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
+| [li-2024-storage-portfolios](docs/publications/li-2024-storage-portfolios.html)<br><sub>Li et al., 2024</sub> | 2024 | <sub>Macro-energy modeling</sub> | 1600×1251 | `good` | 67 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [caldeira-2023-green-premium](docs/publications/caldeira-2023-green-premium.html)<br><sub>Caldeira et al., 2023</sub> | 2023 | <sub>Climate and economics</sub> | 1600×1654 | `good` | 80 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [duan-2022-flexible-nuclear](docs/publications/duan-2022-flexible-nuclear.html)<br><sub>Duan et al., 2022</sub> | 2022 | <sub>Macro-energy modeling, Reliability of wind and solar power</sub> | 1600×1086 | `good` | 138 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [tong-2021-geophysical-constraints](docs/publications/tong-2021-geophysical-constraints.html)<br><sub>Tong et al., 2021</sub> | 2021 | <sub>Reliability of wind and solar power</sub> | 1400×2079 | `good` | 179 KB | <sub>publisher website</sub> | <sub>CC BY 4.0</sub> |  |
@@ -37,15 +40,20 @@ higher-resolution source.
 | [antonini-2021-spatial-constraints](docs/publications/antonini-2021-spatial-constraints.html)<br><sub>Antonini and Caldeira, 2021</sub> | 2021 | <sub>Geophysics of wind power</sub> | 1600×748 | `good` | 61 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [rampino-2021-tetrapod-periodicity](docs/publications/rampino-2021-tetrapod-periodicity.html)<br><sub>Rampino et al., 2021</sub> | 2021 | <sub>Paleoclimate and Earth-system dynamics in geologic time</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [chen-2020-migration-incentive](docs/publications/chen-2020-migration-incentive.html)<br><sub>Chen and Caldeira, 2020</sub> | 2020 | <sub>Climate and economics</sub> | 1400×2050 | `good` | 210 KB | <sub>publisher website</sub> | <sub>CC BY 4.0</sub> |  |
+| [zheng-2020-aerosols-inequality](docs/publications/zheng-2020-aerosols-inequality.html)<br><sub>Zheng et al., 2020</sub> | 2020 | <sub>Climate and economics</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [brown-2020-break-even-year](docs/publications/brown-2020-break-even-year.html)<br><sub>Brown et al., 2020</sub> | 2020 | <sub>Climate and economics</sub> | 1600×1355 | `good` | 73 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [dowling-2020-long-duration-storage](docs/publications/dowling-2020-long-duration-storage.html)<br><sub>Dowling et al., 2020</sub> | 2020 | <sub>Macro-energy modeling</sub> | 1600×2420 | `good` | 118 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [duan-2020-climate-development-goals](docs/publications/duan-2020-climate-development-goals.html)<br><sub>Duan et al., 2020</sub> | 2020 | <sub>Climate and economics</sub> | 1600×1231 | `good` | 36 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [tong-2020-storage-cost-reductions](docs/publications/tong-2020-storage-cost-reductions.html)<br><sub>Tong et al., 2020</sub> | 2020 | <sub>Macro-energy modeling</sub> | 1600×1221 | `good` | 45 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [tong-2019-committed-emissions](docs/publications/tong-2019-committed-emissions.html)<br><sub>Tong et al., 2019</sub> | 2019 | <sub>Climate and energy</sub> | 1600×1548 | `good` | 70 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [wang-2019-induced-efficiency](docs/publications/wang-2019-induced-efficiency.html)<br><sub>Wang et al., 2019</sub> | 2019 | <sub>Climate and economics</sub> | 1600×1537 | `good` | 150 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
+| [ricke-2018-country-level-scc](docs/publications/ricke-2018-country-level-scc.html)<br><sub>Ricke et al., 2018</sub> | 2018 | <sub>Climate and economics</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [persad-2018-regional-aerosol-emissions](docs/publications/persad-2018-regional-aerosol-emissions.html)<br><sub>Persad and Caldeira, 2018</sub> | 2018 | <sub>—</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [praetorius-2018-north-pacific-heat-flux](docs/publications/praetorius-2018-north-pacific-heat-flux.html)<br><sub>Praetorius et al., 2018</sub> | 2018 | <sub>—</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [albright-2018-co2-addition-reef](docs/publications/albright-2018-co2-addition-reef.html)<br><sub>Albright et al., 2018</sub> | 2018 | <sub>Ocean acidification and the ocean carbon cycle</sub> | 1600×1426 | `good` | 18 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [davis-2018-net-zero-energy-systems](docs/publications/davis-2018-net-zero-energy-systems.html)<br><sub>Davis et al., 2018</sub> | 2018 | <sub>Climate and energy</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [shaner-2018-us-reliability](docs/publications/shaner-2018-us-reliability.html)<br><sub>Shaner et al., 2018</sub> | 2018 | <sub>Climate and energy, Reliability of wind and solar power</sub> | 1600×742 | `good` | 65 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
+| [brown-2017-greater-future-warming](docs/publications/brown-2017-greater-future-warming.html)<br><sub>Brown and Caldeira, 2017</sub> | 2017 | <sub>—</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [ahbe-2017-available-potential-energy](docs/publications/ahbe-2017-available-potential-energy.html)<br><sub>Ahbe and Caldeira, 2017</sub> | 2017 | <sub>Geophysics of wind power</sub> | 1600×572 | `good` | 59 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [possner-2017-open-ocean-wind](docs/publications/possner-2017-open-ocean-wind.html)<br><sub>Possner and Caldeira, 2017</sub> | 2017 | <sub>Geophysics of wind power</sub> | 1600×1443 | `good` | 197 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [albright-2016-reversal-acidification](docs/publications/albright-2016-reversal-acidification.html)<br><sub>Albright et al., 2016</sub> | 2016 | <sub>Ocean acidification and the ocean carbon cycle</sub> | 1600×723 | `good` | 24 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |

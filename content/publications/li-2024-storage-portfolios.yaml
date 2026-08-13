@@ -66,5 +66,27 @@ matters:
     that held only for the national aggregate might be an artefact of averaging away regional
     resource variability; holding in each region separately makes it robust.
 
+figure:
+  file: li-2024-storage-portfolios.webp
+  source_figure: Figure 2
+  alt: >
+    A stacked bar chart of system cost contributions in dollars per kilowatt-hour, from 0 to
+    0.30, across five groups. Group A, wind and solar with no storage, is a single bar reaching
+    0.30. Group B, one storage technology, shows eight bars between about 0.08 and 0.13
+    depending on which technology is used, hydrogen lowest. Group C, lithium-ion plus one other,
+    ranges from about 0.13 down to 0.08. Groups D and E, hydrogen plus one other and lithium-ion
+    plus hydrogen plus one other, are six and six near-identical bars all close to 0.085.
+  caption: >
+    The bars stop moving once long-duration storage is in the system. Adding a second or third
+    storage technology alongside hydrogen (groups D and E) leaves system cost essentially where
+    hydrogen alone had already put it — the long-duration option sized for seasonal balancing
+    turns out to carry enough power capacity to cover the short-duration job as well.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Li et al. (2024), Environmental Science & Technology
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - dowling-2020-long-duration-storage

@@ -1,0 +1,121 @@
+id: duan-2024-cost-uncertainty
+doi: 10.1016/j.isci.2023.108685
+title: >
+  Implications of uncertainty in technology cost projections for least-cost decarbonized
+  electricity systems
+authors:
+  - Lei Duan
+  - Ken Caldeira
+journal: iScience
+volume: "27"
+pages: "108685"
+date: "2024-01-19"
+year: 2024
+themes:
+  - macro-energy-modeling
+
+description: >
+  Running 243 combinations of published technology cost projections through a least-cost
+  electricity model shows that which technology dominates a zero-carbon system cannot be
+  predicted with confidence, and that making a technology cheaper does not reliably mean more
+  of it gets built.
+
+question:
+  - >
+    Every plan for a decarbonized grid rests on projections of what each technology will cost
+    decades from now. Near-term cost estimates broadly agree; projections for 2050 diverge
+    sharply, because they encode different beliefs about how far innovation will go.
+  - >
+    Modelling studies typically pick one set of those projections, often an ad hoc set chosen by
+    the authors, and report the resulting technology mix. This paper asked what happens if you
+    stop picking — if you run the whole spread of published projections and look at how much the
+    answer moves.
+
+key_finding: >
+  Across 243 combinations of the low, middle, and high 2050 cost projections in the National
+  Renewable Energy Laboratory's 2021 Annual Technology Baseline, it is not possible to say with
+  confidence which technologies will dominate a least-cost zero-carbon electricity system, and
+  cutting the cost of a single technology does not reliably increase either its deployment or
+  its share of system spending.
+
+findings:
+  - >
+    Six technologies — solar, onshore wind, offshore wind, geothermal, battery storage, and gas
+    with carbon capture — each carry three published cost projections, giving 729 combinations,
+    or 243 once fossil generation is excluded under a 100% emission-reduction constraint. Each
+    is run through a greenfield, hourly, least-cost model of the contiguous United States.
+  - >
+    The cheapest system found costs $0.06 per kilowatt-hour and contains every technology except
+    nuclear and geothermal at its lowest projected cost. But systems within 5% of that cost
+    include geothermal, within 10% include solar, offshore wind, and battery storage at their
+    middle projections, and within 20% include solar at its high projection. Many different
+    technology mixes are near-optimal.
+  - >
+    Cheaper does not mean more money spent on it. Under the high-cost projection, solar accounts
+    for 5.6 to 19.0% of total system cost; under the low-cost projection the range is 3.9 to
+    23.3%. Solar's median price elasticity is below 1.0 — each per cent of cost reduction brings
+    less than a per cent more capacity — while onshore wind, offshore wind, and battery storage
+    are at or above 1.0.
+  - >
+    Technologies compete for the same job. Geothermal enters least-cost systems only if it
+    reaches its low projection, 27% of current costs, and then dominates — but if onshore wind
+    also reaches its low projection, 32% of current costs, geothermal's share falls sharply.
+  - >
+    Two technologies do more than the rest to narrow the uncertainty. System costs span 30% when
+    onshore wind follows its high projection but only 22% at its low projection; for geothermal
+    the span falls from 46% to 22%. Cheap wind or geothermal is deployed so heavily that the
+    costs of competing technologies stop mattering much.
+  - >
+    Cheaper solar and offshore wind, by contrast, barely shift the distribution of system costs
+    at all — they slightly increase their own capacity without changing what the system costs.
+  - >
+    The analysis is deliberately stylized. It takes all cost numbers from the NREL dataset rather
+    than generating any, treats the three projections as equally probable purely for
+    illustration, assumes unlimited resource potential in the main cases, and claims robustness
+    for the qualitative conclusions rather than the particular numbers.
+
+matters:
+  - >
+    It puts a bound on what this class of modelling can tell us. A study that picks one cost
+    projection and reports the resulting technology mix is reporting a consequence of that
+    choice, and the spread across published projections is wide enough to change which
+    technology wins.
+  - >
+    The result about elasticity is the counterintuitive one. Driving down the cost of a
+    technology is usually assumed to increase its use, but in a system where technologies
+    substitute for one another, a cost breakthrough can be absorbed by competitors instead —
+    so a successful research programme need not produce the deployment it was aiming at.
+  - >
+    It argues for a portfolio rather than a bet. Since no single technology's cost trajectory
+    determines the outcome, and since relying on an uncertain breakthrough risks an expensive
+    system if it fails to arrive, spreading cost-reduction effort and revisiting decisions as
+    costs become known does better than committing early to one winner.
+
+figure:
+  file: duan-2024-cost-uncertainty.webp
+  source_figure: Figure 2
+  alt: >
+    Four stacked-area plots, one above another, of system cost in dollars per kilowatt-hour from
+    0 to 0.12 against carbon emission reduction from 0 to 100 per cent, coloured by technology.
+    Panel A, all technologies at high projected cost, ends dominated by wind, solar, and
+    biopower near 0.088. Panel B, only geothermal reaching its low cost, is overwhelmed by dark
+    red geothermal above 90 per cent reduction. Panel C, wind and geothermal both low, is mostly
+    light blue wind with a much smaller geothermal wedge. Panel D, all technologies low, reaches
+    only about 0.06 and contains no geothermal at all.
+  caption: >
+    The same model, the same weather, the same demand — only the assumed 2050 technology costs
+    differ between panels, and the composition of the least-cost zero-carbon system changes
+    completely. Geothermal dominates when it alone gets cheap (B), shrinks when wind gets cheap
+    too (C), and disappears when everything gets cheap (D).
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Duan and Caldeira (2024), iScience 27, 108685
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - carlino-2025-technology-learning-rates
+  - duan-2022-flexible-nuclear
+  - li-2024-storage-portfolios
+  - tong-2020-storage-cost-reductions

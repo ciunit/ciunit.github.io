@@ -271,14 +271,18 @@
     "Duan-Caldeira_ERL2024_rate-of-warmng.pdf",
     "Duan-Caldeira_ERL2024_rate-warming-decline.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "duan-2024-rate-of-warming",
+   "has_figure": true
   },
   "10.1016/j.isci.2023.108685": {
    "files": [
     "Duan-Caldeira_iScience2024_uncertainty-least-cost-decarbonized-electricity (w Supp).pdf",
     "Duan-Caldeira_iScience2024_uncertainty-tech-costs-projections.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "duan-2024-cost-uncertainty",
+   "has_figure": true
   },
   "10.1038/s43247-025-02579-5": {
    "files": [
@@ -364,7 +368,7 @@
    ],
    "how": "page text",
    "id": "li-2024-storage-portfolios",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/nclimate1683": {
    "files": [
@@ -462,6 +466,7 @@
   },
   "10.1007/s00382-023-06799-3": {
    "files": [
+    "Roose-et-al_ClimDyn2023_monsoon-precip-interhemispheric-strat-sulfate-optical-depth.pdf",
     "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences(w Supp).pdf",
     "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences.pdf"
    ],
@@ -717,6 +722,7 @@
   "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf",
   "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf",
   "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf",
+  "Duan-Caldeira_AtmosChemPhys2023_comment-ocko-hamburg.pdf",
   "Duan-et-al_GRL2019_pulse-vs-sustained.pdf",
   "Duan-et-al_JGRA202_four-radiation-modification-approaches.pdf",
   "Duan-et-al_JGRAtm2019_climate-sensitivity-ice-snow.pdf",
@@ -835,6 +841,7 @@
   "Rampino-Caldeira_GeosciFrontiers2017_correlations-250-Myr.pdf",
   "Rampino-Caldeira_IntJEarthScie2018_Comparison-of-the-ages-260-million-years.pdf",
   "Rampino-Caldeira_Science2011_comment.pdf",
+  "Rampino-et-al_EarthSciRev2023_cycles-32.5My-26.2My-over-the-last-260My.pdf",
   "Rampino-et-al_GeolSocSpecPap542-2019_what-causes-mass-extinctions.pdf",
   "Rampino-et-al_GlobPlanChg2024_16-mass-extinction-15-LIPs-4-impacts.pdf",
   "Rampino-et-al_GlobPlanetChg2024_mass-extinctions-541My.pdf",
@@ -866,6 +873,7 @@
   "Ruggles-et-al_AppEnergy2021_hydrogen-prod-curtailed-gen.pdf",
   "Ruggles-et-al_ScieData2020_electricity-demand-data-imputation.pdf",
   "Russell_et_al_Ambio2012.pdf",
+  "Schmitt-et-al_ERL203_move-up-or-move-over.pdf",
   "Schneider-et-al_EstuarineCoastalShelfScience2013_inorganic-C-turnover-holothorians.pdf",
   "Schwartzman-et-al_Astrobiology2008_cyanobacterial-emergence.pdf",
   "Shearer-et-al_ERL2016_expert-consensus-spraying.pdf",
@@ -879,11 +887,13 @@
   "Teller_etal_LLNL244671_2002.pdf",
   "Thompson_etal_GRL2004.pdf",
   "Tonelli-et-al_NatureComm2023_land-water-limits-electrolytic-H2.pdf",
+  "Tonelli-et-al_NatureComm2023_land-water-limits-h2-prod-wind-solar.pdf",
   "Walker-Kasting_GlobPlanetChg1992--ff-forest-future-co2.pdf",
   "Wickett_etal_JGRO2003.pdf",
   "Wigley_et_al_IST2003.pdf",
   "Wilibanks_et_al_sap2-2-final-chapter6_2007.pdf",
   "WindPaper-2.pdf",
+  "Wongel-Caldeira_EnergyFindings2023_broad-range-technologies.pdf",
   "Wongel-et-al_EnergyFindings2025_thermal-energy-in-dirt (w Supp).pdf",
   "Wongle-Caldeira_EnergyFindings2023_broad-range-of-technologies.pdf",
   "Yuan-et-al_AppliedEnergy2020_facilitate-or-deter.pdf",

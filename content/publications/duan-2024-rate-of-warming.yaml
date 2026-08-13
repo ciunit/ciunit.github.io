@@ -1,0 +1,112 @@
+id: duan-2024-rate-of-warming
+doi: 10.1088/1748-9326/ad6018
+title: >
+  Rate of global warming projected to decline under current policy
+authors:
+  - Lei Duan
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "19"
+pages: "092001"
+date: "2024-08-13"
+year: 2024
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Under emission projections for policies already in place, the smoothed rate of global warming
+  is projected to fall from about 0.21 °C per decade around 2025 to about 0.15 °C per decade
+  around 2050 — slower warming, but still warming.
+
+question:
+  - >
+    2023 was the hottest year on record, which prompted a widely aired question: is the rate of
+    global warming itself accelerating? The question matters separately from how much warming
+    there will be in total, because the speed of change governs how much time ecosystems and
+    societies have to adapt.
+  - >
+    Warming is approximately proportional to cumulative carbon dioxide emissions, so the *rate*
+    of warming is approximately proportional to the *rate* of emissions. Several analyses put
+    the world at or near peak anthropogenic emissions under current policy. This Viewpoint asked
+    what that implies for the rate of warming over the coming decades.
+
+key_finding: >
+  Applying temporal smoothing to emission and temperature projections for policies now in place,
+  the central estimate of the rate of global warming declines from about 0.21 °C per decade
+  around 2025 to about 0.15 °C per decade around 2050 — a falling rate that nevertheless stays
+  above zero, so the Earth keeps getting warmer.
+
+findings:
+  - >
+    The central projection uses current-policy emission scenarios with no credit taken for
+    nationally determined contributions or long-term net-zero targets. Year-to-year temperature
+    differences are smoothed with a 33-year Hanning window, comparable to a 20-year boxcar
+    average, to separate the trend from interannual noise.
+  - >
+    On that basis the rate falls from roughly 0.21 °C per decade around 2025 to roughly 0.15 °C
+    per decade around 2050. Meeting nationally determined contributions and net-zero
+    commitments would make the decline steeper still.
+  - >
+    Several things could reverse the trend: failure to meet current commitments, a rapid
+    reduction in sulfate aerosol emissions, larger-than-anticipated internal variability, or
+    unexpected non-linear climate feedbacks.
+  - >
+    Recent warming may be amplified by falling aerosol emissions — industrial and power-sector
+    sulfur, especially in China, and the 2020 cut to sulfur in maritime fuel. If aerosols were
+    masking more warming than believed, and if their effect on marine cloud cover is
+    underrepresented in models, climate sensitivity could be higher than generally recognized.
+  - >
+    Internal variability cuts both ways. The El Niño Southern Oscillation obscured trends during
+    the early-century warming "hiatus" and is thought to have contributed to the recent
+    unusually large temperature increases.
+  - >
+    A declining rate of warming does not imply declining harm. Climate damage may respond
+    non-linearly to the amount of climate change, so damages can accelerate even while the rate
+    of warming falls.
+
+matters:
+  - >
+    It separates two questions that recent record years have tangled together. Whether any given
+    year is the hottest on record is a question about variability around a trend; whether
+    warming is accelerating is a question about the trend itself, and the answer under current
+    policy is that it is not.
+  - >
+    The result is a statement about emissions as much as about temperature. Because warming
+    tracks cumulative emissions, a peak in emissions shows up as a peak in the rate of warming —
+    which makes the rate of warming a fairly direct readout of whether mitigation policy is
+    biting.
+  - >
+    It is not grounds for comfort. The rate stays positive, so temperatures keep rising, and the
+    non-linearity of damages means the harm can grow faster than the temperature does. The
+    authors' own conclusion points at the need for low-cost carbon-free energy that lets
+    economies grow without pushing emissions back up later this century.
+
+figure:
+  file: duan-2024-rate-of-warming.webp
+  source_figure: Figure 1
+  alt: >
+    A line plot of the rate of temperature change in degrees Celsius per decade, from 0.0 to
+    above 0.4, against year from 1980 to 2050. A solid red central estimate rises to a peak near
+    0.29 around 2003, then declines steadily to about 0.15 by 2050, with two shaded bands
+    widening after 2020 for emission and temperature uncertainty. A dashed blue line using
+    lighter smoothing oscillates about the red curve, peaking near 0.43 around 1999.
+  caption: >
+    The rate of warming, not the temperature. Under emission projections for policies already in
+    place the central estimate turns over and declines through mid-century — but it stays well
+    above zero the whole time, so the planet keeps warming throughout. The dashed line shows how
+    much of the year-to-year signal is smoothing choice rather than trend.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Duan and Caldeira (2024), Environmental Research Letters 19, 092001
+  modification: Extracted from the published PDF and resized for web display
+
+links:
+  - label: Code (GitHub)
+    url: https://github.com/carnegie/clab_rate_of_warming
+
+related:
+  - matthews-2008-near-zero-emissions
+  - caldeira-kasting-1993-warming-potentials
+  - brown-2020-break-even-year

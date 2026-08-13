@@ -316,6 +316,12 @@ footer {
   margin-top: 20px;
 }
 
+/* Scope note above the search — this is a selection, not a complete list. */
+.pub-scope {
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
 .pub-filter {
   margin: 0 0 10px;
 }
