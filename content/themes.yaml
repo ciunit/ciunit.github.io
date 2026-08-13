@@ -233,6 +233,11 @@
         than 30 per cent of consumption-based emissions imported in several wealthy European
         countries
       paper: davis-2010-consumption-based-accounting
+    - claim: >
+        Electricity that European wind and solar farms currently curtail could make 1.9 million
+        tonnes of hydrogen a year, replacing 30 per cent of the continent's fossil-derived
+        hydrogen and cutting ammonia and refinery emissions by 20 million tonnes of CO2
+      paper: ganter-2025-curtailed-power-hydrogen
 
 - id: climate-and-economics
   title: Climate and economics
@@ -539,6 +544,11 @@
         marine extinctions of the same interval a 27.0-million-year cycle at a similar phase,
         with neither result resting on the Chicxulub impact and the end-Cretaceous extinction
       paper: rampino-2015-impact-cratering-periodicity
+    - claim: >
+        Twenty-eight of the 47 chronostratigraphic stage boundaries of the last 253 million years
+        coincide with a stratigraphic sequence boundary, and both records independently carry the
+        same 31-million-year cycle at better than 99.9 per cent confidence
+      paper: rampino-2025-sequence-stage-boundaries
 
 - id: macro-energy-modeling
   title: Macro-energy modeling

@@ -8,8 +8,8 @@ is 1200 px wide or more, `adequate` 800–1199, `low` 500–799, `very low`
 below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
-- **68** publication pages across **9** themes
-- **61** have a figure, **7** do not
+- **70** publication pages across **9** themes
+- **63** have a figure, **7** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -28,6 +28,8 @@ higher-resolution source.
 | [wongel-2026-solar-process-heat](docs/publications/wongel-2026-solar-process-heat.html)<br><sub>Wongel et al., 2026</sub> | 2026 | <sub>Macro-energy modeling</sub> | 1600×1044 | `good` | 97 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [carlino-2025-technology-learning-rates](docs/publications/carlino-2025-technology-learning-rates.html)<br><sub>Carlino et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 4465×2552 | `good` | 1057 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [duan-2025-temperature-extremes](docs/publications/duan-2025-temperature-extremes.html)<br><sub>Duan et al., 2025</sub> | 2025 | <sub>—</sub> | 1448×1033 | `good` | 121 KB | <sub>publisher website</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
+| [rampino-2025-sequence-stage-boundaries](docs/publications/rampino-2025-sequence-stage-boundaries.html)<br><sub>Rampino and Caldeira, 2025</sub> | 2025 | <sub>Paleoclimate and Earth-system dynamics in geologic time</sub> | 1600×1050 | `good` | 15 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
+| [ganter-2025-curtailed-power-hydrogen](docs/publications/ganter-2025-curtailed-power-hydrogen.html)<br><sub>Ganter et al., 2025</sub> | 2025 | <sub>Climate and energy, Macro-energy modeling</sub> | 1600×1347 | `good` | 75 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [duan-2025-adaptation-abatement](docs/publications/duan-2025-adaptation-abatement.html)<br><sub>Duan et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 3276×2032 | `good` | 338 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [thomas-2025-aviation-cirrus](docs/publications/thomas-2025-aviation-cirrus.html)<br><sub>Thomas et al., 2025</sub> | 2025 | <sub>Climate and the carbon cycle</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [wongel-2025-cooling-deficit](docs/publications/wongel-2025-cooling-deficit.html)<br><sub>Wongel et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 1600×928 | `good` | 99 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
