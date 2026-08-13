@@ -1,0 +1,72 @@
+id: ricke-2018-country-level-scc
+doi: 10.1038/s41558-018-0282-y
+title: >
+  Country-level social cost of carbon
+authors:
+  - Katharine Ricke
+  - Laurent Drouet
+  - Ken Caldeira
+  - Massimo Tavoni
+journal: Nature Climate Change
+volume: "8"
+pages: 895-900
+date: "2018-09-24"
+year: 2018
+themes:
+  - climate-and-economics
+
+description: >
+  The global social cost of carbon is estimated at a median of 417 US dollars per tonne of
+  carbon dioxide, and the damage is unequally distributed, with India bearing the largest
+  single country share at about 21 percent.
+
+question:
+  - >
+    The social cost of carbon is the economic damage caused by emitting one additional tonne
+    of carbon dioxide. It is a global number by construction, because a tonne emitted
+    anywhere warms everywhere — but the damage it causes lands in particular countries, and
+    the global total says nothing about where.
+  - Knowing the country-level distribution matters for two separate reasons. It shows who
+    bears the cost of climate change, and it shows what each country stands to gain from
+    reducing emissions on its own — which is what determines whether unilateral action is in
+    a country's narrow self-interest.
+  - This work asked what the social cost of carbon looks like when it is decomposed by
+    country, and how robust that decomposition is to the many contested assumptions that go
+    into calculating it.
+
+key_finding: >
+  The central estimate of the global social cost of carbon is a median of 417 US dollars per
+  tonne of carbon dioxide (66 percent confidence interval 177 to 805 dollars), of which India
+  alone bears about 21 percent, at 86 dollars per tonne — the largest share of any country,
+  ahead of the United States at 48 dollars and Saudi Arabia at 47 dollars.
+
+findings:
+  - >
+    The central specification gives a median global social cost of carbon of 417 US dollars
+    per tonne of carbon dioxide, with a 66 percent confidence interval of 177 to 805 dollars.
+    That is far above the figures then used in United States rule-making, which ranged from
+    12 to 62 dollars per tonne depending on the discount rate.
+  - >
+    The country-level costs are highly unequal. India's share is the largest at 86 dollars per
+    tonne (49 to 157), some 21 percent of the global total, followed by the United States at
+    48 dollars (1 to 118) and Saudi Arabia at 47 dollars (27 to 86). Brazil, China, and the
+    United Arab Emirates follow at about 24 dollars per tonne each.
+  - The absolute numbers depend heavily on contested assumptions — the discount rate, the
+    socio-economic scenario, and the form of the damage function — but the ranking of
+    countries does not. The same countries incur large fractions of the global cost across
+    specifications.
+  - The method deliberately avoids reduced-form aggregate modelling. Country-level climate
+    projections were taken directly from gridded climate model output, and country-level
+    damage relationships directly from empirical macroeconomic analyses, rather than being
+    inferred from a globally aggregated model.
+
+matters:
+  - A country that bears a fifth of global climate damage has a substantial unilateral
+    economic incentive to reduce emissions, quite apart from any international agreement.
+    Quantifying that incentive country by country changes how the negotiation problem looks.
+  - The estimated global cost is several times the values embedded in regulatory practice at
+    the time, which means benefit-cost tests for emissions-reducing policy were being run
+    against a number far below this study's central estimate.
+  - Because the country ranking is robust while the absolute level is not, the distributional
+    result is the more usable one — it survives disagreement about discounting that the
+    headline number does not.

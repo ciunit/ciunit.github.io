@@ -1,0 +1,64 @@
+id: persad-2018-regional-aerosol-emissions
+doi: 10.1038/s41467-018-05838-6
+title: >
+  Divergent global-scale temperature effects from identical aerosols emitted in different
+  regions
+authors:
+  - Geeta G. Persad
+  - Ken Caldeira
+journal: Nature Communications
+volume: "9"
+pages: "3289"
+date: "2018-08-17"
+year: 2018
+
+description: >
+  An identical quantity of aerosol cools the planet fourteen times more when emitted from
+  Western Europe than when emitted from India, so where aerosols come from matters as much as
+  how much is emitted.
+
+question:
+  - Greenhouse gases are well mixed, so a tonne emitted in one country has the same climate
+    effect as a tonne emitted in another. Aerosols are not — they are short-lived and stay
+    near their source, so their climate effect depends on the properties of the region they
+    are emitted into.
+  - Despite this, scientific and policy discussions routinely evaluate aerosol climate
+    impacts on the basis of emitted quantity alone, treating emission location as
+    incidental.
+  - This work asked how much difference location actually makes, by emitting one fixed
+    quantity and composition of aerosol from each of eight major emitting regions in turn and
+    comparing the global climate response.
+
+key_finding: >
+  A fixed quantity and composition of aerosol emission, matched to China's present-day
+  emissions, cools the planet fourteen times more when emitted from Western Europe than when
+  emitted from India, and the efficiency with which a given radiative forcing translates into
+  global cooling differs fivefold depending on the emitting region.
+
+findings:
+  - The experiment held the aerosol quantity and composition fixed — emulating China's
+    present-day emissions — and varied only the region of emission, across eight key
+    geopolitical regions, in a climate model.
+  - The global-mean cooling produced was fourteen times larger for the highest-impact region,
+    Western Europe, than for the lowest, India. The same emissions therefore buy very
+    different amounts of global cooling depending on where they occur.
+  - >
+    Radiative forcing, the standard proxy for climate response, does not rescue the
+    comparison: the forcing-to-cooling efficacy varied fivefold across emitting regions. A
+    given amount of forcing from one region does not produce the same global cooling as the
+    same forcing from another.
+  - It follows that the geographic redistribution of aerosol emissions, which is already
+    under way as some regions clean up and others industrialise, will itself change the
+    global magnitude and spatial pattern of climate change, independently of any change in
+    global emission totals.
+
+matters:
+  - Climate accounting frameworks that treat aerosol emissions as fungible across countries
+    are mis-specified. If the same tonne does fourteen times more cooling from one place than
+    another, national aerosol emissions cannot be added into a single global number and
+    interpreted.
+  - Aerosol emissions are shifting from Europe and North America towards South and East Asia.
+    This result implies that shift alone changes the global temperature trajectory, which
+    matters for interpreting the observed warming record as well as for projecting it.
+  - Air quality policy and climate policy interact through this channel. The climate
+    consequence of cleaning up a region's air depends on which region it is.

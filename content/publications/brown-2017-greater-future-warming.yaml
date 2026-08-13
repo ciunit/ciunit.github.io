@@ -1,0 +1,74 @@
+id: brown-2017-greater-future-warming
+doi: 10.1038/nature24672
+title: >
+  Greater future global warming inferred from Earth's recent energy budget
+authors:
+  - Patrick T. Brown
+  - Ken Caldeira
+journal: Nature
+volume: "552"
+pages: 45-50
+date: "2017-12-07"
+year: 2017
+
+description: >
+  Weighting climate models by how well they reproduce the observed top-of-atmosphere energy
+  budget raises projected end-of-century warming under the steepest forcing scenario by about
+  15 percent, or 0.5 degrees Celsius, and narrows the spread by about a third.
+
+question:
+  - Most of the spread in projected twenty-first-century warming for a given emissions
+    pathway comes from disagreement among climate models about how much the planet warms per
+    unit of forcing, rather than from the pathway itself. This is response uncertainty, and
+    unlike scenario uncertainty it can in principle be reduced with observations.
+  - >
+    Differences in projected warming trace largely to differences in how models simulate
+    Earth's radiative energy budget and how that budget adjusts as the planet warms. That
+    suggests a test: models whose simulated energy budget matches what satellites actually
+    observe should be given more weight than models whose energy budget does not.
+  - Earlier attempts at this kind of observational constraint used single indices and reached
+    conflicting conclusions. This work asked whether using the full global spatial pattern of
+    the energy budget, rather than one number at a time, gives a consistent answer.
+
+key_finding: >
+  Weighting climate model projections by how well each model reproduces the observed global
+  pattern of Earth's top-of-atmosphere energy budget raises projected end-of-century warming
+  under the steepest radiative forcing scenario by about 15 percent, or 0.5 degrees Celsius,
+  while cutting the two-standard-deviation spread by about a third, or 1.2 degrees Celsius.
+
+findings:
+  - >
+    The predictors were nine global fields, built from three observable radiative quantities
+    — outgoing shortwave radiation, outgoing longwave radiation, and the net downward energy
+    imbalance at the top of the atmosphere — each characterised three ways: its mean
+    climatology, the magnitude of its seasonal cycle, and the magnitude of its month-to-month
+    variability. Partial least squares regression related these fields across models to the
+    warming each model projects.
+  - Every one of the nine predictor fields pointed the same way. Observationally informed
+    projections of warming were larger than the raw, unweighted model mean in all cases, and
+    the result held regardless of how many regression components were retained, which
+    predictor fields were used, and which of the eight combinations of target year and
+    forcing scenario was being predicted.
+  - >
+    For the end of the century under the steepest forcing scenario, the observationally
+    informed projection is about 15 percent warmer than the raw model mean — an increase of
+    0.5 degrees Celsius — and its two-standard-deviation spread is about a third narrower, a
+    reduction of 1.2 degrees Celsius, relative to the raw model projections reported by the
+    Intergovernmental Panel on Climate Change.
+  - The models that best reproduce the observed energy budget are, systematically, the models
+    that warm more. The constraint therefore shifts the central estimate upward at the same
+    time as it narrows the range, rather than merely trimming outliers from both ends.
+
+matters:
+  - A warming projection that is 0.5 degrees Celsius higher for the same emissions is a
+    tightening of the carbon budget. Achieving any given temperature stabilisation target
+    requires steeper emissions reductions than the unweighted model spread implies.
+  - Narrowing the range matters as much as raising the centre. Much climate policy analysis
+    treats the model spread as irreducible uncertainty; showing that observations can cut it
+    by a third changes what can be said with confidence about a given emissions pathway.
+  - The method generalises. It uses quantities satellites already measure, so it can be
+    reapplied as observational records lengthen and as new model generations appear.
+
+links:
+  - label: Article at Nature
+    url: https://www.nature.com/articles/nature24672
