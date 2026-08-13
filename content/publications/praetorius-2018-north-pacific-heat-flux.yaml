@@ -60,3 +60,24 @@ matters:
   - For interpreting the paleoclimate record, where North Pacific heat flux is known to have
     changed substantially, it supplies a mechanism linking those changes to global and Arctic
     temperature.
+
+figure:
+  file: praetorius-2018-north-pacific-heat-flux.webp
+  source_figure: Figure 2
+  alt: >
+    Two polar-projection maps of the northern hemisphere showing surface air temperature anomaly
+    in kelvin on a scale from minus 5 to plus 5. Panel a, labelled NP-Cool/NA-Warm, is broadly
+    blue with the strongest cooling over the Arctic and North Pacific. Panel b, labelled
+    NP-Warm/NA-Cool, is broadly red with the strongest warming over the North Pacific and
+    extending across the Arctic.
+  caption: >
+    The two experiments are mirror images in the ocean but not in the atmosphere. Cooling the
+    North Pacific while warming the North Atlantic (a) and the reverse (b) produce Arctic
+    responses of markedly different magnitude, which is how a heat-flux change confined to one
+    ocean basin ends up governing hemispheric sensitivity.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Praetorius et al. (2018), Nature Communications 9, 3124
+  modification: Extracted from the published PDF and resized for web display

@@ -1,0 +1,109 @@
+id: cyronak-2026-ta-dic-reef-metabolism
+doi: 10.1002/lol2.70155
+title: >
+  From temporal variability to integrated metabolic balance: interpreting total alkalinity and
+  dissolved inorganic carbon relationships in dynamic coral reef ecosystems
+authors:
+  - Tyler Cyronak
+  - Yuichiro Takeshita
+  - Rebecca Albright
+  - Ken Caldeira
+  - Bradley Eyre
+  - Alyssa Griffin
+  - David A. Koweek
+  - Jennifer Mallon
+  - Manoela Romano de Orte
+  - Kai G. Schulz
+  - Kennedy Wolfe
+journal: Limnology and Oceanography Letters
+volume: "11"
+pages: e70155
+date: "2026-09"
+year: 2026
+themes:
+  - ocean-acidification
+
+description: >
+  The slope of total alkalinity against dissolved inorganic carbon, routinely read as a coral
+  reef's ratio of calcification to production, actually measures how those two processes vary
+  together through the day — recovering the ratio requires anchoring the measurements to
+  offshore reference water.
+
+question:
+  - >
+    Whether a coral reef is building carbonate faster than it dissolves it is usually inferred
+    from seawater chemistry rather than measured directly. Plotting total alkalinity against
+    dissolved inorganic carbon and taking the slope is the standard method, and that slope is
+    read as the ratio of net ecosystem calcification to net ecosystem production.
+  - >
+    That reading assumes the slope carries time-integrated information about the ecosystem. But
+    both processes swing strongly over the day-night cycle, and the chemistry of the water
+    arriving on the reef is not fixed either. This paper asked whether the slope means what the
+    literature takes it to mean.
+
+key_finding: >
+  Using high-frequency carbonate chemistry from an Australian reef flat together with numerical
+  models, the slope of total alkalinity against dissolved inorganic carbon is shown to reflect
+  the temporal co-variability of calcification and production rather than their time-integrated
+  ratio — so the standard inference of reef metabolic balance from that slope does not hold
+  without offshore reference conditions to anchor it.
+
+findings:
+  - >
+    The slope measures co-variability, not ratio. How calcification and production move together
+    through time governs the slope, and two reefs with the same metabolic ratio can produce
+    different slopes if their processes are phased differently over the day.
+  - >
+    Recovering the time-integrated ratio is still possible, but it takes more than the reef
+    measurements themselves: diel observations have to be coupled with offshore reference
+    conditions, which anchor the changes in alkalinity and inorganic carbon to an actual
+    calcification-to-production ratio.
+  - >
+    Metabolic balance is not a fixed property of a reef. It shifts systematically across the
+    diel cycle and depends on light, so a single number describing a reef's balance is a
+    time-average of something that is continuously moving.
+  - >
+    The starting chemistry of the water matters as much as what the reef does to it, which is
+    why analyses that omit the offshore end-member can misattribute a change in source water to
+    a change in reef function.
+
+matters:
+  - >
+    Reef carbonate production is being monitored as an indicator of reef health under warming
+    and acidification, and this is the method most of that monitoring uses. If the slope is
+    being interpreted as a metabolic ratio when it is really a measure of co-variability, then a
+    body of published inferences rests on a step that does not follow.
+  - >
+    The fix is procedural rather than technological — sample the offshore water as well as the
+    reef — which makes it something existing programmes can adopt without new instruments.
+  - >
+    The point generalises beyond reefs. Any dynamic aquatic system where two processes vary
+    together on a fast cycle has the same problem, so distinguishing metabolic co-variability
+    from metabolic ratio is a general caution about reading process ratios off chemistry slopes.
+
+figure:
+  file: cyronak-2026-ta-dic-reef-metabolism.webp
+  source_figure: Figure 2
+  alt: >
+    A scatter plot of total alkalinity, 2240 to 2340 micromoles per kilogram, against dissolved
+    inorganic carbon, 1850 to 2200. Grey circles are daytime measurements and black circles
+    night-time ones, joined by faint lines into individual day-night tracks. A solid regression
+    line runs through the cloud, crossing two dashed reference lines at an open diamond marking
+    the offshore reference condition. An inset histogram shows the probability distribution of
+    start-to-end slopes, peaked near zero and spanning roughly minus 2 to plus 2.
+  caption: >
+    Each faint line is one day-night track across the reef flat, and their individual slopes vary
+    far more than a single metabolic ratio would allow. The open diamond is the offshore
+    reference water — without it there is nothing to anchor these excursions to, which is the
+    paper's point about what the regression slope can and cannot tell you.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Cyronak et al. (2026), Limnology and Oceanography Letters 11, e70155
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - albright-2016-reversal-acidification
+  - albright-2018-co2-addition-reef
+  - ricke-2013-coral-reef-risk

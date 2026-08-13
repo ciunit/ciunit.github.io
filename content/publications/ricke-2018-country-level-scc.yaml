@@ -70,3 +70,24 @@ matters:
   - Because the country ranking is robust while the absolute level is not, the distributional
     result is the more usable one — it survives disagreement about discounting that the
     headline number does not.
+
+figure:
+  file: ricke-2018-country-level-scc.webp
+  source_figure: Figure 2
+  alt: >
+    Panel a is a pair of world maps shading each country's social cost of carbon in US dollars
+    per tonne of carbon dioxide, from below minus 10 through to 50-100, with India, the United
+    States, Saudi Arabia and Brazil in the darkest bands and much of the high latitudes negative
+    or near zero. Panel b is a dot plot of country-level social cost of carbon for ten selected
+    countries across five socioeconomic and emissions scenarios and four damage-function
+    specifications; India spans the widest range, reaching beyond 400 dollars.
+  caption: >
+    The global social cost of carbon is an average over a highly unequal distribution. India,
+    the United States and Saudi Arabia carry the largest country-level shares (panel a), and the
+    spread across scenarios and damage functions (panel b) is widest for exactly the country
+    bearing most of the cost.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Ricke et al. (2018), Nature Climate Change 8, 895-900
+  modification: Extracted from the published PDF and resized for web display

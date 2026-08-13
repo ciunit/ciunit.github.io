@@ -77,6 +77,20 @@ def _title_score(path: Path, title: str) -> float:
     return sum(w in head for w in words) / len(words)
 
 
+def _has_text(path: Path) -> int:
+    """1 if the first two pages carry a text layer, 0 if it is an image-only scan.
+
+    Worth a lot when choosing between copies: the figure detector locates
+    captions, so a scanned copy of the same paper is useless to it even though it
+    looks identical on screen."""
+    try:
+        with pymupdf.open(path) as doc:
+            text = "".join(doc[i].get_text("text") for i in range(min(2, doc.page_count)))
+    except Exception:  # noqa: BLE001
+        return 0
+    return 1 if len(text.strip()) > 200 else 0
+
+
 def pdf_for(paper: dict, mapping: dict) -> Path | None:
     entry = mapping.get(str(paper["doi"]).lower())
     if not entry:
@@ -86,12 +100,17 @@ def pdf_for(paper: dict, mapping: dict) -> Path | None:
         return None
     if len(files) == 1:
         return files[0]
-    # Several PDFs can carry the same DOI, because an article that *cites* it prints
-    # the DOI in its reference list. Choose by how well the first page matches the
-    # publication's own title — size is no guide, since a citing article with
-    # supplementary material is often the larger file.
+    # Files of identical size are the same reprint saved under different names, so
+    # there is nothing to choose between them — skip the comparison entirely.
+    if len({f.stat().st_size for f in files}) == 1:
+        return files[0]
+    # Otherwise: prefer a copy with a readable text layer over an image-only scan,
+    # then the one whose first page best matches this publication's own title.
+    # Several PDFs can carry the same DOI because an article that *cites* it prints
+    # the DOI in its reference list, and raw size is no guide — a citing article
+    # with supplementary material is often the larger file.
     title = str(paper.get("title", ""))
-    scored = sorted(files, key=lambda f: (_title_score(f, title), f.stat().st_size))
+    scored = sorted(files, key=lambda f: (_has_text(f), _title_score(f, title), f.stat().st_size))
     return scored[-1]
 
 

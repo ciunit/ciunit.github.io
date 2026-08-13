@@ -13,6 +13,12 @@
   "antonini-2021-spatial-constraints": 2,
   "bala-2007-deforestation": 1,
   "ban-weiss-2010-optimization": 3,
+  "brown-2017-greater-future-warming": {
+    "figure": 2,
+    "trim": {
+      "bottom": 0.035
+    }
+  },
   "brown-2020-break-even-year": 2,
   "caldeira-1990-deccan-volcanism": {
     "page": 3,
@@ -62,6 +68,7 @@
       658
     ]
   },
+  "cyronak-2026-ta-dic-reef-metabolism": 2,
   "davis-2010-committed-emissions": 2,
   "davis-2010-consumption-based-accounting": 4,
   "davis-2011-supply-chain-emissions": {
@@ -97,6 +104,12 @@
     }
   },
   "duan-2025-adaptation-abatement": 3,
+  "ganter-2025-curtailed-power-hydrogen": {
+    "figure": 5,
+    "trim": {
+      "top": 0.17
+    }
+  },
   "herzog-2003-permanence-temporary-storage": {
     "figure": 1,
     "trim": {
@@ -127,8 +140,18 @@
       210
     ]
   },
+  "persad-2018-regional-aerosol-emissions": {
+    "page": 3,
+    "rect": [
+      76.4,
+      50,
+      518.9,
+      310.3
+    ]
+  },
   "pongratz-2012-geoengineered-crop-yields": 3,
   "possner-2017-open-ocean-wind": 1,
+  "praetorius-2018-north-pacific-heat-flux": 2,
   "rampino-1993-geologic-periodicity": {
     "page": 7,
     "rect": [
@@ -139,7 +162,9 @@
     ]
   },
   "rampino-2015-impact-cratering-periodicity": 1,
+  "rampino-2025-sequence-stage-boundaries": 1,
   "ricke-2013-coral-reef-risk": 3,
+  "ricke-2018-country-level-scc": 2,
   "ridgwell-2003-carbonate-climate-stability": 1,
   "rugenstein-2016-radiative-feedbacks": 1,
   "ruggles-2024-planning-reliable-systems": {
@@ -157,5 +182,6 @@
   "wang-2019-induced-efficiency": 3,
   "winkelmann-2015-antarctic-ice-sheet": 2,
   "wongel-2025-cooling-deficit": 3,
-  "wongel-2026-solar-process-heat": 4
+  "wongel-2026-solar-process-heat": 4,
+  "zheng-2020-aerosols-inequality": 4
 }

@@ -107,7 +107,7 @@
    ],
    "how": "metadata",
    "id": "brown-2017-greater-future-warming",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/2515-7620/abb413": {
    "files": [
@@ -126,6 +126,22 @@
    "id": "caldeira-2000-southern-ocean",
    "has_figure": true
   },
+  "10.1038/360721a0": {
+   "files": [
+    "Caldeira-Kasting_Nature1992_life-span-revisited.pdf",
+    "Caldeira-Kasting_Nature1992_lifespan-revisited.pdf"
+   ],
+   "how": "filename"
+  },
+  "10.1038/366251a0": {
+   "files": [
+    "Caldeira-Kasting_Nature1993_GWP-insensitivity.pdf",
+    "Caldeira-Kasting_Nature1993_insensitivity_GWPs.pdf"
+   ],
+   "how": "filename",
+   "id": "caldeira-kasting-1993-warming-potentials",
+   "has_figure": false
+  },
   "10.1029/gl017i009p01299": {
    "files": [
     "Caldeira-Rampino_GRL1990_Deccan.pdf"
@@ -142,6 +158,12 @@
    "id": "caldeira-1993-kt-carbon-cycle",
    "has_figure": true
   },
+  "10.1038/425365a": {
+   "files": [
+    "Caldeira-Wickett_Nature2003_ocean-acidification.pdf"
+   ],
+   "how": "filename"
+  },
   "10.1146/annurev-earth-042711-105548": {
    "files": [
     "Caldeira-et-al_AnnRev2013_science-of-geoengineering.pdf"
@@ -152,7 +174,8 @@
   },
   "10.1088/1748-9326/acf949": {
    "files": [
-    "Caldeira-et-al_ERL2023_green-premium(w Supp).pdf"
+    "Caldeira-et-al_ERL2023_green-premium(w Supp).pdf",
+    "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf"
    ],
    "how": "metadata",
    "id": "caldeira-2023-green-premium",
@@ -160,11 +183,25 @@
   },
   "10.1126/science.1078938": {
    "files": [
+    "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab(1).pdf",
     "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab.pdf"
    ],
-   "how": "page text",
+   "how": "filename",
    "id": "caldeira-2003-climate-sensitivity-uncertainty",
    "has_figure": true
+  },
+  "10.1038/337732a0": {
+   "files": [
+    "Caldeira_Nature1989_evo-pressure-planktonic-sulfur.pdf",
+    "Caldeira_Nature1989_planktonic-sulphur.pdf"
+   ],
+   "how": "filename"
+  },
+  "10.1038/357578a0": {
+   "files": [
+    "Caldeira_Nature1992_subduction-pelagic-carbonate.pdf"
+   ],
+   "how": "filename"
   },
   "10.1088/1748-9326/7/3/034015": {
    "files": [
@@ -229,13 +266,21 @@
    ],
    "how": "page text",
    "id": "chen-2026-land-costs-solar",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/s41558-025-02305-1": {
    "files": [
     "Cheng-et-al_NatureCC2025_trade-risks-net-zero-emissions (w Supp & Samaras N&V).pdf"
    ],
    "how": "metadata"
+  },
+  "10.1002/lol2.70155": {
+   "files": [
+    "Cyronak-et-al_LimnOceanogrLett2026_temporal-variability-metabolic-balance.pdf"
+   ],
+   "how": "page text",
+   "id": "cyronak-2026-ta-dic-reef-metabolism",
+   "has_figure": true
   },
   "10.1073/pnas.0906974107": {
    "files": [
@@ -337,6 +382,14 @@
    "how": "metadata",
    "id": "duan-2022-flexible-nuclear",
    "has_figure": true
+  },
+  "10.1021/acs.est.4c10168": {
+   "files": [
+    "Ganter-et-al_EST2025_curtailed-wind-solar-h2.pdf"
+   ],
+   "how": "page text",
+   "id": "ganter-2025-curtailed-power-hydrogen",
+   "has_figure": false
   },
   "10.1016/s0921-8181(02)00195-9": {
    "files": [
@@ -441,7 +494,7 @@
    ],
    "how": "page text",
    "id": "persad-2018-regional-aerosol-emissions",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/nclimate1373": {
    "files": [
@@ -469,6 +522,14 @@
    ],
    "how": "metadata",
    "id": "praetorius-2018-north-pacific-heat-flux",
+   "has_figure": true
+  },
+  "10.1016/j.earscirev.2025.105100": {
+   "files": [
+    "Rampino-Caldeira_EarthSciRev2025_cyclicity_253My.pdf"
+   ],
+   "how": "metadata",
+   "id": "rampino-2025-sequence-stage-boundaries",
    "has_figure": false
   },
   "10.1093/mnras/stv2088": {
@@ -501,7 +562,7 @@
    ],
    "how": "page text",
    "id": "ricke-2018-country-level-scc",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1088342": {
    "files": [
@@ -626,7 +687,7 @@
    ],
    "how": "metadata",
    "id": "zheng-2020-aerosols-inequality",
-   "has_figure": false
+   "has_figure": true
   }
  },
  "unmatched": [
@@ -668,10 +729,6 @@
   "Caldeira-Dowling_Joule2021_Portfolios-all-the-way-down.pdf",
   "Caldeira-Duffy_GRL1998_CFC11-salt-rejection-sea-ice.pdf",
   "Caldeira-Kasting_Nature1992_irreversible-glaciation.pdf",
-  "Caldeira-Kasting_Nature1992_life-span-revisited.pdf",
-  "Caldeira-Kasting_Nature1992_lifespan-revisited.pdf",
-  "Caldeira-Kasting_Nature1993_GWP-insensitivity.pdf",
-  "Caldeira-Kasting_Nature1993_insensitivity_GWPs.pdf",
   "Caldeira-Kasting_lifespan_Nature1992.pdf",
   "Caldeira-Keith_IS_T2010.pdf",
   "Caldeira-McKay_Nature2021_contrails.pdf",
@@ -683,12 +740,10 @@
   "Caldeira-Rau_GRL2000_accel_weathering_carbonate.pdf",
   "Caldeira-Ricke_NatureCC2013_prudence-on-solar-climate-engineering.pdf",
   "Caldeira-Wickett_JGR2005_ocean-chem-changes.pdf",
-  "Caldeira-Wickett_Nature2003_ocean-acidification.pdf",
   "Caldeira-et-al_Chapter1990_BiogeochemicalModelingAtMassEx.pdf",
   "Caldeira-et-al_GRL1998_radiocarbon-efflux.pdf",
   "Caldeira-et-al_GRL1998_radiocarbon-outgassing.pdf",
   "Caldeira-et-al_Nature1993_cooling-late-Cenozoic(letter).pdf",
-  "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab(1).pdf",
   "Caldeira_AJS1995.pdf",
   "Caldeira_AJS1995_seafloor-basalt.pdf",
   "Caldeira_Berner_Geol1998.pdf",
@@ -705,9 +760,6 @@
   "Caldeira_MacCracken_albedo_Nature_rej_2004.pdf",
   "Caldeira_Myhrvold_PNAS2012_comment.pdf",
   "Caldeira_Nature1989_CLAW.pdf",
-  "Caldeira_Nature1989_evo-pressure-planktonic-sulfur.pdf",
-  "Caldeira_Nature1989_planktonic-sulphur.pdf",
-  "Caldeira_Nature1992_subduction-pelagic-carbonate.pdf",
   "Caldeira_Nature1998_too-intelligent-own-good.pdf",
   "Caldeira_Nature2002_whats-posterirty-done-for-us.pdf",
   "Caldeira_NatureCC2013_CoralRefugia.pdf",
@@ -762,7 +814,6 @@
   "Covey_etal_GPC2005.pdf",
   "Cvijanovic-Caldeira_ClimDyn2015_atm-impact-sea-ice-decline-CO2-warming.pdf",
   "Cvijanovic-et-al_ERL2015_sea-ice-restoration.pdf",
-  "Cyronak-et-al_LimnOceanogrLett2026_temporal-variability-metabolic-balance.pdf",
   "Cyronak-et-al_PLOS2018_metabolic-pulse-coral-reefs.pdf",
   "Davis-et-al_ERL2013_rethinking-wedges.pdf",
   "Davis-et-al_NatureSus2023_food-without-agriculture (w Supp).pdf",
@@ -775,7 +826,6 @@
   "Dowling-et-al_ERE2024_opportunities-constraints-h2-storage.pdf",
   "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf",
   "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf",
-  "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf",
   "Duan-Caldeira_AtmosChemPhys2023_comment-ocko-hamburg.pdf",
   "Duan-et-al_GRL2019_pulse-vs-sustained.pdf",
   "Duan-et-al_JGRA202_four-radiation-modification-approaches.pdf",
@@ -793,7 +843,6 @@
   "Foo-et-al_CoralReefs2019_Photo-movement-sea-anemone.pdf",
   "Foo-et-al_CoralReefs2020_Photo-movement-sea-anemone.pdf",
   "Foo-et-al_STOTEN2020_sea-urchin-larvae-field-lab.pdf",
-  "Ganter-et-al_EST2025_curtailed-wind-solar-h2.pdf",
   "Gibbard_etal_GRL2005 (2).pdf",
   "Gibbard_etal_GRL2005(1).pdf",
   "Gibbard_etal_GRL2005.pdf",
@@ -888,7 +937,6 @@
   "Pongratz_et_al_Holocene2011_plagues-wars.pdf",
   "Possner-et-al_ACP2018_aerosol-cloud-open-cell.pdf",
   "Rampino-Caldeira_AnnRev1994.pdf",
-  "Rampino-Caldeira_EarthSciRev2025_cyclicity_253My.pdf",
   "Rampino-Caldeira_GRL1993_antipodal-hotspots.pdf",
   "Rampino-Caldeira_GeosciFrontiers2017_correlations-250-Myr.pdf",
   "Rampino-Caldeira_IntJEarthScie2018_Comparison-of-the-ages-260-million-years.pdf",

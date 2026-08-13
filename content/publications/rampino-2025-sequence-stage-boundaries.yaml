@@ -1,0 +1,103 @@
+id: rampino-2025-sequence-stage-boundaries
+doi: 10.1016/j.earscirev.2025.105100
+title: >
+  Correlation and cyclicity of stratigraphic sequence boundaries and chronostratigraphic stage
+  boundaries over the last 253 million years
+authors:
+  - Michael R. Rampino
+  - Ken Caldeira
+journal: Earth-Science Reviews
+volume: "265"
+pages: "105100"
+date: "2025-06"
+year: 2025
+themes:
+  - paleoclimate
+
+description: >
+  Twenty-eight stratigraphic sequence boundaries of the last 253 million years line up with 28
+  chronostratigraphic stage boundaries, 60% of all stage boundaries in that interval, and both
+  records carry the same 31-million-year cycle at above 99.9% confidence.
+
+question:
+  - >
+    The Phanerozoic record is divided up two quite different ways. Chronostratigraphic stage
+    boundaries rest mainly on biostratigraphy and radio-isotopic dating — changes in the fossil
+    fauna, pinned in time. Stratigraphic sequence boundaries rest on changes in global sea level
+    and tectonism — physical unconformities in the rock.
+  - >
+    Those are, in principle, independent ways of carving up time. This paper asked whether their
+    boundaries actually fall at the same dates, and whether either carries a periodic signal.
+
+key_finding: >
+  Twenty-eight of the 47 chronostratigraphic stage boundaries of the last 253 million years —
+  60% — coincide with a dated stratigraphic sequence boundary, a correlation far too strong to be
+  accidental, and independent spectral analysis of the two sets returns the same 31-million-year
+  cycle at better than 99.9% confidence.
+
+findings:
+  - >
+    Matching the ages of 28 sequence boundaries against 28 dated stage boundaries over the same
+    253 million years, the probability of that many coincidences arising by chance is between
+    0.01 and 0.001 at the maximum mismatch tolerance of about 4 million years.
+  - >
+    Tightening the tolerance strengthens the result rather than dissolving it. At the average
+    mismatch of 0.7 million years there are still 18 matches, with a probability of about 1 in
+    100,000.
+  - >
+    Treated as a binomial problem — 28 hits out of 47 available stage boundaries — the confidence
+    level is very high. The authors read this as evidence that unconformities at sequence
+    boundaries were commonly used to help define the stage boundaries in the first place.
+  - >
+    Spectral analysis run separately on each set of dates returns a common strong peak at 31
+    million years, significant at better than 99.9% confidence.
+  - >
+    That period sits inside the 26-to-36-million-year band already reported for tectonism,
+    intra-plate volcanism, climate change, ocean anoxia, biodiversity, and mass extinctions,
+    which implies the phenomena are causally linked rather than separately periodic.
+  - >
+    The pacemaker is not settled. Internal Earth processes are the likely candidates, but
+    essentially identical cycles appear in the amplitude modulation of the Earth's 2.4-million
+    and 9-million-year orbital eccentricity cycles, which would make the timing astronomical
+    rather than geological.
+
+matters:
+  - >
+    It ties the physical and biological subdivisions of deep time to one another. If sea-level
+    lows and faunal turnover happen together, then the geologic timescale is not two independent
+    accountings of the same interval but two views of a single set of events.
+  - >
+    That has an uncomfortable corollary the paper states plainly: some of the correlation may be
+    circular, because the physical unconformities were convenient markers when the stage
+    boundaries were defined. Distinguishing a real coincidence of events from an artefact of how
+    the timescale was built is the live question.
+  - >
+    A 31-million-year period shared with tectonism, volcanism, anoxia, and extinction points at
+    one underlying driver rather than many. Whether that driver is inside the Earth or in its
+    orbit is the difference between a planet with its own long-period rhythm and one being
+    paced from outside.
+
+figure:
+  file: rampino-2025-sequence-stage-boundaries.webp
+  source_figure: Figure 1
+  alt: >
+    A step plot of the number of matches between the ages of 28 stratigraphic sequence
+    boundaries and independently defined chronostratigraphic stage boundaries, on the vertical
+    axis from 0 to 28, against the mismatch tolerance in millions of years on the horizontal
+    axis from 0 to 5. The curve climbs steeply to about 20 matches by a tolerance of 1.2 million
+    years, reaches 24 by 2 million, and is flat at all 28 from about 4 million years onward.
+  caption: >
+    How many of the two sets of boundaries coincide, as the tolerance for calling two dates the
+    same is relaxed. Twenty of the 28 already agree within 1.2 million years and all 28 within
+    4 million — a correspondence between the physical rock record and the fossil-based timescale
+    far too close to be coincidence.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Rampino and Caldeira (2025), Earth-Science Reviews 265, 105100
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - rampino-2021-tetrapod-periodicity
+  - rampino-2015-impact-cratering-periodicity
+  - rampino-1993-geologic-periodicity

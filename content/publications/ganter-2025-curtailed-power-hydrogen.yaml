@@ -1,0 +1,102 @@
+id: ganter-2025-curtailed-power-hydrogen
+doi: 10.1021/acs.est.4c10168
+title: >
+  Utilizing curtailed wind and solar power to scale up electrolytic hydrogen production in
+  Europe
+authors:
+  - Alissa Ganter
+  - Tyler H. Ruggles
+  - Paolo Gabrielli
+  - Giovanni Sansavini
+  - Ken Caldeira
+journal: Environmental Science & Technology
+volume: "59"
+pages: 3495-3507
+date: "2025-02-25"
+year: 2025
+themes:
+  - climate-and-energy
+  - macro-energy-modeling
+
+description: >
+  Electricity that European wind and solar farms currently curtail could make 1.9 million tonnes
+  of hydrogen a year, replacing 30% of the continent's fossil-derived hydrogen and cutting
+  ammonia and refinery emissions by 20 million tonnes of CO2.
+
+question:
+  - >
+    As European wind and solar capacity grows, so does curtailment — generation thrown away
+    because the grid cannot absorb or move it. Meanwhile hydrogen for ammonia and refining is
+    made almost entirely from fossil fuels, and accounts for roughly 3% of global greenhouse gas
+    emissions.
+  - >
+    Those two facts suggest an obvious pairing, but surplus electricity is intermittent and
+    hydrogen demand is not. This paper asked how much fossil hydrogen that surplus could
+    actually displace, and what it costs to bridge the mismatch.
+
+key_finding: >
+  Across 27 European countries, hydrogen made from surplus wind and solar electricity could
+  substitute 30% of fossil-derived hydrogen — 1.9 million tonnes a year — cutting ammonia and
+  refinery emissions by 18%, or 20 million tonnes of CO2 a year.
+
+findings:
+  - >
+    Surplus electricity potential is estimated from historical data for 27 European countries,
+    then run through a cost-optimization that sizes and operates the electrolysis system,
+    including the option of battery and hydrogen storage.
+  - >
+    Two uses are separated. In a fuel-saving scenario, electrolytic hydrogen substitutes for
+    fossil hydrogen whenever surplus electricity happens to be available. In a fuel-replacing
+    scenario, it takes over entirely from a subset of fossil hydrogen plants.
+  - >
+    Fuel-saving is the cheap win: 30% substitution, 1.9 million tonnes of hydrogen a year, and
+    an 18% cut to ammonia and refinery emissions, amounting to 20 million tonnes of CO2 a year.
+  - >
+    Fuel-replacing costs much more, because a plant that has actually shut down needs hydrogen
+    on demand rather than when the wind blows — which means paying for battery or hydrogen
+    storage to bridge the gap.
+  - >
+    Even so, about 19% of fossil hydrogen production, 1.2 million tonnes a year, can be replaced
+    outright and still be cost-effective.
+
+matters:
+  - >
+    It treats curtailment as a resource rather than a defect. Surplus generation is usually
+    counted as waste to be engineered away; here it is an input whose zero opportunity cost is
+    what makes the hydrogen competitive.
+  - >
+    The gap between the two scenarios is the real finding. Substituting *when you can* is far
+    cheaper than replacing *for good*, because firmness has to be bought with storage — the same
+    intermittency problem that governs electricity, appearing again one step downstream.
+  - >
+    It also bounds the ambition honestly. This displaces roughly a third of Europe's fossil
+    hydrogen, not all of it, so surplus electricity is a useful head start on industrial
+    decarbonization rather than a route to finishing it.
+
+figure:
+  file: ganter-2025-curtailed-power-hydrogen.webp
+  source_figure: Figure 5
+  alt: >
+    Four maps of Europe in two columns. The left column is the fuel-saving scenario and the
+    right the fuel-replacing scenario. The top row shades the share of hydrogen demand that can
+    be met cost-effectively from 0 to 1, with Germany, Denmark and the Netherlands darkest; the
+    shading is markedly paler throughout the fuel-replacing column. The bottom row shades the
+    share of available surplus electricity actually used, which is high across most of
+    continental Europe in the fuel-saving case and much lower in the fuel-replacing case.
+  caption: >
+    The two columns are the same resource used two ways. Substituting electrolytic hydrogen
+    whenever surplus happens to be available (left) serves a much larger share of demand and
+    consumes far more of the surplus than committing to replace a fossil plant outright (right),
+    because the second has to buy storage to deliver hydrogen on schedule.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Ganter et al. (2025), Environmental Science & Technology 59, 3495-3507
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - dowling-2020-long-duration-storage
+  - davis-2018-net-zero-energy-systems
+  - wongel-2026-solar-process-heat
+  - ruggles-2024-planning-reliable-systems

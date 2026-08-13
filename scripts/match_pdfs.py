@@ -73,6 +73,61 @@ def dois_from_pdf(path: Path, known: set[str]) -> tuple[str | None, str]:
     return None, "no DOI found"
 
 
+YEAR_RE = re.compile(r"(1[89]\d\d|20\d\d)")
+
+
+def from_filename(name: str, records: list[dict]) -> str | None:
+    """Match on the filename: first-author surname plus year.
+
+    Every file in the reprint library carries both, usually as
+    `<Surname>[-etal]_<Journal><Year>_<slug>.pdf` — e.g.
+    `Caldeira_Nature1989_planktonic-sulphur.pdf`. That makes this the *first*
+    thing to try, not a fallback: older reprints are pure image scans with no
+    text layer at all, so there is no DOI and no title to read and content
+    matching cannot work for exactly the papers we most want.
+
+    Deliberately conservative. It accepts only an unambiguous match, and where
+    one author has several papers in a year it requires the filename slug to
+    overlap the title. An ambiguous name falls through rather than being guessed
+    at, because a wrong match silently puts the wrong cover and the wrong figure
+    on a page.
+    """
+    stem = name.rsplit(".", 1)[0]
+    years = {int(y) for y in YEAR_RE.findall(stem)}
+    if not years:
+        return None
+    words = {w for w in re.split(r"[^A-Za-z]+", stem.lower()) if len(w) > 2}
+    if not words:
+        return None
+
+    alpha = re.sub(r"[^a-z]", "", stem.lower())
+    hits = []
+    for r in records:
+        if r.get("year") not in years:
+            continue
+        fams = [str(a.get("family", "")).lower() for a in (r.get("authors") or [])]
+        # Surnames are sometimes hyphenated in the metadata but not the filename.
+        if not fams or not any(part in words for part in re.split(r"[^a-z]+", fams[0]) if part):
+            continue
+        title_words = {w for w in re.split(r"[^a-z0-9]+", (r.get("title") or "").lower())
+                       if len(w) > 3}
+        overlap = len(words & title_words)
+        journal = re.sub(r"[^a-z]", "", (r.get("journal") or "").lower())
+        # Author and year alone are not enough — one author easily has several
+        # papers in a year. Require the slug to corroborate with two title words,
+        # or one plus the journal name appearing in the filename.
+        if overlap >= 2 or (overlap >= 1 and journal and journal in alpha):
+            hits.append((overlap, r["doi"]))
+    if not hits:
+        return None
+    if len(hits) == 1:
+        return hits[0][1]
+    hits.sort(reverse=True)
+    if hits[0][0] > hits[1][0]:
+        return hits[0][1]
+    return None
+
+
 def main() -> int:
     if not PDF_DIR.is_dir():
         print(f"no {PDF_DIR}", file=sys.stderr)
@@ -99,13 +154,25 @@ def main() -> int:
     for i, path in enumerate(pdfs, 1):
         if i % 50 == 0:
             print(f"  ...{i}/{len(pdfs)}", file=sys.stderr)
-        doi, how = dois_from_pdf(path, known)
-        if doi and doi.startswith("TITLE:"):
-            head = doi[6:]
-            doi = next((d for t, d in titles.items() if t and len(t) > 30 and t in head), None)
-            how = "title match" if doi else "no DOI found"
+        # Filename first: surname and year are always present, and they are the
+        # only signal an image-only scan offers. Content still gets the last word
+        # where it disagrees, since a printed DOI is stronger evidence than a name.
+        doi = from_filename(path.name, records)
+        how = "filename" if doi else ""
+        by_content, how_content = dois_from_pdf(path, known)
+        if by_content and by_content.startswith("TITLE:"):
+            head = by_content[6:]
+            by_content = next(
+                (d for t, d in titles.items() if t and len(t) > 30 and t in head), None)
+            how_content = "title match" if by_content else "no DOI found"
+        if by_content:
+            if doi and by_content != doi:
+                print(f"  note: {path.name}: filename says {doi}, "
+                      f"{how_content} says {by_content} — taking the latter", file=sys.stderr)
+            doi, how = by_content, how_content
         if not doi:
             unmatched.append(path.name)
+            how = how_content
             continue
         # Prefer the first PDF found for a DOI; note duplicates.
         entry = mapping.setdefault(doi, {"files": [], "how": how})

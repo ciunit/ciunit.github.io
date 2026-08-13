@@ -22,6 +22,7 @@
     "antonini-2024-wind-droughts": 1,
     "bala-2007-deforestation": 1,
     "ban-weiss-2010-optimization": 1,
+    "brown-2017-greater-future-warming": 1,
     "brown-2020-break-even-year": {
       "page": 2,
       "note": "IOP download stub on page 1"
@@ -35,6 +36,7 @@
     },
     "caldeira-2013-science-of-geoengineering": 1,
     "caldeira-2023-green-premium": 1,
+    "caldeira-kasting-1993-warming-potentials": 1,
     "cao-2011-precipitation-co2-forcing": 1,
     "cao-2012-fast-response-days-weeks": {
       "page": 2,
@@ -44,6 +46,7 @@
     "carlino-2025-technology-learning-rates": 1,
     "chen-2020-migration-incentive": 1,
     "chen-2026-land-costs-solar": 1,
+    "cyronak-2026-ta-dic-reef-metabolism": 1,
     "davis-2010-committed-emissions": {
       "page": 2,
       "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
@@ -64,6 +67,7 @@
     },
     "duan-2025-adaptation-abatement": 1,
     "duan-2025-temperature-extremes": 1,
+    "ganter-2025-curtailed-power-hydrogen": 1,
     "herzog-2003-permanence-temporary-storage": 1,
     "hoffert-2002-advanced-technology-paths": 1,
     "li-2024-storage-portfolios": 1,
@@ -75,14 +79,18 @@
       "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
     },
     "pagani-2009-terrestrial-plants-co2": 1,
+    "persad-2018-regional-aerosol-emissions": 1,
     "pongratz-2012-geoengineered-crop-yields": 1,
     "possner-2017-open-ocean-wind": 1,
+    "praetorius-2018-north-pacific-heat-flux": 1,
     "rampino-1993-geologic-periodicity": 1,
     "rampino-2015-impact-cratering-periodicity": 1,
+    "rampino-2025-sequence-stage-boundaries": 1,
     "ricke-2013-coral-reef-risk": {
       "page": 2,
       "note": "IOP download stub on page 1"
     },
+    "ricke-2018-country-level-scc": 1,
     "ridgwell-2003-carbonate-climate-stability": {
       "page": 2,
       "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
@@ -102,6 +110,7 @@
     "wongel-2026-solar-process-heat": {
       "page": 2,
       "note": "IOP download stub on page 1"
-    }
+    },
+    "zheng-2020-aerosols-inequality": 1
   }
 }
