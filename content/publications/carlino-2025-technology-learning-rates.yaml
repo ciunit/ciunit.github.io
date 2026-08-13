@@ -1,0 +1,131 @@
+id: carlino-2025-technology-learning-rates
+doi: 10.1016/j.adapen.2025.100252
+title: >
+  Variability of technology learning rates
+authors:
+  - Angelo Carlino
+  - Alicia Wongel
+  - Lei Duan
+  - Edgar Virgüez
+  - Steven J. Davis
+  - Morgan R. Edwards
+  - Ken Caldeira
+journal: Advances in Applied Energy
+volume: "20"
+pages: "100252"
+date: "2025-12"
+year: 2025
+themes:
+  - climate-and-economics
+
+description: >
+  Across 87 technologies, the rate at which costs fall per doubling of production is not
+  constant — a stepwise rate fits better for 58 of them, and a technology's past learning rate
+  barely predicts its future one, with a correlation of 0.12 indistinguishable from zero.
+
+question:
+  - >
+    Almost every projection of what a low-carbon technology will cost rests on Wright's model —
+    unit cost falls as a power law of cumulative production, so each doubling of output cuts
+    cost by a fixed percentage. That percentage, the learning rate, is treated as a constant of
+    the technology.
+  - >
+    If it is not constant, then a forecast built by extrapolating an observed learning rate
+    inherits an error nobody is accounting for. This paper asked how well the constant-rate
+    assumption holds across the broadest available collection of technology cost histories, and
+    what changes when it is dropped.
+
+key_finding: >
+  Across the 87 technologies in the Performance Curve Database, a model allowing stepwise
+  changes in the learning rate fits better than a constant rate for 58 of them, and a
+  technology's learning rate in the first half of its history predicts its rate in the second
+  half hardly at all — a Pearson correlation of 0.12, not distinguishable from zero.
+
+findings:
+  - >
+    Splitting each technology's record in half and comparing the learning rate before and after
+    gives a correlation of 0.12, which is not significantly different from zero at the 5% level.
+    Points scatter well away from the identity line rather than along it.
+  - >
+    More data does not fix this. The 44 longest series give a correlation of 0.07 and the 43
+    shortest 0.13, neither significant, and no individual sector's correlation differs
+    significantly from zero either. Longer records make each estimate steadier without making
+    it more predictive.
+  - >
+    Comparing the standard first-difference Wright's model against piecewise regressions by the
+    Bayesian Information Criterion, a model with at least two learning rates wins for 58 of the
+    87 technologies; the constant-rate model is best for 29. The Akaike criterion puts the
+    figure at 60. Weighting sectors equally rather than by how many technologies each
+    contributes gives 58%.
+  - >
+    The breakpoints are not artefacts of the fitting. A non-parametric bootstrap with 500
+    resamples per technology agrees with the original number of breakpoints 74% of the time on
+    average, with a median of 79%.
+  - >
+    The three technologies that matter most for decarbonization behave the same way. Solar
+    photovoltaics, wind power, and lithium-ion batteries all show learning rates that accelerate
+    over time, with mismatches between the past and future rate reaching 10 percentage points
+    for solar, 25 for wind, and 30 for batteries.
+  - >
+    A forecasting model built on piecewise curves — trusting the most recent learning trend in
+    the short run and expecting regression to the mean in the long run — gives errors equal to
+    or significantly lower than the constant-rate model for 36 and 30 technologies respectively.
+    It does this without technology-specific tuning, needing only the location of the last
+    breakpoint.
+  - >
+    Which model wins depends on the technology. Calibrated on data to 2000, the constant-rate
+    model scores better for solar photovoltaics, the piecewise model better for lithium-ion
+    batteries, and for wind power the piecewise model is better in recent years but worse over
+    the whole validation period.
+
+matters:
+  - >
+    A learning rate read off history is routinely carried decades into the future in energy
+    system and integrated assessment models. If past and future rates correlate at 0.12, that
+    extrapolation is far weaker evidence than the precision of the resulting cost curve
+    suggests, and the uncertainty being reported is too narrow.
+  - >
+    The finding is not that costs fail to fall with production — they generally do. It is that
+    the *rate* at which they fall shifts as demand, research effort, and policy support change,
+    so a technology can enter a faster or slower learning phase without warning.
+  - >
+    The practical implication the authors draw is about where to put money. Since which
+    technology will get cheap fastest cannot be read off its past, investment in early-stage
+    technologies already approaching cost-competitiveness — combined with techno-economic
+    analysis and explicit decision-making under uncertainty — is more robust than betting on an
+    extrapolated learning curve.
+
+figure:
+  file: carlino-2025-technology-learning-rates.png
+  source_figure: Figure 2
+  alt: >
+    Two panels. Panel a plots unit cost relative to its initial value, on a logarithmic axis
+    spanning ten orders of magnitude, against cumulative production relative to initial, for 87
+    technologies coloured by sector. Every trace falls, but at visibly different and changing
+    slopes; nuclear electricity rises. Panel b is a scatter of each technology's future learning
+    rate against its past learning rate, both in per cent, with a dashed 1:1 line. The points
+    form a diffuse cloud centred well above the line rather than lying along it, spanning about
+    minus 20 to plus 50 per cent on both axes.
+  caption: >
+    If a learning rate were a fixed property of a technology, panel b would be a line. Instead
+    the points scatter across the plane — the correlation between a technology's past and future
+    learning rate is 0.12, indistinguishable from zero — while panel a shows costs nonetheless
+    falling almost everywhere. Costs do decline with production; the rate at which they decline
+    is what will not stay put.
+  source: PDF (600 dpi)
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  credit: >
+    Carlino et al. (2025), Advances in Applied Energy 20, 100252
+  modification: >
+    Used unmodified, as the licence requires; the journal running head above the figure is
+    excluded from the crop
+
+links:
+  - label: Data (Zenodo)
+    url: https://doi.org/10.5281/zenodo.17179225
+
+related:
+  - caldeira-2023-green-premium
+  - wang-2019-induced-efficiency
+  - tong-2020-storage-cost-reductions

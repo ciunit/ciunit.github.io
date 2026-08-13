@@ -47,6 +47,12 @@
   "cao-2011-precipitation-co2-forcing": 1,
   "cao-2012-fast-response-days-weeks": 1,
   "cao-2015-fast-slow-responses": 2,
+  "carlino-2025-technology-learning-rates": {
+    "figure": 2,
+    "trim": {
+      "top": 0.032
+    }
+  },
   "davis-2010-committed-emissions": 2,
   "davis-2010-consumption-based-accounting": 4,
   "davis-2011-supply-chain-emissions": {
@@ -124,5 +130,7 @@
   "tong-2019-committed-emissions": 1,
   "tong-2020-storage-cost-reductions": 1,
   "wang-2019-induced-efficiency": 3,
-  "winkelmann-2015-antarctic-ice-sheet": 2
+  "winkelmann-2015-antarctic-ice-sheet": 2,
+  "wongel-2025-cooling-deficit": 3,
+  "wongel-2026-solar-process-heat": 4
 }

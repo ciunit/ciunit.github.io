@@ -63,5 +63,28 @@ matters:
     of the finding. It says the technology is already competitive under conditions that
     occur, which is a different claim from saying it would be competitive if costs fell.
 
+figure:
+  file: wongel-2026-solar-process-heat.webp
+  source_figure: Figure 4
+  alt: >
+    Four world maps in two columns. The left column shades the share of industrial heat demand
+    met by concentrated solar thermal, from 0 to 100 per cent, at a gas fuel cost of 50 dollars
+    per megawatt-hour (top) and 500 dollars (bottom); at 50 dollars the tropics and subtropics
+    are yellow, above 75 per cent, while high latitudes are dark blue near zero, and at 500
+    dollars almost everything below the Arctic is yellow. The right column shades the gas fuel
+    cost, from 10 to 500 dollars per megawatt-hour, at which solar thermal supplies any share
+    at all (top) and more than half (bottom).
+  caption: >
+    Latitude sets the answer. At a gas cost of 50 dollars per megawatt-hour, concentrated solar
+    thermal with molten salt storage already supplies most industrial heat demand across the
+    tropics and subtropics and almost none at high latitudes; the right column reads the same
+    result the other way, as the gas price each place would need to reach.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Wongel et al. (2026), Environmental Research: Energy 3, 025004
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - dowling-2020-long-duration-storage

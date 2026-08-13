@@ -60,5 +60,28 @@ matters:
     the climate, and air-conditioning penetration alone describes the economy; their product
     describes the exposure that actually matters to people, and it can be computed anywhere.
 
+figure:
+  file: wongel-2025-cooling-deficit.webp
+  source_figure: Figure 3
+  alt: >
+    Two contour plots sharing axes of GDP per capita, on a logarithmic scale from 1,000 to
+    100,000 dollars, against cooling degree days from 0 to 5,000. Four red dots mark the high,
+    upper-middle, lower-middle, and low income groups, running from the top left to the bottom
+    right. Panel a shades air conditioning adoption from 0 to 100 per cent, which rises steeply
+    with income and stays near zero across the whole lower half of the plot. Panel b shades the
+    Cooling Deficit Index from 0 to 5,000 degree-days, which is lowest at the high-income dot
+    and highest at the low-income dot.
+  caption: >
+    Air conditioning adoption is governed by income far more than by heat (panel a), so the
+    Cooling Deficit Index — hot days endured without cooling — is worst exactly where incomes
+    are lowest and cooling degree days are highest (panel b). The four income groups sit along
+    the diagonal of that trade-off.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Wongel et al. (2025), Environmental Research Letters 20, 124045
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - duan-2025-adaptation-abatement

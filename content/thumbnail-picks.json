@@ -7,6 +7,7 @@
   "no_derivatives": [
     "10.1002/2015jd023901",
     "10.1016/0012-821x(93)90026-6",
+    "10.1016/j.adapen.2025.100252",
     "10.1038/s43247-024-01976-6",
     "10.1038/s43247-025-02579-5"
   ],
@@ -39,6 +40,7 @@
       "note": "IOP download stub on page 1"
     },
     "cao-2015-fast-slow-responses": 1,
+    "carlino-2025-technology-learning-rates": 1,
     "chen-2020-migration-incentive": 1,
     "davis-2010-committed-emissions": {
       "page": 2,
@@ -84,6 +86,14 @@
     "tong-2020-storage-cost-reductions": 1,
     "tong-2021-geophysical-constraints": 1,
     "wang-2019-induced-efficiency": 1,
-    "winkelmann-2015-antarctic-ice-sheet": 1
+    "winkelmann-2015-antarctic-ice-sheet": 1,
+    "wongel-2025-cooling-deficit": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "wongel-2026-solar-process-heat": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    }
   }
 }

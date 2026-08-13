@@ -293,6 +293,11 @@
         discount rate rather than stipulated by a ton-year horizon, and the same reservoir is
         then worth 97 per cent of permanent storage or nothing at all depending on that path
       paper: herzog-2003-permanence-temporary-storage
+    - claim: >
+        A technology's past learning rate barely predicts its future one — a correlation of
+        0.12 across 87 technologies — so cost projections built by extrapolating an observed
+        learning rate carry far more uncertainty than they report
+      paper: carlino-2025-technology-learning-rates
 
 - id: solar-geoengineering
   title: Solar geoengineering

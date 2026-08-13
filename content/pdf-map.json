@@ -7,7 +7,7 @@
    ],
    "how": "title match",
    "id": "rampino-1993-geologic-periodicity",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1175/jcli-d-15-0614.1": {
    "files": [
@@ -23,7 +23,7 @@
    ],
    "how": "metadata",
    "id": "albright-2016-reversal-acidification",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/nature25968": {
    "files": [
@@ -124,7 +124,7 @@
    ],
    "how": "title match",
    "id": "caldeira-1990-deccan-volcanism",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1029/93pa01163": {
    "files": [
@@ -132,7 +132,7 @@
    ],
    "how": "title match",
    "id": "caldeira-1993-kt-carbon-cycle",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1146/annurev-earth-042711-105548": {
    "files": [
@@ -140,7 +140,7 @@
    ],
    "how": "page text",
    "id": "caldeira-2013-science-of-geoengineering",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/acf949": {
    "files": [
@@ -188,7 +188,7 @@
    ],
    "how": "page text",
    "id": "cao-2011-precipitation-co2-forcing",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1073/pnas.0913000107": {
    "files": [
@@ -196,6 +196,14 @@
     "Cao_et_al_PNAS2010_CO2-physiological-forcing.pdf"
    ],
    "how": "page text"
+  },
+  "10.1016/j.adapen.2025.100252": {
+   "files": [
+    "Carlino-et-al_AdvApplEnergy2025_variability-tech-learning-rates.pdf"
+   ],
+   "how": "metadata",
+   "id": "carlino-2025-technology-learning-rates",
+   "has_figure": true
   },
   "10.5194/esd-11-875-2020": {
    "files": [
@@ -221,7 +229,7 @@
    ],
    "how": "page text",
    "id": "davis-2010-consumption-based-accounting",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1073/pnas.1107409108": {
    "files": [
@@ -260,13 +268,15 @@
   },
   "10.1088/1748-9326/ad6018": {
    "files": [
-    "Duan-Caldeira_ERL2024_rate-of-warmng.pdf"
+    "Duan-Caldeira_ERL2024_rate-of-warmng.pdf",
+    "Duan-Caldeira_ERL2024_rate-warming-decline.pdf"
    ],
    "how": "metadata"
   },
   "10.1016/j.isci.2023.108685": {
    "files": [
-    "Duan-Caldeira_iScience2024_uncertainty-least-cost-decarbonized-electricity (w Supp).pdf"
+    "Duan-Caldeira_iScience2024_uncertainty-least-cost-decarbonized-electricity (w Supp).pdf",
+    "Duan-Caldeira_iScience2024_uncertainty-tech-costs-projections.pdf"
    ],
    "how": "metadata"
   },
@@ -306,7 +316,7 @@
    ],
    "how": "metadata",
    "id": "duan-2022-flexible-nuclear",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1016/s0921-8181(02)00195-9": {
    "files": [
@@ -322,7 +332,7 @@
    ],
    "how": "title match",
    "id": "herzog-2003-permanence-temporary-storage",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1072357": {
    "files": [
@@ -348,13 +358,21 @@
    ],
    "how": "page text"
   },
+  "10.1021/acs.est.3c10188": {
+   "files": [
+    "Li-et-al_EST2024_single-multistorage-tech-portfolios.pdf"
+   ],
+   "how": "page text",
+   "id": "li-2024-storage-portfolios",
+   "has_figure": false
+  },
   "10.1038/nclimate1683": {
    "files": [
     "Marvel-et-al_NatureCC2012_geophysical-limits-wind.pdf"
    ],
    "how": "metadata",
    "id": "marvel-2013-geophysical-limits-wind",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1073/pnas.0700419104": {
    "files": [
@@ -385,7 +403,7 @@
    ],
    "how": "metadata",
    "id": "pagani-2009-terrestrial-plants-co2",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1136110": {
    "files": [
@@ -395,7 +413,7 @@
    ],
    "how": "page text",
    "id": "pagani-2006-ancient-carbon-mystery",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1038/nclimate1373": {
    "files": [
@@ -404,7 +422,7 @@
    ],
    "how": "metadata",
    "id": "pongratz-2012-geoengineered-crop-yields",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1073/pnas.1705710114": {
    "files": [
@@ -423,7 +441,7 @@
    ],
    "how": "page text",
    "id": "rampino-2015-impact-cratering-periodicity",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1088/1748-9326/8/3/034003": {
    "files": [
@@ -459,11 +477,12 @@
   },
   "10.1016/j.adapen.2024.100185": {
    "files": [
-    "Ruggles-et-al_AdvApplEnergy2024_planning-reliable-wind-solar (w Supp).pdf"
+    "Ruggles-et-al_AdvApplEnergy2024_planning-reliable-wind-solar (w Supp).pdf",
+    "Ruggles-et-al_AdvApplEnergy2024_reliable-wind-solar.pdf"
    ],
    "how": "metadata",
    "id": "ruggles-2024-planning-reliable-systems",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1039/c7ee03029k": {
    "files": [
@@ -530,6 +549,22 @@
    ],
    "how": "page text",
    "id": "winkelmann-2015-antarctic-ice-sheet",
+   "has_figure": true
+  },
+  "10.1088/2753-3751/ae4eea": {
+   "files": [
+    "Wongel-et-al_ERE2026_solar-thermal-molten-salt.pdf"
+   ],
+   "how": "metadata",
+   "id": "wongel-2026-solar-process-heat",
+   "has_figure": true
+  },
+  "10.1088/1748-9326/ae1f2a": {
+   "files": [
+    "Wongel-et-al_ERL2026_air-conditioning-warming.pdf"
+   ],
+   "how": "metadata",
+   "id": "wongel-2025-cooling-deficit",
    "has_figure": true
   }
  },
@@ -660,20 +695,25 @@
   "Caro-et-al_ClimaticChange2014_GHG-emissions-livestock.pdf",
   "Caro-et-al_ERL2014_CH4-N2O-intl-trade-meat.pdf",
   "Casey-et-al_ERL2019_climate-fertility.pdf",
+  "Chen-et-al_PNAS2026_land-solar-China.pdf",
   "Ciais-et-al_NatureCC2013_attributing-co2-emitters-absorbers.pdf",
   "Clack-et-al_PNAS2017_evaluation-wind-water-solar.pdf",
+  "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf",
   "Covelli-et-al_AppliedEnergy2024_Oahu-case-study(w supp).pdf",
   "Covey_etal_GPC2005.pdf",
   "Cvijanovic-Caldeira_ClimDyn2015_atm-impact-sea-ice-decline-CO2-warming.pdf",
   "Cvijanovic-et-al_ERL2015_sea-ice-restoration.pdf",
+  "Cyronak-et-al_LimnOceanogrLett2026_temporal-variability-metabolic-balance.pdf",
   "Cyronak-et-al_PLOS2018_metabolic-pulse-coral-reefs.pdf",
   "Davis-et-al_ERL2013_rethinking-wedges.pdf",
   "Davis-et-al_NatureSus2023_food-without-agriculture (w Supp).pdf",
+  "Davis-et-al_NatureSust2023_food-without-agriculture.pdf",
   "Dioha-et-al_IS&T2022_Fixing-the-Disconnect-Around-Energy-Access.pdf",
   "Dioha-et-al_iScience2022_EVs-Nigerian-case-study.pdf",
   "Dioha-et-al_iScience2022_unidirectional-vs-bidirectional-EVs.pdf",
   "Dioha_ERL2022_guiding-deployment-EVs-developing-world.pdf",
   "Doney_etal_GBC2004.pdf",
+  "Dowling-et-al_ERE2024_opportunities-constraints-h2-storage.pdf",
   "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf",
   "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf",
   "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf",
@@ -693,6 +733,7 @@
   "Foo-et-al_CoralReefs2019_Photo-movement-sea-anemone.pdf",
   "Foo-et-al_CoralReefs2020_Photo-movement-sea-anemone.pdf",
   "Foo-et-al_STOTEN2020_sea-urchin-larvae-field-lab.pdf",
+  "Ganter-et-al_EST2025_curtailed-wind-solar-h2.pdf",
   "Gibbard_etal_GRL2005 (2).pdf",
   "Gibbard_etal_GRL2005(1).pdf",
   "Gibbard_etal_GRL2005.pdf",
@@ -727,6 +768,7 @@
   "Irvine-et-al_EarthArXiv2021_Solar-geo-research-priorities.pdf",
   "Jackson-et-al_ERL2008_protecting-climate-forests.pdf",
   "Jackson_et_al_ERL2008.pdf",
+  "Jayakrishnan-et-al_EarthsFutrue2024_net-zero-magnitude-duration-positive-negative-pulses.pdf",
   "Kennedy-et-al_ApplEnergy2022_CSP-with-TES.pdf",
   "Kerrick-et-al_ChemGeol1995_convective-hydro-CO2-high-heat-flow-regions.pdf",
   "Kerrick_Caldeira_ChemGeol1998.pdf",
@@ -788,12 +830,14 @@
   "Possner-et-al_ACP2018_aerosol-cloud-open-cell.pdf",
   "Praetorius-et-al_NatureComm2018_Arctic-climate-Pacific-heat-flux.pdf",
   "Rampino-Caldeira_AnnRev1994.pdf",
+  "Rampino-Caldeira_EarthSciRev2025_cyclicity_253My.pdf",
   "Rampino-Caldeira_GRL1993_antipodal-hotspots.pdf",
   "Rampino-Caldeira_GeosciFrontiers2017_correlations-250-Myr.pdf",
   "Rampino-Caldeira_IntJEarthScie2018_Comparison-of-the-ages-260-million-years.pdf",
   "Rampino-Caldeira_Science2011_comment.pdf",
   "Rampino-et-al_GeolSocSpecPap542-2019_what-causes-mass-extinctions.pdf",
   "Rampino-et-al_GlobPlanChg2024_16-mass-extinction-15-LIPs-4-impacts.pdf",
+  "Rampino-et-al_GlobPlanetChg2024_mass-extinctions-541My.pdf",
   "Rampino_Caldeira_Tellus2005.pdf",
   "Rampino_Caldeira_TerraNova2005.pdf",
   "Randerson_etal_GBC2002.pdf",
@@ -805,6 +849,7 @@
   "Rau_etal_Energy2007.pdf",
   "Rau_etal_NETL2001.pdf",
   "Raven_etal_RoySoc2005.pdf",
+  "Reich-et-al_ERE2026_maintaining-resource-adequacy-wind-solar.pdf",
   "Ricke-Caldeira_ERL2014_max-warming.pdf",
   "Ricke-Caldeira_NatureCC2014_climate-variability-policy.pdf",
   "Ricke-et-al_ERL2013_strategic-incentives.pdf",
@@ -852,6 +897,7 @@
   "Zheng-et-al_ERL2020_Climate-effects-China-improve-air-quality.pdf",
   "Zheng-et-al_NatureCC2020_aerosols-inequality.pdf",
   "_Full toolbox_ needed to solve the climate change problem _ EurekAlert! Science News.pdf",
-  "hoegh-guldberg et al science 2007.pdf"
+  "hoegh-guldberg et al science 2007.pdf",
+  "vanGreevenbroek-et-al_arXiv2026_health-climate-food.pdf"
  ]
 }
