@@ -8,8 +8,8 @@ is 1200 px wide or more, `adequate` 800–1199, `low` 500–799, `very low`
 below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
-- **65** publication pages across **9** themes
-- **54** have a figure, **11** do not
+- **67** publication pages across **9** themes
+- **55** have a figure, **12** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -22,6 +22,8 @@ higher-resolution source.
 
 | Page | Year | Theme | Figure | Quality | Size | Source | Licence | Review |
 | --- | ---: | --- | --- | --- | ---: | --- | --- | --- |
+| [reich-2026-resource-adequacy](docs/publications/reich-2026-resource-adequacy.html)<br><sub>Reich et al., 2026</sub> | 2026 | <sub>Reliability of wind and solar power, Macro-energy modeling</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [chen-2026-land-costs-solar](docs/publications/chen-2026-land-costs-solar.html)<br><sub>Chen et al., 2026</sub> | 2026 | <sub>Climate and energy</sub> | 4193×2718 | `good` | 9103 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [wongel-2026-solar-process-heat](docs/publications/wongel-2026-solar-process-heat.html)<br><sub>Wongel et al., 2026</sub> | 2026 | <sub>Macro-energy modeling</sub> | 1600×1044 | `good` | 97 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [carlino-2025-technology-learning-rates](docs/publications/carlino-2025-technology-learning-rates.html)<br><sub>Carlino et al., 2025</sub> | 2025 | <sub>Climate and economics</sub> | 4465×2552 | `good` | 1057 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [duan-2025-temperature-extremes](docs/publications/duan-2025-temperature-extremes.html)<br><sub>Duan et al., 2025</sub> | 2025 | <sub>—</sub> | 1448×1033 | `good` | 121 KB | <sub>publisher website</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
