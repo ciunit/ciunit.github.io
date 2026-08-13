@@ -77,15 +77,21 @@ def main() -> int:
     if not PDF_DIR.is_dir():
         print(f"no {PDF_DIR}", file=sys.stderr)
         return 1
-    records = json.loads(CACHE.read_text(encoding="utf-8"))
+    records = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else []
     known = {r["doi"] for r in records}
     titles = {norm_title(r.get("title", "")): r["doi"] for r in records if r.get("title")}
+
     built = {}
     for y in sorted((ROOT / "content" / "publications").glob("*.yaml")):
         d = yaml.safe_load(y.read_text(encoding="utf-8"))
-        built[str(d["doi"]).lower()] = {
-            "id": d["id"], "has_figure": bool(d.get("figure")),
-        }
+        doi = str(d["doi"]).lower()
+        built[doi] = {"id": d["id"], "has_figure": bool(d.get("figure"))}
+        # A publication with a page is cited on the site by definition. Taking the
+        # known set from the survey cache alone made a freshly written page
+        # unmatchable until the (slow, networked) survey was re-run — so a new page
+        # could not get its cover or figure in the same sitting.
+        known.add(doi)
+        titles.setdefault(norm_title(str(d.get("title", ""))), doi)
 
     mapping: dict[str, dict] = {}
     unmatched: list[str] = []

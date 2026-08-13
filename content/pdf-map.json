@@ -101,6 +101,14 @@
    "id": "ban-weiss-2010-optimization",
    "has_figure": true
   },
+  "10.1038/nature24672": {
+   "files": [
+    "Brown-Caldeira_Nature2017_greater-future-warming.pdf"
+   ],
+   "how": "metadata",
+   "id": "brown-2017-greater-future-warming",
+   "has_figure": false
+  },
   "10.1088/2515-7620/abb413": {
    "files": [
     "Brown-et-al_ERC2020_breakeven-year.pdf"
@@ -214,6 +222,14 @@
    "how": "title match",
    "id": "chen-2020-migration-incentive",
    "has_figure": true
+  },
+  "10.1073/pnas.2512930123": {
+   "files": [
+    "Chen-et-al_PNAS2026_land-solar-China.pdf"
+   ],
+   "how": "page text",
+   "id": "chen-2026-land-costs-solar",
+   "has_figure": false
   },
   "10.1038/s41558-025-02305-1": {
    "files": [
@@ -419,6 +435,14 @@
    "id": "pagani-2006-ancient-carbon-mystery",
    "has_figure": true
   },
+  "10.1038/s41467-018-05838-6": {
+   "files": [
+    "Persad-Caldeira_NatureComms2018_aerosols-regions-with-supp.pdf"
+   ],
+   "how": "page text",
+   "id": "persad-2018-regional-aerosol-emissions",
+   "has_figure": false
+  },
   "10.1038/nclimate1373": {
    "files": [
     "Pongratz-et-al_NatureCC2012_geoeng-crop-yields.pdf",
@@ -439,6 +463,14 @@
    "id": "possner-2017-open-ocean-wind",
    "has_figure": true
   },
+  "10.1038/s41467-018-05337-8": {
+   "files": [
+    "Praetorius-et-al_NatureComm2018_Arctic-climate-Pacific-heat-flux.pdf"
+   ],
+   "how": "metadata",
+   "id": "praetorius-2018-north-pacific-heat-flux",
+   "has_figure": false
+  },
   "10.1093/mnras/stv2088": {
    "files": [
     "Rampino-Caldeira_MNRAS2015_impact-cratering-extinction-260-myr.pdf"
@@ -447,6 +479,14 @@
    "id": "rampino-2015-impact-cratering-periodicity",
    "has_figure": true
   },
+  "10.1088/2753-3751/ae947d": {
+   "files": [
+    "Reich-et-al_ERE2026_maintaining-resource-adequacy-wind-solar.pdf"
+   ],
+   "how": "page text",
+   "id": "reich-2026-resource-adequacy",
+   "has_figure": false
+  },
   "10.1088/1748-9326/8/3/034003": {
    "files": [
     "Ricke-et-al_ERL2013_CMIP5-acidification.pdf"
@@ -454,6 +494,14 @@
    "how": "page text",
    "id": "ricke-2013-coral-reef-risk",
    "has_figure": true
+  },
+  "10.1038/s41558-018-0282-y": {
+   "files": [
+    "Ricke-et-al_NatureCC2018_country-level-SCC-with-SI.pdf"
+   ],
+   "how": "page text",
+   "id": "ricke-2018-country-level-scc",
+   "has_figure": false
   },
   "10.1126/science.1088342": {
    "files": [
@@ -571,6 +619,14 @@
    "how": "metadata",
    "id": "wongel-2025-cooling-deficit",
    "has_figure": true
+  },
+  "10.1038/s41558-020-0699-y": {
+   "files": [
+    "Zheng-et-al_NatureCC2020_aerosols-inequality.pdf"
+   ],
+   "how": "metadata",
+   "id": "zheng-2020-aerosols-inequality",
+   "has_figure": false
   }
  },
  "unmatched": [
@@ -597,7 +653,6 @@
   "Berner-Caldeira_Geol1997_mass-balance.pdf",
   "Berner_Caldeira_Geol1997.pdf",
   "Brown-Caldeira_EarthSpaceSci2020_EmpiricalPredictionTemperatureVariability.pdf",
-  "Brown-Caldeira_Nature2017_greater-future-warming.pdf",
   "Brown-et-al_SNAppScie2021_Weekly-wind-solar-drought-western-US.pdf",
   "Buesseler_et_al_Science2008.pdf",
   "Caldeira  New York Times Op-Ed - Forests 16 Jan 2007.pdf",
@@ -700,7 +755,6 @@
   "Caro-et-al_ClimaticChange2014_GHG-emissions-livestock.pdf",
   "Caro-et-al_ERL2014_CH4-N2O-intl-trade-meat.pdf",
   "Casey-et-al_ERL2019_climate-fertility.pdf",
-  "Chen-et-al_PNAS2026_land-solar-China.pdf",
   "Ciais-et-al_NatureCC2013_attributing-co2-emitters-absorbers.pdf",
   "Clack-et-al_PNAS2017_evaluation-wind-water-solar.pdf",
   "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf",
@@ -825,7 +879,6 @@
   "Orr_etal_GHGT7.pdf",
   "Pagani-et-all_Paleoceanogr2002_alkenone-co2aq.pdf",
   "Pagani_etal_2002.pdf",
-  "Persad-Caldeira_NatureComms2018_aerosols-regions-with-supp.pdf",
   "Petri-Caldeira_SciRep2015_global-warming-heating-cooling-degree-days-US.pdf",
   "Pongratz-Caldeira_ERL2012_attribution-CO2-temp-pre-ind-land-cover.pdf",
   "Pongratz-et-al_GRL2011_past-land-use-mitigation.pdf",
@@ -834,7 +887,6 @@
   "Pongratz_et_al_Holocene2011.pdf",
   "Pongratz_et_al_Holocene2011_plagues-wars.pdf",
   "Possner-et-al_ACP2018_aerosol-cloud-open-cell.pdf",
-  "Praetorius-et-al_NatureComm2018_Arctic-climate-Pacific-heat-flux.pdf",
   "Rampino-Caldeira_AnnRev1994.pdf",
   "Rampino-Caldeira_EarthSciRev2025_cyclicity_253My.pdf",
   "Rampino-Caldeira_GRL1993_antipodal-hotspots.pdf",
@@ -856,11 +908,9 @@
   "Rau_etal_Energy2007.pdf",
   "Rau_etal_NETL2001.pdf",
   "Raven_etal_RoySoc2005.pdf",
-  "Reich-et-al_ERE2026_maintaining-resource-adequacy-wind-solar.pdf",
   "Ricke-Caldeira_ERL2014_max-warming.pdf",
   "Ricke-Caldeira_NatureCC2014_climate-variability-policy.pdf",
   "Ricke-et-al_ERL2013_strategic-incentives.pdf",
-  "Ricke-et-al_NatureCC2018_country-level-SCC-with-SI.pdf",
   "Ricke-et-al_NatureGeo2015_policy-thresholds-in-mitigation.pdf",
   "Ricke-et-et_ERL2013_geo-coalitions.pdf",
   "Rinaldi-et-al_ES&T2021_wind-solar-CA-storage-integration(w Supp).pdf",
@@ -905,7 +955,6 @@
   "Zhang-et-al_GRL2015_time-scales-CO2-forcing.pdf",
   "Zhao-et-al_JGR-A2021_climate-responsive-marine-cloud-ocean-albedo.pdf",
   "Zheng-et-al_ERL2020_Climate-effects-China-improve-air-quality.pdf",
-  "Zheng-et-al_NatureCC2020_aerosols-inequality.pdf",
   "_Full toolbox_ needed to solve the climate change problem _ EurekAlert! Science News.pdf",
   "hoegh-guldberg et al science 2007.pdf",
   "vanGreevenbroek-et-al_arXiv2026_health-climate-food.pdf"

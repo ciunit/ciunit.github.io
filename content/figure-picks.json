@@ -53,6 +53,15 @@
       "top": 0.032
     }
   },
+  "chen-2026-land-costs-solar": {
+    "page": 4,
+    "rect": [
+      41,
+      332,
+      544,
+      658
+    ]
+  },
   "davis-2010-committed-emissions": 2,
   "davis-2010-consumption-based-accounting": 4,
   "davis-2011-supply-chain-emissions": {

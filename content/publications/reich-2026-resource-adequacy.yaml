@@ -1,0 +1,88 @@
+id: reich-2026-resource-adequacy
+doi: 10.1088/2753-3751/ae947d
+title: >
+  Cost-effective approaches to maintaining resource adequacy in wind and solar electricity
+  systems over decades of weather variability
+authors:
+  - Natasha D. Reich
+  - Tyler H. Ruggles
+  - Edgar Virgüez
+  - Jacqueline A. Dowling
+  - Ken Caldeira
+  - Nathan S. Lewis
+journal: "Environmental Research: Energy"
+date: "2026-08-04"
+year: 2026
+themes:
+  - wind-and-solar-reliability
+  - macro-energy-modeling
+
+description: >
+  A system planned on a few years of weather and then run for decades needs extra capacity to
+  stay reliable, and spending on generation and storage together beats spending on either alone
+  — with wind additions able to close the gap on their own and solar additions often unable to.
+
+question:
+  - >
+    Capacity expansion models pick generation and storage by optimizing against a limited number
+    of historical weather years. The system they design then has to operate for decades, through
+    weather the optimization never saw.
+  - >
+    That leaves a gap between the capacity a short optimization specifies and the capacity
+    long-run reliability actually requires. This paper asked how large the gap is, and — given a
+    fixed budget to close it — what to spend it on.
+
+key_finding: >
+  For systems planned on a short weather record and then operated across decades of real
+  variability, coordinated spending across both additional storage and additional generation
+  improved resource adequacy more than spending the same amount on either category alone;
+  wind-only additions reached adequacy standards whatever storage was available, while solar-only
+  additions often could not without enough storage to cover the night.
+
+findings:
+  - >
+    The analysis uses a stylized single-node macro-scale energy model of the contiguous United
+    States: plan the system on a limited weather period, then operate it across decades of
+    weather-derived variability and measure how much extra capacity is needed to hold resource
+    adequacy.
+  - >
+    Splitting a fixed budget across both storage and generation outperformed concentrating it in
+    one category. The two shortfalls a long record exposes — too little energy and too little
+    capacity at the wrong moment — are not addressed by the same asset.
+  - >
+    Where spending had to go to one category, wind was the one that worked. Additional wind
+    generation alone could reach resource adequacy standards for the operational period
+    regardless of which storage technologies were available.
+  - >
+    Additional solar alone frequently could not, because solar contributes nothing overnight and
+    so cannot substitute for storage in the hours where adequacy actually fails.
+  - >
+    The implication for planning is that both wind generation and storage capacity need to be
+    expanded beyond whatever a short-horizon optimization specifies — the short optimization
+    systematically under-builds both.
+  - >
+    The authors argue current adequacy standards need revisiting. A criterion such as NERC's
+    one-hour-in-a-decade loss-of-load expectation is not framed around extreme events, and they
+    suggest treating deep multi-day wind droughts the way flood planning treats a
+    once-in-a-century flood.
+
+matters:
+  - >
+    It turns a known modelling limitation into a design rule. That short optimizations
+    under-specify capacity was already understood; this says which assets to buy with a limited
+    budget to fix it, which is the question a planner actually faces.
+  - >
+    The asymmetry between wind and solar is the practical core. They are usually discussed
+    together as variable renewables, but for closing a reliability gap they are not
+    interchangeable — solar cannot cover the hours where adequacy fails, so it needs storage
+    alongside it in a way wind does not.
+  - >
+    Framing the binding case as a once-in-a-century wind drought rather than an hours-per-decade
+    average changes what a reliability standard is even measuring, and standards written the old
+    way may pass systems that would fail on a rare deep event.
+
+related:
+  - ruggles-2024-planning-reliable-systems
+  - antonini-2024-wind-droughts
+  - tong-2021-geophysical-constraints
+  - dowling-2020-long-duration-storage

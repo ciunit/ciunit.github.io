@@ -9,7 +9,8 @@
     "10.1016/0012-821x(93)90026-6",
     "10.1016/j.adapen.2025.100252",
     "10.1038/s43247-024-01976-6",
-    "10.1038/s43247-025-02579-5"
+    "10.1038/s43247-025-02579-5",
+    "10.1073/pnas.2512930123"
   ],
   "_no_derivatives_note": "DOIs under a no-derivatives Creative Commons licence, committed here so scripts/rebuild_figures.py does not depend on the gitignored content/survey-cache.json to find them. Covers are unaffected: they rest on author reuse rights, not on the CC licence.",
   "picks": {
@@ -42,6 +43,7 @@
     "cao-2015-fast-slow-responses": 1,
     "carlino-2025-technology-learning-rates": 1,
     "chen-2020-migration-incentive": 1,
+    "chen-2026-land-costs-solar": 1,
     "davis-2010-committed-emissions": {
       "page": 2,
       "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"

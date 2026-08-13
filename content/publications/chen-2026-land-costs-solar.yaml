@@ -1,0 +1,116 @@
+id: chen-2026-land-costs-solar
+doi: 10.1073/pnas.2512930123
+title: >
+  The effect of land costs on the economic and sustainability performance of solar photovoltaics
+  in China
+authors:
+  - Shi Chen
+  - Xi Lu
+  - Jiming Hao
+  - Edgar Virgüez
+  - Ken Caldeira
+  - Steven J. Davis
+journal: Proceedings of the National Academy of Sciences
+volume: "123"
+pages: e2512930123
+date: "2026-02-24"
+year: 2026
+themes:
+  - climate-and-energy
+
+description: >
+  Land costs raise the levelized cost of electricity by 20% for sun-tracking solar but only 8%
+  for fixed-tilt, which explains why China uses tracking on just 12% of its solar capacity
+  against 90% in the United States — and means China builds 18 to 26% more panels for the same
+  output.
+
+question:
+  - >
+    Single-axis tracking, which turns panels to follow the sun, raises the electricity a solar
+    installation generates by more than 20%. In United States utility-scale solar it is used on
+    over 90% of capacity. In China, the world's largest solar market and largest emitter, it is
+    used on 12%.
+  - >
+    That divergence is usually read as a technology lag. This paper asked whether it is instead
+    a rational response to different conditions — specifically, whether the price of land changes
+    which technology is actually cheaper — and what the consequences are for how much silicon and
+    how much land China's solar build-out consumes.
+
+key_finding: >
+  Because tracking systems need substantially more land per unit of capacity, land costs raise
+  their levelized cost of electricity by 20% against 8% for fixed-tilt, making fixed-tilt
+  cheaper in real Chinese conditions despite generating less — so China installs 18 to 26% more
+  panels for the same electricity output.
+
+findings:
+  - >
+    A spatially explicit model comparing the two technologies across China evaluates generation,
+    land use, cost, sustainability, and resilience to policy change together, rather than
+    comparing them on generation alone.
+  - >
+    Tracking does generate more. Capacity factors reach 21.4% against 16.6 and 17.4% for
+    fixed-tilt, roughly 20% more electricity, concentrated in the morning and afternoon hours
+    that fixed-tilt captures poorly.
+  - >
+    It also occupies much more ground — 24.8% more land than fixed-tilt in the Northwest, Tibet,
+    North China, and the Northeast, and 18.8% more elsewhere. Where land is expensive, that
+    footprint is what decides the comparison.
+  - >
+    The result is a reversal. Land costs add 20% to the levelized cost of tracking electricity
+    but only 8% to fixed-tilt, so the technically less efficient option is the cheaper one under
+    real Chinese land prices.
+  - >
+    Choosing fixed-tilt trades land for materials. Matching tracking's output takes 18 to 26%
+    more panels, raising the silicon, glass, and aluminium demand of the same amount of
+    electricity.
+  - >
+    Scaled to a 6 petawatt-hour solar target for 2060, current land policies drive 59% of solar
+    electricity to fixed-tilt.
+  - >
+    Policy can move it. Reducing the soft costs of land would raise tracking's share to 63% and
+    cut required installed capacity by up to 8%, or 219 gigawatts, for the same electricity —
+    while expanding land use by 35%, or 12,900 square kilometres.
+
+matters:
+  - >
+    It reframes a gap that looks like backwardness as a difference in constraints. China is not
+    failing to adopt tracking; tracking is not the cheaper option where land is priced the way it
+    is in China, and a recommendation to adopt it imported from United States conditions would be
+    wrong.
+  - >
+    The trade-off it exposes has no free side. Land-efficient solar costs more silicon; material-
+    efficient solar costs more land. Which to prefer depends on which constraint binds locally,
+    so there is no globally correct technology choice — only a context-specific one.
+  - >
+    It also identifies a lever that is not technological. Soft land costs are an administrative
+    quantity, and changing them shifts hundreds of gigawatts of capacity and thousands of square
+    kilometres of land use without any change in the underlying hardware.
+
+figure:
+  file: chen-2026-land-costs-solar.png
+  source_figure: Figure 3
+  alt: >
+    Six maps of China in two rows, shaded by the difference in solar electricity cost between
+    tracking and fixed-tilt systems, purple where single-axis tracking is cheaper and green
+    where fixed-tilt is cheaper. The top row holds land cost at status quo while technology
+    cost falls from left to right; the bottom row repeats it with reducing land cost. Panel A
+    also overlays the locations of real fixed-tilt and tracking installations as green and pink
+    dots. Green spreads across eastern and northern China in the top row, while the bottom row
+    is dominated by purple across the north and west.
+  caption: >
+    Which technology is cheaper is a map, not a number. Holding land costs at today's levels
+    (top row) leaves fixed-tilt ahead across much of eastern and northern China; letting land
+    costs fall (bottom row) turns most of the country over to tracking. The dots in panel A show
+    that real installations follow the pattern — tracking where land is cheap, fixed-tilt where
+    it is not.
+  source: PDF (600 dpi)
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  credit: >
+    Chen et al. (2026), Proceedings of the National Academy of Sciences 123, e2512930123
+  modification: Used unmodified, as the licence requires
+
+related:
+  - antonini-2021-power-density-limits
+  - duan-2024-cost-uncertainty
+  - hoffert-2002-advanced-technology-paths
