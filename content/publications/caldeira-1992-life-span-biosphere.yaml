@@ -1,0 +1,71 @@
+id: caldeira-1992-life-span-biosphere
+doi: 10.1038/360721a0
+title: >
+  The life span of the biosphere revisited
+authors:
+  - Ken Caldeira
+  - James F. Kasting
+journal: Nature
+volume: "360"
+pages: 721-723
+date: "1992-12"
+year: 1992
+themes:
+  - climate-and-carbon-cycle
+  - paleoclimate
+
+description: >
+  Earlier work put the end of the biosphere about 100 million years away, when falling CO2 would
+  starve C3 photosynthesis; allowing for C4 plants, which persist below 10 ppm, extends it to at
+  least 0.9 to 1.5 billion years.
+
+question:
+  - >
+    As the Sun brightens, silicate rocks weather more readily, drawing carbon dioxide out of the
+    atmosphere. That feedback stabilises Earth's temperature, but it also means carbon dioxide
+    falls over geological time — eventually below what plants need.
+  - >
+    Lovelock and Whitfield had put that limit about 100 million years away, when carbon dioxide
+    drops below the 150 parts per million required for C3 photosynthesis. This paper re-examined
+    the calculation with a better model.
+
+key_finding: >
+  Because C4 photosynthesis can persist at atmospheric CO2 below 10 parts per million, a
+  C4-plant-based biosphere could survive at least another 0.9 to 1.5 billion years — depending on
+  whether carbon dioxide or temperature becomes the limiting factor — rather than the roughly 100
+  million years implied by a C3 limit.
+
+findings:
+  - >
+    Three improvements drive the difference: a more accurate treatment of the greenhouse effect of
+    carbon dioxide, a biologically mediated weathering parameterization, and the recognition that
+    C4 photosynthesis operates far below the C3 threshold.
+  - >
+    Whether the limit is 0.9 or 1.5 billion years depends on which constraint binds first —
+    carbon dioxide starvation or rising temperature.
+  - >
+    Within about a further billion years beyond that, Earth may lose its water to space through
+    photodissociation and hydrogen escape, following the path of Venus. That loss would end the
+    biosphere unambiguously.
+  - >
+    The model is constructed to give a *minimum* estimate: it maximises both the greenhouse
+    effect and stratospheric water loss, and takes conservative temperature and carbon
+    requirements for the biosphere.
+
+matters:
+  - >
+    It changes the answer to how long Earth remains habitable by roughly an order of magnitude,
+    and does so by attending to plant biochemistry rather than to planetary physics.
+  - >
+    The bearing on astrobiology is direct, as the paper notes: a habitable period measured in
+    billions rather than hundreds of millions of years changes the odds of finding
+    biologically active planets elsewhere.
+  - >
+    It is also an early demonstration that the carbonate-silicate thermostat has a termination
+    condition. The feedback that keeps Earth temperate is the same one that will eventually
+    starve its biosphere of carbon.
+
+related:
+  - pagani-2009-terrestrial-plants-co2
+  - ridgwell-2003-carbonate-climate-stability
+  - caldeira-1992-cenozoic-weathering

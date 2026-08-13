@@ -65,13 +65,17 @@
     "Bala_et_al_ClimDyn2009.pdf",
     "Bala_et_al_ClimDyn2010.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "bala-2010-fast-versus-slow",
+   "has_figure": false
   },
   "10.1007/s00382-010-0868-1": {
    "files": [
     "Bala-et-al_ClimDyn2011_marine-cloud-albedo.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "bala-2011-marine-cloud-albedo",
+   "has_figure": false
   },
   "10.1073/pnas.0608998104": {
    "files": [
@@ -91,7 +95,9 @@
     "Bala_et_al_JClim2005.pdf",
     "Bala_etal_JClim2005.pdf"
    ],
-   "how": "title match"
+   "how": "title match",
+   "id": "bala-2005-multicentury-fossil-fuel",
+   "has_figure": false
   },
   "10.1088/1748-9326/5/3/034009": {
    "files": [
@@ -131,7 +137,9 @@
     "Caldeira-Kasting_Nature1992_life-span-revisited.pdf",
     "Caldeira-Kasting_Nature1992_lifespan-revisited.pdf"
    ],
-   "how": "filename"
+   "how": "filename",
+   "id": "caldeira-1992-life-span-biosphere",
+   "has_figure": false
   },
   "10.1038/366251a0": {
    "files": [
@@ -162,7 +170,9 @@
    "files": [
     "Caldeira-Wickett_Nature2003_ocean-acidification.pdf"
    ],
-   "how": "filename"
+   "how": "filename",
+   "id": "caldeira-2003-ocean-ph",
+   "has_figure": false
   },
   "10.1146/annurev-earth-042711-105548": {
    "files": [
@@ -174,8 +184,7 @@
   },
   "10.1088/1748-9326/acf949": {
    "files": [
-    "Caldeira-et-al_ERL2023_green-premium(w Supp).pdf",
-    "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf"
+    "Caldeira-et-al_ERL2023_green-premium(w Supp).pdf"
    ],
    "how": "metadata",
    "id": "caldeira-2023-green-premium",
@@ -195,13 +204,17 @@
     "Caldeira_Nature1989_evo-pressure-planktonic-sulfur.pdf",
     "Caldeira_Nature1989_planktonic-sulphur.pdf"
    ],
-   "how": "filename"
+   "how": "filename",
+   "id": "caldeira-1989-planktonic-sulphur",
+   "has_figure": false
   },
   "10.1038/357578a0": {
    "files": [
     "Caldeira_Nature1992_subduction-pelagic-carbonate.pdf"
    ],
-   "how": "filename"
+   "how": "filename",
+   "id": "caldeira-1992-cenozoic-weathering",
+   "has_figure": false
   },
   "10.1088/1748-9326/7/3/034015": {
    "files": [
@@ -217,7 +230,9 @@
    "files": [
     "Cao-et-al_GRL2017_cocktail-geoengineering.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "cao-2017-cocktail-geoengineering",
+   "has_figure": true
   },
   "10.1002/2015jd023901": {
    "files": [
@@ -240,7 +255,9 @@
     "Cao_et_al_PNAS2010.pdf",
     "Cao_et_al_PNAS2010_CO2-physiological-forcing.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "cao-2010-physiological-forcing",
+   "has_figure": false
   },
   "10.1016/j.adapen.2025.100252": {
    "files": [
@@ -272,7 +289,18 @@
    "files": [
     "Cheng-et-al_NatureCC2025_trade-risks-net-zero-emissions (w Supp & Samaras N&V).pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "cheng-2025-trade-risks-energy-security",
+   "has_figure": true
+  },
+  "10.1016/j.apenergy.2024.124054": {
+   "files": [
+    "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf",
+    "Covelli-et-al_AppliedEnergy2024_Oahu-case-study(w supp).pdf"
+   ],
+   "how": "metadata",
+   "id": "covelli-2024-oahu-island-system",
+   "has_figure": true
   },
   "10.1002/lol2.70155": {
    "files": [
@@ -290,6 +318,15 @@
    ],
    "how": "page text",
    "id": "davis-2010-consumption-based-accounting",
+   "has_figure": true
+  },
+  "10.1038/s41893-023-01241-2": {
+   "files": [
+    "Davis-et-al_NatureSus2023_food-without-agriculture (w Supp).pdf",
+    "Davis-et-al_NatureSust2023_food-without-agriculture.pdf"
+   ],
+   "how": "metadata",
+   "id": "davis-2023-food-without-agriculture",
    "has_figure": true
   },
   "10.1073/pnas.1107409108": {
@@ -319,12 +356,31 @@
    "id": "davis-2018-net-zero-energy-systems",
    "has_figure": false
   },
+  "10.1088/2753-3751/ad58e5": {
+   "files": [
+    "Dowling-et-al_ERE2024_opportunities-constraints-h2-storage.pdf",
+    "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf",
+    "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf"
+   ],
+   "how": "metadata",
+   "id": "dowling-2024-hydrogen-storage-systems",
+   "has_figure": true
+  },
   "10.1016/j.joule.2020.07.007": {
    "files": [
     "Dowling-et-al_Joule2020_long-duration-storage(w Supp).pdf"
    ],
    "how": "metadata",
    "id": "dowling-2020-long-duration-storage",
+   "has_figure": true
+  },
+  "10.5194/acp-23-6011-2023": {
+   "files": [
+    "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf",
+    "Duan-Caldeira_AtmosChemPhys2023_comment-ocko-hamburg.pdf"
+   ],
+   "how": "page text",
+   "id": "duan-2023-hydrogen-emissions-comment",
    "has_figure": true
   },
   "10.1088/1748-9326/ad6018": {
@@ -373,7 +429,9 @@
    "files": [
     "Duan-et-al_JGRAtm2018_fast-slow-three-geo-schemes.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "duan-2018-fast-slow-geoengineering",
+   "has_figure": true
   },
   "10.1038/s41560-022-00979-x": {
    "files": [
@@ -389,14 +447,16 @@
    ],
    "how": "page text",
    "id": "ganter-2025-curtailed-power-hydrogen",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1016/s0921-8181(02)00195-9": {
    "files": [
     "Govindasamy_etal_2003.pdf",
     "Govindasamy_etal_GPC2003.pdf"
    ],
-   "how": "title match"
+   "how": "title match",
+   "id": "govindasamy-2003-quadrupled-co2",
+   "has_figure": false
   },
   "10.1023/a:1024801618900": {
    "files": [
@@ -419,17 +479,29 @@
    "id": "hoffert-2002-advanced-technology-paths",
    "has_figure": true
   },
+  "10.1029/2024ef004891": {
+   "files": [
+    "Jayakrishnan-et-al_EarthsFutrue2024_net-zero-magnitude-duration-positive-negative-pulses.pdf"
+   ],
+   "how": "page text",
+   "id": "jayakrishnan-2024-net-zero-pathways",
+   "has_figure": true
+  },
   "10.1088/1748-9326/ac69fd": {
    "files": [
     "Jayakrishnan_2022_Environ._Res._Lett._17_064020.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "jayakrishnan-2022-fossil-vs-deforestation",
+   "has_figure": true
   },
   "10.5194/esd-10-885-2019": {
    "files": [
     "Krishnamohan-et-al_ESD2019_sensitivity-altitude-aerosol-layer.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "krishnamohan-2019-aerosol-altitude",
+   "has_figure": true
   },
   "10.1021/acs.est.3c10188": {
    "files": [
@@ -530,7 +602,7 @@
    ],
    "how": "metadata",
    "id": "rampino-2025-sequence-stage-boundaries",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1093/mnras/stv2088": {
    "files": [
@@ -538,6 +610,23 @@
    ],
    "how": "page text",
    "id": "rampino-2015-impact-cratering-periodicity",
+   "has_figure": true
+  },
+  "10.1016/j.earscirev.2023.104548": {
+   "files": [
+    "Rampino-et-al_EarthSciRev2023_cycles-32.5My-26.2My-over-the-last-260My.pdf"
+   ],
+   "how": "metadata",
+   "id": "rampino-2023-geologic-astronomical-cycles",
+   "has_figure": true
+  },
+  "10.1016/j.gloplacha.2024.104369": {
+   "files": [
+    "Rampino-et-al_GlobPlanChg2024_16-mass-extinction-15-LIPs-4-impacts.pdf",
+    "Rampino-et-al_GlobPlanetChg2024_mass-extinctions-541My.pdf"
+   ],
+   "how": "metadata",
+   "id": "rampino-2024-extinctions-igneous-provinces",
    "has_figure": true
   },
   "10.1088/2753-3751/ae947d": {
@@ -579,7 +668,9 @@
     "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences(w Supp).pdf",
     "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "roose-2023-monsoon-aerosol-asymmetry",
+   "has_figure": true
   },
   "10.1002/2016gl070907": {
    "files": [
@@ -598,6 +689,14 @@
    "id": "ruggles-2024-planning-reliable-systems",
    "has_figure": true
   },
+  "10.1088/1748-9326/acfc59": {
+   "files": [
+    "Schmitt-et-al_ERL203_move-up-or-move-over.pdf"
+   ],
+   "how": "metadata",
+   "id": "schmitt-2023-indus-flood-adaptation",
+   "has_figure": true
+  },
   "10.1039/c7ee03029k": {
    "files": [
     "Shaner-et-al_E_ES2018_geophys-reliability-wind-solar.pdf",
@@ -611,13 +710,26 @@
    "files": [
     "Shayegh-et-al_ERL2016_adapting-to-rates.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "shayegh-2016-adapting-to-rates",
+   "has_figure": false
   },
   "10.1016/j.enpol.2017.05.029": {
    "files": [
     "Shayegh-et-al_EnergyPolicy2017_learning-curves-energy-R_D.pdf"
    ],
-   "how": "metadata"
+   "how": "metadata",
+   "id": "shayegh-2017-clean-energy-rd",
+   "has_figure": false
+  },
+  "10.1038/s41467-023-41107-x": {
+   "files": [
+    "Tonelli-et-al_NatureComm2023_land-water-limits-electrolytic-H2.pdf",
+    "Tonelli-et-al_NatureComm2023_land-water-limits-h2-prod-wind-solar.pdf"
+   ],
+   "how": "metadata",
+   "id": "tonelli-2023-hydrogen-land-water-limits",
+   "has_figure": true
   },
   "10.1038/s41586-019-1364-3": {
    "files": [
@@ -647,7 +759,9 @@
    "files": [
     "Wang-et-al_ERL2017_carbon-tax-incentive-to-continue-emissions.pdf"
    ],
-   "how": "page text"
+   "how": "page text",
+   "id": "wang-2017-carbon-tax-incentive",
+   "has_figure": false
   },
   "10.1016/j.joule.2019.07.024": {
    "files": [
@@ -663,6 +777,15 @@
    ],
    "how": "page text",
    "id": "winkelmann-2015-antarctic-ice-sheet",
+   "has_figure": true
+  },
+  "10.32866/001c.90391": {
+   "files": [
+    "Wongel-Caldeira_EnergyFindings2023_broad-range-technologies.pdf",
+    "Wongle-Caldeira_EnergyFindings2023_broad-range-of-technologies.pdf"
+   ],
+   "how": "page text",
+   "id": "wongel-2023-firming-technologies",
    "has_figure": true
   },
   "10.1088/2753-3751/ae4eea": {
@@ -809,24 +932,16 @@
   "Casey-et-al_ERL2019_climate-fertility.pdf",
   "Ciais-et-al_NatureCC2013_attributing-co2-emitters-absorbers.pdf",
   "Clack-et-al_PNAS2017_evaluation-wind-water-solar.pdf",
-  "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf",
-  "Covelli-et-al_AppliedEnergy2024_Oahu-case-study(w supp).pdf",
   "Covey_etal_GPC2005.pdf",
   "Cvijanovic-Caldeira_ClimDyn2015_atm-impact-sea-ice-decline-CO2-warming.pdf",
   "Cvijanovic-et-al_ERL2015_sea-ice-restoration.pdf",
   "Cyronak-et-al_PLOS2018_metabolic-pulse-coral-reefs.pdf",
   "Davis-et-al_ERL2013_rethinking-wedges.pdf",
-  "Davis-et-al_NatureSus2023_food-without-agriculture (w Supp).pdf",
-  "Davis-et-al_NatureSust2023_food-without-agriculture.pdf",
   "Dioha-et-al_IS&T2022_Fixing-the-Disconnect-Around-Energy-Access.pdf",
   "Dioha-et-al_iScience2022_EVs-Nigerian-case-study.pdf",
   "Dioha-et-al_iScience2022_unidirectional-vs-bidirectional-EVs.pdf",
   "Dioha_ERL2022_guiding-deployment-EVs-developing-world.pdf",
   "Doney_etal_GBC2004.pdf",
-  "Dowling-et-al_ERE2024_opportunities-constraints-h2-storage.pdf",
-  "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf",
-  "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf",
-  "Duan-Caldeira_AtmosChemPhys2023_comment-ocko-hamburg.pdf",
   "Duan-et-al_GRL2019_pulse-vs-sustained.pdf",
   "Duan-et-al_JGRA202_four-radiation-modification-approaches.pdf",
   "Duan-et-al_JGRAtm2019_climate-sensitivity-ice-snow.pdf",
@@ -877,7 +992,6 @@
   "Irvine-et-al_EarthArXiv2021_Solar-geo-research-priorities.pdf",
   "Jackson-et-al_ERL2008_protecting-climate-forests.pdf",
   "Jackson_et_al_ERL2008.pdf",
-  "Jayakrishnan-et-al_EarthsFutrue2024_net-zero-magnitude-duration-positive-negative-pulses.pdf",
   "Kennedy-et-al_ApplEnergy2022_CSP-with-TES.pdf",
   "Kerrick-et-al_ChemGeol1995_convective-hydro-CO2-high-heat-flow-regions.pdf",
   "Kerrick_Caldeira_ChemGeol1998.pdf",
@@ -941,10 +1055,7 @@
   "Rampino-Caldeira_GeosciFrontiers2017_correlations-250-Myr.pdf",
   "Rampino-Caldeira_IntJEarthScie2018_Comparison-of-the-ages-260-million-years.pdf",
   "Rampino-Caldeira_Science2011_comment.pdf",
-  "Rampino-et-al_EarthSciRev2023_cycles-32.5My-26.2My-over-the-last-260My.pdf",
   "Rampino-et-al_GeolSocSpecPap542-2019_what-causes-mass-extinctions.pdf",
-  "Rampino-et-al_GlobPlanChg2024_16-mass-extinction-15-LIPs-4-impacts.pdf",
-  "Rampino-et-al_GlobPlanetChg2024_mass-extinctions-541My.pdf",
   "Rampino_Caldeira_Tellus2005.pdf",
   "Rampino_Caldeira_TerraNova2005.pdf",
   "Randerson_etal_GBC2002.pdf",
@@ -971,7 +1082,6 @@
   "Ruggles-et-al_AppEnergy2021_hydrogen-prod-curtailed-gen.pdf",
   "Ruggles-et-al_ScieData2020_electricity-demand-data-imputation.pdf",
   "Russell_et_al_Ambio2012.pdf",
-  "Schmitt-et-al_ERL203_move-up-or-move-over.pdf",
   "Schneider-et-al_EstuarineCoastalShelfScience2013_inorganic-C-turnover-holothorians.pdf",
   "Schwartzman-et-al_Astrobiology2008_cyanobacterial-emergence.pdf",
   "Shearer-et-al_ERL2016_expert-consensus-spraying.pdf",
@@ -984,16 +1094,12 @@
   "Teller_etal_LLNL231636_1997(2).pdf",
   "Teller_etal_LLNL244671_2002.pdf",
   "Thompson_etal_GRL2004.pdf",
-  "Tonelli-et-al_NatureComm2023_land-water-limits-electrolytic-H2.pdf",
-  "Tonelli-et-al_NatureComm2023_land-water-limits-h2-prod-wind-solar.pdf",
   "Walker-Kasting_GlobPlanetChg1992--ff-forest-future-co2.pdf",
   "Wickett_etal_JGRO2003.pdf",
   "Wigley_et_al_IST2003.pdf",
   "Wilibanks_et_al_sap2-2-final-chapter6_2007.pdf",
   "WindPaper-2.pdf",
-  "Wongel-Caldeira_EnergyFindings2023_broad-range-technologies.pdf",
   "Wongel-et-al_EnergyFindings2025_thermal-energy-in-dirt (w Supp).pdf",
-  "Wongle-Caldeira_EnergyFindings2023_broad-range-of-technologies.pdf",
   "Yuan-et-al_AppliedEnergy2020_facilitate-or-deter.pdf",
   "Zeebe_Caldeira_NatureGeo2008.pdf",
   "Zeebe_Caldeira_NatureGeo2008_carbon-mass-balance.pdf",

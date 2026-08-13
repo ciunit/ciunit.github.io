@@ -1,0 +1,95 @@
+id: tonelli-2023-hydrogen-land-water-limits
+doi: 10.1038/s41467-023-41107-x
+title: >
+  Global land and water limits to electrolytic hydrogen production using wind and solar resources
+authors:
+  - Davide Tonelli
+  - Lorenzo Rosa
+  - Paolo Gabrielli
+  - Ken Caldeira
+  - Alessandro Parente
+  - Francesco Contino
+journal: Nature Communications
+volume: "14"
+pages: "5532"
+date: "2023-09-08"
+year: 2023
+themes:
+  - climate-and-energy
+
+description: >
+  Depending on how much land is given over to solar panels and wind turbines, less than half of
+  the world's projected 2050 hydrogen demand could be produced domestically without running into
+  land or water scarcity.
+
+question:
+  - >
+    Net-zero plans lean on a large scale-up of electrolytic hydrogen. Making it takes electricity,
+    which takes land for panels and turbines, and it takes freshwater as feedstock — both of which
+    are already contested in many countries.
+  - >
+    This paper asked which countries could actually produce their own hydrogen within their own
+    land and water endowments, and which would have to import.
+
+key_finding: >
+  Setting a country-by-country 2050 hydrogen demand against national land and water availability,
+  less than 50% of that demand could be met by local production without land or water scarcity —
+  the exact share depending on how much land is allocated to solar panels or wind turbines.
+
+findings:
+  - >
+    A reference scenario for 2050 hydrogen demand is built country by country, then compared
+    against each country's land and water availability rather than against a global total.
+  - >
+    The headline share is sensitive to a policy choice, not just to geography: how much land a
+    country is willing to allocate to solar or wind determines how much of its hydrogen it can
+    make at home.
+  - >
+    The analysis identifies which countries are constrained by their own natural resources from
+    reaching electrolytic hydrogen self-sufficiency under a net-zero target.
+  - >
+    Land and water abundance marks out the likely exporters — Southern and Central-East Africa,
+    West Africa, South America, Canada and Australia.
+  - >
+    The same result can be read as trade in industry rather than in hydrogen. A country short of
+    land and water can import the hydrogen, or it can export the industries that would have
+    consumed it.
+
+matters:
+  - >
+    It converts hydrogen from an energy question into a land and water question. Electrolysis is
+    usually costed in dollars per kilogram; this shows the binding constraint for many countries
+    is physical endowment, which no cost reduction relieves.
+  - >
+    The "import hydrogen or export the industry" framing is the consequential one. It means the
+    geography of heavy industry is at stake in how the hydrogen economy is built, not merely the
+    geography of fuel supply.
+  - >
+    It also names a new set of resource exporters that does not map onto today's energy
+    exporters, which has the same strategic implications as the shift from fuels to materials.
+
+figure:
+  file: tonelli-2023-hydrogen-land-water-limits.webp
+  source_figure: Figure 6
+  alt: >
+    Six world maps in two rows and three columns, categorising each country as having no
+    scarcity in green, land scarcity in yellow, water scarcity in blue, or both in red, from
+    producing its projected 2050 hydrogen demand. The top row assumes solar and the bottom wind,
+    and the columns assume 100%, 10% and 5% of suitable land is available. At 100% coverage most
+    countries are green; by 5% much of Europe, South and East Asia turns yellow or red.
+  caption: >
+    How much of a country turns red depends less on its hydrogen demand than on how much land it
+    is willing to give over. Africa, South America, Canada and Australia stay green across every
+    column — which is what makes them the likely hydrogen exporters — while Europe and South Asia
+    run into land and water limits as soon as the land allocation is realistic.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Tonelli et al. (2023), Nature Communications 14, 5532
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - ganter-2025-curtailed-power-hydrogen
+  - dowling-2024-hydrogen-storage-systems
+  - cheng-2025-trade-risks-energy-security

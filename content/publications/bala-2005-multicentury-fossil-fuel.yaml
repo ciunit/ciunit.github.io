@@ -1,0 +1,90 @@
+id: bala-2005-multicentury-fossil-fuel
+doi: 10.1175/JCLI3542.1
+title: >
+  Multicentury changes to the global climate and carbon cycle: results from a coupled climate and
+  carbon cycle model
+authors:
+  - Govindasamy Bala
+  - Ken Caldeira
+  - Arthur Mirin
+  - Michael Wickett
+  - Christine Delire
+journal: Journal of Climate
+volume: "18"
+pages: 4531-4544
+date: "2005-11-01"
+year: 2005
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Burning all currently estimated fossil fuel resources warms the world about 8 K by 2300 and
+  takes atmospheric CO2 to 1,423 ppmv, with nearly half of cumulative emissions still in the air
+  at that date.
+
+question:
+  - >
+    Emission scenarios normally run to 2100 and stop well short of the resource. That leaves open
+    a simpler question: what if all the fossil carbon currently estimated to be recoverable were
+    actually burned?
+  - >
+    Answering it requires a model in which climate and the carbon cycle affect each other, since
+    over centuries the land and ocean sinks respond to the warming they are helping to cause.
+    This paper ran that case out to 2300.
+
+key_finding: >
+  Releasing the CO2 from all currently estimated fossil fuel resources warms global climate by
+  about 8 K by the year 2300 and raises atmospheric CO2 to 1,423 ppmv, with emissions peaking
+  above 30 petagrams of carbon per year early in the twenty-second century and nearly 50% of
+  cumulative emissions still remaining in the atmosphere at 2300.
+
+findings:
+  - >
+    The warming is larger than a fixed sensitivity would predict, because the model's sensitivity
+    to radiative forcing increases as the simulation progresses.
+  - >
+    Nearly half of everything emitted is still airborne in 2300, so the sinks do not catch up
+    within the period even though they keep working.
+  - >
+    Both soils and living biomass remain net carbon sinks throughout — the land biosphere does
+    not flip to a source in this model.
+  - >
+    That makes the result conservative in two respects at once. The model has relatively low
+    climate sensitivity and strong land carbon uptake, and it still produces about 8 K.
+
+matters:
+  - >
+    It gives the fossil resource an upper bound expressed as a temperature. Reserves are normally
+    quoted in tonnes or barrels; this converts the whole recoverable estimate into the climate it
+    would produce.
+  - >
+    The rising sensitivity is the uncomfortable detail. It means the damage per tonne is not
+    constant along the path — the later tonnes do more than the early ones, which is the opposite
+    of the intuition behind a fixed carbon price.
+  - >
+    Because the model is favourable on both sensitivity and land uptake, the 8 K is better read
+    as a floor for that scenario than as a central estimate.
+
+figure:
+  file: bala-2005-multicentury-fossil-fuel.webp
+  source_figure: Figure 7
+  alt: >
+    A line plot of carbon in gigatonnes, 0 to over 5,000, against year from 1900 to 2300. A black
+    curve for cumulative emissions rises steeply through the twenty-second century and levels
+    near 5,400. Below it, a red curve for atmospheric increase and a green curve for land uptake
+    both approach about 2,000 to 2,400, while a blue curve for ocean uptake climbs slowly to
+    about 900.
+  caption: >
+    The gap between the black curve and the ones below it is what the sinks fail to take. By 2300
+    the atmospheric increase alone is close to half of everything emitted, with the land doing
+    more of the absorbing than the ocean throughout.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Bala et al. (2005), Journal of Climate 18, 4531-4544
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2003-climate-sensitivity-uncertainty
+  - matthews-2008-near-zero-emissions
+  - winkelmann-2015-antarctic-ice-sheet

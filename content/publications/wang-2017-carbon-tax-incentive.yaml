@@ -1,0 +1,98 @@
+id: wang-2017-carbon-tax-incentive
+doi: 10.1088/1748-9326/aa6e8a
+title: >
+  Will the use of a carbon tax for revenue generation produce an incentive to continue carbon
+  emissions?
+authors:
+  - Rong Wang
+  - Juan Moreno-Cruz
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "12"
+pages: "064001"
+date: "2017-05-01"
+year: 2017
+themes:
+  - climate-and-economics
+
+description: >
+  A carbon tax that succeeds eventually collects nothing, so a government that has come to depend
+  on the revenue acquires a reason to keep emissions going — an incentive that turns perverse
+  around 2085 in the DICE model.
+
+question:
+  - >
+    Integrated assessment models generate an optimal carbon price by maximising social welfare,
+    and typically produce a price that starts low and rises over time. That framing treats the
+    price purely as a lever on emissions.
+  - >
+    But a carbon tax is also a revenue stream, and governments come to rely on revenue. If a
+    rising price is to reach near-zero emissions, it must ultimately collect near-zero revenue.
+    This paper asked at what point raising the tax starts to *reduce* what it collects, and
+    whether that creates an incentive to keep emitting.
+
+key_finding: >
+  In the DICE model under its default configuration, a revenue-generating carbon tax creates a
+  perverse incentive to continue carbon emissions from about the year 2085 — the point beyond
+  which further increases in the tax rate reduce total carbon tax revenue.
+
+findings:
+  - >
+    The mechanism is arithmetic rather than political. Revenue is the tax rate times the emissions
+    taxed, so a policy that succeeds in driving emissions toward zero must drive its own revenue
+    toward zero as well.
+  - >
+    Somewhere on that path lies a maximum, past which a policymaker asked to raise the rate is
+    being asked to accept less money. Before it, the interests of the climate and the treasury
+    coincide; after it, they diverge.
+  - >
+    In DICE that turning point falls around 2085, so the risk is not a concern for the immediate
+    future.
+  - >
+    The timing is sensitive to assumptions — the cost of climate damages and the cost of
+    decarbonizing the energy system both move it.
+  - >
+    The authors present this as a schematic result meant to prompt more comprehensive integrated
+    assessment models to represent a broader spectrum of incentives, not as a forecast of a
+    particular date.
+
+matters:
+  - >
+    It identifies a failure mode built into a policy widely regarded as the clean solution. The
+    carbon tax is usually assessed on whether it sets the right price; this asks what it does to
+    the interests of the institution collecting it.
+  - >
+    The finding is genuinely reassuring in the near term and genuinely uncomfortable in the long
+    term, and both halves matter: there is time, but the problem does not go away by itself, and
+    it arrives precisely when the policy is working.
+  - >
+    It also argues against hypothecating carbon revenue to permanent spending commitments, since
+    that is the mechanism by which a temporary revenue stream becomes a constituency for
+    continued emissions.
+
+figure:
+  file: wang-2017-carbon-tax-incentive.webp
+  source_figure: Figure 1
+  alt: >
+    Four panels from the DICE-2013R model running 2015 to 2250, comparing welfare-maximizing,
+    revenue-maximizing and zero-carbon-tax cases. Panel a shows carbon price, where the
+    welfare-maximizing and revenue-maximizing curves cross at 2085 and the shaded regions are
+    labelled as incentives for higher and then lower carbon prices. Panel b shows emissions,
+    panel c the carbon tax as a percentage of gross output, and panel d the atmospheric
+    temperature increase, with the welfare and revenue curves diverging after 2085 and 2135.
+  caption: >
+    Before 2085 the price that maximises welfare is below the price that maximises revenue, so a
+    revenue-seeking government wants a *higher* carbon price than is optimal. After 2085 the
+    curves cross and the incentive reverses — which is the perverse incentive, arriving precisely
+    when the policy starts to work.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Wang, Moreno-Cruz and Caldeira (2017), Environmental Research Letters 12, 064001
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - brown-2020-break-even-year
+  - caldeira-2023-green-premium
+  - shayegh-2017-clean-energy-rd

@@ -8,6 +8,7 @@
     "10.1002/2015jd023901",
     "10.1016/0012-821x(93)90026-6",
     "10.1016/j.adapen.2025.100252",
+    "10.1029/2024ef004891",
     "10.1038/s43247-024-01976-6",
     "10.1038/s43247-025-02579-5",
     "10.1073/pnas.2512930123"
@@ -20,32 +21,43 @@
     "antonini-2021-power-density-limits": 1,
     "antonini-2021-spatial-constraints": 1,
     "antonini-2024-wind-droughts": 1,
+    "bala-2005-multicentury-fossil-fuel": 1,
     "bala-2007-deforestation": 1,
+    "bala-2010-fast-versus-slow": 1,
+    "bala-2011-marine-cloud-albedo": 1,
     "ban-weiss-2010-optimization": 1,
     "brown-2017-greater-future-warming": 1,
     "brown-2020-break-even-year": {
       "page": 2,
       "note": "IOP download stub on page 1"
     },
+    "caldeira-1989-planktonic-sulphur": 1,
     "caldeira-1990-deccan-volcanism": 1,
+    "caldeira-1992-cenozoic-weathering": 1,
+    "caldeira-1992-life-span-biosphere": 1,
     "caldeira-1993-kt-carbon-cycle": 1,
     "caldeira-2000-southern-ocean": 1,
     "caldeira-2003-climate-sensitivity-uncertainty": {
       "page": 2,
       "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
     },
+    "caldeira-2003-ocean-ph": 1,
     "caldeira-2013-science-of-geoengineering": 1,
     "caldeira-2023-green-premium": 1,
     "caldeira-kasting-1993-warming-potentials": 1,
+    "cao-2010-physiological-forcing": 1,
     "cao-2011-precipitation-co2-forcing": 1,
     "cao-2012-fast-response-days-weeks": {
       "page": 2,
       "note": "IOP download stub on page 1"
     },
     "cao-2015-fast-slow-responses": 1,
+    "cao-2017-cocktail-geoengineering": 1,
     "carlino-2025-technology-learning-rates": 1,
     "chen-2020-migration-incentive": 1,
     "chen-2026-land-costs-solar": 1,
+    "cheng-2025-trade-risks-energy-security": 1,
+    "covelli-2024-oahu-island-system": 1,
     "cyronak-2026-ta-dic-reef-metabolism": 1,
     "davis-2010-committed-emissions": {
       "page": 2,
@@ -54,12 +66,16 @@
     "davis-2010-consumption-based-accounting": 1,
     "davis-2011-supply-chain-emissions": 1,
     "davis-2018-net-zero-energy-systems": 1,
+    "davis-2023-food-without-agriculture": 1,
     "dowling-2020-long-duration-storage": 1,
+    "dowling-2024-hydrogen-storage-systems": 1,
+    "duan-2018-fast-slow-geoengineering": 1,
     "duan-2020-climate-development-goals": {
       "page": 2,
       "note": "IOP download stub on page 1"
     },
     "duan-2022-flexible-nuclear": 1,
+    "duan-2023-hydrogen-emissions-comment": 1,
     "duan-2024-cost-uncertainty": 1,
     "duan-2024-rate-of-warming": {
       "page": 2,
@@ -68,8 +84,15 @@
     "duan-2025-adaptation-abatement": 1,
     "duan-2025-temperature-extremes": 1,
     "ganter-2025-curtailed-power-hydrogen": 1,
+    "govindasamy-2003-quadrupled-co2": 1,
     "herzog-2003-permanence-temporary-storage": 1,
     "hoffert-2002-advanced-technology-paths": 1,
+    "jayakrishnan-2022-fossil-vs-deforestation": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "jayakrishnan-2024-net-zero-pathways": 1,
+    "krishnamohan-2019-aerosol-altitude": 1,
     "li-2024-storage-portfolios": 1,
     "marvel-2013-geophysical-limits-wind": 1,
     "matthews-2007-geoengineering-transient": 1,
@@ -85,6 +108,8 @@
     "praetorius-2018-north-pacific-heat-flux": 1,
     "rampino-1993-geologic-periodicity": 1,
     "rampino-2015-impact-cratering-periodicity": 1,
+    "rampino-2023-geologic-astronomical-cycles": 1,
+    "rampino-2024-extinctions-igneous-provinces": 1,
     "rampino-2025-sequence-stage-boundaries": 1,
     "ricke-2013-coral-reef-risk": {
       "page": 2,
@@ -95,14 +120,27 @@
       "page": 2,
       "note": "Science reprint cover sheet on page 1; the article begins partway down page 2"
     },
+    "roose-2023-monsoon-aerosol-asymmetry": 1,
     "rugenstein-2016-radiative-feedbacks": 1,
     "ruggles-2024-planning-reliable-systems": 1,
+    "schmitt-2023-indus-flood-adaptation": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
     "shaner-2018-us-reliability": 1,
+    "shayegh-2016-adapting-to-rates": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
+    "shayegh-2017-clean-energy-rd": 1,
+    "tonelli-2023-hydrogen-land-water-limits": 1,
     "tong-2019-committed-emissions": 1,
     "tong-2020-storage-cost-reductions": 1,
     "tong-2021-geophysical-constraints": 1,
+    "wang-2017-carbon-tax-incentive": 1,
     "wang-2019-induced-efficiency": 1,
     "winkelmann-2015-antarctic-ice-sheet": 1,
+    "wongel-2023-firming-technologies": 1,
     "wongel-2025-cooling-deficit": {
       "page": 2,
       "note": "IOP download stub on page 1"

@@ -1,0 +1,97 @@
+id: duan-2023-hydrogen-emissions-comment
+doi: 10.5194/acp-23-6011-2023
+title: >
+  Comment on "Climate consequences of hydrogen emissions" by Ocko and Hamburg (2022)
+authors:
+  - Lei Duan
+  - Ken Caldeira
+journal: Atmospheric Chemistry and Physics
+volume: "23"
+pages: 6011-6020
+date: "2023-06-01"
+year: 2023
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Leaked hydrogen warms the climate less than the same quantity of methane, and because it is
+  short-lived its forcing tracks the emission rate rather than the cumulative total — so the
+  Earth cools quickly once hydrogen leakage stops, unlike after CO2.
+
+question:
+  - >
+    Hydrogen is not itself a greenhouse gas but its leakage extends the lifetime of atmospheric
+    methane and so warms indirectly. As hydrogen is proposed as a fossil fuel replacement, how
+    much its leakage would undercut the benefit became an active question.
+  - >
+    This commentary set out to add context to an earlier analysis: to derive the underlying
+    equations explicitly, and to show what hydrogen emissions do to temperature as well as to
+    time-integrated forcing.
+
+key_finding: >
+  For the same quantity of emissions hydrogen has a consistently smaller climate impact than
+  methane, and because it is short-lived its radiative forcing is proportional to the emission
+  *rate* rather than to cumulative emissions — so the Earth cools rapidly once hydrogen emissions
+  cease, whereas after CO2 emissions cease it keeps warming somewhat and stays warm for
+  centuries.
+
+findings:
+  - >
+    The comment works through the derivation of the differential equations describing the
+    radiative forcing of hydrogen emissions, which differ slightly from the equations relied on
+    in earlier studies.
+  - >
+    Where the original paper used a metric based on time-integrated radiative forcing from
+    continuous emissions, this adds temperature and radiative forcing over coming centuries for
+    both unit-pulse and continuous emission scenarios.
+  - >
+    Hydrogen behaves like other short-lived species: continuous emissions produce a forcing
+    proportional to the rate at which they are emitted. Carbon dioxide does not — its forcing
+    tracks cumulative emissions.
+  - >
+    That difference governs what happens when emissions stop. Ending hydrogen leakage cools the
+    Earth rapidly; ending carbon dioxide emissions leaves the planet warming somewhat further and
+    then warm for many centuries.
+  - >
+    The conclusions agree with the paper being commented on. If methane is the feedstock for
+    hydrogen production, near-term consequences depend primarily on methane leakage and only
+    secondarily on hydrogen leakage.
+
+matters:
+  - >
+    It puts hydrogen leakage in its proper category. Treating it like a carbon dioxide problem
+    overstates the commitment, because the forcing is rate-dependent and reversible on a
+    timescale of years rather than centuries.
+  - >
+    That reversibility is an argument about sequencing rather than about safety. A hydrogen
+    system that leaks can be fixed later and the climate effect largely undone, which is not true
+    of the carbon dioxide it displaces.
+  - >
+    It also directs attention where the leverage is. If the hydrogen comes from methane, the
+    methane leakage dominates — so the first thing to fix is upstream of the hydrogen entirely.
+
+figure:
+  file: duan-2023-hydrogen-emissions-comment.webp
+  source_figure: Figure 1
+  alt: >
+    Six panels in two rows and three columns, for methane, hydrogen and carbon dioxide. The top
+    row is radiative forcing and the bottom row global mean temperature response, each over 500
+    years, for a one-kilogram pulse and for continuous emissions over 100 and 500 years. Methane
+    and hydrogen both spike and decay back toward zero within decades; the carbon dioxide panels
+    keep climbing across the whole 500 years.
+  caption: >
+    Read across the row and the difference in kind is obvious. Methane and hydrogen are
+    short-lived — stop emitting and the forcing collapses — while carbon dioxide accumulates and
+    keeps warming for centuries. Hydrogen's curve also sits below methane's throughout, for the
+    same quantity emitted.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Duan and Caldeira (2023), Atmospheric Chemistry and Physics 23, 6011-6020
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - jayakrishnan-2024-net-zero-pathways
+  - matthews-2008-near-zero-emissions
+  - dowling-2024-hydrogen-storage-systems

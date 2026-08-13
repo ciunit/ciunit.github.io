@@ -1,0 +1,99 @@
+id: davis-2023-food-without-agriculture
+doi: 10.1038/s41893-023-01241-2
+title: >
+  Food without agriculture
+authors:
+  - Steven J. Davis
+  - Kathleen Alexander
+  - Juan Moreno-Cruz
+  - Chaopeng Hong
+  - Matthew Shaner
+  - Ken Caldeira
+  - Ian McKay
+journal: Nature Sustainability
+volume: "7"
+pages: 90-95
+date: "2023-11-06"
+year: 2023
+themes:
+  - climate-and-energy
+
+description: >
+  Dietary fats could be synthesized chemically for under 0.8 grams of CO2-equivalent per
+  kilocalorie, against more than 1.5 grams for palm oil grown in Brazil or Indonesia — food made
+  without farming, at less than half the emissions.
+
+question:
+  - >
+    Making food systems more sustainable is almost always framed as making agriculture less
+    damaging: less land, less water, fewer emissions per tonne. The alternative — producing food
+    by chemical or biological synthesis, with no farm at all — has attracted comparatively little
+    attention or money.
+  - >
+    This paper asked whether that alternative is quantitatively serious for at least one class of
+    food, and what the emissions, land and water consequences would be.
+
+key_finding: >
+  Dietary fats can be synthesized chemically at under 0.8 grams of CO2-equivalent per kilocalorie,
+  well below the more than 1.5 grams per kilocalorie now emitted producing palm oil in Brazil or
+  Indonesia — and with large reductions in land and water use besides.
+
+findings:
+  - >
+    The analysis targets fats specifically, because they are chemically simple enough to
+    synthesize at scale and because they are a large share of dietary calories.
+  - >
+    Synthesis comes in below 0.8 grams of CO2-equivalent per kilocalorie against palm oil's more
+    than 1.5 grams — less than half, before counting the land and water that agriculture also
+    consumes.
+  - >
+    The land and water reductions are described as enormous rather than marginal, since
+    synthesis needs neither cropland nor irrigation.
+  - >
+    The authors are explicit that a broad array of attractive chemosynthetic foods remains a
+    possibility rather than a near-term prospect. Fats are the tractable case, not a template
+    for everything on a plate.
+  - >
+    Two obstacles are named that are not technical. Scaling up would disrupt agricultural
+    economies, and it depends on consumers being willing to eat the result.
+
+matters:
+  - >
+    It reframes what "sustainable food" can mean. The entire debate is normally about which crops
+    and livestock to favour and how to farm them better; this proposes that some food need not be
+    farmed at all, and puts a number on the advantage.
+  - >
+    Fats are a good place to start precisely because they are unglamorous. Much of their dietary
+    role is as an ingredient rather than as a recognisable food, which lowers the consumer
+    acceptance barrier that would block synthetic staples.
+  - >
+    The disruption caveat deserves its place in the finding rather than a footnote. Palm oil
+    supports large agricultural economies, so displacing it is a distributional question as much
+    as an environmental one.
+
+figure:
+  file: davis-2023-food-without-agriculture.webp
+  source_figure: Figure 2
+  alt: >
+    Two contour plots of greenhouse gas emissions per edible kilocalorie. Panel a, agricultural
+    fats, plots land-use emissions against energy emissions in grams of CO2-equivalent per
+    kilocalorie, with red dots for Sub-Saharan African oilcrops near 3.5, Brazilian soy above 2.5,
+    and Indonesian, Brazilian and Colombian palm oil between 1.0 and 2.0. Panel b, synthetic
+    fats, plots feedstock emissions against the emissions intensity of the energy used, with dots
+    for coal and natural gas feedstocks and, at the origin, carbon dioxide feedstock with
+    non-fossil energy at close to zero.
+  caption: >
+    The two panels are on the same units, and the synthetic route (b) reaches values the
+    agricultural route (a) cannot. Real palm oil and soy sit between 1 and 3.5 grams of
+    CO2-equivalent per kilocalorie; fats synthesized from captured carbon dioxide with
+    non-fossil energy approach zero.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Davis et al. (2023), Nature Sustainability 7, 90-95
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - davis-2018-net-zero-energy-systems
+  - davis-2011-supply-chain-emissions

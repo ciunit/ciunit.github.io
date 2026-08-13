@@ -1,0 +1,101 @@
+id: cheng-2025-trade-risks-energy-security
+doi: 10.1038/s41558-025-02305-1
+title: >
+  Trade risks to energy security in net-zero emissions energy scenarios
+authors:
+  - Jing Cheng
+  - Dan Tong
+  - Hongyan Zhao
+  - Ruochong Xu
+  - Yue Qin
+  - Qiang Zhang
+  - Karan Bhuwalka
+  - Ken Caldeira
+  - Steven J. Davis
+journal: Nature Climate Change
+volume: "15"
+pages: 505-513
+date: "2025-05"
+year: 2025
+themes:
+  - climate-and-energy
+
+description: >
+  Going to net zero lowers overall trade-related energy security risk in 70% of countries by
+  cutting fossil fuel imports, but raises risk to electricity or transport systems in 82% of the
+  countries that become more dependent on imported materials.
+
+question:
+  - >
+    Energy security is usually discussed as a fossil fuel problem — who has oil and gas, who has
+    to buy it, and how exposed the buyers are. A country is more secure when it imports less,
+    when its imports come from many sources, and when those sources are reliable.
+  - >
+    A net-zero energy system changes what gets traded rather than ending trade. Fuels give way
+    to critical materials for batteries, turbines and transmission. This paper asked whether
+    that substitution leaves countries more secure or less, and which countries move which way.
+
+key_finding: >
+  In net-zero scenarios, overall trade risks fall in 70% of countries because they buy less
+  imported fossil fuel — but trade risks to either the electricity or the transport system rise
+  in 82% of the countries that become more dependent on imported materials.
+
+findings:
+  - >
+    The two results are not in tension; they are about different exposures. Aggregate risk falls
+    because fossil fuel imports dominate today's trade, while sector-specific risk rises because
+    electricity and transport come to depend on a narrower set of mined and refined materials.
+  - >
+    Resource endowment decides the direction. Countries with large mineral reserves — Australia
+    and China among them — become markedly less import-dependent. Countries whose leverage came
+    from fossil reserves, such as Russia and states in the Middle East, move the other way.
+  - >
+    The result is sensitive to things that can be changed. The analysis tests differences in
+    trading networks, in energy system configuration, in how material-intensive each technology
+    is, and in recycling rates, and each of those shifts the risk picture.
+  - >
+    That sensitivity is the opening the authors point to: material intensity and recycling are
+    engineering and policy variables, so a country's exposure under net zero is not fixed by
+    geology in the way fossil dependence largely was.
+
+matters:
+  - >
+    It corrects a common framing in both directions. Decarbonization is often sold as
+    straightforwardly good for energy security, and separately feared as trading oil dependence
+    for lithium dependence. Both are partly right, and which applies depends on the country and
+    on which system you look at.
+  - >
+    Because the risk concentrates in electricity and transport rather than in the aggregate, a
+    national energy security assessment that reports only a headline number will miss the
+    exposure that actually matters under net zero.
+  - >
+    It also redraws the geopolitical map. The countries that gain from the transition are not
+    the ones that hold hydrocarbons, and the ones that lose leverage are precisely today's
+    fossil exporters — a redistribution of strategic position, not its removal.
+
+figure:
+  file: cheng-2025-trade-risks-energy-security.webp
+  source_figure: Figure 2
+  alt: >
+    Ten world maps in two columns shading the projected change in each country's trade risk index
+    under net-zero scenarios, on a diverging blue-to-red scale where blue is decreasing risk and
+    red increasing. Most maps are predominantly blue and pale yellow. The panels for
+    material-related and electricity-related risk carry noticeably more orange and red across
+    parts of Africa, South America and southern Asia than the fuel-related panels, which are
+    strongly blue.
+  caption: >
+    Blue is a country whose trade-related energy security risk falls; red one whose risk rises.
+    Fuel-related risk goes blue almost everywhere as fossil imports disappear, while
+    material-related and electricity-related risk turn red across a large set of countries —
+    which is how overall risk can fall in most of the world while sectoral risk rises in most of
+    the countries affected.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Cheng et al. (2025), Nature Climate Change 15, 505-513
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - tong-2019-committed-emissions
+  - davis-2011-supply-chain-emissions
+  - davis-2018-net-zero-energy-systems

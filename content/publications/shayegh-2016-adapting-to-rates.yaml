@@ -1,0 +1,94 @@
+id: shayegh-2016-adapting-to-rates
+doi: 10.1088/1748-9326/11/10/104007
+title: >
+  Adapting to rates versus amounts of climate change: a case of adaptation to sea-level rise
+authors:
+  - Soheil Shayegh
+  - Juan Moreno-Cruz
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "11"
+pages: "104007"
+date: "2016-10-01"
+year: 2016
+themes:
+  - climate-and-economics
+
+description: >
+  Adaptation is usually designed for a new climate state, but the climate keeps moving — and
+  planning coastal investment against the *rate* of sea-level rise rather than an amount changes
+  what the optimal strategy is.
+
+question:
+  - >
+    Adaptation strategies are typically built to match a projected climate state: a sea level, a
+    temperature, a rainfall regime. That framing assumes the climate arrives somewhere and stops.
+  - >
+    It will not. Even under strong mitigation the climate continues changing far into the future,
+    which means an investment sized for a particular sea level is obsolete before it depreciates.
+    This paper asked what changes when adaptation is planned against a rate instead.
+
+key_finding: >
+  Optimal coastal investment depends on the future *rate* of sea-level rise rather than on any
+  particular amount of it, and a quantitative model shows the strategy emerging from the
+  interplay of rate of rise, land slope, discount rate and depreciation rate — so adapting to an
+  amount rather than an ongoing rate can misestimate both damages and the ability to respond.
+
+findings:
+  - >
+    The worked example is investment in the face of continued sea-level rise, chosen because the
+    physical and economic quantities are all measurable and the decision is concrete.
+  - >
+    Four parameters govern the answer together: how fast the sea rises, how steeply the land
+    slopes, how the decision-maker discounts the future, and how fast the built capital
+    depreciates.
+  - >
+    Depreciation is what links the two framings. Capital that wears out on a timescale comparable
+    to the rate of change can be replaced as conditions move; capital that outlives the change it
+    was built for cannot.
+  - >
+    Social and political constraints enter the determination of the optimal strategy alongside
+    the physical and economic ones.
+  - >
+    The approach generalises beyond sea level to ongoing trends in temperature, precipitation and
+    other variables.
+
+matters:
+  - >
+    It identifies a systematic bias rather than an error of degree. Designing for an amount of
+    change treats a moving target as a fixed one, and the resulting estimates of damage and of
+    adaptive capacity are wrong in a predictable direction.
+  - >
+    Making depreciation central reframes adaptation as a question about the timing of investment
+    rather than its size — which is the same insight that makes adaptation pay back faster than
+    abatement.
+  - >
+    Because it is the rate that matters, the value of mitigation shows up in adaptation planning
+    too: slowing the change directly reduces what adaptation has to keep up with.
+
+figure:
+  file: shayegh-2016-adapting-to-rates.webp
+  source_figure: Figure 3
+  alt: >
+    Panel a plots the net present value of investment in dollars against distance from the sea in
+    metres, for three rates of sea-level rise — 0.5, 1.0 and 2.0 centimetres per year. Each curve
+    rises to a peak and falls, and the peak moves further inland and lower as the rate increases,
+    marked by dashed lines near 200, 310 and 480 metres. Panel b is a contour plot of the optimal
+    location, from under 100 to over 900 metres, against rate of sea-level rise and discount
+    rate.
+  caption: >
+    Where it is worth building depends on how fast the sea is rising, not on how high it will
+    eventually get. Faster rise pushes the optimum inland and lowers its value (panel a), and the
+    discount rate trades against the rate of rise (panel b) — which is why adaptation planned for
+    an amount rather than a rate gets the answer wrong.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Shayegh, Moreno-Cruz and Caldeira (2016), Environmental Research Letters 11, 104007
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - duan-2025-adaptation-abatement
+  - schmitt-2023-indus-flood-adaptation
+  - winkelmann-2015-antarctic-ice-sheet

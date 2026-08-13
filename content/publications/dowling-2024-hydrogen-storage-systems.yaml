@@ -1,0 +1,108 @@
+id: dowling-2024-hydrogen-storage-systems
+doi: 10.1088/2753-3751/ad58e5
+title: >
+  Opportunities and constraints of hydrogen energy storage systems
+authors:
+  - Jacqueline A. Dowling
+  - Tyler H. Ruggles
+  - Edgar A. Virgüez
+  - Natasha D. Reich
+  - Zachary P. Ifkovits
+  - Steven J. Davis
+  - Anna X. Li
+  - Kathleen M. Kennedy
+  - Katherine Z. Rinaldi
+  - Lei Duan
+  - Ken Caldeira
+  - Nathan S. Lewis
+journal: "Environmental Research: Energy"
+volume: "1"
+pages: "035004"
+date: "2024-09-01"
+year: 2024
+themes:
+  - macro-energy-modeling
+
+description: >
+  In wind and solar systems with abundant curtailed power, what matters for hydrogen storage is
+  the capital cost of the discharge component, not round-trip efficiency — efficiency only starts
+  to matter once capital costs have already fallen.
+
+question:
+  - >
+    Batteries force one decision: how much storage to buy. Power-to-hydrogen-to-power systems
+    separate three — the charging equipment, the store itself, and the discharging equipment —
+    each of which can be sized and improved independently.
+  - >
+    That raises a research-priority question. Hydrogen storage has poor round-trip efficiency, so
+    improving efficiency looks like the obvious target. This paper asked whether efficiency or
+    capital cost is the thing actually holding it back in electricity systems dominated by wind
+    and solar.
+
+key_finding: >
+  In least-cost wind-solar-battery systems at current costs, hydrogen storage enters the solution
+  despite its low round-trip efficiency, and system cost is insensitive to how efficiently
+  otherwise-curtailed power is used but sensitive to the capital cost of the discharge
+  component — efficiency only becomes important after capital costs fall.
+
+findings:
+  - >
+    At current costs and current round-trip efficiencies, least-cost wind and solar systems carry
+    large amounts of excess generating capacity, and hydrogen storage is part of the least-cost
+    solution even so.
+  - >
+    Efficiency does not bind while power is abundant. When there is plenty of otherwise-curtailed
+    generation to charge with, wasting some of it costs little, so system cost barely responds to
+    round-trip efficiency.
+  - >
+    What system cost does respond to is the capital cost of the discharge component — the
+    equipment that turns stored hydrogen back into electricity, which sits idle most of the time
+    and so is expensive per unit of energy delivered.
+  - >
+    The priority inverts once costs come down. If charging and discharging capital costs fall
+    relative to generation costs, the system stops overbuilding, curtailment shrinks, and system
+    cost becomes increasingly sensitive to round-trip efficiency instead.
+  - >
+    Storage volume is not the constraint in the United States. Analysis of underground salt
+    cavern limits under wind and solar scenarios indicates ample capacity could be had by
+    repurposing the depleted natural gas reservoirs already used for seasonal gas storage.
+
+matters:
+  - >
+    It tells a research programme where to aim. Round-trip efficiency is the intuitive figure of
+    merit for a storage technology, and in this setting it is the wrong one — cheaper discharge
+    hardware buys more than a more efficient cycle does.
+  - >
+    The ordering matters as much as the answer: efficiency is not unimportant, it is *not yet*
+    important. Improving it before capital costs fall targets a constraint that is not binding.
+  - >
+    Finding that existing depleted gas reservoirs could hold the hydrogen removes what is often
+    assumed to be a hard geological limit, and moves the question back to the cost of the
+    equipment at either end.
+
+figure:
+  file: dowling-2024-hydrogen-storage-systems.webp
+  source_figure: Figure 3
+  alt: >
+    Six stacked-area panels of system cost in dollars per kilowatt-hour, arranged as three pairs.
+    The left column varies capital cost and the right varies efficiency or loss rate, for the
+    power-to-hydrogen, hydrogen storage and hydrogen-to-power components in turn. Annotated
+    arrows give the cost reduction achieved by each improvement: 4% against 1% for
+    power-to-hydrogen, 12% against 0.0001% for storage, and 13% against 5% for hydrogen-to-power.
+  caption: >
+    Each row compares making a component cheaper against making it better. Capital cost wins
+    every time at present costs, and by the largest margin for the hydrogen-to-power component —
+    13% against 5% — which is why the discharge hardware, not round-trip efficiency, is where
+    innovation would pay.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Dowling et al. (2024), Environmental Research: Energy 1, 035004
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - dowling-2020-long-duration-storage
+  - li-2024-storage-portfolios
+  - ganter-2025-curtailed-power-hydrogen
+  - tong-2020-storage-cost-reductions

@@ -1,0 +1,96 @@
+id: cao-2017-cocktail-geoengineering
+doi: 10.1002/2017GL074281
+title: >
+  Simultaneous stabilization of global temperature and precipitation through cocktail
+  geoengineering
+authors:
+  - Long Cao
+  - Lei Duan
+  - Govindasamy Bala
+  - Ken Caldeira
+journal: Geophysical Research Letters
+volume: "44"
+pages: 7429-7437
+date: "2017-07-28"
+year: 2017
+themes:
+  - solar-geoengineering
+
+description: >
+  Combining stratospheric aerosol, which blocks incoming sunlight, with cirrus cloud thinning,
+  which lets outgoing heat escape, can restore both global mean temperature and precipitation to
+  preindustrial values at once — something neither can do alone.
+
+question:
+  - >
+    Solar geoengineering faces a well-known trade-off: reduce sunlight enough to cancel the
+    warming from carbon dioxide and you overshoot on rainfall, leaving the world drier than it
+    started, because carbon dioxide and sunlight act on the hydrological cycle differently.
+  - >
+    This paper asked whether combining two schemes that act on opposite ends of the spectrum
+    could hit both targets at once — blocking shortwave radiation coming in, and letting longwave
+    radiation out.
+
+key_finding: >
+  Under abrupt quadrupled carbon dioxide, an appropriate combination of stratospheric sulfate
+  aerosol increase and cirrus cloud thinning restores global mean — and land mean — temperature
+  and precipitation simultaneously to preindustrial levels, though it does not markedly improve
+  regional agreement with the preindustrial climate over aerosol alone.
+
+findings:
+  - >
+    The two levers act on different radiation. Stratospheric aerosol deflects incoming sunlight;
+    thinning cirrus cloud, simulated by increasing the fall speed of ice particles, lets more
+    longwave radiation escape to space.
+  - >
+    Because they load the energy budget differently, mixing them in the right proportion satisfies
+    two constraints at once rather than trading one against the other.
+  - >
+    Both the global mean and the land mean can be restored, which matters because land is where
+    the precipitation change is felt.
+  - >
+    The result is explicitly bounded. Compared with aerosol alone, the cocktail does not markedly
+    improve how closely the geoengineered climate resembles the preindustrial one at regional
+    scales — the global means match while the map still does not.
+  - >
+    The authors suggest a spatially non-uniform mixture might do better regionally, and leave
+    that open.
+
+matters:
+  - >
+    It shows the temperature-precipitation trade-off is not fundamental to solar geoengineering,
+    only to doing it with one lever. Two independent instruments can meet two targets, which is a
+    basic result in control rather than in climate.
+  - >
+    The honest limitation is the important part. Restoring two global numbers is not restoring the
+    climate, and the regional pattern — where anyone actually lives — is largely unimproved.
+  - >
+    It also makes cirrus cloud thinning worth taking seriously as a complement rather than a
+    competitor to aerosol schemes, since its value here comes precisely from acting on a different
+    part of the spectrum.
+
+figure:
+  file: cao-2017-cocktail-geoengineering.webp
+  source_figure: Figure 1
+  alt: >
+    Two scatter plots of change in precipitation against change in temperature, panel a for
+    global means and panel b for land means, both relative to preindustrial control. Coloured
+    dots mark abrupt quadrupled carbon dioxide at the top right, stratospheric aerosol and cirrus
+    thinning cases along the way, and two mixed cases near the origin where both axes are close
+    to zero. Lines through the points are annotated with hydrological sensitivities of 0.45, 1.88
+    and 2.56 per cent per kelvin globally, and 0.49, 2.37 and 2.56 over land.
+  caption: >
+    The origin is the target: preindustrial temperature and preindustrial precipitation together.
+    Neither aerosol nor cirrus thinning alone lands there, but the two mixed cases do — because
+    the schemes have very different hydrological sensitivities, so combining them satisfies both
+    constraints at once.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Cao et al. (2017), Geophysical Research Letters 44, 7429-7437
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - duan-2018-fast-slow-geoengineering
+  - ban-weiss-2010-optimization
+  - cao-2011-precipitation-co2-forcing

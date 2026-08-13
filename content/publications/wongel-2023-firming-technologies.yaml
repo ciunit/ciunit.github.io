@@ -1,0 +1,91 @@
+id: wongel-2023-firming-technologies
+doi: 10.32866/001c.90391
+title: >
+  Broad range of technologies could firm up wind and solar generation in net zero carbon dioxide
+  emission electricity systems
+authors:
+  - Alicia Wongel
+  - Ken Caldeira
+journal: Findings
+date: "2023-12-06"
+year: 2023
+themes:
+  - macro-energy-modeling
+
+description: >
+  Removing the most valuable firming technology from a least-cost net-zero electricity system,
+  then the next, and the next, shows that reliable wind-and-solar systems do not depend on any
+  particular firming technology being available.
+
+question:
+  - >
+    Wind and solar need something to cover the hours they cannot. The candidates are numerous —
+    dispatchable generators, storage of several kinds, atmospheric carbon dioxide removal,
+    demand management — and because there are so many, studies usually assess one or a small
+    handful at a time.
+  - >
+    That leaves an unanswered question of a different shape: not which firming technology is
+    best, but whether the whole approach depends on any single one of them being available.
+
+key_finding: >
+  Letting many firming technologies compete in a stylized net-zero electricity system and then
+  sequentially removing the most valuable one at each step shows that reliable wind-and-solar
+  systems do not depend on the feasibility of any particular firming technology.
+
+findings:
+  - >
+    Firming technologies are defined broadly as anything that makes electricity available when
+    wind and solar generation falls short of demand — dispatchable generation, storage, carbon
+    dioxide removal, and demand management all qualify.
+  - >
+    Rather than compare candidates head to head, the method builds a least-cost system, removes
+    whichever firming technology proved most valuable, re-optimizes, and repeats.
+  - >
+    Systems remain reliable through that sequence. When the best option is taken away, the
+    optimizer substitutes others, and the result is a system that still meets demand.
+  - >
+    The conclusion is therefore about the class rather than the members: the availability of
+    *some* firming capability matters, but the identity of the winner does not.
+
+matters:
+  - >
+    It shifts what a bet on wind and solar depends on. If reliability required one specific
+    technology — long-duration storage, say, or direct air capture — then that technology
+    failing would sink the whole approach. It does not.
+  - >
+    That is a useful counterweight to the common argument that a wind-and-solar system is
+    hostage to an unproven storage breakthrough. Many roads lead to a firm system, and the
+    optimizer will take whichever is open.
+  - >
+    It also reframes research strategy. Because no single firming technology is indispensable,
+    spreading effort across several is more robust than concentrating it on the current
+    favourite — the same portfolio logic that the cost-uncertainty work reaches from a different
+    direction.
+
+figure:
+  file: wongel-2023-firming-technologies.webp
+  source_figure: Figure 2
+  alt: >
+    A stacked bar chart of system cost in euros per megawatt-hour of met demand, from 0 to 300,
+    with about thirty bars along the horizontal axis. Each bar is labelled with the firm
+    technology whose removal increases total cost the most at that step, starting with hydro and
+    BECCS and running through storage technologies and demand management to a final bar for a
+    system with only solar and wind. Cost rises gently across most of the sequence and then
+    climbs steeply in the last few bars.
+  caption: >
+    Each bar removes the technology that was most valuable in the previous one. Cost rises only
+    gradually as one option after another is taken away — the optimizer keeps finding
+    substitutes — and jumps sharply only at the far right, where nothing is left but wind and
+    solar.
+  source: PDF (600 dpi)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  credit: >
+    Wongel and Caldeira (2023), Findings
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - duan-2024-cost-uncertainty
+  - dowling-2020-long-duration-storage
+  - li-2024-storage-portfolios
+  - tong-2021-geophysical-constraints

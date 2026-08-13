@@ -1,0 +1,95 @@
+id: krishnamohan-2019-aerosol-altitude
+doi: 10.5194/esd-10-885-2019
+title: >
+  Climate system response to stratospheric sulfate aerosols: sensitivity to altitude of aerosol
+  layer
+authors:
+  - Krishna-Pillai Sukumara-Pillai Krishnamohan
+  - Govindasamy Bala
+  - Long Cao
+  - Lei Duan
+  - Ken Caldeira
+journal: Earth System Dynamics
+volume: "10"
+pages: 885-900
+date: "2019-12-13"
+year: 2019
+themes:
+  - solar-geoengineering
+
+description: >
+  Sulfate aerosols cool more when placed higher in the stratosphere even with sedimentation held
+  fixed, because they heat the layer they sit in and change stratospheric water vapour,
+  tropospheric stability and cloud — altering the effective radiative forcing itself.
+
+question:
+  - >
+    It is well established that aerosol injected higher in the stratosphere cools more, and the
+    usual explanation is residence time: particles higher up take longer to settle out, so a
+    given injection lasts longer.
+  - >
+    That explanation makes altitude a question of aerosol lifetime. This paper asked whether
+    there is an additional, purely radiative dependence on altitude, by holding the aerosol
+    amount fixed and simply placing it at different levels.
+
+key_finding: >
+  With a fixed quantity of sulfate aerosol prescribed uniformly at different stratospheric
+  levels, so that sedimentation cannot explain the difference, aerosols still cool the climate
+  more when they reside higher — because the effective radiative forcing itself is larger at
+  altitude, through fast adjustments in stratospheric water vapour, tropospheric stability and
+  clouds.
+
+findings:
+  - >
+    The experiment prescribes a specified amount of sulfate aerosol, of a size typical of
+    volcanic particles, distributed uniformly at different levels — which removes lifetime and
+    transport from the comparison by construction.
+  - >
+    Higher aerosol still cools more, so residence time is not the whole story.
+  - >
+    The mechanism runs through the stratosphere's own temperature. Volcanic aerosols heat the
+    layer they occupy, and that heating alters stratospheric water vapour content, tropospheric
+    stability, and cloud.
+  - >
+    Those fast adjustments change the effective radiative forcing, whose magnitude is larger when
+    the aerosol sits higher — and the authors show this accounts for a substantial part of the
+    altitude dependence of cooling.
+  - >
+    These effects are additional to the dependences on aerosol microphysics, transport and
+    sedimentation, which the study deliberately leaves outside its scope.
+
+matters:
+  - >
+    It isolates a second reason altitude matters. Any assessment that models injection height
+    purely through particle lifetime is missing a radiative term that acts in the same direction,
+    and so will misestimate how much cooling a given injection buys.
+  - >
+    The mechanism is a fast adjustment rather than a surface-temperature feedback, which means it
+    is present within weeks of injection and is not something the climate settles out of.
+  - >
+    For scheme design it makes injection altitude a lever on efficacy in its own right, not
+    merely a way of keeping the aerosol up there longer.
+
+figure:
+  file: krishnamohan-2019-aerosol-altitude.webp
+  source_figure: Figure 9
+  alt: >
+    A bar chart titled Efficiency, showing change in global mean surface temperature per teragram
+    of sulfur in the stratosphere, in kelvin per teragram of sulfur, from 0 to 0.60. Three bars
+    correspond to volcanic aerosol prescribed at 100, 70 and 37 hectopascals, rising from about
+    0.44 through 0.52 to about 0.59 as the aerosol is placed higher.
+  caption: >
+    The same mass of sulfur, placed at three heights. Cooling per teragram rises by about a third
+    from the lowest level to the highest — and because the amount of aerosol is prescribed rather
+    than allowed to settle out, none of that gain is explained by residence time.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Krishnamohan et al. (2019), Earth System Dynamics 10, 885-900
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - ban-weiss-2010-optimization
+  - roose-2023-monsoon-aerosol-asymmetry
+  - cao-2012-fast-response-days-weeks

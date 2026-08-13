@@ -1,0 +1,103 @@
+id: jayakrishnan-2024-net-zero-pathways
+doi: 10.1029/2024EF004891
+title: >
+  Dependence of climate and carbon cycle response in net zero emission pathways on the magnitude
+  and duration of positive and negative emission pulses
+authors:
+  - K. U. Jayakrishnan
+  - Govindasamy Bala
+  - Ken Caldeira
+journal: Earth's Future
+volume: "12"
+pages: e2024EF004891
+date: "2024-07"
+year: 2024
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Emitting carbon and then removing exactly as much does not return the climate to where it
+  started: at the moment net emissions reach zero, temperature is 0 to 1 degree Celsius above
+  preindustrial and atmospheric CO2 is 12 to 29 parts per million below it.
+
+question:
+  - >
+    Net-zero targets assume a symmetry — that carbon put into the atmosphere can later be taken
+    out, and the climate will follow the same path back. The ocean makes that questionable,
+    because it takes up heat and carbon on timescales of centuries.
+  - >
+    This paper asked what actually happens when emissions are exactly cancelled by removals, and
+    whether the answer depends on how large the pulses are and how long they take.
+
+key_finding: >
+  Across nine simulations emitting 1,000, 2,000 or 5,000 gigatonnes of carbon over 150, 250 or
+  500 years and then removing exactly as much, the climate returns close to preindustrial only
+  on millennial timescales — at the moment net cumulative emissions reach zero, surface air
+  temperature is 0 to 1 degree Celsius higher and atmospheric CO2 is 12 to 29 parts per million
+  lower than preindustrial.
+
+findings:
+  - >
+    Nine stylized runs of a coupled climate and carbon cycle model pair three emission magnitudes
+    with three durations, each followed by identical cumulative negative emissions so that net
+    cumulative emissions end at exactly zero.
+  - >
+    On millennial timescales the climate system does return close to its preindustrial state, and
+    which pathway it took to get there stops mattering.
+  - >
+    On the centennial timescale that policy operates over, it does not. When net emissions reach
+    zero, temperature is still 0 to 1 degree Celsius above preindustrial while atmospheric CO2 has
+    been pulled 12 to 29 parts per million below it — the air is cleaner than it started and the
+    planet is still warmer.
+  - >
+    Both offsets grow with the magnitude and the duration of the pulses, so a bigger, slower
+    excursion leaves a larger residual at the moment the books balance.
+  - >
+    Hysteresis between global mean temperature and cumulative emissions behaves differently
+    again: it increases with the magnitude of the pulses but *decreases* with their duration.
+  - >
+    The asymmetry is the ocean. Its thermal and biogeochemical inertia means heat and carbon
+    taken up during the emission phase come back on their own schedule, not on the schedule of
+    the removals.
+
+matters:
+  - >
+    It puts a number on the cost of delay in a form net-zero accounting hides. Removing as much
+    carbon as was emitted does not undo the warming on any timescale a government plans over, and
+    the shortfall grows the longer the excursion lasts.
+  - >
+    The direction of the residual is counterintuitive and worth stating plainly: you can end up
+    with less CO2 in the air than you started with and still be warmer, because the ocean is
+    still giving back heat it absorbed decades earlier.
+  - >
+    The practical conclusion is about timing rather than totals. Earlier emission reduction means
+    smaller and shorter pulses in both directions, and therefore a smaller climate and
+    carbon-cycle residual on centennial timescales — even holding the cumulative budget fixed.
+
+figure:
+  file: jayakrishnan-2024-net-zero-pathways.png
+  source_figure: Figure 3
+  alt: >
+    Four time-series panels from year 0 to 2000. The top row is atmospheric carbon dioxide in
+    parts per million and the bottom row is change in surface air temperature in degrees Celsius.
+    The left column fixes the emitted total at 2,000 gigatonnes of carbon and varies the pulse
+    duration over 150, 250 and 500 years; the right column fixes the duration at 250 years and
+    varies the total over 1,000, 2,000 and 5,000 gigatonnes. Every curve rises to a peak and
+    falls back, with vertical lines marking the end of each zero net emission cycle. The carbon
+    dioxide curves settle slightly below their starting dashed line while the temperature curves
+    settle slightly above zero.
+  caption: >
+    Emit a quantity of carbon, then remove exactly as much, and the two curves do not come back
+    together. Carbon dioxide undershoots its starting value while temperature is still above it
+    — the ocean is returning heat it absorbed on a schedule the removals cannot dictate.
+  source: PDF (600 dpi)
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  credit: >
+    Jayakrishnan, Bala and Caldeira (2024), Earth's Future 12, e2024EF004891
+  modification: Used unmodified, as the licence requires
+
+related:
+  - matthews-2008-near-zero-emissions
+  - duan-2024-rate-of-warming
+  - cao-2015-fast-slow-responses

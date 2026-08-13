@@ -1,0 +1,96 @@
+id: jayakrishnan-2022-fossil-vs-deforestation
+doi: 10.1088/1748-9326/ac69fd
+title: >
+  Contrasting climate and carbon-cycle consequences of fossil-fuel use versus deforestation
+  disturbance
+authors:
+  - K. U. Jayakrishnan
+  - Govindasamy Bala
+  - Long Cao
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "17"
+pages: "064020"
+date: "2022-06-01"
+year: 2022
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  A thousand years after releasing 600 petagrams of carbon, fossil-fuel emissions leave 20% of
+  the atmospheric perturbation and about 1 degree Celsius of warming — while the same quantity
+  from deforestation with regrowth returns carbon dioxide close to preindustrial.
+
+question:
+  - >
+    Carbon dioxide from clear-cutting or a forest fire is measured in the same units as carbon
+    dioxide from burning coal, and inventories add them together. But a forest that is allowed to
+    regrow takes its carbon back, and a coal seam does not.
+  - >
+    This paper asked how different the two really are once the regrowth is accounted for, over
+    the centuries and millennia that matter for a carbon budget.
+
+key_finding: >
+  A thousand years after an abrupt release of about 600 petagrams of carbon, fossil-fuel
+  emissions leave roughly 20% of the initial atmospheric carbon dioxide perturbation in place and
+  the climate about 1 degree Celsius warmer than preindustrial — whereas the same quantity
+  released by deforestation with vegetation regrowth returns atmospheric carbon dioxide close to
+  its preindustrial value.
+
+findings:
+  - >
+    Two 1,000-year simulations in a coupled climate-carbon model add the same abrupt emission,
+    about 600 petagrams of carbon, to a preindustrial state: once as fossil fuel use, once as
+    deforestation disturbance followed by regrowth.
+  - >
+    The fossil case leaves about 20% of the atmospheric concentration perturbation after a
+    millennium, with about 1 degree Celsius of residual warming.
+  - >
+    The deforestation case does not, because the deforested land recovers its carbon over decades
+    to centuries, pulling atmospheric carbon dioxide back down toward where it started.
+  - >
+    The divergence is a matter of where the carbon can go back to. Fossil carbon has no reservoir
+    waiting to reabsorb it on that timescale; forest carbon does, and the forest itself is the
+    reservoir.
+
+matters:
+  - >
+    Emissions inventories that add land-use carbon to fossil carbon are summing quantities with
+    very different futures. On a century-to-millennium view the two are not interchangeable, and
+    a tonne is not simply a tonne.
+  - >
+    The asymmetry cuts in a specific direction: it makes fossil emissions worse relative to
+    deforestation, not deforestation harmless. Regrowth is doing the work, so the conclusion holds
+    only where the forest is actually allowed to return.
+  - >
+    That makes permanence the operative question for land-based carbon, which is the same issue
+    that governs whether temporary storage counts — the value depends entirely on whether the
+    carbon stays put.
+
+figure:
+  file: jayakrishnan-2022-fossil-vs-deforestation.webp
+  source_figure: Figure 5
+  alt: >
+    Three stacked time-series panels over 1,000 years, comparing a red FOSSIL-FUEL curve with an
+    orange DEFOREST curve against dashed preindustrial reference lines. Panel a is atmospheric
+    carbon dioxide concentration, where both spike above 500 parts per million and then fall, the
+    fossil curve levelling near 350 and the deforestation curve returning to the dashed
+    preindustrial line. Panel b is change in surface air temperature, with the fossil curve
+    holding near 1 degree Celsius and the deforestation curve returning to zero and slightly
+    below. Panel c is change in surface ocean pH, with the fossil curve recovering only to about
+    minus 0.05 while the deforestation curve returns above zero.
+  caption: >
+    The same 600 petagrams of carbon, released two ways. The orange curves come home — the forest
+    regrows and takes its carbon back — while the red curves do not, leaving about a degree of
+    warming and a persistent acidification a thousand years later.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Jayakrishnan et al. (2022), Environmental Research Letters 17, 064020
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - jayakrishnan-2024-net-zero-pathways
+  - bala-2007-deforestation
+  - herzog-2003-permanence-temporary-storage

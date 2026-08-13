@@ -1,0 +1,95 @@
+id: bala-2011-marine-cloud-albedo
+doi: 10.1007/s00382-010-0868-1
+title: >
+  Albedo enhancement of marine clouds to counteract global warming: impacts on the hydrological
+  cycle
+authors:
+  - Govindasamy Bala
+  - Ken Caldeira
+  - Rama Nemani
+  - Long Cao
+  - George Ban-Weiss
+  - Ho-Jeong Shin
+journal: Climate Dynamics
+volume: "37"
+pages: 915-931
+date: "2011-09"
+year: 2011
+themes:
+  - solar-geoengineering
+
+description: >
+  Brightening marine clouds enough to cancel the warming from doubled CO2 cuts global
+  precipitation by about 1.3% but *increases* runoff over land by 7.5%, because dimming only the
+  ocean drives sinking air over sea and rising air over land.
+
+question:
+  - >
+    Reducing sunlight cools the planet but dries it, because sunlight drives evaporation more
+    strongly per degree than carbon dioxide does. Solar geoengineering is therefore expected to
+    slow the water cycle and cut runoff over land.
+  - >
+    Marine cloud brightening is different in one respect that might matter: it dims only the
+    ocean. This paper asked whether confining the intervention to the sea changes what happens to
+    water on land.
+
+key_finding: >
+  Uniformly reducing marine cloud droplet size enough to offset the warming from doubled carbon
+  dioxide lowers global mean precipitation and evaporation by about 1.3%, yet raises runoff over
+  land by 7.5%, chiefly over tropical land.
+
+findings:
+  - >
+    The experiment uses an atmospheric general circulation model coupled to a mixed-layer ocean,
+    with cloud droplets shrunk uniformly over all oceans until the global mean temperature
+    increase from doubled carbon dioxide is offset.
+  - >
+    Globally the expected drying appears: precipitation and evaporation both fall by about 1.3%.
+  - >
+    Land does the opposite. Runoff over land rises 7.5%, concentrated over tropical land — the
+    reverse of what a uniform dimming would produce.
+  - >
+    The mechanism is circulation, not local energy balance. More reflective marine clouds cool
+    the atmospheric column over the ocean, which sets up sinking motion over the sea and
+    compensating rising motion over land.
+  - >
+    That rising motion over land is what the increased runoff is attributed to.
+
+matters:
+  - >
+    It shows that where you dim matters as much as how much you dim. A spatially uniform
+    reduction in sunlight and an ocean-only one have opposite consequences for land water, even
+    at the same global mean temperature.
+  - >
+    The result complicates a standard objection. Solar geoengineering is criticised for drying
+    the land, and this particular scheme does not — though it achieves that by distorting the
+    circulation rather than by leaving it alone.
+  - >
+    Because the effect is concentrated over tropical land, the regions affected are those where
+    runoff changes bear most directly on agriculture and water supply.
+
+figure:
+  file: bala-2011-marine-cloud-albedo.webp
+  source_figure: Figure 7
+  alt: >
+    A three-by-three grid of world maps in centimetres per year. Rows are precipitation,
+    evaporation, and precipitation minus evaporation; columns are doubled carbon dioxide minus
+    control, doubled carbon dioxide with brightened marine clouds minus doubled carbon dioxide
+    alone, and the brightened case minus control. Hatching marks changes that are not
+    statistically significant. Strong positive and negative bands run along the tropics in the
+    precipitation and P-minus-E rows.
+  caption: >
+    The third column is the net effect of brightening marine clouds in a doubled-carbon-dioxide
+    world. Precipitation falls globally, but the tropical land bands in the bottom row run
+    positive — the sinking motion the brightening induces over the ocean is matched by rising
+    motion over land, and that is where the extra runoff comes from.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Bala et al. (2011), Climate Dynamics 37, 915-931
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - cao-2017-cocktail-geoengineering
+  - duan-2018-fast-slow-geoengineering
+  - bala-2010-fast-versus-slow

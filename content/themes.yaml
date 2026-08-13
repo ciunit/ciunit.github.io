@@ -163,6 +163,45 @@
         declines from about 0.21 °C per decade around 2025 to about 0.15 °C per decade around
         2050 — slower warming, but warming that does not stop
       paper: duan-2024-rate-of-warming
+    - claim: >
+        Emitting carbon and then removing exactly as much leaves surface temperature 0 to 1 °C
+        above preindustrial and atmospheric CO2 12 to 29 ppm below it at the moment net emissions
+        reach zero, with both offsets growing as the pulses get larger and longer
+      paper: jayakrishnan-2024-net-zero-pathways
+    - claim: >
+        Hydrogen leakage warms less than the same quantity of methane, and because its forcing
+        tracks the emission rate rather than cumulative emissions the Earth cools rapidly once it
+        stops — unlike after CO2
+      paper: duan-2023-hydrogen-emissions-comment
+    - claim: >
+        A thousand years after releasing 600 PgC, fossil-fuel emissions leave 20 per cent of the
+        atmospheric perturbation and about 1 °C of warming, while the same quantity from
+        deforestation with regrowth returns CO2 close to preindustrial
+      paper: jayakrishnan-2022-fossil-vs-deforestation
+    - claim: >
+        Doubling CO2 warms land 2.86 K radiatively and a further 0.42 K purely by closing plant
+        stomata, and that physiological effect raises global runoff more than the radiative effect
+        does — 8.4 per cent against 5.2 per cent
+      paper: cao-2010-physiological-forcing
+    - claim: >
+        Burning all currently estimated fossil fuel resources warms the world about 8 K by 2300
+        and takes atmospheric CO2 to 1,423 ppmv, with nearly half of cumulative emissions still
+        airborne at that date
+      paper: bala-2005-multicentury-fossil-fuel
+    - claim: >
+        Allowing for C4 photosynthesis, which persists below 10 ppm CO2, extends the life span of
+        the biosphere from roughly 100 million years to at least 0.9 to 1.5 billion
+      paper: caldeira-1992-life-span-biosphere
+    - claim: >
+        Sustained enhancement of Cenozoic chemical weathering requires a matching increase in CO2
+        supply, which the Jurassic shift of carbonate deposition to the deep sea floor — recycled
+        through subduction zones — could have provided
+      paper: caldeira-1992-cenozoic-weathering
+    - claim: >
+        Neither climate modulation nor altruism can have been the primary evolutionary driver of
+        planktonic dimethylsulphide production, since altruistic production is not an
+        evolutionarily stable strategy; local benefits such as osmoregulation can
+      paper: caldeira-1989-planktonic-sulphur
 
 - id: climate-and-energy
   title: Climate and energy
@@ -238,6 +277,20 @@
         tonnes of hydrogen a year, replacing 30 per cent of the continent's fossil-derived
         hydrogen and cutting ammonia and refinery emissions by 20 million tonnes of CO2
       paper: ganter-2025-curtailed-power-hydrogen
+    - claim: >
+        Net-zero scenarios lower overall trade-related energy security risk in 70 per cent of
+        countries by cutting fossil fuel imports, but raise risk to electricity or transport in
+        82 per cent of the countries that become more dependent on imported materials
+      paper: cheng-2025-trade-risks-energy-security
+    - claim: >
+        Dietary fats can be synthesized chemically for under 0.8 g CO2-equivalent per kilocalorie
+        against more than 1.5 g for palm oil, with large reductions in land and water use besides
+      paper: davis-2023-food-without-agriculture
+    - claim: >
+        Less than half of projected 2050 hydrogen demand could be produced domestically without
+        running into land or water scarcity, making Africa, South America, Canada and Australia
+        the likely exporters
+      paper: tonelli-2023-hydrogen-land-water-limits
 
 - id: climate-and-economics
   title: Climate and economics
@@ -308,6 +361,26 @@
         0.12 across 87 technologies — so cost projections built by extrapolating an observed
         learning rate carry far more uncertainty than they report
       paper: carlino-2025-technology-learning-rates
+    - claim: >
+        After Pakistan's 2022 Indus floods, elevated rebuilding would have protected 13 per cent
+        of those affected and relocation 16 per cent, while 70 per cent faced water shallow
+        enough for low-cost measures — at 26 to 63 per cent added reconstruction cost
+      paper: schmitt-2023-indus-flood-adaptation
+    - claim: >
+        A carbon tax that succeeds collects nothing, so a revenue-dependent government acquires a
+        reason to keep emissions going — an incentive that turns perverse around 2085 in the DICE
+        model
+      paper: wang-2017-carbon-tax-incentive
+    - claim: >
+        For equal spending and equal immediate cost reduction, research that shifts a technology's
+        learning curve beats research that merely moves along it, most of all for expensive
+        technologies that learn slowly
+      paper: shayegh-2017-clean-energy-rd
+    - claim: >
+        Optimal coastal investment depends on the rate of sea-level rise rather than any
+        particular amount, so adaptation designed for a climate state rather than an ongoing trend
+        misestimates both damages and adaptive capacity
+      paper: shayegh-2016-adapting-to-rates
 
 - id: solar-geoengineering
   title: Solar geoengineering
@@ -378,6 +451,36 @@
         precipitation adjustment is about -4.2 per cent per CO2 doubling but near zero for
         sunlight
       paper: cao-2011-precipitation-co2-forcing
+    - claim: >
+        Each 0.1 of interhemispheric difference in stratospheric aerosol optical depth shifts the
+        intertropical convergence zone 1.8° of latitude and cuts northern hemisphere monsoon
+        precipitation by 6.9 per cent
+      paper: roose-2023-monsoon-aerosol-asymmetry
+    - claim: >
+        Sulfate aerosols cool more when placed higher in the stratosphere even with the amount
+        held fixed, because heating the layer they occupy alters stratospheric water vapour,
+        tropospheric stability and cloud, and so the effective radiative forcing itself
+      paper: krishnamohan-2019-aerosol-altitude
+    - claim: >
+        Offsetting doubled-CO2 warming needs different forcing from each scheme — stratospheric
+        aerosol is about 15 per cent less efficacious than CO2, marine cloud brightening and
+        cirrus thinning about 10 per cent more — and each leaves a different hydrological cycle
+      paper: duan-2018-fast-slow-geoengineering
+    - claim: >
+        Combining stratospheric aerosol with cirrus cloud thinning restores both global mean
+        temperature and precipitation to preindustrial at once, which neither can do alone —
+        though regional agreement is no better than aerosol alone
+      paper: cao-2017-cocktail-geoengineering
+    - claim: >
+        Brightening marine clouds to offset doubled CO2 lowers global precipitation by about 1.3
+        per cent yet raises runoff over land by 7.5 per cent, because dimming only the ocean
+        drives sinking air over sea and rising air over land
+      paper: bala-2011-marine-cloud-albedo
+    - claim: >
+        Reduced solar luminosity largely cancels the regional and seasonal climate change from
+        quadrupled CO2, but leaves tropical cooling and drying, incomplete polar compensation, a
+        still-cold stratosphere and sea ice not fully restored
+      paper: govindasamy-2003-quadrupled-co2
 
 - id: ocean-acidification
   title: Ocean acidification and the ocean carbon cycle
@@ -436,6 +539,11 @@
         toward pre-industrial values, raised net community calcification by 6.9 per cent —
         evidence that acidification is already suppressing reef growth
       paper: albright-2016-reversal-acidification
+    - claim: >
+        Ocean absorption of fossil fuel CO2 may change surface pH more over the coming centuries
+        than anything inferred from the geological record of the past 300 million years, short of
+        a bolide impact or catastrophic methane hydrate release
+      paper: caldeira-2003-ocean-ph
 
 - id: wind-power-geophysics
   title: Geophysics of wind power
@@ -549,6 +657,16 @@
         coincide with a stratigraphic sequence boundary, and both records independently carry the
         same 31-million-year cycle at better than 99.9 per cent confidence
       paper: rampino-2025-sequence-stage-boundaries
+    - claim: >
+        All six major marine mass extinctions of the past 541 million years coincide with dated
+        continental flood basalt eruptions, as do six minor ones, each marked by stratigraphic
+        mercury anomalies confirming the synchrony
+      paper: rampino-2024-extinctions-igneous-provinces
+    - claim: >
+        Ocean anoxic events, marine extinctions and flood basalt eruptions of the last 260 million
+        years share underlying cycles of about 32.5 and 26.2 million years, with 13 of 17 anoxic
+        intervals carrying mercury anomalies marking contemporaneous volcanism
+      paper: rampino-2023-geologic-astronomical-cycles
 
 - id: macro-energy-modeling
   title: Macro-energy modeling
@@ -618,3 +736,18 @@
         least-cost zero-carbon system cannot be predicted with confidence, and cutting one
         technology's cost does not reliably increase how much of it gets built
       paper: duan-2024-cost-uncertainty
+    - claim: >
+        A wind, solar, battery and hydrogen system meeting every hour of Oahu's demand across 14
+        years of weather would cost $0.1673/kWh, below the $0.2126 to $0.2987 its
+        petroleum-fired system actually cost in 2022-23, and would use less land than a
+        battery-only system
+      paper: covelli-2024-oahu-island-system
+    - claim: >
+        In wind and solar systems with abundant curtailed power, system cost is sensitive to the
+        capital cost of hydrogen storage's discharge component and barely at all to round-trip
+        efficiency — efficiency only starts to matter once capital costs have fallen
+      paper: dowling-2024-hydrogen-storage-systems
+    - claim: >
+        Sequentially removing whichever firming technology is most valuable shows that reliable
+        wind-and-solar systems do not depend on the feasibility of any particular one
+      paper: wongel-2023-firming-technologies

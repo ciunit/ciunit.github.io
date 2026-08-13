@@ -1,0 +1,75 @@
+id: bala-2010-fast-versus-slow
+doi: 10.1007/s00382-009-0583-y
+title: >
+  Fast versus slow response in climate change: implications for the global hydrological cycle
+authors:
+  - Govindasamy Bala
+  - Ken Caldeira
+  - Ramakrishna Nemani
+journal: Climate Dynamics
+volume: "35"
+pages: 423-434
+date: "2010-08"
+year: 2010
+themes:
+  - solar-geoengineering
+  - climate-and-carbon-cycle
+
+description: >
+  Solar and CO2 forcing appear to give different hydrological sensitivities only because of their
+  fast responses — remove those and the slow response of the water cycle per degree of warming is
+  the same for both.
+
+question:
+  - >
+    Changes in global mean precipitation had been found to be larger for solar forcing than for
+    carbon dioxide forcing of the same magnitude, which suggested the hydrological cycle responds
+    differently depending on what drives the warming.
+  - >
+    This paper asked where that difference actually lives — in the climate's slow feedback
+    response, or in the fast adjustment that happens before the surface temperature has moved at
+    all.
+
+key_finding: >
+  The apparent difference in hydrological sensitivity between solar and carbon dioxide forcing
+  originates entirely in their fast responses; once fast responses are excluded from the
+  definition, the hydrological sensitivity is the same for both, so the slow response of the
+  water cycle is independent of the forcing mechanism.
+
+findings:
+  - >
+    Adjusted radiative forcing and fast response are estimated with Hansen's fixed-sea-surface-
+    temperature method, and the total climate system response with mixed-layer simulations in the
+    same model, so the two components can be separated cleanly.
+  - >
+    The fast response is not a correction term. For precipitation and evaporation it is almost
+    40% of the total response.
+  - >
+    With fast responses removed, solar and carbon dioxide forcing give the same hydrological
+    sensitivity — the change in global mean precipitation per unit of warming.
+  - >
+    That makes the slow feedback of the hydrological cycle a property of the climate system
+    rather than of what disturbed it, while everything distinctive about each forcing agent sits
+    in the fast adjustment.
+  - >
+    The authors recommend that multi-model intercomparisons compare fast and slow responses
+    separately, since a combined figure mixes a universal response with an agent-specific one.
+
+matters:
+  - >
+    It resolves an apparent inconsistency into a clean decomposition. Two forcings that looked
+    like they drove different water cycles turn out to drive the same one, differing only in the
+    adjustment that precedes it.
+  - >
+    That is what makes solar geoengineering's hydrological problem structural. The mismatch
+    between reduced sunlight and elevated carbon dioxide is established in the fast response,
+    before any warming, so no amount of tuning the intervention removes it.
+  - >
+    The methodological recommendation has outlasted the particular result: separating fast from
+    slow is now standard practice in comparing forcing agents.
+
+related:
+  - cao-2012-fast-response-days-weeks
+  - cao-2015-fast-slow-responses
+  - duan-2018-fast-slow-geoengineering
+  - bala-2011-marine-cloud-albedo

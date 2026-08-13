@@ -1,0 +1,96 @@
+id: covelli-2024-oahu-island-system
+doi: 10.1016/j.apenergy.2024.124054
+title: >
+  Oahu as a case study for island electricity systems relying on wind and solar generation
+authors:
+  - Dominic Covelli
+  - Edgar Virgüez
+  - Ken Caldeira
+  - Nathan S. Lewis
+journal: Applied Energy
+volume: "375"
+pages: "124054"
+date: "2024-12"
+year: 2024
+themes:
+  - macro-energy-modeling
+  - wind-and-solar-reliability
+
+description: >
+  A wind, solar, battery and hydrogen system meeting every hour of Oahu's demand across 14 years
+  of weather would cost $0.1673 per kilowatt-hour — below the $0.2126 to $0.2987 the island's
+  petroleum-fired system actually cost in 2022 to 2023.
+
+question:
+  - >
+    Hawaii has legislated that all its electricity come from renewable resources, and Oahu
+    currently burns imported petroleum to make it. Islands are the hard case for wind and solar:
+    no neighbours to import from, no transmission to average weather over, and a small land area.
+  - >
+    This paper asked whether wind and solar with storage could meet every hour of Oahu's demand
+    across many years of real weather, what it would cost against the petroleum system it would
+    replace, and how much of the island it would occupy.
+
+key_finding: >
+  Using 14 consecutive years of hourly wind, solar and demand data and current asset costs, a
+  least-cost wind-solar-battery-hydrogen system meeting 100% of Oahu's hourly demand would cost
+  $0.1673 per kilowatt-hour and occupy 265 square kilometres, against the $0.2126 to $0.2987 per
+  kilowatt-hour that Oahu's petroleum-dominated system cost from October 2022 to September 2023.
+
+findings:
+  - >
+    The system is required to meet 100% of hourly averaged demand across all 14 years, so it is
+    sized against a long record of real variability rather than a representative year.
+  - >
+    With batteries as the only storage, the least-cost system costs $0.2458 per kilowatt-hour
+    and takes 332 square kilometres — 21.4% of Oahu's land area. That is already inside the
+    range the petroleum system costs today.
+  - >
+    Adding hydrogen as a second, long-duration store improves both numbers at once: cost falls
+    to $0.1673 per kilowatt-hour and land use to 265 square kilometres, or 17.1% of the island.
+  - >
+    Cheaper and smaller together is the notable part. Long-duration storage substitutes for
+    overbuilt generation, so the land that would have gone under panels and turbines is not
+    needed.
+  - >
+    All of this uses current asset costs, not projected ones, so the comparison does not depend
+    on assumed future cost declines.
+
+matters:
+  - >
+    Islands are usually treated as the place where wind and solar are hardest and most expensive.
+    Here the isolated, petroleum-dependent case is where they are already cheaper — because the
+    incumbent is imported oil rather than cheap domestic gas or coal.
+  - >
+    Land is the binding constraint on an island, and it is the constraint that long-duration
+    storage relieves. That reframes hydrogen storage as a land-use technology as much as a
+    reliability one.
+  - >
+    The conclusion generalises to other isolated regions with similar resources and a reliance
+    on imported petroleum, which is a large fraction of the world's islands and remote grids.
+
+figure:
+  file: covelli-2024-oahu-island-system.webp
+  source_figure: Figure 3
+  alt: >
+    Two stacked bar charts. Panel a is system cost in dollars per kilowatt-hour: today's
+    petroleum system at about 0.25, a wind-solar-battery system at about 0.246, and a system with
+    hydrogen energy storage at about 0.167, broken down by technology. Panel b is system land use
+    in square kilometres: about 332 for wind-solar-battery and about 265 with hydrogen storage,
+    with a dashed line marking the solar capacity that could be built on rooftops for zero
+    dedicated land.
+  caption: >
+    Adding hydrogen storage lowers both bars at once. It is cheaper than the battery-only system
+    *and* the petroleum system it would replace, and it needs less of the island — because
+    long-duration storage substitutes for the generating capacity that would otherwise have to be
+    overbuilt.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Covelli et al. (2024), Applied Energy 375, 124054
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - dowling-2020-long-duration-storage
+  - li-2024-storage-portfolios
+  - tong-2021-geophysical-constraints

@@ -1,0 +1,95 @@
+id: shayegh-2017-clean-energy-rd
+doi: 10.1016/j.enpol.2017.05.029
+title: >
+  Evaluating relative benefits of different types of R&D for clean energy technologies
+authors:
+  - Soheil Shayegh
+  - Daniel L. Sanchez
+  - Ken Caldeira
+journal: Energy Policy
+volume: "107"
+pages: 532-538
+date: "2017-08"
+year: 2017
+themes:
+  - climate-and-economics
+
+description: >
+  For the same money and the same immediate cost reduction, research that shifts a technology's
+  learning curve beats research that merely moves it along the curve faster — and the advantage
+  is largest for expensive technologies that learn slowly.
+
+question:
+  - >
+    Clean energy technologies that start out more expensive than fossil alternatives need
+    subsidy to reach parity, and research and development is meant to shorten that. But R&D is
+    not one thing.
+  - >
+    Some research produces knowledge that deployment would eventually have generated anyway;
+    other research produces innovations that deployment would never have produced. This paper
+    asked whether that distinction changes how much a research dollar is worth.
+
+key_finding: >
+  Comparing the two through the learning investment — the subsidy needed to bring a new
+  technology to cost parity — an equal investment producing an equal immediate cost reduction is
+  more effective when it shifts the learning curve than when it merely follows it, and the
+  advantage grows as starting cost rises and the learning rate falls.
+
+findings:
+  - >
+    The two types are defined precisely. Curve-following R&D lowers cost by producing knowledge
+    that would otherwise have been gained through learning-by-doing; curve-shifting R&D lowers
+    cost through innovations that learning-by-doing would not have produced.
+  - >
+    The comparison uses learning investment as the yardstick: the total subsidy required to reach
+    cost parity with the conventional technology, which captures the whole path rather than an
+    instantaneous cost.
+  - >
+    Holding the immediate cost reduction equal, curve-shifting R&D reduces the learning
+    investment more. Following the curve buys progress that deployment would have delivered
+    regardless; shifting it buys progress that would not have arrived.
+  - >
+    The gap widens for technologies with a high starting cost and a low learning rate — the
+    hardest cases, where waiting for learning-by-doing takes longest.
+  - >
+    The policy conclusion is stated plainly: other things equal, governments setting research
+    policy should weight transformational change over incremental change.
+
+matters:
+  - >
+    It gives a reason to prefer risky research that is not simply appetite for risk. The argument
+    is about non-substitutability — incremental improvement competes with a process that would
+    have happened anyway, and transformational improvement does not.
+  - >
+    The condition under which the advantage is largest is the useful part. Cheap, fast-learning
+    technologies do not need curve-shifting research; expensive, slow-learning ones do, which is
+    a concrete rule for allocating a research budget.
+  - >
+    It also sits against the finding that past learning rates barely predict future ones. If the
+    curve itself is unstable, then research that moves the curve is acting on the thing that
+    actually varies.
+
+figure:
+  file: shayegh-2017-clean-energy-rd.webp
+  source_figure: Figure 3
+  alt: >
+    A plot of the shifting-to-following benefit ratio, from 1 to 4, against learning rate from 0
+    to 25 per cent. A family of curves is labelled by cost ratio from 2 up to 256, each rising
+    with learning rate. Four technologies are placed on the plane: hydro at far left with a low
+    learning rate, offshore wind high on the vertical axis, onshore wind and biomass in the
+    middle, and solar photovoltaics at the right with the highest learning rate.
+  caption: >
+    The vertical axis is how much more a curve-shifting research dollar buys than a
+    curve-following one. It is highest for technologies that start expensive and learn slowly —
+    offshore wind, at the top — and lowest for solar photovoltaics, which is already cheap and
+    learning fast.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Shayegh, Sanchez and Caldeira (2017), Energy Policy 107, 532-538
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - carlino-2025-technology-learning-rates
+  - caldeira-2023-green-premium
+  - duan-2024-cost-uncertainty

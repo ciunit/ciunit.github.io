@@ -1,0 +1,98 @@
+id: schmitt-2023-indus-flood-adaptation
+doi: 10.1088/1748-9326/acfc59
+title: >
+  Move up or move over: mapping opportunities for climate adaptation in Pakistan's Indus plains
+authors:
+  - Rafael J. P. Schmitt
+  - Edgar Virgüez
+  - Sara Ashfaq
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "18"
+pages: "114024"
+date: "2023-10-25"
+year: 2023
+themes:
+  - climate-and-economics
+
+description: >
+  Rebuilding elevated would have protected 13% of the people hit by Pakistan's 2022 Indus floods
+  and relocation another 16%, while 70% faced water shallow enough for low-cost measures — but
+  flood-proofed rebuilding alone adds 26 to 63% to reconstruction costs.
+
+question:
+  - >
+    The 2022 Indus floods put 30 to 40 million people's homes under water and permanently
+    displaced 8 million. Reconstruction after a disaster is the moment when adaptation is
+    cheapest to build in, because the rebuilding is happening anyway.
+  - >
+    Knowing which measure to apply where requires flood-stage and demographic data at high
+    resolution, which Pakistan's floodplains largely lack. This paper asked whether a rapid
+    assessment could nonetheless identify where each option would work, and what it would cost.
+
+key_finding: >
+  For the 2022 Indus floods, rebuilding houses elevated and flood-proofed would have protected
+  13% of affected people and temporary relocation a further 16%, while the remaining 70% faced
+  water shallow enough to address with low-cost measures — but flood-proofed rebuilding alone
+  would raise reconstruction costs by 26 to 63%, or $1.5 to $3.6 billion on top of $5.8 billion.
+
+findings:
+  - >
+    The method pairs a high-resolution rapid assessment of flood stages with demographic data, so
+    the depth of water each population faced can be matched to the adaptation that would have
+    helped.
+  - >
+    The population splits three ways rather than two. Moving up protects 13%, moving over 16%,
+    and the large remainder — 70% — were exposed to water shallow enough that low-cost measures
+    would have sufficed.
+  - >
+    That last group is the important one, because it means most of the exposure does not require
+    either expensive elevation or displacement.
+  - >
+    The costs are substantial even so. Flood-proofed rebuilding adds $1.5 to $3.6 billion to an
+    estimated $5.8 billion reconstruction, a 26 to 63% increase, before any relocation or
+    adaptation of other infrastructure is counted.
+  - >
+    The authors are explicit that missing local flood-stage and socio-economic data is a real
+    source of uncertainty, and present the approach as a prototype for rapid post-disaster
+    assessment rather than a finished plan.
+
+matters:
+  - >
+    It answers a question that arrives with a deadline. Reconstruction begins within weeks of a
+    flood, long before a careful multi-year study could report, so a rapid method that is roughly
+    right is worth more than a precise one that arrives late.
+  - >
+    Splitting the affected population by water depth changes what adaptation means here. Most
+    people did not need to move or to be raised — they needed something cheap — and a policy
+    built only around elevation and relocation would spend heavily to protect a minority.
+  - >
+    It also states the cost honestly rather than presenting adaptation as free. Adding a quarter
+    to two-thirds to a reconstruction bill is a real fiscal choice for Pakistan, and one made
+    under the same constraint that makes the country vulnerable in the first place.
+
+figure:
+  file: schmitt-2023-indus-flood-adaptation.webp
+  source_figure: Figure 4
+  alt: >
+    A composite panel. A scatter plot of flood depth against distance to dry land, coloured by
+    the number of people affected, is divided into zones labelled "move up", "move over" and
+    "relocate". Cumulative curves show how many of the nearly 40 million impacted people fall in
+    each zone, with a small bar chart summarising the four categories. Photographs show a house
+    on stilts and a fortified dwelling. A map of Pakistan's Indus floodplains shades each area by
+    which adaptation option applies, in blue, green and red.
+  caption: >
+    Depth of water and distance to dry ground decide which adaptation is available, and the
+    scatter shows most of the affected population sitting in shallow water close to safety — the
+    cheap-to-address majority. Only the red areas on the map need relocation or hard adaptation.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Schmitt et al. (2023), Environmental Research Letters 18, 114024
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - duan-2025-adaptation-abatement
+  - chen-2020-migration-incentive
+  - wongel-2025-cooling-deficit

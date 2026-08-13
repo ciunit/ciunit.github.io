@@ -1,0 +1,71 @@
+id: caldeira-1989-planktonic-sulphur
+doi: 10.1038/337732a0
+title: >
+  Evolutionary pressures on planktonic production of atmospheric sulphur
+authors:
+  - Ken Caldeira
+journal: Nature
+volume: "337"
+pages: 732-734
+date: "1989-02"
+year: 1989
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Marine phytoplankton produce the dimethylsulphide that seeds marine clouds, but neither climate
+  modulation nor altruism can have been the primary evolutionary driver — local benefits such as
+  osmoregulation can.
+
+question:
+  - >
+    Dimethylsulphide from marine phytoplankton is the major source of cloud condensation nuclei
+    over the remote ocean, and so a genuine influence on global climate. That led to a striking
+    proposal: that plankton evolved to produce it *because* of the climate it creates, with
+    altruism among neighbouring organisms sustaining the trait.
+  - >
+    This paper asked whether that pathway survives contact with evolutionary theory — whether
+    selection could actually favour an organism paying a cost to modulate the climate.
+
+key_finding: >
+  Calculations of relative evolutionary pressure under both individual-selection and
+  group-selection models indicate that neither climate modulation nor altruism could have been the
+  primary factor in the evolution of mid-ocean dimethylsulphide production, which is instead best
+  explained by selection on local interactions such as osmoregulation.
+
+findings:
+  - >
+    The argument turns on stability rather than plausibility. A non-altruistic neighbour of an
+    altruist reproduces faster, so altruistic dimethylsulphide production is not an evolutionarily
+    stable strategy — it is open to invasion by non-producers.
+  - >
+    Group selection does not rescue it either. Models in which altruist-rich groups grow faster
+    require intergroup mixing to be quicker than within-group ecological turnover, a condition
+    the mid-ocean does not meet.
+  - >
+    A benefit that accrues directly to the producer is a different matter, and would not count as
+    altruism at all under the definition used, even if neighbours also gain.
+  - >
+    Osmoregulation is such a benefit — dimethylsulphide has a role in managing salt stress, which
+    pays the individual cell that makes it.
+  - >
+    The conclusion does not deny the climatic effect. A dimethylsulphide-climate feedback loop
+    may well modulate fluctuations in Earth's climate; what it cannot do is explain why the trait
+    evolved.
+
+matters:
+  - >
+    It separates a mechanism from its supposed purpose. Plankton do influence cloud formation and
+    climate, and that influence is real whether or not it was selected for — the error is
+    inferring the evolutionary cause from the planetary consequence.
+  - >
+    The reasoning is a specific check on Gaian arguments generally. Any claim that an organism
+    evolved a trait for the good of the biosphere has to survive the invasion problem, and most
+    do not.
+  - >
+    What remains is arguably more interesting: a globally significant climate feedback that
+    arises as a side effect of cells managing their own salt balance.
+
+related:
+  - bala-2011-marine-cloud-albedo
+  - ridgwell-2003-carbonate-climate-stability

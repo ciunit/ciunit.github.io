@@ -1,0 +1,90 @@
+id: cao-2010-physiological-forcing
+doi: 10.1073/pnas.0913000107
+title: >
+  Importance of carbon dioxide physiological forcing to future climate change
+authors:
+  - Long Cao
+  - Govindasamy Bala
+  - Ken Caldeira
+  - Ramakrishna Nemani
+  - George Ban-Weiss
+journal: Proceedings of the National Academy of Sciences
+volume: "107"
+pages: 9513-9518
+date: "2010-05-25"
+year: 2010
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Doubling CO2 warms land 2.86 K through its radiative effect and a further 0.42 K purely by
+  making plants close their stomata — and that physiological effect raises global runoff more
+  than the radiative effect does, 8.4% against 5.2%.
+
+question:
+  - >
+    Carbon dioxide changes climate two ways. It traps longwave radiation, which is the effect
+    everyone models. It also makes plants partly close their stomata, reducing transpiration,
+    which warms and dries the land surface independently of any radiative change.
+  - >
+    The second effect is routinely omitted or treated as secondary. This paper asked how large it
+    actually is, by separating the two in a coupled land-atmosphere model.
+
+key_finding: >
+  In response to doubled carbon dioxide, the radiative effect raises mean surface air temperature
+  over land by 2.86 ± 0.02 K and the physiological effect on land plants adds a further
+  0.42 ± 0.02 K — and for runoff the physiological effect is the larger of the two, contributing
+  8.4 ± 0.6% against the radiative effect's 5.2 ± 0.6%.
+
+findings:
+  - >
+    Separating the two effects in the NCAR coupled Community Land and Community Atmosphere Model
+    gives land warming of 2.86 K radiative, 0.42 K physiological, and 3.33 ± 0.03 K combined.
+  - >
+    For runoff the ordering reverses. The radiative effect adds 5.2% mainly by increasing
+    precipitation over the continents; the physiological effect adds 8.4% mainly by cutting
+    evapotranspiration from them.
+  - >
+    Combined, runoff rises 14.9 ± 0.7% — so roughly half the projected increase comes from a
+    mechanism that has nothing to do with trapping heat.
+  - >
+    The two effects reach the same outcome by opposite routes: one adds water from above, the
+    other stops plants returning it to the air.
+
+matters:
+  - >
+    It makes plant physiology a first-order term in projections of the land water cycle rather
+    than a refinement. A model that omits stomatal closure understates land warming by about 15%
+    and understates runoff increase by more than half.
+  - >
+    That has direct consequences for flood and water resource projections, since runoff is what
+    rivers carry — and the omitted term is the larger contributor.
+  - >
+    It also means carbon dioxide cannot be fully represented by its radiative forcing, which is
+    the same reason solar geoengineering cannot exactly reverse it: sunlight does not close
+    stomata.
+
+figure:
+  file: cao-2010-physiological-forcing.webp
+  source_figure: Figure 2
+  alt: >
+    A three-by-three grid of world maps. Rows are the radiative effect of carbon dioxide, its
+    physiological effect on plants, and the two combined; columns are surface air temperature in
+    kelvin, runoff in millimetres per day, and near-surface relative humidity. The radiative row
+    is uniformly warm across the continents; the physiological row shows weaker warming but
+    comparably strong runoff increases, concentrated over the Amazon, central Africa and
+    Southeast Asia.
+  caption: >
+    Compare the middle row with the top. Plant stomatal closure produces far less warming than
+    the radiative effect but a comparable — in fact larger — increase in runoff, and it does so
+    over exactly the tropical forests where transpiration matters most.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Cao et al. (2010), Proceedings of the National Academy of Sciences 107, 9513-9518
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - cao-2012-fast-response-days-weeks
+  - bala-2007-deforestation
+  - pagani-2009-terrestrial-plants-co2

@@ -1,0 +1,101 @@
+id: roose-2023-monsoon-aerosol-asymmetry
+doi: 10.1007/s00382-023-06799-3
+title: >
+  Quantification of tropical monsoon precipitation changes in terms of interhemispheric
+  differences in stratospheric sulfate aerosol optical depth
+authors:
+  - Shinto Roose
+  - Govindasamy Bala
+  - K. S. Krishnamohan
+  - Long Cao
+  - Ken Caldeira
+journal: Climate Dynamics
+volume: "61"
+pages: 4243-4258
+date: "2023-11"
+year: 2023
+themes:
+  - solar-geoengineering
+
+description: >
+  Every 0.1 of interhemispheric difference in stratospheric aerosol optical depth shifts the
+  intertropical convergence zone 1.8 degrees of latitude and cuts northern hemisphere monsoon
+  precipitation by 6.9%.
+
+question:
+  - >
+    Stratospheric aerosol geoengineering is known to disturb the hydrological cycle, and the
+    monsoons are where that matters most for people. But how much a given aerosol distribution
+    would move monsoon rainfall has not been reducible to a simple number.
+  - >
+    This paper asked whether the effect can be expressed as a sensitivity — how much monsoon
+    precipitation changes per unit of asymmetry in how the aerosol is spread between the
+    hemispheres.
+
+key_finding: >
+  Per 0.1 of interhemispheric difference in stratospheric aerosol optical depth, northern
+  hemisphere minus southern, the global mean intertropical convergence zone shifts 1.8 ± 0.0
+  degrees of latitude and the northern hemisphere monsoon index falls by 6.9 ± 0.4 per cent.
+
+findings:
+  - >
+    The mechanism runs through the intertropical convergence zone. Making one hemisphere more
+    reflective than the other cools it relatively, and the convergence zone — and the rain that
+    comes with it — migrates toward the warmer hemisphere.
+  - >
+    The sensitivity is 1.8 degrees of meridional ITCZ shift and a 6.9% reduction in northern
+    hemisphere monsoon precipitation per 0.1 of interhemispheric aerosol optical depth
+    difference.
+  - >
+    The same sensitivity is expressed in two other currencies, so it can be applied to studies
+    that report forcing rather than optical depth: 3.5 ± 0.3% change in the monsoon index per
+    watt per square metre of interhemispheric radiative forcing difference, and 5.9 ± 0.4% per
+    degree Celsius of interhemispheric temperature difference.
+  - >
+    Effects are largest over India, and equivalent sensitivities are quantified for Indian
+    monsoon precipitation specifically.
+  - >
+    Because the relationship is close to linear, the effect of a proposed aerosol distribution on
+    monsoon rainfall can be estimated without running the full model each time.
+
+matters:
+  - >
+    It turns a qualitative warning into a design constraint. That solar geoengineering could
+    disturb the monsoons was already understood; a sensitivity per unit of interhemispheric
+    asymmetry says how much asymmetry is tolerable, which is something a deployment scheme can
+    actually be checked against.
+  - >
+    The asymmetry, not the total, is what does the damage. An aerosol loading distributed evenly
+    between the hemispheres moves the convergence zone far less than the same total loading
+    placed unevenly — which makes where the aerosol goes a first-order design question.
+  - >
+    It bears directly on who would bear the cost. The monsoon regions most affected are among
+    the most populous and least able to absorb a rainfall shortfall, so the distributional
+    consequence of an aerosol scheme is not incidental to it.
+
+figure:
+  file: roose-2023-monsoon-aerosol-asymmetry.webp
+  source_figure: Figure 10
+  alt: >
+    A grouped bar chart of the percentage change in summer monsoon precipitation for four
+    indices — Indian summer monsoon, northern hemisphere, southern hemisphere and tropical —
+    shown three times: per 0.1 of interhemispheric aerosol optical depth difference, per unit of
+    interhemispheric effective radiative forcing, and per unit of interhemispheric temperature
+    difference. In every grouping the Indian and northern hemisphere bars move strongly in one
+    direction, the southern hemisphere bar the other, and the tropical total stays near zero.
+  caption: >
+    The northern and southern bars are near mirror images and the tropical total barely moves —
+    an interhemispheric aerosol asymmetry does not change how much it rains in the tropics so
+    much as move the rain from one hemisphere to the other. The Indian monsoon takes the largest
+    share of that redistribution.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Roose et al. (2023), Climate Dynamics 61, 4243-4258
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - ban-weiss-2010-optimization
+  - pongratz-2012-geoengineered-crop-yields
+  - cao-2011-precipitation-co2-forcing

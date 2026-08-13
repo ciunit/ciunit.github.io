@@ -1,0 +1,103 @@
+id: duan-2018-fast-slow-geoengineering
+doi: 10.1029/2018JD029034
+title: >
+  Comparison of the fast and slow climate response to three radiation management geoengineering
+  schemes
+authors:
+  - Lei Duan
+  - Long Cao
+  - Govindasamy Bala
+  - Ken Caldeira
+journal: "Journal of Geophysical Research: Atmospheres"
+volume: "123"
+date: "2018-11-16"
+year: 2018
+themes:
+  - solar-geoengineering
+
+description: >
+  Three geoengineering schemes need different amounts of forcing to cancel the same warming —
+  stratospheric aerosol is about 15% less efficacious than CO2 while marine cloud brightening and
+  cirrus thinning are about 10% more — and each leaves a different hydrological cycle behind.
+
+question:
+  - >
+    Solar geoengineering is often discussed as though the method were interchangeable: reduce
+    the energy retained by some means and the warming is offset. But the schemes act on different
+    parts of the spectrum, at different altitudes, over different surfaces.
+  - >
+    This paper asked whether a watt of forcing from each scheme does the same work as a watt from
+    carbon dioxide, and what each leaves behind in temperature contrast and rainfall once the
+    global mean is balanced.
+
+key_finding: >
+  Offsetting the warming from doubled carbon dioxide requires different amounts of forcing from
+  each scheme: stratospheric aerosol increase has a radiative forcing efficacy about 15% smaller
+  than carbon dioxide, while marine cloud brightening and cirrus cloud thinning are each about
+  10% larger — and the apparent hydrological sensitivity differs substantially between all four
+  forcings.
+
+findings:
+  - >
+    Slab-ocean and prescribed sea surface temperature simulations in the NCAR Community Earth
+    System Model compare three schemes — stratospheric aerosol increase, marine cloud brightening
+    and cirrus cloud thinning — against carbon dioxide forcing.
+  - >
+    With forcing defined as top-of-atmosphere imbalance in prescribed-sea-surface-temperature
+    runs with land temperature adjustment, efficacy is about 15% below carbon dioxide for
+    stratospheric aerosol and about 10% above it for the two cloud schemes.
+  - >
+    Those differences trace to different feedback processes acting on each forcing agent, not to
+    the size of the forcing.
+  - >
+    The schemes also produce different land-ocean temperature change contrasts, so a global mean
+    that has been restored can still leave continents and oceans differently displaced.
+  - >
+    Apparent hydrological sensitivity — the change in global mean precipitation per degree of
+    temperature change — differs substantially between carbon dioxide and all three schemes,
+    mainly because their fast precipitation adjustments differ.
+  - >
+    Once the fast adjustment is removed, the northward movement of the intertropical convergence
+    zone under each forcing agent is tightly related to changes in interhemispheric energy
+    exchange and the hemispheric temperature gradient.
+
+matters:
+  - >
+    It makes clear that "solar geoengineering" is not one intervention. The schemes differ by
+    tens of per cent in how much cooling a unit of forcing buys, so estimates built on one cannot
+    be carried over to another.
+  - >
+    Separating fast adjustment from slow response is what makes the hydrological differences
+    legible. Most of the divergence in precipitation is established before the surface has warmed
+    or cooled, which is why it cannot be tuned away by adjusting the amount of intervention.
+  - >
+    The intertropical convergence zone result gives a single organising principle: where the rain
+    band sits follows from the interhemispheric energy balance, whatever the agent that disturbed
+    it.
+
+figure:
+  file: duan-2018-fast-slow-geoengineering.webp
+  source_figure: Figure 6
+  alt: >
+    A scatter plot of change in global mean precipitation, from about minus 9 to plus 5 per cent,
+    against change in global mean surface temperature, from minus 4 to 0 kelvin, each relative to
+    doubled carbon dioxide. Four fitted lines with error bars are shown for one-times carbon
+    dioxide in black, stratospheric aerosol increase in green, marine cloud brightening in red,
+    and cirrus cloud thinning in blue, with slopes annotated as 2.70, 2.81, 2.51 and 2.67 per cent
+    per kelvin and intercepts of 3.18, 1.48, 0.43 and 6.66.
+  caption: >
+    The four lines have similar slopes but different intercepts, and the intercept is the fast
+    adjustment — the precipitation change established before the surface temperature responds.
+    That offset, not the slope, is what makes the hydrological consequences of each scheme
+    differ.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Duan et al. (2018), Journal of Geophysical Research: Atmospheres 123
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - cao-2017-cocktail-geoengineering
+  - cao-2012-fast-response-days-weeks
+  - cao-2015-fast-slow-responses
+  - krishnamohan-2019-aerosol-altitude
