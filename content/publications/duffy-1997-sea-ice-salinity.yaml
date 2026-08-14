@@ -60,5 +60,26 @@ matters:
     losing Antarctic sea ice would change the salinity and therefore the density structure of
     the global ocean, with effects reaching far beyond the Southern Ocean.
 
+figure:
+  file: duffy-1997-sea-ice-salinity.webp
+  source_figure: Figure 1
+  alt: >
+    Three stacked latitude-depth colour sections of annual mean Atlantic Ocean salinity, from the
+    surface to 4,800 metres and from 90 south to 90 north. The top panel is observations from
+    Levitus and Boyer, the middle the control simulation, and the bottom the test simulation.
+    The control is dominated by a large dark low-salinity mass through the southern and deep
+    ocean; the test simulation is much closer to the observed panel, with the intermediate-depth
+    structure restored.
+  caption: >
+    The middle panel is what the model does when salt rejected by forming sea ice is left in the
+    top 25 metres; the bottom panel is what it does when that salt is distributed through the
+    upper 160 metres. The second is visibly closer to the observations above it — the same change
+    that strengthens the simulated Antarctic Circumpolar Current.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Duffy and Caldeira (1997), Geophysical Research Letters 24, 1323-1326
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - caldeira-2000-southern-ocean

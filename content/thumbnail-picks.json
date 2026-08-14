@@ -83,9 +83,12 @@
     },
     "duan-2025-adaptation-abatement": 1,
     "duan-2025-temperature-extremes": 1,
+    "duffy-1997-sea-ice-salinity": 1,
     "ganter-2025-curtailed-power-hydrogen": 1,
+    "govindasamy-2000-first-simulations": 1,
     "govindasamy-2003-quadrupled-co2": 1,
     "herzog-2003-permanence-temporary-storage": 1,
+    "hoffert-1998-stabilization-energy": 1,
     "hoffert-2002-advanced-technology-paths": 1,
     "jayakrishnan-2022-fossil-vs-deforestation": {
       "page": 2,
@@ -108,6 +111,7 @@
     "praetorius-2018-north-pacific-heat-flux": 1,
     "rampino-1993-geologic-periodicity": 1,
     "rampino-2015-impact-cratering-periodicity": 1,
+    "rampino-2021-tetrapod-periodicity": 1,
     "rampino-2023-geologic-astronomical-cycles": 1,
     "rampino-2024-extinctions-igneous-provinces": 1,
     "rampino-2025-sequence-stage-boundaries": 1,
@@ -133,6 +137,7 @@
       "note": "IOP download stub on page 1"
     },
     "shayegh-2017-clean-energy-rd": 1,
+    "thomas-2025-aviation-cirrus": 1,
     "tonelli-2023-hydrogen-land-water-limits": 1,
     "tong-2019-committed-emissions": 1,
     "tong-2020-storage-cost-reductions": 1,

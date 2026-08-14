@@ -176,11 +176,29 @@
     }
   },
   "duan-2025-adaptation-abatement": 3,
+  "duffy-1997-sea-ice-salinity": {
+    "page": 3,
+    "rect": [
+      70,
+      28,
+      315,
+      417
+    ]
+  },
   "ganter-2025-curtailed-power-hydrogen": {
     "figure": 5,
     "trim": {
       "top": 0.17
     }
+  },
+  "govindasamy-2000-first-simulations": {
+    "page": 2,
+    "rect": [
+      47,
+      511,
+      534,
+      732
+    ]
   },
   "govindasamy-2003-quadrupled-co2": 2,
   "herzog-2003-permanence-temporary-storage": {
@@ -246,6 +264,7 @@
     ]
   },
   "rampino-2015-impact-cratering-periodicity": 1,
+  "rampino-2021-tetrapod-periodicity": 1,
   "rampino-2023-geologic-astronomical-cycles": 1,
   "rampino-2024-extinctions-igneous-provinces": 2,
   "rampino-2025-sequence-stage-boundaries": 1,
@@ -271,6 +290,15 @@
     "trim": {
       "top": 0.09
     }
+  },
+  "thomas-2025-aviation-cirrus": {
+    "page": 10,
+    "rect": [
+      150,
+      90,
+      568,
+      536
+    ]
   },
   "tonelli-2023-hydrogen-land-water-limits": 6,
   "tong-2019-committed-emissions": 1,

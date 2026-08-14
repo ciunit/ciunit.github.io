@@ -61,5 +61,23 @@ matters:
     periodicity alone never does. It moves the claim from a pattern in dates to a proposal
     about what caused the extinctions.
 
+figure:
+  file: rampino-2021-tetrapod-periodicity.webp
+  source_figure: Figure 1
+  alt: >
+    A power spectrum of the ages of ten extinction episodes of non-marine tetrapods over the past
+    260 million years, plotted against period from about 5 to 60 million years. A single dominant
+    peak rises near 27.5 million years, well above the surrounding spectrum, with a dashed line
+    marking the confidence level it crosses.
+  caption: >
+    One peak, at 27.5 million years. That the land-vertebrate record carries the same period
+    already reported for marine extinctions is what makes the signal hard to dismiss as an
+    artefact of how marine rocks are sampled.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Rampino, Caldeira and Zhu (2021), Historical Biology 33, 3084-3090
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - rampino-1993-geologic-periodicity

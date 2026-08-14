@@ -1,0 +1,87 @@
+id: hoffert-1998-stabilization-energy
+doi: 10.1038/27638
+title: >
+  Energy implications of future stabilization of atmospheric CO2 content
+authors:
+  - Martin I. Hoffert
+  - Ken Caldeira
+  - Atul K. Jain
+  - Erik F. Haites
+  - L. D. Danny Harvey
+  - Seth D. Potter
+  - Michael E. Schlesinger
+  - Stephen H. Schneider
+  - Robert G. Watts
+  - Tom M. L. Wigley
+  - Donald J. Wuebbles
+journal: Nature
+volume: "395"
+pages: 881-884
+date: "1998-10-29"
+year: 1998
+themes:
+  - climate-and-energy
+
+description: >
+  Even the no-policy baseline scenario already assumes 10 terawatts of carbon-free power by
+  2050 — as much as all of today's energy sources combined — and stabilizing CO2 requires tens
+  of terawatts more.
+
+question:
+  - >
+    The UN Framework Convention on Climate Change commits its parties to stabilizing greenhouse
+    gas concentrations at a safe level, but says nothing about what that would take physically.
+  - >
+    A concentration target is in the end a statement about energy supply: how much carbon-free
+    power must exist, and by when. This paper asked what the standard stabilization targets imply
+    in terawatts.
+
+key_finding: >
+  The standard no-policy baseline already assumes 10 terawatts of carbon-emission-free power by
+  2050 — equivalent to all of today's energy sources combined — and stabilizing atmospheric CO2
+  anywhere in the 750 to 350 parts-per-million range demands additional tens of terawatts of
+  carbon-free primary power, even with sustained improvement in the economic productivity of
+  energy.
+
+findings:
+  - >
+    The result begins from an uncomfortable observation about the baseline. The IS92a scenario
+    assumes no policy intervention at all, and it still contains 10 terawatts of carbon-free
+    power by 2050 — as much as the entire present-day energy system.
+  - >
+    A carbon-cycle and energy model is then used to estimate the carbon-free power required for
+    a range of stabilization targets, so the answer is expressed in the units an energy system
+    is actually built in.
+  - >
+    Stabilization alongside continued economic growth requires innovative, cost-effective
+    carbon-free technologies supplying additional tens of terawatts within decades, and certainly
+    by mid-century.
+  - >
+    The requirement grows steeply as the target tightens. Every step down through the 750 to 350
+    parts-per-million range raises the demand for carbon-free power.
+  - >
+    Improving how much economic output each unit of primary energy delivers helps, but not
+    enough to avoid the conclusion.
+  - >
+    The authors read the scale of the implied infrastructure transition as an argument for
+    massive investment in innovative energy research.
+
+matters:
+  - >
+    It reframed climate stabilization as an energy supply problem with a number attached. A
+    concentration target sounds like an environmental goal; expressed in terawatts of carbon-free
+    power it becomes an engineering and investment programme of a specific size.
+  - >
+    The point about the baseline is the sharpest one, and still routinely missed. Scenarios
+    described as business-as-usual already embed an enormous build-out of carbon-free energy, so
+    the incremental cost of a climate target is smaller than it looks — and the unconditional
+    task far larger.
+  - >
+    Written in 1998, it set the framing that this group's later work continues to use, and the
+    case for research investment rather than deployment alone follows directly from the size of
+    the gap.
+
+related:
+  - hoffert-2002-advanced-technology-paths
+  - caldeira-2003-climate-sensitivity-uncertainty
+  - davis-2018-net-zero-energy-systems

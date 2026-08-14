@@ -74,6 +74,31 @@ def dois_from_pdf(path: Path, known: set[str]) -> tuple[str | None, str]:
 
 
 YEAR_RE = re.compile(r"(1[89]\d\d|20\d\d)")
+JOURNAL_STOPWORDS = {"of", "the", "and", "in", "for", "on", "a", "an", "to", "at"}
+
+
+def journal_forms(journal: str) -> set[str]:
+    """The ways a journal name plausibly appears in a filename.
+
+    The reprint library abbreviates: `Geophysical Research Letters` is written
+    `GRL`, `Nature Climate Change` as `NatureCC`, `Advances in Applied Energy` as
+    `AdvApplEnergy`. Matching only the full concatenated name misses nearly every
+    older file, so generate the acronym and truncated-word forms too.
+    """
+    parts = [w for w in re.split(r"[^a-z]+", (journal or "").lower())
+             if w and w not in JOURNAL_STOPWORDS]
+    if not parts:
+        return set()
+    forms = {"".join(parts),                                  # geophysicalresearchletters
+             "".join(p[0] for p in parts),                    # grl
+             "".join(p[:3] for p in parts),                   # georeslet
+             "".join(p[:4] for p in parts)}                   # geopreselett
+    return {f for f in forms if len(f) >= 3}
+
+
+def journal_in(journal: str, alpha_stem: str) -> bool:
+    """Does the filename name this journal, in full or abbreviated?"""
+    return any(f in alpha_stem for f in journal_forms(journal))
 
 
 def from_filename(name: str, records: list[dict]) -> str | None:
@@ -112,11 +137,10 @@ def from_filename(name: str, records: list[dict]) -> str | None:
         title_words = {w for w in re.split(r"[^a-z0-9]+", (r.get("title") or "").lower())
                        if len(w) > 3}
         overlap = len(words & title_words)
-        journal = re.sub(r"[^a-z]", "", (r.get("journal") or "").lower())
         # Author and year alone are not enough — one author easily has several
-        # papers in a year. Require the slug to corroborate with two title words,
-        # or one plus the journal name appearing in the filename.
-        if overlap >= 2 or (overlap >= 1 and journal and journal in alpha):
+        # papers in a year. Require the slug to corroborate, either with two
+        # title words or by naming the journal.
+        if overlap >= 2 or journal_in(r.get("journal"), alpha):
             hits.append((overlap, r["doi"]))
     if not hits:
         return None

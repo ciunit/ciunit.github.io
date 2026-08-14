@@ -65,3 +65,25 @@ matters:
     It also points at an unusually tractable mitigation lever. If the warming is concentrated
     in cirrus formed at night and at high latitudes in winter, then rerouting or rescheduling
     a modest subset of flights would address a disproportionate share of the effect.
+
+figure:
+  file: thomas-2025-aviation-cirrus.webp
+  source_figure: Figure 4
+  alt: >
+    Six global maps in two columns, longwave forcing on the left and shortwave on the right.
+    The top row is instantaneous radiative forcing, confined to a narrow northern mid-latitude
+    band, red for longwave and blue for shortwave. The middle row is effective radiative forcing,
+    still concentrated in that band but with weaker signals spreading elsewhere. The bottom row
+    is equilibrium surface temperature change, which is spread across the whole globe and
+    strongest at high latitudes, far from the band where the forcing was applied.
+  caption: >
+    Forcing goes in along one narrow band; temperature comes out everywhere, and most strongly
+    near the poles. That mismatch between where the energy is added and where the climate
+    responds is the whole result — it is why the latitude at which contrails form matters more
+    than the forcing they produce there.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Thomas et al. (2025), Earth's Future 13, e2025EF006201
+  modification: Extracted from the published PDF and resized for web display
