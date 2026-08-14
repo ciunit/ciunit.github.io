@@ -123,6 +123,31 @@
    "id": "brown-2020-break-even-year",
    "has_figure": true
   },
+  "10.1029/2004jc002671": {
+   "files": [
+    "Caldeira Wickett JGR all 050309 preprint.pdf",
+    "Caldeira-Wickett_JGR2005_ocean-chem-changes.pdf"
+   ],
+   "how": "title match",
+   "id": "caldeira-2005-ocean-chemistry-predictions",
+   "has_figure": true
+  },
+  "10.1175/jcli-d-14-00042.1": {
+   "files": [
+    "Caldeira-Cvijanovic_JClim2014_sea-ice-climate-sensitivity.pdf"
+   ],
+   "how": "page text",
+   "id": "caldeira-2014-sea-ice-sensitivity",
+   "has_figure": true
+  },
+  "10.1029/98gl00336": {
+   "files": [
+    "Caldeira-Duffy_GRL1998_CFC11-salt-rejection-sea-ice.pdf"
+   ],
+   "how": "metadata",
+   "id": "caldeira-1998-cfc11-salt-rejection",
+   "has_figure": true
+  },
   "10.1126/science.287.5453.620": {
    "files": [
     "Caldeira-Duffy_Science2000_Southern-Ocean-carbon.pdf",
@@ -130,6 +155,14 @@
    ],
    "how": "title match",
    "id": "caldeira-2000-southern-ocean",
+   "has_figure": true
+  },
+  "10.1038/359226a0": {
+   "files": [
+    "Caldeira-Kasting_Nature1992_irreversible-glaciation.pdf"
+   ],
+   "how": "filename",
+   "id": "caldeira-1992-irreversible-glaciation",
    "has_figure": true
   },
   "10.1038/360721a0": {
@@ -144,11 +177,20 @@
   "10.1038/366251a0": {
    "files": [
     "Caldeira-Kasting_Nature1993_GWP-insensitivity.pdf",
-    "Caldeira-Kasting_Nature1993_insensitivity_GWPs.pdf",
-    "Caldeira-et-al_Nature1993_cooling-late-Cenozoic(letter).pdf"
+    "Caldeira-Kasting_Nature1993_insensitivity_GWPs.pdf"
    ],
    "how": "filename",
    "id": "caldeira-kasting-1993-warming-potentials",
+   "has_figure": true
+  },
+  "10.1088/1748-9326/8/3/034039": {
+   "files": [
+    "Caldeira-Myhrvold_ERL2013_pace-of-warming(SOM).pdf",
+    "Caldeira-Myhrvold_ERL2013_pace-of-warming(combined).pdf",
+    "Caldeira-Myhrvold_ERL2013_pace-of-warming.pdf"
+   ],
+   "how": "title match",
+   "id": "caldeira-2013-pace-of-warming",
    "has_figure": true
   },
   "10.1029/gl017i009p01299": {
@@ -159,12 +201,30 @@
    "id": "caldeira-1990-deccan-volcanism",
    "has_figure": true
   },
+  "10.1029/91gl01237": {
+   "files": [
+    "Caldeira-Rampino_GRL1991_super-plume.pdf"
+   ],
+   "how": "title match",
+   "id": "caldeira-1991-super-plume",
+   "has_figure": true
+  },
   "10.1029/93pa01163": {
    "files": [
     "Caldeira-Rampino_Paleo1993_KT-boundary.pdf"
    ],
    "how": "title match",
    "id": "caldeira-1993-kt-carbon-cycle",
+   "has_figure": true
+  },
+  "10.1029/1999gl002364": {
+   "files": [
+    "Caldeira-Rau_GRL2000_accel_weathering_carbonate.pdf",
+    "Caldeira_Rau_GRL2000.pdf",
+    "Caldeira_Rau_GRL_2000.pdf"
+   ],
+   "how": "filename",
+   "id": "caldeira-2000-carbonate-dissolution",
    "has_figure": true
   },
   "10.1038/425365a": {
@@ -191,6 +251,15 @@
    "id": "caldeira-2023-green-premium",
    "has_figure": true
   },
+  "10.1029/1998gl900010": {
+   "files": [
+    "Caldeira-et-al_GRL1998_radiocarbon-efflux.pdf",
+    "Caldeira-et-al_GRL1998_radiocarbon-outgassing.pdf"
+   ],
+   "how": "title match",
+   "id": "caldeira-1998-radiocarbon-efflux",
+   "has_figure": true
+  },
   "10.1126/science.1078938": {
    "files": [
     "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab(1).pdf",
@@ -201,6 +270,15 @@
    "id": "caldeira-2003-climate-sensitivity-uncertainty",
    "has_figure": true
   },
+  "10.2475/ajs.295.9.1077": {
+   "files": [
+    "Caldeira_AJS1995.pdf",
+    "Caldeira_AJS1995_seafloor-basalt.pdf"
+   ],
+   "how": "filename",
+   "id": "caldeira-1995-seafloor-alteration",
+   "has_figure": true
+  },
   "10.1073/pnas.1107409108": {
    "files": [
     "Caldeira_Davis_PNAS2011.pdf",
@@ -209,6 +287,22 @@
    ],
    "how": "filename",
    "id": "davis-2011-supply-chain-emissions",
+   "has_figure": true
+  },
+  "10.1130/0091-7613(1991)019<0204:cpcpat>2.3.co;2": {
+   "files": [
+    "Caldeira_Geol1991.pdf"
+   ],
+   "how": "filename",
+   "id": "caldeira-1991-carbonate-partitioning",
+   "has_figure": true
+  },
+  "10.1016/j.gexplo.2005.08.089": {
+   "files": [
+    "Caldeira_JGeochemExploration2006.pdf"
+   ],
+   "how": "metadata",
+   "id": "caldeira-2006-forests-weathering",
    "has_figure": true
   },
   "10.1038/337732a0": {
@@ -227,6 +321,34 @@
    ],
    "how": "filename",
    "id": "caldeira-1992-cenozoic-weathering",
+   "has_figure": true
+  },
+  "10.1111/j.1365-3121.2005.00648.x": {
+   "files": [
+    "Caldeira_Rampino_TerraNova2005.pdf",
+    "Rampino_Caldeira_Tellus2005.pdf",
+    "Rampino_Caldeira_TerraNova2005.pdf"
+   ],
+   "how": "page text",
+   "id": "rampino-2005-strangelove-ocean",
+   "has_figure": true
+  },
+  "10.1098/rsta.2008.0132": {
+   "files": [
+    "Caldeira_Wood_PhilTransRoySoc2008.pdf",
+    "Caldeira_Wood_PhilTransRoySocA2008.pdf"
+   ],
+   "how": "metadata",
+   "id": "caldeira-2008-global-arctic-engineering",
+   "has_figure": true
+  },
+  "10.1029/2001gl014234": {
+   "files": [
+    "Caldeira_et_al_GRL2002.pdf",
+    "Caldeira_etal_GRL2002.pdf"
+   ],
+   "how": "page text",
+   "id": "caldeira-2002-depth-radiocarbon-injection",
    "has_figure": true
   },
   "10.1088/1748-9326/7/3/034015": {
@@ -464,9 +586,6 @@
   },
   "10.1029/1999gl006086": {
    "files": [
-    "Govindasamy_Caldeira_GRL2000 (2).pdf",
-    "Govindasamy_Caldeira_GRL2000 (3).pdf",
-    "Govindasamy_Caldeira_GRL2000.pdf",
     "Govindasamy_Caldeira_GRL2000_geoengineering.pdf"
    ],
    "how": "filename",
@@ -498,7 +617,7 @@
    ],
    "how": "filename",
    "id": "hoffert-1998-stabilization-energy",
-   "has_figure": false
+   "has_figure": true
   },
   "10.1126/science.1072357": {
    "files": [
@@ -680,9 +799,7 @@
   },
   "10.1088/1748-9326/8/3/034003": {
    "files": [
-    "Ricke-et-al_ERL2013_CMIP5-acidification.pdf",
-    "Ricke-et-al_ERL2013_strategic-incentives.pdf",
-    "Ricke-et-et_ERL2013_geo-coalitions.pdf"
+    "Ricke-et-al_ERL2013_CMIP5-acidification.pdf"
    ],
    "how": "page text",
    "id": "ricke-2013-coral-reef-risk",
@@ -896,29 +1013,16 @@
   "Caldeira - How to Cool the Globe - New York Times2007.pdf",
   "Caldeira - OpEd - NY Times - 16 Jan 2007.pdf",
   "Caldeira SOW 2009.pdf",
-  "Caldeira Wickett JGR all 050309 preprint.pdf",
   "Caldeira-Berner_Geol1998_mass-balance-reply.pdf",
   "Caldeira-Brown_PNAS2019_reduced-emissions-damage-economy.pdf",
-  "Caldeira-Cvijanovic_JClim2014_sea-ice-climate-sensitivity.pdf",
   "Caldeira-Dowling_Joule2021_Portfolios-all-the-way-down.pdf",
-  "Caldeira-Duffy_GRL1998_CFC11-salt-rejection-sea-ice.pdf",
-  "Caldeira-Kasting_Nature1992_irreversible-glaciation.pdf",
   "Caldeira-Kasting_lifespan_Nature1992.pdf",
   "Caldeira-Keith_IS_T2010.pdf",
   "Caldeira-McKay_Nature2021_contrails.pdf",
-  "Caldeira-Myhrvold_ERL2013_pace-of-warming(SOM).pdf",
-  "Caldeira-Myhrvold_ERL2013_pace-of-warming(combined).pdf",
-  "Caldeira-Myhrvold_ERL2013_pace-of-warming.pdf",
-  "Caldeira-Rampino_GRL1991_super-plume.pdf",
   "Caldeira-Rampino_Nature1992_Mt-Etna.pdf",
-  "Caldeira-Rau_GRL2000_accel_weathering_carbonate.pdf",
   "Caldeira-Ricke_NatureCC2013_prudence-on-solar-climate-engineering.pdf",
-  "Caldeira-Wickett_JGR2005_ocean-chem-changes.pdf",
   "Caldeira-et-al_Chapter1990_BiogeochemicalModelingAtMassEx.pdf",
-  "Caldeira-et-al_GRL1998_radiocarbon-efflux.pdf",
-  "Caldeira-et-al_GRL1998_radiocarbon-outgassing.pdf",
-  "Caldeira_AJS1995.pdf",
-  "Caldeira_AJS1995_seafloor-basalt.pdf",
+  "Caldeira-et-al_Nature1993_cooling-late-Cenozoic(letter).pdf",
   "Caldeira_Berner_Geol1998.pdf",
   "Caldeira_Berner_Science.pdf",
   "Caldeira_Berner_Science1999.pdf",
@@ -926,8 +1030,6 @@
   "Caldeira_Climate_SciAm_Sep2012(1).pdf",
   "Caldeira_Climate_SciAm_Sep2012.pdf",
   "Caldeira_Duffy_GRL1998.pdf",
-  "Caldeira_Geol1991.pdf",
-  "Caldeira_JGeochemExploration2006.pdf",
   "Caldeira_MIT-TechRev2015_stop-emissions.pdf",
   "Caldeira_MacCracken_albedo_Nature_rej_2004.pdf",
   "Caldeira_Myhrvold_PNAS2012_comment.pdf",
@@ -936,23 +1038,16 @@
   "Caldeira_NatureCC2013_CoralRefugia.pdf",
   "Caldeira_Oceanography2007.pdf",
   "Caldeira_PNAS2012_mangrove.pdf",
-  "Caldeira_Rampino_TerraNova2005.pdf",
-  "Caldeira_Rau_GRL2000.pdf",
-  "Caldeira_Rau_GRL_2000.pdf",
   "Caldeira_RevelleLecture_Oceanography2007.pdf",
   "Caldeira_SRCCS_Chapter6.pdf",
   "Caldeira_SRCCS_Chapter6_IPCC2005.pdf",
   "Caldeira_Science2021_Kolbert-review-white-sky.pdf",
   "Caldeira_ScientificAmerican2012_great_climate_experiment.pdf",
-  "Caldeira_Wood_PhilTransRoySoc2008.pdf",
-  "Caldeira_Wood_PhilTransRoySocA2008.pdf",
   "Caldeira_book_review_Science2008.pdf",
-  "Caldeira_et_al_GRL2002.pdf",
   "Caldeira_et_al_GRL2007_2006GL027288.pdf",
   "Caldeira_et_al_GRL2007_comment.pdf",
   "Caldeira_et_al_NETL_final.pdf",
   "Caldeira_etal_GRL1998.pdf",
-  "Caldeira_etal_GRL2002.pdf",
   "Caldeira_etal_IPCC_SRCCS_Chapter6_2005.pdf",
   "Caldeira_etal_NETL_final.pdf",
   "Caldeira_geoengineering_SOW2009.pdf",
@@ -1009,6 +1104,9 @@
   "Gibbard_etal_GRL2005small.pdf",
   "Govindasamy-et-al_GRL2001_land-use-change-NH-cooling.pdf",
   "Govindasamy-et-al_GRL2002_geo-terr-biosphere.pdf",
+  "Govindasamy_Caldeira_GRL2000 (2).pdf",
+  "Govindasamy_Caldeira_GRL2000 (3).pdf",
+  "Govindasamy_Caldeira_GRL2000.pdf",
   "Govindasamy_et_al_GRL2001.pdf",
   "Govindasamy_etal_GRL2001.pdf",
   "Govindasamy_etal_GRL2002.pdf",
@@ -1095,8 +1193,6 @@
   "Rampino-Caldeira_IntJEarthScie2018_Comparison-of-the-ages-260-million-years.pdf",
   "Rampino-Caldeira_Science2011_comment.pdf",
   "Rampino-et-al_GeolSocSpecPap542-2019_what-causes-mass-extinctions.pdf",
-  "Rampino_Caldeira_Tellus2005.pdf",
-  "Rampino_Caldeira_TerraNova2005.pdf",
   "Randerson_etal_GBC2002.pdf",
   "Rau_Caldeira_ECM1999.pdf",
   "Rau_Caldeira_Science2002unf.pdf",
@@ -1108,7 +1204,9 @@
   "Raven_etal_RoySoc2005.pdf",
   "Ricke-Caldeira_ERL2014_max-warming.pdf",
   "Ricke-Caldeira_NatureCC2014_climate-variability-policy.pdf",
+  "Ricke-et-al_ERL2013_strategic-incentives.pdf",
   "Ricke-et-al_NatureGeo2015_policy-thresholds-in-mitigation.pdf",
+  "Ricke-et-et_ERL2013_geo-coalitions.pdf",
   "Rinaldi-et-al_ES&T2021_wind-solar-CA-storage-integration(w Supp).pdf",
   "Roberts_etal_IEEE_Trans_on_Energy_Conv_2007(2).pdf",
   "Roberts_etal_IEEE_Trans_on_Energy_Conv_2007.pdf",

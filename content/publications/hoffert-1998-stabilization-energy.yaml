@@ -81,6 +81,28 @@ matters:
     case for research investment rather than deployment alone follows directly from the size of
     the gap.
 
+figure:
+  file: hoffert-1998-stabilization-energy.webp
+  source_figure: Figure 3
+  alt: >
+    A line graph with carbon-free power required, in terawatts, on the vertical axis from 0 to
+    60, against the rate of energy intensity decline in percent per year on the horizontal axis
+    from 0 to 2.5. Five curves are labelled 2000, 2025, 2050, 2075 and 2100; each falls from left
+    to right, and the later the year the higher the curve. A horizontal dashed line at about 11
+    terawatts marks total 1990 primary energy and a solid line near 1 terawatt marks 1990
+    carbon-free power. The 2050 curve crosses the 1990 total-primary-energy line at roughly 1.3%
+    per year.
+  caption: >
+    The trade-off between using energy more productively and building carbon-free supply. Even at
+    an energy-intensity decline of 1% a year — faster than the historical average — stabilization
+    by 2050 needs carbon-free power at about the scale of the entire 1990 energy system, and by
+    2100 several times that.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Hoffert et al. (1998), Nature 395, 881-884
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - hoffert-2002-advanced-technology-paths
   - caldeira-2003-climate-sensitivity-uncertainty

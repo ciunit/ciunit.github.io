@@ -152,6 +152,25 @@ def from_filename(name: str, records: list[dict]) -> str | None:
     return None
 
 
+def text_supports(path: Path, title: str) -> bool:
+    """Does the PDF's first page mention enough of `title` to back a filename match?
+
+    True when there is nothing to check — no title given, or an image-only scan
+    with no text layer — so this only ever *removes* matches it can disprove.
+    """
+    words = {w for w in re.findall(r"[a-z]{4,}", (title or "").lower())}
+    if not words:
+        return True
+    try:
+        with pymupdf.open(path) as doc:
+            head = doc[0].get_text("text").lower() if doc.page_count else ""
+    except Exception:  # noqa: BLE001
+        return True
+    if len(head.strip()) < 200:
+        return True                     # image-only scan: nothing to disprove it
+    return sum(w in head for w in words) / len(words) >= 0.4
+
+
 def main() -> int:
     if not PDF_DIR.is_dir():
         print(f"no {PDF_DIR}", file=sys.stderr)
@@ -171,6 +190,22 @@ def main() -> int:
         # could not get its cover or figure in the same sitting.
         known.add(doi)
         titles.setdefault(norm_title(str(d.get("title", ""))), doi)
+        # ...and the same goes for filename matching, which reads `records` rather
+        # than `known`. An image-only scan offers no DOI and no title text, so the
+        # filename is its *only* signal; without this a new page for such a paper
+        # could never find its own PDF.
+        if doi not in {r["doi"] for r in records}:
+            records.append({
+                "doi": doi,
+                "title": str(d.get("title", "")),
+                "year": d.get("year"),
+                "journal": str(d.get("journal", "")),
+                # Crossref gives surnames in `family`; the YAML gives whole names,
+                # whose last token is the surname for every author on this site.
+                "authors": [{"family": str(a).split()[-1]} for a in (d.get("authors") or [])],
+            })
+
+    by_doi = {r["doi"]: r for r in records}
 
     mapping: dict[str, dict] = {}
     unmatched: list[str] = []
@@ -194,6 +229,16 @@ def main() -> int:
                 print(f"  note: {path.name}: filename says {doi}, "
                       f"{how_content} says {by_content} — taking the latter", file=sys.stderr)
             doi, how = by_content, how_content
+        elif doi and not text_supports(path, by_doi.get(doi, {}).get("title", "")):
+            # A filename match that the PDF's own text contradicts. One author's
+            # papers in one journal in one year look alike from the filename alone,
+            # so `Caldeira-et-al_Nature1993_cooling-late-Cenozoic` was cheerfully
+            # matched to the *other* Caldeira Nature 1993 letter. Where there is
+            # text to check against, check it; an image-only scan is exempt,
+            # because it is the case filename matching exists to serve.
+            print(f"  note: {path.name}: filename says {doi}, but the first page "
+                  f"does not mention that title — rejecting", file=sys.stderr)
+            doi, how = None, "filename match not supported by page text"
         if not doi:
             unmatched.append(path.name)
             how = how_content

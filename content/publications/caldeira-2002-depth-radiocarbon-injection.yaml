@@ -1,0 +1,92 @@
+id: caldeira-2002-depth-radiocarbon-injection
+doi: 10.1029/2001GL014234
+title: >
+  Depth, radiocarbon, and the effectiveness of direct CO2 injection as an ocean carbon
+  sequestration strategy
+authors:
+  - Ken Caldeira
+  - Michael E. Wickett
+  - Philip B. Duffy
+journal: Geophysical Research Letters
+volume: "29"
+date: "2002-08-15"
+year: 2002
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  In a three-dimensional ocean model, the depth of a water parcel predicts how long injected
+  carbon stays in the ocean, but its radiocarbon age does not — so the oldest water is not the
+  best place to put carbon.
+
+question:
+  - >
+    Direct injection of CO2 into the deep ocean was proposed as a way to bypass the slow mixing
+    that would otherwise carry surface carbon downward. Its effectiveness depends on how long
+    the water stays out of contact with the atmosphere.
+  - >
+    Radiocarbon age measures the time since a water parcel was last at the surface, so it looks
+    like the natural way to pick an injection site. This paper asked whether the time since a
+    parcel was last at the surface predicts the time until it returns.
+
+key_finding: >
+  In one-dimensional box-diffusion simulations, carbon retention is directly related to both
+  injection depth and the radiocarbon age at the injection location — but in a three-dimensional
+  ocean general circulation model, depth predicts carbon retention well and radiocarbon does
+  not, showing that the expected time for a water parcel to return to the surface is closely
+  related to its depth and not in general to the time since it was last there.
+
+findings:
+  - >
+    Direct CO2 injection is simulated in both a one-dimensional box-diffusion model and a
+    three-dimensional ocean general circulation model, so the disagreement between them is the
+    result.
+  - >
+    The two models agree on carbon retention overall, especially in the Pacific basin and at
+    shallower depths, which rules out the discrepancy being a general model mismatch.
+  - >
+    In the one-dimensional model, where transport is diffusive and geometry is trivial, both
+    depth and radiocarbon predict retention. That is why the intuition seemed sound.
+  - >
+    In the three-dimensional model, only depth survives as a predictor. Circulation paths mean a
+    parcel's history and its future are not symmetric.
+  - >
+    The practical corollary is that choosing an injection site by looking for the oldest
+    radiocarbon does not maximize how long the carbon stays down.
+
+matters:
+  - >
+    It removes an appealing but wrong shortcut from ocean-sequestration planning, and does so by
+    showing exactly when the shortcut works — in a one-dimensional world — and why it fails in a
+    circulating ocean.
+  - >
+    The asymmetry it demonstrates is general and easy to forget: in a system with circulation,
+    how long since something happened tells you little about how long until it happens again.
+  - >
+    The same reasoning applies wherever a tracer age is used as a proxy for residence time,
+    which is common across ocean and groundwater work.
+
+figure:
+  file: caldeira-2002-depth-radiocarbon-injection.webp
+  source_figure: Figure 2
+  alt: >
+    Two scatter plots of injected carbon remaining in the ocean at year 500, in gigatonnes of
+    carbon, on the horizontal axis from 0 to 10. In panel a the vertical axis is injection depth
+    in metres from 0 to 4000, and the points fall along a clear line with a narrow shaded band —
+    deeper injection retains more carbon. In panel b the vertical axis is delta carbon-14 in per
+    mil from 0 to minus 250, and the points scatter broadly around the fitted line. Symbols mark
+    eight injection sites including the Bay of Biscay, New York, Tokyo, and Bombay.
+  caption: >
+    Depth predicts retention; radiocarbon age does not. The tight relationship in panel a and the
+    scatter in panel b are the same simulations plotted against two different candidate
+    predictors, which is why picking an injection site by its radiocarbon age does not work.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira et al. (2002), Geophysical Research Letters 29
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1998-radiocarbon-efflux
+  - caldeira-2005-ocean-chemistry-predictions
+  - caldeira-2000-carbonate-dissolution

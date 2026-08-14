@@ -1,0 +1,101 @@
+id: caldeira-2000-carbonate-dissolution
+doi: 10.1029/1999GL002364
+title: >
+  Accelerating carbonate dissolution to sequester carbon dioxide in the ocean: Geochemical
+  implications
+authors:
+  - Ken Caldeira
+  - Greg H. Rau
+journal: Geophysical Research Letters
+volume: "27"
+pages: 225-228
+date: "2000-01-15"
+year: 2000
+themes:
+  - climate-and-carbon-cycle
+  - ocean-acidification
+
+description: >
+  Reacting power-plant flue gas with seawater and limestone stores the carbon as bicarbonate
+  rather than dissolved CO2, which greatly expands how much anthropogenic carbon the ocean can
+  hold while minimizing the chemical impact on marine life.
+
+question:
+  - >
+    Injecting captured CO2 into the deep ocean was a leading disposal proposal, but the carbon
+    stays as dissolved CO2 — acidic, harmful to deep-sea organisms, and destined to degas back
+    to the atmosphere after several hundred years.
+  - >
+    Nature disposes of CO2 permanently by dissolving carbonate rocks, but takes millennia to do
+    it. This paper asked what happens chemically if that natural reaction is simply run at the
+    power plant instead.
+
+key_finding: >
+  Reacting CO2-rich power-plant gas with seawater to make carbonic acid, then reacting that on
+  site with limestone to yield calcium and bicarbonate ions for release to the ocean, would
+  greatly expand the ocean's capacity to store anthropogenic carbon while minimizing the impact
+  of that carbon on ocean biota — potentially more cost-effective and less environmentally
+  harmful than capture followed by direct deep-sea injection.
+
+findings:
+  - >
+    The overall reaction is the natural one, accelerated. Carbon dioxide plus water plus calcium
+    carbonate yields a calcium ion and two bicarbonate ions.
+  - >
+    The chemistry works because flue gas is concentrated. Power-plant exhaust carries about 0.15
+    atmospheres of CO2, over 400 times ambient; dissolved in seawater it gives a solution at pH
+    5.7, or 4.8 if pressurized to 1 atmosphere — corrosive enough to dissolve calcite,
+    aragonite, and limestone, particularly when crushed.
+  - >
+    What is released to the ocean is a relatively harmless solution of calcium and bicarbonate
+    ions. The added alkalinity keeps the carbon in bicarbonate form, which cannot exchange
+    directly with the atmosphere.
+  - >
+    The method short-circuits the natural sequence. CO2 released to the atmosphere equilibrates
+    with the surface ocean in under a year, mixes to depth over about 300 years, and is
+    neutralized by carbonate dissolution over about 6,000 years, with silicate weathering
+    supplying the cations for final burial over about 100,000 years. Direct injection skips the
+    first two steps; carbonate dissolution at the source skips the natural dissolution step
+    as well.
+  - >
+    The comparison with direct injection is a matter of both capacity and chemistry: storing
+    carbon as bicarbonate rather than dissolved CO2 avoids the local acidification that makes
+    deep-sea injection biologically damaging.
+
+matters:
+  - >
+    It is one of the earliest quantitative treatments of what is now called ocean alkalinity
+    enhancement, and it framed the idea correctly from the start — as accelerating a natural
+    neutralization reaction rather than inventing a new sink.
+  - >
+    The distinction it draws between storing carbon as CO2 and storing it as bicarbonate is the
+    one that decides whether ocean carbon storage is permanent and whether it harms marine life.
+  - >
+    Written before ocean acidification was widely discussed, the paper already treats the
+    chemical impact on ocean biota as the criterion a disposal scheme has to meet.
+
+figure:
+  file: caldeira-2000-carbonate-dissolution.webp
+  source_figure: Figure 1
+  alt: >
+    Two line graphs of the fraction of fossil-fuel CO2 remaining in the atmosphere, from 0 to 1,
+    for five release scenarios. The upper panel uses a linear time axis from year 2000 to 4000;
+    atmospheric release starts near 0.85 and falls to about 0.4, direct injection into the
+    mixed-layer converges on the same value, direct injection into the deep ocean rises from 0 to
+    about 0.4, and the two carbonate-dissolution curves settle near 0.1. The lower panel shows
+    the same scenarios on a logarithmic axis of years after 2000.
+  caption: >
+    Five ways of disposing of the same carbon. All the injection scenarios converge on roughly
+    the same atmospheric fraction as simply releasing the CO2 — injection only delays the
+    outcome. The two carbonate-dissolution curves settle far lower, because the carbon is stored
+    as bicarbonate rather than as dissolved CO2.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Rau (2000), Geophysical Research Letters 27, 225-228
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2003-ocean-ph
+  - caldeira-2005-ocean-chemistry-predictions
+  - caldeira-2002-depth-radiocarbon-injection

@@ -9,16 +9,16 @@ reachable abstract. A figure additionally needs both an open licence *and* a
 publisher that permits automated access — those are not the same thing.
 
 - **121** distinct DOIs cited on the site
-- **78** already have a page
+- **79** already have a page
 - **27** could have one written now
-- **16** are blocked pending the publication itself
+- **15** are blocked pending the publication itself
 
 | Tier | Count | Meaning |
 | --- | ---: | --- |
-| `has-page` | 78 | Already published as a publication page. |
+| `has-page` | 79 | Already published as a publication page. |
 | `ready-with-figure` | 5 | Abstract reachable and figure retrievable — a complete page needs no input from you. |
 | `ready-needs-figure` | 22 | Abstract reachable, but the figure must be supplied by an author. |
-| `blocked-no-abstract` | 16 | No abstract reachable anywhere — a verifiable key finding cannot be written without the publication itself. |
+| `blocked-no-abstract` | 15 | No abstract reachable anywhere — a verifiable key finding cannot be written without the publication itself. |
 
 ## Publications
 
@@ -104,6 +104,7 @@ Ordered by tier, then newest first.
 | [Hoffert et al., 2002](https://doi.org/10.1126/science.1072357) | Advanced Technology Paths to Global Climate Stability: Energy for a Greenhouse Planet | Science | `has-page` | page `hoffert-2002-advanced-technology-paths` | crossref | <sub>ken-caldeira</sub> |
 | [Govindasamy and Caldeira, 2000](https://doi.org/10.1029/1999gl006086) | Geoengineering Earth's radiation balance to mitigate CO<sub>2</sub>‐induced climate change | Geophysical Research Letters | `has-page` | page `govindasamy-2000-first-simulations` | crossref | <sub>govindasamy-bala, ken-caldeira</sub> |
 | [Caldeira and Duffy, 2000](https://doi.org/10.1126/science.287.5453.620) | The Role of the Southern Ocean in Uptake and Storage of Anthropogenic Carbon Dioxide | Science | `has-page` | page `caldeira-2000-southern-ocean` | crossref | <sub>ken-caldeira</sub> |
+| [Hoffert et al., 1998](https://doi.org/10.1038/27638) | Energy implications of future stabilization of atmospheric CO2 content | Nature | `has-page` | page `hoffert-1998-stabilization-energy` | **none** | <sub>ken-caldeira</sub> |
 | [Duffy and Caldeira, 1997](https://doi.org/10.1029/97gl01294) | Sensitivity of simulated salinity in a three‐dimensional ocean model to upper ocean transport of salt from sea‐ice forma | Geophysical Research Letters | `has-page` | page `duffy-1997-sea-ice-salinity` | crossref | <sub>ken-caldeira</sub> |
 | [Rampino and Caldeira, 1993](https://doi.org/10.1016/0012-821x(93)90026-6) | Major episodes of geologic change: correlations, time structure and possible causes | Earth and Planetary Science Lett | `has-page` | page `rampino-1993-geologic-periodicity` | semantic-scholar | <sub>ken-caldeira</sub> |
 | [Caldeira and Rampino, 1993](https://doi.org/10.1029/93pa01163) | Aftermath of the end‐Cretaceous mass extinction: Possible biogeochemical stabilization of the carbon cycle and climate | Paleoceanography | `has-page` | page `caldeira-1993-kt-carbon-cycle` | crossref | <sub>ken-caldeira</sub> |
@@ -157,5 +158,4 @@ Ordered by tier, then newest first.
 | [Saunders, 2008](https://doi.org/10.1016/j.eneco.2007.11.006) | Fuel conserving (and using) production functions | Energy Economics | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
 | [Saunders, 2000](https://doi.org/10.1016/s0301-4215(00)00024-0) | A view from the macro side: rebound, backfire, and Khazzoom–Brookes | Energy Policy | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
 | [Saunders, 2000](https://doi.org/10.1016/s0301-4215(00)00025-2) | Does predicted rebound depend on distinguishing between energy and energy services? | Energy Policy | `blocked-no-abstract` | author reuse | **none** | <sub>harry-saunders</sub> |
-| [Hoffert et al., 1998](https://doi.org/10.1038/27638) | Energy implications of future stabilization of atmospheric CO2 content | Nature | `blocked-no-abstract` | author reuse | **none** | <sub>ken-caldeira</sub> |
 

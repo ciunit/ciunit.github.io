@@ -1,0 +1,95 @@
+id: caldeira-1995-seafloor-alteration
+doi: 10.2475/ajs.295.9.1077
+title: >
+  Long-term control of atmospheric carbon dioxide: low-temperature seafloor alteration or
+  terrestrial silicate-rock weathering?
+authors:
+  - Ken Caldeira
+journal: American Journal of Science
+volume: "295"
+pages: 1077-1114
+date: "1995-11"
+year: 1995
+themes:
+  - climate-and-carbon-cycle
+  - paleoclimate
+
+description: >
+  Because silicate-mineral dissolution is nearly independent of pH between 5 and 8 and the deep
+  ocean sits above 7.5, low-temperature seafloor basalt alteration cannot act as an effective
+  feedback on atmospheric CO2 — weathering on land does.
+
+question:
+  - >
+    Something has held atmospheric CO2 within habitable bounds over hundreds of millions of
+    years. The usual candidate is silicate-rock weathering on land, which speeds up as the
+    planet warms.
+  - >
+    A competing proposal held that the real control is carbonate accumulating in ocean-floor
+    basalt during low-temperature alteration, with the rate set by deep-ocean hydrogen-ion and
+    carbon concentrations. This paper asked which of the two actually provides the feedback.
+
+key_finding: >
+  Silicate-mineral dissolution rates are nearly independent of pH over the range 5 to 8, and
+  deep-ocean pH is above 7.5, so low-temperature seafloor basalt alteration is not likely to be
+  an effective feedback on atmospheric CO2; terrestrial silicate-rock weathering consumes CO2
+  several orders of magnitude more sensitively to changes in atmosphere and ocean CO2, and is
+  therefore the primary long-term control.
+
+findings:
+  - >
+    The earlier seafloor-alteration proposal made basalt dissolution proportional to deep-ocean
+    hydrogen-ion and total carbon concentrations. This paper builds an improved parameterization
+    from laboratory dissolution data and puts it in a global carbon-cycle model.
+  - >
+    The experimental result that undoes the mechanism is the flat pH dependence. Silicate
+    minerals dissolve at nearly the same rate anywhere between pH 5 and pH 8 in a wide variety
+    of experiments, and the deep ocean never leaves the upper end of that range.
+  - >
+    Comparing sensitivities directly, CO2 consumption by terrestrial weathering responds to
+    changes in atmosphere and ocean CO2 several orders of magnitude more strongly than CO2
+    consumption by low-temperature seafloor alteration.
+  - >
+    The conclusion does not delete the seafloor from the carbon budget. Ocean-basement carbonate
+    accumulation should still be included in global carbon budgets, and it may affect
+    atmospheric CO2 indirectly by changing how much CO2 is degassed during subduction-zone
+    metamorphism.
+
+matters:
+  - >
+    It settled which of two candidate thermostats actually regulates atmospheric CO2 over
+    geological time, and it did so on the strength of laboratory dissolution kinetics rather
+    than model tuning.
+  - >
+    The reasoning is a clean example of a general point: a process can move a large amount of
+    carbon and still be useless as a feedback. What makes a feedback is sensitivity to the thing
+    it is supposed to regulate, and a rate that barely varies cannot regulate anything.
+  - >
+    Terrestrial weathering remaining the control is why continental configuration, mountain
+    building, and land vegetation stay central to explaining Earth's long-term climate.
+
+figure:
+  file: caldeira-1995-seafloor-alteration.webp
+  source_figure: Figure 2
+  alt: >
+    Two stacked line graphs of alkalinity flux in units of 10 to the 12 equivalents per year,
+    from 0 to 50. The upper panel plots against atmospheric CO2 concentration relative to 300
+    parts per million on a logarithmic axis from 0.1 to 100; the silicate weathering on land
+    curve climbs from about 4 to 44, while the two seafloor basalt dissolution curves rise only
+    from about 5 to 10. The lower panel plots against deep ocean pH from 6 to 9; silicate
+    weathering falls steeply from about 47 to 2, while the basalt dissolution curves fall only
+    from about 11 to 6.
+  caption: >
+    The comparison the paper turns on. Terrestrial silicate weathering responds strongly to both
+    CO2 and ocean pH, while seafloor basalt dissolution is nearly flat across the whole range —
+    and a flux that barely changes cannot regulate what it is supposed to be regulating.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira (1995), American Journal of Science 295, 1077-1114
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1992-cenozoic-weathering
+  - caldeira-1991-carbonate-partitioning
+  - caldeira-2006-forests-weathering

@@ -1,0 +1,97 @@
+id: caldeira-2008-global-arctic-engineering
+doi: 10.1098/rsta.2008.0132
+title: >
+  Global and Arctic climate engineering - numerical model studies
+authors:
+  - Ken Caldeira
+  - Lowell Wood
+journal: Philosophical Transactions of the Royal Society A
+volume: "366"
+pages: 4039-4056
+date: "2008-08-29"
+year: 2008
+themes:
+  - solar-geoengineering
+
+description: >
+  Reducing incoming sunlight cannot perfectly undo greenhouse warming, but across a broad range
+  of temperature and water measures it makes a high-CO2 climate much more like the low-CO2
+  climate than doing nothing would.
+
+question:
+  - >
+    If a decision were ever made to engineer the climate, whoever built the hardware would need
+    to know how the climate system responds to different kinds and patterns of forcing — not
+    just whether global mean temperature can be held down.
+  - >
+    Arctic-only intervention is an obvious candidate, since climate change is manifesting most
+    strongly there. This paper asked what global and Arctic-only reductions in sunlight actually
+    do to temperature and to the water cycle.
+
+key_finding: >
+  Simulations of the atmosphere, sea ice, and upper ocean show that simple modulation of
+  incoming sunlight is unlikely to perfectly reverse greenhouse warming, but that across a broad
+  range of measures of both temperature and water, an engineered high-CO2 climate can be made
+  much more similar to the low-CO2 climate than a high-CO2 climate would be without such
+  engineering.
+
+findings:
+  - >
+    Both global and Arctic-only scenarios are simulated in idealized form, with insolation
+    reduced above the top of the atmosphere rather than through any particular deployment
+    technology.
+  - >
+    The headline result is a comparison of imperfections. Sunlight reduction does not restore
+    the pre-industrial climate exactly, but the residual differences are much smaller than the
+    differences left by not intervening at all — and this holds for water-cycle measures, not
+    only temperature.
+  - >
+    Two opposing effects govern where the intervention is applied. At high latitudes there is
+    less sunlight to deflect per unit of albedo change, but climate feedbacks operate more
+    powerfully there.
+  - >
+    Those two effects largely cancel, so the global mean temperature response per unit change in
+    top-of-atmosphere albedo is relatively insensitive to the latitude at which the change is
+    made.
+  - >
+    On the engineering question the paper is direct: implementing insolation modulation appears
+    to be feasible.
+
+matters:
+  - >
+    The latitude-insensitivity result is the one with practical consequences. If a unit of
+    albedo change buys about the same global cooling wherever it is applied, then where to
+    intervene becomes a question about regional effects, cost, and governance rather than about
+    physical efficiency.
+  - >
+    Testing water-cycle measures alongside temperature answers the standard objection that
+    sunlight reduction and CO2 removal are not interchangeable. They are not — but the paper
+    quantifies how far apart they are instead of leaving it qualitative.
+  - >
+    Framing the problem as what a system builder would need to know, rather than whether
+    geoengineering should be done, is characteristic of this group's approach to the subject.
+
+figure:
+  file: caldeira-2008-global-arctic-engineering.webp
+  source_figure: Figure 5
+  alt: >
+    A scatter plot of change in global mean temperature in kelvin, from 0 to 2.5, against
+    percentage reduction in top-of-atmosphere solar flux, from 0 to 2. Seven grey circles are
+    labelled 2 times CO2, Arctic61 and Arctic71 at 0.37 and 0.73 percent, Global at 0.73 and
+    1.84 percent, and Arctic61 at 1.84 percent. A fitted line through them has the equation y
+    equals minus 1.11 x plus 2.19 with an R-squared of 0.9942.
+  caption: >
+    Global and Arctic-only insolation reductions fall on the same straight line. Because
+    high-latitude sunlight is weaker but high-latitude feedbacks are stronger, a unit of
+    top-of-atmosphere albedo change buys about the same global cooling wherever it is applied.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Wood (2008), Philosophical Transactions of the Royal Society A 366, 4039-4056
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2013-science-of-geoengineering
+  - govindasamy-2000-first-simulations
+  - govindasamy-2003-quadrupled-co2
+  - bala-2010-fast-versus-slow

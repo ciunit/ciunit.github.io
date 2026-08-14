@@ -1,0 +1,102 @@
+id: rampino-2005-strangelove-ocean
+doi: 10.1111/j.1365-3121.2005.00648.x
+title: >
+  Major perturbation of ocean chemistry and a 'Strangelove Ocean' after the end-Permian mass
+  extinction
+authors:
+  - Michael R. Rampino
+  - Ken Caldeira
+journal: Terra Nova
+volume: "17"
+pages: 554-559
+date: "2005-09"
+year: 2005
+themes:
+  - paleoclimate
+  - climate-and-carbon-cycle
+
+description: >
+  A collapse of ocean primary productivity at the end of the Permian can explain the abrupt 3
+  per mil carbon-isotope excursion, and would have raised atmospheric CO2 from a Late Permian
+  850 ppm to about 2,500 ppm.
+
+question:
+  - >
+    The end-Permian extinction, about 251 million years ago, was the most severe in the
+    geological record, and it came with a rapid 3 per mil negative shift in the carbon isotopic
+    composition of the surface ocean and atmosphere that persisted about 500,000 years.
+  - >
+    How fast that shift happened decides what caused it. Changes in weathering or in the balance
+    of buried and eroded carbon take hundreds of thousands to millions of years; redistributing
+    carbon within the ocean-atmosphere system takes thousands to tens of thousands. This paper
+    asked whether a productivity collapse can produce the observed excursion.
+
+key_finding: >
+  Simulations with an ocean-atmosphere carbon-cycle model show that a severe reduction of marine
+  primary productivity can explain the abrupt end-Permian carbon-isotope excursion, and that it
+  would have raised surface-ocean dissolved inorganic carbon and driven atmospheric CO2 from a
+  Late Permian baseline of 850 ppm to about 2,500 ppm.
+
+findings:
+  - >
+    The timing constraint is tight. Radiometric dating limits the extinction pulse in China to
+    under a million years and the isotope shift to less than about 165,000 years; Milankovitch
+    cyclostratigraphy across the Permian-Triassic boundary in the Austrian Alps puts the abrupt
+    marine faunal change within about 8,000 years.
+  - >
+    That speed rules out weathering-cycle explanations, which operate on hundreds of thousands
+    to millions of years, and points instead at a redistribution of carbon within the
+    ocean-atmosphere system.
+  - >
+    A geochemical model of the ocean, atmosphere, and rock reservoirs — a three-box ocean plus
+    atmosphere — reproduces the excursion when marine productivity collapses, together with
+    changes in the delivery and cycling of carbon on land and in the sea.
+  - >
+    Carbon that would have been exported to depth by the biological pump stays in the surface
+    ocean, so surface dissolved inorganic carbon rises and CO2 goes to the atmosphere, taking it
+    from 850 ppm to roughly 2,500 ppm as a rapid, short-term excursion.
+  - >
+    The higher surface-ocean alkalinity that follows may explain a distinctive feature of the
+    rock record: the widespread microbial and abiotic shallow-water carbonate deposits of the
+    earliest Triassic.
+  - >
+    The model is also consistent with a long-term decrease, over more than a million years, in
+    the sedimentary burial of organic carbon in the Early Triassic.
+
+matters:
+  - >
+    It gives the 'Strangelove Ocean' — an ocean with its biological pump switched off — a
+    quantitative test, and shows the idea survives comparison with both the isotope record and
+    the carbonate record.
+  - >
+    Explaining the earliest Triassic microbial carbonates as a chemical consequence of the
+    extinction, rather than an unrelated oddity, ties two separate lines of evidence to one
+    event.
+  - >
+    A jump from 850 to 2,500 ppm driven by ecosystem collapse rather than by volcanism is a
+    reminder that the biosphere is itself a control on atmospheric CO2, not only a passive
+    recipient of it.
+
+figure:
+  file: rampino-2005-strangelove-ocean.webp
+  source_figure: Figure 1
+  alt: >
+    A line graph against time after the extinction in thousands of years, from 0 to about 52. A
+    blue curve of modelled atmospheric CO2, read on the left axis from 500 to 3000 parts per
+    million, spikes to about 2500 within the first two thousand years and then decays to near
+    1000. A black curve of modelled carbonate accumulation, read on the right axis in units of 10
+    to the 12 moles per year, drops sharply at first and then climbs steadily to about 15.
+  caption: >
+    The productivity collapse drives a rapid CO2 spike from a Late Permian baseline of 850 to
+    about 2,500 parts per million, followed by a long recovery. The rising black curve is the
+    surge in shallow-water carbonate deposition that the earliest Triassic rock record preserves.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Rampino and Caldeira (2005), Terra Nova 17, 554-559
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1993-kt-carbon-cycle
+  - rampino-2024-extinctions-igneous-provinces
+  - caldeira-1991-carbonate-partitioning

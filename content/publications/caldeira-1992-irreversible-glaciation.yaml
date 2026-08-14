@@ -1,0 +1,101 @@
+id: caldeira-1992-irreversible-glaciation
+doi: 10.1038/359226a0
+title: >
+  Susceptibility of the early Earth to irreversible glaciation caused by carbon dioxide clouds
+authors:
+  - Ken Caldeira
+  - James F. Kasting
+journal: Nature
+volume: "359"
+pages: 226-228
+date: "1992-09-17"
+year: 1992
+themes:
+  - paleoclimate
+  - climate-and-carbon-cycle
+
+description: >
+  If the early Earth had frozen over, reflective carbon dioxide clouds would have formed before
+  volcanic CO2 could accumulate enough to melt the ice — so the planet might not be habitable
+  today had it not been warm during the first part of its history.
+
+question:
+  - >
+    Simple energy-balance climate models predict that a 2 to 5% drop in solar output sends the
+    Earth into runaway glaciation. Yet solar luminosity was 25 to 30% lower early in Earth's
+    history and the planet did not freeze permanently.
+  - >
+    The standard answer is that high CO2, from faster outgassing and slower weathering, kept it
+    warm — the silicate-weathering thermostat. This paper asked whether that thermostat is fast
+    enough to be a real safeguard.
+
+key_finding: >
+  Because atmospheric CO2 responds over more than 100,000 years while sea ice and snow cover
+  respond in under a year, the silicate-weathering feedback cannot buffer the early Earth
+  against a rapid excursion in the ice line, and simulations including the formation of highly
+  reflective carbon dioxide clouds suggest that a transient global glaciation under the fainter
+  early Sun could have been irreversible — the Earth might not be habitable today had it not
+  been warm during the first part of its history.
+
+findings:
+  - >
+    The timescale mismatch is the core of the argument. Atmospheric CO2 adjusts on more than
+    100,000 years; sea ice and snow cover adjust in less than a year. A weathering feedback that
+    slow cannot stabilize the ice line against a fast perturbation.
+  - >
+    Reanalysis of the earlier claim that the silicate-weathering feedback stabilizes the ice
+    line at low latitudes finds it incorrect. A perturbation analysis shows there is no stable
+    ice line closer to the Equator than about 30 degrees latitude, whatever the CO2 partial
+    pressure — so a low-latitude glaciation should run away to a globally ice-covered state.
+  - >
+    A zonally averaged energy-balance model that allows CO2-ice clouds to form gives four steady
+    states at today's solar flux and CO2 level: ice-free, stable partial ice cover, unstable
+    partial ice cover, and ice-covered.
+  - >
+    From today's stable partial ice cover, a perturbation to an ice-covered state would let
+    about 0.12 bar of volcanic CO2 accumulate within 30 million years, which is enough to make
+    the ice-covered state unstable and return the planet to ice-free.
+  - >
+    Under the fainter early Sun this escape route can close. If CO2 clouds form before the ice
+    begins melting — the paper's Case 2 and Case 3 — the added reflectivity means CO2 warming
+    would probably be incapable of melting off the ice.
+
+matters:
+  - >
+    It identifies a genuine failure mode for the mechanism usually credited with keeping Earth
+    habitable. The silicate-weathering thermostat works over millions of years; ice albedo works
+    in a season. A thermostat cannot stop a fire that spreads faster than it can respond.
+  - >
+    Condensing CO2 into clouds turns the greenhouse gas into a reflector. That reversal is why
+    piling on more CO2 does not always dig a frozen planet out, and it matters for early Mars as
+    much as for early Earth.
+  - >
+    The conclusion is a statement about contingency rather than mechanism. Earth's habitability
+    may depend on the historical accident of having been warm early, not only on a
+    self-correcting feedback — which bears directly on how likely habitable planets are
+    elsewhere.
+
+figure:
+  file: caldeira-1992-irreversible-glaciation.webp
+  source_figure: Figure 2
+  alt: >
+    A line graph with the logarithm of CO2 partial pressure on the vertical axis from minus 2 to
+    0.5, against effective solar flux on the horizontal axis from 0.7 to 1.0. Two solid curves
+    mark the onset of polar and of equatorial CO2-cloud cover, both rising to the right. Three
+    dashed lines falling to the right show equatorial surface temperature at 273, 263, and 253
+    kelvin. Arrows label three cases at solar flux values of about 0.75, 0.85, and 0.95.
+  caption: >
+    Whether an ice-covered Earth can melt itself out depends on which line it crosses first. In
+    Case 1, at nearly present solar flux, volcanic CO2 accumulates and melts the ice before CO2
+    clouds form. In Cases 2 and 3, under the fainter early Sun, the clouds form first and their
+    reflectivity blocks the escape.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Kasting (1992), Nature 359, 226-228
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1992-life-span-biosphere
+  - caldeira-1992-cenozoic-weathering
+  - caldeira-1995-seafloor-alteration

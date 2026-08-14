@@ -1,0 +1,107 @@
+id: caldeira-1998-radiocarbon-efflux
+doi: 10.1029/1998GL900010
+title: >
+  Predicted net efflux of radiocarbon from the ocean and increase in atmospheric radiocarbon
+  content
+authors:
+  - Ken Caldeira
+  - Greg H. Rau
+  - Philip B. Duffy
+journal: Geophysical Research Letters
+volume: "25"
+pages: 3811-3814
+date: "1998-10-15"
+year: 1998
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Burning fossil fuels devoid of radiocarbon will nonetheless cause atmospheric radiocarbon to
+  start rising again within a few years, as rising CO2 drives a net efflux of carbon-14 out of
+  the ocean.
+
+question:
+  - >
+    Before human interference, radiocarbon production in the stratosphere nearly balanced its
+    flux into the ocean and land biosphere, which in turn nearly balanced radioactive decay.
+    Land-use change, fossil-fuel burning, and atmospheric nuclear tests broke that balance.
+  - >
+    Bomb testing raised atmospheric carbon-14 by about 80% by the mid-1960s, and it has been
+    falling since as the excess enters the oceans and biosphere. This paper asked what happens
+    next, and why the historical record does not look the way naive reasoning predicts.
+
+key_finding: >
+  A global carbon-cycle model predicts that atmospheric radiocarbon content will reach a minimum
+  and begin to increase within the next few years under a business-as-usual emissions scenario —
+  even though fossil fuels contain no radiocarbon at all — because rising atmospheric CO2 drives
+  a net flux of carbon-14 out of the ocean and land biosphere.
+
+findings:
+  - >
+    The puzzle the paper starts from is quantitative. Atmospheric radiocarbon fell far less
+    between pre-industrial times and 1950 than the roughly 10% rise in atmospheric CO2 over the
+    same period would lead one to expect from dilution alone.
+  - >
+    Most of that discrepancy is explained by radiocarbon fluxes out of the land biosphere and
+    oceans induced by the rising burden of ordinary carbon dioxide — an effect recognized since
+    the 1950s and here quantified in a full carbon-cycle model.
+  - >
+    The same mechanism dominates the future. Continued fossil-fuel burning indirectly causes a
+    significant increase in atmospheric carbon-14 content, despite fossil carbon being devoid
+    of it.
+  - >
+    Under business-as-usual, the crossover comes soon: the bomb-radiocarbon decline reaches its
+    minimum and reverses within a few years of the paper.
+  - >
+    The model puts the turning point at 1998 — the year atmospheric carbon-14 content starts
+    rising again, reversing a decline that began in the mid-1960s, and a prediction the authors
+    note will soon be testable.
+  - >
+    Beyond that, the ocean itself changes sign. The fossil-fuel-induced radiocarbon flux out of
+    the ocean is predicted to exceed the natural flux into it by about 2030 and the natural plus
+    bomb flux by about 2050, making the ocean a net source of carbon-14 to the atmosphere by the
+    middle of the century.
+  - >
+    Of the increase in atmospheric radiocarbon between 1945 and 1995, about 30% is attributed to
+    land-use change and fossil-fuel burning, with the remaining 70% from atmospheric nuclear
+    detonations.
+
+matters:
+  - >
+    Radiocarbon is the main tracer used to calibrate how fast ocean models ventilate the deep
+    sea, so getting its budget right propagates into every estimate of ocean carbon uptake built
+    on it.
+  - >
+    The result is counter-intuitive in a way that is instructive. Adding carbon with no
+    radiocarbon in it raises the atmosphere's radiocarbon content, because the isotopic effect
+    of disturbing the reservoirs outweighs the dilution.
+  - >
+    It also bears on radiocarbon dating of recent material, where the atmospheric curve
+    reversing direction means a measured value no longer maps to a single date.
+
+figure:
+  file: caldeira-1998-radiocarbon-efflux.webp
+  source_figure: Figure 3
+  alt: >
+    Three stacked line graphs against year from about 1765 to 2100. The top panel plots
+    atmospheric carbon-14 mass in kilomoles from 30 to 70, with a bomb spike near 1965 and all
+    curves rising steeply after 2000. The middle panel plots atmospheric delta carbon-14 in per
+    mil from minus 200 to 800, with the same bomb spike but a long decline to negative values.
+    The bottom panel plots the flux of radiocarbon from atmosphere to ocean in moles per year
+    from minus 400 to 400, with curves crossing zero in the early twenty-first century and
+    continuing downward.
+  caption: >
+    The bottom panel is the paper's point. The flux of radiocarbon from atmosphere to ocean
+    crosses zero and turns negative, so the ocean becomes a net source of carbon-14 to the
+    atmosphere — which is why atmospheric carbon-14 mass in the top panel rises even though
+    fossil fuels contain none.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira et al. (1998), Geophysical Research Letters 25, 3811-3814
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1998-cfc11-salt-rejection
+  - caldeira-2002-depth-radiocarbon-injection
+  - caldeira-2000-southern-ocean

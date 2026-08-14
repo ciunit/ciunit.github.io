@@ -203,6 +203,25 @@
         evolutionarily stable strategy; local benefits such as osmoregulation can
       paper: caldeira-1989-planktonic-sulphur
 
+    - claim: >
+        Fits to the CMIP5 models deliver 38-61% of equilibrium warming within a decade of a CO2
+        increase but leave 14-40% of it to arrive more than a century later, so models disagree
+        about the timing of warming as much as about its size
+      paper: caldeira-2013-pace-of-warming
+    - claim: >
+        Spreading the salt rejected during sea-ice formation through the upper 160 metres rather
+        than a 25-metre surface layer lowers modelled global ocean CFC-11 uptake by about 30%,
+        and Southern Ocean column inventories by up to 90%
+      paper: caldeira-1998-cfc11-salt-rejection
+    - claim: >
+        Sea ice response accounts for about 20% of climate sensitivity in CESM 1.0.4, and its
+        effect on the longwave climate feedback parameter is nearly half as large as its effect
+        on the shortwave one
+      paper: caldeira-2014-sea-ice-sensitivity
+    - claim: >
+        Aviation's contrail cirrus forcing is confined to a narrow band of northern mid-latitudes,
+        but the temperature response it produces is polar-amplified rather than local
+      paper: thomas-2025-aviation-cirrus
 - id: climate-and-energy
   title: Climate and energy
   question: What would it take for the energy system to stop changing the climate?
@@ -292,6 +311,11 @@
         the likely exporters
       paper: tonelli-2023-hydrogen-land-water-limits
 
+    - claim: >
+        The no-policy IS92a baseline already assumes 10 terawatts of carbon-emission-free power by
+        2050 — as much as all of today's energy sources combined — and stabilizing CO2 requires
+        tens of terawatts more
+      paper: hoffert-1998-stabilization-energy
 - id: climate-and-economics
   title: Climate and economics
   question: If cutting emissions pays for itself, why is it so hard to do?
@@ -482,6 +506,11 @@
         still-cold stratosphere and sea ice not fully restored
       paper: govindasamy-2003-quadrupled-co2
 
+    - claim: >
+        Global and Arctic-only insolation reductions fall on the same line, so the global mean
+        temperature response per unit top-of-atmosphere albedo change is relatively insensitive
+        to the latitude at which sunlight is deflected
+      paper: caldeira-2008-global-arctic-engineering
 - id: ocean-acidification
   title: Ocean acidification and the ocean carbon cycle
   question: What does adding carbon dioxide to the ocean do to it?
@@ -545,6 +574,16 @@
         a bolide impact or catastrophic methane hydrate release
       paper: caldeira-2003-ocean-ph
 
+    - claim: >
+        The IPCC SRES emission pathways lower global surface ocean pH by 0.3-0.5 units by 2100,
+        and cumulative emission of 5,000 petagrams of carbon lowers it by 0.8 units while making
+        most of the surface ocean undersaturated with respect to aragonite
+      paper: caldeira-2005-ocean-chemistry-predictions
+    - claim: >
+        Reacting power-plant CO2 with seawater and limestone stores the carbon as bicarbonate
+        rather than dissolved CO2, greatly expanding ocean storage capacity while minimizing the
+        chemical impact on marine life
+      paper: caldeira-2000-carbonate-dissolution
 - id: wind-power-geophysics
   title: Geophysics of wind power
   question: How much wind power can the atmosphere actually supply?
@@ -668,6 +707,21 @@
         intervals carrying mercury anomalies marking contemporaneous volcanism
       paper: rampino-2023-geologic-astronomical-cycles
 
+    - claim: >
+        Atmospheric CO2 adjusts over more than 100,000 years while sea ice and snow adjust in
+        under a year, so the silicate-weathering thermostat cannot stabilize the ice line against
+        a rapid perturbation, and CO2 clouds could have made an early global glaciation
+        irreversible
+      paper: caldeira-1992-irreversible-glaciation
+    - claim: >
+        A collapse of marine primary productivity reproduces the abrupt end-Permian carbon-isotope
+        excursion and drives atmospheric CO2 from a Late Permian 850 ppm to about 2,500 ppm
+      paper: rampino-2005-strangelove-ocean
+    - claim: >
+        Silicate-mineral dissolution is nearly independent of pH between 5 and 8 and the deep ocean
+        sits above 7.5, so low-temperature seafloor basalt alteration cannot act as an effective
+        feedback on atmospheric CO2 — weathering on land does
+      paper: caldeira-1995-seafloor-alteration
 - id: macro-energy-modeling
   title: Macro-energy modeling
   question: What does a reliable electricity system built on wind and solar actually need?

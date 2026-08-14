@@ -1,7 +1,7 @@
 {
   "_comment": "Which figure of each publication is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact, or, for a scan or a sheared crop, from page images produced by --pages. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes. A pick is a figure number, or {figure, trim} to cut a fraction off a side, or {page, rect} to render an explicit rectangle in PDF points.",
-  "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
   "_note_caldeira_1989": "caldeira-1989-planktonic-sulphur has no figure of its own — the Letter carries only Table 1 and equations. The figures visible on its first and last pages belong to the neighbouring articles in the same Nature issue, so there is nothing to extract; that page is deliberately text-only.",
+  "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
   "ahbe-2017-available-potential-energy": 3,
   "albright-2016-reversal-acidification": {
     "figure": 4,
@@ -41,6 +41,26 @@
       536
     ]
   },
+  "caldeira-1991-carbonate-partitioning": {
+    "page": 2,
+    "rect": [
+      229,
+      332,
+      398,
+      624
+    ],
+    "note": "image-only scan; Figure 2 cropped by eye"
+  },
+  "caldeira-1991-super-plume": {
+    "page": 3,
+    "rect": [
+      25,
+      35,
+      320,
+      405
+    ],
+    "note": "Figure 3, cropped by eye"
+  },
   "caldeira-1992-cenozoic-weathering": {
     "page": 3,
     "rect": [
@@ -49,6 +69,16 @@
       275,
       702
     ]
+  },
+  "caldeira-1992-irreversible-glaciation": {
+    "page": 1,
+    "rect": [
+      310,
+      52,
+      532,
+      210
+    ],
+    "note": "image-only scan; Figure 2 cropped by eye"
   },
   "caldeira-1992-life-span-biosphere": {
     "page": 3,
@@ -68,9 +98,78 @@
       390
     ]
   },
+  "caldeira-1995-seafloor-alteration": {
+    "page": 18,
+    "rect": [
+      8,
+      2,
+      342,
+      471
+    ],
+    "note": "image-only scan; Figure 2 cropped by eye"
+  },
+  "caldeira-1998-cfc11-salt-rejection": {
+    "page": 2,
+    "rect": [
+      36,
+      486,
+      292,
+      692
+    ],
+    "note": "Figure 1, cropped by hand"
+  },
+  "caldeira-1998-radiocarbon-efflux": {
+    "page": 3,
+    "rect": [
+      296,
+      60,
+      578,
+      360
+    ],
+    "note": "Figure 3, cropped by hand"
+  },
+  "caldeira-2000-carbonate-dissolution": {
+    "page": 2,
+    "rect": [
+      55,
+      50,
+      288,
+      466
+    ],
+    "note": "image-only scan; Figure 1 cropped by eye"
+  },
   "caldeira-2000-southern-ocean": 2,
+  "caldeira-2002-depth-radiocarbon-injection": {
+    "page": 3,
+    "rect": [
+      300,
+      150,
+      548,
+      620
+    ],
+    "note": "Figure 2, cropped by hand to drop the adjacent column"
+  },
   "caldeira-2003-climate-sensitivity-uncertainty": 3,
   "caldeira-2003-ocean-ph": 1,
+  "caldeira-2005-ocean-chemistry-predictions": {
+    "figure": 2
+  },
+  "caldeira-2006-forests-weathering": {
+    "figure": 1
+  },
+  "caldeira-2008-global-arctic-engineering": {
+    "page": 11,
+    "rect": [
+      118,
+      56,
+      372,
+      278
+    ],
+    "note": "Figure 5, cropped by hand to keep the y-axis title"
+  },
+  "caldeira-2013-pace-of-warming": {
+    "figure": 3
+  },
   "caldeira-2013-science-of-geoengineering": {
     "page": 7,
     "rect": [
@@ -79,6 +178,9 @@
       492,
       272
     ]
+  },
+  "caldeira-2014-sea-ice-sensitivity": {
+    "figure": 2
   },
   "caldeira-2023-green-premium": 4,
   "caldeira-kasting-1993-warming-potentials": {
@@ -208,6 +310,16 @@
       "bottom": 0.019
     }
   },
+  "hoffert-1998-stabilization-energy": {
+    "page": 3,
+    "rect": [
+      296,
+      452,
+      558,
+      672
+    ],
+    "note": "Figure 3, cropped by hand to include the rotated y-axis title"
+  },
   "hoffert-2002-advanced-technology-paths": 2,
   "jayakrishnan-2022-fossil-vs-deforestation": 5,
   "jayakrishnan-2024-net-zero-pathways": {
@@ -262,6 +374,16 @@
       248,
       226
     ]
+  },
+  "rampino-2005-strangelove-ocean": {
+    "page": 2,
+    "rect": [
+      251,
+      339,
+      556,
+      614
+    ],
+    "note": "Figure 1, cropped by hand to keep the right-hand axis title"
   },
   "rampino-2015-impact-cratering-periodicity": 1,
   "rampino-2021-tetrapod-periodicity": 1,

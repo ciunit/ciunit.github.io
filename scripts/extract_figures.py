@@ -110,8 +110,25 @@ def pdf_for(paper: dict, mapping: dict) -> Path | None:
     # the DOI in its reference list, and raw size is no guide — a citing article
     # with supplementary material is often the larger file.
     title = str(paper.get("title", ""))
-    scored = sorted(files, key=lambda f: (_has_text(f), _title_score(f, title), f.stat().st_size))
+    scored = sorted(files, key=lambda f: (_has_text(f), -_draft(f), _title_score(f, title),
+                                          f.stat().st_size))
     return scored[-1]
+
+
+DRAFT_RE = re.compile(
+    # `supp` must be anchored: `supply-chain` is a title word, not a supplement.
+    r"preprint|submitted|accepted|draft|\bSOM\b|supplement|\bsupp\b|\bcombined\b", re.I)
+
+
+def _draft(path: Path) -> int:
+    """1 if the filename says this is a draft or a supplement, not the article.
+
+    Size is the last tiebreak, and a preprint with the figures at the end, or a
+    combined article-plus-supplement file, is routinely the *larger* of two copies
+    — so without this the wrong one wins and the cover shows a title page in
+    manuscript format.
+    """
+    return 1 if DRAFT_RE.search(path.name) else 0
 
 
 def find_figures(doc) -> list[dict]:

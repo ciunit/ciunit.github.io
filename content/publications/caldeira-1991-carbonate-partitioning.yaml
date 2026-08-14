@@ -1,0 +1,103 @@
+id: caldeira-1991-carbonate-partitioning
+doi: 10.1130/0091-7613(1991)019<0204:CPCPAT>2.3.CO;2
+title: >
+  Continental-pelagic carbonate partitioning and the global carbonate-silicate cycle
+authors:
+  - Ken Caldeira
+journal: Geology
+volume: "19"
+pages: 204-206
+date: "1991-03"
+year: 1991
+themes:
+  - climate-and-carbon-cycle
+  - paleoclimate
+
+description: >
+  Where carbonate is buried — on continental shelves or on the deep sea floor — gives the
+  long-term carbon cycle two stable states, and the Cenozoic shift toward deep-water burial may
+  be pushing the Earth from one to the other over about 100 million years.
+
+question:
+  - >
+    Carbonate rock is the largest surface reservoir of carbon, and it is buried in two very
+    different places: shallow continental shelves, where it stays put and is weathered back off
+    the continents, and the deep sea floor, where it rides down a subduction zone and is
+    decarbonated by metamorphism.
+  - >
+    Those two fates return carbon to the atmosphere on quite different timescales. This paper
+    asked what the choice between them does to the carbonate-silicate cycle as a dynamical
+    system.
+
+key_finding: >
+  A carbonate-silicate cycle model that partitions burial between shallow-water and deep-water
+  settings has two stable steady states — a continental mode with low metamorphic CO2 flux and a
+  pelagic mode with high flux — and Cenozoic burial patterns suggest the Earth is moving from
+  the continental toward the pelagic mode over roughly 100 million years, with a possible
+  order-of-magnitude increase in the metamorphic CO2 flux to the atmosphere.
+
+findings:
+  - >
+    The model partitions carbonate deposition between shallow-water and deep-water environments
+    and includes carbon fluxes between mantle and lithosphere, which is what makes the two modes
+    appear at all.
+  - >
+    Holding total lithospheric carbonate mass constant yields two stable steady states. In the
+    continental state, burial is mostly on shelves and the metamorphic CO2 flux to the
+    atmosphere is low. In the pelagic state, burial is mostly deep-water and that flux is high.
+  - >
+    Letting total lithospheric carbonate mass vary instead of holding it fixed makes the system
+    oscillate between the two modes for reasonable parameter values.
+  - >
+    The boundary between the two modes is sharp. With crustal carbonate mass held constant, an
+    initial pelagic carbonate fraction below 3.8% sends the system to the continental mode, where
+    all carbonate ends up in continental environments and silicate weathering settles at 0.34
+    times today's rate; above 3.8% it goes to the pelagic mode, with 92.1% of carbonate in
+    pelagic environments and weathering 12.5 times today's rate.
+  - >
+    Roughly 60% to 80% of carbonate accumulation happens today in deep water, yet deep-water
+    carbonate is only 7% or 8% of the total carbonate rock mass — a mismatch implying the cycle
+    is currently far from steady state.
+  - >
+    Reading the Cenozoic increase in pelagic sedimentation through the model suggests a
+    transition from the continental to the pelagic mode on a timescale of 100 million years,
+    with an order-of-magnitude rise in metamorphic CO2 release as the consequence.
+
+matters:
+  - >
+    It makes the geography of carbonate burial a control on atmospheric CO2 rather than a
+    bookkeeping detail. Where the carbon goes decides how quickly it comes back.
+  - >
+    Two stable states in a system usually described as a single self-regulating feedback is a
+    different picture of the long-term carbon cycle. A system with more than one attractor can
+    be pushed between them, and does not simply return to where it started.
+  - >
+    The Cenozoic trend it identifies — the rise of calcareous plankton moving carbonate burial
+    off the shelves and into the deep sea — links an evolutionary event to the planet's
+    long-term carbon budget.
+
+figure:
+  file: caldeira-1991-carbonate-partitioning.webp
+  source_figure: Figure 2
+  alt: >
+    Two stacked line graphs against time in millions of years from 0 to 500. The upper panel
+    plots continental carbonate fraction from 0 to 1; two curves start together near 0.96, and
+    one stays at 1.0 while the other falls steeply after 150 million years to about 0.08. The
+    lower panel plots relative silicate rock weathering rate on a logarithmic axis from 0.1 to
+    100; the corresponding curves diverge from 1, one rising to about 12 and the other falling
+    to about 0.35.
+  caption: >
+    Two runs of the same model differing only in their starting carbonate fraction — 0.961 and
+    0.963 — separate completely and settle into different steady states, one continental and one
+    pelagic, with silicate weathering rates differing by a factor of about 35. This is what the
+    paper means by two stable modes.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira (1991), Geology 19, 204-206
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1992-cenozoic-weathering
+  - caldeira-1995-seafloor-alteration
+  - caldeira-1990-deccan-volcanism

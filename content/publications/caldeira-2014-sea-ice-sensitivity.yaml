@@ -1,0 +1,98 @@
+id: caldeira-2014-sea-ice-sensitivity
+doi: 10.1175/JCLI-D-14-00042.1
+title: >
+  Estimating the contribution of sea ice response to climate sensitivity in a climate model
+authors:
+  - Ken Caldeira
+  - Ivana Cvijanovic
+journal: Journal of Climate
+volume: "27"
+pages: 8597-8607
+date: "2014-11-04"
+year: 2014
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Disabling sea ice in a climate model raises its feedback parameter from about 1.05 to about
+  1.31 watts per square metre per kelvin, meaning sea ice response accounts for roughly 20% of
+  the model's climate sensitivity.
+
+question:
+  - >
+    Sea ice loss is known to amplify Arctic warming through surface albedo and through altered
+    heat and moisture exchange between ocean and atmosphere. It is usually discussed as a
+    regional amplifier.
+  - >
+    But a feedback that changes the planet's absorbed sunlight also changes global climate
+    sensitivity. This paper asked how much of a model's total sensitivity is attributable to sea
+    ice.
+
+key_finding: >
+  In a configuration of CESM 1.0.4 with a slab ocean and a thermodynamic-dynamic sea ice model,
+  the climate feedback parameter averages about 1.31 watts per square metre per kelvin when sea
+  ice is absent and about 1.05 with active sea ice, so sea ice response accounts for about 20%
+  of this model's climate sensitivity to an imposed change in radiative forcing.
+
+findings:
+  - >
+    The experiment removes sea ice rather than perturbing it: simulations are run in which sea
+    ice cannot form and ocean temperatures are allowed to fall below freezing, and compared with
+    controls that have active sea ice.
+  - >
+    Without sea ice the feedback parameter averages about 1.31 watts per square metre per
+    kelvin; with it, about 1.05. A smaller feedback parameter means a more sensitive climate, so
+    sea ice contributes roughly 20% of sensitivity.
+  - >
+    The effect is not purely a sunlight-reflection story. Sea ice response changes the longwave
+    feedback parameter nearly half as much as it changes the shortwave one — the insulating
+    effect of ice matters alongside its brightness.
+  - >
+    The total feedback decomposes into two measurable sensitivities: how much sea ice area
+    changes per degree of warming, and how much radiative forcing changes per unit of sea ice
+    area.
+  - >
+    An alternative method of disabling the sea ice response gives similar conclusions, which
+    guards against the result being an artefact of one experimental design.
+  - >
+    Framed as a forcing rather than a feedback, the sea ice present in the preindustrial control
+    simulation has a climate effect equivalent to about 3 watts per square metre.
+
+matters:
+  - >
+    It converts a regional process into a number in the global sensitivity budget. Twenty
+    percent of climate sensitivity resting on sea ice means that as sea ice disappears, the
+    remaining climate becomes less sensitive to further forcing.
+  - >
+    The longwave result corrects a common simplification. Treating sea ice feedback as an albedo
+    effect alone misses nearly a third of what it does.
+  - >
+    The decomposition into ice-area-per-degree and forcing-per-unit-area gives a diagnostic that
+    can be measured in any model, which is what makes the result comparable across models rather
+    than particular to CESM.
+
+figure:
+  file: caldeira-2014-sea-ice-sensitivity.webp
+  source_figure: Figure 2
+  alt: >
+    Four scatter plots, labelled 2xCO2, 4xCO2, 6xCO2 and 8xCO2, of top-of-atmosphere radiation
+    imbalance in watts per square metre against global mean temperature change in kelvin. Each
+    panel shows three clouds of points in black, red and blue for the Active, Zero and
+    Prescribed sea ice treatments, with fitted regression lines. Annotations give the radiative
+    forcing and the climate feedback parameter for each treatment; in the 4xCO2 panel these are
+    1.02 for Active and 1.33 for Zero watts per square metre per kelvin.
+  caption: >
+    Gregory regressions for three sea ice treatments at four CO2 levels. The slope is the climate
+    feedback parameter, and it is consistently steeper without sea ice — a steeper slope meaning
+    a less sensitive climate, which is how the roughly 20% contribution of sea ice is measured.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Cvijanovic (2014), Journal of Climate 27, 8597-8607
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2013-pace-of-warming
+  - rugenstein-2016-radiative-feedbacks
+  - duffy-1997-sea-ice-salinity
+  - caldeira-1998-cfc11-salt-rejection

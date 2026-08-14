@@ -1,0 +1,99 @@
+id: caldeira-2005-ocean-chemistry-predictions
+doi: 10.1029/2004JC002671
+title: >
+  Ocean model predictions of chemistry changes from carbon dioxide emissions to the atmosphere
+  and ocean
+authors:
+  - Ken Caldeira
+  - Michael E. Wickett
+journal: Journal of Geophysical Research - Oceans
+volume: "110"
+pages: C09S04
+date: "2005-09-21"
+year: 2005
+themes:
+  - ocean-acidification
+  - climate-and-carbon-cycle
+
+description: >
+  The IPCC emission scenarios lower global surface ocean pH by 0.3 to 0.5 units by 2100;
+  cumulative emission of 5,000 petagrams of carbon lowers it by 0.8 units and makes most of the
+  surface ocean undersaturated with respect to aragonite.
+
+question:
+  - >
+    Ocean acidification had been established in principle, but marine biologists needed the
+    chemistry expressed as it would actually unfold — per emission pathway, per region, and per
+    mineral — to know which experiments correspond to which futures.
+  - >
+    Deep-sea CO2 injection was also being proposed as an alternative to atmospheric release.
+    That trade needed to be stated chemically: less impact where, in exchange for more impact
+    where.
+
+key_finding: >
+  Ocean general circulation model simulations give global surface ocean pH reductions of 0.3 to
+  0.5 units by 2100 under the IPCC SRES A1, A2, B1, and B2 emission pathways; cumulative
+  atmospheric emission of 5,000 petagrams of carbon produces aragonite undersaturation in most
+  of the surface ocean and a surface pH reduction of 0.8 units by 2300, and 20,000 petagrams
+  produces a reduction of 1.4 units.
+
+findings:
+  - >
+    Under the SRES A1, A2, B1, and B2 pathways, and the stabilization pathways holding CO2 at
+    650 ppm or above, parts of the Southern Ocean become undersaturated with respect to
+    aragonite — the mineral form used by pteropods and corals.
+  - >
+    Cumulative emission of 5,000 petagrams of carbon makes most of the surface ocean
+    undersaturated with respect to aragonite; 10,000 petagrams also makes it undersaturated with
+    respect to the more stable calcite.
+  - >
+    Stabilizing atmospheric CO2 at 450 ppm — a low target — still produces both calcite and
+    aragonite undersaturation through most of the deep ocean.
+  - >
+    Surface pH falls 0.3 to 0.5 units by 2100 under the SRES pathways; by 2300 the same
+    reduction is reached by the 650 and 1000 ppm stabilization scenarios and by a 1,250
+    petagram emission scenario, while 5,000 and 20,000 petagrams give 0.8 and 1.4 units.
+  - >
+    Deep ocean injection as an alternative to atmospheric release buys less impact on the
+    surface ocean and climate at the price of greater chemical impact on the deep ocean. The
+    paper states this as a trade rather than a solution.
+  - >
+    Changes of the magnitude shown are likely to be biologically significant, which is the
+    point of tabulating them scenario by scenario.
+
+matters:
+  - >
+    It supplied the numbers the ocean acidification literature has used ever since to connect
+    laboratory carbonate chemistry to specific emission futures, so a perturbation experiment
+    can be labelled with the scenario and year it represents.
+  - >
+    Showing that even 450 ppm stabilization leaves most of the deep ocean corrosive establishes
+    that acidification is not avoided by moderate mitigation — only its severity is.
+  - >
+    Framing deep-sea injection as relocating the chemical impact rather than removing it set the
+    terms on which ocean carbon disposal has been argued since.
+
+figure:
+  file: caldeira-2005-ocean-chemistry-predictions.webp
+  source_figure: Figure 2
+  alt: >
+    Two stacked line graphs against year from 2000 to 2500. The upper panel plots surface ocean
+    pH from 6.5 to 8.5; curves for the WRE stabilization pathways level off between about 7.9
+    and 8.1, while cumulative emission curves for 1250, 2500, 5000, 10,000 and 20,000 petagrams
+    of carbon fall progressively to about 6.8. The lower panel plots calcite and aragonite
+    saturation state on the same time axis, with dashed lines marking the saturation threshold of
+    1, which the larger emission curves cross.
+  caption: >
+    Surface ocean chemistry under stabilization pathways and under cumulative emission scenarios.
+    The dashed lines in the lower panel mark saturation; curves falling below them are waters in
+    which calcite or aragonite dissolves rather than forms.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Wickett (2005), Journal of Geophysical Research 110, C09S04
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2003-ocean-ph
+  - caldeira-2000-carbonate-dissolution
+  - caldeira-2002-depth-radiocarbon-injection

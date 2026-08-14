@@ -1,0 +1,97 @@
+id: caldeira-1998-cfc11-salt-rejection
+doi: 10.1029/98GL00336
+title: >
+  Sensitivity of simulated CFC-11 distributions in a global ocean model to the treatment of salt
+  rejected during sea-ice formation
+authors:
+  - Ken Caldeira
+  - Philip B. Duffy
+journal: Geophysical Research Letters
+volume: "25"
+pages: 1003-1006
+date: "1998-04-01"
+year: 1998
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Where an ocean model puts the salt rejected when sea ice forms changes its global CFC-11
+  uptake by about 30%, and its Southern Ocean column inventories by up to 90% — a subgrid-scale
+  detail with a first-order effect on simulated ocean carbon uptake.
+
+question:
+  - >
+    Global ocean models were known to take up too much CFC-11 and probably too much
+    anthropogenic CO2, particularly in the Southern Ocean. Something in the models was mixing
+    surface water downward too readily.
+  - >
+    When sea ice forms it rejects salt, making the water beneath it denser. A model grid cell 25
+    metres thick has to decide where that salt goes, and no study had asked whether that choice
+    matters for transient tracers.
+
+key_finding: >
+  Distributing the salt rejected during sea-ice formation through the upper 160 metres rather
+  than confining it to a 25-metre surface layer lowers the modelled 1990 global ocean inventory
+  of CFC-11 by about 30%, and lowers Southern Ocean column inventories by up to 90%, while
+  generally improving the simulated CFC-11 and salinity fields.
+
+findings:
+  - >
+    Two idealized simulations isolate the effect: a control that places rejected salt in the
+    model's 25-metre surface layer, and a test that spreads it uniformly through the upper 160
+    metres beneath the forming ice.
+  - >
+    Putting the salt deeper preserves vertical density gradients instead of destroying them, so
+    grid-scale convection is inhibited — most strongly in the Southern Ocean, where the control
+    was convecting most vigorously.
+  - >
+    The consequence for tracer uptake is large. Global CFC-11 inventory for 1990 falls about
+    30%, and Southern Ocean column inventories fall by as much as 90%.
+  - >
+    Both the CFC-11 and the salinity fields agree better with observations under the deeper
+    treatment, which is what makes this a correction rather than merely a sensitivity.
+  - >
+    The authors are explicit that their treatment is idealized. The point is to demonstrate the
+    need for a physically based parameterization of subgrid-scale convection that accounts for
+    heterogeneous surface buoyancy forcing, not to propose 160 metres as the right answer.
+  - >
+    The inference carried forward is that a more detailed treatment of what happens beneath sea
+    ice should reduce simulated oceanic absorption of anthropogenic CO2, again especially in the
+    Southern Ocean.
+
+matters:
+  - >
+    How much CO2 the ocean absorbs is one of the largest terms in any projection of future
+    atmospheric CO2. Showing that it hinges on a process operating below the model's grid scale
+    locates a specific, fixable source of error.
+  - >
+    It is a concrete case of a general modelling problem. Convection is triggered by
+    heterogeneity within a grid cell, but a model only sees the cell average, and averaging away
+    the heterogeneity systematically biases the result in one direction.
+  - >
+    The Southern Ocean is where the discrepancy is worst and where most anthropogenic carbon
+    enters the deep ocean, so a 90% change in column inventory there is not a regional
+    curiosity.
+
+figure:
+  file: caldeira-1998-cfc11-salt-rejection.webp
+  source_figure: Figure 1
+  alt: >
+    A line graph of simulated global ocean CFC-11 content in units of 10 to the 12 moles, from 0
+    to 0.8, against year from 1950 to about 1993. Two curves rise from near zero in the 1960s;
+    the dotted Control curve reaches about 0.73 by 1990 while the solid Test curve reaches about
+    0.50.
+  caption: >
+    The whole result in one plot. The two simulations differ only in whether salt rejected during
+    sea-ice formation is placed in the top 25 metres or spread through the top 160 metres, and by
+    1990 the Test run has absorbed about 30% less CFC-11 than the Control.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Duffy (1998), Geophysical Research Letters 25, 1003-1006
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1998-radiocarbon-efflux
+  - duffy-1997-sea-ice-salinity
+  - caldeira-2000-southern-ocean

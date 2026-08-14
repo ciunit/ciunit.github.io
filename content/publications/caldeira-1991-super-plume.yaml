@@ -1,0 +1,99 @@
+id: caldeira-1991-super-plume
+doi: 10.1029/91GL01237
+title: >
+  The Mid-Cretaceous Super Plume, carbon dioxide, and global warming
+authors:
+  - Ken Caldeira
+  - Michael R. Rampino
+journal: Geophysical Research Letters
+volume: "18"
+pages: 987-990
+date: "1991-06"
+year: 1991
+themes:
+  - climate-and-carbon-cycle
+  - paleoclimate
+
+description: >
+  CO2 released by mid-Cretaceous super-plume volcanism could raise atmospheric CO2 to 3.7 to
+  14.7 times pre-industrial and warm the planet by 2.8 to 7.7 degrees Celsius — but oceanic
+  plateaus alone account for no more than 20% of the CO2 rise.
+
+question:
+  - >
+    The mid-Cretaceous, about 120 to 100 million years ago, was 6 to 14 degrees Celsius warmer
+    than today. A super plume rising from near the core-mantle boundary and erupting beneath the
+    Pacific — building the Ontong-Java Plateau — had been proposed as the cause, through the CO2
+    it degassed.
+  - >
+    That was a qualitative suggestion. This paper asked how much warming the plume's carbon
+    could actually deliver, given that silicate weathering removes CO2 faster as the planet
+    warms.
+
+key_finding: >
+  A carbonate-silicate cycle model with four different silicate-weathering formulations gives
+  mid-Cretaceous atmospheric CO2 of 3.7 to 14.7 times the pre-industrial value of 285 ppm from
+  super-plume tectonics, implying 2.8 to 7.7 degrees Celsius of warming — but CO2 released from
+  oceanic plateaus alone is unlikely to account for more than 20% of that CO2 increase.
+
+findings:
+  - >
+    The calculation is run with four different formulations for how silicate-rock weathering
+    responds to atmospheric CO2, so the spread of answers reflects genuine disagreement about
+    the negative feedback rather than one modelling choice.
+  - >
+    Super-plume tectonics — faster sea-floor generation and subduction, not just the plateau
+    eruption — gives CO2 between 3.7 and 14.7 times pre-industrial, and 2.8 to 7.7 degrees
+    Celsius of warming above today's global mean.
+  - >
+    The plateau itself is a small part of it. CO2 from oceanic plateau eruptions alone is
+    unlikely to have been directly responsible for more than 20% of the mid-Cretaceous CO2 rise;
+    the rest comes from ridge degassing and subduction-zone decarbonation tracking the higher
+    sea-floor generation rate.
+  - >
+    Geography contributes about 4.8 degrees Celsius independently, through altered continental
+    positions and higher sea level.
+  - >
+    Together, palaeogeography and super-plume CO2 give 7.6 to 12.5 degrees Celsius, which sits
+    inside the 6 to 14 degrees previously estimated for mid-Cretaceous warmth — so the
+    hypothesis survives quantification.
+
+matters:
+  - >
+    It converted a plausible story into a number, and the number came out compatible with the
+    geological record. That is the useful outcome either way: a mechanism that could not produce
+    enough warming would have been eliminated.
+  - >
+    The 20% result is the part that changed the framing. The dramatic event — the plateau
+    eruption — is not the main carbon source; the sustained increase in sea-floor spreading that
+    accompanies it is.
+  - >
+    It is an early demonstration that deep-Earth processes and surface climate have to be
+    modelled as one system, which is the approach the group's later palaeoclimate work continues
+    to take.
+
+figure:
+  file: caldeira-1991-super-plume.webp
+  source_figure: Figure 3
+  alt: >
+    Two stacked line graphs against geologic time in millions of years, running from 60 on the
+    left to 140 on the right. The upper panel plots atmospheric CO2 in parts per million, with
+    four curves labelled Walker et al. 1981, Berner et al. 1983, Volk 1987, and Berner 1990;
+    all rise from about 300 ppm at 60 million years to peaks between roughly 1000 and 4200 ppm
+    near 115 million years. The lower panel plots temperature change in degrees Celsius, with
+    the same curves peaking between about 3 and 8 degrees.
+  caption: >
+    Estimated mid-Cretaceous CO2 and temperature under four different formulations of how
+    silicate weathering responds to CO2. All four peak near 115 million years ago, but they
+    disagree by a factor of four about how high CO2 went — which is why the paper reports a range
+    rather than a value.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Rampino (1991), Geophysical Research Letters 18, 987-990
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-1990-deccan-volcanism
+  - caldeira-1991-carbonate-partitioning
+  - rampino-2024-extinctions-igneous-provinces
