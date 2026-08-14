@@ -72,6 +72,26 @@ matters:
     sustained change in a sink requires a matching change in a source, so any proposal that
     alters one has to account for the other.
 
+figure:
+  file: caldeira-1992-cenozoic-weathering.webp
+  source_figure: Figure 2
+  alt: >
+    A line plot of the ratio of riverine to mid-ocean-ridge strontium flux, from 0.0 to 2.5,
+    against time from 0 to 150 million years. Three curves correspond to three assumed riverine
+    strontium isotope histories, labelled case 1 at a constant ratio of 0.7119, and cases 2 and 3
+    at 0.7109 and 0.7099 before 40 million years. All three decline from left to right, so the
+    ratio increases toward the present.
+  caption: >
+    The ratio of river-supplied to hydrothermal strontium stands in for chemical weathering
+    relative to mid-ocean-ridge exchange. It rises toward the present in all three cases — the
+    signature of weathering being enhanced by metamorphic decarbonation without a matching change
+    in hydrothermal activity.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira (1992), Nature 357, 578-581
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - pagani-2009-terrestrial-plants-co2
   - ridgwell-2003-carbonate-climate-stability

@@ -58,6 +58,26 @@ matters:
     avoiding further warming requires bringing emissions near zero rather than merely
     reducing them.
 
+figure:
+  file: caldeira-kasting-1993-warming-potentials.webp
+  source_figure: Figure 2
+  alt: >
+    Two stacked panels against time from 0 to 1,000 years, each carrying six numbered curves for
+    six atmospheric carbon dioxide scenarios. Panel a shows the airborne fraction of an emitted
+    pulse remaining, where the curves fan out widely and end between about 0.15 and 0.6. Panel b
+    shows the climate forcing remaining, where the same six curves converge tightly and all end
+    between roughly 0.15 and 0.2.
+  caption: >
+    The same six scenarios, two ways. How much of the emitted carbon dioxide is still in the air
+    differs by a factor of about four between scenarios (panel a), yet the climate forcing it
+    produces barely differs at all (panel b) — the two nonlinearities, one in radiation physics
+    and one in marine chemistry, cancel.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Kasting (1993), Nature 366, 251-253
+  modification: Extracted from the published PDF and resized for web display
+
 links:
   - label: Publisher page (Nature)
     url: https://www.nature.com/articles/366251a0

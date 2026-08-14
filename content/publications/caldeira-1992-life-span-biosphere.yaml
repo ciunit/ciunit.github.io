@@ -65,6 +65,27 @@ matters:
     condition. The feedback that keeps Earth temperate is the same one that will eventually
     starve its biosphere of carbon.
 
+figure:
+  file: caldeira-1992-life-span-biosphere.webp
+  source_figure: Figure 2
+  alt: >
+    Two stacked panels against time in billions of years from the present, 0.0 to 1.6. The upper
+    panel plots soil and atmospheric carbon dioxide partial pressure on a logarithmic axis from
+    1 to 10,000 parts per million, both falling steeply and reaching 1 part per million near
+    1.0 billion years, against a rising solar luminosity line. The lower panel plots biological
+    productivity, falling from 1.0 to zero at about 0.9 billion years, against temperature rising
+    from about 293 to 373 kelvin.
+  caption: >
+    Two clocks running at once. Carbon dioxide falls as the brightening Sun accelerates rock
+    weathering, and productivity follows it down to zero near 0.9 billion years; temperature then
+    climbs toward the boiling point. Which curve ends the biosphere — starvation or heat — is
+    what sets the 0.9-to-1.5-billion-year range.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Caldeira and Kasting (1992), Nature 360, 721-723
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - pagani-2009-terrestrial-plants-co2
   - ridgwell-2003-carbonate-climate-stability

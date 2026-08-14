@@ -9,7 +9,7 @@ below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
 - **98** publication pages across **9** themes
-- **87** have a figure, **11** do not
+- **91** have a figure, **7** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -93,7 +93,7 @@ higher-resolution source.
 | [bala-2011-marine-cloud-albedo](docs/publications/bala-2011-marine-cloud-albedo.html)<br><sub>Bala et al., 2011</sub> | 2011 | <sub>Solar geoengineering</sub> | 1600×1405 | `good` | 282 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [cao-2011-precipitation-co2-forcing](docs/publications/cao-2011-precipitation-co2-forcing.html)<br><sub>Cao et al., 2011</sub> | 2011 | <sub>Solar geoengineering, Climate and the carbon cycle</sub> | 1600×1069 | `good` | 85 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [davis-2011-supply-chain-emissions](docs/publications/davis-2011-supply-chain-emissions.html)<br><sub>Davis et al., 2011</sub> | 2011 | <sub>Climate and energy</sub> | 1600×1961 | `good` | 96 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
-| [bala-2010-fast-versus-slow](docs/publications/bala-2010-fast-versus-slow.html)<br><sub>Bala et al., 2010</sub> | 2010 | <sub>Solar geoengineering, Climate and the carbon cycle</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [bala-2010-fast-versus-slow](docs/publications/bala-2010-fast-versus-slow.html)<br><sub>Bala et al., 2010</sub> | 2010 | <sub>Solar geoengineering, Climate and the carbon cycle</sub> | 1600×2465 | `good` | 128 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [cao-2010-physiological-forcing](docs/publications/cao-2010-physiological-forcing.html)<br><sub>Cao et al., 2010</sub> | 2010 | <sub>Climate and the carbon cycle</sub> | 1600×1151 | `good` | 176 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [ban-weiss-2010-optimization](docs/publications/ban-weiss-2010-optimization.html)<br><sub>Ban-Weiss and Caldeira, 2010</sub> | 2010 | <sub>Solar geoengineering</sub> | 1600×2045 | `good` | 125 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 3.0</sub> |  |
 | [davis-2010-committed-emissions](docs/publications/davis-2010-committed-emissions.html)<br><sub>Davis et al., 2010</sub> | 2010 | <sub>Climate and energy</sub> | 1600×1689 | `good` | 120 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
@@ -113,10 +113,10 @@ higher-resolution source.
 | [caldeira-2000-southern-ocean](docs/publications/caldeira-2000-southern-ocean.html)<br><sub>Caldeira and Duffy, 2000</sub> | 2000 | <sub>Ocean acidification and the ocean carbon cycle</sub> | 1600×2027 | `good` | 185 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [govindasamy-2000-first-simulations](docs/publications/govindasamy-2000-first-simulations.html)<br><sub>Govindasamy and Caldeira, 2000</sub> | 2000 | <sub>Solar geoengineering</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
 | [duffy-1997-sea-ice-salinity](docs/publications/duffy-1997-sea-ice-salinity.html)<br><sub>Duffy and Caldeira, 1997</sub> | 1997 | <sub>Ocean acidification and the ocean carbon cycle</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
-| [caldeira-kasting-1993-warming-potentials](docs/publications/caldeira-kasting-1993-warming-potentials.html)<br><sub>Caldeira and Kasting, 1993</sub> | 1993 | <sub>Climate and the carbon cycle</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> | ⚠️ |
+| [caldeira-kasting-1993-warming-potentials](docs/publications/caldeira-kasting-1993-warming-potentials.html)<br><sub>Caldeira and Kasting, 1993</sub> | 1993 | <sub>Climate and the carbon cycle</sub> | 1600×1612 | `good` | 58 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> | ⚠️ |
 | [caldeira-1993-kt-carbon-cycle](docs/publications/caldeira-1993-kt-carbon-cycle.html)<br><sub>Caldeira and Rampino, 1993</sub> | 1993 | <sub>Ocean acidification and the ocean carbon cycle</sub> | 1600×2095 | `good` | 60 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [rampino-1993-geologic-periodicity](docs/publications/rampino-1993-geologic-periodicity.html)<br><sub>Rampino and Caldeira, 1993</sub> | 1993 | <sub>Paleoclimate and Earth-system dynamics in geologic time</sub> | 1851×1318 | `good` | 49 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
-| [caldeira-1992-life-span-biosphere](docs/publications/caldeira-1992-life-span-biosphere.html)<br><sub>Caldeira and Kasting, 1992</sub> | 1992 | <sub>Climate and the carbon cycle, Paleoclimate and Earth-system dynamics in geologic time</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
-| [caldeira-1992-cenozoic-weathering](docs/publications/caldeira-1992-cenozoic-weathering.html)<br><sub>Caldeira, 1992</sub> | 1992 | <sub>Climate and the carbon cycle, Paleoclimate and Earth-system dynamics in geologic time</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |
+| [caldeira-1992-life-span-biosphere](docs/publications/caldeira-1992-life-span-biosphere.html)<br><sub>Caldeira and Kasting, 1992</sub> | 1992 | <sub>Climate and the carbon cycle, Paleoclimate and Earth-system dynamics in geologic time</sub> | 1600×1493 | `good` | 64 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
+| [caldeira-1992-cenozoic-weathering](docs/publications/caldeira-1992-cenozoic-weathering.html)<br><sub>Caldeira, 1992</sub> | 1992 | <sub>Climate and the carbon cycle, Paleoclimate and Earth-system dynamics in geologic time</sub> | 1600×1027 | `good` | 37 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [caldeira-1990-deccan-volcanism](docs/publications/caldeira-1990-deccan-volcanism.html)<br><sub>Caldeira and Rampino, 1990</sub> | 1990 | <sub>Climate and the carbon cycle</sub> | 1600×1051 | `good` | 34 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> | ⚠️ |
 | [caldeira-1989-planktonic-sulphur](docs/publications/caldeira-1989-planktonic-sulphur.html)<br><sub>Caldeira, 1989</sub> | 1989 | <sub>Climate and the carbon cycle</sub> | — | `none` |  | <sub>—</sub> | <sub>—</sub> |  |

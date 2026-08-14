@@ -68,6 +68,29 @@ matters:
     The methodological recommendation has outlasted the particular result: separating fast from
     slow is now standard practice in comparing forcing agents.
 
+figure:
+  file: bala-2010-fast-versus-slow.webp
+  source_figure: Figure 3
+  alt: >
+    Eight scatter panels in two columns, each plotting a climate variable against the change in
+    global- and annual-mean surface temperature in kelvin. The variables are top-of-atmosphere
+    net longwave and net shortwave flux, top-of-atmosphere and surface net flux, surface latent
+    and sensible heat flux, precipitation, and precipitable water. Each panel carries two fitted
+    lines — a solid line with star markers for the doubled carbon dioxide case and a dashed line
+    with circles for the solar case. In the precipitation and latent heat panels the two lines
+    are close to parallel but clearly offset from one another; in the net flux panels they very
+    nearly coincide.
+  caption: >
+    In each panel the slope is the slow response and the intercept the fast one. The slopes are
+    almost identical between carbon dioxide and solar forcing — the water cycle's slow response
+    does not care what warmed it — while the intercepts are markedly different, and for
+    precipitation and the heat fluxes that offset is entirely fast adjustment.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Bala, Caldeira and Nemani (2010), Climate Dynamics 35, 423-434
+  modification: Extracted from the published PDF and resized for web display
+
 related:
   - cao-2012-fast-response-days-weeks
   - cao-2015-fast-slow-responses

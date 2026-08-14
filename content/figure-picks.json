@@ -1,6 +1,7 @@
 {
   "_comment": "Which figure of each publication is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact, or, for a scan or a sheared crop, from page images produced by --pages. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes. A pick is a figure number, or {figure, trim} to cut a fraction off a side, or {page, rect} to render an explicit rectangle in PDF points.",
   "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
+  "_note_caldeira_1989": "caldeira-1989-planktonic-sulphur has no figure of its own — the Letter carries only Table 1 and equations. The figures visible on its first and last pages belong to the neighbouring articles in the same Nature issue, so there is nothing to extract; that page is deliberately text-only.",
   "ahbe-2017-available-potential-energy": 3,
   "albright-2016-reversal-acidification": {
     "figure": 4,
@@ -13,6 +14,15 @@
   "antonini-2021-spatial-constraints": 2,
   "bala-2005-multicentury-fossil-fuel": 7,
   "bala-2007-deforestation": 1,
+  "bala-2010-fast-versus-slow": {
+    "page": 8,
+    "rect": [
+      221,
+      52,
+      552,
+      562
+    ]
+  },
   "bala-2011-marine-cloud-albedo": 7,
   "ban-weiss-2010-optimization": 3,
   "brown-2017-greater-future-warming": {
@@ -29,6 +39,24 @@
       374.5,
       292,
       536
+    ]
+  },
+  "caldeira-1992-cenozoic-weathering": {
+    "page": 3,
+    "rect": [
+      32,
+      546,
+      275,
+      702
+    ]
+  },
+  "caldeira-1992-life-span-biosphere": {
+    "page": 3,
+    "rect": [
+      28,
+      48,
+      298,
+      300
     ]
   },
   "caldeira-1993-kt-carbon-cycle": {
@@ -53,6 +81,15 @@
     ]
   },
   "caldeira-2023-green-premium": 4,
+  "caldeira-kasting-1993-warming-potentials": {
+    "page": 2,
+    "rect": [
+      299,
+      373,
+      551,
+      627
+    ]
+  },
   "cao-2010-physiological-forcing": 2,
   "cao-2011-precipitation-co2-forcing": 1,
   "cao-2012-fast-response-days-weeks": 1,
