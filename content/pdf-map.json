@@ -2,8 +2,7 @@
  "mapping": {
   "10.1016/0012-821x(93)90026-6": {
    "files": [
-    "01.1993_Rampino_Caldeira.pdf",
-    "Rampino-Caldeira_EPSL1993_major-episodes-geologic-change.pdf"
+    "01.1993_Rampino_Caldeira.pdf"
    ],
    "how": "title match",
    "id": "rampino-1993-geologic-periodicity",
@@ -43,8 +42,6 @@
   },
   "10.1073/pnas.2103875118": {
    "files": [
-    "Antonini-Caldeira_PNAS2021_spatial-constraints-wind-power(w supp) (1).pdf",
-    "Antonini-Caldeira_PNAS2021_spatial-constraints-wind-power(w supp).pdf",
     "Antonini-Caldeira_PNAS2021_spatial-constraints-wind-power.pdf"
    ],
    "how": "page text",
@@ -59,16 +56,6 @@
    "id": "antonini-2024-wind-droughts",
    "has_figure": true
   },
-  "10.1007/s00382-009-0583-y": {
-   "files": [
-    "Bala-et-al_ClimDyn2009_fast-vs-slow.pdf",
-    "Bala_et_al_ClimDyn2009.pdf",
-    "Bala_et_al_ClimDyn2010.pdf"
-   ],
-   "how": "page text",
-   "id": "bala-2010-fast-versus-slow",
-   "has_figure": true
-  },
   "10.1007/s00382-010-0868-1": {
    "files": [
     "Bala-et-al_ClimDyn2011_marine-cloud-albedo.pdf"
@@ -77,26 +64,28 @@
    "id": "bala-2011-marine-cloud-albedo",
    "has_figure": true
   },
-  "10.1073/pnas.0608998104": {
+  "10.1007/s00382-009-0583-y": {
    "files": [
-    "Bala-et-al_PNAS2007_deforestation-climate.pdf",
-    "Bala_et_al_PNAS2007 (2).pdf",
-    "Bala_et_al_PNAS2007.pdf",
-    "Bala_etal_PNAS2007.pdf",
-    "Bala_etal_PNAS2007_reduced.pdf",
-    "grassworld-PNAS-sub.pdf"
+    "Bala_et_al_ClimDyn2010.pdf"
    ],
-   "how": "title match",
-   "id": "bala-2007-deforestation",
+   "how": "page text",
+   "id": "bala-2010-fast-versus-slow",
    "has_figure": true
   },
   "10.1175/jcli3542.1": {
    "files": [
-    "Bala_et_al_JClim2005.pdf",
-    "Bala_etal_JClim2005.pdf"
+    "Bala_et_al_JClim2005.pdf"
    ],
    "how": "title match",
    "id": "bala-2005-multicentury-fossil-fuel",
+   "has_figure": true
+  },
+  "10.1073/pnas.0608998104": {
+   "files": [
+    "Bala_et_al_PNAS2007.pdf"
+   ],
+   "how": "title match",
+   "id": "bala-2007-deforestation",
    "has_figure": true
   },
   "10.1088/1748-9326/5/3/034009": {
@@ -123,15 +112,6 @@
    "id": "brown-2020-break-even-year",
    "has_figure": true
   },
-  "10.1029/2004jc002671": {
-   "files": [
-    "Caldeira Wickett JGR all 050309 preprint.pdf",
-    "Caldeira-Wickett_JGR2005_ocean-chem-changes.pdf"
-   ],
-   "how": "title match",
-   "id": "caldeira-2005-ocean-chemistry-predictions",
-   "has_figure": true
-  },
   "10.1175/jcli-d-14-00042.1": {
    "files": [
     "Caldeira-Cvijanovic_JClim2014_sea-ice-climate-sensitivity.pdf"
@@ -150,8 +130,7 @@
   },
   "10.1126/science.287.5453.620": {
    "files": [
-    "Caldeira-Duffy_Science2000_Southern-Ocean-carbon.pdf",
-    "Caldeira_Duffy_Science2000.pdf"
+    "Caldeira-Duffy_Science2000_Southern-Ocean-carbon.pdf"
    ],
    "how": "title match",
    "id": "caldeira-2000-southern-ocean",
@@ -167,7 +146,6 @@
   },
   "10.1038/360721a0": {
    "files": [
-    "Caldeira-Kasting_Nature1992_life-span-revisited.pdf",
     "Caldeira-Kasting_Nature1992_lifespan-revisited.pdf"
    ],
    "how": "filename",
@@ -176,8 +154,7 @@
   },
   "10.1038/366251a0": {
    "files": [
-    "Caldeira-Kasting_Nature1993_GWP-insensitivity.pdf",
-    "Caldeira-Kasting_Nature1993_insensitivity_GWPs.pdf"
+    "Caldeira-Kasting_Nature1993_GWP-insensitivity.pdf"
    ],
    "how": "filename",
    "id": "caldeira-kasting-1993-warming-potentials",
@@ -185,11 +162,9 @@
   },
   "10.1088/1748-9326/8/3/034039": {
    "files": [
-    "Caldeira-Myhrvold_ERL2013_pace-of-warming(SOM).pdf",
-    "Caldeira-Myhrvold_ERL2013_pace-of-warming(combined).pdf",
     "Caldeira-Myhrvold_ERL2013_pace-of-warming.pdf"
    ],
-   "how": "title match",
+   "how": "page text",
    "id": "caldeira-2013-pace-of-warming",
    "has_figure": true
   },
@@ -217,14 +192,12 @@
    "id": "caldeira-1993-kt-carbon-cycle",
    "has_figure": true
   },
-  "10.1029/1999gl002364": {
+  "10.1029/2004jc002671": {
    "files": [
-    "Caldeira-Rau_GRL2000_accel_weathering_carbonate.pdf",
-    "Caldeira_Rau_GRL2000.pdf",
-    "Caldeira_Rau_GRL_2000.pdf"
+    "Caldeira-Wickett_JGR2005_ocean-chem-changes.pdf"
    ],
-   "how": "filename",
-   "id": "caldeira-2000-carbonate-dissolution",
+   "how": "page text",
+   "id": "caldeira-2005-ocean-chemistry-predictions",
    "has_figure": true
   },
   "10.1038/425365a": {
@@ -253,8 +226,7 @@
   },
   "10.1029/1998gl900010": {
    "files": [
-    "Caldeira-et-al_GRL1998_radiocarbon-efflux.pdf",
-    "Caldeira-et-al_GRL1998_radiocarbon-outgassing.pdf"
+    "Caldeira-et-al_GRL1998_radiocarbon-efflux.pdf"
    ],
    "how": "title match",
    "id": "caldeira-1998-radiocarbon-efflux",
@@ -262,18 +234,15 @@
   },
   "10.1126/science.1078938": {
    "files": [
-    "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab(1).pdf",
-    "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab.pdf",
-    "Caldeira_etal_Science2003.pdf"
+    "Caldeira-et-al_Science2003_clim-sens-energy-2C-clim-stab.pdf"
    ],
-   "how": "filename",
+   "how": "page text",
    "id": "caldeira-2003-climate-sensitivity-uncertainty",
    "has_figure": true
   },
   "10.2475/ajs.295.9.1077": {
    "files": [
-    "Caldeira_AJS1995.pdf",
-    "Caldeira_AJS1995_seafloor-basalt.pdf"
+    "Caldeira_AJS1995.pdf"
    ],
    "how": "filename",
    "id": "caldeira-1995-seafloor-alteration",
@@ -282,8 +251,7 @@
   "10.1073/pnas.1107409108": {
    "files": [
     "Caldeira_Davis_PNAS2011.pdf",
-    "Davis-et-al_PNAS2011_CO2-supply-chain.pdf",
-    "Davis-et-al_PNAS2011_supply-chain-co2-emissions.pdf"
+    "Davis-et-al_PNAS2011_CO2-supply-chain.pdf"
    ],
    "how": "filename",
    "id": "davis-2011-supply-chain-emissions",
@@ -307,9 +275,7 @@
   },
   "10.1038/337732a0": {
    "files": [
-    "Caldeira_Nature1989_CLAW.pdf",
-    "Caldeira_Nature1989_evo-pressure-planktonic-sulfur.pdf",
-    "Caldeira_Nature1989_planktonic-sulphur.pdf"
+    "Caldeira_Nature1989_CLAW.pdf"
    ],
    "how": "filename",
    "id": "caldeira-1989-planktonic-sulphur",
@@ -323,20 +289,17 @@
    "id": "caldeira-1992-cenozoic-weathering",
    "has_figure": true
   },
-  "10.1111/j.1365-3121.2005.00648.x": {
+  "10.1029/1999gl002364": {
    "files": [
-    "Caldeira_Rampino_TerraNova2005.pdf",
-    "Rampino_Caldeira_Tellus2005.pdf",
-    "Rampino_Caldeira_TerraNova2005.pdf"
+    "Caldeira_Rau_GRL_2000.pdf"
    ],
-   "how": "page text",
-   "id": "rampino-2005-strangelove-ocean",
+   "how": "filename",
+   "id": "caldeira-2000-carbonate-dissolution",
    "has_figure": true
   },
   "10.1098/rsta.2008.0132": {
    "files": [
-    "Caldeira_Wood_PhilTransRoySoc2008.pdf",
-    "Caldeira_Wood_PhilTransRoySocA2008.pdf"
+    "Caldeira_Wood_PhilTransRoySoc2008.pdf"
    ],
    "how": "metadata",
    "id": "caldeira-2008-global-arctic-engineering",
@@ -344,21 +307,10 @@
   },
   "10.1029/2001gl014234": {
    "files": [
-    "Caldeira_et_al_GRL2002.pdf",
     "Caldeira_etal_GRL2002.pdf"
    ],
    "how": "page text",
    "id": "caldeira-2002-depth-radiocarbon-injection",
-   "has_figure": true
-  },
-  "10.1088/1748-9326/7/3/034015": {
-   "files": [
-    "Cao-et-al_ERL2012_days-to-weeks.pdf",
-    "Cao_et_al_ERL2012_days-to-weeks-combined.pdf",
-    "Cao_et_al_ERL2012_days-to-weeks.pdf"
-   ],
-   "how": "page text",
-   "id": "cao-2012-fast-response-days-weeks",
    "has_figure": true
   },
   "10.1002/2017gl074281": {
@@ -377,6 +329,14 @@
    "id": "cao-2015-fast-slow-responses",
    "has_figure": true
   },
+  "10.1088/1748-9326/7/3/034015": {
+   "files": [
+    "Cao_et_al_ERL2012_days-to-weeks.pdf"
+   ],
+   "how": "page text",
+   "id": "cao-2012-fast-response-days-weeks",
+   "has_figure": true
+  },
   "10.1029/2011gl046713": {
    "files": [
     "Cao_et_al_GRL2011_short-term-precip-increase.pdf"
@@ -387,8 +347,7 @@
   },
   "10.1073/pnas.0913000107": {
    "files": [
-    "Cao_et_al_PNAS2010.pdf",
-    "Cao_et_al_PNAS2010_CO2-physiological-forcing.pdf"
+    "Cao_et_al_PNAS2010.pdf"
    ],
    "how": "page text",
    "id": "cao-2010-physiological-forcing",
@@ -404,11 +363,9 @@
   },
   "10.5194/esd-11-875-2020": {
    "files": [
-    "Chen-Caldeira_ESD2020_climate-change-incentive-human-migration(suppl).pdf",
-    "Chen-Caldeira_ESD2020_climate-change-incentive-human-migration(w supp).pdf",
     "Chen-Caldeira_ESD2020_climate-change-incentive-human-migration.pdf"
    ],
-   "how": "title match",
+   "how": "page text",
    "id": "chen-2020-migration-incentive",
    "has_figure": true
   },
@@ -430,8 +387,7 @@
   },
   "10.1016/j.apenergy.2024.124054": {
    "files": [
-    "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf",
-    "Covelli-et-al_AppliedEnergy2024_Oahu-case-study(w supp).pdf"
+    "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf"
    ],
    "how": "metadata",
    "id": "covelli-2024-oahu-island-system",
@@ -447,9 +403,7 @@
   },
   "10.1073/pnas.0906974107": {
    "files": [
-    "Davis-Caldeira_PNAS2010_CO2-embodied-trade.pdf",
-    "Davis_Caldeira_PNAS2010.pdf",
-    "Davis_Caldeira_PNAS2010_SI.pdf"
+    "Davis-Caldeira_PNAS2010_CO2-embodied-trade.pdf"
    ],
    "how": "page text",
    "id": "davis-2010-consumption-based-accounting",
@@ -457,7 +411,6 @@
   },
   "10.1038/s41893-023-01241-2": {
    "files": [
-    "Davis-et-al_NatureSus2023_food-without-agriculture (w Supp).pdf",
     "Davis-et-al_NatureSust2023_food-without-agriculture.pdf"
    ],
    "how": "metadata",
@@ -466,8 +419,7 @@
   },
   "10.1126/science.1188566": {
    "files": [
-    "Davis-et-al_Science2010_CO2-emissions-existing-infrastructure - Copy.pdf",
-    "Davis-et-al_Science2010_CO2-emissions-existing-infrastructure.pdf"
+    "Davis-et-al_Science2010_CO2-emissions-existing-infrastructure - Copy.pdf"
    ],
    "how": "page text",
    "id": "davis-2010-committed-emissions",
@@ -484,8 +436,6 @@
   },
   "10.1088/2753-3751/ad58e5": {
    "files": [
-    "Dowling-et-al_ERE2024_opportunities-constraints-h2-storage.pdf",
-    "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf",
     "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf"
    ],
    "how": "metadata",
@@ -502,7 +452,6 @@
   },
   "10.5194/acp-23-6011-2023": {
    "files": [
-    "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf",
     "Duan-Caldeira_AtmosChemPhys2023_comment-ocko-hamburg.pdf"
    ],
    "how": "page text",
@@ -511,7 +460,6 @@
   },
   "10.1088/1748-9326/ad6018": {
    "files": [
-    "Duan-Caldeira_ERL2024_rate-of-warmng.pdf",
     "Duan-Caldeira_ERL2024_rate-warming-decline.pdf"
    ],
    "how": "metadata",
@@ -520,7 +468,6 @@
   },
   "10.1016/j.isci.2023.108685": {
    "files": [
-    "Duan-Caldeira_iScience2024_uncertainty-least-cost-decarbonized-electricity (w Supp).pdf",
     "Duan-Caldeira_iScience2024_uncertainty-tech-costs-projections.pdf"
    ],
    "how": "metadata",
@@ -569,8 +516,7 @@
   },
   "10.1029/97gl01294": {
    "files": [
-    "Duffy_Caldeira_GRL1997.pdf",
-    "Duffy_Caldeira_GRL1997_salinity-sea-ice.pdf"
+    "Duffy_Caldeira_GRL1997.pdf"
    ],
    "how": "filename",
    "id": "duffy-1997-sea-ice-salinity",
@@ -594,8 +540,7 @@
   },
   "10.1016/s0921-8181(02)00195-9": {
    "files": [
-    "Govindasamy_etal_2003.pdf",
-    "Govindasamy_etal_GPC2003.pdf"
+    "Govindasamy_etal_2003.pdf"
    ],
    "how": "title match",
    "id": "govindasamy-2003-quadrupled-co2",
@@ -603,7 +548,6 @@
   },
   "10.1023/a:1024801618900": {
    "files": [
-    "Herzog-et-al_ClimChange2003_temporary-storage.pdf",
     "Herzog_et_al_ClimaticChange2003.pdf"
    ],
    "how": "title match",
@@ -612,8 +556,7 @@
   },
   "10.1038/27638": {
    "files": [
-    "Hoffert-et-al_Nature1998_ClimateStabilization.pdf",
-    "Hoffert_etal_Nature1998.pdf"
+    "Hoffert-et-al_Nature1998_ClimateStabilization.pdf"
    ],
    "how": "filename",
    "id": "hoffert-1998-stabilization-energy",
@@ -621,9 +564,6 @@
   },
   "10.1126/science.1072357": {
    "files": [
-    "Hoffert-et-al_Science2002_AdvTechPaths.pdf",
-    "Hoffert_et_al_Science2002.pdf",
-    "Hoffert_etal_Science2002 copy.pdf",
     "Hoffert_etal_Science2002.pdf",
     "Hoffert_etal_Science2003.pdf"
    ],
@@ -673,11 +613,7 @@
   },
   "10.1073/pnas.0700419104": {
    "files": [
-    "Matthews-Caldeira_PNAS2007.pdf",
-    "MatthewsCaldeira_2007.pdf",
-    "Matthews_Caldeira2007.pdf",
-    "Matthews_Caldeira_PNAS2007 (2).pdf",
-    "Matthews_Caldeira_PNAS2007smaller.pdf"
+    "Matthews-Caldeira_PNAS2007.pdf"
    ],
    "how": "title match",
    "id": "matthews-2007-geoengineering-transient",
@@ -685,17 +621,22 @@
   },
   "10.1029/2007gl032388": {
    "files": [
-    "Matthews_Caldeira_GRL2008.pdf",
-    "Matthews_Caldeira_GRL2008_stab-requires-near-zero-emissions.pdf"
+    "Matthews_Caldeira_GRL2008.pdf"
    ],
    "how": "page text",
    "id": "matthews-2008-near-zero-emissions",
    "has_figure": true
   },
+  "10.1088/1748-9326/7/1/014019": {
+   "files": [
+    "Myhrvold-Caldeira_ERL2012_energy-system-transitions.pdf"
+   ],
+   "how": "page text",
+   "id": "myhrvold-2012-transition-timescales",
+   "has_figure": true
+  },
   "10.1038/nature08133": {
    "files": [
-    "Pagani-et-al_Nature2009_terrestrial-plants-CO2-decline.pdf",
-    "Pagani_et_al_Nature2009 (2).pdf",
     "Pagani_et_al_Nature2009.pdf"
    ],
    "how": "metadata",
@@ -704,9 +645,7 @@
   },
   "10.1126/science.1136110": {
    "files": [
-    "Pagani_et_al_Science2006 (2).pdf",
-    "Pagani_et_al_Science2006_PETM.pdf",
-    "Pagani_etal_Science2006.pdf"
+    "Pagani_et_al_Science2006_PETM.pdf"
    ],
    "how": "page text",
    "id": "pagani-2006-ancient-carbon-mystery",
@@ -722,7 +661,6 @@
   },
   "10.1038/nclimate1373": {
    "files": [
-    "Pongratz-et-al_NatureCC2012_geoeng-crop-yields.pdf",
     "Pongratz_et_al_NatureCC2012_large.pdf"
    ],
    "how": "metadata",
@@ -731,9 +669,6 @@
   },
   "10.1073/pnas.1705710114": {
    "files": [
-    "Possner-Caldeira_PNAS2017_wind-power-open-oceans (1).pdf",
-    "Possner-Caldeira_PNAS2017_wind-power-open-oceans (supplemental).pdf",
-    "Possner-Caldeira_PNAS2017_wind-power-open-oceans (w supp).pdf",
     "Possner-Caldeira_PNAS2017_wind-power-open-oceans.pdf"
    ],
    "how": "page text",
@@ -774,8 +709,7 @@
   },
   "10.1016/j.gloplacha.2024.104369": {
    "files": [
-    "Rampino-et-al_GlobPlanChg2024_16-mass-extinction-15-LIPs-4-impacts.pdf",
-    "Rampino-et-al_GlobPlanetChg2024_mass-extinctions-541My.pdf"
+    "Rampino-et-al_GlobPlanChg2024_16-mass-extinction-15-LIPs-4-impacts.pdf"
    ],
    "how": "metadata",
    "id": "rampino-2024-extinctions-igneous-provinces",
@@ -787,6 +721,14 @@
    ],
    "how": "page text",
    "id": "rampino-2021-tetrapod-periodicity",
+   "has_figure": true
+  },
+  "10.1111/j.1365-3121.2005.00648.x": {
+   "files": [
+    "Rampino_Caldeira_TerraNova2005.pdf"
+   ],
+   "how": "page text",
+   "id": "rampino-2005-strangelove-ocean",
    "has_figure": true
   },
   "10.1088/2753-3751/ae947d": {
@@ -815,8 +757,7 @@
   },
   "10.1126/science.1088342": {
    "files": [
-    "Ridgwell-et-al_Science2003_carbonate-stabilization.pdf",
-    "Ridgwell_etal_Science2003.pdf"
+    "Ridgwell-et-al_Science2003_carbonate-stabilization.pdf"
    ],
    "how": "page text",
    "id": "ridgwell-2003-carbonate-climate-stability",
@@ -824,9 +765,7 @@
   },
   "10.1007/s00382-023-06799-3": {
    "files": [
-    "Roose-et-al_ClimDyn2023_monsoon-precip-interhemispheric-strat-sulfate-optical-depth.pdf",
-    "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences(w Supp).pdf",
-    "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences.pdf"
+    "Roose-et-al_ClimDyn2023_monsoon-precip-interhemispheric-strat-sulfate-optical-depth.pdf"
    ],
    "how": "metadata",
    "id": "roose-2023-monsoon-aerosol-asymmetry",
@@ -842,7 +781,6 @@
   },
   "10.1016/j.adapen.2024.100185": {
    "files": [
-    "Ruggles-et-al_AdvApplEnergy2024_planning-reliable-wind-solar (w Supp).pdf",
     "Ruggles-et-al_AdvApplEnergy2024_reliable-wind-solar.pdf"
    ],
    "how": "metadata",
@@ -859,7 +797,6 @@
   },
   "10.1039/c7ee03029k": {
    "files": [
-    "Shaner-et-al_E_ES2018_geophys-reliability-wind-solar.pdf",
     "Shaner-et-al_E_ES2018_geophys-reliability-wind-solar_corrected.pdf"
    ],
    "how": "metadata",
@@ -892,7 +829,6 @@
   },
   "10.1038/s41467-023-41107-x": {
    "files": [
-    "Tonelli-et-al_NatureComm2023_land-water-limits-electrolytic-H2.pdf",
     "Tonelli-et-al_NatureComm2023_land-water-limits-h2-prod-wind-solar.pdf"
    ],
    "how": "metadata",
@@ -949,8 +885,7 @@
   },
   "10.32866/001c.90391": {
    "files": [
-    "Wongel-Caldeira_EnergyFindings2023_broad-range-technologies.pdf",
-    "Wongle-Caldeira_EnergyFindings2023_broad-range-of-technologies.pdf"
+    "Wongel-Caldeira_EnergyFindings2023_broad-range-technologies.pdf"
    ],
    "how": "page text",
    "id": "wongel-2023-firming-technologies",
@@ -1166,10 +1101,6 @@
   "Modak-et-al_ClimDyn2018_Shortwave-Absorption-By-Methane.pdf",
   "Modak-et-al_ERL2016_solar-forcing-larger-than-co2-forcing.pdf",
   "Mueller_etal_JGRO2004.pdf",
-  "Myhrvold-Caldeira_ERL2012_energy-system-transitions.pdf",
-  "Myhrvold_Caldeira_ERL2012_energy-system-transitions-with-SOM.pdf",
-  "Myhrvold_Caldeira_ERL2012combined.pdf",
-  "Myhrvold_Caldeira_ERL2012suppdata.pdf",
   "NAS2016_climate-intervention_reflecting-sunlight.pdf",
   "NYTimes letter 10 Nov 2002.pdf",
   "Najjar-et-al_GBC2007_OCMIP2.pdf",

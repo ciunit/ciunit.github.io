@@ -1,0 +1,112 @@
+id: myhrvold-2012-transition-timescales
+doi: 10.1088/1748-9326/7/1/014019
+title: >
+  Greenhouse gases, climate change and the transition from coal to low-carbon electricity
+authors:
+  - Nathan P. Myhrvold
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "7"
+pages: "014019"
+date: "2012-02-16"
+year: 2012
+themes:
+  - climate-and-energy
+
+description: >
+  Replacing a terawatt of coal-fired electricity over 40 years avoids half of the warming the
+  coal plants would have caused only after roughly half a century, because building the new
+  system emits greenhouse gases and the old system keeps emitting as it is retired.
+
+question:
+  - >
+    Comparisons between electricity technologies are usually made on annual emissions per unit
+    of generation, as though a plant's climate effect began the day it opened. Building power
+    plants also emits greenhouse gases, and the coal fleet being displaced goes on emitting
+    throughout the years it takes to phase out.
+  - >
+    This paper asked what warming actually follows from an energy system transition once both
+    are counted, and how long a build-out has to run before it delivers a measurable reduction
+    in warming.
+
+key_finding: >
+  Replacing 1 terawatt of coal-fired electrical capacity over 40 years avoids half of the
+  warming the coal system would have caused only after 43 to 53 years in a transition to solar
+  photovoltaics, and a transition to natural gas takes a century or longer to reach even a 25
+  per cent reduction.
+
+findings:
+  - >
+    The study couples life-cycle greenhouse gas emissions for each generating technology, taken
+    across the published high and low estimates, to a simple climate model with a climate
+    sensitivity of 3.18 degrees Celsius per CO2 doubling and a diffusive ocean. Transitions are
+    simulated from 100 gigawatts to 10 terawatts in scale and 1 to 100 years in duration.
+  - >
+    Where the emissions fall differs by technology. For wind, solar, and nuclear plants,
+    construction dominates lifetime emissions; for coal and gas plants, operation does, with
+    typically under 1 per cent of lifetime emissions attributable to construction.
+  - >
+    Because construction comes first, a rapid build-out of low-emission plants can raise
+    temperatures above the no-transition case at the outset. A 40-year transition from coal to
+    solar photovoltaics spends 1.4 to 6.9 years warmer than if the transition had not been
+    undertaken.
+  - >
+    Idealized conservation — phasing coal out over 40 years and replacing it with nothing —
+    sets the floor at 20 years to a 25 per cent reduction in coal-caused warming and 40 years
+    to a 50 per cent reduction. Wind, solar thermal, solar photovoltaics, and nuclear at their
+    low life-cycle estimates come within a few years of that floor.
+  - >
+    Partial measures fare much worse. Natural gas emits roughly half what coal does per unit of
+    capacity yet needs a century or more for a 25 per cent reduction in warming, and coal with
+    carbon capture and storage reaches 25 per cent only after 26 to 110 years. More generally,
+    any technology that cuts emissions relative to coal by a factor of only two to five requires
+    century-long times to accrue substantial temperature reductions.
+  - >
+    The delay is not an artifact of the transition schedule. Exponential and logistic build-outs,
+    other build-out scales, and assumed rates of technological improvement all leave the central
+    conclusion intact. Turning 1 terawatt of coal capacity off instantaneously, with no
+    replacement at all, still takes 11 years to halve the warming that capacity would have caused.
+
+matters:
+  - >
+    The result reframes what the delay means. Because most of the benefit of a transition
+    arrives only after it is complete, starting later does not postpone the benefit by the
+    length of the delay alone — it pushes the entire lagged payoff further into a century when
+    the damages are larger.
+  - >
+    It also separates technologies that look similar on an annual-emissions ledger. A factor-of-
+    two improvement over coal and a near-zero-emission technology differ modestly in tonnes per
+    kilowatt-hour but differ by many decades in when they start reducing warming.
+  - >
+    Judging energy policy on the emissions rate of a finished system misses the emissions of
+    building it and of running the old system meanwhile. On the timescales politics works with,
+    those two are most of the story.
+
+figure:
+  file: myhrvold-2012-transition-timescales.webp
+  source_figure: Figure 3
+  alt: >
+    Two bar charts comparing energy technologies for a 40-year transition away from 1 terawatt of
+    coal-fired capacity. The upper panel shows the global mean temperature increase attributable
+    to the energy system 100 years after the transition starts, with split columns spanning high
+    and low life-cycle emissions estimates; coal is highest and conservation lowest, with natural
+    gas and coal with carbon capture and storage far above wind, solar, and nuclear. The lower
+    panel shows, for each technology, the number of years to break even and to reach 25 per cent
+    and 50 per cent reductions in coal-caused warming, with bars for gas and carbon capture
+    extending past a century while wind, solar, and nuclear cluster near the conservation case.
+  caption: >
+    The lower panel is the paper's argument in one picture. Technologies are separated far less
+    by how much warming they eventually avoid than by how long they take to start avoiding it,
+    and the partial measures sit decades behind the near-zero-emission ones.
+  source: PDF (600 dpi)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit: >
+    Myhrvold and Caldeira (2012), Environmental Research Letters 7, 014019
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - caldeira-2013-pace-of-warming
+  - davis-2010-committed-emissions
+  - hoffert-2002-advanced-technology-paths
+  - matthews-2008-near-zero-emissions
