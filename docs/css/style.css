@@ -155,6 +155,13 @@ h3 {
   gap: 28px;
 }
 
+/* Four cards in the 3-column .grid would leave one orphaned on its own row, so the
+   index's nav cards go two-by-two instead. Below the breakpoint .grid's own
+   single-column rule wins, being later in the file at equal specificity. */
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .card {
   background: rgba(255,255,255,0.35);
   border: 1px solid var(--line);
