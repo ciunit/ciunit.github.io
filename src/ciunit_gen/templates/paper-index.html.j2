@@ -49,11 +49,5 @@
     </ul>
 
     <p class="pub-empty" data-pub-empty hidden>No publications match that search.</p>
-{% if cover_bases %}
-    <p class="pub-credit">
-      Cover images are the first page of each published article, reproduced under
-      {{ cover_bases | join(' and ') }}.
-    </p>
-{% endif %}
     <script src="js/publications.js" defer></script>
 {% endblock %}

@@ -354,8 +354,7 @@ footer {
 }
 
 .pub-status,
-.pub-empty,
-.pub-credit {
+.pub-empty {
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -363,10 +362,6 @@ footer {
 .pub-status {
   min-height: 1.7em;
   margin: 0 0 12px;
-}
-
-.pub-credit {
-  margin-top: 48px;
 }
 
 /* auto-fill rather than a second breakpoint: at the 1056 px content width this

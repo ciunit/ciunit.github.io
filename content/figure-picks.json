@@ -336,6 +336,9 @@
   "marvel-2013-geophysical-limits-wind": 2,
   "matthews-2007-geoengineering-transient": 3,
   "matthews-2008-near-zero-emissions": 1,
+  "myhrvold-2012-transition-timescales": {
+    "figure": 3
+  },
   "pagani-2006-ancient-carbon-mystery": {
     "page": 3,
     "rect": [

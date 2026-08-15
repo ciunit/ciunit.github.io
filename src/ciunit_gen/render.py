@@ -157,8 +157,6 @@ class Renderer:
             canonical=f"{BASE_URL}/publications.html",
             papers=papers,
             themes=themes,
-            cover_bases=sorted({p.thumbnail.license for p in papers
-                                if p.thumbnail and p.thumbnail.license}),
             jsonld={
                 "@context": "https://schema.org",
                 "@type": "CollectionPage",

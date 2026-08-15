@@ -281,8 +281,9 @@ cover living there would be deleted by the next figure rebuild, silently.
 **Reuse basis.** Every publication here has a CIunit author, so covers rest on
 author reuse-on-own-website rights rather than on any Creative Commons licence
 the article also carries — recorded once in the `basis` block of
-`thumbnail-picks.json` and printed as an attribution line at the foot of the
-index. Covers are rendered at 400 px, cover scale rather than a readable copy.
+`thumbnail-picks.json`. It is recorded there, not shown: the index used to print
+it as an attribution line at the foot of the page, and that line was removed.
+Covers are rendered at 400 px, cover scale rather than a readable copy.
 Alt text is empty on purpose: the cover sits inside a link that already reads
 "*title* — Albright et al., 2016 · Nature", so describing it would make a screen
 reader announce the same publication twice.

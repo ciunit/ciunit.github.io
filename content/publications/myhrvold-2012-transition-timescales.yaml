@@ -87,13 +87,17 @@ figure:
   source_figure: Figure 3
   alt: >
     Two bar charts comparing energy technologies for a 40-year transition away from 1 terawatt of
-    coal-fired capacity. The upper panel shows the global mean temperature increase attributable
-    to the energy system 100 years after the transition starts, with split columns spanning high
-    and low life-cycle emissions estimates; coal is highest and conservation lowest, with natural
-    gas and coal with carbon capture and storage far above wind, solar, and nuclear. The lower
-    panel shows, for each technology, the number of years to break even and to reach 25 per cent
-    and 50 per cent reductions in coal-caused warming, with bars for gas and carbon capture
-    extending past a century while wind, solar, and nuclear cluster near the conservation case.
+    coal-fired capacity. Panel A plots temperature change over 100 years, from 0 to 0.35 degrees
+    Celsius, as a pair of columns per technology for high and low life-cycle emissions estimates,
+    each column stacked into contributions from coal burned during the phaseout, construction,
+    operation, and waste heat and transmission. Staying with coal gives about 0.32 degrees and
+    conservation about 0.06; natural gas and coal with carbon capture reach 0.24 to 0.27 and are
+    dominated by operating emissions, while wind, solar, and nuclear fall between 0.06 and 0.15
+    and are dominated by construction. Panel B plots years to reduce warming by 0, 25, and 50 per
+    cent below the coal baseline, on an axis running to 150 years. Conservation reaches the three
+    marks at about 0, 20, and 40 years and wind and solar photovoltaics only a little later, while
+    the natural gas and coal-with-carbon-capture bars run off the axis, labelled greater than 500
+    years.
   caption: >
     The lower panel is the paper's argument in one picture. Technologies are separated far less
     by how much warming they eventually avoid than by how long they take to start avoiding it,

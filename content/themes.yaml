@@ -267,6 +267,12 @@
         severe deficiencies at that scale
       paper: hoffert-2002-advanced-technology-paths
     - claim: >
+        Building the replacement emits and the old coal plants go on emitting as they retire,
+        so a 40-year transition of 1 TWe away from coal halves the coal-caused warming only
+        after 43 to 53 years for solar photovoltaics, and a switch to natural gas needs a
+        century or more to cut it even by a quarter
+      paper: myhrvold-2012-transition-timescales
+    - claim: >
         Aviation, long-distance transport, steel, cement, and reliable electricity are the
         genuinely difficult parts of the system, and addressing them requires integrating
         sectors that are currently discrete
