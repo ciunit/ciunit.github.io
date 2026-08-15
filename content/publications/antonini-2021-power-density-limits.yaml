@@ -81,6 +81,10 @@ figure:
     Antonini and Caldeira (2021), Applied Energy 281, 116048
   modification: Extracted from the published PDF and resized for web display
 
+links:
+  - label: PDF (author copy)
+    url: https://drive.google.com/file/d/1WAYqeDwN6J1LSVMsDhNrErOip_GqsJfx/view
+
 related:
   - antonini-2021-spatial-constraints
   - possner-2017-open-ocean-wind

@@ -42,7 +42,7 @@
   },
   "10.1073/pnas.2103875118": {
    "files": [
-    "Antonini-Caldeira_PNAS2021_spatial-constraints-wind-power.pdf"
+    "Antonini-Caldeira_PNAS2021_spatial-constraints-wind-power(w supp).pdf"
    ],
    "how": "page text",
    "id": "antonini-2021-spatial-constraints",
@@ -162,7 +162,7 @@
   },
   "10.1088/1748-9326/8/3/034039": {
    "files": [
-    "Caldeira-Myhrvold_ERL2013_pace-of-warming.pdf"
+    "Caldeira-Myhrvold_ERL2013_pace-of-warming(combined).pdf"
    ],
    "how": "page text",
    "id": "caldeira-2013-pace-of-warming",
@@ -363,7 +363,7 @@
   },
   "10.5194/esd-11-875-2020": {
    "files": [
-    "Chen-Caldeira_ESD2020_climate-change-incentive-human-migration.pdf"
+    "Chen-Caldeira_ESD2020_climate-change-incentive-human-migration(w supp).pdf"
    ],
    "how": "page text",
    "id": "chen-2020-migration-incentive",
@@ -387,7 +387,7 @@
   },
   "10.1016/j.apenergy.2024.124054": {
    "files": [
-    "Covelli-et-al_ApplEnergy2024_Oahu-wind-solar.pdf"
+    "Covelli-et-al_AppliedEnergy2024_Oahu-case-study(w supp).pdf"
    ],
    "how": "metadata",
    "id": "covelli-2024-oahu-island-system",
@@ -403,7 +403,8 @@
   },
   "10.1073/pnas.0906974107": {
    "files": [
-    "Davis-Caldeira_PNAS2010_CO2-embodied-trade.pdf"
+    "Davis-Caldeira_PNAS2010_CO2-embodied-trade.pdf",
+    "Davis_Caldeira_PNAS2010_SI.pdf"
    ],
    "how": "page text",
    "id": "davis-2010-consumption-based-accounting",
@@ -411,7 +412,7 @@
   },
   "10.1038/s41893-023-01241-2": {
    "files": [
-    "Davis-et-al_NatureSust2023_food-without-agriculture.pdf"
+    "Davis-et-al_NatureSus2023_food-without-agriculture (w Supp).pdf"
    ],
    "how": "metadata",
    "id": "davis-2023-food-without-agriculture",
@@ -436,7 +437,7 @@
   },
   "10.1088/2753-3751/ad58e5": {
    "files": [
-    "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems.pdf"
+    "Dowling-et-al_EREN2024_hydrogen-energy-storage-systems (w Supp).pdf"
    ],
    "how": "metadata",
    "id": "dowling-2024-hydrogen-storage-systems",
@@ -452,7 +453,7 @@
   },
   "10.5194/acp-23-6011-2023": {
    "files": [
-    "Duan-Caldeira_AtmosChemPhys2023_comment-ocko-hamburg.pdf"
+    "Duan-Caldeira_ACP2023_climate-cons-h2-emissions(w Supp).pdf"
    ],
    "how": "page text",
    "id": "duan-2023-hydrogen-emissions-comment",
@@ -468,7 +469,7 @@
   },
   "10.1016/j.isci.2023.108685": {
    "files": [
-    "Duan-Caldeira_iScience2024_uncertainty-tech-costs-projections.pdf"
+    "Duan-Caldeira_iScience2024_uncertainty-least-cost-decarbonized-electricity (w Supp).pdf"
    ],
    "how": "metadata",
    "id": "duan-2024-cost-uncertainty",
@@ -629,7 +630,7 @@
   },
   "10.1088/1748-9326/7/1/014019": {
    "files": [
-    "Myhrvold-Caldeira_ERL2012_energy-system-transitions.pdf"
+    "Myhrvold_Caldeira_ERL2012combined.pdf"
    ],
    "how": "page text",
    "id": "myhrvold-2012-transition-timescales",
@@ -669,7 +670,7 @@
   },
   "10.1073/pnas.1705710114": {
    "files": [
-    "Possner-Caldeira_PNAS2017_wind-power-open-oceans.pdf"
+    "Possner-Caldeira_PNAS2017_wind-power-open-oceans (w supp).pdf"
    ],
    "how": "page text",
    "id": "possner-2017-open-ocean-wind",
@@ -765,7 +766,7 @@
   },
   "10.1007/s00382-023-06799-3": {
    "files": [
-    "Roose-et-al_ClimDyn2023_monsoon-precip-interhemispheric-strat-sulfate-optical-depth.pdf"
+    "Roose-et-al_ClimDyn2023_tropical-monsoon-interhemispheric-differences(w Supp).pdf"
    ],
    "how": "metadata",
    "id": "roose-2023-monsoon-aerosol-asymmetry",
@@ -781,7 +782,7 @@
   },
   "10.1016/j.adapen.2024.100185": {
    "files": [
-    "Ruggles-et-al_AdvApplEnergy2024_reliable-wind-solar.pdf"
+    "Ruggles-et-al_AdvApplEnergy2024_planning-reliable-wind-solar (w Supp).pdf"
    ],
    "how": "metadata",
    "id": "ruggles-2024-planning-reliable-systems",

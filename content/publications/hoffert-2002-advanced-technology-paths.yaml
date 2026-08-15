@@ -99,5 +99,9 @@ figure:
     Hoffert et al. (2002), Science 298, 981-987
   modification: Extracted from the published PDF and resized for web display
 
+links:
+  - label: PDF (author copy)
+    url: https://drive.google.com/file/d/1VqJmkLAN3HbXPgeqO9B0031NNMlI5y3_/view
+
 related:
   - davis-2018-net-zero-energy-systems

@@ -128,6 +128,10 @@ figure:
     Duan et al. (2022), Nature Energy 7, 260-269
   modification: Extracted from the published PDF and resized for web display
 
+links:
+  - label: PDF (author copy)
+    url: https://drive.google.com/file/d/1dzc7wcLba94jDZWqDN8hcYU3domHwGjo/view
+
 related:
   - dowling-2020-long-duration-storage
   - tong-2021-geophysical-constraints
