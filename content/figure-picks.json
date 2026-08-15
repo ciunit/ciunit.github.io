@@ -398,6 +398,9 @@
   "ridgwell-2003-carbonate-climate-stability": 1,
   "roose-2023-monsoon-aerosol-asymmetry": 10,
   "rugenstein-2016-radiative-feedbacks": 1,
+  "rugenstein-2019-longrunmip": {
+    "figure": 1
+  },
   "ruggles-2024-planning-reliable-systems": {
     "page": 5,
     "rect": [

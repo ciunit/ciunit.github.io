@@ -19,6 +19,7 @@ content/survey-cache.json    gitignored — DOI metadata cache
 content/pdf-map.json         PDF filename -> DOI (committed; the PDFs are not)
 
 pdfs/                        gitignored — reprint library, never committed
+pdfs/duplicates/             copies of a paper the selection rule does not pick
 docs/publications/figures/   evidence figures, one per publication page
 docs/publications/covers/    first-page covers for the index grid
 docs/js/publications.js      the index's search filter — the site's only script
@@ -27,7 +28,17 @@ src/ciunit_gen/              generator
 scripts/                     helpers (below)
 PUBLICATIONS-STATUS.md       every cited DOI, and whether it can have a page
 PAGES-STATUS.md              every published page, with figure resolution
+PAYWALL-STATUS.md            which publications are paywalled, and where a copy is
 ```
+
+`pdfs/duplicates/` holds the copies `pdf_for()` in `scripts/extract_figures.py`
+would not have chosen, so exactly one file per DOI stays in `pdfs/`. Two things
+to know before moving anything there. Several PDFs can share a DOI because a
+*citing* article prints it in its references — those are different papers, not
+duplicates, and must stay put. And the selection rule prefers the article alone
+over an article-plus-supplement file, so a blind sweep files away the only copy
+carrying the supplementary material; the library here is deliberately kept the
+other way round, with the fuller file in `pdfs/`.
 
 ## Commands
 
@@ -289,8 +300,11 @@ Alt text is empty on purpose: the cover sits inside a link that already reads
 reader announce the same publication twice.
 
 **Adding one.** Page 1 is usually the article's own first page, but Science
-reprints and IOP downloads put a publisher wrapper ahead of it — eight of the
-current 49 do:
+reprints and IOP downloads put a publisher wrapper ahead of it — 14 of the
+current 114 picks do. Which copy of a paper sits in `pdfs/` decides this: the
+same article downloaded twice can carry the stub in one file and not the other,
+so a pick of page 2 becomes wrong the moment the file it was chosen against is
+replaced. Re-render and look at any cover whose PDF has changed.
 
 ```bash
 python3 scripts/make_thumbnails.py --audit      # flags the candidates by word count and markers
@@ -323,7 +337,8 @@ nested `<a>` (the index cards are the risk); `git status` shows nothing from
 
 On the index specifically, and with JavaScript both on and off: the search box
 must be absent rather than dead when scripts are disabled, filtered-out cards
-must leave the tab order, and all 57 cards must be present either way.
+must leave the tab order, and every card must be present either way — one per
+publication, 115 at the time of writing.
 
 **Looking at the contact sheet is a required step, not an optional one.**
 `--check` validates content; it cannot tell that a cover is a publisher cover
@@ -333,25 +348,30 @@ sheet, blank, or the wrong document. Nothing but your eye catches that.
 
 ## Where the work stands
 
-57 publication pages, 9 themes, 48 with figures, none below `good` resolution.
-`ken-caldeira.html` has 55 of its 61 cited works covered.
+115 publication pages, 9 themes, 112 with figures, none below `adequate`
+resolution. Every citation on both bio pages — 61 on `ken-caldeira.html`, 10 on
+`lei-duan.html` — has a page, and links to it rather than to doi.org.
+
+`PAGES-STATUS.md` carries the current numbers; refresh it with `--report` rather
+than trusting the counts written here.
 
 Outstanding:
 
-1. **8 figureless pages with no PDF** — `caldeira-kasting-1993-warming-potentials`,
-   `duffy-1997-sea-ice-salinity`, `govindasamy-2000-first-simulations`,
-   `li-2024-storage-portfolios`, `rampino-2021-tetrapod-periodicity`,
-   `thomas-2025-aviation-cirrus`, `wongel-2025-cooling-deficit`,
-   `wongel-2026-solar-process-heat`. Each needs a figure supplied by an author, or a
-   reachable one on the publisher's site. Plus `davis-2018-net-zero-energy-systems`
-   (page-wide schematic, deliberately text-only).
+1. **1 figureless page with a PDF to work from** — `reich-2026-resource-adequacy`
+   needs a figure pick and a cover pick. The other two figureless pages are
+   deliberate and should stay that way: `davis-2018-net-zero-energy-systems` (one
+   page-wide schematic whose caption is too narrow to crop against) and
+   `caldeira-1989-planktonic-sulphur` (the Letter has no figure of its own). Both
+   reasons are recorded in `content/figure-picks.json`.
 2. **2 pages flagged `needs_review`** — `caldeira-kasting-1993-warming-potentials`
    and `caldeira-1990-deccan-volcanism`. Both need an author to confirm the claims.
-3. **6 of `ken-caldeira.html`'s 61 citations still have no page**, all
-   `blocked-no-abstract` with no PDF in `pdfs/` — Caldeira 1989, Caldeira 1992,
-   Caldeira & Kasting 1992, Hoffert et al. 1998, Caldeira & Wickett 2003, and
-   Carlino et al. 2025. A reprint of any of them unblocks its page.
-4. **Deferred:** the 61 bio-page DOI links still go straight to doi.org rather than
-   to the local publication pages, and `climate-and-climate-impacts.html` cites
-   four works that now have pages without linking to them. Don't start either without
-   asking.
+3. **The two `what-we-do` subject pages still cite by DOI** —
+   `climate-and-climate-impacts.html` (8 of its 9 citations now have pages) and
+   `balancing-goals.html` (all 7 do). Rewriting those the way the bio pages were
+   rewritten is a small scripted change; ask first, since these pages argue a case
+   rather than list works, and sending a reader to a summary instead of the article
+   is a judgement about the argument.
+4. **The 54 paywalled publications link to a copy in Google Drive**, listed with
+   their access status in `PAYWALL-STATUS.md`. Those links depend on that folder
+   staying shared, and rest on author reuse rights for the published version — see
+   the note in that file before adding more.

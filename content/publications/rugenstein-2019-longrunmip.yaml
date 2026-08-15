@@ -1,0 +1,137 @@
+id: rugenstein-2019-longrunmip
+doi: 10.1175/BAMS-D-19-0068.1
+title: >
+  LongRunMIP: Motivation and Design for a Large Collection of Millennial-Length AOGCM Simulations
+authors:
+  - Maria Rugenstein
+  - Jonah Bloch-Johnson
+  - Ayako Abe-Ouchi
+  - Timothy Andrews
+  - Urs Beyerle
+  - Long Cao
+  - Tarun Chadha
+  - Gokhan Danabasoglu
+  - Jean-Louis Dufresne
+  - Lei Duan
+  - Marie-Alice Foujols
+  - Thomas Frölicher
+  - Olivier Geoffroy
+  - Jonathan Gregory
+  - Reto Knutti
+  - Chao Li
+  - Alice Marzocchi
+  - Thorsten Mauritsen
+  - Matthew Menary
+  - Elisabeth Moyer
+  - Larissa Nazarenko
+  - David Paynter
+  - David Saint-Martin
+  - Gavin A. Schmidt
+  - Akitomo Yamamoto
+  - Shuting Yang
+journal: Bulletin of the American Meteorological Society
+volume: "100"
+pages: 2551-2570
+date: "2019-12-01"
+year: 2019
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  LongRunMIP collects 50 millennial-length simulations from 15 complex climate models, and shows
+  that the 150-year experiments standard in climate model intercomparisons stop long before the
+  models have finished warming.
+
+question:
+  - >
+    Standard model intercomparison protocols run abrupt CO2 experiments for 150 years. Yet the
+    questions that motivate them — what equilibrium climate sensitivity is, how the deep ocean
+    warms, how radiative feedbacks change as the pattern of warming evolves — are questions about
+    what a model does over millennia.
+  - >
+    Millennial simulations existed before this work, but scattered across research groups, run at
+    different forcing levels and lengths, and reported in papers that examined different aspects
+    of the climate system. This paper set out to gather them into one standardized, public archive
+    and to say what that archive can and cannot settle.
+
+key_finding: >
+  LongRunMIP assembles 50 millennial-length simulations from 15 complex climate models at 10
+  modeling centers, and in its example simulation, an abrupt quadrupling of CO2 in the model
+  CESM104, the 150 years that standard intercomparison protocols simulate capture only 75 per cent
+  of the eventual surface warming, with 88 per cent reached after 1,000 years and roughly another
+  4,000 years needed to close the last 0.5 watts per square meter of top-of-atmosphere imbalance.
+
+findings:
+  - >
+    The archive is deliberately inclusive rather than protocol-driven. The minimum contribution is
+    one simulation of any CO2 forcing scenario held constant for at least 1,000 years, from a
+    CMIP5-class model with a dynamic atmosphere, ocean, and sea ice, plus a control run. Most
+    contributions are step forcings to two, four, or eight times preindustrial CO2.
+  - >
+    Because the simulations were run independently by their modeling groups rather than to a common
+    protocol, the collection samples the CMIP5 range of models well but is uneven in length,
+    forcing, and stored variables. The authors standardize units, sign conventions, and grids, and
+    leave it to each user to decide how equilibrated a simulation must be for their question.
+  - >
+    Surface temperature and top-of-atmosphere radiation reach a new steady state in most models
+    within a few millennia. The deep ocean does not. Even several thousand years is insufficient
+    for it to equilibrate, which is why the archive's own definition of equilibrium is left to the
+    user rather than fixed.
+  - >
+    That gap between the surface and the deep ocean is what makes short runs misleading. Radiative
+    feedbacks depend on the evolving spatial pattern of warming, so a constant effective climate
+    sensitivity estimated from a truncated simulation is an inadequate assumption rather than a
+    good approximation.
+  - >
+    The paper is explicit about what the models leave out. They carry the fast feedbacks — water
+    vapor, lapse rate, clouds, and sea ice — but not ice sheets, carbon cycle changes, or orbital
+    variation, so comparisons with paleoclimate proxies must account for those missing Earth-system
+    feedbacks.
+
+matters:
+  - >
+    Equilibrium climate sensitivity is usually inferred by extrapolating from short simulations.
+    Only fully equilibrated runs can test whether those extrapolation methods work, and this
+    archive is the first collection large enough to make that test across many models.
+  - >
+    The result also reframes what a 150-year experiment is. It is not a truncated view of the same
+    answer but a measurement of a different quantity, because the feedbacks themselves change as
+    warming spreads.
+  - >
+    As infrastructure rather than a single result, the archive's value is that it is standardized
+    and public, so questions about long-term equilibration can be asked without each group first
+    spending millennia of computer time.
+
+figure:
+  file: rugenstein-2019-longrunmip.webp
+  source_figure: Figure 1
+  alt: >
+    Three stacked panels sharing a time axis that runs from 0 to 5,000 simulation years, for an
+    abrupt quadrupling of CO2 in the model CESM104. The top panel shows CO2 held constant at 1,120
+    parts per million after a step up from 280. The middle panel shows global mean surface air
+    temperature anomaly jumping to about 3.7 kelvin, reaching about 6 kelvin by year 1,000, then
+    creeping to roughly 6.6 kelvin by year 5,000; an arrow labelled LongRunMIP gain spans
+    everything past year 150. The bottom panel shows top-of-atmosphere radiative imbalance falling
+    steeply from about 3 watts per square meter and approaching zero only near the end. Coloured
+    bands mark the first 150 years simulated under standard protocols, the first 1,000 years, and
+    the remainder.
+  caption: >
+    One model's approach to equilibrium after CO2 is quadrupled, with the 150 years of a standard
+    protocol shaded at the far left against the 5,000 years the model actually takes. Most of the
+    warming appears early; the remainder arrives across a tail that no standard experiment
+    simulates.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Rugenstein et al. (2019), Bulletin of the American Meteorological Society 100, 2551-2570
+  modification: Extracted from the published PDF and resized for web display
+
+links:
+  - label: LongRunMIP data archive
+    url: https://data.iac.ethz.ch/longrunmip/
+
+related:
+  - caldeira-2013-pace-of-warming
+  - cao-2015-fast-slow-responses
+  - duan-2024-rate-of-warming
+  - caldeira-2003-climate-sensitivity-uncertainty

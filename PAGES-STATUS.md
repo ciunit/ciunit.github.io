@@ -8,8 +8,8 @@ is 1200 px wide or more, `adequate` 800–1199, `low` 500–799, `very low`
 below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
-- **114** publication pages across **9** themes
-- **111** have a figure, **3** do not
+- **115** publication pages across **9** themes
+- **112** have a figure, **3** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -64,6 +64,7 @@ higher-resolution source.
 | [duan-2020-climate-development-goals](docs/publications/duan-2020-climate-development-goals.html)<br><sub>Duan et al., 2020</sub> | 2020 | <sub>Climate and economics</sub> | 1600×1231 | `good` | 36 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [tong-2020-storage-cost-reductions](docs/publications/tong-2020-storage-cost-reductions.html)<br><sub>Tong et al., 2020</sub> | 2020 | <sub>Macro-energy modeling</sub> | 1600×1221 | `good` | 45 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [krishnamohan-2019-aerosol-altitude](docs/publications/krishnamohan-2019-aerosol-altitude.html)<br><sub>Krishnamohan et al., 2019</sub> | 2019 | <sub>Solar geoengineering</sub> | 1282×1430 | `good` | 28 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
+| [rugenstein-2019-longrunmip](docs/publications/rugenstein-2019-longrunmip.html)<br><sub>Rugenstein et al., 2019</sub> | 2019 | <sub>Climate and the carbon cycle</sub> | 1600×2259 | `good` | 71 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [tong-2019-committed-emissions](docs/publications/tong-2019-committed-emissions.html)<br><sub>Tong et al., 2019</sub> | 2019 | <sub>Climate and energy</sub> | 1600×1548 | `good` | 70 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [wang-2019-induced-efficiency](docs/publications/wang-2019-induced-efficiency.html)<br><sub>Wang et al., 2019</sub> | 2019 | <sub>Climate and economics</sub> | 1600×1537 | `good` | 150 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [duan-2018-fast-slow-geoengineering](docs/publications/duan-2018-fast-slow-geoengineering.html)<br><sub>Duan et al., 2018</sub> | 2018 | <sub>Solar geoengineering</sub> | 1600×1061 | `good` | 49 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |

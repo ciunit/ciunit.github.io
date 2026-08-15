@@ -772,6 +772,14 @@
    "id": "roose-2023-monsoon-aerosol-asymmetry",
    "has_figure": true
   },
+  "10.1175/bams-d-19-0068.1": {
+   "files": [
+    "Rugenstein-et-al_BAMS2019_LongRunMIP.pdf"
+   ],
+   "how": "page text",
+   "id": "rugenstein-2019-longrunmip",
+   "has_figure": true
+  },
   "10.1002/2016gl070907": {
    "files": [
     "Rugenstein-et-al_GRL2016_radiative_forcing_pattern_ocean_heat_uptake.pdf"

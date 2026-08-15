@@ -105,8 +105,13 @@ h3 {
   max-width: 760px;
 }
 
+/* row-gap only: the buttons carry their own margin-right for horizontal spacing, so
+   this just keeps wrapped rows apart once four of them stop fitting on one line. */
 .actions {
   margin-top: 42px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
 }
 
 .recruit {
@@ -153,13 +158,6 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
-}
-
-/* Four cards in the 3-column .grid would leave one orphaned on its own row, so the
-   index's nav cards go two-by-two instead. Below the breakpoint .grid's own
-   single-column rule wins, being later in the file at equal specificity. */
-.grid-2 {
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
