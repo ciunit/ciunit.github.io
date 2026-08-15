@@ -72,9 +72,12 @@ generator is planned but not yet built.
 
 ## Citations on bio pages (`docs/ken-caldeira.html`, `docs/lei-duan.html`)
 
-- Each citation links to the publication via **`https://doi.org/<doi>`** (resolves to
-  the publisher's site). Keep this form for consistency even if given a direct
-  publisher URL.
+- **Each citation links to that publication's own page** — `publications/<id>.html`,
+  a relative link, so no `target`/`rel`. Every citation on both bio pages has a page
+  and is linked this way; the publication page carries the DOI onward to the
+  publisher. A citation whose publication has no page yet keeps the
+  **`https://doi.org/<doi>`** form (with `target`/`rel`, being external) until one
+  exists. Never link to a publisher URL directly.
 - **Within each "Selected scientific contributions" subsection, bullets are
   ordered most-recent-first.** A bullet with multiple references is ranked by its
   *newest* citation year. When adding a publication, insert it at the correct

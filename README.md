@@ -27,27 +27,45 @@ ciunit.github.io/
 │   ├── what-we-do.html
 │   ├── who-we-are.html
 │   ├── ken-caldeira.html  #   bio page (linked from who-we-are.html)
+│   ├── lei-duan.html      #   bio page
 │   ├── publications.html  #   GENERATED — index of the publications section
 │   ├── publications/      #   GENERATED — one page per publication
 │   │   ├── <id>.html
-│   │   └── figures/       #   figure images (licence recorded in content/)
+│   │   ├── figures/       #   figure images (licence recorded in content/)
+│   │   └── covers/        #   first-page covers for the index grid
 │   ├── topics/            #   GENERATED — theme reference pages
 │   ├── sitemap.xml        #   GENERATED
 │   ├── robots.txt
+│   ├── js/publications.js #   the index's search filter — the site's only script
 │   └── css/
 │       └── style.css      #   shared stylesheet for all pages
 │
 ├── content/               # SOURCE OF TRUTH for the publications section
 │   ├── publications/      #   one file per publication, <id>.yaml
-│   └── themes.yaml        #   theme pages
+│   ├── themes.yaml        #   theme pages
+│   ├── figure-picks.json  #   which figure of each publication we use
+│   ├── thumbnail-picks.json #  which page is each publication's cover
+│   └── pdf-map.json       #   PDF filename -> DOI (the PDFs are gitignored)
+│
+├── pdfs/                  # gitignored reprint library; duplicates/ holds the
+│                          #   copies the selection rule does not pick
 │
 ├── src/ciunit_gen/        # the generator (see below)
 │
 ├── scripts/               # Python helpers (run locally; not part of the site)
 │   ├── lookup_dois.py     #   find DOIs for bio-page citations via Crossref
 │   ├── verify_dois.py     #   verify candidate DOIs / re-search ambiguous ones
-│   └── check_licenses.py  #   metadata + figure-reuse licence for a DOI
+│   ├── check_licenses.py  #   metadata + figure-reuse licence for a DOI
+│   ├── survey_publications.py #  survey every cited DOI (slow, networked)
+│   ├── match_pdfs.py      #   map the files in pdfs/ to cited DOIs
+│   ├── extract_figures.py #   find and crop a publication's figure
+│   ├── rebuild_figures.py #   re-extract every figure from figure-picks.json
+│   └── make_thumbnails.py #   render the index's cover images
 │
+├── PUBLICATION-PAGES.md   # how to add a publication page — read before editing
+├── PAGES-STATUS.md        # GENERATED — every page, with figure resolution
+├── PUBLICATIONS-STATUS.md # every cited DOI, and whether it can have a page
+├── PAYWALL-STATUS.md      # which publications are paywalled, and where a copy is
 ├── requirements.txt
 └── README.md
 ```
@@ -56,6 +74,18 @@ Hand-written pages are standalone HTML sharing the same header navigation and
 footer — when adding one, copy the header/footer from an existing page so the nav
 stays consistent. Pages under `docs/publications/` and `docs/topics/` are **generated**;
 edit the YAML in `content/` instead and rebuild.
+
+## The reprint library
+
+Figures and cover images are extracted from PDFs in `pdfs/`, which is gitignored —
+the site ships the images, never the articles. That folder mirrors a Google Drive
+folder, readable by anyone with the link:
+
+<https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk>
+
+Filenames match between the two, which is what lets `PAYWALL-STATUS.md` link each
+paywalled publication to its copy there. Anyone without the local library can still
+build the site; they simply cannot regenerate figures or covers.
 
 ## Content generator
 
@@ -80,15 +110,25 @@ follow and why.
 
 ## Scripts
 
-The `scripts/` helpers support maintaining the citation links on
-`docs/ken-caldeira.html`. They query the free [Crossref API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/)
-(no key required) and print results for review — they do **not** edit the HTML.
+The `scripts/` helpers do the work the generator does not: resolving citations
+against the free [Crossref API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/)
+(no key required), and turning the PDFs in `pdfs/` into the images the pages use.
+The citation helpers print results for review — they do **not** edit the HTML.
 
 ```bash
 python3 scripts/lookup_dois.py       # best-guess DOI per citation, with a match score
 python3 scripts/verify_dois.py       # confirm specific DOIs and re-search hard cases
 python3 scripts/check_licenses.py    # citation metadata + whether a figure may be reused
+
+python3 scripts/match_pdfs.py        # rebuild content/pdf-map.json from pdfs/
+python3 scripts/extract_figures.py --contact <id>   # see a publication's figures
+python3 scripts/rebuild_figures.py [<id> ...]       # re-extract from figure-picks.json
+python3 scripts/make_thumbnails.py [<id> ...]       # render index covers
 ```
+
+`PUBLICATION-PAGES.md` is the full procedure for the last three — which figure to
+pick, how to crop one by eye, and the failure modes already handled. Read it before
+adding or changing a publication page.
 
 `check_licenses.py` is the one to run before adding a figure to a publication page:
 it resolves the DOI against Crossref and Unpaywall and reports whether the article
