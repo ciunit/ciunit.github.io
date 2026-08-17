@@ -22,7 +22,6 @@ pdfs/                        gitignored — reprint library, never committed
 pdfs/duplicates/             copies of a paper the selection rule does not pick
 docs/publications/figures/   evidence figures, one per publication page
 docs/publications/covers/    first-page covers for the index grid
-docs/js/publications.js      the index's search filter — the site's only script
 
 src/ciunit_gen/              generator
 scripts/                     helpers (below)
@@ -335,10 +334,8 @@ Check: every internal link resolves; every `href="http…"` has
 nested `<a>` (the index cards are the risk); `git status` shows nothing from
 `pdfs/`.
 
-On the index specifically, and with JavaScript both on and off: the search box
-must be absent rather than dead when scripts are disabled, filtered-out cards
-must leave the tab order, and every card must be present either way — one per
-publication, 115 at the time of writing.
+On the index specifically: every card must be present — one per publication,
+115 at the time of writing. The index carries no script; it is plain HTML.
 
 **Looking at the contact sheet is a required step, not an optional one.**
 `--check` validates content; it cannot tell that a cover is a publisher cover

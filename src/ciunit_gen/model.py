@@ -172,22 +172,6 @@ class Paper:
         return f"{who}, {self.year}"
 
     @property
-    def search_text(self) -> str:
-        """Lower-cased haystack for the index's client-side filter.
-
-        Carries the author list and the one-sentence description, neither of
-        which is printed on the card. The index no longer shows the key finding,
-        so without them a search for a co-author or a topic word would find
-        nothing at all.
-
-        Theme ids are included because they are readable slugs, so searching
-        "ocean acidification" matches every publication on that theme and not
-        just the one whose title happens to contain both words.
-        """
-        return " ".join([self.title, self.journal, str(self.year),
-                         *self.authors, *self.themes, self.description]).lower()
-
-    @property
     def full_citation(self) -> str:
         bits = [f"{self.author_line} ({self.year}). {self.title.rstrip('.')}. {self.journal}"]
         if self.volume:

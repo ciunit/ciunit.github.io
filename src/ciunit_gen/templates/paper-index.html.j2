@@ -17,16 +17,9 @@
 
     <p class="pub-scope">Selected publications</p>
 
-    <form class="pub-filter" role="search" data-pub-filter hidden>
-      <label for="pub-search">Search these publications</label>
-      <input type="search" id="pub-search" name="q" autocomplete="off"
-        placeholder="title, author, journal, or year">
-    </form>
-    <p class="pub-status" role="status" data-pub-status></p>
-
     <ul class="pub-grid">
 {% for paper in papers %}
-      <li class="pub-item" data-search="{{ paper.search_text }}">
+      <li class="pub-item">
         <a class="pub-card card-link" href="{{ paper.url_path }}">
 {% if paper.thumbnail %}
           <img class="pub-cover" src="publications/covers/{{ paper.thumbnail.file }}"
@@ -47,7 +40,4 @@
       </li>
 {% endfor %}
     </ul>
-
-    <p class="pub-empty" data-pub-empty hidden>No publications match that search.</p>
-    <script src="js/publications.js" defer></script>
 {% endblock %}

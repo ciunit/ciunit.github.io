@@ -321,52 +321,10 @@ footer {
   margin-top: 20px;
 }
 
-/* Scope note above the search — this is a selection, not a complete list. */
+/* Scope note above the grid — this is a selection, not a complete list. */
 .pub-scope {
   color: var(--muted);
   margin: 0 0 18px;
-}
-
-.pub-filter {
-  margin: 0 0 10px;
-}
-
-.pub-filter label {
-  display: block;
-  color: var(--accent);
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-size: 0.78rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.pub-filter input {
-  width: 100%;
-  max-width: 420px;
-  font: inherit;
-  color: inherit;
-  padding: 12px 14px;
-  background: transparent;
-  border: 1px solid var(--line);
-  transition: 0.2s ease;
-}
-
-.pub-filter input:focus {
-  outline: none;
-  border-color: var(--accent);
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.pub-status,
-.pub-empty {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.pub-status {
-  min-height: 1.7em;
-  margin: 0 0 12px;
 }
 
 /* auto-fill rather than a second breakpoint: at the 1056 px content width this
@@ -380,14 +338,6 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-/* [hidden] is a UA rule, and the author-origin display below outranks it, so
-   the filter would silently fail to hide anything without these two. */
-.pub-item[hidden],
-.pub-filter[hidden],
-.pub-empty[hidden] {
-  display: none;
 }
 
 .pub-card {

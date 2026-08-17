@@ -36,7 +36,6 @@ ciunit.github.io/
 │   ├── topics/            #   GENERATED — theme reference pages
 │   ├── sitemap.xml        #   GENERATED
 │   ├── robots.txt
-│   ├── js/publications.js #   the index's search filter — the site's only script
 │   └── css/
 │       └── style.css      #   shared stylesheet for all pages
 │
