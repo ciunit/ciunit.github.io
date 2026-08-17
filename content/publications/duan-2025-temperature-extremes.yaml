@@ -15,9 +15,9 @@ date: "2025-07-30"
 year: 2025
 
 description: >
-  CMIP6 models underestimate monthly high-temperature anomalies by 2-3% on average and
-  11-12% at the extreme; carried forward, that bias implies 2100 extremes up to 3 K, and in
-  the most extreme cases more than 5 K, above current projections.
+  Correcting CMIP6 models for their historical biases adds up to about 3 K to projected
+  end-of-century monthly heat extremes in the worst-affected regions and months, and more
+  than 5 K for the rarest events.
 
 question:
   - The damage done by a heat extreme depends both on the mean climate state and on how far
@@ -28,12 +28,16 @@ question:
     relative to monthly means, and what their historical errors imply for projected extremes.
 
 key_finding: >
-  CMIP6 models have underestimated 22-year-average monthly high-temperature anomalies by
-  2-3% and 22-year maximum anomalies by 11-12%; if those historical biases carry forward,
-  average 2100 extreme high temperatures in some regions and months could exceed current
-  projections by 3 K, and by more than 5 K in the most extreme cases.
+  CMIP6 climate models understate how far a month's hottest day rises above that month's
+  average temperature, so their projected monthly heat extremes for the end of this century
+  are too low — by up to about 3 K in the worst-affected regions and months, and by more than
+  5 K for the rarest events.
 
 findings:
+  - The quantity examined is the monthly high-temperature anomaly — how far the hottest day of
+    a month rises above that same month's mean temperature. Models are compared against ERA5
+    reanalysis as a ratio, so the bias is expressed as a percentage of an anomaly that is
+    itself several degrees; the degree-valued consequences appear below.
   - Globally, the models underestimated 22-year-average monthly high-temperature anomalies
     by 2-3%, and underestimated 22-year maximum anomalies by 11-12%. The error is
     substantially larger for the extremes than for the average.
@@ -43,14 +47,21 @@ findings:
   - The models project that as the planet warms, high-temperature anomalies will grow in
     subtropical regions and shrink in high latitudes, so the anomaly component of an extreme
     is not simply a fixed offset added to a rising mean.
-  - Carrying the historical biases forward implies that average 2100 extreme high temperatures
-    in some regions and months could be about 3 K higher than currently projected, and more
-    than 5 K higher in the most extreme cases.
+  - In degrees rather than percentages, for the typical (22-year-average) anomaly in the
+    warmest month of 2079 to 2100 under SSP2-4.5, correcting the bias shifts projections from
+    more than 1 K cooler in low-latitude regions such as West Asia and South America to about
+    2 K warmer in the Russian Arctic; across all regions and months the largest warming
+    corrections exceed 3 K.
+  - For the rarest events — the single most extreme month in 22 years — the correction is
+    warming almost everywhere, reaching about 3 K in North Europe and the Russian Arctic and
+    about 2 K in North America and New Zealand in their warmest month, and exceeding 5 K in
+    five regions when all months are considered.
 
 matters:
   - Impacts from heat are driven by the extremes, not the averages, and a bias that is modest
     in the mean becomes large in the tail. An 11-12% underestimate of maximum anomalies
-    translates into whole degrees of additional projected extreme heat.
+    translates into whole degrees of additional projected extreme heat — about 2 to 3 K in the
+    worst-affected regions, and more than 5 K in a few.
   - Because the biases are stable across decades and identifiable by region and season, they
     can be corrected for rather than merely acknowledged — which makes this a usable
     adjustment to projections rather than only a caution about them.
