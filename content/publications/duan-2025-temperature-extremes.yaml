@@ -41,7 +41,7 @@ findings:
   - Globally, the models underestimated 22-year-average monthly high-temperature anomalies
     by 2-3%, and underestimated 22-year maximum anomalies by 11-12%. The error is
     substantially larger for the extremes than for the average.
-  - The biases are persistent rather than transient. Both positive and negative biases remain
+  - The biases are persistent. Both positive and negative biases remain
     largely unchanged, regionally and seasonally, across the two historical periods
     examined — 1980 to 2001 and 2002 to 2023 — which is what justifies projecting them forward.
   - The models project that as the planet warms, high-temperature anomalies will grow in
