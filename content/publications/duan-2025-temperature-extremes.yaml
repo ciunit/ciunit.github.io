@@ -21,8 +21,8 @@ description: >
 
 question:
   - The damage done by a heat extreme depends both on the mean climate state and on how far
-    an individual month departs from that mean. Climate model evaluation has concentrated on
-    the mean state; how well models reproduce the anomalies has been far less explored.
+    weather departs from that mean. Climate model evaluation has concentrated on
+    the mean state; how well models reproduce high-temperature anomalies has been far less explored.
   - This paper asked how skilfully the models participating in the Coupled Model
     Intercomparison Project Phase 6 (CMIP6) reproduce monthly high-temperature anomalies
     relative to monthly means, and what their historical errors imply for projected extremes.
