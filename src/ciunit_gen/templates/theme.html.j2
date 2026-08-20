@@ -32,13 +32,5 @@
 {% endfor %}
 {% endif %}
 
-      <h2>Publications, data, and code</h2>
-      <ul>
-{% for paper in papers %}
-        <li><a href="../{{ paper.url_path }}">{{ paper.title }}</a> — {{ paper.author_line }},
-          {{ paper.journal }}, {{ paper.year }}
-          (<a target="_blank" rel="noopener noreferrer" href="{{ paper.doi_url }}">doi:{{ paper.doi }}</a>).</li>
-{% endfor %}
-      </ul>
     </section>
 {% endblock %}

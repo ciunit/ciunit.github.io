@@ -36,15 +36,12 @@
 
   evidence:
     - claim: >
-        Across 42 countries, the most reliable wind- and solar-only systems, sized so that
-        annual generation equals annual demand and with no storage, met 72-91% of hourly
-        electricity demand; twelve hours of storage raised this to 83-94%
-      paper: tong-2021-geophysical-constraints
-    - claim: >
-        Even in systems meeting more than 90% of demand, hundreds of hours of unmet demand
-        still occurred in a typical year, concentrated in particular periods rather than
-        spread evenly
-      paper: tong-2021-geophysical-constraints
+        Where a system is planned on a short weather record and then operated across decades of real
+        variability, spending on additional storage and additional generation together improved
+        resource adequacy more than spending the same amount on either alone — wind-only additions
+        reached adequacy standards whatever storage was available, while solar-only additions often
+        could not
+      paper: reich-2026-resource-adequacy
     - claim: >
         The regions least exposed to wind droughts combine high wind power density with low
         seasonal and low weather variability — the American Midwest, Australia, the Sahara,
@@ -67,11 +64,32 @@
         5 per cent of demand
       paper: ruggles-2024-planning-reliable-systems
     - claim: >
+        On Oahu, a least-cost wind, solar, battery, and hydrogen system meeting 100% of hourly
+        demand across 14 years of weather would cost $0.1673 per kilowatt-hour, below the $0.2126 to
+        $0.2987 per kilowatt-hour that the island's petroleum-dominated system cost from October
+        2022 to September 2023
+      paper: covelli-2024-oahu-island-system
+    - claim: >
         The emissions-reduction level at which firm low-carbon generation enters a least-cost
         system is set mainly by wind quality — countries with annual mean wind capacity factors
         near 0.4 need far deeper decarbonization before it competes than countries at or below
         0.25
       paper: duan-2022-flexible-nuclear
+    - claim: >
+        Across 42 countries, the most reliable wind- and solar-only systems, sized so that
+        annual generation equals annual demand and with no storage, met 72-91% of hourly
+        electricity demand; twelve hours of storage raised this to 83-94%
+      paper: tong-2021-geophysical-constraints
+    - claim: >
+        Even in systems meeting more than 90% of demand, hundreds of hours of unmet demand
+        still occurred in a typical year, concentrated in particular periods rather than
+        spread evenly
+      paper: tong-2021-geophysical-constraints
+    - claim: >
+        In the United States, the daily and seasonal variability of solar resources, wind resources,
+        and electricity demand means that deep decarbonization at high reliability requires
+        substantial dispatchable generating capacity
+      paper: shaner-2018-us-reliability
 
   methods:
     - Both analyses are built on multi-decadal hourly weather reanalysis data rather than on
@@ -115,49 +133,9 @@
 
   evidence:
     - claim: >
-        A single pulse of carbon raises globally averaged surface temperature by an amount
-        that remains approximately constant for several centuries, so holding temperature
-        constant requires near-zero future emissions
-      paper: matthews-2008-near-zero-emissions
-    - claim: >
-        The warming effect of a CO2 emission is largely insensitive to the background
-        scenario, because the falling radiative effect of each added molecule is offset by
-        the rising atmospheric lifetime of CO2 as ocean uptake saturates
-      paper: caldeira-kasting-1993-warming-potentials
-    - claim: >
-        A carbon release spread across several hundred thousand years is largely absorbed as
-        it accumulates, which is why Deccan Traps volcanism produced under 1 °C of warming
-        despite an enormous total release — rate matters, not only total
-      paper: caldeira-1990-deccan-volcanism
-    - claim: >
-        Burning the attainable fossil-fuel resource would leave Antarctica almost ice-free,
-        and West Antarctica destabilises after only 600 to 800 GtC of further emissions
-      paper: winkelmann-2015-antarctic-ice-sheet
-    - claim: >
-        Global-scale deforestation cools the modelled climate, because albedo and
-        evapotranspiration changes outweigh the warming from released CO2 — so counting only
-        carbon gets the sign wrong outside the tropics
-      paper: bala-2007-deforestation
-    - claim: >
-        The global climate feedback parameter weakens as the pattern of ocean heat uptake
-        becomes high-latitude-enhanced, so sensitivity inferred from short records understates
-        the long-run response
-      paper: rugenstein-2016-radiative-feedbacks
-    - claim: >
-        Land plants stop amplifying silicate-rock weathering once atmospheric CO2 falls near
-        150 to 250 ppm, and that failure of the biological sink explains why CO2 has not
-        dropped below about 200 to 250 ppm in 24 million years
-      paper: pagani-2009-terrestrial-plants-co2
-    - claim: >
-        Explaining the Paleocene-Eocene warming requires either a carbon release of 5,400 to
-        112,000 PgC with no known source, or a climate sensitivity far above the conventional
-        1.5 to 4.5 °C per doubling
-      paper: pagani-2006-ancient-carbon-mystery
-    - claim: >
-        Whether leaky carbon storage is nearly as good as permanent storage or worth nothing
-        depends entirely on the carbon price path — 97 per cent effective at 1,500 m ocean
-        depth under constant prices, 0 per cent if prices rise at the discount rate forever
-      paper: herzog-2003-permanence-temporary-storage
+        Aviation's contrail cirrus forcing is confined to a narrow band of northern mid-latitudes,
+        but the temperature response it produces is polar-amplified rather than local
+      paper: thomas-2025-aviation-cirrus
     - claim: >
         Under emission projections for policies already in place the rate of global warming
         declines from about 0.21 °C per decade around 2025 to about 0.15 °C per decade around
@@ -179,15 +157,130 @@
         deforestation with regrowth returns CO2 close to preindustrial
       paper: jayakrishnan-2022-fossil-vs-deforestation
     - claim: >
+        LongRunMIP assembles 50 millennial-length simulations from 15 complex climate models; under
+        an abrupt quadrupling of CO2 in the model CESM104, the 150 years that standard
+        intercomparison protocols simulate capture only 75% of the eventual surface warming, with
+        88% reached after 1,000 years
+      paper: rugenstein-2019-longrunmip
+    - claim: >
+        The global climate feedback parameter weakens as the pattern of ocean heat uptake
+        becomes high-latitude-enhanced, so sensitivity inferred from short records understates
+        the long-run response
+      paper: rugenstein-2016-radiative-feedbacks
+    - claim: >
+        Burning the attainable fossil-fuel resource would leave Antarctica almost ice-free,
+        and West Antarctica destabilises after only 600 to 800 GtC of further emissions
+      paper: winkelmann-2015-antarctic-ice-sheet
+    - claim: >
+        A linear regression model combining each variable's sensitivity to CO2 forcing, to solar
+        forcing, and to global mean surface temperature change reproduces HadCM3L-simulated
+        transient changes in surface temperature, precipitation, runoff, soil moisture, cloudiness,
+        and radiative fluxes
+      paper: cao-2015-fast-slow-responses
+    - claim: >
+        Sea ice response accounts for about 20% of climate sensitivity in CESM 1.0.4, and its
+        effect on the longwave climate feedback parameter is nearly half as large as its effect
+        on the shortwave one
+      paper: caldeira-2014-sea-ice-sensitivity
+    - claim: >
+        Fits to the CMIP5 models deliver 38-61% of equilibrium warming within a decade of a CO2
+        increase but leave 14-40% of it to arrive more than a century later, so models disagree
+        about the timing of warming as much as about its size
+      paper: caldeira-2013-pace-of-warming
+    - claim: >
+        Instantaneously removing a quadrupled-CO2 forcing in the HadCM3L coupled model raised global
+        mean precipitation by 5.1% within one year, whereas removing an equal-magnitude solar
+        forcing made precipitation fall immediately — the transient increase reflects the fast
+        tropospheric adjustment to CO2 rather than reduced radiative forcing in general
+      paper: cao-2011-precipitation-co2-forcing
+    - claim: >
         Doubling CO2 warms land 2.86 K radiatively and a further 0.42 K purely by closing plant
         stomata, and that physiological effect raises global runoff more than the radiative effect
         does — 8.4 per cent against 5.2 per cent
       paper: cao-2010-physiological-forcing
     - claim: >
+        The apparent difference in hydrological sensitivity between solar and carbon dioxide forcing
+        originates entirely in the fast response; once fast responses are excluded, hydrological
+        sensitivity is the same for both forcings
+      paper: bala-2010-fast-versus-slow
+    - claim: >
+        Land plants stop amplifying silicate-rock weathering once atmospheric CO2 falls near
+        150 to 250 ppm, and that failure of the biological sink explains why CO2 has not
+        dropped below about 200 to 250 ppm in 24 million years
+      paper: pagani-2009-terrestrial-plants-co2
+    - claim: >
+        A single pulse of carbon raises globally averaged surface temperature by an amount
+        that remains approximately constant for several centuries, so holding temperature
+        constant requires near-zero future emissions
+      paper: matthews-2008-near-zero-emissions
+    - claim: >
+        Global-scale deforestation cools the modelled climate, because albedo and
+        evapotranspiration changes outweigh the warming from released CO2 — so counting only
+        carbon gets the sign wrong outside the tropics
+      paper: bala-2007-deforestation
+    - claim: >
+        Explaining the Paleocene-Eocene warming requires either a carbon release of 5,400 to
+        112,000 PgC with no known source, or a climate sensitivity far above the conventional
+        1.5 to 4.5 °C per doubling
+      paper: pagani-2006-ancient-carbon-mystery
+    - claim: >
+        Forests absorb more solar radiation than the ecosystems they replace and so warm the
+        climate, especially outside the tropics, and that warming should itself raise silicate rock
+        weathering rates — a climate-mediated pathway distinct from the soil-chemistry effects
+        usually considered
+      paper: caldeira-2006-forests-weathering
+    - claim: >
         Burning all currently estimated fossil fuel resources warms the world about 8 K by 2300
         and takes atmospheric CO2 to 1,423 ppmv, with nearly half of cumulative emissions still
         airborne at that date
       paper: bala-2005-multicentury-fossil-fuel
+    - claim: >
+        Ocean general circulation model simulations give surface ocean pH reductions of 0.3 to 0.5
+        units by 2100 under the IPCC SRES A1, A2, B1, and B2 emission pathways, while a cumulative
+        emission of 5,000 petagrams of carbon produces a surface pH reduction of 0.8 units by 2300
+      paper: caldeira-2005-ocean-chemistry-predictions
+    - claim: >
+        A severe reduction of marine primary productivity can explain the abrupt end-Permian carbon-
+        isotope excursion, and would have driven atmospheric CO2 from a Late Permian baseline of 850
+        ppm to about 2,500 ppm
+      paper: rampino-2005-strangelove-ocean
+    - claim: >
+        Whether leaky carbon storage is nearly as good as permanent storage or worth nothing
+        depends entirely on the carbon price path — 97 per cent effective at 1,500 m ocean
+        depth under constant prices, 0 per cent if prices rise at the discount rate forever
+      paper: herzog-2003-permanence-temporary-storage
+    - claim: >
+        In a three-dimensional ocean general circulation model, injection depth predicts retention
+        of directly injected CO2 well and local radiocarbon age does not — the expected time for a
+        water parcel to return to the surface is closely related to its depth, not in general to the
+        time since it was last there
+      paper: caldeira-2002-depth-radiocarbon-injection
+    - claim: >
+        Reacting CO2-rich power-plant gas with seawater and then with limestone on site, releasing
+        calcium and bicarbonate ions to the ocean, would greatly expand the ocean's capacity to
+        store anthropogenic carbon while minimizing the impact of that carbon on ocean biota
+      paper: caldeira-2000-carbonate-dissolution
+    - claim: >
+        Spreading the salt rejected during sea-ice formation through the upper 160 metres rather
+        than a 25-metre surface layer lowers modelled global ocean CFC-11 uptake by about 30%,
+        and Southern Ocean column inventories by up to 90%
+      paper: caldeira-1998-cfc11-salt-rejection
+    - claim: >
+        Atmospheric radiocarbon content is predicted to reach a minimum and then rise under
+        business-as-usual emissions, even though fossil fuels contain no radiocarbon, because rising
+        atmospheric CO2 drives a net flux of carbon-14 out of the ocean and land biosphere
+      paper: caldeira-1998-radiocarbon-efflux
+    - claim: >
+        Silicate-mineral dissolution rates are nearly independent of pH between 5 and 8 and deep-
+        ocean pH is above 7.5, so low-temperature seafloor basalt alteration is unlikely to be an
+        effective feedback on atmospheric CO2; terrestrial silicate-rock weathering is the primary
+        long-term control
+      paper: caldeira-1995-seafloor-alteration
+    - claim: >
+        The warming effect of a CO2 emission is largely insensitive to the background
+        scenario, because the falling radiative effect of each added molecule is offset by
+        the rising atmospheric lifetime of CO2 as ocean uptake saturates
+      paper: caldeira-kasting-1993-warming-potentials
     - claim: >
         Allowing for C4 photosynthesis, which persists below 10 ppm CO2, extends the life span of
         the biosphere from roughly 100 million years to at least 0.9 to 1.5 billion
@@ -198,30 +291,33 @@
         through subduction zones — could have provided
       paper: caldeira-1992-cenozoic-weathering
     - claim: >
+        Atmospheric CO2 responds over more than 100,000 years while sea ice and snow cover respond
+        in under a year, so the silicate-weathering feedback could not buffer the early Earth
+        against a rapid excursion in the ice line, and with highly reflective carbon dioxide clouds
+        a transient global glaciation could have been irreversible
+      paper: caldeira-1992-irreversible-glaciation
+    - claim: >
+        A carbonate-silicate cycle model gives mid-Cretaceous atmospheric CO2 of 3.7 to 14.7 times
+        the pre-industrial value of 285 ppm from super-plume tectonics, implying 2.8 to 7.7 degrees
+        Celsius of warming, though CO2 released from oceanic plateaus alone is unlikely to account
+        for more than 20% of that increase
+      paper: caldeira-1991-super-plume
+    - claim: >
+        Partitioning carbonate burial between shallow-water and deep-water settings gives two stable
+        steady states — a continental mode with low metamorphic CO2 flux and a pelagic mode with
+        high flux — and Cenozoic burial patterns suggest the Earth is moving from the continental
+        toward the pelagic mode over roughly 100 million years
+      paper: caldeira-1991-carbonate-partitioning
+    - claim: >
+        A carbon release spread across several hundred thousand years is largely absorbed as
+        it accumulates, which is why Deccan Traps volcanism produced under 1 °C of warming
+        despite an enormous total release — rate matters, not only total
+      paper: caldeira-1990-deccan-volcanism
+    - claim: >
         Neither climate modulation nor altruism can have been the primary evolutionary driver of
         planktonic dimethylsulphide production, since altruistic production is not an
         evolutionarily stable strategy; local benefits such as osmoregulation can
       paper: caldeira-1989-planktonic-sulphur
-
-    - claim: >
-        Fits to the CMIP5 models deliver 38-61% of equilibrium warming within a decade of a CO2
-        increase but leave 14-40% of it to arrive more than a century later, so models disagree
-        about the timing of warming as much as about its size
-      paper: caldeira-2013-pace-of-warming
-    - claim: >
-        Spreading the salt rejected during sea-ice formation through the upper 160 metres rather
-        than a 25-metre surface layer lowers modelled global ocean CFC-11 uptake by about 30%,
-        and Southern Ocean column inventories by up to 90%
-      paper: caldeira-1998-cfc11-salt-rejection
-    - claim: >
-        Sea ice response accounts for about 20% of climate sensitivity in CESM 1.0.4, and its
-        effect on the longwave climate feedback parameter is nearly half as large as its effect
-        on the shortwave one
-      paper: caldeira-2014-sea-ice-sensitivity
-    - claim: >
-        Aviation's contrail cirrus forcing is confined to a narrow band of northern mid-latitudes,
-        but the temperature response it produces is polar-amplified rather than local
-      paper: thomas-2025-aviation-cirrus
 - id: climate-and-energy
   title: Climate and energy
   question: What would it take for the energy system to stop changing the climate?
@@ -252,51 +348,11 @@
 
   evidence:
     - claim: >
-        If existing fossil infrastructure ran out its lifetime and were then replaced with
-        non-emitting infrastructure, CO2 would stay below 430 ppm and warming would reach
-        about 1.3 °C — so what was already built did not, in 2010, foreclose the targets
-      paper: davis-2010-committed-emissions
-    - claim: >
-        By 2018 the picture had changed: existing infrastructure will emit about 658 GtCO2 if
-        operated as historically, and proposed power plants would add roughly 188 GtCO2 more,
-        jeopardizing the 1.5 °C target
-      paper: tong-2019-committed-emissions
-    - claim: >
-        Carbon-free primary power required by mid-century could be several times the roughly
-        10^13 watts now supplied by fossil fuels, and every candidate technology surveyed has
-        severe deficiencies at that scale
-      paper: hoffert-2002-advanced-technology-paths
-    - claim: >
-        Building the replacement emits and the old coal plants go on emitting as they retire,
-        so a 40-year transition of 1 TWe away from coal halves the coal-caused warming only
-        after 43 to 53 years for solar photovoltaics, and a switch to natural gas needs a
-        century or more to cut it even by a quarter
-      paper: myhrvold-2012-transition-timescales
-    - claim: >
-        Aviation, long-distance transport, steel, cement, and reliable electricity are the
-        genuinely difficult parts of the system, and addressing them requires integrating
-        sectors that are currently discrete
-      paper: davis-2018-net-zero-energy-systems
-    - claim: >
-        Even a factor-of-three uncertainty in climate sensitivity leaves the conclusion
-        intact — unless sensitivity is low and tolerable change is high, stabilization demands
-        a massive transition to carbon-free energy
-      paper: caldeira-2003-climate-sensitivity-uncertainty
-    - claim: >
-        Deep decarbonization of United States electricity at high reliability requires
-        substantial dispatchable capacity, because daily and seasonal variability of solar,
-        wind, and demand do not coincide
-      paper: shaner-2018-us-reliability
-    - claim: >
-        37 per cent of global CO2 comes from internationally traded fuels and a further 23 per
-        cent is embodied in traded goods, which makes the wellhead, mine mouth, or refinery
-        the point where fewest parties would need to be regulated
-      paper: davis-2011-supply-chain-emissions
-    - claim: >
-        In 2004, 23 per cent of global CO2 emissions were traded internationally, with more
-        than 30 per cent of consumption-based emissions imported in several wealthy European
-        countries
-      paper: davis-2010-consumption-based-accounting
+        Because tracking systems need substantially more land per unit of capacity, land costs raise
+        their levelized cost of electricity by 20% against 8% for fixed-tilt, so fixed-tilt is
+        cheaper in real Chinese conditions and China installs 18 to 26% more panels for the same
+        electricity output
+      paper: chen-2026-land-costs-solar
     - claim: >
         Electricity that European wind and solar farms currently curtail could make 1.9 million
         tonnes of hydrogen a year, replacing 30 per cent of the continent's fossil-derived
@@ -316,7 +372,52 @@
         running into land or water scarcity, making Africa, South America, Canada and Australia
         the likely exporters
       paper: tonelli-2023-hydrogen-land-water-limits
-
+    - claim: >
+        By 2018 the picture had changed: existing infrastructure will emit about 658 GtCO2 if
+        operated as historically, and proposed power plants would add roughly 188 GtCO2 more,
+        jeopardizing the 1.5 °C target
+      paper: tong-2019-committed-emissions
+    - claim: >
+        Aviation, long-distance transport, steel, cement, and reliable electricity are the
+        genuinely difficult parts of the system, and addressing them requires integrating
+        sectors that are currently discrete
+      paper: davis-2018-net-zero-energy-systems
+    - claim: >
+        Deep decarbonization of United States electricity at high reliability requires
+        substantial dispatchable capacity, because daily and seasonal variability of solar,
+        wind, and demand do not coincide
+      paper: shaner-2018-us-reliability
+    - claim: >
+        Building the replacement emits and the old coal plants go on emitting as they retire,
+        so a 40-year transition of 1 TWe away from coal halves the coal-caused warming only
+        after 43 to 53 years for solar photovoltaics, and a switch to natural gas needs a
+        century or more to cut it even by a quarter
+      paper: myhrvold-2012-transition-timescales
+    - claim: >
+        37 per cent of global CO2 comes from internationally traded fuels and a further 23 per
+        cent is embodied in traded goods, which makes the wellhead, mine mouth, or refinery
+        the point where fewest parties would need to be regulated
+      paper: davis-2011-supply-chain-emissions
+    - claim: >
+        If existing fossil infrastructure ran out its lifetime and were then replaced with
+        non-emitting infrastructure, CO2 would stay below 430 ppm and warming would reach
+        about 1.3 °C — so what was already built did not, in 2010, foreclose the targets
+      paper: davis-2010-committed-emissions
+    - claim: >
+        In 2004, 23 per cent of global CO2 emissions were traded internationally, with more
+        than 30 per cent of consumption-based emissions imported in several wealthy European
+        countries
+      paper: davis-2010-consumption-based-accounting
+    - claim: >
+        Even a factor-of-three uncertainty in climate sensitivity leaves the conclusion
+        intact — unless sensitivity is low and tolerable change is high, stabilization demands
+        a massive transition to carbon-free energy
+      paper: caldeira-2003-climate-sensitivity-uncertainty
+    - claim: >
+        Carbon-free primary power required by mid-century could be several times the roughly
+        10^13 watts now supplied by fossil fuels, and every candidate technology surveyed has
+        severe deficiencies at that scale
+      paper: hoffert-2002-advanced-technology-paths
     - claim: >
         The no-policy IS92a baseline already assumes 10 terawatts of carbon-emission-free power by
         2050 — as much as all of today's energy sources combined — and stabilizing CO2 requires
@@ -352,50 +453,63 @@
 
   evidence:
     - claim: >
-        An economically optimal emissions policy does not begin producing net global economic
-        benefits until its break-even year, which arrives long after the generation enacting it
-        has paid the costs — on these results, mostly more than half a century away
-      paper: brown-2020-break-even-year
-    - claim: >
         Adaptation returns on investment far sooner than abatement, with abatement's timescale
         set by discount rates and adaptation's by capital depreciation, so investing in both
         yields greater near-term and long-term net benefit
       paper: duan-2025-adaptation-abatement
-    - claim: >
-        Delaying decarbonization in poorer countries until per-capita GDP exceeds $10,000 adds
-        less than 0.3 °C of warming, even though over half the world's population lives below
-        that threshold
-      paper: duan-2020-climate-development-goals
-    - claim: >
-        A 1 per cent rise in energy's share of costs induces about a 1.2 per cent efficiency
-        gain over twenty years, making carbon prices save up to 30 per cent more energy by 2120
-        than models omitting the mechanism predict
-      paper: wang-2019-induced-efficiency
-    - claim: >
-        Reductions in the Green Premium can be translated into equivalent reductions in carbon
-        emissions, making cost-saving innovation and direct abatement comparable in a single
-        unit
-      paper: caldeira-2023-green-premium
     - claim: >
         Lower-income countries face the largest increases in high-temperature days endured
         without air conditioning, and would need GDP growth above their historical rates simply
         to prevent that number from rising
       paper: wongel-2025-cooling-deficit
     - claim: >
-        The value of temporary carbon storage can be derived from a carbon price path and a
-        discount rate rather than stipulated by a ton-year horizon, and the same reservoir is
-        then worth 97 per cent of permanent storage or nothing at all depending on that path
-      paper: herzog-2003-permanence-temporary-storage
-    - claim: >
         A technology's past learning rate barely predicts its future one — a correlation of
         0.12 across 87 technologies — so cost projections built by extrapolating an observed
         learning rate carry far more uncertainty than they report
       paper: carlino-2025-technology-learning-rates
     - claim: >
+        Reductions in the Green Premium can be translated into equivalent reductions in carbon
+        emissions, making cost-saving innovation and direct abatement comparable in a single
+        unit
+      paper: caldeira-2023-green-premium
+    - claim: >
         After Pakistan's 2022 Indus floods, elevated rebuilding would have protected 13 per cent
         of those affected and relocation 16 per cent, while 70 per cent faced water shallow
         enough for low-cost measures — at 26 to 63 per cent added reconstruction cost
       paper: schmitt-2023-indus-flood-adaptation
+    - claim: >
+        An economically optimal emissions policy does not begin producing net global economic
+        benefits until its break-even year, which arrives long after the generation enacting it
+        has paid the costs — on these results, mostly more than half a century away
+      paper: brown-2020-break-even-year
+    - claim: >
+        Delaying decarbonization in poorer countries until per-capita GDP exceeds $10,000 adds
+        less than 0.3 °C of warming, even though over half the world's population lives below
+        that threshold
+      paper: duan-2020-climate-development-goals
+    - claim: >
+        Holding all other factors constant, today's relationship between climate and population
+        density implies that climate change may within decades give hundreds of millions of people
+        additional incentive to migrate, largely from warm tropical and subtropical countries
+        towards cooler temperate ones, with India the country with the greatest number of people
+        affected
+      paper: chen-2020-migration-incentive
+    - claim: >
+        Anthropogenic aerosol emissions were cooling the Earth by 0.72 degrees Celsius in 2010
+        relative to a world without them, and because that cooling benefits hot low-income economies
+        while harming cold high-income ones, it reduced the ratio of per capita GDP between the
+        richest and poorest population-weighted deciles by about 1.0%
+      paper: zheng-2020-aerosols-inequality
+    - claim: >
+        A 1 per cent rise in energy's share of costs induces about a 1.2 per cent efficiency
+        gain over twenty years, making carbon prices save up to 30 per cent more energy by 2120
+        than models omitting the mechanism predict
+      paper: wang-2019-induced-efficiency
+    - claim: >
+        The global social cost of carbon has a median estimate of 417 US dollars per tonne of carbon
+        dioxide, of which India alone bears about 21%, at 86 dollars per tonne — the largest share
+        of any country, ahead of the United States at 48 dollars and Saudi Arabia at 47 dollars
+      paper: ricke-2018-country-level-scc
     - claim: >
         A carbon tax that succeeds collects nothing, so a revenue-dependent government acquires a
         reason to keep emissions going — an incentive that turns perverse around 2085 in the DICE
@@ -411,6 +525,11 @@
         particular amount, so adaptation designed for a climate state rather than an ongoing trend
         misestimates both damages and adaptive capacity
       paper: shayegh-2016-adapting-to-rates
+    - claim: >
+        The value of temporary carbon storage can be derived from a carbon price path and a
+        discount rate rather than stipulated by a ton-year horizon, and the same reservoir is
+        then worth 97 per cent of permanent storage or nothing at all depending on that path
+      paper: herzog-2003-permanence-temporary-storage
 
 - id: solar-geoengineering
   title: Solar geoengineering
@@ -442,46 +561,6 @@
 
   evidence:
     - claim: >
-        Reducing solar luminosity to balance doubled CO2 markedly diminishes regional and
-        seasonal climate change, not merely the global mean, despite the two forcings having
-        very different spatial patterns
-      paper: govindasamy-2000-first-simulations
-    - claim: >
-        A stratospheric aerosol loading weighted toward the poles rather than the tropics comes
-        closest to reproducing a low-CO2 climate in a high-CO2 world
-      paper: ban-weiss-2010-optimization
-    - claim: >
-        The climate responds to reduced insolation within years, so there may be little cost to
-        delaying deployment — and by the same token, abrupt termination would produce rapid
-        warming
-      paper: matthews-2007-geoengineering-transient
-    - claim: >
-        Geoengineered temperature patterns resemble preindustrial ones but precipitation
-        patterns do not, and carbon sinks strengthen because warming is masked while CO2
-        continues to rise
-      paper: matthews-2007-geoengineering-transient
-    - claim: >
-        Within days of a step change in forcing, added CO2 suppresses evaporation and
-        precipitation over ocean and reduces plant transpiration over land, while equivalent
-        added sunlight does neither — differences that exist before any surface warming and so
-        cannot be tuned away
-      paper: cao-2012-fast-response-days-weeks
-    - claim: >
-        Solar geoengineering's deployment will be limited primarily by considerations of risk
-        because it is cheap, whereas carbon dioxide removal's will be limited primarily by cost
-      paper: caldeira-2013-science-of-geoengineering
-    - claim: >
-        Holding temperature at present-day levels in a doubled-CO2 world raised modelled global
-        yields relative to that unmanaged world by 14 per cent for maize, 21 per cent for wheat,
-        and 8 per cent for rice, because heat stress is removed while CO2 fertilization remains
-      paper: pongratz-2012-geoengineered-crop-yields
-    - claim: >
-        Removing a quadrupled-CO2 forcing raises global precipitation 5.1 per cent within a
-        year while removing an equivalent solar forcing lowers it immediately, because the fast
-        precipitation adjustment is about -4.2 per cent per CO2 doubling but near zero for
-        sunlight
-      paper: cao-2011-precipitation-co2-forcing
-    - claim: >
         Each 0.1 of interhemispheric difference in stratospheric aerosol optical depth shifts the
         intertropical convergence zone 1.8° of latitude and cuts northern hemisphere monsoon
         precipitation by 6.9 per cent
@@ -502,21 +581,65 @@
         though regional agreement is no better than aerosol alone
       paper: cao-2017-cocktail-geoengineering
     - claim: >
+        Solar geoengineering's deployment will be limited primarily by considerations of risk
+        because it is cheap, whereas carbon dioxide removal's will be limited primarily by cost
+      paper: caldeira-2013-science-of-geoengineering
+    - claim: >
+        Within days of a step change in forcing, added CO2 suppresses evaporation and
+        precipitation over ocean and reduces plant transpiration over land, while equivalent
+        added sunlight does neither — differences that exist before any surface warming and so
+        cannot be tuned away
+      paper: cao-2012-fast-response-days-weeks
+    - claim: >
+        Holding temperature at present-day levels in a doubled-CO2 world raised modelled global
+        yields relative to that unmanaged world by 14 per cent for maize, 21 per cent for wheat,
+        and 8 per cent for rice, because heat stress is removed while CO2 fertilization remains
+      paper: pongratz-2012-geoengineered-crop-yields
+    - claim: >
+        Removing a quadrupled-CO2 forcing raises global precipitation 5.1 per cent within a
+        year while removing an equivalent solar forcing lowers it immediately, because the fast
+        precipitation adjustment is about -4.2 per cent per CO2 doubling but near zero for
+        sunlight
+      paper: cao-2011-precipitation-co2-forcing
+    - claim: >
         Brightening marine clouds to offset doubled CO2 lowers global precipitation by about 1.3
         per cent yet raises runoff over land by 7.5 per cent, because dimming only the ocean
         drives sinking air over sea and rising air over land
       paper: bala-2011-marine-cloud-albedo
     - claim: >
-        Reduced solar luminosity largely cancels the regional and seasonal climate change from
-        quadrupled CO2, but leaves tropical cooling and drying, incomplete polar compensation, a
-        still-cold stratosphere and sea ice not fully restored
-      paper: govindasamy-2003-quadrupled-co2
-
+        A stratospheric aerosol loading weighted toward the poles rather than the tropics comes
+        closest to reproducing a low-CO2 climate in a high-CO2 world
+      paper: ban-weiss-2010-optimization
+    - claim: >
+        The apparent difference in hydrological sensitivity between solar and carbon dioxide forcing
+        lies entirely in the fast response; the slow response of the water cycle is the same
+        whichever forcing drives it
+      paper: bala-2010-fast-versus-slow
     - claim: >
         Global and Arctic-only insolation reductions fall on the same line, so the global mean
         temperature response per unit top-of-atmosphere albedo change is relatively insensitive
         to the latitude at which sunlight is deflected
       paper: caldeira-2008-global-arctic-engineering
+    - claim: >
+        The climate responds to reduced insolation within years, so there may be little cost to
+        delaying deployment — and by the same token, abrupt termination would produce rapid
+        warming
+      paper: matthews-2007-geoengineering-transient
+    - claim: >
+        Geoengineered temperature patterns resemble preindustrial ones but precipitation
+        patterns do not, and carbon sinks strengthen because warming is masked while CO2
+        continues to rise
+      paper: matthews-2007-geoengineering-transient
+    - claim: >
+        Reduced solar luminosity largely cancels the regional and seasonal climate change from
+        quadrupled CO2, but leaves tropical cooling and drying, incomplete polar compensation, a
+        still-cold stratosphere and sea ice not fully restored
+      paper: govindasamy-2003-quadrupled-co2
+    - claim: >
+        Reducing solar luminosity to balance doubled CO2 markedly diminishes regional and
+        seasonal climate change, not merely the global mean, despite the two forcings having
+        very different spatial patterns
+      paper: govindasamy-2000-first-simulations
 - id: ocean-acidification
   title: Ocean acidification and the ocean carbon cycle
   question: What does adding carbon dioxide to the ocean do to it?
@@ -546,19 +669,45 @@
 
   evidence:
     - claim: >
+        On an Australian reef flat, the slope of total alkalinity against dissolved inorganic carbon
+        reflects the temporal co-variability of calcification and production rather than their time-
+        integrated ratio, so the standard inference of reef metabolic balance from that slope does
+        not hold without offshore reference conditions to anchor it
+      paper: cyronak-2026-ta-dic-reef-metabolism
+    - claim: >
         Adding CO2 to the water flowing over an intact natural reef, without confining the
         organisms, suppressed net community calcification
       paper: albright-2018-co2-addition-reef
+    - claim: >
+        Adding alkalinity to the water flowing over a natural reef, restoring its chemistry
+        toward pre-industrial values, raised net community calcification by 6.9 per cent —
+        evidence that acidification is already suppressing reef growth
+      paper: albright-2016-reversal-acidification
     - claim: >
         99.9 per cent of open-ocean reefs sat above an aragonite saturation of 3.5 in
         preindustrial times; under RCP 8.5 every reef considered falls below 3 by 2100, making
         the exact biological threshold irrelevant on that path and decisive on lower ones
       paper: ricke-2013-coral-reef-risk
     - claim: >
+        The IPCC SRES emission pathways lower global surface ocean pH by 0.3-0.5 units by 2100,
+        and cumulative emission of 5,000 petagrams of carbon lowers it by 0.8 units while making
+        most of the surface ocean undersaturated with respect to aragonite
+      paper: caldeira-2005-ocean-chemistry-predictions
+    - claim: >
+        Ocean absorption of fossil fuel CO2 may change surface pH more over the coming centuries
+        than anything inferred from the geological record of the past 300 million years, short of
+        a bolide impact or catastrophic methane hydrate release
+      paper: caldeira-2003-ocean-ph
+    - claim: >
         The Southern Ocean takes up large amounts of anthropogenic CO2 but stores little, with
         isopycnal transport carrying it away — so a lighter, warmer surface layer there could
         diminish global uptake
       paper: caldeira-2000-southern-ocean
+    - claim: >
+        Reacting power-plant CO2 with seawater and limestone stores the carbon as bicarbonate
+        rather than dissolved CO2, greatly expanding ocean storage capacity while minimizing the
+        chemical impact on marine life
+      paper: caldeira-2000-carbonate-dissolution
     - claim: >
         Distributing sea-ice brine rejection through the upper 160 m eliminates two persistent
         ocean-model salinity errors, suggesting the real ocean is similarly sensitive to
@@ -569,27 +718,6 @@
         dramatic CO2 fall that the record does not show — shallow-water carbonate deposition
         appears to have buffered ocean chemistry
       paper: caldeira-1993-kt-carbon-cycle
-    - claim: >
-        Adding alkalinity to the water flowing over a natural reef, restoring its chemistry
-        toward pre-industrial values, raised net community calcification by 6.9 per cent —
-        evidence that acidification is already suppressing reef growth
-      paper: albright-2016-reversal-acidification
-    - claim: >
-        Ocean absorption of fossil fuel CO2 may change surface pH more over the coming centuries
-        than anything inferred from the geological record of the past 300 million years, short of
-        a bolide impact or catastrophic methane hydrate release
-      paper: caldeira-2003-ocean-ph
-
-    - claim: >
-        The IPCC SRES emission pathways lower global surface ocean pH by 0.3-0.5 units by 2100,
-        and cumulative emission of 5,000 petagrams of carbon lowers it by 0.8 units while making
-        most of the surface ocean undersaturated with respect to aragonite
-      paper: caldeira-2005-ocean-chemistry-predictions
-    - claim: >
-        Reacting power-plant CO2 with seawater and limestone stores the carbon as bicarbonate
-        rather than dissolved CO2, greatly expanding ocean storage capacity while minimizing the
-        chemical impact on marine life
-      paper: caldeira-2000-carbonate-dissolution
 - id: wind-power-geophysics
   title: Geophysics of wind power
   question: How much wind power can the atmosphere actually supply?
@@ -619,11 +747,6 @@
 
   evidence:
     - claim: >
-        The atmosphere over the open ocean can transport kinetic energy downward faster than
-        over land, so generation over some ocean areas can exceed land generation by a factor
-        of three or more
-      paper: possner-2017-open-ocean-wind
-    - claim: >
         The roughly 1 W/m² ceiling on large wind-farm power density arises from horizontal
         pressure gradients interacting with the Coriolis force in the Ekman layer, making the
         limit depend on latitude and local meteorology
@@ -633,6 +756,11 @@
         lengthens, bounding both how large a farm can usefully be and how far apart farms must
         be spaced
       paper: antonini-2021-spatial-constraints
+    - claim: >
+        The atmosphere over the open ocean can transport kinetic energy downward faster than
+        over land, so generation over some ocean areas can exceed land generation by a factor
+        of three or more
+      paper: possner-2017-open-ocean-wind
     - claim: >
         The available potential energy that drives the winds is generated principally in the
         tropics, from latent heat in the intertropical convergence zone, and in the polar night,
@@ -678,26 +806,6 @@
 
   evidence:
     - claim: >
-        The evolution of planktic calcifiers introduced saturation-dependent carbonate
-        preservation on the sea floor, stabilising the climate system and explaining why
-        Neoproterozoic-style near-global ice ages have not recurred
-      paper: ridgwell-2003-carbonate-climate-stability
-    - claim: >
-        Major geologic events of the past 250 million years show a statistically significant
-        periodic component of 26.6 million years, robust at around 30 million years once dating
-        errors are allowed for
-      paper: rampino-1993-geologic-periodicity
-    - claim: >
-        Non-marine tetrapod extinctions show a 27.5-million-year periodicity at 99 per cent
-        confidence, matching the marine record, and all eight coeval pulses coincide with Large
-        Igneous Province eruptions
-      paper: rampino-2021-tetrapod-periodicity
-    - claim: >
-        A revised set of 37 dated impact craters yields a 25.8-million-year cycle and the eight
-        marine extinctions of the same interval a 27.0-million-year cycle at a similar phase,
-        with neither result resting on the Chicxulub impact and the end-Cretaceous extinction
-      paper: rampino-2015-impact-cratering-periodicity
-    - claim: >
         Twenty-eight of the 47 chronostratigraphic stage boundaries of the last 253 million years
         coincide with a stratigraphic sequence boundary, and both records independently carry the
         same 31-million-year cycle at better than 99.9 per cent confidence
@@ -712,7 +820,48 @@
         years share underlying cycles of about 32.5 and 26.2 million years, with 13 of 17 anoxic
         intervals carrying mercury anomalies marking contemporaneous volcanism
       paper: rampino-2023-geologic-astronomical-cycles
-
+    - claim: >
+        Non-marine tetrapod extinctions show a 27.5-million-year periodicity at 99 per cent
+        confidence, matching the marine record, and all eight coeval pulses coincide with Large
+        Igneous Province eruptions
+      paper: rampino-2021-tetrapod-periodicity
+    - claim: >
+        A revised set of 37 dated impact craters yields a 25.8-million-year cycle and the eight
+        marine extinctions of the same interval a 27.0-million-year cycle at a similar phase,
+        with neither result resting on the Chicxulub impact and the end-Cretaceous extinction
+      paper: rampino-2015-impact-cratering-periodicity
+    - claim: >
+        C3 plant productivity, root biomass, and canopy transpiration all collapse as atmospheric
+        carbon dioxide falls below about 200 parts per million, shutting down the biological
+        amplification of silicate-rock weathering; adding a critical threshold of 150 to 250 parts
+        per million reproduces the observed floor in atmospheric carbon dioxide over the past 24
+        million years
+      paper: pagani-2009-terrestrial-plants-co2
+    - claim: >
+        Producing more than 5 degrees Celsius of Paleocene-Eocene warming requires a total carbon
+        release of roughly 5,400 to 112,000 petagrams — against about 5,000 petagrams in
+        conventional fossil fuel resources today — unless climate sensitivity was far higher than
+        the usual 1.5 to 4.5 degrees Celsius per doubling
+      paper: pagani-2006-ancient-carbon-mystery
+    - claim: >
+        A collapse of marine primary productivity reproduces the abrupt end-Permian carbon-isotope
+        excursion and drives atmospheric CO2 from a Late Permian 850 ppm to about 2,500 ppm
+      paper: rampino-2005-strangelove-ocean
+    - claim: >
+        The evolution of planktic calcifiers introduced saturation-dependent carbonate
+        preservation on the sea floor, stabilising the climate system and explaining why
+        Neoproterozoic-style near-global ice ages have not recurred
+      paper: ridgwell-2003-carbonate-climate-stability
+    - claim: >
+        Silicate-mineral dissolution is nearly independent of pH between 5 and 8 and the deep ocean
+        sits above 7.5, so low-temperature seafloor basalt alteration cannot act as an effective
+        feedback on atmospheric CO2 — weathering on land does
+      paper: caldeira-1995-seafloor-alteration
+    - claim: >
+        Major geologic events of the past 250 million years show a statistically significant
+        periodic component of 26.6 million years, robust at around 30 million years once dating
+        errors are allowed for
+      paper: rampino-1993-geologic-periodicity
     - claim: >
         Atmospheric CO2 adjusts over more than 100,000 years while sea ice and snow adjust in
         under a year, so the silicate-weathering thermostat cannot stabilize the ice line against
@@ -720,14 +869,29 @@
         irreversible
       paper: caldeira-1992-irreversible-glaciation
     - claim: >
-        A collapse of marine primary productivity reproduces the abrupt end-Permian carbon-isotope
-        excursion and drives atmospheric CO2 from a Late Permian 850 ppm to about 2,500 ppm
-      paper: rampino-2005-strangelove-ocean
+        Because C4 photosynthesis can persist at atmospheric CO2 below 10 parts per million, a
+        C4-plant-based biosphere could survive at least another 0.9 to 1.5 billion years rather than
+        the roughly 100 million years implied by a C3 limit
+      paper: caldeira-1992-life-span-biosphere
     - claim: >
-        Silicate-mineral dissolution is nearly independent of pH between 5 and 8 and the deep ocean
-        sits above 7.5, so low-temperature seafloor basalt alteration cannot act as an effective
-        feedback on atmospheric CO2 — weathering on land does
-      paper: caldeira-1995-seafloor-alteration
+        Sustained enhancement of chemical weathering in the late Cenozoic requires an increased flux
+        of CO2 to the atmosphere, and the shift since the Jurassic from primarily cratonic to
+        primarily pelagic carbonate accumulation supplies one, because sea-floor spreading carries
+        pelagic carbonate into subduction zones where metamorphism returns its carbon to the
+        atmosphere
+      paper: caldeira-1992-cenozoic-weathering
+    - claim: >
+        A carbonate-silicate cycle model gives mid-Cretaceous atmospheric CO2 of 3.7 to 14.7 times
+        the pre-industrial value of 285 ppm from super-plume tectonics, implying 2.8 to 7.7 degrees
+        Celsius of warming, though CO2 released from oceanic plateaus alone is unlikely to account
+        for more than 20% of that increase
+      paper: caldeira-1991-super-plume
+    - claim: >
+        Partitioning carbonate burial between shallow-water and deep-water settings gives two stable
+        steady states — a continental mode with low metamorphic CO2 flux and a pelagic mode with
+        high flux — and Cenozoic burial patterns suggest the Earth is moving from the continental
+        toward the pelagic mode over roughly 100 million years
+      paper: caldeira-1991-carbonate-partitioning
 - id: macro-energy-modeling
   title: Macro-energy modeling
   question: What does a reliable electricity system built on wind and solar actually need?
@@ -757,35 +921,25 @@
 
   evidence:
     - claim: >
-        Long-duration storage lowers total system cost relative to wind-solar-battery systems,
-        and system cost is twice as sensitive to reductions in long-duration storage cost as to
-        reductions in battery cost
-      paper: dowling-2020-long-duration-storage
-    - claim: >
-        In least-cost systems batteries serve intra-day needs while long-duration storage
-        handles inter-seasonal and multi-year variation, and dependence on the latter grows as
-        more years of weather are modelled
-      paper: dowling-2020-long-duration-storage
-    - claim: >
-        Long-duration storage sized for seasonal needs already has enough energy and power
-        capacity to meet short-duration needs, so adding batteries as a second technology
-        barely reduces system cost in any region examined
-      paper: li-2024-storage-portfolios
-    - claim: >
-        Storage costs would need to fall several hundred-fold, to about $1/kWh, for fully
-        variable-renewable systems to be highly reliable without extensive curtailment
-      paper: tong-2020-storage-cost-reductions
-    - claim: >
         With gas at $50/MWh, concentrated solar thermal with molten salt storage can supply
         more than half of industrial process heat demand at a saving in most regions below 45°
         latitude
       paper: wongel-2026-solar-process-heat
     - claim: >
-        Lowering advanced nuclear capital cost from US$6,317 to US$4,000 per kilowatt-electric
-        cuts the cost of a fully decarbonized system by 15 to 25 per cent in all 42 countries
-        modelled, and thermal storage lets firm generation replace most of the storage such a
-        system would otherwise need
-      paper: duan-2022-flexible-nuclear
+        For systems planned on a short weather record and then operated across decades of real
+        variability, coordinated spending across both additional storage and additional generation
+        improved resource adequacy more than spending the same amount on either category alone
+      paper: reich-2026-resource-adequacy
+    - claim: >
+        Across 27 European countries, hydrogen made from surplus wind and solar electricity could
+        substitute 30% of fossil-derived hydrogen — 1.9 million tonnes a year — cutting ammonia and
+        refinery emissions by 18%, or 20 million tonnes of CO2 a year
+      paper: ganter-2025-curtailed-power-hydrogen
+    - claim: >
+        Long-duration storage sized for seasonal needs already has enough energy and power
+        capacity to meet short-duration needs, so adding batteries as a second technology
+        barely reduces system cost in any region examined
+      paper: li-2024-storage-portfolios
     - claim: >
         The marginal cost of buying reliability with more weather data rises steeply — one extra
         planning year halves lost load, but beyond one or two years it exceeds a $10/kWh value
@@ -811,3 +965,23 @@
         Sequentially removing whichever firming technology is most valuable shows that reliable
         wind-and-solar systems do not depend on the feasibility of any particular one
       paper: wongel-2023-firming-technologies
+    - claim: >
+        Lowering advanced nuclear capital cost from US$6,317 to US$4,000 per kilowatt-electric
+        cuts the cost of a fully decarbonized system by 15 to 25 per cent in all 42 countries
+        modelled, and thermal storage lets firm generation replace most of the storage such a
+        system would otherwise need
+      paper: duan-2022-flexible-nuclear
+    - claim: >
+        Long-duration storage lowers total system cost relative to wind-solar-battery systems,
+        and system cost is twice as sensitive to reductions in long-duration storage cost as to
+        reductions in battery cost
+      paper: dowling-2020-long-duration-storage
+    - claim: >
+        In least-cost systems batteries serve intra-day needs while long-duration storage
+        handles inter-seasonal and multi-year variation, and dependence on the latter grows as
+        more years of weather are modelled
+      paper: dowling-2020-long-duration-storage
+    - claim: >
+        Storage costs would need to fall several hundred-fold, to about $1/kWh, for fully
+        variable-renewable systems to be highly reliable without extensive curtailment
+      paper: tong-2020-storage-cost-reductions
