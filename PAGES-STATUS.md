@@ -8,8 +8,8 @@ is 1200 px wide or more, `adequate` 800–1199, `low` 500–799, `very low`
 below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
-- **115** publication pages across **9** themes
-- **112** have a figure, **3** do not
+- **116** publication pages across **9** themes
+- **113** have a figure, **3** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -94,6 +94,7 @@ higher-resolution source.
 | [myhrvold-2012-transition-timescales](docs/publications/myhrvold-2012-transition-timescales.html)<br><sub>Myhrvold and Caldeira, 2012</sub> | 2012 | <sub>Climate and energy</sub> | 1600×1303 | `good` | 53 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 3.0</sub> |  |
 | [pongratz-2012-geoengineered-crop-yields](docs/publications/pongratz-2012-geoengineered-crop-yields.html)<br><sub>Pongratz et al., 2012</sub> | 2012 | <sub>Solar geoengineering</sub> | 1600×1935 | `good` | 57 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [cao-2012-fast-response-days-weeks](docs/publications/cao-2012-fast-response-days-weeks.html)<br><sub>Cao et al., 2012</sub> | 2012 | <sub>Solar geoengineering</sub> | 1600×1123 | `good` | 66 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 3.0</sub> |  |
+| [ban-weiss-2011-latent-sensible-heat](docs/publications/ban-weiss-2011-latent-sensible-heat.html)<br><sub>Ban-Weiss et al., 2011</sub> | 2011 | <sub>Climate and the carbon cycle</sub> | 1600×894 | `good` | 40 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 3.0</sub> |  |
 | [bala-2011-marine-cloud-albedo](docs/publications/bala-2011-marine-cloud-albedo.html)<br><sub>Bala et al., 2011</sub> | 2011 | <sub>Solar geoengineering</sub> | 1600×1405 | `good` | 282 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [cao-2011-precipitation-co2-forcing](docs/publications/cao-2011-precipitation-co2-forcing.html)<br><sub>Cao et al., 2011</sub> | 2011 | <sub>Solar geoengineering, Climate and the carbon cycle</sub> | 1600×1069 | `good` | 85 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [davis-2011-supply-chain-emissions](docs/publications/davis-2011-supply-chain-emissions.html)<br><sub>Davis et al., 2011</sub> | 2011 | <sub>Climate and energy</sub> | 1600×1961 | `good` | 96 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |

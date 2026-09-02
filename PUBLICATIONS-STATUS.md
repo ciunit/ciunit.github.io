@@ -9,15 +9,15 @@ reachable abstract. A figure additionally needs both an open licence *and* a
 publisher that permits automated access — those are not the same thing.
 
 - **121** distinct DOIs cited on the site
-- **79** already have a page
-- **27** could have one written now
+- **80** already have a page
+- **26** could have one written now
 - **15** are blocked pending the publication itself
 
 | Tier | Count | Meaning |
 | --- | ---: | --- |
-| `has-page` | 79 | Already published as a publication page. |
+| `has-page` | 80 | Already published as a publication page. |
 | `ready-with-figure` | 5 | Abstract reachable and figure retrievable — a complete page needs no input from you. |
-| `ready-needs-figure` | 22 | Abstract reachable, but the figure must be supplied by an author. |
+| `ready-needs-figure` | 21 | Abstract reachable, but the figure must be supplied by an author. |
 | `blocked-no-abstract` | 15 | No abstract reachable anywhere — a verifiable key finding cannot be written without the publication itself. |
 
 ## Publications
@@ -53,6 +53,7 @@ Ordered by tier, then newest first.
 | [Chen and Caldeira, 2020](https://doi.org/10.5194/esd-11-875-2020) | Climate change as an incentive for future human migration | Earth System Dynamics | `has-page` | page `chen-2020-migration-incentive` | crossref | <sub>climate-and-climate-impacts, ken-caldeira</sub> |
 | [Wang et al., 2019](https://doi.org/10.1016/j.joule.2019.07.024) | Induced Energy-Saving Efficiency Improvements Amplify Effectiveness of Climate Change Mitigation | Joule | `has-page` | page `wang-2019-induced-efficiency` | semantic-scholar | <sub>harry-saunders, ken-caldeira</sub> |
 | [Tong et al., 2019](https://doi.org/10.1038/s41586-019-1364-3) | Committed emissions from existing energy infrastructure jeopardize 1.5 °C climate target | Nature | `has-page` | page `tong-2019-committed-emissions` | semantic-scholar | <sub>ken-caldeira</sub> |
+| [Rugenstein et al., 2019](https://doi.org/10.1175/bams-d-19-0068.1) | LongRunMIP: Motivation and Design for a Large Collection of Millennial-Length AOGCM Simulations | Bulletin of the American Meteoro | `has-page` | page `rugenstein-2019-longrunmip` | crossref | <sub>lei-duan</sub> |
 | [Krishnamohan et al., 2019](https://doi.org/10.5194/esd-10-885-2019) | Climate system response to stratospheric sulfate aerosols: sensitivity to altitude of aerosol layer | Earth System Dynamics | `has-page` | page `krishnamohan-2019-aerosol-altitude` | crossref | <sub>govindasamy-bala, lei-duan</sub> |
 | [Duan et al., 2018](https://doi.org/10.1029/2018jd029034) | Comparison of the Fast and Slow Climate Response to Three Radiation Management Geoengineering Schemes | Journal of Geophysical Research: | `has-page` | page `duan-2018-fast-slow-geoengineering` | crossref | <sub>lei-duan</sub> |
 | [Albright et al., 2018](https://doi.org/10.1038/nature25968) | Carbon dioxide addition to coral reef waters suppresses net community calcification | Nature | `has-page` | page `albright-2018-co2-addition-reef` | semantic-scholar | <sub>ken-caldeira</sub> |
@@ -135,7 +136,6 @@ Ordered by tier, then newest first.
 | [Mahendra et al., 2021](https://doi.org/10.1002/joc.6973) | Interdecadal modulation of interannual <scp>ENSO‐Indian</scp> summer monsoon rainfall teleconnections in observations an | International Journal of Climato | `ready-needs-figure` | author reuse | crossref | <sub>mahendra-nimmakanti</sub> |
 | [Saunders et al., 2021](https://doi.org/10.1146/annurev-environ-012320-084937) | Energy Efficiency: What Has Research Delivered in the Last 40 Years? | Annual Review of Environment and | `ready-needs-figure` | author reuse (licensed, host blocks us) | crossref | <sub>harry-saunders</sub> |
 | [Papargyri et al., 2020](https://doi.org/10.1016/j.renene.2019.07.138) | Modelling and experimental investigations of microcracks in crystalline silicon photovoltaics: A review | Renewable Energy | `ready-needs-figure` | author reuse | semantic-scholar | <sub>lamprini-papargyri</sub> |
-| [Rugenstein et al., 2019](https://doi.org/10.1175/bams-d-19-0068.1) | LongRunMIP: Motivation and Design for a Large Collection of Millennial-Length AOGCM Simulations | Bulletin of the American Meteoro | `ready-needs-figure` | author reuse | crossref | <sub>lei-duan</sub> |
 | [Brockway et al., 2017](https://doi.org/10.3390/en10010051) | Energy Rebound as a Potential Threat to a Low-Carbon Future: Findings from a New Exergy-Based National-Level Rebound App | Energies | `ready-needs-figure` | author reuse (licensed, host blocks us) | crossref | <sub>harry-saunders</sub> |
 | [Saunders, 2015](https://doi.org/10.5547/01956574.36.1.2) | Recent Evidence for Large Rebound: Elucidating the Drivers and their Implications for Climate Change Models | The Energy Journal | `ready-needs-figure` | author reuse | crossref | <sub>harry-saunders</sub> |
 | [Sovacool and Saunders, 2014](https://doi.org/10.1016/j.energy.2014.01.039) | Competing policy packages and the complexity of energy security | Energy | `ready-needs-figure` | author reuse (licensed, host blocks us) | semantic-scholar | <sub>harry-saunders</sub> |

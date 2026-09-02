@@ -1,7 +1,8 @@
 # Paywall status of the publication pages
 
-Which of the 114 publications with a page on CIunit.org a reader can reach for free, from
-Unpaywall (`oa_status`), checked 14 August 2026.
+Which of the 116 publications with a page on CIunit.org a reader can reach for free, from
+Unpaywall (`oa_status`), checked 14 August 2026 — except `ban-weiss-2011-latent-sensible-heat`
+and `rugenstein-2019-longrunmip`, added on 2 September 2026 and checked that day.
 
 For the paywalled ones, `Copy` links to the PDF in the shared Drive folder
 <https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk>. Each link was
@@ -9,16 +10,26 @@ matched by exact filename against the file the site's own tooling uses from `pdf
 linked copy is the same document the figure and cover were taken from. Whether a reader can
 open it depends on that folder's sharing settings, not on anything recorded here.
 
+**A re-check on 2 September 2026 found seven `bronze` rows had changed status**, which would
+move all seven out of "Free to read": `antonini-2021-spatial-constraints`,
+`davis-2010-consumption-based-accounting`, and `possner-2017-open-ocean-wind` to `green`, and
+`caldeira-1990-deccan-volcanism`, `caldeira-1998-radiocarbon-efflux`,
+`davis-2011-supply-chain-emissions`, and `duan-2018-fast-slow-geoengineering` to `closed`.
+They are left where they are because the paywalled table needs a `Copy` link for each and none
+of the seven has one yet. `bronze` is the least stable of Unpaywall's categories — it is
+inferred from a free-to-read publisher page rather than from a licence — so confirm each by
+opening the article before moving it and hunting for a Drive copy.
+
 | Status | Meaning | Count |
 | --- | --- | --- |
 | `closed` | Paywalled | 49 |
 | `green` | Paywalled at publisher, free copy in a repository | 5 |
-| `bronze` | Free to read on the publisher site, no open licence | 16 |
+| `bronze` | Free to read on the publisher site, no open licence | 17 |
 | `hybrid` | Open access under a licence in a subscription journal | 8 |
-| `gold` | Open access | 36 |
+| `gold` | Open access | 37 |
 
-**54 of 114 are behind a publisher paywall** (`closed` plus `green`); the remaining
-60 are free to read at the publisher.
+**54 of 116 are behind a publisher paywall** (`closed` plus `green`); the remaining
+62 are free to read at the publisher.
 
 ---
 
@@ -83,7 +94,7 @@ open it depends on that folder's sharing settings, not on anything recorded here
 
 ---
 
-## Free to read — 60 publications
+## Free to read — 62 publications
 
 | Year | Publication | Journal | Status | Licence | Free at |
 | --- | --- | --- | --- | --- | --- |
@@ -120,6 +131,7 @@ open it depends on that folder's sharing settings, not on anything recorded here
 | 2020 | [Balancing climate and development goals](docs/publications/duan-2020-climate-development-goals.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/abbe46 |
 | 2020 | [Effects of deep reductions in energy storage costs on highly reliable wind and solar electricity systems](docs/publications/tong-2020-storage-cost-reductions.html) | iScience | `gold` | cc-by | https://doi.org/10.1016/j.isci.2020.101484 |
 | 2019 | [Climate system response to stratospheric sulfate aerosols: sensitivity to altitude of aerosol layer](docs/publications/krishnamohan-2019-aerosol-altitude.html) | Earth System Dynamics | `gold` | cc-by | https://doi.org/10.5194/esd-10-885-2019 |
+| 2019 | [LongRunMIP: Motivation and Design for a Large Collection of Millennial-Length AOGCM Simulations](docs/publications/rugenstein-2019-longrunmip.html) | Bulletin of the American Meteorological Society | `bronze` | — | https://doi.org/10.1175/bams-d-19-0068.1 |
 | 2019 | [Induced energy-saving efficiency improvements amplify effectiveness of climate change mitigation](docs/publications/wang-2019-induced-efficiency.html) | Joule | `bronze` | — | https://doi.org/10.1016/j.joule.2019.07.024 |
 | 2018 | [Carbon dioxide addition to coral reef waters suppresses net community calcification](docs/publications/albright-2018-co2-addition-reef.html) | Nature | `hybrid` | cc-by | https://doi.org/10.1038/nature25968 |
 | 2018 | [Comparison of the fast and slow climate response to three radiation management geoengineering schemes](docs/publications/duan-2018-fast-slow-geoengineering.html) | Journal of Geophysical Research: Atmospheres | `bronze` | — | https://doi.org/10.1029/2018jd029034 |
@@ -135,6 +147,7 @@ open it depends on that folder's sharing settings, not on anything recorded here
 | 2013 | [Risks to coral reefs from ocean carbonate chemistry changes in recent earth system model projections](docs/publications/ricke-2013-coral-reef-risk.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/8/3/034003 |
 | 2012 | [Climate response to changes in atmospheric carbon dioxide and solar irradiance on the time scale of days to weeks](docs/publications/cao-2012-fast-response-days-weeks.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/7/3/034015 |
 | 2012 | [Greenhouse gases, climate change and the transition from coal to low-carbon electricity](docs/publications/myhrvold-2012-transition-timescales.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/7/1/014019 |
+| 2011 | [Climate forcing and response to idealized changes in surface latent and sensible heat](docs/publications/ban-weiss-2011-latent-sensible-heat.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/6/3/034032 |
 | 2011 | [Why is there a short-term increase in global precipitation in response to diminished CO2 forcing?](docs/publications/cao-2011-precipitation-co2-forcing.html) | Geophysical Research Letters | `bronze` | — | https://doi.org/10.1029/2011gl046713 |
 | 2011 | [The supply chain of CO2 emissions](docs/publications/davis-2011-supply-chain-emissions.html) | Proceedings of the National Academy of Sciences | `bronze` | — | https://doi.org/10.1073/pnas.1107409108 |
 | 2010 | [Geoengineering as an optimization problem](docs/publications/ban-weiss-2010-optimization.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/5/3/034009 |

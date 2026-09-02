@@ -1,0 +1,144 @@
+id: ban-weiss-2011-latent-sensible-heat
+doi: 10.1088/1748-9326/6/3/034032
+title: >
+  Climate forcing and response to idealized changes in surface latent and sensible heat
+authors:
+  - George A. Ban-Weiss
+  - Govindasamy Bala
+  - Long Cao
+  - Julia Pongratz
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "6"
+pages: "034032"
+date: "2011-09-14"
+year: 2011
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  Shifting one watt per square metre of surface heat flux from sensible to latent form, with no
+  change in the energy content of the climate system, cooled global mean surface air temperature
+  by 0.54 kelvin in a climate model, because the added evaporation increased low cloud cover and
+  reflected more sunlight.
+
+question:
+  - >
+    Changes in land use and land cover alter how surface energy is split between sensible heating,
+    which warms the air directly, and latent heating, which carries energy away as water vapour.
+    Forests generally evaporate more than the short vegetation replacing them, and irrigation
+    raises evaporation too, so this partitioning — the Bowen ratio — shifts whenever land cover
+    or land management changes.
+  - >
+    Increasing evaporation is well known to cool the surface locally. But that cooling is not
+    obviously a global effect, because the latent heat is released again wherever the water vapour
+    condenses. On a planetary energy-balance argument the two cancel, and any global temperature
+    change would have to come indirectly, through changes in clouds, water vapour, or the vertical
+    temperature profile. Whether it does, and in which direction, had not been characterized.
+  - >
+    Real land-cover change also alters surface albedo and roughness at the same time, which makes
+    the latent-versus-sensible component impossible to isolate in a realistic experiment. This
+    study therefore imposed the repartitioning directly, as an idealized heat source and sink.
+
+key_finding: >
+  In the NCAR CAM3.1 model with a slab ocean, adding a uniform one watt per square metre source of
+  surface latent heat while removing an equal one watt per square metre of sensible heat — an
+  energy-neutral change — lowered global mean surface air temperature by 0.54 plus or minus 0.04
+  kelvin, mainly because the extra evaporation increased low cloud cover and so raised planetary
+  albedo.
+
+findings:
+  - >
+    Four simulations were run with NCAR CAM3.1 coupled to the CLM3.0 land model and a slab ocean at
+    two degrees by 2.5 degrees resolution, with carbon dioxide held at 390 parts per million. The
+    control was compared against a case adding latent heat and removing sensible heat together
+    (denoted up-L down-S), a case adding one watt per square metre of latent heat alone (up-L), and
+    a case removing one watt per square metre of sensible heat alone (down-S). The forcings were
+    imposed directly in the model's surface-flux code, as sources and sinks applied at every time
+    step over the whole Earth surface.
+  - >
+    The energy-neutral repartitioning cooled the model. Global mean surface air temperature fell
+    0.54 plus or minus 0.04 kelvin and precipitation fell 0.41 plus or minus 0.07 per cent, even
+    though no energy was added to or removed from the system. At the top of the atmosphere,
+    reflected shortwave radiation rose about one watt per square metre and outgoing longwave
+    radiation fell by about the same amount.
+  - >
+    Low clouds are the mechanism. Separating the fast atmospheric adjustment from the slow response
+    to surface temperature by the regression method of Gregory and colleagues gives a fast-response
+    top-of-atmosphere imbalance of 0.49 plus or minus 0.34 watts per square metre in the cooling
+    direction, matched almost exactly by a fast shortwave cloud forcing of minus 0.50 plus or minus
+    0.33 watts per square metre. The clear-sky shortwave change is near zero, so clouds, not water
+    vapour, are doing the reflecting.
+  - >
+    Longwave radiation shows essentially no fast response. Changes in atmospheric water vapour, in
+    the vertical temperature profile, and in medium and high clouds appear only as slow feedbacks
+    once surface temperature has already begun to fall, which makes them consequences of the
+    cooling rather than its cause.
+  - >
+    Splitting the experiment shows the latent heat term drives the cloud response. Adding latent
+    heat alone warms the model 0.48 plus or minus 0.04 kelvin and raises precipitation 1.77 plus or
+    minus 0.07 per cent, since it adds energy; removing sensible heat alone cools it 1.09 plus or
+    minus 0.04 kelvin and cuts precipitation 2.36 plus or minus 0.07 per cent. But the fast increase
+    in low cloud and in reflected sunlight is present in the latent-heat case and largely absent in
+    the sensible-heat case.
+  - >
+    The two components are close to additive. Summing the separate runs gives a temperature change
+    of minus 0.61 plus or minus 0.06 kelvin against minus 0.54 plus or minus 0.04 kelvin for the
+    combined run, and a precipitation change of minus 0.59 plus or minus 0.09 per cent against minus
+    0.41 plus or minus 0.07 per cent — differences that are not statistically distinguishable.
+  - >
+    Once the forcing is diagnosed by regression rather than taken as applied, the feedback parameter
+    is statistically indistinguishable across all three cases, at roughly 0.8 to 1.0 watts per
+    square metre per kelvin. What differs between forcing agents is the fast response; the slow
+    response per unit of forcing is much the same.
+
+matters:
+  - >
+    Evaporative cooling is usually described as a local effect that cancels globally. These results
+    say otherwise for this model. When latent heating replaces sensible heating, surface
+    temperatures fall globally and not merely where the evaporation happens, because more
+    evaporation means more low cloud and more reflected sunlight.
+  - >
+    That gives land-cover change a climate pathway separate from its carbon and albedo effects.
+    Afforestation and irrigation lower the Bowen ratio and should carry a global cooling signal by
+    this mechanism; anything that raises it should warm. The same argument runs in reverse for the
+    physiological effect of rising carbon dioxide, which closes plant stomata and cuts transpiration.
+  - >
+    Isolating one component of land-use change is the point of the idealization. A realistic
+    deforestation experiment changes albedo, roughness, and heat partitioning at once and cannot
+    apportion the result among them; imposing the heat repartitioning on its own can.
+  - >
+    The magnitude should be treated as model-dependent. The forcing is uniform and global rather
+    than patterned like real land-cover change, the ocean is a slab, and the result rests on the
+    low-cloud response — the feature on which climate models disagree most.
+
+figure:
+  file: ban-weiss-2011-latent-sensible-heat.webp
+  source_figure: Figure 1
+  alt: >
+    A bar chart with four groups along the horizontal axis — applied forcing, regressed forcing,
+    change in surface air temperature, and change in precipitation — each showing the same four
+    model cases as coloured bars with 95 per cent confidence intervals. Blue is the latent heat
+    source alone, red the sensible heat sink alone, dark grey the two applied together, and a
+    hatched bar the arithmetic sum of the two separate runs. The applied forcing group has only
+    the blue bar at plus one watt per square metre and the red at minus one, the combined case
+    being zero by construction. In the temperature group the blue bar is about plus 0.5 kelvin,
+    the red about minus 1.1, and the grey and hatched bars both sit near minus 0.55. The
+    precipitation group has the same pattern at larger magnitude, blue near plus 1.8 per cent and
+    red near minus 2.4 per cent, with the grey and hatched bars close to minus 0.5.
+  caption: >
+    Repartitioning surface heat from sensible to latent form cools the model even though the
+    applied forcing is zero. In every group the dark grey bar for the combined case and the hatched
+    bar summing the two separate cases agree within their uncertainties, so the latent and sensible
+    components act nearly independently.
+  source: PDF (600 dpi)
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0/
+  credit: >
+    Ban-Weiss, Bala, Cao, Pongratz, and Caldeira (2011), Environmental Research Letters 6, 034032
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - bala-2007-deforestation
+  - cao-2010-physiological-forcing
+  - bala-2010-fast-versus-slow

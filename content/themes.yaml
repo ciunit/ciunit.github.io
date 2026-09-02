@@ -188,6 +188,12 @@
         about the timing of warming as much as about its size
       paper: caldeira-2013-pace-of-warming
     - claim: >
+        Shifting one watt per square metre of surface heat flux from sensible to latent form, with
+        no change in the energy content of the climate system, cooled global mean surface air
+        temperature by 0.54 K — evaporative cooling is a global effect, not only a local one,
+        because the added evaporation raises low cloud cover and reflects more sunlight
+      paper: ban-weiss-2011-latent-sensible-heat
+    - claim: >
         Instantaneously removing a quadrupled-CO2 forcing in the HadCM3L coupled model raised global
         mean precipitation by 5.1% within one year, whereas removing an equal-magnitude solar
         forcing made precipitation fall immediately — the transient increase reflects the fast

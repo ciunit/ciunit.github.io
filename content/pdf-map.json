@@ -923,6 +923,14 @@
    "how": "metadata",
    "id": "zheng-2020-aerosols-inequality",
    "has_figure": true
+  },
+  "10.1088/1748-9326/6/3/034032": {
+   "files": [
+    "Ban-Weiss-et-al_ERL2011_latent-sensible-heat.pdf"
+   ],
+   "how": "title match",
+   "id": "ban-weiss-2011-latent-sensible-heat",
+   "has_figure": true
   }
  },
  "unmatched": [
@@ -944,7 +952,6 @@
   "Bala_et_al_ClimDyn2013_terr-carb-cycle-CCSM4.pdf",
   "Bala_etal_Tellus2006.pdf",
   "Ban-Weiss-et-al_ClimDyn2011_black-carbon-altitude.pdf",
-  "Ban-Weiss-et-al_ERL2011_latent-sensible-heat.pdf",
   "Ban-Weiss_et_al_ClimDyn2011.pdf",
   "Berner-Caldeira_Geol1997_mass-balance.pdf",
   "Berner_Caldeira_Geol1997.pdf",
