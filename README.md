@@ -80,11 +80,12 @@ Figures and cover images are extracted from PDFs in `pdfs/`, which is gitignored
 the site ships the images, never the articles. That folder mirrors a Google Drive
 folder, readable by anyone with the link:
 
-<https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk>
+<https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk?usp=sharing>
 
-Filenames match between the two, which is what lets `PAYWALL-STATUS.md` link each
-paywalled publication to its copy there. Anyone without the local library can still
-build the site; they simply cannot regenerate figures or covers.
+Filenames match between the two, which is what lets `PAYWALL-STATUS.md` link every
+publication that might be paywalled — `closed`, `green`, and `bronze` alike — to its
+copy there. Anyone without the local library can still build the site; they simply
+cannot regenerate figures or covers.
 
 ## Content generator
 

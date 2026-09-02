@@ -160,6 +160,17 @@ Mechanics:
   giving the theme pages another route in from the nav.
 - `docs/sitemap.xml` and `docs/robots.txt` are part of this; regenerate the
   sitemap whenever pages are added.
+- **The reprint library on Google Drive**, readable by anyone with the link:
+  <https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk?usp=sharing>
+  It mirrors the gitignored `pdfs/` folder, filename for filename. **Any publication
+  that might be paywalled gets a `Copy` link to its PDF there** in
+  `PAYWALL-STATUS.md` — that means every `closed` and `green` row, and every
+  `bronze` row too, since `bronze` only means the publisher currently serves the
+  article free without granting a licence and can stop at any time. `gold` and
+  `hybrid` are open under a Creative Commons licence and need no copy. Find a file's
+  id by searching the folder for the exact filename `scripts/extract_figures.py`
+  picks from `pdfs/`, and check the Drive copy's byte size against the local one
+  before recording the link.
 
 ## Secrets
 
