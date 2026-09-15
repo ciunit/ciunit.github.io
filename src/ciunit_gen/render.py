@@ -1,9 +1,9 @@
-"""Render the publications section into docs/.
+"""Render the generated sections into docs/.
 
-Only writes files it owns: docs/publications/, docs/topics/, docs/publications.html,
-docs/sitemap.xml. The hand-written pages (index.html, about.html, the bios) are
-never touched — the nav link to the publications section is maintained by hand in
-them.
+Only writes files it owns: docs/publications/, docs/topics/, docs/thinking/,
+docs/publications.html, docs/what-we-are-thinking.html, docs/sitemap.xml. The
+hand-written pages (index.html, about.html, the bios) are never touched — their
+nav links to the generated sections are maintained by hand in them.
 """
 from __future__ import annotations
 
@@ -14,6 +14,7 @@ from jinja2 import Environment, FileSystemLoader, StrictUndefined
 from markupsafe import Markup
 
 from .model import Paper, Theme
+from .posts import Post
 
 BASE_URL = "https://ciunit.org"
 ORG_NAME = "Conceptual Investigations Unit"
@@ -100,6 +101,44 @@ def theme_jsonld(theme: Theme, papers: list[Paper]) -> dict:
     }
 
 
+def post_jsonld(post: Post, paper: Paper | None) -> dict:
+    """BlogPosting — not the publications' WebPage + mainEntity ScholarlyArticle.
+
+    On a publication page the page is *about* an article that lives elsewhere. On
+    a post the page *is* the work, so it types as the creative work itself and
+    the paper it discusses hangs off `about`. That distinction is what tells an
+    answer engine this is our commentary on a specific paper rather than a
+    second copy of the paper's own claims.
+    """
+    data = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "@id": f"{BASE_URL}/{post.url_path}",
+        "url": f"{BASE_URL}/{post.url_path}",
+        "headline": post.title,
+        "description": post.description,
+        "abstract": post.key_point,
+        "datePublished": post.date,
+        "author": [{"@type": "Person", "name": a} for a in post.authors],
+        "publisher": {"@type": "Organization", "name": ORG_NAME, "url": BASE_URL},
+        "isPartOf": {
+            "@type": "Blog",
+            "name": f"What We Are Thinking — {ORG_NAME}",
+            "url": f"{BASE_URL}/what-we-are-thinking.html",
+        },
+    }
+    if paper:
+        article = {
+            "@type": "ScholarlyArticle",
+            "@id": paper.doi_url,
+            "name": paper.title,
+            "url": f"{BASE_URL}/{paper.url_path}",
+        }
+        data["about"] = article
+        data["citation"] = article
+    return data
+
+
 class Renderer:
     def __init__(self, root: Path):
         self.root = root
@@ -116,7 +155,7 @@ class Renderer:
         self.written.append(path)
 
     def render_paper(self, paper: Paper, themes: dict[str, Theme],
-                     by_id: dict[str, Paper]) -> None:
+                     by_id: dict[str, Paper], posts: list[Post] | None = None) -> None:
         html = self.env.get_template("paper.html.j2").render(
             banner=Markup(GENERATED_BANNER).format(source=f"content/publications/{paper.id}.yaml"),
             paper=paper,
@@ -124,6 +163,9 @@ class Renderer:
             canonical=f"{BASE_URL}/{paper.url_path}",
             themes=[themes[t] for t in paper.themes if t in themes],
             related=[by_id[r] for r in paper.related if r in by_id],
+            # Posts about this publication. Both pages are generated, so the
+            # link cannot drift out of step with the post's `about` field.
+            posts=posts or [],
             jsonld=paper_jsonld(paper),
         )
         self._write(paper.url_path, html)
@@ -184,12 +226,62 @@ class Renderer:
         )
         self._write("publications.html", html)
 
+    def render_post(self, post: Post, by_id: dict[str, Paper],
+                    by_theme: dict[str, Theme]) -> None:
+        paper = by_id.get(post.about) if post.about else None
+        html = self.env.get_template("post.html.j2").render(
+            banner=Markup(GENERATED_BANNER).format(
+                source=f"content/posts/{post.source_path.name}"),
+            post=post,
+            up="../",
+            canonical=f"{BASE_URL}/{post.url_path}",
+            paper=paper,
+            themes=[by_theme[t] for t in post.themes if t in by_theme],
+            jsonld=post_jsonld(post, paper),
+        )
+        self._write(post.url_path, html)
+
+    def render_post_index(self, posts: list[Post]) -> None:
+        # `posts` arrives newest first, which the ItemList below states
+        # explicitly for the same reason render_index does.
+        html = self.env.get_template("post-index.html.j2").render(
+            banner=Markup(GENERATED_BANNER).format(source="content/posts/*.md"),
+            up="",
+            canonical=f"{BASE_URL}/what-we-are-thinking.html",
+            posts=posts,
+            jsonld={
+                "@context": "https://schema.org",
+                "@type": "Blog",
+                "url": f"{BASE_URL}/what-we-are-thinking.html",
+                "name": f"What We Are Thinking — {ORG_NAME}",
+                "description": (
+                    f"{len(posts)} post(s) by researchers of the {ORG_NAME}: "
+                    "walk-throughs of our own publications, and commentary on "
+                    "questions of climate, energy, and how research works."
+                ),
+                "publisher": {"@type": "Organization", "name": ORG_NAME, "url": BASE_URL},
+                "mainEntity": {
+                    "@type": "ItemList",
+                    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                    "numberOfItems": len(posts),
+                    "itemListElement": [
+                        {"@type": "ListItem", "position": i,
+                         "url": f"{BASE_URL}/{p.url_path}", "name": p.title}
+                        for i, p in enumerate(posts, 1)
+                    ],
+                },
+            },
+        )
+        self._write("what-we-are-thinking.html", html)
+
     def render_sitemap(self, papers: list[Paper], themes: list[Theme],
-                       static_pages: list[str]) -> None:
+                       posts: list[Post], static_pages: list[str]) -> None:
         urls = [f"{BASE_URL}/{p}" for p in static_pages]
         urls += [f"{BASE_URL}/publications.html"]
         urls += [f"{BASE_URL}/{t.url_path}" for t in themes]
         urls += [f"{BASE_URL}/{p.url_path}" for p in papers]
+        urls += [f"{BASE_URL}/what-we-are-thinking.html"]
+        urls += [f"{BASE_URL}/{p.url_path}" for p in posts]
         # No <lastmod>: the output is committed to git, so the build must be
         # reproducible. A build-date lastmod would churn the file every day.
         xml = self.env.get_template("sitemap.xml.j2").render(urls=urls)

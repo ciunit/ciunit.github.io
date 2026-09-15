@@ -34,13 +34,15 @@ ciunit.github.io/
 │   │   ├── figures/       #   figure images (licence recorded in content/)
 │   │   └── covers/        #   first-page covers for the index grid
 │   ├── topics/            #   GENERATED — theme reference pages
+│   ├── thinking/          #   GENERATED — posts, plus their images/<slug>/
 │   ├── sitemap.xml        #   GENERATED
 │   ├── robots.txt
 │   └── css/
 │       └── style.css      #   shared stylesheet for all pages
 │
-├── content/               # SOURCE OF TRUTH for the publications section
+├── content/               # SOURCE OF TRUTH for the generated sections
 │   ├── publications/      #   one file per publication, <id>.yaml
+│   ├── posts/             #   one file per post, YYYY-MM-DD-<slug>.md
 │   ├── themes.yaml        #   theme pages
 │   ├── figure-picks.json  #   which figure of each publication we use
 │   ├── thumbnail-picks.json #  which page is each publication's cover
@@ -71,8 +73,8 @@ ciunit.github.io/
 
 Hand-written pages are standalone HTML sharing the same header navigation and
 footer — when adding one, copy the header/footer from an existing page so the nav
-stays consistent. Pages under `docs/publications/` and `docs/topics/` are **generated**;
-edit the YAML in `content/` instead and rebuild.
+stays consistent. Pages under `docs/publications/`, `docs/topics/`, and
+`docs/thinking/` are **generated**; edit the source in `content/` instead and rebuild.
 
 ## The reprint library
 
@@ -89,24 +91,26 @@ cannot regenerate figures or covers.
 
 ## Content generator
 
-The publications section is generated from `content/` into `docs/`. GitHub Pages runs no
-build step, so **the generated HTML is committed** like everything else.
+Two sections are generated from `content/` into `docs/`: **What We Publish** (the
+publication and theme pages) and **What We Are Thinking** (the posts). GitHub Pages
+runs no build step, so **the generated HTML is committed** like everything else.
 
 ```bash
 pip install -r requirements.txt
 PYTHONPATH=src python -m ciunit_gen --check   # validate content, write nothing
 PYTHONPATH=src python -m ciunit_gen           # write docs/publications/, docs/topics/,
-                                              # docs/publications.html, docs/sitemap.xml
+                                              # docs/thinking/, docs/publications.html,
+                                              # docs/what-we-are-thinking.html, docs/sitemap.xml
 ```
 
 The build is reproducible: running it twice leaves the tree unchanged. It refuses
 to generate a page whose content file is missing a key finding, a figure licence,
-or figure alt text, and warns about publications flagged `needs_review`. It never
-touches the hand-written pages — the `What We Publish` nav link in those is
-maintained by hand.
+or figure alt text, or whose post points at a publication that does not exist, and
+warns about anything flagged `needs_review`. It never touches the hand-written
+pages — their nav links to the generated sections are maintained by hand.
 
-See `CLAUDE.md` ("Publication pages and GEO") for the writing conventions these pages
-follow and why.
+See `CLAUDE.md` ("Publication pages and GEO", "What We Are Thinking") for the
+writing conventions these pages follow and why.
 
 ## Scripts
 

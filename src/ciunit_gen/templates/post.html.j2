@@ -1,0 +1,66 @@
+{% extends "_base.html.j2" %}
+{% block title %}{{ post.title }}{% endblock %}
+{% block description %}{{ post.description }}{% endblock %}
+{% block content %}
+    <section class="page-title page-title-long">
+      <div class="eyebrow">What We Are Thinking</div>
+      <h1>{{ post.title }}</h1>
+      {# Signed and dated: posts carry a personal view, and other people will
+         write them. <time datetime> matches datePublished in the JSON-LD. #}
+      <p class="post-byline">{{ post.byline }} · <time datetime="{{ post.date }}">{{ post.display_date }}</time></p>
+      <p class="key-finding">{{ post.key_point }}</p>
+    </section>
+
+    <section class="section bio post-body">
+{% for block in post.body %}
+{% if block.kind == 'prose' %}
+      {{ block.html | indent(6) | safe }}
+{% elif block.kind == 'figure' %}
+      <figure class="post-figure">
+{% if block.link %}
+        <a target="_blank" rel="noopener noreferrer" href="{{ block.link }}"><img src="images/{{ post.slug }}/{{ block.file }}" alt="{{ block.alt }}" loading="lazy" decoding="async"></a>
+{% else %}
+        <img src="images/{{ post.slug }}/{{ block.file }}" alt="{{ block.alt }}" loading="lazy" decoding="async">
+{% endif %}
+{% if block.caption or block.credit_line %}
+        <figcaption>
+{% if block.caption %}
+          {{ block.caption_html }}
+{% endif %}
+{% if block.credit_line %}
+          <span class="credit">{{ block.credit_line }}</span>
+{% endif %}
+        </figcaption>
+{% endif %}
+      </figure>
+{% elif block.kind == 'youtube' %}
+      <figure class="post-figure">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/{{ block.id }}" title="{{ block.title }}"
+            loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+{% if block.caption %}
+        <figcaption>{{ block.caption_html }}</figcaption>
+{% endif %}
+      </figure>
+{% endif %}
+{% endfor %}
+
+{% if paper or themes or post.links %}
+      <h2>Where to read more</h2>
+      <ul>
+{% if paper %}
+        <li>The publication this post is about: <a href="../{{ paper.url_path }}">{{ paper.title }}</a> ({{ paper.short_citation }} · {{ paper.journal }})</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="{{ paper.doi_url }}">Published article (doi:{{ paper.doi }})</a></li>
+{% endif %}
+{% for theme in themes %}
+        <li><a href="../{{ theme.url_path }}">{{ theme.question }}</a></li>
+{% endfor %}
+{% for link in post.links %}
+        <li><a target="_blank" rel="noopener noreferrer" href="{{ link.url }}">{{ link.label }}</a></li>
+{% endfor %}
+      </ul>
+{% endif %}
+    </section>
+{% endblock %}

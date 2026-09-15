@@ -1,4 +1,4 @@
-"""Build the publications section: python -m ciunit_gen [--check]
+"""Build the generated sections: python -m ciunit_gen [--check]
 
 --check builds nothing and only reports content problems, so it is safe to run
 against a dirty tree.
@@ -10,6 +10,7 @@ from pathlib import Path
 
 from . import report as report_mod
 from .model import ContentError, load_all
+from .posts import load_posts, validate_posts
 from .render import Renderer
 
 # Hand-written pages that belong in the sitemap but are never generated.
@@ -40,6 +41,8 @@ def main(argv: list[str]) -> int:
 
     try:
         papers, themes = load_all(root / "content")
+        posts = load_posts(root / "content" / "posts")
+        validate_posts(posts, {p.id for p in papers}, {t.id for t in themes})
     except ContentError as e:
         print(f"content error: {e}", file=sys.stderr)
         return 1
@@ -90,8 +93,30 @@ def main(argv: list[str]) -> int:
         if paper.needs_review:
             warnings.append(f"{paper.id}: needs_review is set — claims not yet verified by an author")
 
+    # Post images live per-slug because the blog filenames they come from
+    # collide badly — several posts have their own 'image.png'.
+    post_images = root / "docs" / "thinking" / "images"
+    wanted_images: set[Path] = set()
+    for post in posts:
+        for fig in post.figures:
+            rel = Path(post.slug) / fig.file
+            wanted_images.add(rel)
+            if not (post_images / rel).exists():
+                warnings.append(
+                    f"{post.slug}: image missing: docs/thinking/images/{rel}")
+        if post.needs_review:
+            warnings.append(
+                f"{post.slug}: needs_review is set — claims not yet verified by an author")
+    # docs/ is never cleaned by the build, so a renamed post would otherwise
+    # leave its images behind in git for good.
+    if post_images.is_dir():
+        for f in sorted(post_images.rglob("*")):
+            if f.is_file() and f.relative_to(post_images) not in wanted_images:
+                warnings.append(f"orphan post image with no post: {f.relative_to(root)}")
+
     if check_only:
-        print(f"{len(papers)} publication(s), {len(themes)} theme(s) — content valid.")
+        print(f"{len(papers)} publication(s), {len(themes)} theme(s), "
+              f"{len(posts)} post(s) — content valid.")
         for w in warnings:
             print(f"  warning: {w}")
         return 0
@@ -107,16 +132,20 @@ def main(argv: list[str]) -> int:
 
     r = Renderer(root)
     for paper in papers:
-        r.render_paper(paper, by_theme, by_id)
+        r.render_paper(paper, by_theme, by_id,
+                       [p for p in posts if p.about == paper.id])
     for theme in themes:
         r.render_theme(theme, [p for p in papers if theme.id in p.themes], by_id)
     r.render_index(papers, themes)
-    r.render_sitemap(papers, themes, STATIC_PAGES)
+    for post in posts:
+        r.render_post(post, by_id, by_theme)
+    r.render_post_index(posts)
+    r.render_sitemap(papers, themes, posts, STATIC_PAGES)
 
     for path in r.written:
         print(f"wrote {path.relative_to(root)}")
     print(f"\n{len(papers)} publication page(s), {len(themes)} theme page(s), "
-          f"{len(r.written)} file(s) total.")
+          f"{len(posts)} post page(s), {len(r.written)} file(s) total.")
     for w in warnings:
         print(f"  warning: {w}", file=sys.stderr)
     return 0

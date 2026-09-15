@@ -1,0 +1,30 @@
+{% extends "_base.html.j2" %}
+{% block title %}What We Are Thinking{% endblock %}
+{% block description %}Posts by researchers of the Conceptual Investigations Unit — walk-throughs of our own publications, and commentary on questions of climate, energy, and how research works.{% endblock %}
+{% block content %}
+    <section class="page-title">
+      <div class="eyebrow">What We Are Thinking</div>
+      <h1>What We Are Thinking</h1>
+      <p class="lede">
+        Longer-form writing by our researchers: what a paper of ours actually
+        found and why we went looking, and commentary on questions we keep
+        being asked.
+      </p>
+    </section>
+
+    {# A reverse-chronological list, not the publications cover grid: a post has
+       no first page to photograph, and the byline is the thing a reader needs
+       to see. #}
+    <ul class="think-list">
+{% for post in posts %}
+      <li>
+        <a class="think-card card-link" href="{{ post.url_path }}">
+          <span class="think-date"><time datetime="{{ post.date }}">{{ post.display_date }}</time></span>
+          <h2>{{ post.title }}</h2>
+          <span class="think-byline">{{ post.byline }}</span>
+          <span class="think-standfirst">{{ post.description }}</span>
+        </a>
+      </li>
+{% endfor %}
+    </ul>
+{% endblock %}

@@ -41,7 +41,12 @@ generator is planned but not yet built.
 - **Page structure:** every page is standalone HTML sharing an identical header
   `<nav>` and `<footer>`, with styling in `docs/css/style.css`. When adding a
   page, copy the header/footer from an existing page and add any new nav link to
-  **all** pages. There is no shared include/template yet.
+  **all** pages. There is no shared include for the hand-written pages, so a new
+  nav item means two jobs: one edit to
+  `src/ciunit_gen/templates/_base.html.j2`, which covers every generated page,
+  and the same edit by hand in each of the 13 hand-written `docs/*.html` files.
+  Nothing in `--check` catches a page whose nav went stale; verify with
+  `grep -L 'href=".*<new-page>"' docs/*.html`.
 - **Analytics:** every page's `<head>` carries the same Cloudflare Web Analytics
   beacon (`static.cloudflareinsights.com/beacon.min.js`, cookieless — no consent
   banner needed). A new page must include it too; copy the snippet from an
@@ -171,6 +176,82 @@ Mechanics:
   id by searching the folder for the exact filename `scripts/extract_figures.py`
   picks from `pdfs/`, and check the Drive copy's byte size against the local one
   before recording the link.
+
+## What We Are Thinking (`docs/thinking/`, `docs/what-we-are-thinking.html`)
+
+Posts: walk-throughs of our own papers, and commentary on questions of climate,
+energy, and how research works. The section exists because the strongest of these
+were written on Ken's personal blog at kencaldeira.com and belong next to the
+publication pages they discuss; `~/kcaldeira.github.io/CIUNIT-HANDOFF.md`
+classifies all 72 posts there and is the migration checklist.
+
+**These pages are generated — never hand-edit them.** Source of truth is
+`content/posts/YYYY-MM-DD-<slug>.md`; run `python -m ciunit_gen` and commit its
+output. Every generated file carries a `GENERATED` banner comment.
+
+**Posts are signed and dated.** `authors` and `date` are required and render as a
+byline under the title, plus a `<time datetime>` matching `datePublished` in the
+JSON-LD. Authorship of a post is personal in a way a multi-author paper is not,
+and other people will write posts here — a reader has to be able to see whose
+view this is. `authors` is a list, so a post by someone else, or by two people,
+needs no schema change.
+
+Format — YAML front matter, then a Markdown body:
+
+- `slug` is the URL and **must match the blog's own slug**, so the redirect left
+  behind on kencaldeira.com is a clean one-to-one mapping. The filename must be
+  `YYYY-MM-DD-<slug>.md`; the loader enforces both, because a drift between them
+  silently publishes at an unexpected path.
+- `description` is the meta description; `key_point` renders above the body and
+  follows the same rule as a publication's `key_finding` — one self-contained
+  sentence that makes sense quoted in isolation, with no pronouns pointing back
+  into the page.
+- `about` is optional: the id of the publication the post is about. Set it and
+  the post links to that page and the publication page links back, both
+  generated, so the pair cannot drift. A dangling `about` **fails the build**
+  rather than shipping a link to a 404. A post about someone else's paper, or
+  about no single paper, omits it.
+- Figures and videos are `:::figure` / `:::youtube` fences whose contents are
+  YAML, parsed before Markdown sees them. That is what keeps `alt` required and
+  the credit line generated rather than hand-typed. A figure needs `credit` and
+  `license`, or `own: true` if the image is ours. Images live in
+  `docs/thinking/images/<slug>/` — per-slug because the blog filenames they come
+  from collide badly; five of the paper write-ups have their own `image.png`.
+
+**Markdown is the one place autoescaping is bypassed**, in
+`src/ciunit_gen/markdown_render.py`. That is deliberate and confined: an essay
+that cannot link a phrase or quote an email is not an essay. **It is not licence
+to loosen `model._paragraphs`** — publication prose stays plain text, because
+those pages carry claims that get quoted and cited, and cross-references there go
+through the structured `links`/`related` fields.
+
+CLAUDE.md's external-link rule is enforced by code here, not by hand: post
+Markdown is written as ordinary Markdown and `markdown_render` adds
+`target="_blank" rel="noopener noreferrer"` to every off-domain `href` on the way
+out. Don't type them into a post.
+
+Other things worth knowing:
+
+- **The index is a reverse-chronological list, not a cover grid.** A post has no
+  first page to photograph, and the byline is what a reader scanning the index
+  needs to see.
+- **Prose styling:** the body reuses `.bio` for its column and heading scale and
+  adds `.post-body` for what Markdown emits and the rest of the site never needed
+  — links inside body copy, block quotes, tables. Block quotes carry a rule and
+  an indent, not a colour: the handoff records that the blog marked quoted email
+  with a colour class and that the distinction is meaningful, not decorative.
+- **In-body links to our own papers point at their publication page**, not at the
+  publisher — the same rule as bio-page citations. Links to other people's papers
+  stay as DOIs.
+- **Scientific claims are the user's to approve**, exactly as for publication
+  pages. `description` and `key_point` are the two fields that need real
+  judgment when migrating a post; where the post's own text does not yield a
+  clean self-contained `key_point`, set `needs_review: true` and flag it rather
+  than inventing one.
+- **When a post moves, leave a redirect.** Deleting it from `_posts/` in
+  `~/kcaldeira.github.io` without one breaks inbound links that have been
+  indexed since as early as 2015. That work happens in that repo, not this one —
+  see "When a post moves" in its `CIUNIT-HANDOFF.md`.
 
 ## Secrets
 
