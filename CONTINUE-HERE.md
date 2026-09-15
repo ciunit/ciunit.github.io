@@ -1,138 +1,125 @@
 # CONTINUE HERE — "What We Are Thinking" (posts section)
 
-Written 2026-09-15. Delete this file once the 13-post migration is done.
+Written 2026-09-15. **Delete this file once Ken has reviewed the 13 posts and the
+redirects are left on kencaldeira.com.**
 
 ## State right now
 
-The section is **built and working, with one post migrated as a proof**. Nothing
-is committed: `git status` shows ~155 changed/new files on top of `cf728de`.
-That is expected, not damage — see "What the diff contains" below.
+The section is **built and all 13 paper write-ups are migrated**. Nothing is
+committed. Ken has not yet read the migrated posts.
 
-Preview: `python -m http.server -d docs 8000` →
-`/what-we-are-thinking.html` and `/thinking/where-do-the-winds-come-from.html`.
+Preview: `python -m http.server -d docs 8000` → `/what-we-are-thinking.html`.
+Build: `PYTHONPATH=src python -m ciunit_gen --check` →
+`116 publication(s), 9 theme(s), 13 post(s) — content valid.` with no
+post-related warnings. `requirements.txt` gained `Markdown>=3.5`.
 
-Build: `PYTHONPATH=src python -m ciunit_gen --check` should say
-`116 publication(s), 9 theme(s), 1 post(s) — content valid.` with no
-post-related warnings. `requirements.txt` gained `Markdown>=3.5`; it is already
-installed in `.venv`.
+## What needs Ken's eye
 
-**Ken has not yet looked at the rendered result.** The stopping point was
-deliberate: see the shape before sinking twelve more conversions into it. Ask
-before proceeding to stage 2 if he has not said.
+1. **`description` and `key_point` in all 13 front matters.** These are the two
+   fields that are not in the original posts — they were written during
+   migration and are scientific claims, grounded in each post's own text or its
+   paper, but not author-approved.
+2. **Three posts where content could not be carried across verbatim** — see
+   "Losses and substitutions" below.
+3. **Nothing has been checked in a browser.** No Playwright on this machine, so
+   the CSS is unverified by eye at any width.
+
+## Losses and substitutions (the honest list)
+
+- `ocean-heat-flux-and-open-ocean-wind-energy`: the original embedded an
+  *annotated* version of PNAS Fig. S10, hosted on the now-dead
+  carnegieenergyinnovation.org. That annotated image is gone. The **unannotated**
+  Fig. S10 was extracted from the reprint and used instead; the prose is
+  otherwise Ken's. If he still has the annotated PNG, swap it in.
+- `replenishing-the-wind`: three externally-hosted images were unrecoverable — a
+  Twitter card at the top, a GMD illustration served from a private Gmail
+  attachment URL, and the PNAS F16 (recovered as Fig. S10 from the reprint, so
+  that one is fine). The sentence about the GMD illustration keeps its link to
+  the paper.
+- `multi-decadal-country-level-regressions-…`: the climate-damage-functions
+  figure from climateinteractive.org was dropped because its reuse licence could
+  not be established. The prose keeps the link.
+- `the-value-of-reducing-the-green-premium` and
+  `where-are-the-abundant-and-reliable-winds`: the opening screenshot of the
+  journal article header was dropped from each — the publication page already
+  carries the title, authors, and DOI.
+- Several posts linked a publisher URL for one of our own papers; those now point
+  at the publication page, per CLAUDE.md. Links to other people's papers were
+  left as DOIs. Two expired signed URLs (the ERL and Springer supplements) were
+  dropped rather than shipped dead.
+- Ken's old `kcaldeira@carnegiescience.edu` address was replaced with
+  `ken@CIunit.org` in the two posts that offered a copy of a paywalled paper.
+- WordPress `swatch-white` spacer images were dropped throughout.
+
+## Figures re-extracted at higher resolution
+
+Where the blog copy was too small for the 820 px column and the reprint was in
+`pdfs/`, the figure was re-extracted:
+
+| post | was | now |
+| --- | --- | --- |
+| learning-curves… (2 figures) | 386 px wide | 2135 and 2107 px |
+| hydrogen-from-curtailment (3 figures) | 715-734 px | 1458-1783 px |
+| green-premium (Fig. S5) | 512 px | 2214 px |
+| abundant-and-reliable-winds (Supp. Fig. 12) | 720 px | 1430 px (native embedded PNG) |
+| ocean-heat-flux / replenishing (Fig. S10) | lost / external | 1614 px |
+
+The extraction snippets are not saved as a script. If this needs doing again,
+`scripts/extract_figures.py --extract <id> --figure N` handles main-paper figures
+(it writes to `docs/publications/figures/<id>.png`, so move the file); supplement
+figures needed ad-hoc pymupdf crops because the caption sits above the figure
+there and the running head otherwise lands in the crop.
 
 ## Decisions already made (don't relitigate)
 
-- Section title **"What We Are Thinking"**, fifth nav item after "What We
-  Publish". Index `/what-we-are-thinking.html`, posts `/thinking/<slug>.html`.
-- Bodies are **Markdown + YAML front matter** in `content/posts/`, not the
-  plain-text YAML the publications use.
-- First pass is **the 13 paper write-ups only**. The handoff's other two
-  CIunit-appropriate categories (17 "substantive science", 22 "how research
-  works") are a later decision; `about:` is already optional so they need no
-  new machinery.
-- Posts are **signed and dated** — Ken asked for this explicitly, because other
-  people will write posts later.
+- Title **"What We Are Thinking"**, fifth nav item. Index
+  `/what-we-are-thinking.html`, posts `/thinking/<slug>.html`.
+- Bodies are **Markdown + YAML front matter** in `content/posts/`.
 - The index is the **publications cover grid** (Ken: "modeled on the What We
   Publish page"), sharing its `.pub-*` classes. A post borrows the cover of the
-  publication it is about; the title under the box is the **post's** title, and
-  the line below is a byline and date.
+  publication it is about; the title under the box is the **post's**, and the
+  line below is a byline and date.
+- Posts are **signed and dated** — Ken asked for this explicitly, because other
+  people will write posts later.
 - **Open question, deferred by Ken:** what the box shows for a post with no
   `about:`. "For the ones that we will do later that are not about a paper, we
-  can do something else." The template has a placeholder title plate, marked as
-  such in `post-index.html.j2` — it is not a decision. Does not block the first
-  pass; all 13 of those posts have a publication.
+  can do something else." Three of the 13 hit this today
+  (GDP-regressions, hydrogen-from-curtailment, algae-and-anemone) and currently
+  draw a placeholder title plate, marked as such in `post-index.html.j2`.
 
-The full design rationale is in `CLAUDE.md`, section "What We Are Thinking".
-Read that before changing anything here.
+Design rationale is in `CLAUDE.md`, section "What We Are Thinking". Read it
+before changing anything here.
 
-## What the diff contains
+## Publications that could now have a page
 
-New:
-- `src/ciunit_gen/posts.py` — `Post`/`PostFigure`/`YouTube`/`Prose`, front-matter
-  and fence parsing, validation.
-- `src/ciunit_gen/markdown_render.py` — the Markdown wrapper. The **only** place
-  autoescaping is bypassed, and the place the external-link target/rel rule is
-  enforced in code.
-- `src/ciunit_gen/templates/post.html.j2`, `post-index.html.j2`.
-- `content/posts/2017-03-05-where-do-the-winds-come-from.md` and
-  `docs/thinking/` (generated page + `images/<slug>/`).
+Two of the three `about:`-less posts are about papers with Ken as a co-author
+that have no publication page yet. Adding them would let those posts borrow a
+cover and gain a back-link:
 
-Modified:
-- `_base.html.j2` + all **13 hand-written `docs/*.html`** — the new nav link.
-  This is why 148 generated pages show a diff; for every publication page except
-  `ahbe-2017-available-potential-energy` it is that **one line and nothing else**.
-- `render.py` (`post_jsonld`, `render_post`, `render_post_index`, posts in the
-  sitemap, `render_paper` gained a `posts` argument), `__main__.py` (load,
-  validate, warn, render), `paper.html.j2` (the reciprocal back-link),
-  `docs/css/style.css` (one appended `.post-*` / `.think-*` block; nothing
-  existing was touched), `CLAUDE.md`, `README.md`, `requirements.txt`.
+- *Opportunities for flexible electricity loads such as hydrogen production from
+  curtailed generation*, Ruggles, Dowling, Lewis and Caldeira, Adv. Appl. Energy
+  3, 100051 (2021), `10.1016/j.adapen.2021.100051`, CC BY 4.0. Reprint is in
+  `pdfs/`, figures already extracted under
+  `docs/thinking/images/how-much-hydrogen-…/`.
+- *Photo-movement in the sea anemone Aiptasia influenced by light quality and
+  symbiotic association*, Foo, Liddell, Grossman et al., Coral Reefs (2019),
+  `10.1007/s00338-019-01866-w`, open access.
 
-## Next steps
+The third (`multi-decadal-…`) is an unpublished analysis and correctly has no
+publication.
 
-**Stage 2** — migrate `where-are-the-abundant-and-reliable-winds` (2,436 words,
-10 images), the long post, to exercise figures and tables.
+## Still to do, other repo
 
-**Stage 3** — the remaining 11.
+Redirects. For each of the 13 slugs, in `~/kcaldeira.github.io`: delete the
+`_posts/` file, leave a `jekyll-redirect-from` stub pointing at
+`https://ciunit.org/thinking/<slug>.html`, then run `tools/images.py prune` and
+`tools/verify.py`. These URLs have been indexed since 2015. **Not touched as part
+of this work.**
 
-Per post, the mechanical part:
+## Also outstanding
 
-1. Copy the body from `~/kcaldeira.github.io/_posts/<file>.md`.
-2. `{% include figure.html src=… caption=… link=… %}` → a `:::figure` fence
-   (YAML inside: `file`, `alt`, `caption`, `credit`, `license`, optional `link`;
-   or `own: true` for our own images). **`alt` is required and must describe what
-   the figure shows** — the original posts mostly have none, so it has to be
-   written.
-3. `{% include youtube.html id=… %}` → `:::youtube`.
-4. Copy images from `~/kcaldeira.github.io/assets/images/YYYY/MM/` into
-   `docs/thinking/images/<slug>/`. Drop the `swatch-white_*.png` spacers — they
-   are WordPress layout artefacts, not content.
-5. Rewrite in-body links to **our own** papers to point at
-   `../publications/<id>.html`; leave other people's papers as DOIs.
-6. `slug` must be the blog's own slug, and the filename `YYYY-MM-DD-<slug>.md`.
-
-The part that is **not** mechanical, and needs Ken's approval: `description` and
-`key_point`. Ground both in the post's own text or the paper. Where the post does
-not yield a clean self-contained `key_point`, set `needs_review: true` and flag
-it rather than inventing one.
-
-## Post → publication mapping (verified by DOI grep — use as-is)
-
-| Blog slug | `about:` |
-| --- | --- |
-| where-are-the-abundant-and-reliable-winds | `antonini-2024-wind-droughts` |
-| the-value-of-reducing-the-green-premium | `caldeira-2023-green-premium` |
-| replenishing-the-wind | `antonini-2021-spatial-constraints` |
-| climate-change-as-an-incentive-to-future-human-migration-2 | `chen-2020-migration-incentive` |
-| geophysical-constraints-on-the-reliability-of-solar-and-wind-power-in-the-united-states | `shaner-2018-us-reliability` |
-| ocean-heat-flux-and-open-ocean-wind-energy | `possner-2017-open-ocean-wind` |
-| learning-curves-and-clean-energy-rd-incremental-advances-or-aim-for-breakthroughs | `shayegh-2017-clean-energy-rd` |
-| will-using-a-carbon-tax-for-revenue-generate-create-an-incentive-to-continue-co2-emissions | `wang-2017-carbon-tax-incentive` |
-| where-do-the-winds-come-from | `ahbe-2017-available-potential-energy` ✅ done |
-| reversal-of-radiocarbon-flux-into-the-ocean | `caldeira-1998-radiocarbon-efflux` |
-
-Three have **no publication page** and ship with `about:` omitted:
-
-- `multi-decadal-country-level-regressions-on-gdp-growth-and-temperature-change`
-  — about others' papers (`10.1126/sciadv.add3726`).
-- `who-is-controlling-who-the-curious-case-of-the-algae-and-the-sea-anemone`
-  — *Coral Reefs* `10.1007/s00338-019-01866-w`; candidate for a publication page.
-- `how-much-hydrogen-could-we-produce-without-adding-additional-generation-capacity`
-  — *Adv. Appl. Energy* `10.1016/j.adapen.2021.100051`; likewise.
-
-Source list with word/image counts: `~/kcaldeira.github.io/CIUNIT-HANDOFF.md`.
-
-## Known gaps
-
-- **Nothing has been checked in a real browser.** The browser-automation skill
-  has no Playwright install on this machine, so the CSS — including the 400 px
-  mobile width — is unverified by eye. All verification so far is static
-  analysis of the generated HTML. Worth a look at both widths.
-- **Redirects are not done, and are out of scope for this repo.** When a post
-  moves, `~/kcaldeira.github.io` needs the `_posts/` file deleted and a
-  `jekyll-redirect-from` stub left at the old URL pointing to
-  `https://ciunit.org/thinking/<slug>.html`, then `tools/images.py prune` and
-  `tools/verify.py`. These URLs have been indexed since 2015; deleting without a
-  redirect breaks live inbound links. See "When a post moves" in that repo's
-  `CIUNIT-HANDOFF.md`.
-- `PAGES-STATUS.md` (`--report`) still covers publications only. Posts are not
-  in it. Fine for now; worth deciding if the section grows.
+- `PAGES-STATUS.md` (`--report`) still covers publications only; posts are not in
+  it. Worth deciding if the section grows.
+- The handoff's other categories — 17 "substantive science" and 22 "how research
+  works" posts — remain unmigrated by design. See
+  `~/kcaldeira.github.io/CIUNIT-HANDOFF.md`.
