@@ -139,7 +139,7 @@ def main(argv: list[str]) -> int:
     r.render_index(papers, themes)
     for post in posts:
         r.render_post(post, by_id, by_theme)
-    r.render_post_index(posts)
+    r.render_post_index(posts, by_id)
     r.render_sitemap(papers, themes, posts, STATIC_PAGES)
 
     for path in r.written:

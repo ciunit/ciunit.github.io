@@ -241,7 +241,7 @@ class Renderer:
         )
         self._write(post.url_path, html)
 
-    def render_post_index(self, posts: list[Post]) -> None:
+    def render_post_index(self, posts: list[Post], by_id: dict[str, Paper]) -> None:
         # `posts` arrives newest first, which the ItemList below states
         # explicitly for the same reason render_index does.
         html = self.env.get_template("post-index.html.j2").render(
@@ -249,6 +249,9 @@ class Renderer:
             up="",
             canonical=f"{BASE_URL}/what-we-are-thinking.html",
             posts=posts,
+            # The cover grid draws each post's cover from the publication it is
+            # about, so the index needs the papers too.
+            by_id=by_id,
             jsonld={
                 "@context": "https://schema.org",
                 "@type": "Blog",

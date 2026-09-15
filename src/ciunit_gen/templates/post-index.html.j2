@@ -12,17 +12,43 @@
       </p>
     </section>
 
-    {# A reverse-chronological list, not the publications cover grid: a post has
-       no first page to photograph, and the byline is the thing a reader needs
-       to see. #}
-    <ul class="think-list">
+    {# Modelled on the publications index, and deliberately sharing its .pub-*
+       classes rather than cloning them: the two grids are meant to look like one
+       system, and a second set of rules would be a second thing to keep in step.
+       The cover is the publication's own first page — the same image its
+       publication page shows — but the title below it is the post's, because
+       the post is what the box links to. #}
+    <ul class="pub-grid">
 {% for post in posts %}
-      <li>
-        <a class="think-card card-link" href="{{ post.url_path }}">
-          <span class="think-date"><time datetime="{{ post.date }}">{{ post.display_date }}</time></span>
-          <h2>{{ post.title }}</h2>
-          <span class="think-byline">{{ post.byline }}</span>
-          <span class="think-standfirst">{{ post.description }}</span>
+{% set paper = by_id.get(post.about) if post.about else None %}
+      <li class="pub-item">
+        <a class="pub-card card-link" href="{{ post.url_path }}">
+{% if paper and paper.thumbnail %}
+          <img class="pub-cover" src="publications/covers/{{ paper.thumbnail.file }}"
+            alt="" width="400" height="533" decoding="async"
+            loading="{{ 'eager' if loop.index <= 6 else 'lazy' }}">
+{% elif paper %}
+          <span class="pub-cover pub-cover-blank" aria-hidden="true">
+            <span class="pub-cover-journal">{{ paper.journal }}</span>
+            <span class="pub-cover-title">{{ post.title }}</span>
+            <span class="pub-cover-cite">{{ paper.short_citation }}</span>
+          </span>
+{% else %}
+          {# PLACEHOLDER, not a settled design. Posts not about one of our
+             publications have no cover to borrow, and what those boxes should
+             show instead is still to be decided — the first pass is the 13
+             paper write-ups, which all have one. This keeps the build working
+             in the meantime; don't take it as the answer. #}
+          <span class="pub-cover pub-cover-blank" aria-hidden="true">
+            <span class="pub-cover-journal">What We Are Thinking</span>
+            <span class="pub-cover-title">{{ post.title }}</span>
+            <span class="pub-cover-cite">{{ post.byline }}</span>
+          </span>
+{% endif %}
+          <span class="pub-card-body">
+            <h3>{{ post.title }}</h3>
+            <p class="paper-meta">{{ post.byline }} · <time datetime="{{ post.date }}">{{ post.display_date }}</time></p>
+          </span>
         </a>
       </li>
 {% endfor %}

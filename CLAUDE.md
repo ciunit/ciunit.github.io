@@ -232,9 +232,19 @@ out. Don't type them into a post.
 
 Other things worth knowing:
 
-- **The index is a reverse-chronological list, not a cover grid.** A post has no
-  first page to photograph, and the byline is what a reader scanning the index
-  needs to see.
+- **The index is the publications cover grid, newest first**, and deliberately
+  shares its `.pub-*` classes rather than cloning them: the two sections are
+  meant to read as one system, and a second set of rules would be a second thing
+  to keep in step. A post about one of our publications borrows that
+  publication's cover — the same first-page image its publication page shows —
+  but the title under the box is **the post's**, because the post is what the
+  box links to. The line beneath is a byline and date where a publication
+  carries its citation.
+- **Posts with no `about:` have no cover to borrow**, and what those boxes
+  should show instead is **still to be decided**. The template falls back to a
+  title plate so the build keeps working; it is a placeholder, marked as one in
+  `post-index.html.j2`, not a design. All 13 posts in the first pass have a
+  publication.
 - **Prose styling:** the body reuses `.bio` for its column and heading scale and
   adds `.post-body` for what Markdown emits and the rest of the site never needed
   — links inside body copy, block quotes, tables. Block quotes carry a rule and

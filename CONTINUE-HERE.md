@@ -32,7 +32,15 @@ before proceeding to stage 2 if he has not said.
   new machinery.
 - Posts are **signed and dated** — Ken asked for this explicitly, because other
   people will write posts later.
-- The index is a **reverse-chronological list, not a cover grid**.
+- The index is the **publications cover grid** (Ken: "modeled on the What We
+  Publish page"), sharing its `.pub-*` classes. A post borrows the cover of the
+  publication it is about; the title under the box is the **post's** title, and
+  the line below is a byline and date.
+- **Open question, deferred by Ken:** what the box shows for a post with no
+  `about:`. "For the ones that we will do later that are not about a paper, we
+  can do something else." The template has a placeholder title plate, marked as
+  such in `post-index.html.j2` — it is not a decision. Does not block the first
+  pass; all 13 of those posts have a publication.
 
 The full design rationale is in `CLAUDE.md`, section "What We Are Thinking".
 Read that before changing anything here.
