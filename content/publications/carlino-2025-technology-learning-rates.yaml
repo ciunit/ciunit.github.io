@@ -46,14 +46,6 @@ key_finding: >
 
 findings:
   - >
-    Pooling every learning-rate segment from the piecewise fits across all 87 technologies, the
-    learning exponent is best described by a normal distribution with mean −0.33 and standard
-    deviation 0.35 — a median of about 20% cost decline per doubling of cumulative production,
-    with one standard deviation spanning roughly −1% to 38%, and about one segment in six showing
-    costs that rise with production. The fitted parameters are given in Supplementary Table 2,
-    on page 22 of the paper's Supplementary Material, which the main text cites only once, in
-    its Methods (Section 2.4).
-  - >
     We found that past learning rates are not good predictors of future learning rates.
     Splitting each technology's record in half and comparing the learning rate before and after
     gives a correlation of 0.12, which is not significantly different from zero at the 5% level.
@@ -63,6 +55,14 @@ findings:
     shortest 0.13, neither significant, and no individual sector's correlation differs
     significantly from zero either. Longer records make each estimate steadier without making
     it more predictive.
+  - >
+    Pooling every learning-rate segment from the piecewise fits across all 87 technologies, the
+    learning exponent is best described by a normal distribution with mean −0.33 and standard
+    deviation 0.35 — a median of about 20% cost decline per doubling of cumulative production,
+    with one standard deviation spanning roughly −1% to 38%, and about one segment in six showing
+    costs that rise with production. The fitted parameters are given in Supplementary Table 2,
+    on page 22 of the paper's Supplementary Material, which the main text cites only once, in
+    its Methods (Section 2.4).
   - >
     Comparing the standard first-difference Wright's model against piecewise regressions by the
     Bayesian Information Criterion, a model with at least two learning rates wins for 58 of the
