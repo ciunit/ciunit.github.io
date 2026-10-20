@@ -1,0 +1,17 @@
+{
+  // Dark burnt-amber window tint so this repo's VS Code window is easy to tell apart.
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#4a2a12",
+    "titleBar.activeForeground": "#f5ebe0",
+    "titleBar.inactiveBackground": "#36200e",
+    "titleBar.inactiveForeground": "#c6b4a3",
+    "activityBar.background": "#4a2a12",
+    "activityBar.foreground": "#f5ebe0",
+    "statusBar.background": "#4a2a12",
+    "statusBar.foreground": "#f5ebe0",
+    "sideBar.background": "#2a190b",
+    "editor.background": "#1c1108",
+    "panel.background": "#1c1108",
+    "terminal.background": "#1c1108"
+  }
+}
