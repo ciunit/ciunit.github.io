@@ -138,8 +138,6 @@ links:
     url: https://doi.org/10.5281/zenodo.17179225
   - label: Supplementary Material (PDF; learning-rate distribution in Supplementary Table 2)
     url: https://ars.els-cdn.com/content/image/1-s2.0-S2666792425000460-mmc1.pdf
-  - label: Additional analysis — code, data, and outputs (GitHub)
-    url: https://github.com/ciunit/ciunit.github.io/tree/main/additional_analyses/carlino-2025-technology-learning-rates
 
 additional_analysis:
   source: >

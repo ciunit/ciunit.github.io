@@ -439,10 +439,12 @@ footer {
 }
 
 /* Body copy is --muted via .bio; a link inside it needs to read as a link
-   without turning a paragraph into a field of colour. */
+   without turning a paragraph into a field of colour. The "Additional analysis"
+   source line on publication pages uses the same treatment. */
 .post-body p a,
 .post-body li a,
-.post-body figcaption a {
+.post-body figcaption a,
+.analysis-source a {
   color: var(--accent);
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -451,7 +453,8 @@ footer {
 
 .post-body p a:hover,
 .post-body li a:hover,
-.post-body figcaption a:hover {
+.post-body figcaption a:hover,
+.analysis-source a:hover {
   text-decoration-thickness: 2px;
 }
 
