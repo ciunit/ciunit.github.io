@@ -142,6 +142,15 @@ Content rules:
   real result and no figure is worse than no page. Theme pages under
   `docs/topics/` are the citable units; publication pages are the evidence beneath
   them.
+- **Material added beyond the paper is labelled as such, every time.** A publication page
+  may carry analysis the paper itself does not report, such as a reanalysis of its
+  published data. It goes in the `additional_analysis` block, which renders as its own
+  "Additional analysis" section after "Why does it matter?", with a generated label and a
+  required `source`. It never goes into `findings`, which summarize the authors' paper.
+  Its code and data live in `additional_analyses/<publication-id>/`, built from the data
+  the paper cites — taken from the paper's own archive, not a working copy, since an early
+  release of the Carlino data gave rates several points off. If it qualifies the key finding, the key finding
+  says so in words; the reader must never mistake our result for the authors'.
 - **Scientific claims are the user's to approve.** Ground every number in the
   publication's abstract or text. If a claim can't be verified from an accessible
   source, set `needs_review: true` in the YAML and flag it — the generator will

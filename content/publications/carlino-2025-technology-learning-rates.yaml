@@ -20,9 +20,8 @@ themes:
 
 description: >
   Across 87 technologies, a technology's past learning rate barely predicts its future one
-  (correlation 0.12), yet pooled learning rates follow a normal distribution with a median cost
-  decline of about 20% per doubling of cumulative production and one standard deviation
-  spanning roughly −1% to 38%.
+  (correlation 0.12), yet learning rates cluster around a typical cost decline of about 18–22%
+  per doubling of cumulative production, depending on how the rates are pooled.
 
 question:
   - >
@@ -38,10 +37,13 @@ question:
 
 key_finding: >
   Across the 87 technologies in the Performance Curve Database, a technology's past learning
-  rate barely predicts its future one, with a correlation of 0.12. Pooled across the 87
-  technologies, learning rates fit a normal distribution of the learning exponent with mean
-  −0.33 and standard deviation 0.35 — a median cost decline of about 20% per doubling of
-  cumulative production, with one standard deviation spanning roughly −1% to 38%.
+  rate barely predicts its future one, with a correlation of 0.12. Pooled across every segment
+  of the study's piecewise fits to the 87 technologies, learning rates fit a normal distribution
+  of the learning exponent with mean −0.33 and standard deviation 0.35 — a median cost decline
+  of about 20% per doubling of cumulative production, with one standard deviation spanning
+  roughly −1% to 38% — though a separate analysis of the study's data that fits one constant
+  rate to each technology's whole record puts the median at about 18%, or 22% when each
+  technology is weighted by the length of its record.
 
 findings:
   - >
@@ -137,6 +139,68 @@ links:
     url: https://doi.org/10.5281/zenodo.17179225
   - label: Supplementary Material (PDF; learning-rate distribution in Supplementary Table 2)
     url: https://ars.els-cdn.com/content/image/1-s2.0-S2666792425000460-mmc1.pdf
+  - label: Additional analysis — code, data, and outputs (GitHub)
+    url: https://github.com/ciunit/ciunit.github.io/tree/main/additional_analyses/carlino-2025-technology-learning-rates
+
+additional_analysis:
+  source: >
+    Analysis of the study's published data (Zenodo, doi:10.5281/zenodo.17179225, the
+    authors' release v4.0) by the Conceptual Investigations Unit, 2026. Code, data, and
+    outputs are in the site's repository at github.com/ciunit/ciunit.github.io, folder
+    additional_analyses/carlino-2025-technology-learning-rates.
+  paragraphs:
+    - >
+      The paper's distribution of learning rates, in Supplementary Table 2, pools every
+      segment of its piecewise fits and counts each segment equally, however short. A
+      separate analysis of the same published data fits one constant rate to each
+      technology's whole record instead.
+    - >
+      Counting each technology once, it gives a median learning rate of about 18% per
+      doubling of cumulative production, with one standard deviation spanning roughly 2% to
+      31%. Weighting each technology by the length of its record raises the median to about
+      22%, with one standard deviation spanning roughly 6% to 35%, because the technologies
+      with the longest records learned faster on average. Leaving out nuclear electricity,
+      whose costs rose with production, moves either result by less than one point.
+  tables:
+    - caption: >
+        Learning rates from one constant-rate fit per technology, with and without weighting by
+        record length
+      columns:
+        - ""
+        - All 87, unweighted
+        - Without nuclear electricity (86), unweighted
+        - All 87, weighted by record length
+        - Without nuclear electricity (86), weighted by record length
+      rows:
+        - ["Mean learning exponent β", "−0.285", "−0.300", "−0.354", "−0.362"]
+        - ["Standard deviation of β", "0.250", "0.206", "0.268", "0.245"]
+        - ["Median learning rate (at mean β)", "17.9%", "18.8%", "21.7%", "22.2%"]
+        - ["Learning rate at mean β − 1 SD (faster)", "31.0%", "29.6%", "35.0%", "34.4%"]
+        - ["Learning rate at mean β + 1 SD (slower)", "2.4%", "6.3%", "5.8%", "7.8%"]
+      notes:
+        - >
+          Each technology's learning exponent β is fitted by ordinary least squares to its whole
+          record of log unit cost against log cumulative production — Wright's model with one
+          constant rate, as in the paper's Equations 1 to 3 — and converted to a learning rate as
+          100 × (1 − 2^β), the percentage cost decline per doubling of cumulative production.
+        - >
+          Weighted columns count each technology in proportion to the length of its record,
+          measured as the number of doublings of cumulative production it spans, which ranges
+          from about 0.5 to 31. Unweighted columns count each technology once.
+        - >
+          The median assumes β is normally distributed, so it is the mean β converted to a rate.
+          It is not the average of the individual rates, which is 16.6% for all 87 unweighted,
+          because the conversion from β is not a straight line; for the same reason the rates at
+          ±1 SD sit unevenly around the median. A lower β means faster learning, so −1 SD gives
+          the higher rate.
+        - >
+          "Without nuclear electricity" drops the Nuclear_Electricity series, whose cost rose
+          with production (β = +1.03, a learning rate of −104%). The OECD nuclear power series is
+          kept.
+        - >
+          These differ from the paper's own distribution (Supplementary Table 2, mean β −0.33,
+          standard deviation 0.35), which pools every segment of the study's piecewise fits and
+          counts each segment equally however short.
 
 related:
   - caldeira-2023-green-premium

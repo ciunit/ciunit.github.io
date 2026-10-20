@@ -37,6 +37,33 @@
       <p>{{ para }}</p>
 {% endfor %}
 
+{% if paper.additional %}
+      <h2>Additional analysis</h2>
+      <p class="analysis-label">Not reported in the published paper</p>
+{% for para in paper.additional.paragraphs %}
+      <p>{{ para }}</p>
+{% endfor %}
+{% for table in paper.additional.tables %}
+      <div class="paper-table">
+        <table>
+          <caption>{{ table.caption }}</caption>
+          <thead>
+            <tr>{% for c in table.columns %}<th scope="col">{{ c }}</th>{% endfor %}</tr>
+          </thead>
+          <tbody>
+{% for row in table.rows %}
+            <tr><th scope="row">{{ row[0] }}</th>{% for c in row[1:] %}<td>{{ c }}</td>{% endfor %}</tr>
+{% endfor %}
+          </tbody>
+        </table>
+{% for note in table.notes %}
+        <p class="table-note">{{ note }}</p>
+{% endfor %}
+      </div>
+{% endfor %}
+      <p class="analysis-source">{{ paper.additional.source }}</p>
+
+{% endif %}
       <h2>Citation</h2>
       <p>{{ paper.full_citation }}</p>
       <ul>

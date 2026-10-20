@@ -98,6 +98,33 @@ class Link:
 
 
 @dataclass
+class Table:
+    """A small table of numbers in a publication's "Additional analysis" section.
+
+    Structured rather than written as markup, for the same reason publication prose
+    is plain text: these pages carry claims that get quoted. Every cell is plain text
+    and autoescaped; the first cell of each row is its label.
+    """
+    caption: str
+    columns: list[str]
+    rows: list[list[str]]
+    notes: list[str] = field(default_factory=list)
+
+
+@dataclass
+class AdditionalAnalysis:
+    """Analysis the Conceptual Investigations Unit has added beyond the published paper.
+
+    Rendered as its own section, after "Why does it matter?", under a generated label
+    saying it is not in the paper, so it can never be mistaken for the authors' result.
+    `source` is required: who did the analysis, and from what data.
+    """
+    source: str
+    paragraphs: list[str] = field(default_factory=list)
+    tables: list[Table] = field(default_factory=list)
+
+
+@dataclass
 class Thumbnail:
     """Cover image for the publications index — the publication's own first page.
 
@@ -139,6 +166,7 @@ class Paper:
     figure: Figure | None = None
     thumbnail: Thumbnail | None = None
     links: list[Link] = field(default_factory=list)
+    additional: AdditionalAnalysis | None = None
     related: list[str] = field(default_factory=list)
     needs_review: bool = False
     source_path: Path | None = None
@@ -230,12 +258,42 @@ def load_paper(path: Path) -> Paper:
 
     links = [Link(label=l["label"], url=l["url"]) for l in data.get("links", []) or []]
 
+    additional = None
+    if data.get("additional_analysis"):
+        ad = data["additional_analysis"]
+        aw = f"{where} (additional_analysis)"
+        if not isinstance(ad, dict):
+            raise ContentError(f"{aw}: must be a mapping")
+        _require(ad, ("source",), aw)
+        tables = []
+        for i, t in enumerate(ad.get("tables", []) or []):
+            tw = f"{aw} (tables[{i}])"
+            _require(t, ("caption", "columns", "rows"), tw)
+            cols = [" ".join(str(c).split()) for c in t["columns"]]
+            rows = [[" ".join(str(c).split()) for c in r] for r in t["rows"]]
+            # A short row would shift every later cell under the wrong heading.
+            for k, r in enumerate(rows):
+                if len(r) != len(cols):
+                    raise ContentError(f"{tw}: row {k + 1} has {len(r)} cells but there"
+                                       f" are {len(cols)} columns")
+            tables.append(Table(caption=" ".join(str(t["caption"]).split()), columns=cols,
+                                rows=rows, notes=[" ".join(str(n).split())
+                                                  for n in t.get("notes", []) or []]))
+        paras = (_paragraphs(ad["paragraphs"], aw, "paragraphs")
+                 if ad.get("paragraphs") else [])
+        if not paras and not tables:
+            raise ContentError(f"{aw}: needs 'paragraphs', 'tables', or both")
+        additional = AdditionalAnalysis(source=" ".join(str(ad["source"]).split()),
+                                        paragraphs=paras, tables=tables)
+
     # A malformed date leaves the index's sort key undefined, so refuse it rather
     # than silently filing the publication under its year alone.
     date = str(data.get("date", "") or "")
     if date and not DATE_RE.match(date):
         raise ContentError(
             f"{where}: 'date' must be YYYY, YYYY-MM or YYYY-MM-DD, not {date!r}")
+
+    findings = _paragraphs(data["findings"], where, "findings")
 
     return Paper(
         id=data["id"],
@@ -248,13 +306,14 @@ def load_paper(path: Path) -> Paper:
         description=" ".join(str(data["description"]).split()),
         question=_paragraphs(data["question"], where, "question"),
         key_finding=" ".join(str(data["key_finding"]).split()),
-        findings=_paragraphs(data["findings"], where, "findings"),
+        findings=findings,
         matters=_paragraphs(data["matters"], where, "matters"),
         date=date,
         volume=str(data.get("volume", "") or ""),
         pages=str(data.get("pages", "") or ""),
         figure=figure,
         links=links,
+        additional=additional,
         related=list(data.get("related", []) or []),
         needs_review=bool(data.get("needs_review", False)),
         source_path=path,

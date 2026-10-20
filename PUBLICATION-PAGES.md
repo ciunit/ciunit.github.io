@@ -125,7 +125,20 @@ Required — the build fails without these:
 
 Optional: `date`, `volume`, `pages`, `themes` (list of theme ids), `links`
 (list of `{label, url}`), `related` (list of publication ids), `figure`,
-`needs_review`.
+`additional_analysis`, `needs_review`.
+
+`additional_analysis` holds material the Conceptual Investigations Unit has added beyond
+the published paper, such as a reanalysis of its data. It is a mapping of `source`
+(required: who did the analysis, and from what data), `paragraphs`, and `tables`, and it
+renders as its own "Additional analysis" section between "Why does it matter?" and
+"Citation", under a generated "Not reported in the published paper" label. Each table is
+`{caption, columns, rows, notes}`; every cell is plain text, the first cell of a row is
+its label, and a row with the wrong number of cells fails the build.
+The code, input data, and outputs behind it live in
+`additional_analyses/<publication-id>/` in this repo (outside `docs/`, so not served),
+and the page links there on GitHub; `additional_analyses/README.md` has the rules. Use
+the data the paper cites, from its published archive, and record its checksum.
+`carlino-2025-technology-learning-rates` is the first example.
 
 `needs_review: true` marks claims not yet verified against the publication. It renders
 nothing but is listed in `PAGES-STATUS.md` and warned about at build time. Use it

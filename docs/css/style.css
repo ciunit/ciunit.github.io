@@ -477,8 +477,10 @@ footer {
 }
 
 /* A table is the one thing allowed to be wider than the text column, so it
-   scrolls in place rather than pushing the page sideways. */
-.post-body table {
+   scrolls in place rather than pushing the page sideways. Publication pages use
+   the same rules (.paper-table) so the two sections' tables read as one system. */
+.post-body table,
+.paper-table table {
   display: block;
   overflow-x: auto;
   border-collapse: collapse;
@@ -488,17 +490,67 @@ footer {
 }
 
 .post-body th,
-.post-body td {
+.post-body td,
+.paper-table th,
+.paper-table td {
   border: 1px solid var(--line);
   padding: 8px 12px;
   text-align: left;
   vertical-align: top;
 }
 
-.post-body th {
+.post-body th,
+.paper-table thead th {
   background: var(--bg-dark);
   color: var(--text);
   font-weight: 600;
+}
+
+/* Row labels: bold enough to scan down, without the header fill. */
+.paper-table tbody th {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.paper-table caption {
+  caption-side: top;
+  text-align: left;
+  color: var(--text);
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+/* Numbers line up by column. */
+.paper-table td {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.paper-table .table-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 10px 0 0;
+}
+
+.paper-table {
+  margin: 0 0 32px;
+}
+
+/* "Additional analysis" section: marks material added beyond the published
+   paper. Small caps in the accent colour, like the page eyebrow, so it reads as a
+   label rather than prose. */
+.analysis-label {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: -8px 0 16px;
+}
+
+.analysis-source {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .post-body hr {

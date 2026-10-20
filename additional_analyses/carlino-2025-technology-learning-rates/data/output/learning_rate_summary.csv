@@ -1,0 +1,7 @@
+statistic,unweighted_all,unweighted_without_nuclear,weighted_all,weighted_without_nuclear
+n_technologies,87,86,87,86
+mean_beta,-0.2852,-0.3005,-0.3535,-0.3623
+std_beta,0.2499,0.2064,0.2681,0.2451
+LR_percent_at_mean_beta,17.94,18.8,21.73,22.21
+LR_percent_at_mean_beta_minus_1sd,30.99,29.63,35.01,34.36
+LR_percent_at_mean_beta_plus_1sd,2.42,6.313,5.751,7.804
