@@ -24,8 +24,9 @@ re-check moved seven rows that were `bronze` on 14 August out of "Free to read":
 `duan-2018-fast-slow-geoengineering` to `closed`. Expect this to keep happening, and re-check
 before relying on any `bronze` row.
 
-One gap: `rugenstein-2019-longrunmip` is `bronze` with no copy in the Drive folder. The PDF is
-in `pdfs/` as `Rugenstein-et-al_BAMS2019_LongRunMIP.pdf`; uploading it would close the gap.
+One gap: `rugenstein-2019-longrunmip` is `bronze` with no copy in the Drive folder. Its PDF,
+`Rugenstein-et-al_BAMS2019_LongRunMIP.pdf`, was not in `pdfs/` or in "pdfs of my papers" when
+checked on 2026-10-20, so a copy has to be found or downloaded first.
 
 | Status | Meaning | Count |
 | --- | --- | --- |

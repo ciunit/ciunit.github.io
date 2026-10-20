@@ -182,6 +182,10 @@ Mechanics:
   `suppdata` usually means the file is the supplement alone, which must never be the `Copy`
   linked for a paper. Match these as words, not substrings: `supply-chain` is a title word.
   `SOM`, `combined`, and `comb` in older names mean article plus supplement.
+  **New and updated reprints arrive in "pdfs of my papers"** in Ken's Google Drive (My Drive),
+  which syncs between his machines, and are copied from there into `pdfs/`. `pdfs/` itself
+  is local to the clone and not synced, so check it against `content/pdf-map.json` before
+  assuming a mapped file is present.
   **Filenames follow `author-list_Journal{year}_short-title.pdf`** (or
   `…_short-title(w Supp).pdf`); among copies that are otherwise equal, keep the one named
   that way. Presumed duplicates are moved to `pdfs/duplicates/`, never deleted.
