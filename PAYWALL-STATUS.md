@@ -1,7 +1,8 @@
 # Paywall status of the publication pages
 
-Which of the 116 publications with a page on CIunit.org a reader can reach for free, from
-Unpaywall (`oa_status`), re-checked for all 116 on 2 September 2026.
+Which of the 118 publications with a page on CIunit.org a reader can reach for free, from
+Unpaywall (`oa_status`), re-checked for 116 of them on 2 September 2026; the two Zheng et al.
+pages added on 20 October 2026 were checked when they were added.
 
 `Copy` links to the PDF in the shared Drive folder
 <https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk?usp=sharing>, which
@@ -28,23 +29,24 @@ in `pdfs/` as `Rugenstein-et-al_BAMS2019_LongRunMIP.pdf`; uploading it would clo
 
 | Status | Meaning | Count |
 | --- | --- | --- |
-| `closed` | Paywalled | 53 |
+| `closed` | Paywalled | 54 |
 | `green` | Paywalled at publisher, free copy in a repository | 8 |
 | `bronze` | Free to read on the publisher site, no open licence | 10 |
 | `hybrid` | Open access under a licence in a subscription journal | 8 |
-| `gold` | Open access | 37 |
+| `gold` | Open access | 38 |
 
-**61 of 116 are behind a publisher paywall** (`closed` plus `green`); the remaining
-55 are free to read at the publisher.
+**62 of 118 are behind a publisher paywall** (`closed` plus `green`); the remaining
+56 are free to read at the publisher.
 
 ---
 
-## Paywalled — 61 publications
+## Paywalled — 62 publications
 
 | Year | Publication | Journal | DOI | Status | Copy |
 | --- | --- | --- | --- | --- | --- |
 | 2025 | [Trade risks to energy security in net-zero emissions energy scenarios](docs/publications/cheng-2025-trade-risks-energy-security.html) | Nature Climate Change | [10.1038/s41558-025-02305-1](https://doi.org/10.1038/s41558-025-02305-1) | `closed` | [PDF](https://drive.google.com/file/d/152KfeHkNzN907-FEBAH-3NYM3yizBg96/view) |
 | 2025 | [Correlation and cyclicity of stratigraphic sequence boundaries and chronostratigraphic stage boundaries over the last 253 million years](docs/publications/rampino-2025-sequence-stage-boundaries.html) | Earth-Science Reviews | [10.1016/j.earscirev.2025.105100](https://doi.org/10.1016/j.earscirev.2025.105100) | `closed` | [PDF](https://drive.google.com/file/d/1HSn1xBHXsfqgnp2HUawwE3KTwl0T7hxF/view) |
+| 2025 | [Strategies for climate-resilient global wind and solar power systems](docs/publications/zheng-2025-climate-resilient-wind-solar.html) | Nature | [10.1038/s41586-025-09266-7](https://doi.org/10.1038/s41586-025-09266-7) | `closed` | [PDF](https://drive.google.com/file/d/1t-oGP7HFJ9oqmxQm8ISCF6aVbKebspil/view) |
 | 2024 | [Oahu as a case study for island electricity systems relying on wind and solar generation](docs/publications/covelli-2024-oahu-island-system.html) | Applied Energy | [10.1016/j.apenergy.2024.124054](https://doi.org/10.1016/j.apenergy.2024.124054) | `closed` | [PDF](https://drive.google.com/file/d/1D5otmN_VbHfmaBUGiJ_ar45W-flLA4Gl/view) |
 | 2024 | [Sixteen mass extinctions of the past 541 million years correlated with 15 pulses of Large Igneous Province volcanism and 4 large impacts](docs/publications/rampino-2024-extinctions-igneous-provinces.html) | Global and Planetary Change | [10.1016/j.gloplacha.2024.104369](https://doi.org/10.1016/j.gloplacha.2024.104369) | `closed` | [PDF](https://drive.google.com/file/d/1rs3C-xDcxkBDFKHgJ3uZkE8mU-S4XGj-/view) |
 | 2023 | [Cycles of ~32.5 My and ~26.2 My in correlated episodes of continental flood basalts, hyper-thermal climate pulses, anoxic oceans, and mass extinctions over the last 260 My](docs/publications/rampino-2023-geologic-astronomical-cycles.html) | Earth-Science Reviews | [10.1016/j.earscirev.2023.104548](https://doi.org/10.1016/j.earscirev.2023.104548) | `closed` | [PDF](https://drive.google.com/file/d/1UtHymkTSkj0FYK81A8-LtTeVD-eB8FKH/view) |
@@ -107,7 +109,7 @@ in `pdfs/` as `Rugenstein-et-al_BAMS2019_LongRunMIP.pdf`; uploading it would clo
 
 ---
 
-## Free to read — 55 publications
+## Free to read — 56 publications
 
 | Year | Publication | Journal | Status | Licence | Free at | Copy |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -142,6 +144,7 @@ in `pdfs/` as `Rugenstein-et-al_BAMS2019_LongRunMIP.pdf`; uploading it would clo
 | 2020 | [Role of long-duration energy storage in variable renewable electricity systems](docs/publications/dowling-2020-long-duration-storage.html) | Joule | `bronze` | — | https://doi.org/10.1016/j.joule.2020.07.007 | [PDF](https://drive.google.com/file/d/1AsOHtOXaMkIle4PHcI_Z3f8rwu6i43hv/view) |
 | 2020 | [Balancing climate and development goals](docs/publications/duan-2020-climate-development-goals.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/abbe46 | — |
 | 2020 | [Effects of deep reductions in energy storage costs on highly reliable wind and solar electricity systems](docs/publications/tong-2020-storage-cost-reductions.html) | iScience | `gold` | cc-by | https://doi.org/10.1016/j.isci.2020.101484 | — |
+| 2020 | [Climate effects of China’s efforts to improve its air quality](docs/publications/zheng-2020-china-air-quality.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/ab9e21 | — |
 | 2019 | [Climate system response to stratospheric sulfate aerosols: sensitivity to altitude of aerosol layer](docs/publications/krishnamohan-2019-aerosol-altitude.html) | Earth System Dynamics | `gold` | cc-by | https://doi.org/10.5194/esd-10-885-2019 | — |
 | 2019 | [LongRunMIP: Motivation and Design for a Large Collection of Millennial-Length AOGCM Simulations](docs/publications/rugenstein-2019-longrunmip.html) | Bulletin of the American Meteorological Society | `bronze` | — | https://doi.org/10.1175/bams-d-19-0068.1 | — |
 | 2019 | [Induced energy-saving efficiency improvements amplify effectiveness of climate change mitigation](docs/publications/wang-2019-induced-efficiency.html) | Joule | `bronze` | — | https://doi.org/10.1016/j.joule.2019.07.024 | [PDF](https://drive.google.com/file/d/1R4oVO8r1v4EGeJIBTvODsg5Sr9zkJ3jU/view) |

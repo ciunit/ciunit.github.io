@@ -1,0 +1,142 @@
+id: zheng-2025-climate-resilient-wind-solar
+doi: 10.1038/s41586-025-09266-7
+title: >
+  Strategies for climate-resilient global wind and solar power systems
+authors:
+  - Dongsheng Zheng
+  - Xizhe Yan
+  - Dan Tong
+  - Steven J. Davis
+  - Ken Caldeira
+  - Yuanyuan Lin
+  - Yaqin Guo
+  - Jingyun Li
+  - Peng Wang
+  - Liying Ping
+  - Shijie Feng
+  - Yang Liu
+  - Jing Cheng
+  - Deliang Chen
+  - Kebin He
+  - Qiang Zhang
+journal: Nature
+volume: "643"
+pages: 1263-1270
+date: "2025-06-18"
+year: 2025
+themes:
+  - wind-and-solar-reliability
+
+description: >
+  Climate change by mid-century is projected to raise the cost of the most expensive hours of
+  electricity by more than 5 per cent in 47 countries with wind- and solar-heavy power systems,
+  and combining a few flexibility measures can offset most of the increase.
+
+question:
+  - >
+    Power systems that draw most of their electricity from wind and sunlight have to cover the
+    hours when both are scarce, with storage, transmission, and backup generation that sits idle
+    much of the year but is paid for all of it. Climate change shifts wind speeds, sunshine, and
+    the heating and cooling demand that sets the load, and so changes how often and how badly
+    supply and demand fall out of step.
+  - >
+    This work asked how much that matters for cost, hour by hour, in 178 countries — holding
+    each country's future wind and solar share fixed, so that only the climate changes — and
+    which combinations of flexibility measures would keep the costliest hours affordable.
+
+key_finding: >
+  With future wind and solar shares held fixed, climate change by 2056–2060 under the SSP1–2.6
+  scenario raises average electricity costs during the most expensive 10% of hours by more
+  than 5% in 47 countries that together produce about 43.5% of the world's future electricity,
+  and by as much as 23.7% in Tajikistan. In most countries, combining two well-chosen
+  flexibility measures — from demand response, expanded interconnection, more efficient
+  storage, and more flexible thermal generation — is enough to offset the climate-driven rise
+  in average hourly costs.
+
+findings:
+  - >
+    The climate changes that drive this are modest on average. Across seven climate models,
+    mean wind speeds change by only a few hundredths of a metre per second by mid-century, while
+    solar radiation rises by 3.1 watts per square metre under SSP1–2.6. But most large countries
+    see longer stretches of simultaneously low wind and solar output, and demand becomes more
+    variable, especially at high and middle latitudes such as Canada and Kazakhstan.
+  - >
+    The cost increase falls mostly on the costliest hours. Under SSP1–2.6, 101 of the 178
+    countries see average costs rise during the most expensive 10% of hours. In Tajikistan the
+    rise is 23.7% in those hours against 6.4% in the rest. The costliest tenth of hours already
+    accounts for more than 20% of annual power-system costs in most European countries.
+  - >
+    Large countries carry large absolute costs even when the percentage is modest. Additional
+    climate-related costs average 15.7 billion dollars a year in the United States and 10.1
+    billion in India.
+  - >
+    What drives the increase depends on what each system relies on when wind and solar fall
+    short. Storage explains nearly all of China's 5.1% increase in its costliest hours; in
+    France, hydropower, at only 4.2% of generation but highly flexible, drives almost all of it,
+    because nuclear power cannot ramp quickly.
+  - >
+    Combining measures generally beats any single one, but the right combination is national.
+    In China no single measure cuts costliest-hour costs by more than 8.2%, while three together
+    cut them by at least 13.0%. In France, adding expanded interconnection lifts the reduction
+    from at most 12.7% to at least 21.8%. In Russia, with abundant hydropower, adding more
+    flexible thermal generation to the other three measures reduces the benefit, from 16.8% to
+    14.9%.
+  - >
+    The worst cases are harder to cover. For the 5% of simulations with the largest cost
+    increases, most countries still have better than an 80% chance of offsetting them, but
+    India, even with all four measures, has only a 61.1% chance.
+
+matters:
+  - >
+    Planning for a wind- and solar-heavy power system is usually done against today's weather.
+    These results put a number on how much the climate those systems will operate in could add
+    to the hours that already cost the most — and show that the increase is manageable with
+    flexibility investment chosen for each country's system.
+  - >
+    The comparison between countries is the practical lesson. Small European countries gain
+    most from cross-border interconnection; storage efficiency matters most in solar-dominated
+    systems such as Egypt; flexible thermal generation helps where thermal power is large, as
+    in South Korea, but not where hydropower already supplies the flexibility.
+  - >
+    The authors flag one risk that interconnection alone cannot solve. Climate change may make
+    low wind and solar output coincide across neighbouring countries, so grids need to link
+    regions with genuinely different weather, not only more of them.
+  - >
+    The study holds wind and solar shares fixed by design and leaves out infrastructure damage
+    from hurricanes, droughts, and wildfires, all of which would add to costs in the hours that
+    are already the most expensive.
+
+figure:
+  file: zheng-2025-climate-resilient-wind-solar.webp
+  source_figure: Figure 2
+  alt: >
+    Two scatter plots, panel a for the SSP1–2.6 scenario and panel b for SSP2–4.5, each with one
+    point per country for 178 countries. The horizontal axis is the change in hourly costs during
+    extreme periods and the vertical axis the change during normal periods, both in per cent from
+    minus 10 to plus 30. A dashed one-to-one line separates a region labelled normal dominated
+    above it from extreme dominated below it. Most points cluster between about minus 5 and plus
+    10 per cent on both axes, but a long tail stretches right to between 20 and 25 per cent on
+    the extreme axis while staying below about 8 per cent on the normal axis, so nearly all the
+    larger changes fall in the extreme-dominated region. Red horizontal and green vertical bars
+    mark each country's 33rd to 67th percentile range.
+  caption: >
+    Each point is a country. Climate change raises costs far more in the most expensive tenth
+    of hours than in the rest — the points spread out to the right, toward 20 per cent and
+    beyond, while rising only a few per cent on the vertical axis — so the burden lands in the
+    hours when wind and solar fall short.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Zheng et al. (2025), Nature 643, 1263-1270
+  modification: Cropped from the published PDF and resized for web display
+
+links:
+  - label: Full text (PDF)
+    url: https://drive.google.com/file/d/1t-oGP7HFJ9oqmxQm8ISCF6aVbKebspil/view
+  - label: Data and code (Zenodo)
+    url: https://doi.org/10.5281/zenodo.15499583
+
+related:
+  - tong-2021-geophysical-constraints
+  - antonini-2024-wind-droughts
+  - cheng-2025-trade-risks-energy-security

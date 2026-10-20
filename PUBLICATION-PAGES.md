@@ -19,7 +19,7 @@ content/survey-cache.json    gitignored — DOI metadata cache
 content/pdf-map.json         PDF filename -> DOI (committed; the PDFs are not)
 
 pdfs/                        gitignored — reprint library, never committed
-pdfs/duplicates/             copies of a paper the selection rule does not pick
+pdfs/duplicates/             presumed duplicates, moved out of pdfs/ (see its README)
 docs/publications/figures/   evidence figures, one per publication page
 docs/publications/covers/    first-page covers for the index grid
 
@@ -30,14 +30,21 @@ PAGES-STATUS.md              every published page, with figure resolution
 PAYWALL-STATUS.md            which publications are paywalled, and where a copy is
 ```
 
-`pdfs/duplicates/` holds the copies `pdf_for()` in `scripts/extract_figures.py`
-would not have chosen, so exactly one file per DOI stays in `pdfs/`. Two things
-to know before moving anything there. Several PDFs can share a DOI because a
-*citing* article prints it in its references — those are different papers, not
-duplicates, and must stay put. And the selection rule prefers the article alone
-over an article-plus-supplement file, so a blind sweep files away the only copy
-carrying the supplementary material; the library here is deliberately kept the
-other way round, with the fuller file in `pdfs/`.
+`pdfs/duplicates/` holds presumed duplicates and lower-quality versions, moved there
+rather than deleted on 2026-10-20; its own `README.md` lists every file, the copy kept for
+each paper, and why. The tooling reads only `pdfs/`, so anything in `duplicates/` is
+invisible to it. The library keeps, in order of priority: the published version; the
+version with the supplement included (see the naming rule in CLAUDE.md); a text layer over a
+scan; and, as the tie-break, the name in the format `author-list_Journal{year}_short-title.pdf`.
+That is not what `pdf_for()` would choose. It prefers the article alone over an
+article-plus-supplement file, so a blind sweep driven by it would file away the only copy
+carrying the supplementary material.
+
+Two things to check before moving anything there. Several PDFs can share a DOI because a
+*citing* article prints it in its references; those are different papers, not duplicates,
+and must stay put. And if the moved file is the one a page's figure or cover was taken from,
+repoint `content/pdf-map.json` to the kept copy and confirm the two are byte-identical, or
+re-check that page's figure and cover.
 
 ## Commands
 
@@ -112,7 +119,7 @@ Required — the build fails without these:
 | `journal`, `year` | |
 | `description` | the `<meta description>`; one sentence, states the finding |
 | `question` | list of paragraphs — why the work was undertaken |
-| `key_finding` | **one self-contained sentence carrying the number** |
+| `key_finding` | **one self-contained sentence carrying the number** (two if that substantially improves readability; see CLAUDE.md) |
 | `findings` | list of paragraphs |
 | `matters` | list of paragraphs |
 
@@ -191,6 +198,12 @@ A pick is one of three forms:
 "davis-2011-supply-chain-emissions": {"figure": 1, "trim": {"right": 0.06}}
 "pagani-2009-terrestrial-plants-co2": {"page": 3, "rect": [303, 44, 563, 210]}
 ```
+
+Any dict form may also carry `"max_width"` (pixels) to raise the default 1600 px cap.
+**Every figure on a publication or post page links to its own image file**, so the cap is
+also what a reader sees on clicking; a dense page-wide schematic such as
+`davis-2018-net-zero-energy-systems` (2400 px) needs more for its labels to be legible.
+Tall figures display at most 640 px high on the page and open full size on click.
 
 `trim` cuts a fraction off a side of the detected region; keys are
 `left`/`right`/`top`/`bottom`. `page` (1-based) with `rect` (PDF points) skips
@@ -345,7 +358,7 @@ sheet, blank, or the wrong document. Nothing but your eye catches that.
 
 ## Where the work stands
 
-115 publication pages, 9 themes, 112 with figures, none below `adequate`
+118 publication pages, 9 themes, 117 with figures, none below `adequate`
 resolution. Every citation on both bio pages — 61 on `ken-caldeira.html`, 10 on
 `lei-duan.html` — has a page, and links to it rather than to doi.org.
 
@@ -354,20 +367,13 @@ than trusting the counts written here.
 
 Outstanding:
 
-1. **1 figureless page with a PDF to work from** — `reich-2026-resource-adequacy`
-   needs a figure pick and a cover pick. The other two figureless pages are
-   deliberate and should stay that way: `davis-2018-net-zero-energy-systems` (one
-   page-wide schematic whose caption is too narrow to crop against) and
-   `caldeira-1989-planktonic-sulphur` (the Letter has no figure of its own). Both
-   reasons are recorded in `content/figure-picks.json`.
+1. **One figureless page, deliberately:** `caldeira-1989-planktonic-sulphur` (the Letter
+   has no figure of its own), recorded in `content/figure-picks.json`.
 2. **2 pages flagged `needs_review`** — `caldeira-kasting-1993-warming-potentials`
    and `caldeira-1990-deccan-volcanism`. Both need an author to confirm the claims.
-3. **The two `what-we-do` subject pages still cite by DOI** —
-   `climate-and-climate-impacts.html` (8 of its 9 citations now have pages) and
-   `balancing-goals.html` (all 7 do). Rewriting those the way the bio pages were
-   rewritten is a small scripted change; ask first, since these pages argue a case
-   rather than list works, and sending a reader to a summary instead of the article
-   is a judgement about the argument.
+3. **The two `what-we-do` subject pages link to publication pages** — all
+   citations on `balancing-goals.html` and `climate-and-climate-impacts.html`,
+   the last of them, Zheng et al. 2025, since its page was added.
 4. **The 54 paywalled publications link to a copy in Google Drive**, listed with
    their access status in `PAYWALL-STATUS.md`. Those links depend on that folder
    staying shared, and rest on author reuse rights for the published version — see

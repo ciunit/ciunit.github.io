@@ -11,16 +11,18 @@ authors:
   - Ken Caldeira
   - Nathan S. Lewis
 journal: "Environmental Research: Energy"
-date: "2026-08-04"
+volume: "3"
+pages: "035017"
+date: "2026-09-30"
 year: 2026
 themes:
   - wind-and-solar-reliability
   - macro-energy-modeling
 
 description: >
-  A system planned on a few years of weather and then run for decades needs extra capacity to
-  stay reliable, and spending on generation and storage together beats spending on either alone
-  — with wind additions able to close the gap on their own and solar additions often unable to.
+  Wind, solar, and battery systems planned on one year of weather fall short of reliability
+  standards over 42 years, and the cheapest fix is extra solar and batteries bought together;
+  added wind alone can close the gap, added solar alone cannot.
 
 question:
   - >
@@ -30,36 +32,46 @@ question:
   - >
     That leaves a gap between the capacity a short optimization specifies and the capacity
     long-run reliability actually requires. This paper asked how large the gap is, and — given a
-    fixed budget to close it — what to spend it on.
+    budget to close it — what to spend it on.
 
 key_finding: >
-  For systems planned on a short weather record and then operated across decades of real
-  variability, coordinated spending across both additional storage and additional generation
-  improved resource adequacy more than spending the same amount on either category alone;
-  wind-only additions reached adequacy standards whatever storage was available, while solar-only
-  additions often could not without enough storage to cover the night.
+  In a stylized model of a wind, solar, and battery electricity system for the contiguous United
+  States, planned on one year of weather and run across the 42 years 1979–2020, extra capacity
+  costing 56% of the mean cost of electricity, split evenly between solar generation and
+  batteries, met all demand in every system studied, while the same spending on batteries alone
+  or solar alone left the worst system meeting only 99.97% or 99.72% of demand. For wind- and
+  solar-based systems planned on a single weather year, added wind generation alone could reach
+  a 99.9989% resource-adequacy target, but added solar generation alone could not, even at a
+  cost of more than 5.6 times the mean cost of electricity.
 
 findings:
   - >
-    The analysis uses a stylized single-node macro-scale energy model of the contiguous United
-    States: plan the system on a limited weather period, then operate it across decades of
-    weather-derived variability and measure how much extra capacity is needed to hold resource
-    adequacy.
+    The method uses a stylized single-node model of the contiguous United States with lossless
+    transmission. A least-cost system is optimized on one calendar year of weather and demand,
+    for each of the 42 years from 1979 to 2020. Each system is then operated across all 42 years
+    with its capacities fixed, after adding capacity of one or more technologies, and judged by
+    the share of demand it meets.
   - >
-    Splitting a fixed budget across both storage and generation outperformed concentrating it in
-    one category. The two shortfalls a long record exposes — too little energy and too little
-    capacity at the wrong moment — are not addressed by the same asset.
+    Planning on one year does not deliver long-run reliability. Run across the 42-year record,
+    the worst of the wind, solar, and battery systems met 99.67% of demand and the worst system
+    that also had hydrogen storage met 96.51%, against a target of 99.9989% — the study's
+    translation of the NERC one-hour-in-a-decade loss-of-load standard.
   - >
-    Where spending had to go to one category, wind was the one that worked. Additional wind
-    generation alone could reach resource adequacy standards for the operational period
-    regardless of which storage technologies were available.
+    Buying generation and storage together was the cheapest way to close the gap. With 56% of the
+    mean cost of electricity split evenly between solar and batteries, every system met all
+    demand; split evenly between wind and batteries, the worst system met 99.9996%. In systems
+    with hydrogen storage, 23% spent on solar plus 5% on hydrogen fuel cells met the target at the
+    lowest added cost of any combination studied.
   - >
-    Additional solar alone frequently could not, because solar contributes nothing overnight and
-    so cannot substitute for storage in the hours where adequacy actually fails.
+    Spent on one category alone, wind worked and solar did not. Added wind costing 140% of the
+    mean cost of electricity raised the worst system to 99.9994%, and the same spending on
+    batteries met all demand. Added solar stalled at 99.961% even beyond 560%, and in hydrogen
+    systems at 99.97% even at 928%, because solar adds nothing in the night-time hours where
+    adequacy fails.
   - >
-    The implication for planning is that both wind generation and storage capacity need to be
-    expanded beyond whatever a short-horizon optimization specifies — the short optimization
-    systematically under-builds both.
+    Not all storage helps equally. In hydrogen systems, extra electrolyser or salt-cavern storage
+    capacity barely moved reliability, even alongside extra generation; extra fuel-cell capacity,
+    paired with solar, did.
   - >
     The authors argue current adequacy standards need revisiting. A criterion such as NERC's
     one-hour-in-a-decade loss-of-load expectation is not framed around extreme events, and they
@@ -80,6 +92,34 @@ matters:
     Framing the binding case as a once-in-a-century wind drought rather than an hours-per-decade
     average changes what a reliability standard is even measuring, and standards written the old
     way may pass systems that would fail on a rare deep event.
+  - >
+    The model is deliberately simple — one node, no transmission costs, expenditures counting
+    only added capital — so the numbers show the relative value of each choice rather than a
+    cost estimate for a real grid.
+
+figure:
+  file: reich-2026-resource-adequacy.webp
+  source_figure: Figure 2
+  alt: >
+    A line chart of minimum met demand, on a vertical scale from below 99.9 per cent to 100 per
+    cent, against capacity addition expenditure from 0 to about 560 per cent of total cost. A
+    dashed horizontal line just below 99.999 per cent marks the resource adequacy requirement,
+    with a green band above it. Three curves start together near 99.85 per cent. The battery
+    curve, purple, rises steeply and reaches 100 per cent at about 140 per cent of cost. The wind
+    curve, blue, crosses the requirement at about the same expenditure and reaches 100 per cent
+    by about 280 per cent. The solar curve, yellow, levels off at about 99.95 per cent and stays
+    below the requirement all the way to 560 per cent.
+  caption: >
+    The worst of 42 wind, solar, and battery systems, each planned on a single weather year,
+    as capacity is added after the fact. Extra wind or extra batteries each lift it past the
+    adequacy line; extra solar flattens out below it however much is spent, because the hours
+    that fail are hours without sun.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Reich et al. (2026), Environmental Research: Energy 3, 035017
+  modification: Extracted from the published PDF and resized for web display
 
 related:
   - ruggles-2024-planning-reliable-systems

@@ -11,8 +11,10 @@
 
     <section class="section bio">
 {% if paper.figure %}
+{# Every figure links to its own file: the page shows it at column width, and a
+   reader who needs to read the labels clicks through to full resolution. #}
       <figure class="paper-figure">
-        <img src="figures/{{ paper.figure.file }}" alt="{{ paper.figure.alt }}" loading="lazy">
+        <a class="figure-zoom" href="figures/{{ paper.figure.file }}"><img src="figures/{{ paper.figure.file }}" alt="{{ paper.figure.alt }}" loading="lazy"></a>
         <figcaption>
           {{ paper.figure.caption }}
           <span class="credit">{{ paper.figure.credit_line }}</span>

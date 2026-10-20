@@ -36,12 +36,19 @@
 
   evidence:
     - claim: >
-        Where a system is planned on a short weather record and then operated across decades of real
-        variability, spending on additional storage and additional generation together improved
-        resource adequacy more than spending the same amount on either alone — wind-only additions
-        reached adequacy standards whatever storage was available, while solar-only additions often
-        could not
+        Wind, solar, and battery systems planned on one weather year and run across 42 years met all
+        demand once capacity costing 56 per cent of the mean cost of electricity was added, split
+        evenly between solar and batteries; the same spending on either alone fell short, and added
+        wind alone could reach the adequacy target where added solar alone could not at any cost
+        studied
       paper: reich-2026-resource-adequacy
+    - claim: >
+        With future wind and solar shares held fixed, climate change by 2056–2060 under the
+        SSP1–2.6 scenario raises average electricity costs during the most expensive 10 per cent of
+        hours by more than 5 per cent in 47 countries producing about 43.5 per cent of the world's
+        future electricity, an increase that combining two well-chosen flexibility measures
+        offsets in most countries
+      paper: zheng-2025-climate-resilient-wind-solar
     - claim: >
         The regions least exposed to wind droughts combine high wind power density with low
         seasonal and low weather variability — the American Midwest, Australia, the Sahara,
@@ -156,6 +163,12 @@
         atmospheric perturbation and about 1 °C of warming, while the same quantity from
         deforestation with regrowth returns CO2 close to preindustrial
       paper: jayakrishnan-2022-fossil-vs-deforestation
+    - claim: >
+        Sustaining China's 2006–2017 cuts in aerosol emissions — about 70 per cent of its sulfur
+        dioxide and 30 per cent of its black carbon — adds 0.09 watts per square metre of global
+        radiative forcing and warms the Northern Hemisphere by 0.12 °C, by removing aerosol cooling
+        that had been masking greenhouse warming
+      paper: zheng-2020-china-air-quality
     - claim: >
         LongRunMIP assembles 50 millennial-length simulations from 15 complex climate models; under
         an abrupt quadrupling of CO2 in the model CESM104, the 150 years that standard
@@ -441,7 +454,8 @@
   description: >
     Why economically optimal climate policy is so hard to enact, and what changes when the
     timing of costs and benefits is made explicit. Evidence on break-even timescales,
-    adaptation returns, development thresholds, and the value of cost-saving innovation.
+    adaptation returns, development thresholds, technology learning rates, and the value of
+    cost-saving innovation.
 
   why_it_matters:
     - >
@@ -470,8 +484,10 @@
       paper: wongel-2025-cooling-deficit
     - claim: >
         A technology's past learning rate barely predicts its future one — a correlation of
-        0.12 across 87 technologies — so cost projections built by extrapolating an observed
-        learning rate carry far more uncertainty than they report
+        0.12 across 87 technologies — yet pooled learning rates follow a normal distribution
+        with a median cost decline of about 20 per cent per doubling of cumulative production
+        and one standard deviation spanning roughly −1 to 38 per cent, so cost projections that
+        extrapolate a single observed rate carry far more uncertainty than they report
       paper: carlino-2025-technology-learning-rates
     - claim: >
         Reductions in the Green Premium can be translated into equivalent reductions in carbon
@@ -932,9 +948,10 @@
         latitude
       paper: wongel-2026-solar-process-heat
     - claim: >
-        For systems planned on a short weather record and then operated across decades of real
-        variability, coordinated spending across both additional storage and additional generation
-        improved resource adequacy more than spending the same amount on either category alone
+        Systems planned on one weather year and run across 42 years close their reliability gap most
+        cheaply by adding generation and storage together — 56 per cent of the mean cost of
+        electricity split evenly between solar and batteries met all demand, where the same spending
+        on either alone left the worst system at 99.97 or 99.72 per cent
       paper: reich-2026-resource-adequacy
     - claim: >
         Across 27 European countries, hydrogen made from surplus wind and solar electricity could

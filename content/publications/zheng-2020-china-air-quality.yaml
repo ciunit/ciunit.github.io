@@ -1,0 +1,108 @@
+id: zheng-2020-china-air-quality
+doi: 10.1088/1748-9326/ab9e21
+title: >
+  Climate effects of China's efforts to improve its air quality
+authors:
+  - Yixuan Zheng
+  - Qiang Zhang
+  - Dan Tong
+  - Steven J. Davis
+  - Ken Caldeira
+journal: Environmental Research Letters
+volume: "15"
+pages: "104052"
+date: "2020-09-29"
+year: 2020
+themes:
+  - climate-and-carbon-cycle
+
+description: >
+  China's cuts in sulfur dioxide and black carbon emissions between 2006 and 2017, sustained,
+  would add 0.09 watts per square metre of global radiative forcing and warm the Northern
+  Hemisphere by 0.12 °C, by removing aerosol cooling that had been masking greenhouse warming.
+
+question:
+  - >
+    From 2006 to 2017, China's clean air policies cut its sulfur dioxide emissions by about 70
+    per cent, its black carbon emissions by about 30 per cent, and its organic carbon emissions
+    by about 40 per cent — reductions comparable to those achieved by air quality regulation in
+    Europe and the United States over several decades. The public health gains have been
+    extensively studied.
+  - >
+    The same aerosols that damage health also cool the climate, mostly by reflecting sunlight
+    and brightening clouds, and so mask part of the warming from greenhouse gases. This work
+    asked what China's emission cuts do to the climate, locally and globally, if they are
+    sustained, and what removing China's remaining anthropogenic aerosol emissions would add.
+
+key_finding: >
+  In a fully coupled climate model, sustaining the cuts China made to its aerosol emissions
+  between 2006 and 2017 — about 70% of its sulfur dioxide and 30% of its black carbon — adds
+  0.09 ± 0.03 watts per square metre of global radiative forcing and warms the Northern
+  Hemisphere by 0.12 ± 0.01 °C at near-equilibrium.
+
+findings:
+  - >
+    The forcing is small globally but concentrated regionally. Over East Asia the net effective
+    radiative forcing is 0.48 ± 0.11 watts per square metre, and globally it is dominated by
+    the shortwave cloud effect, at 0.21 ± 0.03 watts per square metre — cleaner air makes
+    clouds less reflective.
+  - >
+    The warming spreads far beyond China. Global mean surface temperature rises 0.06 ± 0.01 °C
+    and the Northern Hemisphere mean 0.12 ± 0.01 °C, with amplification toward the Arctic and
+    smaller effects in the Southern Hemisphere. Mean warming over East Asia, 0.12 ± 0.02 °C, is
+    no larger than over the hemisphere as a whole, and winter warms more than summer.
+  - >
+    Precipitation increases. Global mean precipitation rises 2.34 ± 0.55 millimetres per year,
+    driven mainly by the unmasked greenhouse warming, and East Asian precipitation
+    21.07 ± 7.60 millimetres per year, with significant increases over central and eastern
+    China. The authors caution that the local precipitation result rests on how a single model
+    represents aerosol–cloud interactions.
+  - >
+    Removing all of China's remaining anthropogenic aerosol emissions after 2017 would add a
+    further 0.14 ± 0.03 watts per square metre of global forcing, 0.09 ± 0.01 °C of global
+    warming, and another 0.12 ± 0.01 °C in the Northern Hemisphere.
+  - >
+    Over the same period China's CO2 emissions rose by about 54 per cent. The aerosol cuts came
+    from end-of-pipe controls such as sulfur scrubbers, which do nothing for carbon emissions,
+    so the two moved in opposite directions.
+
+matters:
+  - >
+    Air pollution control is a health necessity, and in China it is far from finished — in 2017,
+    64 per cent of prefecture-level cities still failed the national PM2.5 standard — so further
+    aerosol cuts, and the warming they unmask, are to be expected.
+  - >
+    The result shows how pollution policy can trade off against climate policy. Measures that
+    remove aerosols without touching CO2 make the climate problem harder. Measures that cut
+    both together — such as replacing coal with renewable energy — capture the health benefit
+    without the added warming.
+  - >
+    The estimates come from one climate model with all other emissions held fixed, and the
+    authors present them as the likely scale of the effect rather than a precise prediction.
+
+figure:
+  file: zheng-2020-china-air-quality.webp
+  source_figure: Figure 2
+  alt: >
+    Two maps of the near-equilibrium change in annual mean surface air temperature, on a scale
+    from minus 0.8 to plus 0.8 °C. Panel a is a polar view of the Northern Hemisphere, labelled
+    mean 0.12 ± 0.01; almost all of it is shaded light red, with the strongest warming, near
+    0.8 °C, over the Arctic north of Scandinavia and Russia, and stippling marking significance
+    across most of the hemisphere. Panel b zooms on East Asia, 70 to 155 degrees east and 0 to
+    55 degrees north, labelled mean 0.12 ± 0.02, with warming of 0.2 to 0.4 °C over central and
+    eastern China and paler warming across the rest of the region.
+  caption: >
+    Warming from China's 2006–2017 aerosol cuts, if sustained. It is not confined to China — the
+    hemisphere as a whole warms about as much as East Asia does, and most strongly in the Arctic,
+    because heat carried by the atmosphere and ocean spreads the response far beyond where the
+    aerosols were removed.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Zheng et al. (2020), Environmental Research Letters 15, 104052
+  modification: Extracted from the published PDF and resized for web display
+
+related:
+  - zheng-2020-aerosols-inequality
+  - persad-2018-regional-aerosol-emissions

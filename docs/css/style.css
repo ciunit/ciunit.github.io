@@ -286,8 +286,20 @@ h3 {
 
 .paper-figure img {
   display: block;
+  /* A tall figure (a portrait schematic) would otherwise fill more than a screen
+     at column width; capping the height shows it smaller, and the link around it
+     opens the full image. Wide figures are unaffected. */
+  max-height: 640px;
+  width: auto;
   border: 1px solid var(--line);
   background: #fff;
+}
+
+/* Figures link to their own image file at full resolution (see paper.html.j2 and
+   post.html.j2). The zoom cursor is the only cue; the link itself is unstyled. */
+.figure-zoom {
+  display: block;
+  cursor: zoom-in;
 }
 
 .paper-figure figcaption {

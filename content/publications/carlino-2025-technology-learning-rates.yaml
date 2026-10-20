@@ -19,9 +19,10 @@ themes:
   - climate-and-economics
 
 description: >
-  Across 87 technologies, the rate at which costs fall per doubling of production is not
-  constant — a stepwise rate fits better for 58 of them, and a technology's past learning rate
-  barely predicts its future one, with a correlation of 0.12 indistinguishable from zero.
+  Across 87 technologies, a technology's past learning rate barely predicts its future one
+  (correlation 0.12), yet pooled learning rates follow a normal distribution with a median cost
+  decline of about 20% per doubling of cumulative production and one standard deviation
+  spanning roughly −1% to 38%.
 
 question:
   - >
@@ -36,13 +37,23 @@ question:
     what changes when it is dropped.
 
 key_finding: >
-  Across the 87 technologies in the Performance Curve Database, a model allowing stepwise
-  changes in the learning rate fits better than a constant rate for 58 of them, and a
-  technology's learning rate in the first half of its history predicts its rate in the second
-  half hardly at all — a Pearson correlation of 0.12, not distinguishable from zero.
+  Across the 87 technologies in the Performance Curve Database, a technology's past learning
+  rate barely predicts its future one, with a correlation of 0.12. Pooled across the 87
+  technologies, learning rates fit a normal distribution of the learning exponent with mean
+  −0.33 and standard deviation 0.35 — a median cost decline of about 20% per doubling of
+  cumulative production, with one standard deviation spanning roughly −1% to 38%.
 
 findings:
   - >
+    Pooling every learning-rate segment from the piecewise fits across all 87 technologies, the
+    learning exponent is best described by a normal distribution with mean −0.33 and standard
+    deviation 0.35 — a median of about 20% cost decline per doubling of cumulative production,
+    with one standard deviation spanning roughly −1% to 38%, and about one segment in six showing
+    costs that rise with production. The fitted parameters are given in Supplementary Table 2,
+    on page 22 of the paper's Supplementary Material, which the main text cites only once, in
+    its Methods (Section 2.4).
+  - >
+    We found that past learning rates are not good predictors of future learning rates.
     Splitting each technology's record in half and comparing the learning rate before and after
     gives a correlation of 0.12, which is not significantly different from zero at the 5% level.
     Points scatter well away from the identity line rather than along it.
@@ -124,6 +135,8 @@ figure:
 links:
   - label: Data (Zenodo)
     url: https://doi.org/10.5281/zenodo.17179225
+  - label: Supplementary Material (PDF; learning-rate distribution in Supplementary Table 2)
+    url: https://ars.els-cdn.com/content/image/1-s2.0-S2666792425000460-mmc1.pdf
 
 related:
   - caldeira-2023-green-premium

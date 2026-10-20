@@ -15,6 +15,11 @@ The third form is for scans, which have no captions to detect, and for the rare
 detected region that shears an axis label off — a trim can shrink a region but
 never grow one.
 
+Any dict form may add "max_width" to raise the default 1600 px cap. Every figure
+on a publication page links to its own file, so the cap is also the resolution a
+reader gets on clicking; a dense page-wide schematic needs more than 1600 px for
+its labels to be legible there.
+
 No-derivatives publications are detected from their licence and left at native
 resolution as PNG: resizing a CC BY-ND or BY-NC-ND figure would breach the
 licence, so it must never depend on someone remembering to special-case it.
@@ -74,6 +79,7 @@ def main(argv: list[str]) -> int:
     for pid, spec in sorted(picks.items()):
         d = spec if isinstance(spec, dict) else {"figure": spec}
         fig, trim = d.get("figure", 1), d.get("trim")
+        max_width = d.get("max_width", MAX_WIDTH)
         page, rect = d.get("page"), d.get("rect")
         paper = papers.get(pid)
         if not paper:
@@ -96,7 +102,7 @@ def main(argv: list[str]) -> int:
         out = FIG_DIR / f"{pid}.webp"
         subprocess.run(
             ["ffmpeg", "-y", "-loglevel", "error", "-i", str(png),
-             "-vf", f"scale='min({MAX_WIDTH},iw)':-1:flags=lanczos", str(out)],
+             "-vf", f"scale='min({max_width},iw)':-1:flags=lanczos", str(out)],
             check=True)
         png.unlink()
 

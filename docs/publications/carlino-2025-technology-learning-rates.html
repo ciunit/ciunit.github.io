@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Variability of technology learning rates — Conceptual Investigations Unit</title>
-  <meta name="description" content="Across 87 technologies, the rate at which costs fall per doubling of production is not constant — a stepwise rate fits better for 58 of them, and a technology&#39;s past learning rate barely predicts its future one, with a correlation of 0.12 indistinguishable from zero.">
+  <meta name="description" content="Across 87 technologies, a technology&#39;s past learning rate barely predicts its future one (correlation 0.12), yet pooled learning rates follow a normal distribution with a median cost decline of about 20% per doubling of cumulative production and one standard deviation spanning roughly −1% to 38%.">
   <link rel="canonical" href="https://ciunit.org/publications/carlino-2025-technology-learning-rates.html">
   <link rel="stylesheet" href="../css/style.css">
   <script type="application/ld+json">
@@ -15,7 +15,7 @@
   "@type": "WebPage",
   "url": "https://ciunit.org/publications/carlino-2025-technology-learning-rates.html",
   "name": "Variability of technology learning rates",
-  "description": "Across 87 technologies, the rate at which costs fall per doubling of production is not constant — a stepwise rate fits better for 58 of them, and a technology's past learning rate barely predicts its future one, with a correlation of 0.12 indistinguishable from zero.",
+  "description": "Across 87 technologies, a technology's past learning rate barely predicts its future one (correlation 0.12), yet pooled learning rates follow a normal distribution with a median cost decline of about 20% per doubling of cumulative production and one standard deviation spanning roughly −1% to 38%.",
   "publisher": {
     "@type": "Organization",
     "name": "Conceptual Investigations Unit",
@@ -98,12 +98,12 @@
       <div class="eyebrow">What We Publish</div>
       <h1>Variability of technology learning rates</h1>
       <p class="paper-meta"><a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.adapen.2025.100252">Angelo Carlino, Alicia Wongel, Lei Duan, Edgar Virgüez, Steven J. Davis, Morgan R. Edwards, and Ken Caldeira · Advances in Applied Energy 20, 100252 · 2025</a></p>
-      <p class="key-finding"><strong>Key finding.</strong> Across the 87 technologies in the Performance Curve Database, a model allowing stepwise changes in the learning rate fits better than a constant rate for 58 of them, and a technology&#39;s learning rate in the first half of its history predicts its rate in the second half hardly at all — a Pearson correlation of 0.12, not distinguishable from zero.</p>
+      <p class="key-finding"><strong>Key finding.</strong> Across the 87 technologies in the Performance Curve Database, a technology&#39;s past learning rate barely predicts its future one, with a correlation of 0.12. Pooled across the 87 technologies, learning rates fit a normal distribution of the learning exponent with mean −0.33 and standard deviation 0.35 — a median cost decline of about 20% per doubling of cumulative production, with one standard deviation spanning roughly −1% to 38%.</p>
     </section>
 
     <section class="section bio">
       <figure class="paper-figure">
-        <img src="figures/carlino-2025-technology-learning-rates.png" alt="Two panels. Panel a plots unit cost relative to its initial value, on a logarithmic axis spanning ten orders of magnitude, against cumulative production relative to initial, for 87 technologies coloured by sector. Every trace falls, but at visibly different and changing slopes; nuclear electricity rises. Panel b is a scatter of each technology&#39;s future learning rate against its past learning rate, both in per cent, with a dashed 1:1 line. The points form a diffuse cloud centred well above the line rather than lying along it, spanning about minus 20 to plus 50 per cent on both axes." loading="lazy">
+        <a class="figure-zoom" href="figures/carlino-2025-technology-learning-rates.png"><img src="figures/carlino-2025-technology-learning-rates.png" alt="Two panels. Panel a plots unit cost relative to its initial value, on a logarithmic axis spanning ten orders of magnitude, against cumulative production relative to initial, for 87 technologies coloured by sector. Every trace falls, but at visibly different and changing slopes; nuclear electricity rises. Panel b is a scatter of each technology&#39;s future learning rate against its past learning rate, both in per cent, with a dashed 1:1 line. The points form a diffuse cloud centred well above the line rather than lying along it, spanning about minus 20 to plus 50 per cent on both axes." loading="lazy"></a>
         <figcaption>
           If a learning rate were a fixed property of a technology, panel b would be a line. Instead the points scatter across the plane — the correlation between a technology&#39;s past and future learning rate is 0.12, indistinguishable from zero — while panel a shows costs nonetheless falling almost everywhere. Costs do decline with production; the rate at which they decline is what will not stay put.
           <span class="credit">Figure 2 from Carlino et al. (2025), Advances in Applied Energy 20, 100252. Reproduced under CC BY-NC-ND 4.0. Used unmodified, as the licence requires; the journal running head above the figure is excluded from the crop.</span>
@@ -115,7 +115,8 @@
       <p>If it is not constant, then a forecast built by extrapolating an observed learning rate inherits an error nobody is accounting for. This paper asked how well the constant-rate assumption holds across the broadest available collection of technology cost histories, and what changes when it is dropped.</p>
 
       <h2>What did we find?</h2>
-      <p>Splitting each technology&#39;s record in half and comparing the learning rate before and after gives a correlation of 0.12, which is not significantly different from zero at the 5% level. Points scatter well away from the identity line rather than along it.</p>
+      <p>Pooling every learning-rate segment from the piecewise fits across all 87 technologies, the learning exponent is best described by a normal distribution with mean −0.33 and standard deviation 0.35 — a median of about 20% cost decline per doubling of cumulative production, with one standard deviation spanning roughly −1% to 38%, and about one segment in six showing costs that rise with production. The fitted parameters are given in Supplementary Table 2, on page 22 of the paper&#39;s Supplementary Material, which the main text cites only once, in its Methods (Section 2.4).</p>
+      <p>We found that past learning rates are not good predictors of future learning rates. Splitting each technology&#39;s record in half and comparing the learning rate before and after gives a correlation of 0.12, which is not significantly different from zero at the 5% level. Points scatter well away from the identity line rather than along it.</p>
       <p>More data does not fix this. The 44 longest series give a correlation of 0.07 and the 43 shortest 0.13, neither significant, and no individual sector&#39;s correlation differs significantly from zero either. Longer records make each estimate steadier without making it more predictive.</p>
       <p>Comparing the standard first-difference Wright&#39;s model against piecewise regressions by the Bayesian Information Criterion, a model with at least two learning rates wins for 58 of the 87 technologies; the constant-rate model is best for 29. The Akaike criterion puts the figure at 60. Weighting sectors equally rather than by how many technologies each contributes gives 58%.</p>
       <p>The breakpoints are not artefacts of the fitting. A non-parametric bootstrap with 500 resamples per technology agrees with the original number of breakpoints 74% of the time on average, with a median of 79%.</p>
@@ -133,6 +134,7 @@
       <ul>
         <li><a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.adapen.2025.100252">Published article (doi:10.1016/j.adapen.2025.100252)</a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.5281/zenodo.17179225">Data (Zenodo)</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://ars.els-cdn.com/content/image/1-s2.0-S2666792425000460-mmc1.pdf">Supplementary Material (PDF; learning-rate distribution in Supplementary Table 2)</a></li>
       </ul>
 
       <h2>Related</h2>

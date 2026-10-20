@@ -1,7 +1,7 @@
 {
   "_comment": "Which figure of each publication is used on its page. Chosen by eye from the contact sheets produced by scripts/extract_figures.py --contact, or, for a scan or a sheared crop, from page images produced by --pages. Kept here so every figure can be re-extracted reproducibly if the extraction algorithm changes. A pick is a figure number, or {figure, trim} to cut a fraction off a side, or {page, rect} to render an explicit rectangle in PDF points.",
   "_note_caldeira_1989": "caldeira-1989-planktonic-sulphur has no figure of its own — the Letter carries only Table 1 and equations. The figures visible on its first and last pages belong to the neighbouring articles in the same Nature issue, so there is nothing to extract; that page is deliberately text-only.",
-  "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so that page stays text-only.",
+  "_note_davis_2018": "davis-2018-net-zero-energy-systems has only one figure, a page-wide schematic whose caption is a single narrow column; the detector cannot capture its full width without crossing into body text, so it is cropped by an explicit rectangle, and kept at 2400 px so its labels are legible when a reader clicks through to the full image.",
   "ahbe-2017-available-potential-energy": 3,
   "albright-2016-reversal-acidification": {
     "figure": 4,
@@ -233,6 +233,7 @@
   "cyronak-2026-ta-dic-reef-metabolism": 2,
   "davis-2010-committed-emissions": 2,
   "davis-2010-consumption-based-accounting": 4,
+  "davis-2018-net-zero-energy-systems": {"page": 3, "rect": [75, 106, 521, 666], "max_width": 2400},
   "davis-2011-supply-chain-emissions": {
     "figure": 1,
     "trim": {
@@ -437,6 +438,9 @@
   "wongel-2023-firming-technologies": 2,
   "wongel-2025-cooling-deficit": 3,
   "wongel-2026-solar-process-heat": 4,
+  "reich-2026-resource-adequacy": 2,
   "zheng-2020-aerosols-inequality": 4,
+  "zheng-2020-china-air-quality": 2,
+  "zheng-2025-climate-resilient-wind-solar": {"page": 4, "rect": [92, 48, 500, 230]},
   "ban-weiss-2011-latent-sensible-heat": 1
 }

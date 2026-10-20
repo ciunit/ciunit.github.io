@@ -20,7 +20,7 @@
 {% if block.link %}
         <a target="_blank" rel="noopener noreferrer" href="{{ block.link }}"><img src="images/{{ post.slug }}/{{ block.file }}" alt="{{ block.alt }}" loading="lazy" decoding="async"></a>
 {% else %}
-        <img src="images/{{ post.slug }}/{{ block.file }}" alt="{{ block.alt }}" loading="lazy" decoding="async">
+        <a class="figure-zoom" href="images/{{ post.slug }}/{{ block.file }}"><img src="images/{{ post.slug }}/{{ block.file }}" alt="{{ block.alt }}" loading="lazy" decoding="async"></a>
 {% endif %}
 {% if block.caption or block.credit_line %}
         <figcaption>

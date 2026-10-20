@@ -91,6 +91,33 @@ matters:
     electricity, feedstocks for materials — then sector-by-sector policy is poorly matched to
     where the difficulty actually lies.
 
+figure:
+  file: davis-2018-net-zero-energy-systems.webp
+  source_figure: Figure 1
+  alt: >
+    An isometric schematic headed "Essential energy services", showing nineteen labelled
+    facilities, A to S, joined by colour-coded pipelines. Across the top are the hard-to-serve
+    demands, A highly reliable electricity, a hospital; B structural materials, a crane; C
+    aviation, long-distance transport, and shipping, an aircraft and a truck; and D an ammonia
+    plant. Below them sit the conversion and capture steps, E geologic storage, F synthetic gas
+    and liquids, G cement and steel with capture, H direct solar fuels, I biomass gas and
+    liquids, J direct air capture, and L electrolysis. Along the bottom are the supply and
+    storage assets, K hydropower and pumped storage, M natural gas, biomass, or syngas with
+    capture, N nuclear, O solar, P hydrogen and synthetic gas, Q other centralized storage, R
+    compressed air storage, and S wind. Five trunk lines run diagonally between them, labelled
+    e minus for electricity in green, H2 for hydrogen in blue, CxHyOz for hydrocarbons in
+    purple, NH3 for ammonia in orange, and CO2 for carbon management in red.
+  caption: >
+    The review's map of a net-zero energy system. The hard cases at the top — reliable
+    power, structural materials, aviation and long-distance transport — are served not by any
+    one technology but by the shared lines running between all of them, carrying electricity,
+    hydrogen, hydrocarbons, ammonia, and captured carbon. Click the figure to enlarge.
+  source: PDF (600 dpi)
+  license: author reuse rights
+  credit: >
+    Davis et al. (2018), Science 360, eaas9793
+  modification: Cropped from the published PDF and resized for web display
+
 links:
   - label: Full text (PDF)
     url: https://drive.google.com/file/d/1rsvYLAdSAQUNro2Svbme5idHWIU0cYcw/view

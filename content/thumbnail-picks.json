@@ -170,7 +170,16 @@
       "page": 2,
       "note": "IOP download stub on page 1"
     },
+    "reich-2026-resource-adequacy": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
     "zheng-2020-aerosols-inequality": 1,
+    "zheng-2025-climate-resilient-wind-solar": 1,
+    "zheng-2020-china-air-quality": {
+      "page": 2,
+      "note": "IOP download stub on page 1"
+    },
     "ban-weiss-2011-latent-sensible-heat": 2
   }
 }

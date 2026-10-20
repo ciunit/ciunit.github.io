@@ -123,10 +123,13 @@ Three things that have caused real errors and are easy to repeat:
 Content rules:
 
 - **State the claim; don't make a reader reconstruct it.** Every publication page opens
-  with one self-contained `key_finding` sentence carrying the number — "models
+  with a self-contained `key_finding` carrying the number — "models
   underestimate 22-year maximum monthly high-temperature anomalies by 11–12%",
   not "we found significant biases". It must make sense quoted in isolation, with
-  no pronouns or antecedents pointing back into the page.
+  no pronouns or antecedents pointing back into the page. One sentence is the
+  default; two are allowed when splitting substantially improves readability
+  (e.g. a finding and its counterpoint), provided the second sentence also stands
+  on its own — no "this" or "these" reaching back to the first.
 - **Headings are questions people actually ask** — "What question did this
   research address?", "Does climate change affect economic growth?" — not "Introduction" or
   "Results".
@@ -161,13 +164,29 @@ Mechanics:
   `PUBLICATION-PAGES.md` before "fixing" that.
 - **The index is a cover grid, newest first** — one box per publication showing
   its own first page, the whole box a link. It is also the only page linking to
-  `docs/topics/`, via the theme strip under the lede; don't remove that without
-  giving the theme pages another route in from the nav.
+  *every* page in `docs/topics/`, via the theme strip under the lede; don't remove
+  that without giving the theme pages another route in from the nav. The
+  hand-written `balancing-goals.html` and `climate-and-climate-impacts.html` also
+  end with an "Explore by topic" strip linking the topics their cited papers
+  belong to — hand-maintained, so a new or renamed theme must be added there by
+  hand.
 - `docs/sitemap.xml` and `docs/robots.txt` are part of this; regenerate the
   sitemap whenever pages are added.
 - **The reprint library on Google Drive**, readable by anyone with the link:
   <https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk?usp=sharing>
-  It mirrors the gitignored `pdfs/` folder, filename for filename. **Any publication
+  It is the curated copy of the gitignored `pdfs/` folder, by the same filenames, but not
+  an exact mirror: some local duplicates were never uploaded or have been removed there.
+  **`with`, `w`, or `w/` before `Supp`/`supp`/`SI` (`(w supp)`, `-with-SI`, `with-Suppl`)
+  marks the version with the supplementary material included; where one exists, it is the
+  version to keep** and the one to link as the `Copy`. A bare `SI`, `Supp`, `suppl`, or
+  `suppdata` usually means the file is the supplement alone, which must never be the `Copy`
+  linked for a paper. Match these as words, not substrings: `supply-chain` is a title word.
+  `SOM`, `combined`, and `comb` in older names mean article plus supplement.
+  **Filenames follow `author-list_Journal{year}_short-title.pdf`** (or
+  `…_short-title(w Supp).pdf`); among copies that are otherwise equal, keep the one named
+  that way. Presumed duplicates are moved to `pdfs/duplicates/`, never deleted.
+  (Figure extraction is separate: `pdf_for()` deliberately prefers an article-only file
+  when both are present, which is why the library cannot rely on its choice.) **Any publication
   that might be paywalled gets a `Copy` link to its PDF there** in
   `PAYWALL-STATUS.md` — that means every `closed` and `green` row, and every
   `bronze` row too, since `bronze` only means the publisher currently serves the
@@ -204,8 +223,8 @@ Format — YAML front matter, then a Markdown body:
   silently publishes at an unexpected path.
 - `description` is the meta description; `key_point` renders above the body and
   follows the same rule as a publication's `key_finding` — one self-contained
-  sentence that makes sense quoted in isolation, with no pronouns pointing back
-  into the page.
+  sentence (two if that substantially improves readability) that makes sense
+  quoted in isolation, with no pronouns pointing back into the page.
 - `about` is optional: the id of the publication the post is about. Set it and
   the post links to that page and the publication page links back, both
   generated, so the pair cannot drift. A dangling `about` **fails the build**
