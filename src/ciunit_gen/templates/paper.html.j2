@@ -61,7 +61,7 @@
 {% endfor %}
       </div>
 {% endfor %}
-      <p class="analysis-source">{{ paper.additional.source }}</p>
+      <p class="analysis-source">{{ paper.additional.source }}{% if paper.additional.url %} <a target="_blank" rel="noopener noreferrer" href="{{ paper.additional.url }}">Code, data, and outputs on GitHub</a>.{% endif %}</p>
 
 {% endif %}
       <h2>Citation</h2>

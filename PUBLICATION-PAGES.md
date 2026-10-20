@@ -129,7 +129,8 @@ Optional: `date`, `volume`, `pages`, `themes` (list of theme ids), `links`
 
 `additional_analysis` holds material the Conceptual Investigations Unit has added beyond
 the published paper, such as a reanalysis of its data. It is a mapping of `source`
-(required: who did the analysis, and from what data), `paragraphs`, and `tables`, and it
+(required: who did the analysis, and from what data), `url` (where its code and data
+are; rendered as a link on the source line), `paragraphs`, and `tables`, and it
 renders as its own "Additional analysis" section between "Why does it matter?" and
 "Citation", under a generated "Not reported in the published paper" label. Each table is
 `{caption, columns, rows, notes}`; every cell is plain text, the first cell of a row is

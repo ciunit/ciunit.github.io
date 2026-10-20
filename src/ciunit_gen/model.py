@@ -122,6 +122,9 @@ class AdditionalAnalysis:
     source: str
     paragraphs: list[str] = field(default_factory=list)
     tables: list[Table] = field(default_factory=list)
+    # Where the code and data live. Rendered as a link on the source line, because
+    # publication prose is plain text and cannot carry one itself.
+    url: str = ""
 
 
 @dataclass
@@ -283,8 +286,11 @@ def load_paper(path: Path) -> Paper:
                  if ad.get("paragraphs") else [])
         if not paras and not tables:
             raise ContentError(f"{aw}: needs 'paragraphs', 'tables', or both")
+        url = str(ad.get("url", "") or "").strip()
+        if url and not url.startswith("https://"):
+            raise ContentError(f"{aw}: 'url' must be an https:// link, not {url!r}")
         additional = AdditionalAnalysis(source=" ".join(str(ad["source"]).split()),
-                                        paragraphs=paras, tables=tables)
+                                        paragraphs=paras, tables=tables, url=url)
 
     # A malformed date leaves the index's sort key undefined, so refuse it rather
     # than silently filing the publication under its year alone.
