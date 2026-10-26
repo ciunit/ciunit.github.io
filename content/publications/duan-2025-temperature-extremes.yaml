@@ -29,8 +29,9 @@ question:
 
 key_finding: >
   CMIP6 climate models understate how far a month's hottest day rises above that month's
-  average temperature, so their projected monthly heat extremes for the end of this century
-  are too low — by up to about 3 K in the worst-affected regions and months, and by more than
+  average temperature, and there is no evidence that these model biases are evolving over
+  time. CMIP6 projections of monthly heat extremes for the end of this century are therefore
+  too low — by up to about 3 K in the worst-affected regions and months, and by more than
   5 K for the rarest events.
 
 findings:
