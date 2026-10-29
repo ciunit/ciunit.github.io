@@ -1,8 +1,9 @@
 # Paywall status of the publication pages
 
-Which of the 118 publications with a page on CIunit.org a reader can reach for free, from
+Which of the 119 publications with a page on CIunit.org a reader can reach for free, from
 Unpaywall (`oa_status`), re-checked for 116 of them on 2 September 2026; the two Zheng et al.
-pages added on 20 October 2026 were checked when they were added.
+pages added on 20 October 2026 and `duan-2022-free-solar`, added on 29 October 2026, were
+checked when they were added.
 
 `Copy` links to the PDF in the shared Drive folder
 <https://drive.google.com/drive/folders/1PEDfXnofnxgMm9IzANzGMWBjkQBi2auk?usp=sharing>, which
@@ -34,10 +35,10 @@ checked on 2026-10-20, so a copy has to be found or downloaded first.
 | `green` | Paywalled at publisher, free copy in a repository | 8 |
 | `bronze` | Free to read on the publisher site, no open licence | 10 |
 | `hybrid` | Open access under a licence in a subscription journal | 8 |
-| `gold` | Open access | 38 |
+| `gold` | Open access | 39 |
 
-**62 of 118 are behind a publisher paywall** (`closed` plus `green`); the remaining
-56 are free to read at the publisher.
+**62 of 119 are behind a publisher paywall** (`closed` plus `green`); the remaining
+57 are free to read at the publisher.
 
 ---
 
@@ -110,7 +111,7 @@ checked on 2026-10-20, so a copy has to be found or downloaded first.
 
 ---
 
-## Free to read — 56 publications
+## Free to read — 57 publications
 
 | Year | Publication | Journal | Status | Licence | Free at | Copy |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -138,6 +139,7 @@ checked on 2026-10-20, so a copy has to be found or downloaded first.
 | 2023 | [Move up or move over: mapping opportunities for climate adaptation in Pakistan's Indus plains](docs/publications/schmitt-2023-indus-flood-adaptation.html) | Environmental Research Letters | `gold` | cc-by | https://iopscience.iop.org/article/10.1088/1748-9326/acfc59/pdf | — |
 | 2023 | [Global land and water limits to electrolytic hydrogen production using wind and solar resources](docs/publications/tonelli-2023-hydrogen-land-water-limits.html) | Nature Communications | `gold` | cc-by | https://www.nature.com/articles/s41467-023-41107-x.pdf | — |
 | 2023 | [Broad range of technologies could firm up wind and solar generation in net zero carbon dioxide emission electricity systems](docs/publications/wongel-2023-firming-technologies.html) | Findings | `gold` | cc-by-nc | https://findingspress.org/article/90391.pdf | — |
+| 2022 | [Electricity systems in the limit of free solar photovoltaics and continent-scale transmission](docs/publications/duan-2022-free-solar.html) | iScience | `gold` | cc-by-nc-nd | https://doi.org/10.1016/j.isci.2022.104108 | — |
 | 2022 | [Contrasting climate and carbon-cycle consequences of fossil-fuel use versus deforestation disturbance](docs/publications/jayakrishnan-2022-fossil-vs-deforestation.html) | Environmental Research Letters | `gold` | cc-by | https://doi.org/10.1088/1748-9326/ac69fd | — |
 | 2021 | [Geophysical constraints on the reliability of solar and wind power worldwide](docs/publications/tong-2021-geophysical-constraints.html) | Nature Communications | `gold` | cc-by | https://doi.org/10.1038/s41467-021-26355-z | — |
 | 2020 | [Break-even year — a concept for understanding intergenerational trade-offs in climate change mitigation policy](docs/publications/brown-2020-break-even-year.html) | Environmental Research Communications | `gold` | cc-by | https://doi.org/10.1088/2515-7620/abb413 | — |

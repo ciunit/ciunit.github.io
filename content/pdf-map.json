@@ -428,8 +428,7 @@
   },
   "10.1126/science.aas9793": {
    "files": [
-    "Davis-et-al_Science2018_net-zero-emissions-energy-with-Suppl.pdf",
-    "Duan-et-al-iScience2022_free-solar (w supp).pdf"
+    "Davis-et-al_Science2018_net-zero-emissions-energy-with-Suppl.pdf"
    ],
    "how": "page text",
    "id": "davis-2018-net-zero-energy-systems",
@@ -946,6 +945,14 @@
    ],
    "how": "page text",
    "id": "zheng-2025-climate-resilient-wind-solar",
+   "has_figure": true
+  },
+  "10.1016/j.isci.2022.104108": {
+   "files": [
+    "Duan-et-al-iScience2022_free-solar (w supp).pdf"
+   ],
+   "how": "page text",
+   "id": "duan-2022-free-solar",
    "has_figure": true
   }
  },

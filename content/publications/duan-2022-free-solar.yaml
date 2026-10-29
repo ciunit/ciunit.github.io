@@ -1,0 +1,132 @@
+id: duan-2022-free-solar
+doi: 10.1016/j.isci.2022.104108
+title: >
+  Electricity systems in the limit of free solar photovoltaics and continent-scale transmission
+authors:
+  - Lei Duan
+  - Tyler H. Ruggles
+  - Ken Caldeira
+journal: iScience
+volume: "25"
+pages: "104108"
+date: "2022-04-15"
+year: 2022
+themes:
+  - macro-energy-modeling
+
+description: >
+  Giving an idealized US electricity model unlimited free solar power and free transmission
+  shows that solar's value collapses once daytime demand is met, and that a near-zero-emission
+  system built on free solar still costs more than an all-gas one at today's storage costs.
+
+question:
+  - >
+    Solar photovoltaics have become one of the cheapest sources of electricity, and some have
+    proposed deploying them at multi-terawatt scale within a decade. A natural question is how
+    far cheap solar alone could carry a decarbonized electricity system.
+  - >
+    This paper took the question to its limit. It asked how the value of solar power changes as
+    ever more of it is supplied for free, under emission constraints from none to 100%, and what
+    the rest of the system would have to look like to make use of it.
+
+key_finding: >
+  In an idealized least-cost model of the contiguous United States with near-current
+  technology costs and free, lossless transmission, a 99%-emission-reduction electricity system
+  given free solar generation equal to twice annual mean demand costs $0.052 per kilowatt-hour,
+  41% more than an all-natural-gas system with no solar, because solar cannot meet night-time
+  demand without costly storage.
+
+findings:
+  - >
+    The study used the Macro Energy Model, a linear optimization that builds capacity and
+    dispatches it hour by hour to meet a year of contiguous-US demand at least cost. Solar
+    capacity was prescribed, which makes it free to the optimizer; natural gas, gas with carbon
+    capture, wind, nuclear, and battery storage then competed at the Energy Information
+    Administration's near-current costs. Wind and solar output came from MERRA-2 weather data for
+    the best 25% of US grid cells, pooled as if connected by free, lossless transmission.
+  - >
+    The first solar added is very valuable. Each unit of solar initially reduces system cost
+    more than the same amount of wind or nuclear, because solar output lines up with the daily
+    peak in demand, and the benefit is largest under deep emission constraints, where cheap
+    flexible gas is excluded.
+  - >
+    That value then collapses. Because storage is expensive, the marginal value of more free
+    solar falls to near zero once solar generation reaches about 0.8 times annual mean demand,
+    under every emission constraint tested. Beyond that point the extra output arrives during the
+    day, when demand is already met, and is curtailed.
+  - >
+    Free solar does not make a clean system cheap. With free solar equal to twice annual mean
+    demand, a nameplate capacity of 7.3 times mean demand, the system costs $0.052 per
+    kilowatt-hour at a 99% emission reduction and $0.082 at 100%, against $0.037 for an
+    all-gas system with no solar. The optimizer still builds wind and nuclear to supply the
+    night, and once built they also run by day, so solar is needed for under 20% of annual
+    demand at 99% reduction and under 5% at 100%.
+  - >
+    Abundant solar changes what fills the night. At a 99% reduction, the system without solar is
+    mainly nuclear; with abundant free solar it is dominated by wind.
+  - >
+    Flexibility is what unlocks solar. With effectively unlimited free solar at a 99% reduction,
+    battery costs would need to fall by about 40% for solar to supply more than 30% of annual
+    demand. Shifting load in time does the same job as storage, moving demand to the day
+    instead of moving energy to the night.
+  - >
+    The conclusions hold under year-2050 cost projections from the National Renewable Energy
+    Laboratory, which cut wind and storage costs by 32% and 31%, with ERA5 rather than MERRA-2
+    weather data, and with solar and wind averaged over all US grid cells. If the ratio of
+    storage cost to wind cost fell by a factor of three, storage rather than wind would meet
+    night-time demand.
+  - >
+    The framework is deliberately idealized. It assumes no existing infrastructure, perfect
+    foresight, hourly time steps, free transmission, and constant costs, and the authors claim
+    robustness for the qualitative behaviour rather than the particular numbers.
+
+matters:
+  - >
+    It separates the cost of generating electricity from the cost of supplying it when it is
+    needed. Even if solar panels cost nothing, a zero-emission system still has to pay for
+    whatever powers the night, and at present costs that is the larger bill.
+  - >
+    It explains why cheap solar has diminishing returns. The decline in solar's value at high
+    penetration is a matter of timing, not of the price of panels, so further reductions in the
+    cost of solar alone do little once daytime demand is covered.
+  - >
+    It points research and policy at storage and load flexibility. Making abundant solar useful
+    depends on low-cost ways to move energy to the night or demand to the day, and without them
+    a deeply decarbonized system leans on wind and nuclear for the hours solar cannot serve.
+
+figure:
+  file: duan-2022-free-solar.png
+  source_figure: Figure 2
+  alt: >
+    Two panels. Panel A plots the cost of everything in the system except solar, in dollars per
+    kilowatt-hour from 0 to 0.12, against free solar generation from 0 to 2 times annual mean
+    demand, with one curve for each emission reduction of 0, 50, 80, 90, 99, 99.9, and 100 per
+    cent. Every curve falls steeply over the first 0.4 or so of solar and then runs almost flat.
+    The all-gas system with no solar, point a, sits near 0.037; the 99 per cent curve flattens
+    near 0.052 at point f and the 100 per cent curve near 0.082, both above point a. Stars mark
+    the least-cost amount of solar when solar is not free, all between 0 and about 0.3. Panel
+    B plots hour of day against hourly demand, a nearly flat black line near 1, and solar
+    output scaled to 0.4, 1.2, and 2 times mean demand, which are zero before 6 a.m. and after
+    9 p.m. and peak near midday at about 1, 3, and 5.
+  caption: >
+    Free solar first cuts the cost of the rest of the system steeply, then hardly at all (A).
+    Panel B shows why: however much solar is supplied, it produces nothing at night, so a
+    near-zero-emission system still pays for whatever meets night-time demand, and with free
+    solar equal to twice mean demand it costs more than an all-gas system with none (f against
+    a).
+  source: PDF (600 dpi)
+  license: CC BY-NC-ND 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  credit: >
+    Duan, Ruggles and Caldeira (2022), iScience 25, 104108
+  modification: Used unmodified, as the licence requires
+
+links:
+  - label: Code and data (GitHub)
+    url: https://github.com/LDuan3008/Value_of_free_solar_2021
+
+related:
+  - tong-2020-storage-cost-reductions
+  - dowling-2020-long-duration-storage
+  - duan-2022-flexible-nuclear
+  - duan-2024-cost-uncertainty

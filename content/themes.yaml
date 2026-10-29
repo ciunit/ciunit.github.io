@@ -995,6 +995,12 @@
         system would otherwise need
       paper: duan-2022-flexible-nuclear
     - claim: >
+        Even with unlimited free solar power and free transmission, a US electricity system
+        with 99% lower emissions costs 41% more than an all-gas one at near-current costs,
+        because the value of extra solar falls to near zero once daytime demand is met and the
+        night must still be supplied by wind, nuclear, or costly storage
+      paper: duan-2022-free-solar
+    - claim: >
         Long-duration storage lowers total system cost relative to wind-solar-battery systems,
         and system cost is twice as sensitive to reductions in long-duration storage cost as to
         reductions in battery cost
