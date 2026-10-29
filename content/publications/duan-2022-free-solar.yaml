@@ -25,9 +25,9 @@ question:
     proposed deploying them at multi-terawatt scale within a decade. A natural question is how
     far cheap solar alone could carry a decarbonized electricity system.
   - >
-    This paper took the question to its limit. It asked how the value of solar power changes as
-    ever more of it is supplied for free, under emission constraints from none to 100%, and what
-    the rest of the system would have to look like to make use of it.
+    This paper took the question to its limit. It asked how much electricity would cost if we
+    relied exclusively on solar electricity generation, assuming both solar generation and
+    long-distance transmission were free.
 
 key_finding: >
   In an idealized least-cost model of the contiguous United States with near-current
