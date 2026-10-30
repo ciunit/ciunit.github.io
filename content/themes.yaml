@@ -1001,6 +1001,12 @@
         night must still be supplied by wind, nuclear, or costly storage
       paper: duan-2022-free-solar
     - claim: >
+        A US electricity system built only for firm demand has spare capacity almost all the
+        time, so it can supply about 25% more electricity to flexible loads such as hydrogen
+        electrolysis with little new generation, lowering the average cost of electricity by
+        13 to 20 per cent
+      paper: ruggles-2021-flexible-loads-hydrogen
+    - claim: >
         Long-duration storage lowers total system cost relative to wind-solar-battery systems,
         and system cost is twice as sensitive to reductions in long-duration storage cost as to
         reductions in battery cost

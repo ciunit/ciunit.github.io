@@ -954,6 +954,14 @@
    "how": "page text",
    "id": "duan-2022-free-solar",
    "has_figure": true
+  },
+  "10.1016/j.adapen.2021.100051": {
+   "files": [
+    "Ruggles-et-al_AppEnergy2021_hydrogen-prod-curtailed-gen(w supp).pdf"
+   ],
+   "how": "page text",
+   "id": "ruggles-2021-flexible-loads-hydrogen",
+   "has_figure": true
   }
  },
  "unmatched": [
@@ -1127,7 +1135,6 @@
   "Romano-de-Orte-et-al_L&O2021_dead-coral-substrate-calcification_(w Supp).pdf",
   "RomanoDeOrte_EnvPoll2019_bleached-symbiotic-anemones-plastic-pollution.pdf",
   "Ruggles-Caldeira_AppEnergy2022_wind-solar-residual-load.pdf",
-  "Ruggles-et-al_AppEnergy2021_hydrogen-prod-curtailed-gen(w supp).pdf",
   "Ruggles-et-al_ScieData2020_electricity-demand-data-imputation.pdf",
   "Russell_et_al_Ambio2012.pdf",
   "Schneider-et-al_EstuarineCoastalShelfScience2013_inorganic-C-turnover-holothorians.pdf",

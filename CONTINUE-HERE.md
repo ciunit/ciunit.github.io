@@ -83,8 +83,8 @@ there and the running head otherwise lands in the crop.
   people will write posts later.
 - **Open question, deferred by Ken:** what the box shows for a post with no
   `about:`. "For the ones that we will do later that are not about a paper, we
-  can do something else." Three of the 13 hit this today
-  (GDP-regressions, hydrogen-from-curtailment, algae-and-anemone) and currently
+  can do something else." Two of the 13 hit this today
+  (GDP-regressions, algae-and-anemone) and currently
   draw a placeholder title plate, marked as such in `post-index.html.j2`.
 
 Design rationale is in `CLAUDE.md`, section "What We Are Thinking". Read it
@@ -92,20 +92,16 @@ before changing anything here.
 
 ## Publications that could now have a page
 
-Two of the three `about:`-less posts are about papers with Ken as a co-author
-that have no publication page yet. Adding them would let those posts borrow a
-cover and gain a back-link:
+One of the remaining `about:`-less posts is about a paper with Ken as a co-author
+that has no publication page yet. Adding it would let the post borrow a cover and
+gain a back-link. (The hydrogen-from-curtailment post now has its page,
+`ruggles-2021-flexible-loads-hydrogen`, added 2026-10-29.)
 
-- *Opportunities for flexible electricity loads such as hydrogen production from
-  curtailed generation*, Ruggles, Dowling, Lewis and Caldeira, Adv. Appl. Energy
-  3, 100051 (2021), `10.1016/j.adapen.2021.100051`, CC BY 4.0. Reprint is in
-  `pdfs/`, figures already extracted under
-  `docs/thinking/images/how-much-hydrogen-…/`.
 - *Photo-movement in the sea anemone Aiptasia influenced by light quality and
   symbiotic association*, Foo, Liddell, Grossman et al., Coral Reefs (2019),
   `10.1007/s00338-019-01866-w`, open access.
 
-The third (`multi-decadal-…`) is an unpublished analysis and correctly has no
+The other (`multi-decadal-…`) is an unpublished analysis and correctly has no
 publication.
 
 ## Still to do, other repo

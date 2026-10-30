@@ -3,6 +3,7 @@ slug: how-much-hydrogen-could-we-produce-without-adding-additional-generation-ca
 title: Hydrogen production from curtailed generation
 date: 2021-07-07
 authors: [Ken Caldeira]
+about: ruggles-2021-flexible-loads-hydrogen
 themes: [macro-energy-modeling]
 description: >
   How much flexible load — electrolytic hydrogen, say — can an electricity system absorb

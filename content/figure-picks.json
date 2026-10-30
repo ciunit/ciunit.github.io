@@ -403,6 +403,16 @@
   "rugenstein-2019-longrunmip": {
     "figure": 1
   },
+  "ruggles-2021-flexible-loads-hydrogen": {
+    "page": 6,
+    "rect": [
+      58,
+      52,
+      537,
+      378
+    ],
+    "note": "Fig. 2, cropped by hand to keep the scenario titles above the top row"
+  },
   "ruggles-2024-planning-reliable-systems": {
     "page": 5,
     "rect": [

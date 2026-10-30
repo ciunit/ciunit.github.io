@@ -1,0 +1,131 @@
+id: ruggles-2021-flexible-loads-hydrogen
+doi: 10.1016/j.adapen.2021.100051
+title: >
+  Opportunities for flexible electricity loads such as hydrogen production from curtailed
+  generation
+authors:
+  - Tyler H. Ruggles
+  - Jacqueline A. Dowling
+  - Nathan S. Lewis
+  - Ken Caldeira
+journal: Advances in Applied Energy
+volume: "3"
+pages: "100051"
+date: "2021-06-25"
+year: 2021
+themes:
+  - macro-energy-modeling
+
+description: >
+  Least-cost US electricity systems built to meet ordinary demand have spare generating
+  capacity almost all the time, so they can supply about 25% more electricity to flexible
+  loads such as hydrogen electrolysis with little new capacity, and at lower average cost.
+
+question:
+  - >
+    Electricity systems are built to meet demand in its highest hours, and systems with a lot of
+    wind and solar power also discard, or curtail, output that arrives when it is not needed. That
+    spare capacity has prompted interest in flexible uses for cheap, low-carbon electricity, of
+    which producing hydrogen by electrolysis is the most discussed.
+  - >
+    This paper asked how much flexible load could be added to such systems before new generating
+    capacity is needed, how the cost of electricity divides between the existing firm load and
+    the new flexible load as the flexible load grows, and what that implies for the cost of
+    hydrogen.
+
+key_finding: >
+  Least-cost US electricity systems built at current costs to meet existing demand could
+  supply about 25% more electricity to a flexible load, such as hydrogen production by
+  electrolysis, with at most 6% more generating capacity, while lowering the average cost of
+  delivered electricity by 13–20%.
+
+findings:
+  - >
+    The study used a least-cost model of the contiguous United States, with 2017 hourly demand,
+    wind and solar output from MERRA-2 weather data for the best 25% of US grid cells, lossless
+    transmission, and 2019 technology costs. Three scenarios were run — natural gas with carbon
+    capture alone; that plus wind, solar, and batteries; and wind, solar, and batteries alone -
+    each with the flexible share of total load stepped from 0 to 100%.
+  - >
+    Systems built only for firm demand have a great deal of spare capacity. With no flexible
+    load, 33% of the electricity the system could have generated went unused in the gas-only
+    scenario and 54% in the wind, solar, and battery scenario. In the gas-only case, unused
+    capacity was available in 99.7% of hours.
+  - >
+    Up to a flexible share of about 20% of total load, the flexible load runs on capacity built
+    for the firm load. Generating capacity grew by less than 0.1% in the gas-only and
+    wind-solar-battery scenarios and by 6% in the mixed one, the electrolyzer ran at more than
+    90% capacity factor, and the average cost of delivered electricity fell by 13% in the two
+    scenarios with gas and by 20% with wind, solar, and batteries alone.
+  - >
+    At that stage the flexible load pays only the running cost of the generator that would
+    otherwise sit idle — about $0.027 per kilowatt-hour for gas fuel, and nothing for wind and
+    solar output that would otherwise be curtailed. Beyond about 20%, new capacity has to be
+    built for the flexible load, the electrolyzer's capacity factor falls, and the marginal
+    costs paid by the flexible and firm loads converge as they share the cost of capacity.
+  - >
+    Priced at the marginal cost of electricity, hydrogen cost less than $2.70 per kilogram in
+    every scenario when the flexible load was small, and less than the US Department of Energy's
+    $2 per kilogram goal in the wind, solar, and battery scenario until the flexible load
+    reached about half of the total. The authors note that real electricity customers do not
+    in general pay real-time marginal prices.
+  - >
+    Flexibility elsewhere in the system competes for the same spare output. Where natural gas
+    could follow the load, only 2% of the unused generation was free wind and solar, so even
+    the first hydrogen paid for gas fuel; adding power-to-gas-to-power storage to the wind and
+    solar system cut curtailment by about 60% and left less for the flexible load.
+  - >
+    The model is idealized, with perfect foresight, a single weather year, free transmission
+    across the country, and no subsidies. The authors argue that most of these simplifications
+    understate the spare capacity a real system would have, and that their conclusions did not
+    change substantially under lower technology costs.
+
+matters:
+  - >
+    It identifies a cheap starting point for hydrogen and other flexible industries. Capacity
+    that a grid already needs for its peak hours can supply a substantial new flexible load
+    almost free of capital cost, and the existing customers benefit too, since the same assets
+    serve more electricity.
+  - >
+    It also marks where that opportunity ends. Once flexible loads grow past roughly a fifth of
+    total demand, they must start paying for new generation, so a large hydrogen economy cannot
+    be built on surplus electricity alone.
+  - >
+    It shows that the opportunity depends on the rest of the system being inflexible. Batteries,
+    long-duration storage, dispatchable generation, and demand response all reduce the surplus
+    a flexible load can draw on, and different flexible loads — hydrogen, electric vehicles,
+    heating — will compete for the share that remains.
+
+figure:
+  file: ruggles-2021-flexible-loads-hydrogen.webp
+  source_figure: Fig. 2
+  alt: >
+    Six panels in two rows, one column for each scenario — Dispatch, Dispatch plus Renew plus
+    Storage, and Renew plus Storage — plotted against flexible load fraction from 0 to 1. The
+    top row shows the marginal cost of electricity for the firm load, the marginal cost for the
+    flexible load, and the average cost. The flexible-load cost starts low, at the variable cost
+    of generation, stays flat to a fraction of about 0.2, then rises toward the firm-load cost,
+    while the average cost falls. The bottom row divides total available generation per unit of
+    total load into firm load, flexible load, and unused or curtailed generation; a large unused
+    wedge at low flexible fractions shrinks as the flexible load grows.
+  caption: >
+    In all three systems, a small flexible load buys electricity at the running cost of
+    generators that would otherwise sit idle, and the average cost of delivered electricity
+    falls. Once the flexible load passes about a fifth of total load, the spare capacity is used
+    up and its price rises toward that paid by the firm load.
+  source: PDF (600 dpi)
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  credit: >
+    Ruggles, Dowling, Lewis and Caldeira (2021), Advances in Applied Energy 3, 100051
+  modification: Extracted from the published PDF and resized for web display
+
+links:
+  - label: Code and data (GitHub)
+    url: https://github.com/carnegie/SEM_public/tree/Ruggles_et_al_2021
+
+related:
+  - ganter-2025-curtailed-power-hydrogen
+  - dowling-2020-long-duration-storage
+  - tonelli-2023-hydrogen-land-water-limits
+  - dowling-2024-hydrogen-storage-systems

@@ -372,8 +372,8 @@ sheet, blank, or the wrong document. Nothing but your eye catches that.
 
 ## Where the work stands
 
-119 publication pages, 9 themes, 118 with figures, none below `adequate`
-resolution. Every citation on both bio pages — 63 on `ken-caldeira.html`, 11 on
+120 publication pages, 9 themes, 119 with figures, none below `adequate`
+resolution. Every citation on both bio pages — 64 on `ken-caldeira.html`, 11 on
 `lei-duan.html` — has a page, and links to it rather than to doi.org.
 
 `PAGES-STATUS.md` carries the current numbers; refresh it with `--report` rather

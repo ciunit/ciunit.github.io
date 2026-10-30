@@ -8,8 +8,8 @@ is 1200 px wide or more, `adequate` 800–1199, `low` 500–799, `very low`
 below 500. Anything `low` or worse is worth replacing with a
 higher-resolution source.
 
-- **119** publication pages across **9** themes
-- **118** have a figure, **1** do not
+- **120** publication pages across **9** themes
+- **119** have a figure, **1** do not
 - **0** have a figure below `adequate` resolution
 - **2** are flagged `needs_review`
 
@@ -56,6 +56,7 @@ higher-resolution source.
 | [duan-2022-free-solar](docs/publications/duan-2022-free-solar.html)<br><sub>Duan et al., 2022</sub> | 2022 | <sub>Macro-energy modeling</sub> | 2751×1699 | `good` | 328 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY-NC-ND 4.0</sub> |  |
 | [duan-2022-flexible-nuclear](docs/publications/duan-2022-flexible-nuclear.html)<br><sub>Duan et al., 2022</sub> | 2022 | <sub>Macro-energy modeling, Reliability of wind and solar power</sub> | 1600×1086 | `good` | 138 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [tong-2021-geophysical-constraints](docs/publications/tong-2021-geophysical-constraints.html)<br><sub>Tong et al., 2021</sub> | 2021 | <sub>Reliability of wind and solar power</sub> | 1400×2079 | `good` | 179 KB | <sub>publisher website</sub> | <sub>CC BY 4.0</sub> |  |
+| [ruggles-2021-flexible-loads-hydrogen](docs/publications/ruggles-2021-flexible-loads-hydrogen.html)<br><sub>Ruggles et al., 2021</sub> | 2021 | <sub>Macro-energy modeling</sub> | 1600×1089 | `good` | 77 KB | <sub>PDF (600 dpi)</sub> | <sub>CC BY 4.0</sub> |  |
 | [antonini-2021-power-density-limits](docs/publications/antonini-2021-power-density-limits.html)<br><sub>Antonini and Caldeira, 2021</sub> | 2021 | <sub>Geophysics of wind power</sub> | 1600×1083 | `good` | 134 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [antonini-2021-spatial-constraints](docs/publications/antonini-2021-spatial-constraints.html)<br><sub>Antonini and Caldeira, 2021</sub> | 2021 | <sub>Geophysics of wind power</sub> | 1600×748 | `good` | 61 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |
 | [rampino-2021-tetrapod-periodicity](docs/publications/rampino-2021-tetrapod-periodicity.html)<br><sub>Rampino et al., 2021</sub> | 2021 | <sub>Paleoclimate and Earth-system dynamics in geologic time</sub> | 1600×808 | `good` | 23 KB | <sub>PDF (600 dpi)</sub> | <sub>author reuse rights</sub> |  |

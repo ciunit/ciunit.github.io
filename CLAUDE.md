@@ -275,8 +275,10 @@ Other things worth knowing:
 - **Posts with no `about:` have no cover to borrow**, and what those boxes
   should show instead is **still to be decided**. The template falls back to a
   title plate so the build keeps working; it is a placeholder, marked as one in
-  `post-index.html.j2`, not a design. All 13 posts in the first pass have a
-  publication.
+  `post-index.html.j2`, not a design. Two of the 13 posts in the first pass
+  still draw it: the sea-anemone post, whose paper has no publication page yet
+  (adding one and setting `about:` fixes it), and the GDP-regressions post,
+  which is an unpublished analysis and will never have one.
 - **Prose styling:** the body reuses `.bio` for its column and heading scale and
   adds `.post-body` for what Markdown emits and the rest of the site never needed
   — links inside body copy, block quotes, tables. Block quotes carry a rule and
