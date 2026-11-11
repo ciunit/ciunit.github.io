@@ -315,12 +315,12 @@
   "hoffert-1998-stabilization-energy": {
     "page": 3,
     "rect": [
-      296,
-      452,
-      558,
-      672
+      43,
+      308,
+      279,
+      657
     ],
-    "note": "Figure 3, cropped by hand to include the rotated y-axis title"
+    "note": "Figure 2 (raster with text-layer axis labels), cropped by hand to include them"
   },
   "hoffert-2002-advanced-technology-paths": 2,
   "jayakrishnan-2022-fossil-vs-deforestation": 5,
