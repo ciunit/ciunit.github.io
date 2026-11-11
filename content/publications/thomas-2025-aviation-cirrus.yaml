@@ -54,6 +54,24 @@ findings:
     Because the longwave effect operates day and night while the shortwave effect operates
     only in daylight, the results imply that the warming attributable to aviation-induced
     cirrus is concentrated in night-time cirrus and in high-latitude winter cirrus.
+  - >
+    In these simulations the ratio of effective to instantaneous radiative forcing (ERF/IRF)
+    is about 0.9–1.0 for both longwave and shortwave forcing, much closer to unity than the
+    0.35–0.7 found for aviation-induced cirrus in the simulations of Bickel et al. (2020).
+  - >
+    The authors attribute much of that difference to water-vapour scavenging, which their
+    stylized design leaves out. Their forcing agents are hydrophobic absorbers and scatterers
+    that do not interact with the model's hydrological cycle, so no water vapour is condensed
+    into a contrail and all of it remains available to form natural cirrus later. In the
+    Bickel et al. (2020) simulations, aviation-induced cirrus is embedded in the hydrological
+    cycle and competes with natural cirrus for water vapour.
+  - >
+    Contrails often form near frontal systems ahead of a cirrus region, so aviation aerosols
+    may sometimes only hasten cirrus that would have formed naturally a little later. When
+    that happens, the forcing of the natural cirrus that no longer forms is subtracted from
+    the forcing attributed to aviation, lowering its effective radiative forcing. Without that
+    scavenging effect, the results of this study apply most directly to the effective
+    radiative forcing in the interval before the natural cirrus would have formed.
 
 matters:
   - >
@@ -68,20 +86,25 @@ matters:
 
 figure:
   file: thomas-2025-aviation-cirrus.webp
-  source_figure: Figure 4
+  source_figure: Figure 3
   alt: >
-    Six global maps in two columns, longwave forcing on the left and shortwave on the right.
-    The top row is instantaneous radiative forcing, confined to a narrow northern mid-latitude
-    band, red for longwave and blue for shortwave. The middle row is effective radiative forcing,
-    still concentrated in that band but with weaker signals spreading elsewhere. The bottom row
-    is equilibrium surface temperature change, which is spread across the whole globe and
-    strongest at high latitudes, far from the band where the forcing was applied.
+    Eight panels in two columns, longwave forcing on the left in red and orange, shortwave
+    forcing on the right in blue and light blue. Each panel plots one value for each of nine
+    latitude bands, from Antarctic through equatorial to Arctic. The top row is instantaneous
+    and effective radiative forcing; longwave forcing peaks in the sub-tropics and is lowest
+    at the poles, while shortwave forcing is strongest (most negative) at low latitudes. The
+    second row is the ratio of effective to instantaneous forcing, close to 1 in every band.
+    The third row is global mean surface temperature change; longwave warming is largest for
+    Antarctic and Arctic forcing and smallest for equatorial forcing, the reverse of the
+    forcing pattern, while shortwave cooling varies little between bands. The bottom row is
+    climate sensitivity, which for both types of forcing is several times higher in the polar
+    bands than in the tropics.
   caption: >
-    Forcing goes in along one narrow band; temperature comes out everywhere, and most strongly
-    near the poles. That mismatch between where the energy is added and where the climate
-    responds is the whole result — it is why the latitude at which contrails form matters more
-    than the forcing they produce there.
-  source: PDF (600 dpi)
+    Longwave forcing applied in the sub-tropics produces the most radiative forcing but some
+    of the least global warming; the same forcing applied near the poles warms the planet
+    most. Forcing is therefore a poor guide to which contrails matter: the latitude at which
+    they form matters more.
+  source: PDF (embedded image, 1659 × 1802 px)
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0/
   credit: >

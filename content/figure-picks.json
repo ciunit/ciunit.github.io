@@ -432,12 +432,12 @@
     }
   },
   "thomas-2025-aviation-cirrus": {
-    "page": 10,
+    "page": 9,
     "rect": [
-      150,
-      90,
-      568,
-      536
+      168,
+      89,
+      569,
+      525
     ]
   },
   "tonelli-2023-hydrogen-land-water-limits": 6,
