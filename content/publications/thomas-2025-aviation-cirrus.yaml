@@ -78,7 +78,8 @@ matters:
     The finding separates two quantities that are often treated as interchangeable. Radiative
     forcing is a useful summary of how strongly something perturbs the energy budget, but
     here the place where forcing is largest is not the place where warming is largest, so
-    forcing alone is a poor guide to which contrails matter most.
+    the size of the forcing is not enough on its own to show which contrails matter most;
+    where the forcing occurs also matters.
   - >
     It also points at an unusually tractable mitigation lever. If the warming is concentrated
     in cirrus formed at night and at high latitudes in winter, then rerouting or rescheduling
@@ -102,8 +103,8 @@ figure:
   caption: >
     Longwave forcing applied in the sub-tropics produces the most radiative forcing but some
     of the least global warming; the same forcing applied near the poles warms the planet
-    most. Forcing is therefore a poor guide to which contrails matter: the latitude at which
-    they form matters more.
+    most. Forcing is an important factor determining which contrails matter, but the latitude
+    where this forcing occurs is also important.
   source: PDF (embedded image, 1659 × 1802 px)
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0/
