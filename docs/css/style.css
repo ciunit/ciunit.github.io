@@ -240,7 +240,7 @@ h3 {
 }
 
 /* Front-page photo. Portrait image, so width is capped to keep it from towering
-   over the page; the hosted line follows it closely rather than after the usual gap. */
+   over the page. */
 .home-photo {
   max-width: 420px;
   margin: 72px auto 0;
@@ -258,10 +258,6 @@ h3 {
   color: var(--muted);
   line-height: 1.5;
   text-align: center;
-}
-
-.home-photo + .hosted {
-  margin-top: 48px;
 }
 
 .button {
