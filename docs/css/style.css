@@ -239,6 +239,30 @@ h3 {
   color: var(--muted);
 }
 
+/* Front-page photo. Portrait image, so width is capped to keep it from towering
+   over the page; the hosted line follows it closely rather than after the usual gap. */
+.home-photo {
+  max-width: 420px;
+  margin: 72px 0 0;
+}
+
+.home-photo img {
+  display: block;
+  border: 1px solid var(--line);
+}
+
+.home-photo figcaption {
+  margin-top: 10px;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.home-photo + .hosted {
+  margin-top: 48px;
+}
+
 .button {
   display: inline-block;
   border: 1px solid var(--text);
