@@ -93,20 +93,21 @@ matters:
 
 figure:
   file: duan-2024-cost-uncertainty.webp
-  source_figure: Figure 2
+  source_figure: Graphical abstract
   alt: >
-    Four stacked-area plots, one above another, of system cost in dollars per kilowatt-hour from
-    0 to 0.12 against carbon emission reduction from 0 to 100 per cent, coloured by technology.
-    Panel A, all technologies at high projected cost, ends dominated by wind, solar, and
-    biopower near 0.088. Panel B, only geothermal reaching its low cost, is overwhelmed by dark
-    red geothermal above 90 per cent reduction. Panel C, wind and geothermal both low, is mostly
-    light blue wind with a much smaller geothermal wedge. Panel D, all technologies low, reaches
-    only about 0.06 and contains no geothermal at all.
+    Box plots of money spent on each technology, in dollars per kilowatt-hour of mean demand
+    from 0 to 0.06, across all cost combinations under full emission reduction. Biopower and
+    nuclear have one box each; solar, onshore wind, offshore wind, geothermal, and battery
+    storage have three, for their low, middle, and high cost projections. The low-cost
+    geothermal box is the tallest on the chart, spanning about 0.03 to 0.05 with a whisker
+    reaching down to zero, while its middle and high boxes sit flat at zero. Solar spending
+    stays below about 0.015 and is slightly lower at the low projection than at the high one.
   caption: >
-    The same model, the same weather, the same demand — only the assumed 2050 technology costs
-    differ between panels, and the composition of the least-cost zero-carbon system changes
-    completely. Geothermal dominates when it alone gets cheap (B), shrinks when wind gets cheap
-    too (C), and disappears when everything gets cheap (D).
+    Uncertainty of money spending on different technologies considering uncertainties in future
+    cost projections under full emission reduction constraint. Depending on cost advances in
+    other technologies, even if geothermal reaches the low end of its projected future cost
+    range, geothermal could either be a major contributor or not contribute at all to future
+    least-cost electricity systems.
   source: PDF (600 dpi)
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0/
